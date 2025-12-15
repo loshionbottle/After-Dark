@@ -1,0 +1,25 @@
+{
+  "Name": "[CP] After Dark Series - Sam",
+  "Author": "loshionbottle",
+  "Description": "Adds over 700 something (who's really counting??) lines of dialogue and cute little yandere-esque events for Sam.",
+  "Version": "5.0.6",
+  "UniqueID": "loshionbottle.samafterdark",
+  "UpdateKeys": [ "Nexus:30615" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "caterbottle.shadowsafterdark",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "Spiderbuttons.BETAS",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "IsRequired": false
+    }
+  ]
+}
