@@ -1,0 +1,159 @@
+{
+    "Changes": [
+        {
+            "LogName": "Sam's Engagement Dialogue",
+            "Action": "EditData",
+            "Target": "Data/EngagementDialogue",
+            "When": { "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue" },
+            "Entries": {
+                "Sam0": "{{i18n:AfterDark.Marriage.Sam.Engagement.0}}",
+                "Sam1": "{{i18n:AfterDark.Marriage.Sam.Engagement.1}}"
+            }
+        },
+        // does it work like this ? do these go in married or generic dialogue?? fam, I guess we'll find out together
+        {
+            "LogName": "Sam Conversation Topics - Married",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogueSam",
+            "When": { "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue" },
+            "Entries": {
+                // two kids 
+                "samADKidsDoctorAppt": "{{i18n:AfterDark.Marriage.Sam.Conversation.TwoKids.4.Memory.OneDay{{GeneralPlayerEndearment}}}}",
+                // indoor 
+                "samADMarriedCooksFr": "{{i18n:AfterDark.Core.Conversation.SamMarriedCooks.Memory.OneWeek}}",
+                // good
+                "samADMakesMusic": "{{i18n:AfterDark.Marriage.Sam.Conversation.Good.10.Memory.OneWeek}}",
+                // neutral
+                "samADBandBack": "{{i18n:AfterDark.Marriage.Sam.Conversation.Neutral.10.Memory.OneDay}}"
+            }
+        },
+        {
+            "LogName": "Sam's Married Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogueSam",
+            "When": { "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue" },
+            "Entries": {
+                // Rando Dialogue
+                "patio_Sam": "{{i18n:AfterDark.Marriage.Sam.Patio.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",
+                "spouseRoom_Sam": "{{i18n:AfterDark.Marriage.Sam.SpouseRoom.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",
+                "funLeave_Sam": "{{i18n:AfterDark.Marriage.Sam.funLeave.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",
+                "funReturn_Sam": "{{i18n:AfterDark.Marriage.Sam.funReturn.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",
+
+                // Special Dates - Holidays 
+                "spring_12": "{{i18n:AfterDark.Marriage.Sam.Spring12.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
+                "spring_23": "{{i18n:AfterDark.Marriage.Sam.Spring23.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
+                "summer_16": "{{i18n:AfterDark.Marriage.Sam.Summer16.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
+                "summer_27": "{{i18n:AfterDark.Marriage.Sam.Summer27.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
+                "summer_28": "{{i18n:AfterDark.Marriage.Sam.Summer28.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
+                "fall_15": "{{i18n:AfterDark.Marriage.Sam.Fall15.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
+                "fall_17": "{{i18n:AfterDark.Marriage.Sam.Fall17.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
+                "fall_26": "{{i18n:AfterDark.Marriage.Sam.Fall26.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
+                "winter_17": "{{i18n:AfterDark.Marriage.Sam.Winter17.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
+                "winter_24": "{{i18n:AfterDark.Marriage.Sam.Winter24.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
+                "winter_28": "{{i18n:AfterDark.Marriage.Sam.Winter28.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
+
+                // Spring
+                "spring_Sam": "{{i18n:AfterDark.Marriage.Sam.Spring.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",
+                "spring_1": "{{i18n:AfterDark.Marriage.Sam.Spring.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",
+                "spring_4": "{{i18n:AfterDark.Marriage.Sam.Spring.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",
+                "spring_8": "{{i18n:AfterDark.Marriage.Sam.Spring.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",
+                "spring_16": "{{i18n:AfterDark.Marriage.Sam.Spring.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",
+                
+                // Summer
+                "summer_Sam": "{{i18n:AfterDark.Marriage.Sam.Summer.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",
+                "summer_1": "{{i18n:AfterDark.Marriage.Sam.Summer.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",
+                "summer_8": "{{i18n:AfterDark.Marriage.Sam.Summer.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",
+                "summer_10": "{{i18n:AfterDark.Marriage.Sam.Summer.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",
+                "summer_15": "{{i18n:AfterDark.Marriage.Sam.Summer.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",
+                
+                // Fall
+                "fall_Sam": "{{i18n:AfterDark.Marriage.Sam.Fall.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",
+                "fall_1": "{{i18n:AfterDark.Marriage.Sam.Fall.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",
+                "fall_8": "{{i18n:AfterDark.Marriage.Sam.Fall.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",
+                "fall_11": "{{i18n:AfterDark.Marriage.Sam.Fall.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",
+                "fall_20": "{{i18n:AfterDark.Marriage.Sam.Fall.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",
+                
+                // Winter
+                "winter_Sam": "{{i18n:AfterDark.Marriage.Sam.Winter.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",
+                "winter_1": "{{i18n:AfterDark.Marriage.Sam.Winter.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",
+                "winter_7": "{{i18n:AfterDark.Marriage.Sam.Winter.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",
+                "winter_9": "{{i18n:AfterDark.Marriage.Sam.Winter.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",
+                
+                // Rainy Dayz
+                "Rainy_Day_Sam": "{{i18n:AfterDark.Marriage.Sam.Rainy.Day.Sam}}",
+                "Rainy_Day_0": "{{i18n:AfterDark.Marriage.Sam.Rainy.Day.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
+                "Rainy_Day_1": "{{i18n:AfterDark.Marriage.Sam.Rainy.Day.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
+                "Rainy_Day_2": "{{i18n:AfterDark.Marriage.Sam.Rainy.Day.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
+                "Rainy_Day_3": "{{i18n:AfterDark.Marriage.Sam.Rainy.Day.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
+                "Rainy_Day_4": "{{i18n:AfterDark.Marriage.Sam.Rainy.Day.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
+                "Rainy_Day_5": "{{i18n:AfterDark.Marriage.Sam.Rainy.Day.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
+                "Rainy_Night_Sam": "{{i18n:AfterDark.Marriage.Sam.Rainy.Night.Sam}}",
+                "Rainy_Night_0": "{{i18n:AfterDark.Marriage.Sam.Rainy.Night.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
+                "Rainy_Night_1": "{{i18n:AfterDark.Marriage.Sam.Rainy.Night.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
+                "Rainy_Night_2": "{{i18n:AfterDark.Marriage.Sam.Rainy.Night.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
+                "Rainy_Night_3": "{{i18n:AfterDark.Marriage.Sam.Rainy.Night.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
+                "Rainy_Night_4": "{{i18n:AfterDark.Marriage.Sam.Rainy.Night.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
+                "Rainy_Night_5": "{{i18n:AfterDark.Marriage.Sam.Rainy.Night.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
+                // Indoor/Outdoor Dayz
+                "Indoor_Day_Sam": "{{i18n:AfterDark.Marriage.Sam.Indoor.Day.Sam}}",
+                "Indoor_Day_0": "{{i18n:AfterDark.Marriage.Sam.Indoor.Day.{{Random:{{Range: 0, 10}}}}{{GeneralPlayerEndearment}}}}",
+                "Indoor_Day_1": "{{i18n:AfterDark.Marriage.Sam.Indoor.Day.{{Random:{{Range: 0, 10}}}}{{GeneralPlayerEndearment}}}}",
+                "Indoor_Day_2": "{{i18n:AfterDark.Marriage.Sam.Indoor.Day.{{Random:{{Range: 0, 10}}}}{{GeneralPlayerEndearment}}}}",
+                "Indoor_Day_3": "{{i18n:AfterDark.Marriage.Sam.Indoor.Day.{{Random:{{Range: 0, 10}}}}{{GeneralPlayerEndearment}}}}",
+                "Indoor_Day_4": "{{i18n:AfterDark.Marriage.Sam.Indoor.Day.{{Random:{{Range: 0, 10}}}}{{GeneralPlayerEndearment}}}}",
+                "Indoor_Night_Sam": "{{i18n:AfterDark.Marriage.Sam.Indoor.Night.Sam}}",
+                "Indoor_Night_0": "{{i18n:AfterDark.Marriage.Sam.Indoor.Night.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
+                "Indoor_Night_1": "{{i18n:AfterDark.Marriage.Sam.Indoor.Night.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
+                "Indoor_Night_2": "{{i18n:AfterDark.Marriage.Sam.Indoor.Night.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
+                "Indoor_Night_3": "{{i18n:AfterDark.Marriage.Sam.Indoor.Night.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
+                "Indoor_Night_4": "{{i18n:AfterDark.Marriage.Sam.Indoor.Night.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
+                "Outdoor_Sam": "{{i18n:AfterDark.Marriage.Sam.Outdoor.Sam}}",
+                "Outdoor_0": "{{i18n:AfterDark.Marriage.Sam.Outdoor.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
+                "Outdoor_1": "{{i18n:AfterDark.Marriage.Sam.Outdoor.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
+                "Outdoor_2": "{{i18n:AfterDark.Marriage.Sam.Outdoor.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
+                "Outdoor_3": "{{i18n:AfterDark.Marriage.Sam.Outdoor.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
+                "Outdoor_4": "{{i18n:AfterDark.Marriage.Sam.Outdoor.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
+                // Lil jits
+                "OneKid_0": "{{i18n:AfterDark.Marriage.Sam.OneKid.0}}",
+                "OneKid_1": "{{i18n:AfterDark.Marriage.Sam.OneKid.1}}",
+                "OneKid_2": "{{i18n:AfterDark.Marriage.Sam.OneKid.2}}",
+                "OneKid_3": "{{i18n:AfterDark.Marriage.Sam.OneKid.3}}",
+                "TwoKids_0": "{{i18n:AfterDark.Marriage.Sam.TwoKids.{{Random:{{Range: 0, 4}}}}{{GeneralPlayerEndearment}}}}",
+                "TwoKids_1": "{{i18n:AfterDark.Marriage.Sam.TwoKids.{{Random:{{Range: 0, 4}}}}{{GeneralPlayerEndearment}}}}",
+                "TwoKids_2": "{{i18n:AfterDark.Marriage.Sam.TwoKids.{{Random:{{Range: 0, 4}}}}{{GeneralPlayerEndearment}}}}",
+                "TwoKids_3": "{{i18n:AfterDark.Marriage.Sam.TwoKids.{{Random:{{Range: 0, 4}}}}{{GeneralPlayerEndearment}}}}",
+                // affection
+                "Good_0": "{{i18n:AfterDark.Marriage.Sam.Good.{{Random:{{Range: 0, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "Good_1": "{{i18n:AfterDark.Marriage.Sam.Good.{{Random:{{Range: 0, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "Good_2": "{{i18n:AfterDark.Marriage.Sam.Good.{{Random:{{Range: 0, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "Good_3": "{{i18n:AfterDark.Marriage.Sam.Good.{{Random:{{Range: 0, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "Good_4": "{{i18n:AfterDark.Marriage.Sam.Good.{{Random:{{Range: 0, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "Good_5": "{{i18n:AfterDark.Marriage.Sam.Good.{{Random:{{Range: 0, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "Good_6": "{{i18n:AfterDark.Marriage.Sam.Good.{{Random:{{Range: 0, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "Good_7": "{{i18n:AfterDark.Marriage.Sam.Good.{{Random:{{Range: 0, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "Good_8": "{{i18n:AfterDark.Marriage.Sam.Good.{{Random:{{Range: 0, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "Good_9": "{{i18n:AfterDark.Marriage.Sam.Good.{{Random:{{Range: 0, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "Neutral_0": "{{i18n:AfterDark.Marriage.Sam.Neutral.{{Random:{{Range: 0, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "Neutral_1": "{{i18n:AfterDark.Marriage.Sam.Neutral.{{Random:{{Range: 0, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "Neutral_2": "{{i18n:AfterDark.Marriage.Sam.Neutral.{{Random:{{Range: 0, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "Neutral_3": "{{i18n:AfterDark.Marriage.Sam.Neutral.{{Random:{{Range: 0, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "Neutral_4": "{{i18n:AfterDark.Marriage.Sam.Neutral.{{Random:{{Range: 0, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "Neutral_5": "{{i18n:AfterDark.Marriage.Sam.Neutral.{{Random:{{Range: 0, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "Neutral_6": "{{i18n:AfterDark.Marriage.Sam.Neutral.{{Random:{{Range: 0, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "Neutral_7": "{{i18n:AfterDark.Marriage.Sam.Neutral.{{Random:{{Range: 0, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "Neutral_8": "{{i18n:AfterDark.Marriage.Sam.Neutral.{{Random:{{Range: 0, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "Neutral_9": "{{i18n:AfterDark.Marriage.Sam.Neutral.{{Random:{{Range: 0, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "Bad_0": "{{i18n:AfterDark.Marriage.Sam.Bad.0}}",
+                "Bad_1": "{{i18n:AfterDark.Marriage.Sam.Bad.1}}",
+                "Bad_2": "{{i18n:AfterDark.Marriage.Sam.Bad.2}}",
+                "Bad_3": "{{i18n:AfterDark.Marriage.Sam.Bad.3}}",
+                "Bad_4": "{{i18n:AfterDark.Marriage.Sam.Bad.4}}",
+                "Bad_5": "{{i18n:AfterDark.Marriage.Sam.Bad.5}}",
+                "Bad_6": "{{i18n:AfterDark.Marriage.Sam.Bad.6}}",
+                "Bad_7": "{{i18n:AfterDark.Marriage.Sam.Bad.7}}",
+                "Bad_8": "{{i18n:AfterDark.Marriage.Sam.Bad.8}}",
+                "Bad_9": "{{i18n:AfterDark.Marriage.Sam.Bad.9}}"
+            }
+        }
+    ]
+}

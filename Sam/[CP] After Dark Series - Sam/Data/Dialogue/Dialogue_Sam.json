@@ -1,0 +1,448 @@
+{
+    "Changes": [
+    /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     ████   ███  █   █ ████   ███  █   █ 
+     █   █ █   █ ██  █ █   █ █   █ ██ ██ 
+     ████  █████ █ █ █ █   █ █   █ █ █ █ 
+     █   █ █   █ █  ██ █   █ █   █ █   █ 
+     █   █ █   █ █   █ ████   ███  █   █ 
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "When": { "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue" },
+            "Entries": {
+                // Intro 
+                "Introduction": "{{i18n:AfterDark.Core.Sam.Introduction{{GeneralPlayerEndearment}}}}",
+
+                // Birthday
+                "summer_17": "{{i18n:AfterDark.Core.Sam.Birthday.0}}",
+                "summer4_17": "{{i18n:AfterDark.Core.Sam.Birthday.4{{GeneralPlayerEndearment}}}}",
+                "summer6_17": "{{i18n:AfterDark.Core.Sam.Birthday.6}}",
+                "summer8_17": "{{i18n:AfterDark.Core.Sam.Birthday.8{{GeneralPlayerEndearment}}}}",
+                "summer10_17": "{{i18n:AfterDark.Core.Sam.Birthday.10{{GeneralPlayerEndearment}}}}",
+
+                // Specific Dates
+                "10": "{{i18n:AfterDark.Core.Sam.10}}",
+                "14": "{{i18n:AfterDark.Core.Sam.14}}",
+                "spring_12": "{{i18n:AfterDark.Core.Sam.Spring12}}",
+                "spring_21": "{{i18n:AfterDark.Core.Sam.Spring21{{GeneralPlayerEndearment}}}}",
+                "spring_23": "{{i18n:AfterDark.Core.Sam.Spring23}}",
+                "spring4_23": "{{i18n:AfterDark.Core.Sam.Spring23.4H}}",
+                "summer_10": "{{i18n:AfterDark.Core.Sam.Summer10}}",
+                "fall_9": "{{i18n:AfterDark.Core.Sam.Fall9}}",
+                "fall_14": "{{i18n:AfterDark.Core.Sam.Fall14}}",
+                "fall_16": "{{i18n:AfterDark.Core.Sam.Fall16}}",
+                "fall_23": "{{i18n:AfterDark.Core.Sam.Fall23{{GeneralPlayerEndearment}}}}",
+                "fall_26": "{{i18n:AfterDark.Core.Sam.Fall26{{GeneralPlayerEndearment}}}}",
+                "winter_7": "{{i18n:AfterDark.Core.Sam.Winter7}}",
+                "winter_24": "{{i18n:AfterDark.Core.Sam.Winter24}}",
+
+                // Location-Based
+                "Saloon": "{{i18n:AfterDark.Core.Sam.Saloon.{{Random:{{Range: 1, 3}}}}}}",
+                "Saloon4": "{{i18n:AfterDark.Core.Sam.Saloon.{{Random:{{Range: 3, 5}}}}{{GeneralPlayerEndearment}}}}",
+
+                // Flower Dance
+                "FlowerDance_Accept": "{{i18n:AfterDark.Festival.Sam.DanceAccept.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
+                "FlowerDance_Accept_Spouse": "{{i18n:AfterDark.Festival.Sam.DanceAccept.Spouse.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
+                "FlowerDance_Decline": "{{i18n:AfterDark.Festival.Sam.DanceDeny}}",
+                "danceRejection": "{{i18n:AfterDark.Festival.Sam.DanceDeny}}",
+
+                // Romance
+                "AcceptBouquet": "{{i18n:AfterDark.Core.Sam.AcceptBouquet{{GeneralPlayerEndearment}}}}",
+                "SpouseStardrop": "{{i18n:AfterDark.Core.Sam.StarDrop{{GeneralPlayerEndearment}}}}",
+                "dating_Sam": "{{i18n:AfterDark.Core.Sam.Dating{{GeneralPlayerEndearment}}}}",
+
+                // Git Rejected Binch
+                "RejectBouquet": "{{i18n:AfterDark.Core.Sam.RejectBouquet{{GeneralPlayerEndearment}}}}",
+                "RejectMermaidPendant": "{{i18n:AfterDark.Core.Sam.RejectPendant}}",
+                "RejectGift_Divorced": "{{i18n:AfterDark.Core.Sam.RejectGift.Divorced}}",
+                "divorced": "{{i18n:AfterDark.Core.Sam.Divorced{{GeneralPlayerEndearment}}}}",
+                "breakUp": "{{i18n:AfterDark.Core.Sam.BreakUp{{GeneralPlayerEndearment}}}}",
+                "dumped_Guys": "{{i18n:AfterDark.Core.Sam.DumpedGuys}}",
+                "secondChance_Guys": "{{i18n:AfterDark.Core.Sam.SecondChanceGuys{{GeneralPlayerEndearment}}}}",
+
+                // Rando Lines
+                "HitBySlingshot": "{{i18n:AfterDark.Core.Sam.Slingshot{{GeneralPlayerEndearment}}}}",
+                "firstVisit_Sewer": "{{i18n:AfterDark.Core.Sam.Sewer.FirstVisit{{GeneralPlayerEndearment}}}}",
+                "GreenRain": "{{i18n:AfterDark.Core.Sam.GreenRain}}",
+                "GreenRainFinished": "{{i18n:AfterDark.Core.Sam.GreenRainFinished}}",
+                "GreenRain_2": "{{i18n:AfterDark.Core.Sam.GreenRain2{{GeneralPlayerEndearment}}}}",
+
+                // Resort
+                "Resort_Entering": "{{i18n:AfterDark.Core.Sam.Resort.Entering{{GeneralPlayerEndearment}}}}",
+                "Resort": "{{i18n:AfterDark.Core.Sam.Resort}}",
+                "Resort_Leaving": "{{i18n:AfterDark.Core.Sam.Resort.Leaving}}",
+                "Resort_Shore": "{{i18n:AfterDark.Core.Sam.Resort.Shore}}",
+                "Resort_Towel": "{{i18n:AfterDark.Core.Sam.Resort.Towel.1}}",
+                "Resort_Towel_2": "{{i18n:AfterDark.Core.Sam.Resort.Towel.2{{GeneralPlayerEndearment}}}}",
+                "Resort_Bar": "{{i18n:AfterDark.Core.Sam.Resort.bar}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/rainy",
+            "When": { "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue" },
+            "Entries": {
+                "Sam": "{{i18n:AfterDark.Core.Sam.Rain.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/ExtraDialogue",
+            "When": { "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue" },
+            "Entries": {
+                "SummitEvent_Dialogue3_Sam": "{{i18n:AfterDark.Extra.Sam.Summit{{GeneralPlayerEndearment}}}}"
+            }
+        },
+    /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      ████  ███  ████  █████ 
+     █     █   █ █   █ █     
+     █     █   █ ████  ████  
+     █     █   █ █   █ █     
+      ████  ███  █   █ █████ 
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+        {
+            "LogName": "Sam Core Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "When": { "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue" },
+            "Entries": {
+                // specific dates 
+                "Thu_2": "{{i18n:AfterDark.Core.Sam.{{Season}}.EarlyHeart.{{Random:{{Range: 1, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "Thu2_2": "{{i18n:AfterDark.Core.Sam.{{Season}}.EarlyHeart.{{Random:{{Range: 1, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "winter_Thu_2": "{{i18n:AfterDark.Core.Sam.{{Season}}.EarlyHeart.{{Random:{{Range: 1, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "Thu_3": "{{i18n:AfterDark.Core.Sam.{{Season}}.MidHeart.{{Random:{{Range: 1, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "Thu6_1": "{{i18n:AfterDark.Core.Sam.{{Season}}.MidHeart.{{Random:{{Range: 1, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "Thu6_2": "{{i18n:AfterDark.Core.Sam.{{Season}}.MidHeart.{{Random:{{Range: 1, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "summer_Thu6_2": "{{i18n:AfterDark.Core.Sam.{{Season}}.MidHeart.{{Random:{{Range: 1, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "fall_Thu6_1": "{{i18n:AfterDark.Core.Sam.{{Season}}.MidHeart.{{Random:{{Range: 1, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "winter_Thu6_1": "{{i18n:AfterDark.Core.Sam.{{Season}}.MidHeart.{{Random:{{Range: 1, 15}}}}{{GeneralPlayerEndearment}}}}",
+
+                // specific - song question 
+                "Wed_old": "{{i18n:AfterDark.Core.Sam.Wed.Old}}",
+                "Wed_19": "{{i18n:AfterDark.Core.Sam.Wed.Answer.Neg}}",
+                "Wed_20": "{{i18n:AfterDark.Core.Sam.Wed.Answer.Pos}}",
+
+                // Early Hearts
+                "{{WeekDay}}": "{{i18n:AfterDark.Core.Sam.{{Season}}.EarlyHeart.{{Random:{{Range: 1, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "{{WeekDay}}2": "{{i18n:AfterDark.Core.Sam.{{Season}}.EarlyHeart.{{Random:{{Range: 1, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "{{season}}_{{WeekDay}}": "{{i18n:AfterDark.Core.Sam.{{Season}}.EarlyHeart.{{Random:{{Range: 1, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "{{season}}_{{WeekDay}}2": "{{i18n:AfterDark.Core.Sam.{{Season}}.EarlyHeart.{{Random:{{Range: 1, 15}}}}{{GeneralPlayerEndearment}}}}",
+                // Mid Hearts
+                "{{WeekDay}}4": "{{i18n:AfterDark.Core.Sam.{{Season}}.MidHeart.{{Random:{{Range: 1, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "{{WeekDay}}6": "{{i18n:AfterDark.Core.Sam.{{Season}}.MidHeart.{{Random:{{Range: 1, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "{{season}}_{{WeekDay}}4": "{{i18n:AfterDark.Core.Sam.{{Season}}.MidHeart.{{Random:{{Range: 1, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "{{season}}_{{WeekDay}}6": "{{i18n:AfterDark.Core.Sam.{{Season}}.MidHeart.{{Random:{{Range: 1, 15}}}}{{GeneralPlayerEndearment}}}}",
+                // Late Hearts
+                "{{WeekDay}}8": "{{i18n:AfterDark.Core.Sam.{{Season}}.LateHeart.{{Random:{{Range: 1, 16}}}}{{GeneralPlayerEndearment}}}}",
+                "{{WeekDay}}10": "{{i18n:AfterDark.Core.Sam.{{Season}}.LateHeart.{{Random:{{Range: 1, 16}}}}{{GeneralPlayerEndearment}}}}",
+                "{{season}}_{{WeekDay}}8": "{{i18n:AfterDark.Core.Sam.{{Season}}.LateHeart.{{Random:{{Range: 1, 16}}}}{{GeneralPlayerEndearment}}}}",
+                "{{season}}_{{WeekDay}}10": "{{i18n:AfterDark.Core.Sam.{{Season}}.LateHeart.{{Random:{{Range: 1, 16}}}}{{GeneralPlayerEndearment}}}}"
+            }
+        },
+        {
+            "LogName": "Sam Conversation Topics - Unmarried",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "When": { "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue" },
+            "Entries": {
+                // spring 
+                "samADGotAPiercing": "{{i18n:AfterDark.Core.Sam.Conversation.Spring.LateHeart.Memory.OneWeek}}",
+                // summer 
+                "samADCooksFr": "{{i18n:AfterDark.Core.Sam.Conversation.Summer.LateHeart.Memory.OneDay}}",
+                // fall
+                "samADGotOvertime": "{{i18n:AfterDark.Core.Sam.Conversation.Fall.LateHeart.Memory.OneWeek}}",
+                // winter
+                "helpingSamADTutor": "{{i18n:AfterDark.Core.Sam.Conversation.Winter.LateHeart.Memory.OneDay{{GeneralPlayerEndearment}}}}"
+            }
+        },
+        {
+            "LogName": "Sam's Family Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "When": { "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue" },
+            "Entries": {
+                "ADSamFamilyVincent1": "{{i18n:AfterDark.Family.Sam.Vincent.1}}",
+                "ADSamFamilyVincent2": "{{i18n:AfterDark.Family.Sam.Vincent.2}}",
+                "ADSamFamilyVincent3": "{{i18n:AfterDark.Family.Sam.Vincent.3}}",
+                "ADSamFamilyVincent4": "{{i18n:AfterDark.Family.Sam.Vincent.4}}",
+                "ADSamFamilyVincent5": "{{i18n:AfterDark.Family.Sam.Vincent.5}}",
+                "ADSamFamilyJodi1": "{{i18n:AfterDark.Family.Sam.Jodi.1}}",
+                "ADSamFamilyJodi2": "{{i18n:AfterDark.Family.Sam.Jodi.2}}",
+                "ADSamFamilyJodi3": "{{i18n:AfterDark.Family.Sam.Jodi.3}}",
+                "ADSamFamilyJodi4": "{{i18n:AfterDark.Family.Sam.Jodi.4}}",
+                "ADSamFamilyJodi5": "{{i18n:AfterDark.Family.Sam.Jodi.5}}",
+                "ADSamFamilyKent1": "{{i18n:AfterDark.Family.Sam.Kent.Y1.1}}",
+                "ADSamFamilyKent2": "{{i18n:AfterDark.Family.Sam.Kent.Y1.2}}",
+                "ADSamFamilyKent3": "{{i18n:AfterDark.Family.Sam.Kent.Y1.3}}",
+                "ADSamFamilyKent4": "{{i18n:AfterDark.Family.Sam.Kent.1}}",
+                "ADSamFamilyKent5": "{{i18n:AfterDark.Family.Sam.Kent.2}}"
+            }
+        },
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    █████ █████  ███  █      ███  █   █ █████ █   █    
+      █   █     █   █ █     █   █ █   █ █      █ █        
+      █   ████  █████ █     █   █ █   █ █████   █    
+    █ █   █     █   █ █     █   █ █   █     █   █        
+    ███   █████ █   █ █████  ███  █████ █████   █      
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+        {
+            "LogName": "Sam's Dating/Marriage Jealousy Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "When": {
+                "Hearts:Sam": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14",
+                "After Dark Dialogue": "All Dialogue"
+            },
+            "Entries": {
+                "dating_Alex": "{{i18n:AfterDark.Core.Sam.Jealous.Dating.Alex{{GeneralPlayerEndearment}}}}",
+                "married_Alex": "{{i18n:AfterDark.Core.Sam.Jealous.Married.Alex}}",
+                "dating_Elliott": "{{i18n:AfterDark.Core.Sam.Jealous.Dating.Elliott{{GeneralPlayerEndearment}}}}",
+                "married_Elliott": "{{i18n:AfterDark.Core.Sam.Jealous.Married.Elliott}}",
+                "dating_Harvey": "{{i18n:AfterDark.Core.Sam.Jealous.Dating.Harvey{{GeneralPlayerEndearment}}}}",
+                "married_Harvey": "{{i18n:AfterDark.Core.Sam.Jealous.Married.Harvey}}",
+                "dating_Sebastian": "{{i18n:AfterDark.Core.Sam.Jealous.Dating.Sebastian}}",
+                "married_Sebastian": "{{i18n:AfterDark.Core.Sam.Jealous.Married.Sebastian}}",
+                "dating_Shane": "{{i18n:AfterDark.Core.Sam.Jealous.Dating.Shane{{GeneralPlayerEndearment}}}}",
+                "married_Shane": "{{i18n:AfterDark.Core.Sam.Jealous.Married.Shane}}",
+                
+                "dating_Abigail": "{{i18n:AfterDark.Core.Sam.Jealous.Dating.Abigail}}",
+                "married_Abigail": "{{i18n:AfterDark.Core.Sam.Jealous.Married.Abigail{{GeneralPlayerEndearment}}}}",
+                "dating_Emily": "{{i18n:AfterDark.Core.Sam.Jealous.Dating.Emily{{GeneralPlayerEndearment}}}}",
+                "married_Emily": "{{i18n:AfterDark.Core.Sam.Jealous.Married.Emily{{GeneralPlayerEndearment}}}}",
+                "dating_Haley": "{{i18n:AfterDark.Core.Sam.Jealous.Dating.Haley{{GeneralPlayerEndearment}}}}",
+                "married_Haley": "{{i18n:AfterDark.Core.Sam.Jealous.Married.Haley{{GeneralPlayerEndearment}}}}",
+                "dating_Leah": "{{i18n:AfterDark.Core.Sam.Jealous.Dating.Leah{{GeneralPlayerEndearment}}}}",
+                "married_Leah": "{{i18n:AfterDark.Core.Sam.Jealous.Married.Leah{{GeneralPlayerEndearment}}}}",
+                "dating_Maru": "{{i18n:AfterDark.Core.Sam.Jealous.Dating.Maru{{GeneralPlayerEndearment}}}}",
+                "married_Maru": "{{i18n:AfterDark.Core.Sam.Jealous.Married.Maru{{GeneralPlayerEndearment}}}}",
+                "dating_Penny": "{{i18n:AfterDark.Core.Sam.Jealous.Dating.Penny{{GeneralPlayerEndearment}}}}",
+                "married_Penny": "{{i18n:AfterDark.Core.Sam.Jealous.Married.Penny{{GeneralPlayerEndearment}}}}"
+            }
+        },
+        {
+            "LogName": "Sam's Early Heart Jealousy/Mentions Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                // bachelors
+                "ADSamLowHeartAlexJealousy1": "{{i18n:AfterDark.Jealousy.Sam.Early.Alex.1{{GeneralPlayerEndearment}}}}",
+                "ADSamLowHeartAlexJealousy2": "{{i18n:AfterDark.Jealousy.Sam.Early.Alex.2{{GeneralPlayerEndearment}}}}",
+                "ADSamHighHeartAlexJealousy1": "{{i18n:AfterDark.Jealousy.Sam.Late.Alex.1{{GeneralPlayerEndearment}}}}",
+                "ADSamHighHeartAlexJealousy2": "{{i18n:AfterDark.Jealousy.Sam.Late.Alex.2{{GeneralPlayerEndearment}}}}",
+                "ADSamLowHeartElliottJealousy1": "{{i18n:AfterDark.Jealousy.Sam.Early.Elliott.1{{GeneralPlayerEndearment}}}}",
+                "ADSamLowHeartElliottJealousy2": "{{i18n:AfterDark.Jealousy.Sam.Early.Elliott.2{{GeneralPlayerEndearment}}}}",
+                "ADSamHighHeartElliottJealousy1": "{{i18n:AfterDark.Jealousy.Sam.Late.Elliott.1{{GeneralPlayerEndearment}}}}",
+                "ADSamHighHeartElliottJealousy2": "{{i18n:AfterDark.Jealousy.Sam.Late.Elliott.2{{GeneralPlayerEndearment}}}}",
+                "ADSamLowHeartHarveyJealousy1": "{{i18n:AfterDark.Jealousy.Sam.Early.Harvey.1{{GeneralPlayerEndearment}}}}",
+                "ADSamLowHeartHarveyJealousy2": "{{i18n:AfterDark.Jealousy.Sam.Early.Harvey.2{{GeneralPlayerEndearment}}}}",
+                "ADSamHighHeartHarveyJealousy1": "{{i18n:AfterDark.Jealousy.Sam.Late.Harvey.1{{GeneralPlayerEndearment}}}}",
+                "ADSamHighHeartHarveyJealousy2": "{{i18n:AfterDark.Jealousy.Sam.Late.Harvey.2{{GeneralPlayerEndearment}}}}",
+                "ADSamLowHeartSebastianJealousy1": "{{i18n:AfterDark.Jealousy.Sam.Early.Sebastian.1{{GeneralPlayerEndearment}}}}",
+                "ADSamLowHeartSebastianJealousy2": "{{i18n:AfterDark.Jealousy.Sam.Early.Sebastian.2{{GeneralPlayerEndearment}}}}",
+                "ADSamHighHeartSebastianJealousy1": "{{i18n:AfterDark.Jealousy.Sam.Late.Sebastian.1{{GeneralPlayerEndearment}}}}",
+                "ADSamHighHeartSebastianJealousy2": "{{i18n:AfterDark.Jealousy.Sam.Late.Sebastian.2{{GeneralPlayerEndearment}}}}",
+                "ADSamLowHeartShaneJealousy1": "{{i18n:AfterDark.Jealousy.Sam.Early.Shane.1{{GeneralPlayerEndearment}}}}",
+                "ADSamLowHeartShaneJealousy2": "{{i18n:AfterDark.Jealousy.Sam.Early.Shane.2{{GeneralPlayerEndearment}}}}",
+                "ADSamHighHeartShaneJealousy1": "{{i18n:AfterDark.Jealousy.Sam.Late.Shane.1{{GeneralPlayerEndearment}}}}",
+                "ADSamHighHeartShaneJealousy2": "{{i18n:AfterDark.Jealousy.Sam.Late.Shane.2{{GeneralPlayerEndearment}}}}",
+                
+                // bachelorettes
+                "ADSamLowHeartAbigailJealousy1": "{{i18n:AfterDark.Jealousy.Sam.Early.Abigail.1{{GeneralPlayerEndearment}}}}",
+                "ADSamLowHeartAbigailJealousy2": "{{i18n:AfterDark.Jealousy.Sam.Early.Abigail.2{{GeneralPlayerEndearment}}}}",
+                "ADSamHighHeartAbigailJealousy1": "{{i18n:AfterDark.Jealousy.Sam.Late.Abigail.1{{GeneralPlayerEndearment}}}}",
+                "ADSamHighHeartAbigailJealousy2": "{{i18n:AfterDark.Jealousy.Sam.Late.Abigail.2{{GeneralPlayerEndearment}}}}",
+                "ADSamLowHeartEmilyJealousy1": "{{i18n:AfterDark.Jealousy.Sam.Early.Emily.1{{GeneralPlayerEndearment}}}}",
+                "ADSamLowHeartEmilyJealousy2": "{{i18n:AfterDark.Jealousy.Sam.Early.Emily.2{{GeneralPlayerEndearment}}}}",
+                "ADSamHighHeartEmilyJealousy1": "{{i18n:AfterDark.Jealousy.Sam.Late.Emily.1{{GeneralPlayerEndearment}}}}",
+                "ADSamHighHeartEmilyJealousy2": "{{i18n:AfterDark.Jealousy.Sam.Late.Emily.2{{GeneralPlayerEndearment}}}}",
+                "ADSamLowHeartHaleyJealousy1": "{{i18n:AfterDark.Jealousy.Sam.Early.Haley.1{{GeneralPlayerEndearment}}}}",
+                "ADSamLowHeartHaleyJealousy2": "{{i18n:AfterDark.Jealousy.Sam.Early.Haley.2{{GeneralPlayerEndearment}}}}",
+                "ADSamHighHeartHaleyJealousy1": "{{i18n:AfterDark.Jealousy.Sam.Late.Haley.1{{GeneralPlayerEndearment}}}}",
+                "ADSamHighHeartHaleyJealousy2": "{{i18n:AfterDark.Jealousy.Sam.Late.Haley.2{{GeneralPlayerEndearment}}}}",
+                "ADSamLowHeartLeahJealousy1": "{{i18n:AfterDark.Jealousy.Sam.Early.Leah.1{{GeneralPlayerEndearment}}}}",
+                "ADSamLowHeartLeahJealousy2": "{{i18n:AfterDark.Jealousy.Sam.Early.Leah.2{{GeneralPlayerEndearment}}}}",
+                "ADSamHighHeartLeahJealousy1": "{{i18n:AfterDark.Jealousy.Sam.Late.Leah.1{{GeneralPlayerEndearment}}}}",
+                "ADSamHighHeartLeahJealousy2": "{{i18n:AfterDark.Jealousy.Sam.Late.Leah.2{{GeneralPlayerEndearment}}}}",
+                "ADSamLowHeartMaruJealousy1": "{{i18n:AfterDark.Jealousy.Sam.Early.Maru.1{{GeneralPlayerEndearment}}}}",
+                "ADSamLowHeartMaruJealousy2": "{{i18n:AfterDark.Jealousy.Sam.Early.Maru.2{{GeneralPlayerEndearment}}}}",
+                "ADSamHighHeartMaruJealousy1": "{{i18n:AfterDark.Jealousy.Sam.Late.Maru.1{{GeneralPlayerEndearment}}}}",
+                "ADSamHighHeartMaruJealousy2": "{{i18n:AfterDark.Jealousy.Sam.Late.Maru.2{{GeneralPlayerEndearment}}}}",
+                "ADSamLowHeartPennyJealousy1": "{{i18n:AfterDark.Jealousy.Sam.Early.Penny.1{{GeneralPlayerEndearment}}}}",
+                "ADSamLowHeartPennyJealousy2": "{{i18n:AfterDark.Jealousy.Sam.Early.Penny.2{{GeneralPlayerEndearment}}}}",
+                "ADSamHighHeartPennyJealousy1": "{{i18n:AfterDark.Jealousy.Sam.Late.Penny.1{{GeneralPlayerEndearment}}}}",
+                "ADSamHighHeartPennyJealousy2": "{{i18n:AfterDark.Jealousy.Sam.Late.Penny.2{{GeneralPlayerEndearment}}}}"
+            }
+        },
+    /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      ████ █████ █████ █████ 
+     █       █   █       █   
+     █  ██   █   ████    █   
+     █   █   █   █       █   
+      ███  █████ █       █  
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */ 
+       {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "When": { "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue" },
+            "Entries": {
+                // generic
+                "AcceptGift_Loved": "{{i18n:AfterDark.Gift.Sam.GiftReaction.Love.{{Random:{{Range: 1,3}}}}{{GeneralPlayerEndearment}}}}",
+                "AcceptGift_Liked": "{{i18n:AfterDark.Gift.Sam.GiftReaction.Like.{{Random:{{Range: 1,3}}}}{{GeneralPlayerEndearment}}}}",
+                "AcceptGift_Neutral": "{{i18n:AfterDark.Gift.Sam.GiftReaction.Neutral.{{Random:{{Range: 1,3}}}}{{GeneralPlayerEndearment}}}}",
+                "AcceptGift_Disliked": "{{i18n:AfterDark.Gift.Sam.GiftReaction.Dislike.{{Random:{{Range: 1,3}}}}{{GeneralPlayerEndearment}}}}",
+                "AcceptGift_Hated": "{{i18n:AfterDark.Gift.Sam.GiftReaction.Hate.{{Random:{{Range: 1,3}}}}{{GeneralPlayerEndearment}}}}",
+
+                // Cactus Fruit
+                "AcceptGift_(O)90": "{{i18n:AfterDark.Gift.Sam.GiftReaction.CactusFruit.{{Relationship:Sam |contains=Married}}.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
+                // Maple Bar
+                "AcceptGift_(O)731": "{{i18n:AfterDark.Gift.Sam.GiftReaction.MapleBar.{{Relationship:Sam |contains=Married}}.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
+                // Pizza
+                "AcceptGift_(O)206": "{{i18n:AfterDark.Gift.Sam.GiftReaction.Pizza.{{Relationship:Sam |contains=Married}}.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
+                // Tigers Eye
+                "AcceptGift_(O)562": "{{i18n:AfterDark.Gift.Sam.GiftReaction.TigerEye.{{Relationship:Sam |contains=Married}}.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
+                // Joja Cola
+                "AcceptGift_(O)167": "{{i18n:AfterDark.Gift.Sam.GiftReaction.JojaCola.{{Relationship:Sam |contains=Married}}.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
+                // Stardrop Tea
+                "AcceptGift_(O)StardropTea": "{{i18n:AfterDark.Gift.Sam.GiftReaction.StarDropTea.{{Relationship:Sam |contains=Married}}}}",
+                // Rabbits Foot
+                "AcceptGift_(O)446": "{{i18n:AfterDark.Gift.Sam.GiftReaction.RabbitsFoot.{{Relationship:Sam |contains=Married}}{{GeneralPlayerEndearment}}}}",
+                // Prismatic Shard
+                "AcceptGift_(O)74": "{{i18n:AfterDark.Gift.Sam.GiftReaction.PrismaticShard.{{Relationship:Sam |contains=Married}}{{GeneralPlayerEndearment}}}}",
+                // Cooking
+                "AcceptGift_category_cooking": "{{i18n:AfterDark.Gift.Sam.GiftReaction.Cooking.{{Relationship:Sam |contains=Married}}.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
+                // Flowers
+                "AcceptGift_category_flowers": "{{i18n:AfterDark.Gift.Sam.GiftReaction.Flowers.{{Relationship:Sam |contains=Married}}.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
+                
+                // Birthday Universals
+                "AcceptBirthdayGift_Positive": "{{i18n:AfterDark.Gift.Sam.GiftReaction.Positive.Birthday.{{Relationship:Sam |contains=Married}}}}",
+                "AcceptBirthdayGift_Negative": "{{i18n:AfterDark.Gift.Sam.GiftReaction.Negative.Birthday.{{Relationship:Sam |contains=Married}}}}"
+            }
+        },
+    /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     █████ █████ █████ █████ █████ █   █  ███  █     
+     █     █     █       █     █   █   █ █   █ █     
+     ████  ████  █████   █     █    █ █  █████ █     
+     █     █         █   █     █    █ █  █   █ █     
+     █     █████ █████   █   █████   █   █   █ █████ 
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */ 
+        {
+            "LogName": "Sam's Festival Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13, Data/Festivals/spring24, Data/Festivals/summer11, Data/Festivals/summer28, Data/Festivals/fall16, Data/Festivals/fall27, Data/Festivals/winter8, Data/Festivals/winter25",
+            "When": { "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue" },
+            "Entries": {
+                "Sam": "{{i18n:AfterDark.Festival.Sam.{{TargetWithoutPath}}.{{Relationship:Sam |contains=Married}}.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
+                "Sam_y2": "{{i18n:AfterDark.Festival.Sam.{{TargetWithoutPath}}.{{Relationship:Sam |contains=Married}}.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
+                "Sam_spouse": "{{i18n:AfterDark.Festival.Sam.{{TargetWithoutPath}}.{{Relationship:Sam |contains=Married}}.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
+                "Sam_spouse_y2": "{{i18n:AfterDark.Festival.Sam.{{TargetWithoutPath}}.{{Relationship:Sam |contains=Married}}.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}"
+            }
+       },
+       {
+            "LogName": "Luau Conversation Topic - Married",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogueSam",
+            "When": { "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue" },
+            "Entries": {
+                "samForgotContainer": "{{i18n:AfterDark.Festival.Sam.summer11.Memory.OneDay}}"
+            }
+       },
+       {
+            "Action": "EditData",
+            "Target": "Strings/1_6_Strings",
+            "When": { "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue" },
+            "Entries": {
+                "DesertFestival_Sam": "{{i18n:AfterDark.Festival.Sam.Desert.{{Random:{{Range: 1, 3}}}}}}",
+                "DesertFestival_Sam_marriage": "{{i18n:AfterDark.Festival.Sam.Desert.Married.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
+                "Shop_Sam": "{{i18n:AfterDark.Festival.Sam.Desert.Shop{{GeneralPlayerEndearment}}}}"
+            }
+       },
+       // JEALOUSY DANCE LINES
+       {
+            "LogName": "Sam's Dance Jealousy Lines",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "When": { "After Dark Dialogue": "All Dialogue" },
+            "Entries": {
+                "ADSamAlexDance": "{{i18n:AfterDark.FestivalJealousy.Sam.HasPartner.Alex.Memory}}",
+                "ADSamHarveyDance": "{{i18n:AfterDark.FestivalJealousy.Sam.HasPartner.Harvey.Memory}}",
+                "ADSamElliottDance": "{{i18n:AfterDark.FestivalJealousy.Sam.HasPartner.Elliott.Memory}}",
+                "ADSamSebastianDance": "{{i18n:AfterDark.FestivalJealousy.Sam.HasPartner.Sebastian.Memory}}",
+                "ADSamShaneDance": "{{i18n:AfterDark.FestivalJealousy.Sam.HasPartner.Shane.Memory}}",
+                "ADSamAbigailDance": "{{i18n:AfterDark.FestivalJealousy.Sam.HasPartner.Abigail.Memory}}",
+                "ADSamHaleyDance": "{{i18n:AfterDark.FestivalJealousy.Sam.HasPartner.Haley.Memory}}",
+                "ADSamEmilyDance": "{{i18n:AfterDark.FestivalJealousy.Sam.HasPartner.Emily.Memory}}",
+                "ADSamLeahDance": "{{i18n:AfterDark.FestivalJealousy.Sam.HasPartner.Leah.Memory}}",
+                "ADSamMaruDance": "{{i18n:AfterDark.FestivalJealousy.Sam.HasPartner.Maru.Memory}}",
+                "ADSamPennyDance": "{{i18n:AfterDark.FestivalJealousy.Sam.HasPartner.Penny.Memory}}",
+                "ADSamSamDance": "{{i18n:AfterDark.FestivalJealousy.Sam.HasPartner.Sam.Memory}}",
+                "ADSamNotSamDance": "{{i18n:AfterDark.FestivalJealousy.Sam.HasPartner.NotSam.Memory}}"
+            }
+       },
+    /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     █   █ █████ █████  ████ 
+     ██ ██   █   █     █     
+     █ █ █   █   █████ █     
+     █   █   █       █ █     
+     █   █ █████ █████  ████ 
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+        {
+            "Action": "EditData",
+            "Target": "Strings/MovieReactions",
+            "When": { "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue" },
+            "Entries": {
+                "Sam_summer_movie_1_BeforeMovie": "{{i18n:AfterDark.Movie.Sam.BeforeMovie.Wumbus{{GeneralPlayerEndearment}}}}",
+                "Sam_summer_movie_1_DuringMovie": "{{i18n:AfterDark.Movie.Sam.DuringMovie.Wumbus.0{{GeneralPlayerEndearment}}}}",
+                "Sam_summer_movie_1_DuringMovie_2": "{{i18n:AfterDark.Movie.Sam.DuringMovie.Wumbus.1}}",
+                "Sam_summer_movie_1_AfterMovie": "{{i18n:AfterDark.Movie.Sam.AfterMovie.Wumbus}}",
+                "Sam_horror_BeforeMovie": "{{i18n:AfterDark.Movie.Sam.BeforeMovie.Horror}}",
+                "Sam_horror_AfterMovie": "{{i18n:AfterDark.Movie.Sam.AfterMovie.Horror}}",
+                "Sam_like_BeforeMovie": "{{i18n:AfterDark.Movie.Sam.BeforeMovie.Like}}",
+                "Sam_like_AfterMovie": "{{i18n:AfterDark.Movie.Sam.AfterMovie.Like{{GeneralPlayerEndearment}}}}",
+                "Sam_dislike_BeforeMovie": "{{i18n:AfterDark.Movie.Sam.BeforeMovie.Dislike}}",
+                "Sam_dislike_DuringMovie": "{{i18n:AfterDark.Movie.Sam.DuringMovie.Dislike.0}}",
+                "Sam_dislike_DuringMovie_2": "{{i18n:AfterDark.Movie.Sam.DuringMovie.Dislike.1}}",
+                "Sam_dislike_AfterMovie": "{{i18n:AfterDark.Movie.Sam.AfterMovie.Dislike}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "When": { "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue" },
+            "Entries": {
+                "SamHouse.5": "{{i18n:AfterDark.Strings.Sam.SamHouse.5}}",
+                "SamHouse.6": "{{i18n:AfterDark.Strings.Sam.SamHouse.6}}",
+                "SamHouse.7": "{{i18n:AfterDark.Strings.Sam.SamHouse.7}}",
+                "SamHouse.8": "{{i18n:AfterDark.Strings.Sam.SamHouse.8}}",
+                "SamHouse.11": "{{i18n:AfterDark.Strings.Sam.SamHouse.11}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/animationDescriptions",
+            "When": { "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue" },
+            "Entries": {
+                "sam_guitar": "{{i18n:AfterDark.Strings.Sam.Guitar.{{Random: {{Range: 1, 3}}}}}}",
+                "sam_gameboy": "{{i18n:AfterDark.Strings.Sam.Gameboy.{{Random: {{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
+                "sam_skateboarding": "{{i18n:AfterDark.Strings.Sam.Skateboarding.{{Random: {{Range: 1, 3}}}}}}",
+                "sam_pool": "{{i18n:AfterDark.Strings.Sam.Pool.{{Random: {{Range: 1, 3}}}}}}",
+                "sam_work": "{{i18n:AfterDark.Strings.Sam.Work.{{Random: {{Range: 1, 3}}}}}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Sam",
+            "When": { "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue" },
+            "Entries": {
+                "winter_17.000": "{{i18n:AfterDark.Strings.Sam.winter17.000}}",
+                "marriage_Mon.000": "{{i18n:AfterDark.Strings.Sam.Marriage.Mon.000{{GeneralPlayerEndearment}}}}",
+                "marriage_Mon.001": "{{i18n:AfterDark.Strings.Sam.Marriage.Mon.001}}",
+                "marriage_Fri.000": "{{i18n:AfterDark.Strings.Sam.Marriage.Fri.000}}",
+                "marriage_Fri.001": "{{i18n:AfterDark.Strings.Sam.Marriage.Fri.001{{GeneralPlayerEndearment}}}}",
+                "rain2.000": "{{i18n:AfterDark.Strings.Sam.Rainy.000}}"
+            }
+        }
+    ]
+}

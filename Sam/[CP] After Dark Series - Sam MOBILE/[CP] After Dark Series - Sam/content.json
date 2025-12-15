@@ -1,0 +1,226 @@
+{
+    "Format": "2.8.0",
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+       ████  ███  █   █ █████ █████  ████ 
+      █     █   █ ██  █ █       █   █     
+      █     █   █ █ █ █ ████    █   █  ██ 
+      █     █   █ █  ██ █       █   █   █ 
+       ████  ███  █   █ █     █████  ███  
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    "ConfigSchema": {
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    PRONOUNS 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        "Player Pronouns 1": {
+            "Default": "Them",
+            "AllowValues": "Them, Her, Him",
+            "Section": "Pronouns",
+            "Description": "Sets the player's desired pronoun."
+        },
+        "Player Pronouns 2": {
+            "Default": "Their",
+            "AllowValues": "Their, Her, His",
+            "Section": "Pronouns",
+            "Description": "Sets the player's desired pronoun."
+        },
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    PLAYER ENDEARMENT 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        "Pet Name": {
+            "Default": "Babe",
+            "AllowValues": "Babe, Baby, Babygirl, Babyboy, Darling, Princess, Prince, Flower, Love, My Love, Angel, Doll, Dollface, Sweetheart, Honey, Sunshine, Bunny, Kitty, Kitten",
+            "Section": "Endearment",
+            "Description": "Sets the player's desired pet name."
+        },
+        "Descriptive Word": {
+            "Default": "Cute",
+            "AllowValues": "Cute, Pretty, Handsome, Sweet, Lovely, Sexy, Adorable, Gorgeous",
+            "Section": "Endearment",
+            "Description": "Sets the player's desired descriptive word."
+        },
+        "Good...": {
+            "Default": "Farmer",
+            "AllowValues": "Farmer, Girl, Boy, Whore, Pet, Kitten, Kitty, Thing",
+            "Section": "Endearment",
+            "Description": "Sets the player's desired good... name. Works like \"Good Girl\", etc."
+        },
+        "Marriage Affection": {
+            "Default": "Spouse",
+            "AllowValues": "Husband, Wife, Spouse, Shawty Bae",
+            "Section": "Endearment",
+            "Description": "Sets the player's desired name after marriage."
+        },
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    DIALOGUE 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        // Whether to include each dialogue file
+        "After Dark Dialogue": {
+            "AllowValues": "All Dialogue, No Jealousy Dialogue, No Dialogue",
+            "Default": "All Dialogue",
+            "Section": "Dialogue",
+            "Description": "Toggle between which dialogue you'd like this pack to add. Choosing \"No Jealousy Dialogue\" will disable all jealousy-related dialogue this pack offers. If you'd like to turn off all dialogue, select \"No Dialogue\"."
+        },
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    EVENTS 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        // Whether to include the events as a whole or not
+        "After Dark Events": {
+            "AllowValues": "All Events, No Jealousy Events, No Events",
+            "Default": "All Events",
+            "Section": "Events",
+            "Description": "Toggle between which events you'd like this pack to add. Choosing \"All Events\" will include ALL events his pack offers, including jealousy-related ones. Choosing \"No Jealousy Events\" will include MOST events his pack offers, only excluding jealousy-related ones. If you'd like to turn off all events, select \"No Events\"."
+        },
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    MAIL 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        // Whether to include jealousy mail as a whole or not
+        "After Dark Mail": {
+            "AllowValues": "Mail, No Mail",
+            "Default": "Mail",
+            "Section": "Mail",
+            "Description": "Toggle between which mail you'd like this pack to add. Choosing \"Mail\" will include ALL mail he (or the figure) sends. If you'd like to turn off all mail, select \"No Mail\"."
+        }
+    },
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     █████  ███  █  █  █████ █   █ █████ 
+       █   █   █ █ █   █     ██  █ █     
+       █   █   █ ██ █  ████  █ █ █ █████ 
+       █   █   █ █  █  █     █  ██     █ 
+       █    ███  █   █ █████ █   █ █████
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    "DynamicTokens": [
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    PRONOUNS 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        {
+            "Name": "GeneralPlayerPronoun",
+            "Value": "|PPN1={{Random: {{Player Pronouns 1}} |key=PlayerPronouns}} |LPPN1={{Random: {{Lowercase: {{Player Pronouns 1}}}} |key=PlayerPronouns}} |PPN2={{Random: {{Player Pronouns 2}} |key=PlayerPronouns}} |LPPN2={{Random: {{Lowercase: {{Player Pronouns 2}}}} |key=PlayerPronouns}}"
+        },
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    PLAYER ENDEARMENT 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        {
+            "Name": "GeneralPlayerEndearment",
+            "Value": "|PetName={{Random: {{Pet Name}} |key=PlayerEndearment}} |LPetName={{Random: {{Lowercase: {{Pet Name}}}} |key=PlayerEndearment}} |Descript={{Random: {{Descriptive Word}} |key=PlayerEndearment}} |LDescript={{Random: {{Lowercase: {{Descriptive Word}}}} |key=PlayerEndearment}} |GoodName={{Random: {{Good...}} |key=PlayerEndearment}} |LGoodName={{Random: {{Lowercase: {{Good...}}}} |key=PlayerEndearment}} |MarriageName={{Random:{{Marriage Affection}} |key=PlayerEndearment}} |LMarriageName={{Random: {{Lowercase: {{Marriage Affection}}}} |key=PlayerEndearment}}"
+        },
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    MISC 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        {
+            "Name": "WeekDayList",
+            "Value": "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+        },
+        {
+            "Name": "WeekDay",
+            "Value": "{{WeekDayList |valueAt={{Query: {{Day}}%7}}}}"
+        },
+        {
+            "Name": "RivalName",
+            "Value": "|SamRivalName={{Merge: {{spouse}}, {{Roommate}} |valueAt=0}}"
+        },
+        {
+            "Name": "SamRival",
+            "Value": "{{spouse}}"
+        },
+        {
+            "Name": "SamRival",
+            "Value": "{{Roommate}}",
+            "When": {
+                "HasValue:{{spouse}}": "false"
+            }
+        },
+        {
+            "Name": "SamRival",
+            "Value": "{{Random:{{aedenthorn.FreeLove/PlayerSpouses}}}}",
+            "When": { "HasMod |contains=aedenthorn.FreeLove": true }
+        },
+        {
+            "Name": "SamRival",
+            "Value": "{{Random:{{ApryllForever.PolyamorySweetLove/PlayerSpouses}}}}",
+            "When": { "HasMod |contains=ApryllForever.PolyamorySweetLove": true }
+        },
+        {
+            "Name": "SamRival",
+            "Value": "{{Random:{{EnderTedi.Polyamory/PlayerSpouses}}}}",
+            "When": { "HasMod |contains=EnderTedi.Polyamory": true }
+        },
+        // for generic jealousy events
+        {
+            "Name": "Gus",
+            "Value": "Gus"
+        },
+        {
+            "Name": "Abigail",
+            "Value": "Abigail"
+        },
+        {
+            "Name": "Pam",
+            "Value": "Pam"
+        },
+        // just in case ur for some reason married to gus??? GUS??? of all people???
+        {
+            "Name": "Gus",
+            "Value": "Emily",
+            "When": {
+                "SamRival": "Gus"
+            }
+        },
+        {
+            "Name": "GusAnimation",
+            "Value": "animate Gus false true 200 18 19"
+        },
+        {
+            "Name": "GusAnimation",
+            "Value": "pause 200",
+            "When": {
+                "SamRival": "Gus"
+            }
+        },
+        // just in case ur married to abigail
+        {
+            "Name": "Abigail",
+            "Value": "Sebastian",
+            "When": {
+                "SamRival": "Abigail"
+            }
+        },
+        // just in case ur married to pam??? no wait.. i see it. 
+        {
+            "Name": "Pam",
+            "Value": "Shane",
+            "When": {
+                "SamRival": "Pam"
+            }
+        }
+    ],
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     █████ █   █  ████ █     █   █ ████  █████ 
+       █   ██  █ █     █     █   █ █   █ █     
+       █   █ █ █ █     █     █   █ █   █ ████  
+       █   █  ██ █     █     █   █ █   █ █     
+     █████ █   █  ████ █████ █████ ████  █████ 
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    "Changes": [
+        {
+            "LogName": "After Dark Sam's ALL Events",
+            "Action": "Include",
+            "FromFile": "Data/Events/Events_Sam.json, Data/Events/JealousyEvents_Sam.json"
+        },
+        {
+            "LogName": "After Dark Sam's Dialogue",
+            "Action": "Include",
+            "FromFile": "Data/Dialogue/Dialogue_Sam.json, Data/Dialogue/MarriageDialogue_Sam.json, Data/Dialogue/DialogueTriggers_Sam.json"
+        },
+        {
+            "LogName": "After Dark Sam's Mail",
+            "Action": "Include",
+            "FromFile": "Data/Mail/Mail_Sam.json, Data/Mail/MailTriggers_Sam.json"
+        },
+        {
+            "LogName": "After Dark Sam's LetterBackgrounds",
+            "Action": "Load",
+            "Target": "Mods/loshionbottle.samafterdark/LetterBackgrounds",
+            "FromFile": "Data/Mail/ObsessedMail_Sam.png"
+        }
+    ]
+}

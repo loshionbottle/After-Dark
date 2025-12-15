@@ -1,0 +1,101 @@
+changelog from 4.1.0 onward to make translators lives a bit easier;
+    
+    4.1.0 adds in 1 extra line for each section under generic dialogue (12ish extra lines); you'll notice the keys go up to 15 rather than 14 now
+    4.1.1 Marriage.Sam.Indoor.Night.1 was missing a space...............................
+    4.1.2 "Core.Sam.Fall.EarlyHeart.4" was missing a ' at the end
+    4.1.3 No change to default.json - Just moved Content Patcher version to 2.6.0
+    4.1.4 Changes Marriage.Sam.Rainy.Day.3 to a PetName key rather than a Descript key; it was broken and i ain't like how descript looked there
+    4.2.0 Removes "Core.Sam.GivePendant" -- Realized I didn't need this when making Alex's pack, just forgot to remove it here.
+          - Also fixed typo in "Core.Sam.Birthday.8"
+          - Fixed "Core.Sam.Fall.MidHeart.12" (added ' to the end)
+          - Removed last sentence of "Core.Sam.Fall9"... too lazy to test if something else works 
+          - Changed "Core.Sam.Rain.0" to "Core.Sam.Rain.1"
+          - Added "Core.Sam.Rain.2" and "Core.Sam.Rain.3"
+    4.2.1 No change to default.json
+    4.2.2 changed festival winter 28 to 25... why did i have it at 28??
+    4.2.3 Changed manifest.json to include updated key for Shadows After Dark (ILY PIXIE) -- No change to default.json
+    4.2.5 fixed .4's error; just reverted back
+    4.2.6 added precondition to sam's break in event -- no change to default.json
+    4.3.0: I'm so sorry translators... I changed all the dialogue keys to have "AfterDark." in front...
+         rather than manually doing it all, you can honestly just ctrl+f and replace all of the following: 
+          - Core.S with AfterDark.Core.S
+          - Extra.S with AfterDark.Extra.S
+          - Marriage.S with AfterDark.Marriage.S
+          - Gift.S with AfterDark.Gift.S
+          - Movie.S with AfterDark.Movie.S
+          - AfterDark.Festival.S with AfterDark.Festival.S
+          - AfterDark.Strings.S with AfterDark.Strings.S
+          - AfterDark.Strings.P with AfterDark.Strings.P
+    4.3.1: I'm a dumbass, no change in default.json just forgot to change a festival line in genericdialogue.json
+    4.3.2: Changed #8 to $8 in AfterDark.Core.Sam.Summer.EarlyHeart.2
+          - secretly removed seb dependent from newevents.json... it opened myself up to errors due to co-dependency thing :shrug: but i'm not gonna tell nexus that...
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+    5.0.0: Oh Boy--
+          - Changed overall pack formatting
+             - Specifically content.json: 
+                 - Config Menu:
+                     - "Pet Name" section -> "Endearment"
+                     - New "endearment" option: Marriage Endearment. Basically how he refers to you like "Husband", "Wife", "Spouse", etc.
+                     - "Player Pet Name" description ->  "Would typically be \"Babe\", \"Darling\", \"Sweetheart\", etc."
+                     - "Good..." description -> "Would typically be \"Boy\", \"Girl\", \"Slut\", etc."
+                     - Dialogue Toggles:
+                         - Removed "Generic/Marriage/Gift/Festival" Dialogue toggles and replaced with a drop down
+                            - New options include "All Dialogue, No Jealousy Dialogue, and No Dialogue"
+                         - Description -> "Toggle between which dialogue you'd like this pack to add. Choosing \"No Jealousy Dialogue\" will disable all jealousy-related dialogue this pack offers. If you'd like to turn off all dialogue, select \"No Dialogue\"."
+                     - Events Toggle is now under dialogue toggles
+                         - Description -> "Toggle between which events you'd like this pack to add. Choosing \"Jealousy Events\" will include ALL events his pack offers, including jealousy-related ones. Choosing \"No Jealousy Events\" will include MOST events his pack offers, only excluding jealousy-related ones. If you'd like to turn off all events, select \"No Events\"."
+                 - Dynamic Tokens now load in under less lines. 
+                  ...bro i deadass hand placed all those keys and no one stopped me...
+                     - Changed Pronoun Keys to all fall under "PlayerPronoun"
+                     - Changed Endearment Keys to all fall under "PlayerEndearment" 
+                 - File includes have been changed to reflect changes to the config menu 
+             - Specifically File Formatting 
+                 - Dialogue is now a LOT less split up, now under only 3 categories: Dialogue, Jealous, & Marriage
+                 - New Mail folder/files teehee
+                 - All file names have been changed to reflect future plans on combining all packs. 
+                 - MarriageDialogue_Sam.json is now less hard-coded
+             - Specifically i18n > default.json
+                 - There are three new sections: Conversations, Jealousy, and Family Dialogue
+                 - All dating/married lines related to jealousy (Jealous.Dating or Jealous.Married) have been moved under the jealousy category
+                 - Changed all gift dialogue keys
+          - Content Updates: 
+             - Dialogue
+                 - "AfterDark.Marriage.Sam.SpouseRoom.3" has been reworded
+                 - Slight edit to "AfterDark.Core.Sam.Spring.EarlyHeart.14"
+                 - Changed verbage of "AfterDark.Marriage.Sam.SpouseRoom.2" slightly
+                 - +65 Jealousy/Family Related Lines when you're 2, 4, 6, & 8 hearts with vanilla bachelors/bachelorettes
+                 - +15 Generic Gift-Related Lines
+                     - These replace all the dialogue for loved/liked/neutral/disliked/hated gifts in a general sense 
+                 - +4 Joja Cola gift lines
+                 - +4 Pizza gift lines 
+                 - +35 Festival Related Lines
+                    - About 2ish per festival
+                    - +12 specific to jealousy at the flower dance (under jealousy's section)
+                    - TRANSLATORS: Desert Festival & Spirit's Eve lines have moved around a bit, please keep that in mind; sorry <3 
+                    - maybe an easter egg 
+                 - +8 Conversations (16ish lines total)
+                     - You have the potential to get 4 prior to marriage, and a separate 4 after marriage 
+                 - Removed the phone call lines; will be throwing them into Shadows AD
+                 - Doubled the amount of animation lines for when he plays the guitar, gameboy, skateboards, pool, or when he's at work (+15 lines)
+                 - + A Shit ton more marriage lines (like 100 or smthn dumb)
+                    - All Season Lines have had their keys changed in order to accomodate a less hardcoded marriage section (sowwy translators)
+             - Events
+                 -Changed a minor key in the VanillaEvents_Sam.json; went from something like takeOffBlindfold to SamADtakeOffBlindfold 
+                    - If you're a translator or someone, it doesn't really affect you; don't worry about it. It's just so I can make sure I'm not reusing names in the future. 
+                 - New file ! JealousyEvents_Sam.json
+                    - Now houses +7 new jealousy-related events for Seb, Alex, & 2 Generic events for when you're dating another~
+        
+        5.0.1: Fixed minor jealousy dialogue implementation in dialogue_sam.json; no change for translators
+        5.0.2: Missing $ in AfterDark.Core.Sam.Spring.LateHeart.16 and AfterDark.Core.Sam.Conversation.Fall.LateHeart.Memory.OneWeek
+                - Added Folder "Extra" including two files: ChangeLog.txt and Troubleshooting.txt
+        5.0.3: Changed conversation topics: "AfterDark.Core.Sam.Summer.LateHeart.16" and "AfterDark.Marriage.Sam.Indoor.Day.10" because i'm stupid and don't want to deal with questions
+        5.0.4: Fixed precondition errors in events? Maybe? Likely tho, cause a bitch spent like an hour updating all these fuck ass mods for such a minor issue
+        5.0.5: Randomizes dialogue & mail triggers more, meaning you're less likely to get them. No change to i18n on this part.
+                - Fixed "no translation" issue on kent lines, no change to i18n
+                5.0.6: 'speak 1750' -> 'pause 750' in JealousyEvents_Sam.json....
+
+
