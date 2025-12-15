@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 7/11/25 - Revised 9/28/25 & 11/15/25
 
 Hello! Thank you for caring enough to read through the credits! 
@@ -43,3 +44,50 @@ Thank you for playing my mods, hope you enjoy the newest version of Sam!
 
 - Losh
 
+=======
+7/11/25 - Revised 9/28/25 & 11/15/25
+
+Hello! Thank you for caring enough to read through the credits! 
+
+There's seriously been a lot of help and feedback that hasn't gone unnoticed with these packs and I hope you'll be as grateful for it all as I am. 
+
+Special thank you to Caterpixies (for almost every other event), BruhMoment, Kana, Shay (The Chapel Event), Denny (The Joja Line in the OG Bathhouse scene) & LoshSpawn for their ideas and help with events!
+
+Another special thank you to Caterpixies & Ghotsee (Mel) for proof reading, testing, and overall being such a big help with these packs! 
+
+AND a big thank you to danny & sunnie for helping coming up with dialogue lines & relationship dynamics for this recent update (5.0.0)!  
+
+And a special thank you to Makenzie for being such a thorough tester and telling me everything I do wrong </3 
+
+AND second before last, thank you to every user in the Discord who's helped test a beta version :) 
+
+Lastly, please thank the following users for their help coming up with ideas and dialogue lines in this pack: 
+- Monstarmews 
+- ChatDisabled
+- MuselaSora
+- ghotstee
+- iluminknotty
+- manncat
+- superdelusional
+- zestylimesss
+- frozenoj
+- stolna2lampa
+- Tatie
+- Sticky
+- Mari
+- Danny
+- auroragrove
+- caterpixie
+- bunny
+- tarta 
+- puzzledghost
+- mint
+- clem
+- Wildwistful27
+If you're interested in seeing which sections they helped out with, it's all in the default.json!
+
+Thank you for playing my mods, hope you enjoy the newest version of Sam!
+
+- Losh
+
+>>>>>>> a608cde3f2f5e4ca939ad64c3274c6a29ea8dbf7

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "Changes": [
         /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -948,4 +949,956 @@
             }
         }
     ]
+=======
+{
+    "Changes": [
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    FAMILY 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        // vincent
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_SamFamilyVincent": {
+                    "Id": "{{ModId}}_SamFamilyVincent",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sam 800, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamFamilyVincent1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_SamFamilyVincent": {
+                    "Id": "{{ModId}}_SamFamilyVincent",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sam 1000, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamFamilyVincent2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_SamFamilyVincent": {
+                    "Id": "{{ModId}}_SamFamilyVincent",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sam 1200, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamFamilyVincent3 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_SamFamilyVincent": {
+                    "Id": "{{ModId}}_SamFamilyVincent",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sam 1400, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamFamilyVincent4 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_SamFamilyVincent": {
+                    "Id": "{{ModId}}_SamFamilyVincent",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sam 1600, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamFamilyVincent5 1"
+                }
+            }
+        },
+        // jodi
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_SamFamilyJodi": {
+                    "Id": "{{ModId}}_SamFamilyJodi",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sam 700, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamFamilyJodi1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_SamFamilyJodi": {
+                    "Id": "{{ModId}}_SamFamilyJodi",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sam 900, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamFamilyJodi2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_SamFamilyJodi": {
+                    "Id": "{{ModId}}_SamFamilyJodi",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sam 1100, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamFamilyJodi3 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_SamFamilyJodi": {
+                    "Id": "{{ModId}}_SamFamilyJodi",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sam 1300, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamFamilyJodi4 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_SamFamilyJodi": {
+                    "Id": "{{ModId}}_SamFamilyJodi",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sam 1500, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamFamilyJodi5 1"
+                }
+            }
+        },
+        // kent
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_SamFamilyKent": {
+                    "Id": "{{ModId}}_SamFamilyKent",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sam 750, YEAR 1 1, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamFamilyKent1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_SamFamilyKent": {
+                    "Id": "{{ModId}}_SamFamilyKent",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sam 850, YEAR 1 1, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamFamilyKent2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_SamFamilyKent": {
+                    "Id": "{{ModId}}_SamFamilyKent",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sam 1150, YEAR 1 1, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamFamilyKent3 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_SamFamilyKent": {
+                    "Id": "{{ModId}}_SamFamilyKent",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sam 450, YEAR 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamFamilyKent4 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_SamFamilyKent": {
+                    "Id": "{{ModId}}_SamFamilyKent",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sam 650, YEAR 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamFamilyKent5 1"
+                }
+            }
+        },
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    FRIENDSHIP - BACHELORS
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        // alex
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfAlex1": {
+                    "Id": "{{ModId}}_AlexJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Alex 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamLowHeartAlexJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfAlex2": {
+                    "Id": "{{ModId}}_AlexJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Alex 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamLowHeartAlexJealousy2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfAlex3": {
+                    "Id": "{{ModId}}_AlexJealousy3",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Alex 6, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamHighHeartAlexJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfAlex4": {
+                    "Id": "{{ModId}}_AlexJealousy4",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Alex 8, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamHighHeartAlexJealousy2 1"
+                }
+            }
+        },
+        // Elliott
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfElliott1": {
+                    "Id": "{{ModId}}_ElliottJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Elliott 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamLowHeartElliottJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfElliott2": {
+                    "Id": "{{ModId}}_ElliottJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Elliott 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamLowHeartElliottJealousy2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfElliott3": {
+                    "Id": "{{ModId}}_ElliottJealousy3",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Elliott 6, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamHighHeartElliottJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfElliott4": {
+                    "Id": "{{ModId}}_ElliottJealousy4",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Elliott 8, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamHighHeartElliottJealousy2 1"
+                }
+            }
+        },
+        // harvey
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfHarvey1": {
+                    "Id": "{{ModId}}_HarveyJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Harvey 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamLowHeartHarveyJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfHarvey2": {
+                    "Id": "{{ModId}}_HarveyJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Harvey 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamLowHeartHarveyJealousy2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfHarvey3": {
+                    "Id": "{{ModId}}_HarveyJealousy3",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Harvey 6, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamHighHeartHarveyJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfHarvey4": {
+                    "Id": "{{ModId}}_HarveyJealousy4",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Harvey 8, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamHighHeartHarveyJealousy2 1"
+                }
+            }
+        },
+        // sebastian
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfSebastian1": {
+                    "Id": "{{ModId}}_SebastianJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Sebastian 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamLowHeartSebastianJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfSebastian": {
+                    "Id": "{{ModId}}_SebastianJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Sebastian 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamLowHeartSebastianJealousy2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfSebastian3": {
+                    "Id": "{{ModId}}_SebastianJealousy3",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Sebastian 6, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamHighHeartSebastianJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfSebastian4": {
+                    "Id": "{{ModId}}_SebastianJealousy4",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Sebastian 8, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamHighHeartSebastianJealousy2 1"
+                }
+            }
+        },
+        // Shane
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfShane1": {
+                    "Id": "{{ModId}}_ShaneJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Shane 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamLowHeartShaneJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfShane2": {
+                    "Id": "{{ModId}}_ShaneJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Shane 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamLowHeartShaneJealousy2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfShane3": {
+                    "Id": "{{ModId}}_ShaneJealousy3",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Shane 6, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamHighHeartShaneJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfShane4": {
+                    "Id": "{{ModId}}_ShaneJealousy4",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Shane 8, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamHighHeartShaneJealousy2 1"
+                }
+            }
+        },
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    FRIENDSHIP - BACHELORETTES
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        // abigail
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfAbigail1": {
+                    "Id": "{{ModId}}_AbigailJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Abigail 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamLowHeartAbigailJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",    
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfAbigail2": {
+                    "Id": "{{ModId}}_AbigailJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Abigail 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamLowHeartAbigailJealousy2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfAbigail3": {
+                    "Id": "{{ModId}}_AbigailJealousy3",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Abigail 6, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamHighHeartAbigailJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfAbigail4": {
+                    "Id": "{{ModId}}_AbigailJealousy4",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Abigail 8, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamHighHeartAbigailJealousy2 1"
+                }
+            }
+        },
+        // emily
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfEmily1": {
+                    "Id": "{{ModId}}_EmilyJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Emily 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamLowHeartEmilyJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfEmily2": {
+                    "Id": "{{ModId}}_EmilyJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Emily 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamLowHeartEmilyJealousy2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfEmily3": {
+                    "Id": "{{ModId}}_EmilyJealousy3",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Emily 6, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamHighHeartEmilyJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfEmily4": {
+                    "Id": "{{ModId}}_EmilyJealousy4",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Emily 8, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamHighHeartEmilyJealousy2 1"
+                }
+            }
+        },
+        // haley
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfHaley1": {
+                    "Id": "{{ModId}}_HaleyJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Haley 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamLowHeartHaleyJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfHaley2": {
+                    "Id": "{{ModId}}_HaleyJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Haley 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamLowHeartHaleyJealousy2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfHaley3": {
+                    "Id": "{{ModId}}_HaleyJealousy3",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Haley 6, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamHighHeartHaleyJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfHaley4": {
+                    "Id": "{{ModId}}_HaleyJealousy4",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Haley 8, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamHighHeartHaleyJealousy2 1"
+                }
+            }
+        },
+        // leah
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfLeah1": {
+                    "Id": "{{ModId}}_LeahJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Leah 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamLowHeartLeahJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfLeah2": {
+                    "Id": "{{ModId}}_LeahJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Leah 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamLowHeartLeahJealousy2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfLeah3": {
+                    "Id": "{{ModId}}_LeahJealousy3",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Leah 6, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamHighHeartLeahJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfLeah4": {
+                    "Id": "{{ModId}}_LeahJealousy4",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Leah 8, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamHighHeartLeahJealousy2 1"
+                }
+            }
+        },
+        // maru
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfMaru1": {
+                    "Id": "{{ModId}}_MaruJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Maru 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamLowHeartMaruJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfMaru2": {
+                    "Id": "{{ModId}}_MaruJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Maru 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamLowHeartMaruJealousy2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfMaru3": {
+                    "Id": "{{ModId}}_MaruJealousy3",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Maru 6, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamHighHeartMaruJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfMaru4": {
+                    "Id": "{{ModId}}_MaruJealousy4",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Maru 8, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamHighHeartMaruJealousy2 1"
+                }
+            }
+        },
+        // penny
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfPenny1": {
+                    "Id": "{{ModId}}_PennyJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Penny 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamLowHeartPennyJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfPenny2": {
+                    "Id": "{{ModId}}_PennyJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Penny 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamLowHeartPennyJealousy2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfPenny3": {
+                    "Id": "{{ModId}}_PennyJealousy3",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Penny 6, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamHighHeartPennyJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_JealousOfPenny4": {
+                    "Id": "{{ModId}}_PennyJealousy4",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Penny 8, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADSamHighHeartPennyJealousy2 1"
+                }
+            }
+        },
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    FLOWER DANCE 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_AlexDancePartner": {
+                    "Id": "{{ModId}}_AlexDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Alex, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADSamAlexDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_HarveyDancePartner": {
+                    "Id": "{{ModId}}_HarveyDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Harvey, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADSamHarveyDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_ElliottDancePartner": {
+                    "Id": "{{ModId}}_ElliottDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Elliott, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADSamElliottDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_SebastianDancePartner": {
+                    "Id": "{{ModId}}_SebastianDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Sebastian, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADSamSebastianDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_ShaneDancePartner": {
+                    "Id": "{{ModId}}_ShaneDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Shane, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADSamShaneDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_AbigailDancePartner": {
+                    "Id": "{{ModId}}_AbigailDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Abigail, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADSamAbigailDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_HaleyDancePartner": {
+                    "Id": "{{ModId}}_HaleyDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Haley, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADSamHaleyDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_EmilyDancePartner": {
+                    "Id": "{{ModId}}_EmilyDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Emily, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADSamEmilyDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_LeahDancePartner": {
+                    "Id": "{{ModId}}_LeahDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Leah, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADSamLeahDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_MaruDancePartner": {
+                    "Id": "{{ModId}}_MaruDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Maru, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADSamMaruDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_PennyDancePartner": {
+                    "Id": "{{ModId}}_PennyDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Penny, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADSamPennyDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_SamDancePartner": {
+                    "Id": "{{ModId}}_SamDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Sam, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADSamSamDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { "After Dark Dialogue": "All Dialogue"},
+            "Entries": {
+                "{{ModId}}_NotSamDancePartner": {
+                    "Id": "{{ModId}}_NotSamDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Sam, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC false",
+                    "Action": "AddConversationTopic ADSamNotSamDance 1"
+                }
+            }
+        }
+    ]
+>>>>>>> a608cde3f2f5e4ca939ad64c3274c6a29ea8dbf7
 }

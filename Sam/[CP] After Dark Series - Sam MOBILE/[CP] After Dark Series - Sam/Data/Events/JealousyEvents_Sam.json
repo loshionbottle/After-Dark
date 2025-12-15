@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "Changes": [
         /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -83,4 +84,91 @@
             }
         }
     ]
+=======
+{
+    "Changes": [
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    GENERIC - DATING OTHERS 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        // Figure 
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Beach",
+            "When": { "After Dark Events": "All Events", "SamRival": "{{SamRival}}, default" },
+            "Entries": {
+                "SamADGenericBeachJealousy/f Sam 250/o Sam/e SamADBreakIn/t 1700 2100/w sunny": "ocean/-100 -100/farmer 44 24 2 {{SamRival}} 45 24 2 Shadow 44 10 2/viewport 44 21 clamp true/skippable/pause 2000/emote {{SamRival}} 20/positionOffset {{SamRival}} -2 0/pause 100/positionOffset {{SamRival}} -2 0/pause 100/positionOffset {{SamRival}} -2 0/pause 100/positionOffset {{SamRival}} -2 0/pause 100/positionOffset {{SamRival}} -2 0/positionOffset {{SamRival}} -2 0/pause 100/pause 500/emote farmer 20/pause 500/move Shadow 0 8 2/pause 200/emote Shadow 40/pause 1000/emote farmer 60/emote {{SamRival}} 60/pause 500/emote Shadow 28/pause 500/faceDirection Shadow 0/move Shadow 0 -8 0/pause 200/globalFade/viewport -100 -100/end dialogue Sam \"{{i18n:AD.Sam.Events.Jealousy.Generic.Beach.1{{RivalName}}}}\""
+            }
+        },
+        // Sam 
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Saloon",
+            "When": { "After Dark Events": "All Events", "SamRival": "{{SamRival}}, default" },
+            "Entries": {
+                "SamADGenericSaloonJealousy/f Sam 500/o Sam/e SamADBathhouse/t 2000 2400": "jaunty/-1000 -1000/farmer 16 20 1 {{Gus}} 14 18 2 {{Pam}} 7 18 1 {{Abigail}} 41 18 2 Sam 42 20 3 {{SamRival}} 17 20 3/pause 500/viewport 20 18 true/skippable/{{GusAnimation}}/pause 1000/emote {{SamRival}} 20/emote farmer 60/pause 1000/viewport move 10 0 2500/pause 1500/emote Sam 12/pause 400/emote {{Abigail}} 28/pause 500/speak {{Abigail}} \"{{i18n:AD.Sam.Events.Jealousy.Generic.Saloon.1{{RivalName}}}}\"/pause 200/emote Alex 32/pause 500/message \"{{i18n:AD.Sam.Events.Jealousy.Generic.Saloon.2{{RivalName}}}}\"/pause 200/emote Sam 12/pause 500/message \"{{i18n:AD.Sam.Events.Jealousy.Generic.Saloon.3}}\"/pause 500/emote {{Abigail}} 28/pause 500/globalFade/viewport -1000 -1000/end dialogue Sam \"{{i18n:AD.Sam.Events.Jealousy.Generic.Saloon.4{{RivalName}}}}\""
+            }
+        },
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    RESPONSE TO SEB 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        // Post Seb Fight - 3h, immediately after Seb's at the beach
+        // **Special case for him getting 3 events for Seb -- I just like being devious & having two men fight over me...
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Beach",
+            "When": { "After Dark Events": "All Events", "HasMod |contains=caterbottle.sebafterdark": true },
+            "Entries": {
+                "SamADSamPostFight/e ADSebJealous/!e ADStalkableFarmer/t 2000 2600": "ocean/-100 -100/Sam 44 24 2 farmer 44 10 2/viewport 44 21 clamp true/skippable/pause 2000/emote Sam 12/pause 750/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.SebPostFight.1}}\"/pause 200/move farmer 0 5 2/positionOffset farmer -2 0/pause 200/move farmer 0 1 2/positionOffset farmer 3 0/pause 200/move farmer 0 3 2/pause 200/emote farmer 8/pause 500/emote Sam 16/pause 250/faceDirection Sam 0/pause 200/emote Sam 32/pause 400/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.SebPostFight.2{{GeneralPlayerEndearment}}}}\"/pause 200/question fork1 \"#{{i18n:AD.Sam.Events.Jealousy.SebPostFight.3}}#{{i18n:AD.Sam.Events.Jealousy.SebPostFight.4}}\"/fork ADSamFinishes/pause 200/emote Sam 28/pause 420/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.SebPostFight.5}}\"/pause 200/resetVariable/question fork1 \"#{{i18n:AD.Sam.Events.Jealousy.SebPostFight.6}}#{{i18n:AD.Sam.Events.Jealousy.SebPostFight.7}}\"/fork ADSamFinishes/pause 200/emote Sam 28/pause 500/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.SebPostFight.8}}\"/pause 200/message \"{{i18n:AD.Sam.Events.Jealousy.SebPostFight.9}}\"/pause 200/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.SebPostFight.10}}\"/pause 200/emote farmer 40/pause 500/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.SebPostFight.11}}\"/switchEvent ADSamPreventsShadowWalkHomeChoice",
+                "ADSamFinishes": "pause 200/emote Sam 28/pause 450/speak Sam \"Di{{i18n:AD.Sam.Events.Jealousy.SebPostFight.12}}\"/pause 200/resetVariable/question fork1 \"#{{i18n:AD.Sam.Events.Jealousy.SebPostFight.13}}#{{i18n:AD.Sam.Events.Jealousy.SebPostFight.14}}\"/fork ADYouAintHearShit/pause 200/emote Sam 40/pause 420/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.SebPostFight.15}}\"/pause 200/emote farmer 28/pause 420/faceDirection Sam 2/pause 200/emote Sam 28/pause 420/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.SebPostFight.16}}\"/pause 200/faceDirection Sam 0/move Sam 0 -2 0/pause 200/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.SebPostFight.17}}\"/pause 200/emote Sam 28/pause 420/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.SebPostFight.18}}\"/pause 200/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.SebPostFight.19}}\"/pause 200/emote farmer 28/pause 350/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.SebPostFight.20}}\"/pause 200/emote farmer 28/pause 420/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.SebPostFight.21}}\"/pause 200/switchEvent ADSamPreventsShadowWalkHomeChoice",
+                "ADYouAintHearShit": "pause 200/emote Sam 40/pause 420/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.SebPostFight.22}}\"/pause 200/switchEvent ADSamPreventsShadowWalkHomeChoice",
+                "ADSamPreventsShadowWalkHomeChoice": "pause 200/resetVariable/question fork1 \"#{{i18n:AD.Sam.Events.Jealousy.SebPostFight.23}}#{{i18n:AD.Sam.Events.Jealousy.SebPostFight.24}}\"/fork ADSamGoHomeYourself/pause 500/emote Sam 32/pause 500/globalFade/viewport -100 -100/eventSeen ADStalkableFarmer/end",
+                "ADSamGoHomeYourself": "pause 200/emote Sam 28/pause 420/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.SebPostFight.25}}\"/pause 200/emote farmer 32/pause 420/faceDirection farmer 0/move farmer 0 -8 0/pause 200/faceDirection Sam 2/pause 500/globalFade/viewport -100 -100/end"
+            }
+        },
+        // Post Seb Kiss
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Backwoods",
+            "When": { "After Dark Events": "All Events", "HasMod |contains=caterbottle.sebafterdark": true },
+            "Entries": {
+                "SamADSamPostShotgunKiss/ActiveDialogueEvent ADSebFirstKissTopic/t 2000 2600": "continue/-100 -100/farmer 43 14 3 Sam 52 14 3/viewport 35 14 clamp true/skippable/pause 200/move farmer -7 0 3/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.SebPostKiss.1}}\"/pause 200/emote farmer 16/move Sam -14 0 3 true/pause 200/faceDirection farmer 1/pause 500/emote farmer 12/pause 200/waitForAllStationary/question fork1 \"#{{i18n:AD.Sam.Events.Jealousy.SebPostKiss.2}}#{{i18n:AD.Sam.Events.Jealousy.SebPostKiss.3}}\"/fork ADSamUrNotOkBeingShot/pause 200/emote Sam 40/pause 400/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.SebPostKiss.4}}\"/pause 200/resetVariable/question fork1 \"#{{i18n:AD.Sam.Events.Jealousy.SebPostKiss.5}}#{{i18n:AD.Sam.Events.Jealousy.SebPostKiss.6}}\"/fork ADSamLeaveEmTheHellAlone/pause 200/emote Sam 32/pause 500/switchEvent ADSamUrNotOkBeingShot",
+                "ADSamUrNotOkBeingShot": "pause 200/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.SebPostKiss.7}}\"/pause 200/move Sam -1 0 3/pause 200/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.SebPostKiss.8}}\"/pause 200/emote farmer 40/pause 450/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.SebPostKiss.9}}\"/pause 200/faceDirection Sam 1/pause 200/emote Sam 28/pause 450/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.SebPostKiss.10}}\"/pause 500/faceDirection Sam 3/pause 200/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.SebPostKiss.11}}\"/pause 200/resetVariable/question fork1 \"#{{i18n:AD.Sam.Events.Jealousy.SebPostKiss.12}}#{{i18n:AD.Sam.Events.Jealousy.SebPostKiss.13}}\"/fork ADSamLeaveEmTheHellAlone/pause 200/emote Sam 20/pause 400/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.SebPostKiss.14}}\"/positionOffset Sam -2 0/pause 100/positionOffset Sam -2 0/pause 100/positionOffset Sam -2 0/pause 100/positionOffset Sam -2 0/pause 100/positionOffset Sam -2 0/pause 100/positionOffset Sam -2 0/pause 100/positionOffset Sam -2 0/animate Sam true true 100 36/showFrame 101/pause 500/message \"{{i18n:AD.Sam.Events.Jealousy.SebPostKiss.15}}\"/pause 200/stopAnimation Sam/showFrame farmer 0/faceDirection farmer 1/emote Sam 32/pause 400/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.SebPostKiss.16}}\"/pause 200/emote farmer 60/pause 200/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.SebPostKiss.17}}\"/switchEvent ADSamWalksYouHomeYetAgain",
+                "ADSamLeaveEmTheHellAlone": "pause 200/emote Sam 12/pause 400/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.SebPostKiss.18}}\"/pause 200/emote Sam 12/pause 450/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.SebPostKiss.19}}\"/switchEvent ADSamWalksYouHomeYetAgain",
+                "ADSamWalksYouHomeYetAgain": "pause 200/resetVariable/question fork1 \"#{{i18n:AD.Sam.Events.Jealousy.SebPostKiss.20}}#{{i18n:AD.Sam.Events.Jealousy.SebPostKiss.21}}\"/fork ADDenyTheWalkHome/pause 200/emote Sam 32/pause 500/globalFade/viewport -100 -100/end",
+                "ADDenyTheWalkHome": "pause 200/emote Sam 28/pause 400/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.SebPostKiss.22}}\"/pause 200/move Sam 15 0 1/pause 200/emote farmer 28/pause 400/globalFade/viewport -100 -100/end"
+            }
+        },
+        // dumb
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Mountain",
+            "When": { "After Dark Events": "All Events", "HasMod |contains=caterbottle.sebafterdark": true },
+            "Entries": {
+                "SamADYouThoughtItWasSebLOL/e 384883/e SamADBathhouse/t 1100 1700": "continue/-100 -100/farmer 0 0 0 Shadow 0 0 0/skippable/pause 500/message \"{{i18n:AD.Sam.Events.Jealousy.ThotWasSeb.1}}\"/glow 100 100 100 true/pause 750/speak Shadow \"{{i18n:AD.Sam.Events.Jealousy.ThotWasSeb.2{{GeneralPlayerEndearment}}}}\"/pause 200/message \"{{i18n:AD.Sam.Events.Jealousy.ThotWasSeb.3}}\"/pause 200/speak Shadow \"{{i18n:AD.Sam.Events.Jealousy.ThotWasSeb.4}}\"/pause 200/question fork1 \"#'{{i18n:AD.Sam.Events.Jealousy.ThotWasSeb.5}}'#'{{i18n:AD.Sam.Events.Jealousy.ThotWasSeb.6}}'\"/fork ADSamMoansAndGroans/pause 200/message \"{{i18n:AD.Sam.Events.Jealousy.ThotWasSeb.7}}\"/pause 200/speak Shadow \"{{i18n:AD.Sam.Events.Jealousy.ThotWasSeb.8}}\"/pause 200/message \"{{i18n:AD.Sam.Events.Jealousy.ThotWasSeb.9}}\"/pause 200/speak Shadow \"{{i18n:AD.Sam.Events.Jealousy.ThotWasSeb.10{{GeneralPlayerEndearment}}}}\"/pause 200/stopGlowing/pause 500/globalFade/viewport -100 -100/end",
+                "ADSamMoansAndGroans": "pause 200/message \"{{i18n:AD.Sam.Events.Jealousy.ThotWasSeb.11}}\"/pause 200/speak Shadow \"{{i18n:AD.Sam.Events.Jealousy.ThotWasSeb.12{{GeneralPlayerEndearment}}}}\"/pause 200/message \"{{i18n:AD.Sam.Events.Jealousy.ThotWasSeb.13}}\"/pause 200/speak Shadow \"{{i18n:AD.Sam.Events.Jealousy.ThotWasSeb.14}}\"/pause 200/message \"{{i18n:AD.Sam.Events.Jealousy.ThotWasSeb.15}}\"/pause 200/speak Shadow \"{{i18n:AD.Sam.Events.Jealousy.ThotWasSeb.16{{GeneralPlayerEndearment}}}}\"/pause 200/stopGlowing/pause 500/globalFade/viewport -100 -100/end"
+            }
+        },
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    RESPONSE TO ALEX 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        // Post Alex's Trauma Dump
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/BusStop",
+            "When": { "After Dark Events": "All Events", "HasMod |contains=loshionbottle.alexafterdark": true },
+            "Entries": {
+                "SamADCryingBeggingOverAlex/e 2481135/t 900 1800": "continue/-100 -100/farmer 30 23 3 Sam 41 23 3/pause 500/viewport 23 20 true/skippable/pause 500/move farmer -7 0 3 true/pause 750/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.AlexBegging.1}}\"/pause 200/emote farmer 16/pause 400/move Sam -15 0 3 true/pause 500/faceDirection farmer 1/pause 200/emote farmer 8/pause 200/waitForAllStationary/emote Sam 28/pause 500/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.AlexBegging.2}}\"/pause 200/emote farmer 12/pause 500/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.AlexBegging.3}}\"/pause 200/move Sam -2 0 3/pause 200/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.AlexBegging.4}}\"/pause 200/emote Sam 28/pause 420/faceDirection Sam 1/pause 200/speak Sam \"{{i18n:AD.Sam.Events.Jealousy.AlexBegging.5}}\"/pause 500/move Sam 20 0 1 true/pause 1000/emote farmer 28/pause 1000/globalFade/viewport -100 -100/end"
+            }
+        },
+        // Post Alex's Bathhouse Kiss
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "When": { "After Dark Events": "All Events", "HasMod |contains=loshionbottle.alexafterdark": true },
+            "Entries": {
+                "SamADYouBelongToMe/ActiveDialogueEvent ADAlexGetKissedTopic/e SamADBathhouse/t 1700 2600": "continue/-100 -100/farmer 0 0 0 Shadow 0 0 0/skippable/pause 2000/speak Shadow \"{{i18n:AD.Sam.Events.Jealousy.AlexFigure.1{{GeneralPlayerEndearment}}}}\"/pause 200/message \"{{i18n:AD.Sam.Events.Jealousy.AlexFigure.2}}\"/glow 100 100 100 true/pause 750/speak Shadow \"{{i18n:AD.Sam.Events.Jealousy.AlexFigure.3}}\"/pause 200/message \"{{i18n:AD.Sam.Events.Jealousy.AlexFigure.4}}\"/pause 200/speak Shadow \"{{i18n:AD.Sam.Events.Jealousy.AlexFigure.5}}\"/pause 200/message \"{{i18n:AD.Sam.Events.Jealousy.AlexFigure.6}}\"/pause 200/speak Shadow \"{{i18n:AD.Sam.Events.Jealousy.AlexFigure.7}}\"/pause 500/speak Shadow \"{{i18n:AD.Sam.Events.Jealousy.AlexFigure.8}}\"/pause 200/message \"{{i18n:AD.Sam.Events.Jealousy.AlexFigure.9}}\"/pause 500/stopGlowing/pause 500/globalFade/viewport -100 -100/end"
+            }
+        }
+    ]
+>>>>>>> a608cde3f2f5e4ca939ad64c3274c6a29ea8dbf7
 }
