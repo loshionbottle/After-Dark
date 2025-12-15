@@ -1,0 +1,13 @@
+{
+    "Changes": [
+        {
+            "LogName": "Alex's Rando Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alex",
+            "Entries": {
+                // Intro 
+                "Introduction": "Here's my silver locket.#$action AddItem {{ModId}}_AlexSilverLocket 1"
+            }
+        }
+    ]
+}

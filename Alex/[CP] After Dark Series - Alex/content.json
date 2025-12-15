@@ -214,16 +214,18 @@
      █████ █   █  ████ █████ █████ ████  █████ 
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
     "Changes": [
+        /*
         {
             "LogName": "After Dark Alex's ALL Events",
             "Action": "Include",
             "FromFile": "Data/Events/Events_Alex.json, Data/Events/JealousyEvents_Alex.json"
-        },
+        },*/
         {
             "LogName": "After Dark Alex's Dialogue",
             "Action": "Include",
-            "FromFile": "Data/Dialogue/Dialogue_Alex.json, Data/Dialogue/MarriageDialogue_Alex.json, Data/Dialogue/DialogueTriggers_Alex.json"
-        },
+            "FromFile": "Data/Dialogue/Dialogue_Alex.json"
+            //"FromFile": "Data/Dialogue/Dialogue_Alex.json, Data/Dialogue/MarriageDialogue_Alex.json, Data/Dialogue/DialogueTriggers_Alex.json"
+        },/*
         {
             "LogName": "After Dark Alex's Mail",
             "Action": "Include",
@@ -232,8 +234,25 @@
         {
             "LogName": "After Dark Alex's LetterBackgrounds",
             "Action": "Load",
-            "Target": "Mods/loshionbottle.Alexafterdark/LetterBackgrounds",
+            "Target": "Mods/{{ModId}}/LetterBackgrounds",
             "FromFile": "Data/Mail/ObsessedMail_Alex.png"
+        },*/
+        {
+            "LogName": "After Dark Alex's Necklace Load",
+            "Action": "Include",
+            "FromFile": "Data/Necklace/Necklace.json"
+        },
+        {
+            "LogName": "After Dark Alex's Silver Necklace",
+            "Action": "Load",
+            "FromFile": "Data/Necklace/Silver_Necklace.png",
+            "Target": "Mods/{{ModId}}/Silver_Necklace"
+        },
+        {
+            "LogName": "After Dark Alex's Silver Necklace",
+            "Action": "Load",
+            "FromFile": "Data/Necklace/Gold_Necklace.png",
+            "Target": "Mods/{{ModId}}/Gold_Necklace"
         }
     ]
 }
