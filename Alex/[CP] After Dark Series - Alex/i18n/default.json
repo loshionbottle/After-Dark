@@ -171,13 +171,13 @@
     ███   █████ █   █ █████  ███  █████ █████   █       ████  █████ █   █ █████  ███   ███  █████ █████ 
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
     // Jealousy 
-    "AfterDark.Core.Alex.Jealous.Married.Sebastian": "Does Sebastian make you happy?$s#$b#What does he have that I don't...$9",
-    "AfterDark.Core.Alex.Jealous.Married.Shane": "Are you happy with Shane?$s#$b#I swear to Yoba, if he ever does anything...$a",
-    "AfterDark.Core.Alex.Jealous.Married.Harvey": "Harvey? Don't you know he-$s#$b#You know what, if he makes you happy, that's all I need.$9",
-    "AfterDark.Core.Alex.Jealous.Married.Elliott": "You married Elliot?$s#$b#I could write you more love letters if it'd mean you'd come back to me, {{LPetName}}.$s",
-    "AfterDark.Core.Alex.Jealous.Married.Sam": "...$s#$b#I just hope Sam treats you better than I think he will...$9",
-    "AfterDark.Core.Alex.Jealous.Inlaw.Haley": "Are you happy with her? Haley, I mean.$s",
-    "AfterDark.Core.Alex.Jealous.Inlaw4.Haley": "I'll admit, I was a little jealous when you and Haley got married. But, hey...#$b#Atleast now I have a chance to learn something new about myself.",
+    "AfterDark.Core.Alex.Jealous.Married.Sebastian": "",
+    "AfterDark.Core.Alex.Jealous.Married.Shane": "",
+    "AfterDark.Core.Alex.Jealous.Married.Harvey": "",
+    "AfterDark.Core.Alex.Jealous.Married.Elliott": "",
+    "AfterDark.Core.Alex.Jealous.Married.Sam": "",
+    "AfterDark.Core.Alex.Jealous.Inlaw.Haley": "",
+    "AfterDark.Core.Alex.Jealous.Inlaw4.Haley": "",
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     █████  ███  █   █ █████ █     █   █     ████  █████  ███  █      ███   ████ █   █ █████ 
     █     █   █ ██ ██   █   █      █ █      █   █   █   █   █ █     █   █ █     █   █ █     
