@@ -53,8 +53,8 @@
                 "{{ModId}}_LuckBuff": {
                     "Displayname": "Lucky in Love",
                     "Duration": -2,
-                    "IconTexture": "Tilesheets\\BuffsIcons",
-                    "IconSpriteIndex": 4,
+                    "IconTexture": "Mods/{{ModId}}/LuckyLove_BuffIcon",
+                    "IconSpriteIndex": 0,
                     "Effects": {
                         "LuckLevel": 3.0
                     }

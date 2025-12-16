@@ -243,6 +243,12 @@
             "FromFile": "Data/Necklace/Necklace.json"
         },
         {
+            "LogName": "After Dark Alex's Lucky in Love Buff Icon",
+            "Action": "Load",
+            "FromFile": "Data/Necklace/LuckyLove_BuffIcon.png",
+            "Target": "Mods/{{ModId}}/LuckyLove_BuffIcon"
+        },
+        {
             "LogName": "After Dark Alex's Silver Necklace",
             "Action": "Load",
             "FromFile": "Data/Necklace/Silver_Necklace.png",
