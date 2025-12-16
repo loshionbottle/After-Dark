@@ -13,48 +13,42 @@
         ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
         "Player Pronouns 1": {
             "Default": "Them",
-            "AllowBlank": false,
-            "AllowMultiple": true,
+            "AllowValues": "Them, Her, Him",
             "Section": "Pronouns",
-            "Description": "Would typically be something similar to \"Them\", \"Her\", \"Him\""
+            "Description": "Sets the player's desired pronoun."
         },
         "Player Pronouns 2": {
             "Default": "Their",
-            "AllowBlank": false,
-            "AllowMultiple": true,
+            "AllowValues": "Their, Her, His",
             "Section": "Pronouns",
-            "Description": "Would typically be something similar to \"Their\", \"Her\", \"His\""
+            "Description": "Sets the player's desired pronoun."
         },
         /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
         |    PLAYER ENDEARMENT 
         ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
         "Pet Name": {
             "Default": "Babe",
-            "AllowBlank": false,
-            "AllowMultiple": true,
+            "AllowValues": "Babe, Baby, Babygirl, Babyboy, Darling, Princess, Prince, Flower, Love, My Love, Angel, Doll, Dollface, Sweetheart, Honey, Sunshine, Bunny, Kitty, Kitten",
             "Section": "Endearment",
-            "Description": "Would typically be \"Babe\", \"Darling\", \"Sweetheart\", etc."
+            "Description": "Sets the player's desired pet name."
         },
         "Descriptive Word": {
             "Default": "Cute",
-            "AllowBlank": false,
-            "AllowMultiple": true,
+            "AllowValues": "Cute, Pretty, Handsome, Sweet, Lovely, Sexy, Adorable, Gorgeous",
             "Section": "Endearment",
-            "Description": "Would typically be \"Pretty\", \"Cute\", \"Handsome\", etc."
+            "Description": "Sets the player's desired descriptive word."
         },
         "Good...": {
             "Default": "Farmer",
-            "AllowBlank": false,
-            "AllowMultiple": true,
+            "AllowValues": "Farmer, Girl, Boy, Whore, Pet, Kitten, Kitty, Thing",
             "Section": "Endearment",
-            "Description": "Would typically be \"Boy\", \"Girl\", \"Slut\", etc."
+            "Description": "Sets the player's desired good... name. Works like \"Good Girl\", etc."
         },
         "Marriage Affection": {
             "Default": "Spouse",
-            "AllowBlank": false,
-            "AllowMultiple": true,
+            "AllowValues": "Husband, Wife, Spouse, Shawty Bae",
             "Section": "Endearment",
-            "Description": "How Sam refers to you after marriage. Would typically be \"Husband\", \"Wife\", \"Spouse\", \"Shawty Bae\", etc."
+            "Description": "Sets the player's desired name after marriage."
         },
         /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
         |    DIALOGUE 

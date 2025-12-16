@@ -6,6 +6,48 @@
     █     █   █ █  ██ █       █   █   █     █   █ █     █  ██ █   █ 
      ████  ███  █   █ █     █████  ███      █   █ █████ █   █ █████   
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    // Player Config 
+    "config.section.Pronouns.name": "Pronouns",
+    "config.Player Pronouns 1.name": "Player Pronouns 1",
+    "config.Player Pronouns 1.description": "Would typically be something similar to \"Them\", \"Her\", \"Him\"",
+    "config.Player Pronouns 2.name": "Player Pronouns 2",
+    "config.Player Pronouns 2.description": "Would typically be something similar to \"Their\", \"Her\", \"His\"",
+    "config.Player Pronouns 3.name": "Player Pronouns 3",
+    "config.Player Pronouns 3.description": "Would typically be something similar to \"They\", \"She\", \"He\"",
+
+    // Endearment
+    "config.section.Endearment.name": "Endearment",
+    "config.Pet Name.name": "Pet Name",
+    "config.Pet Name.description": "Would typically be \"Babe\", \"Darling\", \"Sweetheart\", etc.",
+    "config.Descriptive Word.name": "Descriptive Word",
+    "config.Descriptive Word.description": "Would typically be \"Pretty\", \"Cute\", \"Handsome\", etc.",
+    "config.Good....name": "Good...",
+    "config.Good....description": "Would typically be \"Boy\", \"Girl\", \"Slut\", etc.",
+    "config.Marriage Affection.name": "Marriage Affection",
+    "config.Marriage Affection.description": "How Sam refers to you after marriage. Would typically be \"Husband\", \"Wife\", \"Spouse\", \"Shawty Bae\", etc.",
+
+    // Dialogue
+    "config.section.Dialogue.name": "Dialogue",
+    "config.After Dark Dialogue.name": "After Dark Dialogue",
+    "config.After Dark Dialogue.description": "Toggle between which dialogue you'd like this pack to add. Choosing \"No Jealousy Dialogue\" will disable all jealousy-related dialogue this pack offers. If you'd like to turn off all dialogue, select \"No Dialogue\".",
+    "config.After Dark Dialogue.values.All Dialogue": "All Dialogue",
+    "config.After Dark Dialogue.values.No Jealousy Dialogue": "No Jealousy Dialogue",
+    "config.After Dark Dialogue.values.No Dialogue": "No Dialogue",
+
+    // Events
+    "config.section.Events.name": "Events",
+    "config.After Dark Events.name": "After Dark Events",
+    "config.After Dark Events.description": "Toggle between which events you'd like this pack to add. Choosing \"All Events\" will include ALL events his pack offers, including jealousy-related ones. Choosing \"No Jealousy Events\" will include MOST events his pack offers, only excluding jealousy-related ones. If you'd like to turn off all events, select \"No Events\".",
+    "config.After Dark Events.values.Jealousy Events": "All Events",
+    "config.After Dark Events.values.No Jealousy Events": "No Jealousy Events",
+    "config.After Dark Events.values.No Events": "No Events",
+
+    // Mail
+    "config.section.Mail.name": "Events",
+    "config.After Dark Mail.name": "After Dark Mail",
+    "config.After Dark Mail.description": "Toggle between which mail you'd like this pack to add. Choosing \"Mail\" will include ALL mail he (or the figure) sends. If you'd like to turn off all mail, select \"No Mail\".",
+    "config.After Dark Mail.values.Mail": "Mail",
+    "config.After Dark Mail.values.No Mail": "No Mail",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     ████   ███  █   █ ████   ███  █   █     ████  █████  ███  █      ███   ████ █   █ █████ 
