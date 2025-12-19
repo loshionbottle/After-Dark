@@ -24,7 +24,7 @@
     "config.Good....name": "Good...",
     "config.Good....description": "Would typically be \"Boy\", \"Girl\", \"Slut\", etc.",
     "config.Marriage Affection.name": "Marriage Affection",
-    "config.Marriage Affection.description": "How Sam refers to you after marriage. Would typically be \"Husband\", \"Wife\", \"Spouse\", \"Shawty Bae\", etc.",
+    "config.Marriage Affection.description": "How Alex refers to you after marriage. Would typically be \"Husband\", \"Wife\", \"Spouse\", \"Shawty Bae\", etc.",
 
     // Dialogue
     "config.section.Dialogue.name": "Dialogue",
@@ -84,7 +84,7 @@
     "AfterDark.Core.Alex.RejectGift.Divorced": "Are you really trying to make amends after you divorced me?$a#$b#Please, just leave me alone.$s",
     "AfterDark.Core.Alex.Divorced": "%Alex looks at you longingly, but refuses to say anything.",
     "AfterDark.Core.Alex.BreakUp": "Why are they wilt- Oh.$7#$b#{{PetName}}, I-$s#$b#What did I do wrong?$s",
-    // on 9/14/2024 7:33pm CST, user density120 made an nsfw edit of alex & sam fucking with me, a pure, angelic, did I mention *pure*?, lotion bottle covering their dicks and I haven't been the same since. I was working on the following line.
+    // on 9/14/2024 7:33pm CST, user density120 made an nsfw edit of alex & Alex fucking with me, a pure, angelic, did I mention *pure*?, lotion bottle covering their dicks and I haven't been the Alexe since. I was working on the following line.
     "AfterDark.Core.Alex.DumpedGuys": "How could you, @?$s",
     "AfterDark.Core.Alex.SecondChanceGuys": "I don't think I could ever stay mad at you for too long, {{LPetName}}.$9#$b#I'm just glad you've realized I'm the better man for you.",
 
@@ -130,30 +130,221 @@
     - Denny
     For helping with a lot of these lines :3 */ 
 
-    // Generic 0 Hearts
-    "AfterDark.Core.Alex.0Heart.1": "Listen, {{LPetName}}, you don't have to keep talking to me. You're not even my type.$9#$b#You need to be more...$9#$b#Nevermind.",  
-    "AfterDark.Core.Alex.0Heart.2": "Huh? Were you talking to me?$9#$b#Eh, don't bother repeating. I wouldn't have listened anyway.", 
-    "AfterDark.Core.Alex.0Heart.3": "Uh, hold on.$9#$b#I see a pile of leaves over there that's more interesting to talk to.", 
-    "AfterDark.Core.Alex.0Heart.4": "Would you stop bothering me already?$9#$b#I don't want whatever products you're selling.$a", 
-    "AfterDark.Core.Alex.0Heart.5": "%Alex is pretending like you don't exist.", 
-    "AfterDark.Core.Alex.0Heart.6": "As much as I find farm work SUPER interesting, I have things to get back to.$9#$b#Like ignoring you, for example.", 
-    "AfterDark.Core.Alex.0Heart.7": "How's the weather treating you?#$b#Uh- Actually, I don't really care.$9", 
-    "AfterDark.Core.Alex.0Heart.8": "...$9#$e#What? Why are you still here?$a", 
-    "AfterDark.Core.Alex.0Heart.9": "What was your name again? %name? No, %firstnameletter%name?$9#$b#Eh, doesn't matter anyway.",
-    "AfterDark.Core.Alex.0Heart.10": "You again? Don't you have some important farmwork to do or something?$9",
-    "AfterDark.Core.Alex.0Heart.11": "Look, you seem nice, but I think I'd rather make conversation with a gridball right now.$9",
-    "AfterDark.Core.Alex.0Heart.12": "If you're looking for some seriously interesting conversation, try someone else.$9#$b#I'm really not interested in being friends with you.$9",
-    "AfterDark.Core.Alex.0Heart.13": "Hey, my name's Alex.#$e#Oh, did we already meet? I guess you're just not that memorable.$s",
-    "AfterDark.Core.Alex.0Heart.14": "What do you need?$9#$b#Come on, make it quick. I don't have all day.$9",
-
     // SPRING
+    "AfterDark.Core.Alex.Spring.0Heart.1": "",
+    "AfterDark.Core.Alex.Spring.0Heart.2": "",
+    "AfterDark.Core.Alex.Spring.0Heart.3": "",
+    "AfterDark.Core.Alex.Spring.0Heart.4": "",
+    "AfterDark.Core.Alex.Spring.0Heart.5": "",
+    "AfterDark.Core.Alex.Spring.0Heart.6": "",
+    "AfterDark.Core.Alex.Spring.0Heart.7": "",
+    "AfterDark.Core.Alex.Spring.0Heart.8": "",
+    "AfterDark.Core.Alex.Spring.0Heart.9": "",
+    "AfterDark.Core.Alex.Spring.0Heart.10": "",
+    "AfterDark.Core.Alex.Spring.0Heart.11": "",
+    "AfterDark.Core.Alex.Spring.0Heart.12": "",
+    "AfterDark.Core.Alex.Spring.0Heart.13": "",
+    "AfterDark.Core.Alex.Spring.0Heart.14": "",
+    "AfterDark.Core.Alex.Spring.0Heart.15": "",
+
+    "AfterDark.Core.Alex.Spring.EarlyHeart.1": "",
+    "AfterDark.Core.Alex.Spring.EarlyHeart.2": "",
+    "AfterDark.Core.Alex.Spring.EarlyHeart.3": "",
+    "AfterDark.Core.Alex.Spring.EarlyHeart.4": "",
+    "AfterDark.Core.Alex.Spring.EarlyHeart.5": "",
+    "AfterDark.Core.Alex.Spring.EarlyHeart.6": "",
+    "AfterDark.Core.Alex.Spring.EarlyHeart.7": "",
+    "AfterDark.Core.Alex.Spring.EarlyHeart.8": "",
+    "AfterDark.Core.Alex.Spring.EarlyHeart.9": "",
+    "AfterDark.Core.Alex.Spring.EarlyHeart.10": "",
+
+    "AfterDark.Core.Alex.Spring.MidHeart.1": "",
+    "AfterDark.Core.Alex.Spring.MidHeart.2": "",
+    "AfterDark.Core.Alex.Spring.MidHeart.3": "",
+    "AfterDark.Core.Alex.Spring.MidHeart.4": "",
+    "AfterDark.Core.Alex.Spring.MidHeart.5": "",
+    "AfterDark.Core.Alex.Spring.MidHeart.6": "",
+    "AfterDark.Core.Alex.Spring.MidHeart.7": "",
+    "AfterDark.Core.Alex.Spring.MidHeart.8": "",
+    "AfterDark.Core.Alex.Spring.MidHeart.9": "",
+    "AfterDark.Core.Alex.Spring.MidHeart.10": "",
+    "AfterDark.Core.Alex.Spring.MidHeart.11": "",
+    "AfterDark.Core.Alex.Spring.MidHeart.12": "",
+    "AfterDark.Core.Alex.Spring.MidHeart.13": "",
+    "AfterDark.Core.Alex.Spring.MidHeart.14": "",
+    "AfterDark.Core.Alex.Spring.MidHeart.15": "",
+
+    "AfterDark.Core.Alex.Spring.LateHeart.1": "",
+    "AfterDark.Core.Alex.Spring.LateHeart.2": "",
+    "AfterDark.Core.Alex.Spring.LateHeart.3": "",
+    "AfterDark.Core.Alex.Spring.LateHeart.4": "",
+    "AfterDark.Core.Alex.Spring.LateHeart.5": "",
+    "AfterDark.Core.Alex.Spring.LateHeart.6": "",
+    "AfterDark.Core.Alex.Spring.LateHeart.7": "",
+    "AfterDark.Core.Alex.Spring.LateHeart.8": "",
+    "AfterDark.Core.Alex.Spring.LateHeart.9": "",
 
     // SUMMER
+    "AfterDark.Core.Alex.Summer.0Heart.1": "",
+    "AfterDark.Core.Alex.Summer.0Heart.2": "",
+    "AfterDark.Core.Alex.Summer.0Heart.3": "",
+    "AfterDark.Core.Alex.Summer.0Heart.4": "",
+    "AfterDark.Core.Alex.Summer.0Heart.5": "",
+    "AfterDark.Core.Alex.Summer.0Heart.6": "",
+    "AfterDark.Core.Alex.Summer.0Heart.7": "",
+    "AfterDark.Core.Alex.Summer.0Heart.8": "",
+    "AfterDark.Core.Alex.Summer.0Heart.9": "",
+    "AfterDark.Core.Alex.Summer.0Heart.10": "",
+    "AfterDark.Core.Alex.Summer.0Heart.11": "",
+    "AfterDark.Core.Alex.Summer.0Heart.12": "",
+    "AfterDark.Core.Alex.Summer.0Heart.13": "",
+    "AfterDark.Core.Alex.Summer.0Heart.14": "",
+    "AfterDark.Core.Alex.Summer.0Heart.15": "",
+
+    "AfterDark.Core.Alex.Summer.EarlyHeart.1": "",
+    "AfterDark.Core.Alex.Summer.EarlyHeart.2": "",
+    "AfterDark.Core.Alex.Summer.EarlyHeart.3": "",
+    "AfterDark.Core.Alex.Summer.EarlyHeart.4": "",
+    "AfterDark.Core.Alex.Summer.EarlyHeart.5": "",
+    "AfterDark.Core.Alex.Summer.EarlyHeart.6": "",
+    "AfterDark.Core.Alex.Summer.EarlyHeart.7": "",
+    "AfterDark.Core.Alex.Summer.EarlyHeart.8": "",
+    "AfterDark.Core.Alex.Summer.EarlyHeart.9": "",
+    "AfterDark.Core.Alex.Summer.EarlyHeart.10": "",
+
+    "AfterDark.Core.Alex.Summer.MidHeart.1": "",
+    "AfterDark.Core.Alex.Summer.MidHeart.2": "",
+    "AfterDark.Core.Alex.Summer.MidHeart.3": "",
+    "AfterDark.Core.Alex.Summer.MidHeart.4": "",
+    "AfterDark.Core.Alex.Summer.MidHeart.5": "",
+    "AfterDark.Core.Alex.Summer.MidHeart.6": "",
+    "AfterDark.Core.Alex.Summer.MidHeart.7": "",
+    "AfterDark.Core.Alex.Summer.MidHeart.8": "",
+    "AfterDark.Core.Alex.Summer.MidHeart.9": "",
+    "AfterDark.Core.Alex.Summer.MidHeart.10": "",
+    "AfterDark.Core.Alex.Summer.MidHeart.11": "",
+    "AfterDark.Core.Alex.Summer.MidHeart.12": "",
+    "AfterDark.Core.Alex.Summer.MidHeart.13": "",
+    "AfterDark.Core.Alex.Summer.MidHeart.14": "",
+    "AfterDark.Core.Alex.Summer.MidHeart.15": "",
+
+    "AfterDark.Core.Alex.Summer.LateHeart.1": "",
+    "AfterDark.Core.Alex.Summer.LateHeart.2": "",
+    "AfterDark.Core.Alex.Summer.LateHeart.3": "",
+    "AfterDark.Core.Alex.Summer.LateHeart.4": "",
+    "AfterDark.Core.Alex.Summer.LateHeart.5": "",
+    "AfterDark.Core.Alex.Summer.LateHeart.6": "",
+    "AfterDark.Core.Alex.Summer.LateHeart.7": "",
+    "AfterDark.Core.Alex.Summer.LateHeart.8": "",
+    "AfterDark.Core.Alex.Summer.LateHeart.9": "",
 
     // FALL
+    "AfterDark.Core.Alex.Fall.0Heart.1": "",
+    "AfterDark.Core.Alex.Fall.0Heart.2": "",
+    "AfterDark.Core.Alex.Fall.0Heart.3": "",
+    "AfterDark.Core.Alex.Fall.0Heart.4": "",
+    "AfterDark.Core.Alex.Fall.0Heart.5": "",
+    "AfterDark.Core.Alex.Fall.0Heart.6": "",
+    "AfterDark.Core.Alex.Fall.0Heart.7": "",
+    "AfterDark.Core.Alex.Fall.0Heart.8": "",
+    "AfterDark.Core.Alex.Fall.0Heart.9": "",
+    "AfterDark.Core.Alex.Fall.0Heart.10": "",
+    "AfterDark.Core.Alex.Fall.0Heart.11": "",
+    "AfterDark.Core.Alex.Fall.0Heart.12": "",
+    "AfterDark.Core.Alex.Fall.0Heart.13": "",
+    "AfterDark.Core.Alex.Fall.0Heart.14": "",
+    "AfterDark.Core.Alex.Fall.0Heart.15": "",
+
+    "AfterDark.Core.Alex.Fall.EarlyHeart.1": "",
+    "AfterDark.Core.Alex.Fall.EarlyHeart.2": "",
+    "AfterDark.Core.Alex.Fall.EarlyHeart.3": "",
+    "AfterDark.Core.Alex.Fall.EarlyHeart.4": "",
+    "AfterDark.Core.Alex.Fall.EarlyHeart.5": "",
+    "AfterDark.Core.Alex.Fall.EarlyHeart.6": "",
+    "AfterDark.Core.Alex.Fall.EarlyHeart.7": "",
+    "AfterDark.Core.Alex.Fall.EarlyHeart.8": "",
+    "AfterDark.Core.Alex.Fall.EarlyHeart.9": "",
+    "AfterDark.Core.Alex.Fall.EarlyHeart.10": "",
+
+    "AfterDark.Core.Alex.Fall.MidHeart.1": "",
+    "AfterDark.Core.Alex.Fall.MidHeart.2": "",
+    "AfterDark.Core.Alex.Fall.MidHeart.3": "",
+    "AfterDark.Core.Alex.Fall.MidHeart.4": "",
+    "AfterDark.Core.Alex.Fall.MidHeart.5": "",
+    "AfterDark.Core.Alex.Fall.MidHeart.6": "",
+    "AfterDark.Core.Alex.Fall.MidHeart.7": "",
+    "AfterDark.Core.Alex.Fall.MidHeart.8": "",
+    "AfterDark.Core.Alex.Fall.MidHeart.9": "",
+    "AfterDark.Core.Alex.Fall.MidHeart.10": "",
+    "AfterDark.Core.Alex.Fall.MidHeart.11": "",
+    "AfterDark.Core.Alex.Fall.MidHeart.12": "",
+    "AfterDark.Core.Alex.Fall.MidHeart.13": "",
+    "AfterDark.Core.Alex.Fall.MidHeart.14": "",
+    "AfterDark.Core.Alex.Fall.MidHeart.15": "",
+
+    "AfterDark.Core.Alex.Fall.LateHeart.1": "",
+    "AfterDark.Core.Alex.Fall.LateHeart.2": "",
+    "AfterDark.Core.Alex.Fall.LateHeart.3": "",
+    "AfterDark.Core.Alex.Fall.LateHeart.4": "",
+    "AfterDark.Core.Alex.Fall.LateHeart.5": "",
+    "AfterDark.Core.Alex.Fall.LateHeart.6": "",
+    "AfterDark.Core.Alex.Fall.LateHeart.7": "",
+    "AfterDark.Core.Alex.Fall.LateHeart.8": "",
+    "AfterDark.Core.Alex.Fall.LateHeart.9": "",
 
     // WINTER
+    "AfterDark.Core.Alex.Winter.0Heart.1": "",
+    "AfterDark.Core.Alex.Winter.0Heart.2": "",
+    "AfterDark.Core.Alex.Winter.0Heart.3": "",
+    "AfterDark.Core.Alex.Winter.0Heart.4": "",
+    "AfterDark.Core.Alex.Winter.0Heart.5": "",
+    "AfterDark.Core.Alex.Winter.0Heart.6": "",
+    "AfterDark.Core.Alex.Winter.0Heart.7": "",
+    "AfterDark.Core.Alex.Winter.0Heart.8": "",
+    "AfterDark.Core.Alex.Winter.0Heart.9": "",
+    "AfterDark.Core.Alex.Winter.0Heart.10": "",
+    "AfterDark.Core.Alex.Winter.0Heart.11": "",
+    "AfterDark.Core.Alex.Winter.0Heart.12": "",
+    "AfterDark.Core.Alex.Winter.0Heart.13": "",
+    "AfterDark.Core.Alex.Winter.0Heart.14": "",
+    "AfterDark.Core.Alex.Winter.0Heart.15": "",
 
+    "AfterDark.Core.Alex.Winter.EarlyHeart.1": "",
+    "AfterDark.Core.Alex.Winter.EarlyHeart.2": "",
+    "AfterDark.Core.Alex.Winter.EarlyHeart.3": "",
+    "AfterDark.Core.Alex.Winter.EarlyHeart.4": "",
+    "AfterDark.Core.Alex.Winter.EarlyHeart.5": "",
+    "AfterDark.Core.Alex.Winter.EarlyHeart.6": "",
+    "AfterDark.Core.Alex.Winter.EarlyHeart.7": "",
+    "AfterDark.Core.Alex.Winter.EarlyHeart.8": "",
+    "AfterDark.Core.Alex.Winter.EarlyHeart.9": "",
+    "AfterDark.Core.Alex.Winter.EarlyHeart.10": "",
+
+    "AfterDark.Core.Alex.Winter.MidHeart.1": "",
+    "AfterDark.Core.Alex.Winter.MidHeart.2": "",
+    "AfterDark.Core.Alex.Winter.MidHeart.3": "",
+    "AfterDark.Core.Alex.Winter.MidHeart.4": "",
+    "AfterDark.Core.Alex.Winter.MidHeart.5": "",
+    "AfterDark.Core.Alex.Winter.MidHeart.6": "",
+    "AfterDark.Core.Alex.Winter.MidHeart.7": "",
+    "AfterDark.Core.Alex.Winter.MidHeart.8": "",
+    "AfterDark.Core.Alex.Winter.MidHeart.9": "",
+    "AfterDark.Core.Alex.Winter.MidHeart.10": "",
+    "AfterDark.Core.Alex.Winter.MidHeart.11": "",
+    "AfterDark.Core.Alex.Winter.MidHeart.12": "",
+    "AfterDark.Core.Alex.Winter.MidHeart.13": "",
+    "AfterDark.Core.Alex.Winter.MidHeart.14": "",
+    "AfterDark.Core.Alex.Winter.MidHeart.15": "",
+
+    "AfterDark.Core.Alex.Winter.LateHeart.1": "",
+    "AfterDark.Core.Alex.Winter.LateHeart.2": "",
+    "AfterDark.Core.Alex.Winter.LateHeart.3": "",
+    "AfterDark.Core.Alex.Winter.LateHeart.4": "",
+    "AfterDark.Core.Alex.Winter.LateHeart.5": "",
+    "AfterDark.Core.Alex.Winter.LateHeart.6": "",
+    "AfterDark.Core.Alex.Winter.LateHeart.7": "",
+    "AfterDark.Core.Alex.Winter.LateHeart.8": "",
+    "AfterDark.Core.Alex.Winter.LateHeart.9": "",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      ████  ███  █   █ █   █ █████ ████  █████  ███  █████ █████  ███  █   █ █████ 
@@ -164,20 +355,182 @@
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     GENERIC -- PREMARRIAGE
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    "AfterDark.Core.Alex.Spring.LateHeart.10": "",
+    "AfterDark.Core.Alex.Conversation.Spring.LateHeart.Memory.": "",
+
+    "AfterDark.Core.Alex.Summer.LateHeart.10": "",
+    "AfterDark.Core.Alex.Conversation.Summer.LateHeart.Memory.": "",
+
+    "AfterDark.Core.Alex.Fall.LateHeart.10": "",
+    "AfterDark.Core.Alex.Conversation.Fall.LateHeart.Memory.": "",
+
+    "AfterDark.Core.Alex.Winter.LateHeart.10": "",
+    "AfterDark.Core.Alex.Conversation.Winter.LateHeart.Memory.": "",
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     MARRIAGE
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    "AfterDark.Marriage.Alex.TwoKids.4": "",
+    "AfterDark.Marriage.Alex.Conversation.TwoKids.4.Memory.OneDay": "",
+
+    "AfterDark.Marriage.Alex.Indoor.Day.10": "",
+    "AfterDark.Core.Conversation.Alex.Memory.OneWeek": "",
+
+    "AfterDark.Marriage.Alex.Good.15": "",
+    "AfterDark.Marriage.Alex.Conversation.Good.10.Memory.OneWeek": "",
+
+    "AfterDark.Marriage.Alex.Neutral.15": "",
+    "AfterDark.Marriage.Alex.Conversation.Neutral.10.Memory.OneDay": "",
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     █████ █████  ███  █      ███  █   █ █████ █   █     ████  █████  ███  █      ███   ████ █   █ █████ 
       █   █     █   █ █     █   █ █   █ █      █ █      █   █   █   █   █ █     █   █ █     █   █ █     
       █   ████  █████ █     █   █ █   █ █████   █       █   █   █   █████ █     █   █ █  ██ █   █ ████  
     █ █   █     █   █ █     █   █ █   █     █   █       █   █   █   █   █ █     █   █ █   █ █   █ █     
     ███   █████ █   █ █████  ███  █████ █████   █       ████  █████ █   █ █████  ███   ███  █████ █████ 
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-    // Jealousy 
-    "AfterDark.Core.Alex.Jealous.Married.Sebastian": "",
-    "AfterDark.Core.Alex.Jealous.Married.Shane": "",
-    "AfterDark.Core.Alex.Jealous.Married.Harvey": "",
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     SPECIFICALLY: FLOWER DANCE
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    
+    // Day After - 0-4h
+    "AfterDark.EarlyFestivalJealousy.Alex.HasPartner.Harvey.Memory": "",
+    "AfterDark.EarlyFestivalJealousy.Alex.HasPartner.Elliott.Memory": "",
+    "AfterDark.EarlyFestivalJealousy.Alex.HasPartner.Sam.Memory": "",
+    "AfterDark.EarlyFestivalJealousy.Alex.HasPartner.Sebastian.Memory": "",
+    "AfterDark.EarlyFestivalJealousy.Alex.HasPartner.Shane.Memory": "",
+
+    "AfterDark.EarlyFestivalJealousy.Alex.HasPartner.Abigail.Memory": "",
+    "AfterDark.EarlyFestivalJealousy.Alex.HasPartner.Haley.Memory": "",
+    "AfterDark.EarlyFestivalJealousy.Alex.HasPartner.Emily.Memory": "",
+    "AfterDark.EarlyFestivalJealousy.Alex.HasPartner.Leah.Memory": "",
+    "AfterDark.EarlyFestivalJealousy.Alex.HasPartner.Maru.Memory": "",
+    "AfterDark.EarlyFestivalJealousy.Alex.HasPartner.Penny.Memory": "",
+
+    // Day After - 5h+
+    "AfterDark.LateFestivalJealousy.Alex.HasPartner.Harvey.Memory": "",
+    "AfterDark.LateFestivalJealousy.Alex.HasPartner.Elliott.Memory": "",
+    "AfterDark.LateFestivalJealousy.Alex.HasPartner.Sam.Memory": "",
+    "AfterDark.LateFestivalJealousy.Alex.HasPartner.Sebastian.Memory": "",
+    "AfterDark.LateFestivalJealousy.Alex.HasPartner.Shane.Memory": "",
+
+    "AfterDark.LateFestivalJealousy.Alex.HasPartner.Abigail.Memory": "",
+    "AfterDark.LateFestivalJealousy.Alex.HasPartner.Haley.Memory": "",
+    "AfterDark.LateFestivalJealousy.Alex.HasPartner.Emily.Memory": "",
+    "AfterDark.LateFestivalJealousy.Alex.HasPartner.Leah.Memory": "",
+    "AfterDark.LateFestivalJealousy.Alex.HasPartner.Maru.Memory": "",
+    "AfterDark.LateFestivalJealousy.Alex.HasPartner.Penny.Memory": "",
+
+    // Otherwise Day After
+    "AfterDark.EarlyFestivalJealousy.Alex.HasPartner.Alex.Memory": "",
+    "AfterDark.EarlyFestivalJealousy.Alex.HasPartner.NotAlex.Memory": "",
+
+    // Otherwise Day After
+    "AfterDark.LateFestivalJealousy.Alex.HasPartner.Alex.Memory": "",
+    "AfterDark.LateFestivalJealousy.Alex.HasPartner.NotAlex.Memory": "",
+    
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     BACHELORS
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+                                                                
+    // Elliott                              
+    "AfterDark.Core.Alex.Jealous.Dating.Elliott": "",
     "AfterDark.Core.Alex.Jealous.Married.Elliott": "",
+    "AfterDark.Jealousy.Alex.Early.Elliott.1": "",
+    "AfterDark.Jealousy.Alex.Early.Elliott.2": "",
+    "AfterDark.Jealousy.Alex.Late.Elliott.1": "",
+    "AfterDark.Jealousy.Alex.Late.Elliott.2": "",
+
+    // Harvey
+    "AfterDark.Core.Alex.Jealous.Dating.Harvey": "",
+    "AfterDark.Core.Alex.Jealous.Married.Harvey": "",
+    "AfterDark.Jealousy.Alex.Early.Harvey.1": "",
+    "AfterDark.Jealousy.Alex.Early.Harvey.2": "",
+    "AfterDark.Jealousy.Alex.Late.Harvey.1": "",
+    "AfterDark.Jealousy.Alex.Late.Harvey.2": "",
+
+    // Sam
+    "AfterDark.Core.Alex.Jealous.Dating.Sam": "",
     "AfterDark.Core.Alex.Jealous.Married.Sam": "",
-    "AfterDark.Core.Alex.Jealous.Inlaw.Haley": "",
-    "AfterDark.Core.Alex.Jealous.Inlaw4.Haley": "",
+    "AfterDark.Jealousy.Alex.Early.Sam.1": "",
+    "AfterDark.Jealousy.Alex.Early.Sam.2": "",
+    "AfterDark.Jealousy.Alex.Late.Sam.1": "",
+    "AfterDark.Jealousy.Alex.Late.Sam.2": "",
+
+    // Sebastian
+    "AfterDark.Core.Alex.Jealous.Dating.Sebastian": "",
+    "AfterDark.Core.Alex.Jealous.Married.Sebastian": "",
+    "AfterDark.Jealousy.Alex.Early.Sebastian.1": "",
+    "AfterDark.Jealousy.Alex.Early.Sebastian.2": "",
+    "AfterDark.Jealousy.Alex.Late.Sebastian.1": "",
+    "AfterDark.Jealousy.Alex.Late.Sebastian.2": "",
+
+    // Shane
+    "AfterDark.Core.Alex.Jealous.Dating.Shane": "",
+    "AfterDark.Core.Alex.Jealous.Married.Shane": "",
+    "AfterDark.Jealousy.Alex.Early.Shane.1": "",
+    "AfterDark.Jealousy.Alex.Early.Shane.2": "",
+    "AfterDark.Jealousy.Alex.Late.Shane.1": "",
+    "AfterDark.Jealousy.Alex.Late.Shane.2": "",
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     BACHELORETTES
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    // Abigail
+    "AfterDark.Core.Alex.Jealous.Dating.Abigail": "",
+    "AfterDark.Core.Alex.Jealous.Married.Abigail": "",
+    "AfterDark.Jealousy.Alex.Early.Abigail.1": "",
+    "AfterDark.Jealousy.Alex.Early.Abigail.2": "",
+    "AfterDark.Jealousy.Alex.Late.Abigail.1": "",
+    "AfterDark.Jealousy.Alex.Late.Abigail.2": "",
+
+    // Emily
+    "AfterDark.Core.Alex.Jealous.Dating.Emily": "",
+    "AfterDark.Core.Alex.Jealous.Married.Emily": "",
+    "AfterDark.Jealousy.Alex.Early.Emily.1": "",
+    "AfterDark.Jealousy.Alex.Early.Emily.2": "",
+    "AfterDark.Jealousy.Alex.Late.Emily.1": "",
+    "AfterDark.Jealousy.Alex.Late.Emily.2": "",
+
+    // Haley
+    "AfterDark.Core.Alex.Jealous.Dating.Haley": "",
+    "AfterDark.Core.Alex.Jealous.Married.Haley": "",
+    "AfterDark.Jealousy.Alex.Early.Haley.1": "",
+    "AfterDark.Jealousy.Alex.Early.Haley.2": "",
+    "AfterDark.Jealousy.Alex.Late.Haley.1": "",
+    "AfterDark.Jealousy.Alex.Late.Haley.2": "",
+
+    // Leah
+    "AfterDark.Core.Alex.Jealous.Dating.Leah": "",
+    "AfterDark.Core.Alex.Jealous.Married.Leah": "",
+    "AfterDark.Jealousy.Alex.Early.Leah.1": "",
+    "AfterDark.Jealousy.Alex.Early.Leah.2": "",
+    "AfterDark.Jealousy.Alex.Late.Leah.1": "",
+    "AfterDark.Jealousy.Alex.Late.Leah.2": "",
+
+    // Maru
+    "AfterDark.Core.Alex.Jealous.Dating.Maru": "",
+    "AfterDark.Core.Alex.Jealous.Married.Maru": "",
+    "AfterDark.Jealousy.Alex.Early.Maru.1": "",
+    "AfterDark.Jealousy.Alex.Early.Maru.2": "",
+    "AfterDark.Jealousy.Alex.Late.Maru.1": "",
+    "AfterDark.Jealousy.Alex.Late.Maru.2": "",
+
+    // Penny
+    "AfterDark.Core.Alex.Jealous.Dating.Penny": "",
+    "AfterDark.Core.Alex.Jealous.Married.Penny": "",
+    "AfterDark.Jealousy.Alex.Early.Penny.1": "",
+    "AfterDark.Jealousy.Alex.Early.Penny.2": "",
+    "AfterDark.Jealousy.Alex.Late.Penny.1": "",
+    "AfterDark.Jealousy.Alex.Late.Penny.2": "",
+
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     █████  ███  █   █ █████ █     █   █     ████  █████  ███  █      ███   ████ █   █ █████ 
     █     █   █ ██ ██   █   █      █ █      █   █   █   █   █ █     █   █ █     █   █ █     
@@ -185,6 +538,30 @@
     █     █   █ █   █   █   █       █       █   █   █   █   █ █     █   █ █   █ █   █ █     
     █     █   █ █   █ █████ █████   █       ████  █████ █   █ █████  ███   ███  █████ █████ 
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    "AfterDark.Family.Alex.Granny.1": "",
+    "AfterDark.Family.Alex.Granny.2": "",
+    "AfterDark.Family.Alex.Granny.3": "",
+    "AfterDark.Family.Alex.Granny.4": "",
+    "AfterDark.Family.Alex.Granny.5": "",
+
+    "AfterDark.Family.Alex.George.1": "",
+    "AfterDark.Family.Alex.George.2": "",
+    "AfterDark.Family.Alex.George.3": "",
+    "AfterDark.Family.Alex.George.4": "",
+    "AfterDark.Family.Alex.George.5": "",
+
+    "AfterDark.Family.Alex.Dad.1": "",
+    "AfterDark.Family.Alex.Dad.2": "",
+    "AfterDark.Family.Alex.Dad.3": "",
+    "AfterDark.Family.Alex.Dad.4": "",
+    "AfterDark.Family.Alex.Dad.5": "",
+
+    "AfterDark.Family.Alex.Mom.1": "",
+    "AfterDark.Family.Alex.Mom.2": "",
+    "AfterDark.Family.Alex.Mom.3": "",
+    "AfterDark.Family.Alex.Mom.4": "",
+    "AfterDark.Family.Alex.Mom.5": "",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     █   █  ███  ████  ████  █████  ███   ████ █████     ████  █████  ███  █      ███   ████ █   █ █████ 
@@ -195,6 +572,288 @@
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
     "AfterDark.Marriage.Alex.Engagement.0": "",
     "AfterDark.Marriage.Alex.Engagement.1": "",
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     PATIO
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    "AfterDark.Marriage.Alex.Patio.1": "",
+    "AfterDark.Marriage.Alex.Patio.2": "",
+    "AfterDark.Marriage.Alex.Patio.3": "",
+    "AfterDark.Marriage.Alex.Patio.4": "",
+    "AfterDark.Marriage.Alex.Patio.5": "",
+    "AfterDark.Marriage.Alex.Patio.6": "",
+    "AfterDark.Marriage.Alex.Patio.7": "",
+    "AfterDark.Marriage.Alex.Patio.8": "",
+    "AfterDark.Marriage.Alex.Patio.9": "",
+    "AfterDark.Marriage.Alex.Patio.10": "",
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     SPOUSE ROOM
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    "AfterDark.Marriage.Sam.SpouseRoom.1": "",
+    "AfterDark.Marriage.Sam.SpouseRoom.2": "",
+    "AfterDark.Marriage.Sam.SpouseRoom.3": "",
+    "AfterDark.Marriage.Sam.SpouseRoom.4": "",
+    "AfterDark.Marriage.Sam.SpouseRoom.5": "",
+    "AfterDark.Marriage.Sam.SpouseRoom.6": "",
+    "AfterDark.Marriage.Sam.SpouseRoom.7": "",
+    "AfterDark.Marriage.Sam.SpouseRoom.8": "",
+    "AfterDark.Marriage.Sam.SpouseRoom.9": "",
+    "AfterDark.Marriage.Sam.SpouseRoom.10": "",
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     FUNLEAVE/RETURN
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+    "AfterDark.Marriage.Sam.funLeave.1": "",
+    "AfterDark.Marriage.Sam.funLeave.2": "",
+    "AfterDark.Marriage.Sam.funLeave.3": "",
+    "AfterDark.Marriage.Sam.funLeave.4": "",
+    "AfterDark.Marriage.Sam.funLeave.5": "",
+    "AfterDark.Marriage.Sam.funLeave.6": "",
+    "AfterDark.Marriage.Sam.funLeave.7": "",
+    "AfterDark.Marriage.Sam.funLeave.8": "",
+    "AfterDark.Marriage.Sam.funLeave.9": "",
+    "AfterDark.Marriage.Sam.funLeave.10": "",
+    
+    "AfterDark.Marriage.Sam.funReturn.1": "",
+    "AfterDark.Marriage.Sam.funReturn.2": "",
+    "AfterDark.Marriage.Sam.funReturn.3": "",
+    "AfterDark.Marriage.Sam.funReturn.4": "",
+    "AfterDark.Marriage.Sam.funReturn.5": "",
+    "AfterDark.Marriage.Sam.funReturn.6": "",
+    "AfterDark.Marriage.Sam.funReturn.7": "",
+    "AfterDark.Marriage.Sam.funReturn.8": "",
+    "AfterDark.Marriage.Sam.funReturn.9": "",
+    "AfterDark.Marriage.Sam.funReturn.10": "",
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     SPECIAL DATES
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+    // Spring
+    "AfterDark.Marriage.Sam.Spring12.1": "",
+    "AfterDark.Marriage.Sam.Spring12.2": "",
+    "AfterDark.Marriage.Sam.Spring12.3": "",
+
+    "AfterDark.Marriage.Sam.Spring23.1": "",
+    "AfterDark.Marriage.Sam.Spring23.2": "",
+    "AfterDark.Marriage.Sam.Spring23.3": "",
+
+    // Summer
+    "AfterDark.Marriage.Sam.Summer16.1": "",
+    "AfterDark.Marriage.Sam.Summer16.2": "",
+    "AfterDark.Marriage.Sam.Summer16.3": "",
+
+    "AfterDark.Marriage.Sam.Summer27.1": "",
+    "AfterDark.Marriage.Sam.Summer27.2": "",
+    "AfterDark.Marriage.Sam.Summer27.3": "",
+
+    "AfterDark.Marriage.Sam.Summer28.1": "",
+    "AfterDark.Marriage.Sam.Summer28.2": "",
+    "AfterDark.Marriage.Sam.Summer28.3": "",
+
+    // Fall
+    "AfterDark.Marriage.Sam.Fall15.1": "",
+    "AfterDark.Marriage.Sam.Fall15.2": "",
+    "AfterDark.Marriage.Sam.Fall15.3": "",
+
+    "AfterDark.Marriage.Sam.Fall17.1": "",
+    "AfterDark.Marriage.Sam.Fall17.2": "",
+    "AfterDark.Marriage.Sam.Fall17.3": "",
+
+    "AfterDark.Marriage.Sam.Fall26.1": "",
+    "AfterDark.Marriage.Sam.Fall26.2": "",
+    "AfterDark.Marriage.Sam.Fall26.3": "",
+    
+    // Winter 
+    "AfterDark.Marriage.Sam.Winter17.1": "",
+    "AfterDark.Marriage.Sam.Winter17.2": "",
+    "AfterDark.Marriage.Sam.Winter17.3": "",
+
+    "AfterDark.Marriage.Sam.Winter24.1": "",
+    "AfterDark.Marriage.Sam.Winter24.2": "",
+    "AfterDark.Marriage.Sam.Winter24.3": "",
+
+    "AfterDark.Marriage.Sam.Winter28": "",
+    "AfterDark.Marriage.Sam.Winter28.1": "",
+    "AfterDark.Marriage.Sam.Winter28.2": "",
+    
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     GENERAL SEASON RELATED LINES 
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+    // Spring
+    "AfterDark.Marriage.Sam.Spring.1": "",
+    "AfterDark.Marriage.Sam.Spring.2": "",
+    "AfterDark.Marriage.Sam.Spring.3": "",
+    "AfterDark.Marriage.Sam.Spring.4": "",
+    "AfterDark.Marriage.Sam.Spring.5": "",
+    "AfterDark.Marriage.Sam.Spring.6": "",
+    "AfterDark.Marriage.Sam.Spring.7": "",
+    "AfterDark.Marriage.Sam.Spring.8": "",
+    "AfterDark.Marriage.Sam.Spring.9": "",
+    "AfterDark.Marriage.Sam.Spring.10": "",
+
+    // Summer
+    "AfterDark.Marriage.Sam.Summer.1": "",
+    "AfterDark.Marriage.Sam.Summer.2": "",
+    "AfterDark.Marriage.Sam.Summer.3": "",
+    "AfterDark.Marriage.Sam.Summer.4": "",
+    "AfterDark.Marriage.Sam.Summer.5": "",
+    "AfterDark.Marriage.Sam.Summer.6": "",
+    "AfterDark.Marriage.Sam.Summer.7": "",
+    "AfterDark.Marriage.Sam.Summer.8": "",
+    "AfterDark.Marriage.Sam.Summer.9": "",
+    "AfterDark.Marriage.Sam.Summer.10": "",
+
+    // Fall
+    "AfterDark.Marriage.Sam.Fall.1": "",
+    "AfterDark.Marriage.Sam.Fall.2": "",
+    "AfterDark.Marriage.Sam.Fall.3": "",
+    "AfterDark.Marriage.Sam.Fall.4": "",
+    "AfterDark.Marriage.Sam.Fall.5": "",
+    "AfterDark.Marriage.Sam.Fall.6": "",
+    "AfterDark.Marriage.Sam.Fall.7": "",
+    "AfterDark.Marriage.Sam.Fall.8": "",
+    "AfterDark.Marriage.Sam.Fall.9": "",
+    "AfterDark.Marriage.Sam.Fall.10": "",
+
+    // Winter
+    "AfterDark.Marriage.Sam.Winter.1": "",
+    "AfterDark.Marriage.Sam.Winter.2": "",
+    "AfterDark.Marriage.Sam.Winter.3": "",
+    "AfterDark.Marriage.Sam.Winter.4": "",
+    "AfterDark.Marriage.Sam.Winter.5": "",
+    "AfterDark.Marriage.Sam.Winter.6": "",
+    "AfterDark.Marriage.Sam.Winter.7": "",
+    "AfterDark.Marriage.Sam.Winter.8": "",
+    "AfterDark.Marriage.Sam.Winter.9": "",
+    "AfterDark.Marriage.Sam.Winter.10": "",
+
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     RAINY DAYS 
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+    "AfterDark.Marriage.Sam.Rainy.Day.Sam": "",
+    "AfterDark.Marriage.Sam.Rainy.Day.0": "",
+    "AfterDark.Marriage.Sam.Rainy.Day.1": "",
+    "AfterDark.Marriage.Sam.Rainy.Day.2": "",
+    "AfterDark.Marriage.Sam.Rainy.Day.3": "",
+    "AfterDark.Marriage.Sam.Rainy.Day.4": "",
+    "AfterDark.Marriage.Sam.Rainy.Day.5": "",
+    "AfterDark.Marriage.Sam.Rainy.Day.6": "",
+    "AfterDark.Marriage.Sam.Rainy.Day.7": "",
+    "AfterDark.Marriage.Sam.Rainy.Day.8": "",
+    "AfterDark.Marriage.Sam.Rainy.Day.9": "",
+    
+    "AfterDark.Marriage.Sam.Rainy.Night.Sam": "",
+    "AfterDark.Marriage.Sam.Rainy.Night.0": "",
+    "AfterDark.Marriage.Sam.Rainy.Night.1": "",
+    "AfterDark.Marriage.Sam.Rainy.Night.2": "",
+    "AfterDark.Marriage.Sam.Rainy.Night.3": "",
+    "AfterDark.Marriage.Sam.Rainy.Night.4": "",
+    "AfterDark.Marriage.Sam.Rainy.Night.5": "",
+    "AfterDark.Marriage.Sam.Rainy.Night.6": "",
+    "AfterDark.Marriage.Sam.Rainy.Night.7": "",
+    "AfterDark.Marriage.Sam.Rainy.Night.8": "",
+    "AfterDark.Marriage.Sam.Rainy.Night.9": "",
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     INDOOR/OUTDOOR 
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+    "AfterDark.Marriage.Sam.Indoor.Day.Sam": "",
+    "AfterDark.Marriage.Sam.Indoor.Day.0": "",
+    "AfterDark.Marriage.Sam.Indoor.Day.1": "",
+    "AfterDark.Marriage.Sam.Indoor.Day.2": "",
+    "AfterDark.Marriage.Sam.Indoor.Day.3": "",
+    "AfterDark.Marriage.Sam.Indoor.Day.4": "",
+    "AfterDark.Marriage.Sam.Indoor.Day.5": "",
+    "AfterDark.Marriage.Sam.Indoor.Day.6": "",
+    "AfterDark.Marriage.Sam.Indoor.Day.7": "",
+    "AfterDark.Marriage.Sam.Indoor.Day.8": "",
+    "AfterDark.Marriage.Sam.Indoor.Day.9": "",
+
+    "AfterDark.Marriage.Sam.Indoor.Night.Sam": "",
+    "AfterDark.Marriage.Sam.Indoor.Night.0": "",
+    "AfterDark.Marriage.Sam.Indoor.Night.1": "",
+    "AfterDark.Marriage.Sam.Indoor.Night.2": "",
+    "AfterDark.Marriage.Sam.Indoor.Night.3": "",
+    "AfterDark.Marriage.Sam.Indoor.Night.4": "",
+    "AfterDark.Marriage.Sam.Indoor.Night.5": "",
+    "AfterDark.Marriage.Sam.Indoor.Night.6": "",
+    "AfterDark.Marriage.Sam.Indoor.Night.7": "",
+    "AfterDark.Marriage.Sam.Indoor.Night.8": "",
+    "AfterDark.Marriage.Sam.Indoor.Night.9": "",
+
+    "AfterDark.Marriage.Sam.Outdoor.Sam": "",
+    "AfterDark.Marriage.Sam.Outdoor.0": "",
+    "AfterDark.Marriage.Sam.Outdoor.1": "",
+    "AfterDark.Marriage.Sam.Outdoor.2": "",
+    "AfterDark.Marriage.Sam.Outdoor.3": "",
+    "AfterDark.Marriage.Sam.Outdoor.4": "",
+    "AfterDark.Marriage.Sam.Outdoor.5": "",
+    "AfterDark.Marriage.Sam.Outdoor.6": "",
+    "AfterDark.Marriage.Sam.Outdoor.7": "",
+    "AfterDark.Marriage.Sam.Outdoor.8": "",
+    "AfterDark.Marriage.Sam.Outdoor.9": "",
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     KIDS 
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+    "AfterDark.Marriage.Sam.OneKid.0": "",
+    "AfterDark.Marriage.Sam.OneKid.1": "",
+    "AfterDark.Marriage.Sam.OneKid.2": "",
+    "AfterDark.Marriage.Sam.OneKid.3": "",
+
+    "AfterDark.Marriage.Sam.TwoKids.0": "",
+    "AfterDark.Marriage.Sam.TwoKids.1": "",
+    "AfterDark.Marriage.Sam.TwoKids.2": "",
+    "AfterDark.Marriage.Sam.TwoKids.3": "",
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     AFFECTION 
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+    "AfterDark.Marriage.Sam.Good.0": "l",
+    "AfterDark.Marriage.Sam.Good.1": "",
+    "AfterDark.Marriage.Sam.Good.2": "",
+    "AfterDark.Marriage.Sam.Good.3": "",
+    "AfterDark.Marriage.Sam.Good.4": "",
+    "AfterDark.Marriage.Sam.Good.5": "",
+    "AfterDark.Marriage.Sam.Good.6": "",
+    "AfterDark.Marriage.Sam.Good.7": "",
+    "AfterDark.Marriage.Sam.Good.8": "",
+    "AfterDark.Marriage.Sam.Good.9": "",
+    "AfterDark.Marriage.Sam.Good.10": "",
+    "AfterDark.Marriage.Sam.Good.11": "",
+    "AfterDark.Marriage.Sam.Good.12": "",
+    "AfterDark.Marriage.Sam.Good.13": "",
+    "AfterDark.Marriage.Sam.Good.14": "",
+
+    "AfterDark.Marriage.Sam.Neutral.0": "",
+    "AfterDark.Marriage.Sam.Neutral.1": "",
+    "AfterDark.Marriage.Sam.Neutral.2": "",
+    "AfterDark.Marriage.Sam.Neutral.3": "",
+    "AfterDark.Marriage.Sam.Neutral.4": "",
+    "AfterDark.Marriage.Sam.Neutral.5": "",
+    "AfterDark.Marriage.Sam.Neutral.6": "",
+    "AfterDark.Marriage.Sam.Neutral.7": "",
+    "AfterDark.Marriage.Sam.Neutral.8": "",
+    "AfterDark.Marriage.Sam.Neutral.9": "",
+    "AfterDark.Marriage.Sam.Neutral.10": "",
+    "AfterDark.Marriage.Sam.Neutral.11": "",
+    "AfterDark.Marriage.Sam.Neutral.12": "",
+    "AfterDark.Marriage.Sam.Neutral.13": "",
+    "AfterDark.Marriage.Sam.Neutral.14": "",
+
+    "AfterDark.Marriage.Sam.Bad.0": "",
+    "AfterDark.Marriage.Sam.Bad.1": "",
+    "AfterDark.Marriage.Sam.Bad.2": "",
+    "AfterDark.Marriage.Sam.Bad.3": "",
+    "AfterDark.Marriage.Sam.Bad.4": "",
+    "AfterDark.Marriage.Sam.Bad.5": "",
+    "AfterDark.Marriage.Sam.Bad.6": "",
+    "AfterDark.Marriage.Sam.Bad.7": "",
+    "AfterDark.Marriage.Sam.Bad.8": "",
+    "AfterDark.Marriage.Sam.Bad.9": ""
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      ████ █████ █████ █████     ████  █████  ███  █      ███   ████ █   █ █████ 
