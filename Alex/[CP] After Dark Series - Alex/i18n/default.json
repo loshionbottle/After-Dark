@@ -183,6 +183,7 @@
     "AfterDark.Core.Alex.Spring.LateHeart.7": "",
     "AfterDark.Core.Alex.Spring.LateHeart.8": "",
     "AfterDark.Core.Alex.Spring.LateHeart.9": "",
+    "AfterDark.Core.Alex.Spring.LateHeart.10": "",
 
     // SUMMER
     "AfterDark.Core.Alex.Summer.0Heart.1": "",
@@ -237,6 +238,7 @@
     "AfterDark.Core.Alex.Summer.LateHeart.7": "",
     "AfterDark.Core.Alex.Summer.LateHeart.8": "",
     "AfterDark.Core.Alex.Summer.LateHeart.9": "",
+    "AfterDark.Core.Alex.Summer.LateHeart.10": "",
 
     // FALL
     "AfterDark.Core.Alex.Fall.0Heart.1": "",
@@ -291,6 +293,7 @@
     "AfterDark.Core.Alex.Fall.LateHeart.7": "",
     "AfterDark.Core.Alex.Fall.LateHeart.8": "",
     "AfterDark.Core.Alex.Fall.LateHeart.9": "",
+    "AfterDark.Core.Alex.Fall.LateHeart.10": "",
 
     // WINTER
     "AfterDark.Core.Alex.Winter.0Heart.1": "",
@@ -345,46 +348,7 @@
     "AfterDark.Core.Alex.Winter.LateHeart.7": "",
     "AfterDark.Core.Alex.Winter.LateHeart.8": "",
     "AfterDark.Core.Alex.Winter.LateHeart.9": "",
-
-    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     ████  ███  █   █ █   █ █████ ████  █████  ███  █████ █████  ███  █   █ █████ 
-    █     █   █ ██  █ █   █ █     █   █ █     █   █   █     █   █   █ ██  █ █     
-    █     █   █ █ █ █  █ █  ████  ████  █████ █████   █     █   █   █ █ █ █ █████ 
-    █     █   █ █  ██  █ █  █     █   █     █ █   █   █     █   █   █ █  ██     █ 
-     ████  ███  █   █   █   █████ █   █ █████ █   █   █   █████  ███  █   █ █████ 
-    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     GENERIC -- PREMARRIAGE
-    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-    "AfterDark.Core.Alex.Spring.LateHeart.10": "",
-    "AfterDark.Core.Alex.Conversation.Spring.LateHeart.Memory.": "",
-
-    "AfterDark.Core.Alex.Summer.LateHeart.10": "",
-    "AfterDark.Core.Alex.Conversation.Summer.LateHeart.Memory.": "",
-
-    "AfterDark.Core.Alex.Fall.LateHeart.10": "",
-    "AfterDark.Core.Alex.Conversation.Fall.LateHeart.Memory.": "",
-
     "AfterDark.Core.Alex.Winter.LateHeart.10": "",
-    "AfterDark.Core.Alex.Conversation.Winter.LateHeart.Memory.": "",
-
-    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     MARRIAGE
-    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-    "AfterDark.Marriage.Alex.TwoKids.4": "",
-    "AfterDark.Marriage.Alex.Conversation.TwoKids.4.Memory.OneDay": "",
-
-    "AfterDark.Marriage.Alex.Indoor.Day.10": "",
-    "AfterDark.Core.Conversation.Alex.Memory.OneWeek": "",
-
-    "AfterDark.Marriage.Alex.Good.15": "",
-    "AfterDark.Marriage.Alex.Conversation.Good.10.Memory.OneWeek": "",
-
-    "AfterDark.Marriage.Alex.Neutral.15": "",
-    "AfterDark.Marriage.Alex.Conversation.Neutral.10.Memory.OneDay": "",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     █████ █████  ███  █      ███  █   █ █████ █   █     ████  █████  ███  █      ███   ████ █   █ █████ 
@@ -399,40 +363,40 @@
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
     
     // Day After - 0-4h
-    "AfterDark.EarlyFestivalJealousy.Alex.HasPartner.Harvey.Memory": "",
-    "AfterDark.EarlyFestivalJealousy.Alex.HasPartner.Elliott.Memory": "",
-    "AfterDark.EarlyFestivalJealousy.Alex.HasPartner.Sam.Memory": "",
-    "AfterDark.EarlyFestivalJealousy.Alex.HasPartner.Sebastian.Memory": "",
-    "AfterDark.EarlyFestivalJealousy.Alex.HasPartner.Shane.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Harvey.Early.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Elliott.Early.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Sam.Early.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Sebastian.Early.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Shane.Early.Memory": "",
 
-    "AfterDark.EarlyFestivalJealousy.Alex.HasPartner.Abigail.Memory": "",
-    "AfterDark.EarlyFestivalJealousy.Alex.HasPartner.Haley.Memory": "",
-    "AfterDark.EarlyFestivalJealousy.Alex.HasPartner.Emily.Memory": "",
-    "AfterDark.EarlyFestivalJealousy.Alex.HasPartner.Leah.Memory": "",
-    "AfterDark.EarlyFestivalJealousy.Alex.HasPartner.Maru.Memory": "",
-    "AfterDark.EarlyFestivalJealousy.Alex.HasPartner.Penny.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Abigail.Early.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Haley.Early.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Emily.Early.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Leah.Early.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Maru.Early.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Penny.Early.Memory": "",
 
     // Day After - 5h+
-    "AfterDark.LateFestivalJealousy.Alex.HasPartner.Harvey.Memory": "",
-    "AfterDark.LateFestivalJealousy.Alex.HasPartner.Elliott.Memory": "",
-    "AfterDark.LateFestivalJealousy.Alex.HasPartner.Sam.Memory": "",
-    "AfterDark.LateFestivalJealousy.Alex.HasPartner.Sebastian.Memory": "",
-    "AfterDark.LateFestivalJealousy.Alex.HasPartner.Shane.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Harvey.Late.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Elliott.Late.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Sam.Late.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Sebastian.Late.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Shane.Late.Memory": "",
 
-    "AfterDark.LateFestivalJealousy.Alex.HasPartner.Abigail.Memory": "",
-    "AfterDark.LateFestivalJealousy.Alex.HasPartner.Haley.Memory": "",
-    "AfterDark.LateFestivalJealousy.Alex.HasPartner.Emily.Memory": "",
-    "AfterDark.LateFestivalJealousy.Alex.HasPartner.Leah.Memory": "",
-    "AfterDark.LateFestivalJealousy.Alex.HasPartner.Maru.Memory": "",
-    "AfterDark.LateFestivalJealousy.Alex.HasPartner.Penny.Memory": "",
-
-    // Otherwise Day After
-    "AfterDark.EarlyFestivalJealousy.Alex.HasPartner.Alex.Memory": "",
-    "AfterDark.EarlyFestivalJealousy.Alex.HasPartner.NotAlex.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Abigail.Late.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Haley.Late.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Emily.Late.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Leah.Late.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Maru.Late.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Penny.Late.Memory": "",
 
     // Otherwise Day After
-    "AfterDark.LateFestivalJealousy.Alex.HasPartner.Alex.Memory": "",
-    "AfterDark.LateFestivalJealousy.Alex.HasPartner.NotAlex.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Alex.Early.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.NotAlex.Early.Memory": "",
+
+    // Otherwise Day After
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Alex.Late.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.NotAlex.Late.Memory": "",
     
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
