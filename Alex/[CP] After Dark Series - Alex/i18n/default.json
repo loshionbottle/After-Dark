@@ -66,21 +66,21 @@
     "AfterDark.Core.Alex.Introduction": "How disappointing.$a#$b#I would've thought the new farmer would be more...$9#$b#{{Descript}}.$s#$e#Nice to meet you, by the way.$9",
 
     // BIRTHDAY
-    "AfterDark.Core.Alex.Birthday.0": "Hm, oh I guess it is my birthday, huh?#$b#Thanks for remembering, {{LPetName}}.$h",
-    "AfterDark.Core.Alex.Birthday.4": "You look so {{LDescript}} when you run up to me all flustered like that.$l#$b#Thanks for the birthday wish though.",
-    "AfterDark.Core.Alex.Birthday.6": "",
-    "AfterDark.Core.Alex.Birthday.8": "Wishing me a happy birthday looking like that?$s#$b#Come on, {{LPetName}}, you know the only way I'll accept one is if those clothes come off with it.$l",
-    "AfterDark.Core.Alex.Birthday.10": "",
+    "AfterDark.Core.Alex.Birthday.0": "",
+    "AfterDark.Core.Alex.Birthday.4": "",
+    "AfterDark.Core.Alex.Birthday.6": "Hm, oh I guess it is my birthday, huh?#$b#Thanks for remembering, {{LPetName}}.$h",
+    "AfterDark.Core.Alex.Birthday.8": "You look so {{LDescript}} when you run up to me all flustered like that.$l#$b#Thanks for the birthday wish though.",
+    "AfterDark.Core.Alex.Birthday.10": "Wishing me a happy birthday looking like that?$s#$b#Come on, {{LPetName}}, you know the only way I'll accept one is if those clothes come off with it.$l",
 
     // Pos Romantic Shit
-    "AfterDark.Core.Alex.AcceptBouquet": "Oh, these flowers are nice, thanks {{LPetName}}.$h#$e#Oh, you're asking me out??$7#$b#I thought we were already dating...$l",
-    "AfterDark.Core.Alex.StarDrop": "I just wanted to say I really appreciate you sticking around despite all the teasing and fighting.$l#$b#You made me realize I'm capable of love so, when I saw this, I thought it was the perfect gift for someone like you.$h",
-    "AfterDark.Core.Alex.Dating": "Will you let me kiss you now, {{LPetName}}?$l",
-    "AfterDark.Core.Alex.Dating.Memory": "Y'know, I think I'll always enjoy %season a little more from now on.",
+    "AfterDark.Core.Alex.AcceptBouquet": "",
+    "AfterDark.Core.Alex.StarDrop": "",
+    "AfterDark.Core.Alex.Dating": "",
+    "AfterDark.Core.Alex.Dating.Memory": "",
 
     // Neg Romantic Shit
-    "AfterDark.Core.Alex.RejectBouquet": "%Alex looks sad as you wave the flowers in front of his face.#$b#You know I want to accept, but not yet, {{LPetName}}.$s",
-    "AfterDark.Core.Alex.RejectMermaidPendant": "I'mma have to decline for now, {{LPetName}}.$9#$b#Ask me again when you're actually ready to fully become mine.",
+    "AfterDark.Core.Alex.RejectBouquet": "",
+    "AfterDark.Core.Alex.RejectMermaidPendant": "",
     "AfterDark.Core.Alex.RejectGift.Divorced": "Are you really trying to make amends after you divorced me?$a#$b#Please, just leave me alone.$s",
     "AfterDark.Core.Alex.Divorced": "%Alex looks at you longingly, but refuses to say anything.",
     "AfterDark.Core.Alex.BreakUp": "Why are they wilt- Oh.$7#$b#{{PetName}}, I-$s#$b#What did I do wrong?$s",
@@ -90,27 +90,45 @@
 
     // Extra Random
     "AfterDark.Core.Alex.cc.Bridge": "Have you been up by the lake recently? I was on a run late last night, and I noticed that the old bridge was repaired...#$b#You didn't have anything to do with it, did you?",
+
     "AfterDark.Core.Alex.fishCaught.159": "I heard you caught some kind of rare fish?#$b#I'm impressed. Your arms must be stronger than they look.$h",
+
     "AfterDark.Core.Alex.Chicken": "I overheard someone saying that you got your first chicken the other day.#$b#Maybe I'll just have to check out the progress on your little farm one of these days.$h",
-    "AfterDark.Core.Alex.fishCaught.139": "How was that salmon you caught recently?#$e#What? No, I'm not stalking your movements.$a#$b#I just so happened to be there...$s",
+
+    "AfterDark.Core.Alex.fishCaught.139": "How was that salmon you caught recently?#$e#What? No, I'm not stalking your movements.$a#$b#I just so happened to be close by...$s",
+
     "AfterDark.Core.Alex.FirstVisit.Bathhouse": "How was your last bathhouse visit? Anything fun happen?#$e#Uh, wait... you didn't go poking around in my locker, did you?$9",
+
     "AfterDark.Core.Alex.Slingshot": "Would you stop?$a#$b#I know you're trying to get me back for teasing you, but damn.$9",
+    
     "AfterDark.Core.Alex.GreenRain": "I nearly tripped on one of those weird plants while out on my run this morning.$9#$b#Are you alright?",
     "AfterDark.Core.Alex.GreenRainFinished": "That green rain was pretty weird, huh?#$b#It almost reminded me of the bathhouse showers, so I'm kinda used to it already.$h",
     "AfterDark.Core.Alex.GreenRain2": "My grandparents are freaking out about the rain.$s#$b#I don't see what the problem is, I was fine when I went out this morning.",
 
     // Resort
-    "AfterDark.Core.Alex.Resort.Entering": "Finally, we're here!$h",
-    "AfterDark.Core.Alex.Resort.Leaving": "Aw... I guess it can't last forever.$s#$b#How about just you and me come back here sometime?",
-    "AfterDark.Core.Alex.Resort.Wander": "I guess I should've brought a frisbee, I can barely sit still.",
-    "AfterDark.Core.Alex.Resort.Wander.2": "Hmm, would you be down to play some volleyball with me?#$b#Don't worry, I'll go easy on you.$h",
-    "AfterDark.Core.Alex.Resort.Shore": "I wonder how far I could swim out and still make it back.#$e#How about you and I have a little competition, huh?$h",
-    "AfterDark.Core.Alex.Resort.Chair": "Aren't you hot in that outfit?$s#$b#I bet you'd be a lot more comfortable wearing noth- I mean, a swimsuit or something.",
-    "AfterDark.Core.Alex.Resort.Towel": "Hey, wanna join me in sunbathing for a bit?$h",
-    "AfterDark.Core.Alex.Resort.Towel.2": "Phew, it feels good to finally get these abs a little sunlight.#$b#Kind of a shame to have them hidden away all the time back home.$s",
-    "AfterDark.Core.Alex.Resort.Towel.3": "When I go pro, I'll vacation on islands all around the world.#$b#Wouldn't that be fun? Getting to join me on vacation like that?$h",
-    "AfterDark.Core.Alex.Resort.ResortBar": "I'm ordering a banana shake with two scoops of protein powder, do you want something?",
-    "AfterDark.Core.Alex.Resort.Resort": "Ugh, it feels so good out here.#$b#I'm glad you're here with me though.$h",
+    "AfterDark.Core.Alex.Resort.Early.Entering": "",
+    "AfterDark.Core.Alex.Resort.Early.Leaving": "",
+    "AfterDark.Core.Alex.Resort.Early.Wander": "I guess I should've brought a frisbee, I can barely sit still.",
+    "AfterDark.Core.Alex.Resort.Early.Wander.2": "",
+    "AfterDark.Core.Alex.Resort.Early.Shore": "",
+    "AfterDark.Core.Alex.Resort.Early.Chair": "Aren't you hot in that outfit?$s#$b#I bet you'd be a lot more comfortable wearing noth- I mean, a swimsuit or something.",
+    "AfterDark.Core.Alex.Resort.Early.Towel": "",
+    "AfterDark.Core.Alex.Resort.Early.Towel.2": "Phew, it feels good to finally get these abs a little sunlight.#$b#Kind of a shame to have them hidden away all the time back home.$s",
+    "AfterDark.Core.Alex.Resort.Early.Towel.3": "",
+    "AfterDark.Core.Alex.Resort.Early.ResortBar": "",
+    "AfterDark.Core.Alex.Resort.Early.Resort": "",
+
+    "AfterDark.Core.Alex.Resort.Late.Entering": "",
+    "AfterDark.Core.Alex.Resort.Late.Leaving": "",
+    "AfterDark.Core.Alex.Resort.Late.Wander": "",
+    "AfterDark.Core.Alex.Resort.Late.Wander.2": "",
+    "AfterDark.Core.Alex.Resort.Late.Shore": "",
+    "AfterDark.Core.Alex.Resort.Late.Chair": "",
+    "AfterDark.Core.Alex.Resort.Late.Towel": "",
+    "AfterDark.Core.Alex.Resort.Late.Towel.2": "",
+    "AfterDark.Core.Alex.Resort.Late.Towel.3": "",
+    "AfterDark.Core.Alex.Resort.Late.ResortBar": "",
+    "AfterDark.Core.Alex.Resort.Late.Resort": "",
 
     // Rain
     "AfterDark.Core.Alex.Rain.1": "Doesn't rain mean you don't have much to do? Why are you still running around outside?$9#$b#You should stay here or go back home so you don't get too sick.$a",
