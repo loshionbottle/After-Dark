@@ -6,7 +6,7 @@
             "Target": "Characters/Dialogue/Alex",
             "Entries": {
                 // Intro 
-                "Introduction": "Here's my silver locket.#$action AddItem {{ModId}}_AlexSilverLocket 1"
+                "Introduction": "{{i18n:AfterDark.Core.Alex.Introduction{{GeneralPlayerEndearment}}}}"
             }
         }
     ]

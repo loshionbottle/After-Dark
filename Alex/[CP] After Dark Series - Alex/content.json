@@ -29,7 +29,7 @@
             "Default": "They",
             "AllowBlank": false,
             "AllowMultiple": true,
-            "Section": "Player Info",
+            "Section": "Pronouns",
             "Description": "Would typically be something similar to \"They\", \"She\", \"He\"."
         },
         /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -49,19 +49,26 @@
             "Section": "Endearment",
             "Description": "Would typically be \"Pretty\", \"Cute\", \"Handsome\", etc."
         },
-        "Good...": {
-            "Default": "Farmer",
-            "AllowBlank": false,
-            "AllowMultiple": true,
-            "Section": "Endearment",
-            "Description": "Would typically be \"Boy\", \"Girl\", \"Slut\", etc."
-        },
         "Marriage Affection": {
             "Default": "Spouse",
             "AllowBlank": false,
             "AllowMultiple": true,
             "Section": "Endearment",
             "Description": "How Alex refers to you after marriage. Would typically be \"Husband\", \"Wife\", \"Spouse\", \"Shawty Bae\", etc."
+        },
+        "Bad...": {
+            "Default": "Slut",
+            "AllowBlank": false,
+            "AllowMultiple": true,
+            "Section": "Degradement",
+            "Description": "Would typically be \"Slut\", \"Whore\", \"Boy\", \"Girl\", etc. These are used in tandem with your degrade word."
+        },
+        "Degrade Word": {
+            "Default": "Filthy",
+            "AllowBlank": false,
+            "AllowMultiple": true,
+            "Section": "Degradement",
+            "Description": "Would typically be \"Filthy\", \"Disgusting\", \"Pathetic\", etc. These are used in tandem with your bad... word."
         },
         /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
         |    DIALOGUE 
@@ -114,7 +121,7 @@
         ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
         {
             "Name": "GeneralPlayerEndearment",
-            "Value": "|PetName={{Random: {{Pet Name}} |key=PlayerEndearment}} |LPetName={{Random: {{Lowercase: {{Pet Name}}}} |key=PlayerEndearment}} |Descript={{Random: {{Descriptive Word}} |key=PlayerEndearment}} |LDescript={{Random: {{Lowercase: {{Descriptive Word}}}} |key=PlayerEndearment}} |GoodName={{Random: {{Good...}} |key=PlayerEndearment}} |LGoodName={{Random: {{Lowercase: {{Good...}}}} |key=PlayerEndearment}} |MarriageName={{Random:{{Marriage Affection}} |key=PlayerEndearment}} |LMarriageName={{Random: {{Lowercase: {{Marriage Affection}}}} |key=PlayerEndearment}}"
+            "Value": "|PetName={{Random: {{Pet Name}} |key=PlayerEndearment}} |LPetName={{Random: {{Lowercase: {{Pet Name}}}} |key=PlayerEndearment}} |Descript={{Random: {{Descriptive Word}} |key=PlayerEndearment}} |LDescript={{Random: {{Lowercase: {{Descriptive Word}}}} |key=PlayerEndearment}} |BadName={{Random: {{Bad...}} |key=PlayerEndearment}} |LBadName={{Random: {{Lowercase: {{Bad...}}}} |key=PlayerEndearment}} |DegradeWord={{Random: {{Degrade Word}} |key=PlayerEndearment}} |LDegradeWord={{Random: {{Lowercase: {{Degrade Word}}}} |key=PlayerEndearment}} |MarriageName={{Random:{{Marriage Affection}} |key=PlayerEndearment}} |LMarriageName={{Random: {{Lowercase: {{Marriage Affection}}}} |key=PlayerEndearment}}"
         },
         /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
         |    MISC 
