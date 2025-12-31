@@ -9,44 +9,83 @@
             "LogName": "Shadow Schedule",
             "Action": "EditData",
             "Target": "Characters/schedules/Shadow",
+            "When": {
+                "Hearts:Alex": "0, 1, 2, 3, 4, 5, 6",
+                "HasMod": "kabulla.bakery"
+            },
             "Entries": {
                 // dOn'T rEmoVe oR iT bReAkS ThE GaME
                 "spring": "0 Custom_Shadow_Layer 5 3 1",
-                // right side in case people are assholes
-                //"spring_2": "2200 Town 32 55 2 {{ModId}}_LeftSmugBastard/2500 Custom_Shadow_Layer 3 3 0",
-                // town left side of pierre's
-                "spring_2": "2200 Town 32 55 2 {{ModId}}_RightSmugBastard/2500 Town 43 65 3/2530 Custom_Shadow_Layer 3 3 0",
-                // side of the hill
-                "spring_5": "800 Town 73 53 2 {{ModId}}_KickingFeetWaiting/2500 Town 43 65 3/2500 Custom_Shadow_Layer 3 3 0",
+                // right side in case people are assholes (bakery users)
+                "spring_2": "2200 Town 32 55 2 {{ModId}}_LeftSmugBastard/2500 Custom_Shadow_Layer 3 3 0",
+                // sitting on bridge
+                "spring_5": "2000 Town 73 53 2 {{ModId}}_KickingFeetWaiting/2500 Town 43 65 3/2530 Custom_Shadow_Layer 3 3 0",
                 "spring_8": "GOTO spring_2",
-                // day after egg festival
-                "spring_14": "800 Town 55 104 {{ModId}}_Smoking/2500 Town 43 65 3/2500 Custom_Shadow_Layer 3 3 0",
-                "spring_18": "",
-                // day after dance
-                "spring_25": "",
+                // smoking against bridge
+                "spring_14": "2100 Town 55 104 1 {{ModId}}_Smoking/2500 Town 43 65 3/2530 Custom_Shadow_Layer 3 3 0",
+                // smoking in mountain
+                "spring_18": "2100 Mountain 49 31 1 {{ModId}}_Smoking/2500 Mountain 16 6 3/2530 Custom_Shadow_Layer 3 3 0",
+                "spring_25": "GOTO spring_14",
 
                 "summer_3": "GOTO spring_14",
                 "summer_8": "GOTO spring_5",
-                // day after luau
-                "summer_12": "",
+                "summer_12": "GOTO spring_18",
                 "summer_16": "GOTO spring_2",
-                "summer_25": "",
+                "summer_25": "GOTO spring",
 
-                // day after jellies
-                "fall_1": "",
+                "fall_1": "GOTO spring_18",
                 "fall_7": "GOTO spring_2",
                 "fall_12": "GOTO spring_14",
                 "fall_19": "GOTO spring_2",
                 "fall_23": "GOTO spring_5",
-                // day after spooky 
-                "fall_28": "",
+                "fall_28": "GOTO spring_18",
 
                 "winter_4": "GOTO spring_5",
-                // day after ice fest
                 "winter_9": "GOTO spring_14",
-                "winter_11": "",
+                "winter_11": "GOTO spring_18",
                 "winter_19": "GOTO spring_2",
-                "winter_23": ""
+                "winter_23": "GOTO spring_5"
+            }
+        },
+        {
+            "LogName": "Shadow Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Shadow",
+            "When": {
+                "Hearts:Alex": "0, 1, 2, 3, 4, 5, 6"
+            },
+            "Entries": {
+                // dOn'T rEmoVe oR iT bReAkS ThE GaME
+                "spring": "0 Custom_Shadow_Layer 5 3 1",
+                // town left side of pierre's
+                "spring_2": "2200 Town 32 55 2 {{ModId}}_RightSmugBastard/2500 Town 43 65 3/2530 Custom_Shadow_Layer 3 3 0",
+                // sitting on bridge
+                "spring_5": "2000 Town 73 53 2 {{ModId}}_KickingFeetWaiting/2500 Town 43 65 3/2530 Custom_Shadow_Layer 3 3 0",
+                "spring_8": "GOTO spring_2",
+                // smoking against bridge
+                "spring_14": "2100 Town 55 104 1 {{ModId}}_Smoking/2500 Town 43 65 3/2530 Custom_Shadow_Layer 3 3 0",
+                // smoking in mountain
+                "spring_18": "2100 Mountain 49 31 1 {{ModId}}_Smoking/2500 Mountain 16 6 3/2530 Custom_Shadow_Layer 3 3 0",
+                "spring_25": "GOTO spring_14",
+
+                "summer_3": "GOTO spring_14",
+                "summer_8": "GOTO spring_5",
+                "summer_12": "GOTO spring_18",
+                "summer_16": "GOTO spring_2",
+                "summer_25": "GOTO spring",
+
+                "fall_1": "GOTO spring_18",
+                "fall_7": "GOTO spring_2",
+                "fall_12": "GOTO spring_14",
+                "fall_19": "GOTO spring_2",
+                "fall_23": "GOTO spring_5",
+                "fall_28": "GOTO spring_18",
+
+                "winter_4": "GOTO spring_5",
+                "winter_9": "GOTO spring_14",
+                "winter_11": "GOTO spring_18",
+                "winter_19": "GOTO spring_2",
+                "winter_23": "GOTO spring_5"
             }
         }
     ]

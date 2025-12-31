@@ -1,8 +1,8 @@
 {
     "Name": "[CP] After Dark Series - ???",
     "Author": "loshionbottle & caterpixies",
-    "Description": "Adds an NPC for Losh to use in their other After Dark packs.",
-    "Version": "1.1.0",
+    "Description": "Adds a dumb stalker to your game.",
+    "Version": "2.0.0",
     "UniqueID": "caterbottle.shadowsafterdark",
     "UpdateKeys": [ "Nexus:29185" ],
     "ContentPackFor": {
