@@ -1,0 +1,39 @@
+{
+  "Changes": [
+    {
+      "LogName": "Shadow's Disposition",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "Shadow": {
+          "DisplayName": "???",
+          "HomeRegion": "Other",
+          "Language": "Default",
+          "CanBeRomanced": false,
+          "CanSocialize": true,
+          "CanReceiveGifts": false,
+          "CanGreetNearbyCharacters": false,
+          "Calendar": "HiddenAlways",
+          "SocialTab": "HiddenAlways",
+          "PerfectionScore": false,
+          "IntroductionsQuest": false,
+          "EndSlideShow": "Hidden",
+          "FlowerDanceCanDance": false,
+          "SpawnIfMissing": true,
+          "Home": [
+            {
+              "Id": "caterbottle.shadowsafterdark_Shadow_Layer",
+              "Condition": null,
+              "Location": "Custom_Shadow_Layer",
+              "Tile": {
+                "X": 3,
+                "Y": 3
+              },
+              "Direction": "right"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

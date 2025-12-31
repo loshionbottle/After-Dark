@@ -1,0 +1,53 @@
+{
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Characters/schedules/Shadow",
+            "FromFile": "Data/blank.json"
+        },
+        {
+            "LogName": "Shadow Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Shadow",
+            "Entries": {
+                // dOn'T rEmoVe oR iT bReAkS ThE GaME
+                "spring": "0 Custom_Shadow_Layer 5 3 1",
+                // right side in case people are assholes
+                //"spring_2": "2200 Town 32 55 2 {{ModId}}_LeftSmugBastard/2500 Custom_Shadow_Layer 3 3 0",
+                // town left side of pierre's
+                "spring_2": "2200 Town 32 55 2 {{ModId}}_RightSmugBastard/2500 Town 43 65 3/2530 Custom_Shadow_Layer 3 3 0",
+                // side of the hill
+                "spring_5": "800 Town 73 53 2 {{ModId}}_KickingFeetWaiting/2500 Town 43 65 3/2500 Custom_Shadow_Layer 3 3 0",
+                "spring_8": "GOTO spring_2",
+                // day after egg festival
+                "spring_14": "800 Town 55 104 {{ModId}}_Smoking/2500 Town 43 65 3/2500 Custom_Shadow_Layer 3 3 0",
+                "spring_18": "",
+                // day after dance
+                "spring_25": "",
+
+                "summer_3": "GOTO spring_14",
+                "summer_8": "GOTO spring_5",
+                // day after luau
+                "summer_12": "",
+                "summer_16": "GOTO spring_2",
+                "summer_25": "",
+
+                // day after jellies
+                "fall_1": "",
+                "fall_7": "GOTO spring_2",
+                "fall_12": "GOTO spring_14",
+                "fall_19": "GOTO spring_2",
+                "fall_23": "GOTO spring_5",
+                // day after spooky 
+                "fall_28": "",
+
+                "winter_4": "GOTO spring_5",
+                // day after ice fest
+                "winter_9": "GOTO spring_14",
+                "winter_11": "",
+                "winter_19": "GOTO spring_2",
+                "winter_23": ""
+            }
+        }
+    ]
+}

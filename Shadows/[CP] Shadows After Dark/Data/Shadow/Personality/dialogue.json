@@ -1,0 +1,18 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shadow",
+            "Entries": {
+                "Introduction": "",
+                "Mon": "",
+                "Tue": "",
+                "Wed": "",
+                "Thu": "Isn't it a little late for you to be out, @?$h",
+                "Fri": "",
+                "Sat": "",
+                "Sun": ""
+            }
+        }
+    ]
+}
