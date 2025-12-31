@@ -3,15 +3,28 @@
         {
             "Action": "EditData",
             "Target": "Characters/Dialogue/Shadow",
+            "When": { "Figure Acts as an NPC": "true" },
             "Entries": {
-                "Introduction": "",
-                "Mon": "",
-                "Tue": "",
-                "Wed": "",
-                "Thu": "Isn't it a little late for you to be out, @?$h",
-                "Fri": "",
-                "Sat": "",
-                "Sun": ""
+                "Introduction": "{{i18n:AfterDark.Core.Shadow.Teasing.{{Random:{{Range: 1, 28}}}}}}",
+                "Mon": "{{i18n:AfterDark.Core.Shadow.Teasing.{{Random:{{Range: 1, 28}}}}}}",
+                "Tue": "{{i18n:AfterDark.Core.Shadow.Teasing.{{Random:{{Range: 1, 28}}}}}}",
+                "Wed": "{{i18n:AfterDark.Core.Shadow.Teasing.{{Random:{{Range: 1, 28}}}}}}",
+                "Thu": "{{i18n:AfterDark.Core.Shadow.Teasing.{{Random:{{Range: 1, 28}}}}}}",
+                "Fri": "{{i18n:AfterDark.Core.Shadow.Teasing.{{Random:{{Range: 1, 28}}}}}}",
+                "Sat": "{{i18n:AfterDark.Core.Shadow.Teasing.{{Random:{{Range: 1, 28}}}}}}",
+                "Sun": "{{i18n:AfterDark.Core.Shadow.Teasing.{{Random:{{Range: 1, 28}}}}}}"
+            }
+        },
+        // yay phone calls are back
+        {
+            "LogName": "Shadow Phone Calls",
+            "Action": "EditData",
+            "Target": "Strings/Characters",
+            "When": { "Figure Acts as an NPC": "true" },
+            "Entries": {
+                "Phone_Ring_Cursed": "{{i18n:AfterDark.Strings.Phonecalls.Cursed}}",
+                "Phone_Ring_Foreign": "{{i18n:AfterDark.Strings.Phonecalls.Foreign}}",
+                "Phone_Ring_RoboCaller": "{{i18n:AfterDark.Strings.Phonecalls.RoboCaller}}"
             }
         }
     ]

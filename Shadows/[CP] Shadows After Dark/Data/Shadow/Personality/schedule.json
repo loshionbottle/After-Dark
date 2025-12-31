@@ -3,13 +3,16 @@
         {
             "Action": "Load",
             "Target": "Characters/schedules/Shadow",
+            "When": { "Figure Acts as an NPC": "true" },
             "FromFile": "Data/blank.json"
         },
+        // fuck ass bakery just HAS to be in the one spot that's scrumptious for him to stand... :middlefinger: 
         {
             "LogName": "Shadow Schedule",
             "Action": "EditData",
             "Target": "Characters/schedules/Shadow",
             "When": {
+                "Figure Acts as an NPC": "true",
                 "Hearts:Alex": "0, 1, 2, 3, 4, 5, 6",
                 "HasMod": "kabulla.bakery"
             },
@@ -31,7 +34,7 @@
                 "summer_8": "GOTO spring_5",
                 "summer_12": "GOTO spring_18",
                 "summer_16": "GOTO spring_2",
-                "summer_25": "GOTO spring",
+                "summer_25": "GOTO spring_5",
 
                 "fall_1": "GOTO spring_18",
                 "fall_7": "GOTO spring_2",
@@ -52,6 +55,7 @@
             "Action": "EditData",
             "Target": "Characters/schedules/Shadow",
             "When": {
+                "Figure Acts as an NPC": "true",
                 "Hearts:Alex": "0, 1, 2, 3, 4, 5, 6"
             },
             "Entries": {
@@ -72,7 +76,7 @@
                 "summer_8": "GOTO spring_5",
                 "summer_12": "GOTO spring_18",
                 "summer_16": "GOTO spring_2",
-                "summer_25": "GOTO spring",
+                "summer_25": "GOTO spring_5",
 
                 "fall_1": "GOTO spring_18",
                 "fall_7": "GOTO spring_2",
@@ -87,6 +91,124 @@
                 "winter_19": "GOTO spring_2",
                 "winter_23": "GOTO spring_5"
             }
+        },
+        // alex keeps the figure from stalking -- protector frfr
+        {
+            "LogName": "Shadow Fake Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Shadow",
+            "When": {
+                "Figure Acts as an NPC": "true",
+                "Hearts:Alex": "7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                // dOn'T rEmoVe oR iT bReAkS ThE GaME
+                "spring": "0 Custom_Shadow_Layer 5 3 1",
+                "spring_2": "GOTO spring",
+                "spring_5": "GOTO spring",
+                "spring_8": "GOTO spring",
+                "spring_14": "GOTO spring",
+                "spring_18": "GOTO spring",
+                "spring_25": "GOTO spring",
+
+                "summer_3": "GOTO spring",
+                "summer_8": "GOTO spring",
+                "summer_12": "GOTO spring",
+                "summer_16": "GOTO spring",
+                "summer_25": "GOTO spring",
+
+                "fall_1": "GOTO spring",
+                "fall_7": "GOTO spring",
+                "fall_12": "GOTO spring",
+                "fall_19": "GOTO spring",
+                "fall_23": "GOTO spring",
+                "fall_28": "GOTO spring",
+
+                "winter_4": "GOTO spring",
+                "winter_9": "GOTO spring",
+                "winter_11": "GOTO spring",
+                "winter_19": "GOTO spring",
+                "winter_23": "GOTO spring"
+            }
+        },
+        // sam stops stalking when you're married/find out who he is 
+        {
+            "LogName": "Shadow Fake Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Shadow",
+            "When": {
+                "Figure Acts as an NPC": "true",
+                "Hearts:Sam": "10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                // dOn'T rEmoVe oR iT bReAkS ThE GaME
+                "spring": "0 Custom_Shadow_Layer 5 3 1",
+                "spring_2": "GOTO spring",
+                "spring_5": "GOTO spring",
+                "spring_8": "GOTO spring",
+                "spring_14": "GOTO spring",
+                "spring_18": "GOTO spring",
+                "spring_25": "GOTO spring",
+
+                "summer_3": "GOTO spring",
+                "summer_8": "GOTO spring",
+                "summer_12": "GOTO spring",
+                "summer_16": "GOTO spring",
+                "summer_25": "GOTO spring",
+
+                "fall_1": "GOTO spring",
+                "fall_7": "GOTO spring",
+                "fall_12": "GOTO spring",
+                "fall_19": "GOTO spring",
+                "fall_23": "GOTO spring",
+                "fall_28": "GOTO spring",
+
+                "winter_4": "GOTO spring",
+                "winter_9": "GOTO spring",
+                "winter_11": "GOTO spring",
+                "winter_19": "GOTO spring",
+                "winter_23": "GOTO spring"
+            }
+        },
+        // seb stops stalking when you're married//after confront maybe
+        {
+            "LogName": "Shadow Fake Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Shadow",
+            "When": {
+                "Figure Acts as an NPC": "true",
+                "Hearts:Seb": "9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                // dOn'T rEmoVe oR iT bReAkS ThE GaME
+                "spring": "0 Custom_Shadow_Layer 5 3 1",
+                "spring_2": "GOTO spring",
+                "spring_5": "GOTO spring",
+                "spring_8": "GOTO spring",
+                "spring_14": "GOTO spring",
+                "spring_18": "GOTO spring",
+                "spring_25": "GOTO spring",
+
+                "summer_3": "GOTO spring",
+                "summer_8": "GOTO spring",
+                "summer_12": "GOTO spring",
+                "summer_16": "GOTO spring",
+                "summer_25": "GOTO spring",
+
+                "fall_1": "GOTO spring",
+                "fall_7": "GOTO spring",
+                "fall_12": "GOTO spring",
+                "fall_19": "GOTO spring",
+                "fall_23": "GOTO spring",
+                "fall_28": "GOTO spring",
+
+                "winter_4": "GOTO spring",
+                "winter_9": "GOTO spring",
+                "winter_11": "GOTO spring",
+                "winter_19": "GOTO spring",
+                "winter_23": "GOTO spring"
+            }
         }
+        // TODO update with other bachelors
     ]
 }
