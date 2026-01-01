@@ -1,6 +1,12 @@
 {
     "Changes": [
         {
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Shadow",
+            "When": { "Figure Acts as an NPC": "true" },
+            "FromFile": "Data/blank.json"
+        },
+        {
             "Action": "EditData",
             "Target": "Characters/Dialogue/Shadow",
             "When": { "Figure Acts as an NPC": "true" },
