@@ -43,9 +43,10 @@
             "Entries": {
                 "{{ModId}}_LeftSmugBastard": "16/16/16//offset -6 0",
                 "{{ModId}}_RightSmugBastard": "17/17/17//offset 6 0",
+                // actually unused for the time being... :wiltedrose: maybe i'll update one day...
                 "{{ModId}}_LinMirandaPose": "18/18/18",
                 "{{ModId}}_KickingFeetWaiting": "20 20 21 21 22 22 23 23 20/20 20 21 21 22 22 23 23 20/20 20 21 21 22 22 23 23 20//offset 0 -61",
-                "{{ModId}}_Smoking": "4 24/24 25 26 27 28 28 29 29 29 29 29 29 29 29 29 29 29 29 30 30 31 31 25 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24/24 4"
+                "{{ModId}}_Smoking": "4 24/24 25 26 27 28 28 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 30 30 31 31 25 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24/24 4"
             }
         },
         {
