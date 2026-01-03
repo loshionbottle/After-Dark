@@ -20,12 +20,12 @@
                 // dOn'T rEmoVe oR iT bReAkS ThE GaME
                 "spring": "0 Custom_Shadow_Layer 5 3 1",
                 // right side in case people are assholes (bakery users)
-                "spring_2": "2200 Town 32 55 2 {{ModId}}_LeftSmugBastard/2500 Custom_Shadow_Layer 3 3 0",
+                "spring_2": "2200 Town 32 55 2 {{ModId}}_LeftSmugBastard/2500 Town 42 66 3/2530 Custom_Shadow_Layer 3 3 0",
                 // sitting on bridge
-                "spring_5": "2000 Town 73 53 2 {{ModId}}_KickingFeetWaiting/2500 Town 43 65 3/2530 Custom_Shadow_Layer 3 3 0",
+                "spring_5": "2000 Town 73 53 2 {{ModId}}_KickingFeetWaiting/2500 Town 42 66 3/2530 Custom_Shadow_Layer 3 3 0",
                 "spring_8": "GOTO spring_2",
                 // smoking against bridge
-                "spring_14": "2100 Town 55 104 1 {{ModId}}_Smoking/2500 Town 43 65 3/2530 Custom_Shadow_Layer 3 3 0",
+                "spring_14": "2100 Town 55 104 1 {{ModId}}_Smoking/2500 Town 42 66 3/2530 Custom_Shadow_Layer 3 3 0",
                 // smoking in mountain
                 "spring_18": "2100 Mountain 49 31 1 {{ModId}}_Smoking/2500 Mountain 16 6 3/2530 Custom_Shadow_Layer 3 3 0",
                 "spring_25": "GOTO spring_14",

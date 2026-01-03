@@ -80,6 +80,32 @@
             "FromFile": "Data/Shadow/updatedshadowportrait.png"
         },
         {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "Custom_Shadow_Layer": {
+                    "CreateOnLoad": {
+                        "AlwaysActive": false,
+                        "MapPath": "Maps\\Custom_Shadow_Layer"
+                    }
+                }
+            }
+        },
+        { 
+               "Action": "EditMap",
+               "Target": "Maps/Town",
+               "MapProperties": {
+                    "NPCWarp": "43 66 Custom_Shadow_Layer 3 3 42 66 Custom_Shadow_Layer 3 3"
+               }
+        },
+        { 
+               "Action": "EditMap",
+               "Target": "Maps/Mountain",
+               "MapProperties": {
+                    "NPCWarp": "16 6 Custom_Shadow_Layer 3 3 16 6 Custom_Shadow_Layer 3 3"
+               }
+        },
+        {
             "Action": "Load",
             "Target": "Maps/Custom_Shadow_Layer",
             "FromFile": "Data/Maps/Shadow_Layer.tbin"
