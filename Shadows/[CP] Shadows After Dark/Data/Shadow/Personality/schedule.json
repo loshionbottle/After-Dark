@@ -177,7 +177,7 @@
             "Target": "Characters/schedules/Shadow",
             "When": {
                 "Figure Acts as an NPC": "true",
-                "Hearts:Seb": "9, 10, 11, 12, 13, 14"
+                "Hearts:Sebastian": "9, 10, 11, 12, 13, 14"
             },
             "Entries": {
                 // dOn'T rEmoVe oR iT bReAkS ThE GaME
