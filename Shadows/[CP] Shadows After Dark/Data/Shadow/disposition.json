@@ -10,7 +10,7 @@
           "HomeRegion": "Other",
           "Language": "Default",
           "CanBeRomanced": false,
-          "CanSocialize": true,
+          "CanSocialize": false,
           "CanReceiveGifts": false,
           "CanGreetNearbyCharacters": false,
           "Calendar": "HiddenAlways",
@@ -20,6 +20,7 @@
           "EndSlideShow": "Hidden",
           "FlowerDanceCanDance": false,
           "SpawnIfMissing": true,
+          "CanVisitIsland": "FALSE",
           "Home": [
             {
               "Id": "caterbottle.shadowsafterdark_Shadow_Layer",

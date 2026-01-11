@@ -91,19 +91,30 @@
                 }
             }
         },
-        { 
-               "Action": "EditMap",
-               "Target": "Maps/Town",
-               "MapProperties": {
-                    "NPCWarp": "43 66 Custom_Shadow_Layer 3 3 42 66 Custom_Shadow_Layer 3 3"
-               }
+        {
+            "Action": "EditData",
+            "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+            "Entries": {
+                "Shadow": {
+                    "Exclude": true
+                }
+            }
         },
-        { 
-               "Action": "EditMap",
-               "Target": "Maps/Mountain",
-               "MapProperties": {
-                    "NPCWarp": "16 6 Custom_Shadow_Layer 3 3 16 6 Custom_Shadow_Layer 3 3"
-               }
+        {
+            "Action": "EditData",
+            "Target": "Mods/Bouhm.NPCMapLocations/Locations",
+            "Entries": {
+                "Custom_Shadow_Layer": {
+                    "Exclude": true
+                }
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "AddWarps": [
+                "99 39 Custom_Shadow_Layer 3 3"
+            ]
         },
         {
             "Action": "Load",

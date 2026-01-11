@@ -1,0 +1,85 @@
+{
+    "Changes": [
+        // ----------------------------------------------------------------------------------------------------
+        // DEATH CONSEQUENCES - ON
+        // HOSPITAL
+        // ----------------------------------------------------------------------------------------------------
+        {
+            "LogName": "Hospital Death - Not Married DC 1",
+            "Action": "EditData",
+            "Target": "Data/Events/Hospital",
+            "Entries": {
+                "PlayerKilled": "Hospital_Ambient/-100 -100/farmer 20 12 2 Shadow -200 -200 0/pause 1500/showFrame 5/message \"{{i18n:AD.Hospital.NotMarried.1.1}}\"/pause 1000/playSound Shadow_Breath2/pause 200/playSound Shadow_Breath2/pause 200/playSound Shadow_Breath2/message \"{{i18n:AD.Hospital.NotMarried.1.2}}\"/pause 200/speak Shadow \"{{i18n:AD.Hospital.NotMarried.1.3}}\"/pause 200/message \"{{i18n:AD.Hospital.NotMarried.1.4}}\"/pause 200/speak Shadow \"{{i18n:AD.Hospital.NotMarried.1.5}}\"/pause 200/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 800/viewport 20 12 true/pause 1000/showFrame 0/pause 1000/emote farmer 40/hospitaldeath/end"
+            },
+            "When": {
+                "Death Consequences": "On, Off only when married to Harvey",
+                "Query: {{DailyLuck}} < 0": true
+            }
+        },
+        {
+            "LogName": "Hospital Death - Not Married DC 2",
+            "Action": "EditData",
+            "Target": "Data/Events/Hospital",
+            "Entries": {
+                "PlayerKilled": "Hospital_Ambient/-100 -100/farmer 20 12 2 Shadow -200 -200 0/pause 1500/showFrame 5/message \"{{i18n:AD.Hospital.NotMarried.2.1}}\"/pause 1000/speak Shadow \"{{i18n:AD.Hospital.NotMarried.2.2}}\"/pause 200/message \"{{i18n:AD.Hospital.NotMarried.2.3}}\"/pause 200/speak Shadow \"{{i18n:AD.Hospital.NotMarried.2.4}}\"/pause 200/message \"{{i18n:AD.Hospital.NotMarried.2.5}}\"/pause 200/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 800/viewport 20 12 true/pause 1000/showFrame 0/pause 1000/emote farmer 40/hospitaldeath/end"
+            },
+            "When": {
+                "Death Consequences": "On, Off only when married to Harvey",
+                "Query: {{DailyLuck}} = 0": true
+            }
+        },
+        {
+            "LogName": "Hospital Death - Not Married DC 3",
+            "Action": "EditData",
+            "Target": "Data/Events/Hospital",
+            "Entries": {
+                "PlayerKilled": "Hospital_Ambient/-100 -100/farmer 20 12 2 Shadow -200 -200 0/pause 1500/showFrame 5/message \"{{i18n:AD.Hospital.NotMarried.3.1}}\"/pause 1000/playSound Shadow_Breath2/pause 200/playSound Shadow_Breath2/pause 200/playSound Shadow_Breath2/message \"{{i18n:AD.Hospital.NotMarried.3.2}}\"/pause 200/speak Shadow \"{{i18n:AD.Hospital.NotMarried.3.3}}\"/pause 200/message \"{{i18n:AD.Hospital.NotMarried.3.4}}\"/pause 200/speak Shadow \"{{i18n:AD.Hospital.NotMarried.3.5}}\"/pause 200/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 800/viewport 20 12 true/pause 1000/showFrame 0/pause 1000/emote farmer 40/hospitaldeath/end"
+            },
+            "When": {
+                "Death Consequences": "On, Off only when married to Harvey",
+                "Query: {{DailyLuck}} > 0": true
+            }
+        },
+        // ----------------------------------------------------------------------------------------------------
+        // DEATH CONSEQUENCES - OFF
+        // HOSPITAL
+        // ----------------------------------------------------------------------------------------------------
+        
+                {
+            "LogName": "Hospital Death - Not Married NDC 1",
+            "Action": "EditData",
+            "Target": "Data/Events/Hospital",
+            "Entries": {
+                "PlayerKilled": "Hospital_Ambient/-100 -100/farmer 20 12 2 Shadow -200 -200 0/pause 1500/showFrame 5/message \"{{i18n:AD.Hospital.NotMarried.1.1}}\"/pause 1000/playSound Shadow_Breath2/pause 200/playSound Shadow_Breath2/pause 200/playSound Shadow_Breath2/message \"{{i18n:AD.Hospital.NotMarried.1.2}}\"/pause 200/speak Shadow \"{{i18n:AD.Hospital.NotMarried.1.3}}\"/pause 200/message \"{{i18n:AD.Hospital.NotMarried.1.4}}\"/pause 200/speak Shadow \"{{i18n:AD.Hospital.NotMarried.1.5}}\"/pause 200/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 800/viewport 20 12 true/pause 1000/showFrame 0/pause 1000/emote farmer 40/end"
+            },
+            "When": {
+                "Death Consequences": "Fully off",
+                "Query: {{DailyLuck}} < 0": true
+            }
+        },
+        {
+            "LogName": "Hospital Death - Not Married NDC 2",
+            "Action": "EditData",
+            "Target": "Data/Events/Hospital",
+            "Entries": {
+                "PlayerKilled": "Hospital_Ambient/-100 -100/farmer 20 12 2 Shadow -200 -200 0/pause 1500/showFrame 5/message \"{{i18n:AD.Hospital.NotMarried.2.1}}\"/pause 1000/speak Shadow \"{{i18n:AD.Hospital.NotMarried.2.2}}\"/pause 200/message \"{{i18n:AD.Hospital.NotMarried.2.3}}\"/pause 200/speak Shadow \"{{i18n:AD.Hospital.NotMarried.2.4}}\"/pause 200/message \"{{i18n:AD.Hospital.NotMarried.2.5}}\"/pause 200/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 800/viewport 20 12 true/pause 1000/showFrame 0/pause 1000/emote farmer 40/end"
+            },
+            "When": {
+                "Death Consequences": "Fully off",
+                "Query: {{DailyLuck}} = 0": true
+            }
+        },
+        {
+            "LogName": "Hospital Death - Not Married NDC 3",
+            "Action": "EditData",
+            "Target": "Data/Events/Hospital",
+            "Entries": {
+                "PlayerKilled": "Hospital_Ambient/-100 -100/farmer 20 12 2 Shadow -200 -200 0/pause 1500/showFrame 5/message \"{{i18n:AD.Hospital.NotMarried.3.1}}\"/pause 1000/playSound Shadow_Breath2/pause 200/playSound Shadow_Breath2/pause 200/playSound Shadow_Breath2/message \"{{i18n:AD.Hospital.NotMarried.3.2}}\"/pause 200/speak Shadow \"{{i18n:AD.Hospital.NotMarried.3.3}}\"/pause 200/message \"{{i18n:AD.Hospital.NotMarried.3.4}}\"/pause 200/speak Shadow \"{{i18n:AD.Hospital.NotMarried.3.5}}\"/pause 200/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 800/viewport 20 12 true/pause 1000/showFrame 0/pause 1000/emote farmer 40/end"
+            },
+            "When": {
+                "Death Consequences": "Fully off",
+                "Query: {{DailyLuck}} > 0": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,149 @@
+{
+    "Changes": [
+        // ----------------------------------------------------------------------------------------------------
+        // DEATH CONSEQUENCES - ON
+        // MARRIED - HARVEY
+        // HOSPITAL
+        // ----------------------------------------------------------------------------------------------------
+        {
+            "LogName": "Hospital Death - Harvey DC 1",
+            "Action": "EditData",
+            "Target": "Data/Events/Hospital",
+            "Entries": {
+                "PlayerKilled": "Hospital_Ambient/-100 -100/farmer 20 12 2 {{Spouse}} -200 -200 0/pause 1500/showFrame 5/message \"{{i18n:AD.Hospital.Married.3.1}}\"/pause 500/speak {{Spouse}} \"{{i18n:AD.Hospital.Married.3.2}}\"/pause 200/message \"{{i18n:AD.Hospital.Married.3.3}}\"/pause 200/speak {{Spouse}} \"{{i18n:AD.Hospital.Married.3.4}}\"/pause 200/message \"{{i18n:AD.Hospital.Married.3.5}}\"/pause 1000/hospitaldeath/end"
+            },
+            "When": {
+                "Death Consequences": "On",
+                "Spouse": "Harvey",
+                "Query: {{DailyLuck}} < 0": true,
+                "Query: '{{TheMightyAmondee.CustomTokens/DeathCountMarriedPK}}' < 3": true
+            }
+        },
+        {
+            "LogName": "Hospital Death - Harvey DC 1",
+            "Action": "EditData",
+            "Target": "Data/Events/Hospital",
+            "Entries": {
+                "PlayerKilled": "Hospital_Ambient/-100 -100/farmer 20 12 2 {{Spouse}} -200 -200 0/pause 1500/showFrame 5/message \"{{i18n:AD.Hospital.Married.3.1}}\"/pause 500/speak {{Spouse}} \"{{i18n:AD.Hospital.Married.3.2}}\"/pause 200/message \"{{i18n:AD.Hospital.Married.3.3}}\"/pause 200/speak {{Spouse}} \"{{i18n:AD.Hospital.Married.3.4}}\"/pause 200/message \"{{i18n:AD.Hospital.Married.3.5}}\"/pause 1000/hospitaldeath/end"
+            },
+            "When": {
+                "Death Consequences": "On",
+                "Spouse": "Harvey",
+                "Query: {{DailyLuck}} = 0": true,
+                "Query: '{{TheMightyAmondee.CustomTokens/DeathCountMarriedPK}}' < 3": true
+            }
+        },
+        {
+            "LogName": "Hospital Death - Harvey DC 2",
+            "Action": "EditData",
+            "Target": "Data/Events/Hospital",
+            "Entries": {
+                "PlayerKilled": "Hospital_Ambient/-100 -100/farmer 19 12 2 Harvey 21 12 3/positionOffset farmer -30 25/pause 1500/message \"{{i18n:AD.Hospital.Married.Harvey.1}}\"/pause 500/message \"{{i18n:AD.Hospital.Married.Harvey.2}}\"/pause 200/speak Harvey \"{{i18n:AD.Hospital.Married.Harvey.3}}\"/pause 200/message \"{{i18n:AD.Hospital.Married.Harvey.4}}\"/pause 200/speak Harvey \"{{i18n:AD.Hospital.Married.Harvey.5}}\"/pause 200/message \"{{i18n:AD.Hospital.Married.Harvey.6}}\"/showFrame 5/pause 500/viewport 20 12 true/pause 1000/showFrame 0/pause 200/emote farmer 8/pause 350/speak Harvey \"{{i18n:AD.Hospital.Married.Harvey.7}}\"/pause 200/emote farmer 60/pause 1000/hospitalDeath/end"
+            },
+            "When": {
+                "Death Consequences": "On",
+                "Spouse": "Harvey",
+                "Query: {{DailyLuck}} > 0": true,
+                "Query: '{{TheMightyAmondee.CustomTokens/DeathCountMarriedPK}}' < 3": true
+            }
+        },        {
+            "LogName": "Hospital Death - Harvey DC 3",
+            "Action": "EditData",
+            "Target": "Data/Events/Hospital",
+            "Entries": {
+                "PlayerKilled": "Hospital_Ambient/-100 -100/farmer 19 12 2 {{Spouse}} 21 12 2/positionOffset farmer -30 25/pause 1500/message \"{{i18n:AD.Hospital.Married.4.1}}\/showFrame 5/pause 500/viewport 20 12 true/pause 1000/showFrame 0/pause 200/emote farmer 8/pause 200/emote {{Spouse}} 16 true/pause 500/faceDirection {{Spouse}} 3/pause 200/speak {{Spouse}} \"{{i18n:AD.Hospital.Married.4.2}}\"/pause 200/emote {{Spouse}} 28/pause 500/speak {{Spouse}} \"{{i18n:AD.Hospital.Married.4.3}}\"/pause 200/faceDirection {{Spouse}} 1/pause 350/speak {{Spouse}} \"{{i18n:AD.Hospital.Married.4.4}}\"/pause 200/emote {{Spouse}} 28/pause 1000/hospitalDeath/end"
+            },
+            "When": {
+                "Death Consequences": "On",
+                "Spouse": "Harvey",
+                "Query: '{{TheMightyAmondee.CustomTokens/DeathCountMarriedPK}}' = 3": true
+            }
+        },
+        {
+            "LogName": "Hospital Death - Harvey DC 4",
+            "Action": "EditData",
+            "Target": "Data/Events/Hospital",
+            "Entries": {
+                "PlayerKilled": "Hospital_Ambient/-100 -100/farmer 19 12 2 {{Spouse}} 21 12 2/positionOffset farmer -30 25/pause 1500/message \"{{i18n:AD.Hospital.Married.5.1}}\/showFrame 5/pause 500/viewport 20 12 true/pause 1000/showFrame 0/pause 200/emote {{Spouse}} 12 true/pause 500/faceDirection {{Spouse}} 3/pause 200/speak {{Spouse}} \"{{i18n:AD.Hospital.Married.5.2}}\"/pause 200/emote farmer 28/pause 500/message \"{{i18n:AD.Hospital.Married.5.3}}\"/pause 1000/mailReceived ADSpouseIsTiredOfYou true/hospitalDeath/end"
+            },
+            "When": {
+                "Death Consequences": "On",
+                "Spouse": "Harvey",
+                "Query: '{{TheMightyAmondee.CustomTokens/DeathCountMarriedPK}}' > 3": true
+            }
+        },
+        // ----------------------------------------------------------------------------------------------------
+        // DEATH CONSEQUENCES - ON
+        // MARRIED - HARVEY
+        // HOSPITAL
+        // ----------------------------------------------------------------------------------------------------
+        {
+            "LogName": "Hospital Death - Married NDC 1",
+            "Action": "EditData",
+            "Target": "Data/Events/Hospital",
+            "Entries": {
+                "PlayerKilled": "Hospital_Ambient/-100 -100/farmer 20 12 2 Harvey -200 -200 0/pause 1500/showFrame 5/message \"{{i18n:AD.Hospital.Married.3.1}}\"/pause 500/speak Harvey \"{{i18n:AD.Hospital.Married.3.2}}\"/pause 200/message \"{{i18n:AD.Hospital.Married.3.3}}\"/pause 200/speak Harvey \"{{i18n:AD.Hospital.Married.3.4}}\"/pause 200/message \"{{i18n:AD.Hospital.Married.3.5}}\"/pause 1000/end"
+            },
+            "When": {
+                "Death Consequences": "Fully off, Off only when married to Harvey",
+                "Spouse": "Harvey",
+                "Query: {{DailyLuck}} < 0": true,
+                "Query: '{{TheMightyAmondee.CustomTokens/DeathCountMarriedPK}}' < 3": true
+            }
+        },
+        {
+            "LogName": "Hospital Death - Married NDC 1",
+            "Action": "EditData",
+            "Target": "Data/Events/Hospital",
+            "Entries": {
+                "PlayerKilled": "Hospital_Ambient/-100 -100/farmer 20 12 2 Harvey -200 -200 0/pause 1500/showFrame 5/message \"{{i18n:AD.Hospital.Married.3.1}}\"/pause 500/speak Harvey \"{{i18n:AD.Hospital.Married.3.2}}\"/pause 200/message \"{{i18n:AD.Hospital.Married.3.3}}\"/pause 200/speak Harvey \"{{i18n:AD.Hospital.Married.3.4}}\"/pause 200/message \"{{i18n:AD.Hospital.Married.3.5}}\"/pause 1000/end"
+            },
+            "When": {
+                "Death Consequences": "Fully off, Off only when married to Harvey",
+                "Spouse": "Harvey",
+                "Query: {{DailyLuck}} = 0": true,
+                "Query: '{{TheMightyAmondee.CustomTokens/DeathCountMarriedPK}}' < 3": true
+            }
+        },
+        {
+            "LogName": "Hospital Death - Harvey NDC 2",
+            "Action": "EditData",
+            "Target": "Data/Events/Hospital",
+            "Entries": {
+                "PlayerKilled": "Hospital_Ambient/-100 -100/farmer 19 12 2 Harvey 21 12 3/positionOffset farmer -30 25/pause 1500/message \"{{i18n:AD.Hospital.Married.Harvey.1}}\"/pause 500/message \"{{i18n:AD.Hospital.Married.Harvey.2}}\"/pause 200/speak Harvey \"{{i18n:AD.Hospital.Married.Harvey.3}}\"/pause 200/message \"{{i18n:AD.Hospital.Married.Harvey.4}}\"/pause 200/speak Harvey \"{{i18n:AD.Hospital.Married.Harvey.5}}\"/pause 200/message \"{{i18n:AD.Hospital.Married.Harvey.6}}\"/showFrame 5/pause 500/viewport 20 12 true/pause 1000/showFrame 0/pause 200/emote farmer 8/pause 350/speak Harvey \"{{i18n:AD.Hospital.Married.Harvey.7}}\"/pause 200/emote farmer 60/pause 1000/end"
+            },
+            "When": {
+                "Death Consequences": "Fully off, Off only when married to Harvey",
+                "Spouse": "Harvey",
+                "Query: {{DailyLuck}} > 0": true,
+                "Query: '{{TheMightyAmondee.CustomTokens/DeathCountMarriedPK}}' < 3": true
+            }
+        },
+        {
+            "LogName": "Hospital Death - Married NDC Harvey 3",
+            "Action": "EditData",
+            "Target": "Data/Events/Hospital",
+            "Entries": {
+                "PlayerKilled": "Hospital_Ambient/-100 -100/farmer 19 12 2 Harvey 21 12 2/positionOffset farmer -30 25/pause 1500/message \"{{i18n:AD.Hospital.Married.4.1}}\/showFrame 5/pause 500/viewport 20 12 true/pause 1000/showFrame 0/pause 200/emote farmer 8/pause 200/emote Harvey 16 true/pause 500/faceDirection Harvey 3/pause 200/speak Harvey \"{{i18n:AD.Hospital.Married.4.2}}\"/pause 200/emote Harvey 28/pause 500/speak Harvey \"{{i18n:AD.Hospital.Married.4.3}}\"/pause 200/faceDirection Harvey 1/pause 350/speak Harvey \"{{i18n:AD.Hospital.Married.4.4}}\"/pause 200/emote Harvey 28/pause 1000/end"
+            },
+            "When": {
+                "Death Consequences": "Fully off, Off only when married to Harvey",
+                "Spouse": "Harvey",
+                "Query: '{{TheMightyAmondee.CustomTokens/DeathCountMarriedPK}}' = 3": true
+            }
+        },
+        {
+            "LogName": "Hospital Death - Married NDC Harvey 4",
+            "Action": "EditData",
+            "Target": "Data/Events/Hospital",
+            "Entries": {
+                "PlayerKilled": "Hospital_Ambient/-100 -100/farmer 19 12 2 Harvey 21 12 2/positionOffset farmer -30 25/pause 1500/message \"{{i18n:AD.Hospital.Married.5.1}}\/showFrame 5/pause 500/viewport 20 12 true/pause 1000/showFrame 0/pause 200/emote Harvey 12 true/pause 500/faceDirection Harvey 3/pause 200/speak Harvey \"{{i18n:AD.Hospital.Married.5.2}}\"/pause 200/emote farmer 28/pause 500/message \"{{i18n:AD.Hospital.Married.5.3}}\"/mailReceived ADSpouseIsTiredOfYou true/pause 1000/end"
+            },
+            "When": {
+                "Death Consequences": "Fully off, Off only when married to Harvey",
+                "Spouse": "Harvey",
+                "Query: '{{TheMightyAmondee.CustomTokens/DeathCountMarriedPK}}' > 3": true
+            }
+        }
+    ]
+}
