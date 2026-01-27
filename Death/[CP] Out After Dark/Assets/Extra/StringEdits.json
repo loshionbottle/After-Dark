@@ -6,14 +6,14 @@
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
             "Entries": {
-                "Event.cs.1068": "{{i18n:AD.Death.Strings.1068}} ",
-                "Event.cs.1070": "{{i18n:AD.Death.Strings.1070}} ",
-                "Event.cs.1071": "{{i18n:AD.Death.Strings.1071}} ",
-                "Event.cs.1058": "{{i18n:AD.Death.Strings.1058}}",
-                "Event.cs.1060": "{{i18n:AD.Death.Strings.1060}} ",
-                "Event.cs.1061": " {{i18n:AD.Death.Strings.1061}}",
-                "Event.cs.1062": " {{i18n:AD.Death.Strings.1062}}",
-                "Event.cs.1057": "{{i18n:AD.Death.Strings.1057}}"
+                "Event.cs.1068": "It seems you were charged {0}g for the hospital visit. ",
+                "Event.cs.1070": "You had no money, but it seems someone was obligated to save your life free of charge. ",
+                "Event.cs.1071": "It also appears that you've lost ",
+                "Event.cs.1058": "You seem to have lost {0}g.",
+                "Event.cs.1060": "It seems you've lost ",
+                "Event.cs.1061": " an item from your backpack.",
+                "Event.cs.1062": " {0} items from your backpack.",
+                "Event.cs.1057": "Why does it feel like you've lost something..?"
             }
         }
     ]

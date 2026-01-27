@@ -1,0 +1,11 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Harvey",
+            "Entries": {
+                "ADHarveyGotYouInTheMines": "{{i18n:AD.Death.Harvey.Memory.OneDay}}"
+            }
+        }
+    ]
+}
