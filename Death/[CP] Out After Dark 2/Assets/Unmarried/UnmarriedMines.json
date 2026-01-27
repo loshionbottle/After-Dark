@@ -92,7 +92,6 @@
          MINES
         ---------------------------------------------------------------------------------------------------- */
         {
-            // DONE 1/27 4:19AM
             "LogName": "Mines Death - NMNC Luckiest",
             "Action": "EditData",
             "Target": "Data/Events/Mine",
@@ -105,7 +104,6 @@
             }           
         },
         {
-            // DONE 1/27 4:23AM
             "LogName": "Mines Death - NMNC Lucky",
             "Action": "EditData",
             "Target": "Data/Events/Mine",
@@ -118,7 +116,6 @@
             }           
         },
         {
-            // DONE 1/27 4:37AM
             "LogName": "Mines Death - NMNC Neutral",
             "Action": "EditData",
             "Target": "Data/Events/Mine",
@@ -131,8 +128,6 @@
             }           
         },
         {
-            // Remember Convo Topic !! Status: Not Implemented Yet
-            // DONE 1/27 4:40AM
             "LogName": "Mines Death - NMNC Unlucky",
             "Action": "EditData",
             "Target": "Data/Events/Mine",
@@ -145,7 +140,6 @@
             }           
         },
         {
-            // DONE 1/27 4:19AM
             "LogName": "Mines Death - NMNC Luckiest",
             "Action": "EditData",
             "Target": "Data/Events/Mine",

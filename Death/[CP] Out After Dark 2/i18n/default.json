@@ -70,8 +70,7 @@
     "AD.Hospital.Married.Luckiest.10": "This isn't %spouse, is it?#Yoba, it's so fucking hard to make out who the voice belongs to...",
     "AD.Hospital.Married.Luckiest.11": "You hear a nearby door open, the figure immediately backing away.",
     "AD.Hospital.Married.Luckiest.12": "The hell are you doing here?$a#$b#Is that @—$8",
-    "AD.Hospital.Married.Luckiest.13": "Fuck...The urge to keep listening is strong but...",
-    "AD.Hospital.Married.Luckiest.14": "The noises in the room fade once more, giving you a few more hours of rest.",
+    "AD.Hospital.Married.Luckiest.13": "Fuck...The urge to keep listening is strong but...#The noises in the room fade once more, allowing you a few more hours of rest.",
     
     // Scenario 2 - Lucky 
     "AD.Hospital.Married.Lucky.1": "Mmmm... C'mon @...$s#$b#You've been asleep for so long already...$s",
@@ -91,7 +90,7 @@
 
     "AD.Hospital.Married.AS.Neutral.4": "Ok—ok... I get it.$8#$b#I remember, just—$s#$b#Please, don't say anything about that once @ wakes up.$s",
     "AD.Hospital.Married.AS.Neutral.5": "Oh, thank Yoba...",
-    "AD.Hospital.Married.AS.Neutral.7": "I don't want to rush your recovery, @, but...$s#$b#Do you guys think you could get out now?$s#$b#I have some paperwork to finish up, and honestly? A few moments to myself.$s",
+    "AD.Hospital.Married.AS.Neutral.7": "The last thing I want is to rush your recovery, @, but...$s#$b#Do you guys think you could get out now?$a#$b#I have some paperwork to finish up, and honestly?$s#$b#He's really starting to get on my nerves.$a",
 
     // Specific Scenario Sam, Sebastian, & Elliott (3rd Event) - Neutral
     "AD.Hospital.Married.SSED.Neutral.1": "{{PPN2}} vitals look strong, so {{LPPN1}} should be waking up soon.#$b#Though, I don't know what's taking so long.$s",
@@ -337,25 +336,20 @@
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
     // Scenario Farm Start -- Death = Unlucky when Married
     "AD.Farm.Married.Start.1": "...$a#$b#Where do you think you're going?$a",
-    "AD.Farm.Married.Start.2": "Didn't I tell you that the next time you passed out, I'd force you to stay here with me?$a",
-    "AD.Farm.Married.Start.3": "Fine, I'll make you a deal.#$b#If you stay here for one day, and don't harm yourself again, I'll let you leave again tomorrow.#$b#But if not... You don't wanna know.$a",
+    "AD.Farm.Married.Start.2": "You you really think I'd let you go out there knowing you'd probably pass out again?$a#$b#No, you're staying here with me.$a",
+    "AD.Farm.Married.Start.3": "Don't...$s#$b#Don't look at me like that, @.$s#$b#You know it's for the best.$s#$b#...$a#$b#Fine, I'll make you a deal.$a#$b#If you stay here for one day, and don't harm yourself again, I'll let you leave again tomorrow.#$b#But if not... You don't wanna know.$a",
     "AD.Farm.Married.Start.4": "Please, @...$s#$b#I'm just tired of seeing you hurt yourself over and over...$s#$b#Let me handle the hard stuff, yeah?",
     
-    // Scenario 2 -- Tries to leave when ^ is still ongoing
-    "AD.Farm.Married.LeftOnce.1": "...$a#$b#Where do you think you're going?$a",
-    "AD.Farm.Married.LeftOnce.2": "We've been through this before, @. You're not leaving.$a#$b#At least not until I know you can handle yourself again.$s#$b#One day, don't harm yourself. Then you can leave.",
-    "AD.Farm.Married.LeftOnce.3": "Don't make me ask again, please.$s#$b#Just let me handle the hard stuff, yeah?#$b#You kill me a little everytime you pass out...$s",
-
-    // Scenario 3 -- When ^ is ongoing
+    // Scenario 2 -- When ^ is ongoing
     "AD.Farm.Married.LeftTwice": "...$a#$b#Get your ass back on the farm, @.$a",
 
-    // Scenario 4 -- When ^ is ongoing
+    // Scenario 3 -- When ^ is ongoing
     "AD.Farm.Married.LeftThrice": "...$a#$b#Are you really gonna make me repeat myself?$a",
 
-    // Scenario 5 -- When ^ is ongoing
+    // Scenario 4 -- When ^ is ongoing
     "AD.Farm.Married.LeftQuadrice": "...$a#$b#How many damn times are we gonna do this, @?$a",
 
-    // Scenario 6 -- I can't do this anymore
+    // Scenario 5 -- I can't do this anymore
     "AD.Farm.Married.LeftQuarce": "...$a#$b#Alright, since you don't wanna fucking listen, I'll force a day out of you...$a",
 
     // damn you're stubborn as shit, huh?

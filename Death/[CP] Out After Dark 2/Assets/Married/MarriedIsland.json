@@ -1,0 +1,186 @@
+{
+    "Changes": [
+        // ----------------------------------------------------------------------------------------------------
+        // DEATH CONSEQUENCES - ON
+        // MARRIED BUT NOT TO HARVEY
+        // ISLAND
+        // ----------------------------------------------------------------------------------------------------
+        {
+            "LogName": "Island Death - M Lucky",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 13 33 1 {{Spouse}} 14 33 3 0/pause 1500/showFrame 0/speak {{Spouse}} \"{{i18n:AD.Island.Married.Lucky.1}}\"/pause 200/message \"{{i18n:AD.Island.Married.Lucky.2.{{siliconmodding.NPCTokens/NPC:{{Spouse}}+gender}}}}\"/pause 1500/viewport 13 33 clamp true/pause 1000/speak {{Spouse}} \"{{i18n:AD.Island.Married.Lucky.3}}\"/pause 2000/emote farmer 16/pause 500/emote {{Spouse}} 32/pause 1000/minedeath/end"
+            },
+            "When": {
+                "Death Consequences": "On, Off only when married to Harvey",
+                "Spouse": "{{Spouse}}, default",
+                "Query: '{{Spouse}}' = 'Harvey'": false,
+                "Query: {{DailyLuck}} > 0": true
+            }            
+        },
+        {
+            "LogName": "Island Death - M Neutral",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 13 33 1 {{Spouse}} 14 33 3 0/pause 1500/showFrame 0/message \"{{i18n:AD.Island.Married.Neutral.1}}\"/pause 200/speak {{Spouse}} \"{{i18n:AD.Island.Married.Neutral.2}}\"/pause 200/message \"{{i18n:AD.Island.Married.Neutral.3}}\"/pause 200/speak {{Spouse}} \"{{i18n:AD.Island.Married.Neutral.4}}\"/pause 200/message \"{{i18n:AD.Island.Married.Neutral.5}}\"/pause 1500/viewport 13 33 clamp true/pause 1000/speak {{Spouse}} \"{{i18n:AD.Island.Married.Neutral.6}}\"/pause 2000/emote farmer 28/pause 1000/minedeath/end"
+            },
+            "When": {
+                "Death Consequences": "On, Off only when married to Harvey",
+                "Spouse": "{{Spouse}}, default",
+                "Query: '{{Spouse}}' = 'Harvey'": false,
+                "Query: {{DailyLuck}} = 0": true
+            }            
+        },
+        {
+            "LogName": "Island Death - M Unlucky",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 13 33 2 {{Spouse}} -100 -100 0/pause 1500/showFrame 5/speak {{Spouse}} \"{{i18n:AD.Island.Married.Unlucky.1}}\"/pause 200/message \"{{i18n:AD.Island.Married.Unlucky.2.{{siliconmodding.NPCTokens/NPC:{{Spouse}}+gender}}}}\"/pause 1000/message \"{{i18n:AD.Island.Married.Unlucky.3}}\"/pause 1500/viewport 13 33 clamp true/pause 2000/showFrame 0/pause 500/emote farmer 8/pause 500/faceDirection farmer 1/pause 50/faceDirection farmer 0/pause 500/emote farmer 28/pause 1000/minedeath/end"
+            },
+            "When": {
+                "Death Consequences": "On, Off only when married to Harvey",
+                "Spouse": "{{Spouse}}, default",
+                "Query: '{{Spouse}}' = 'Harvey'": false,
+                "Query: {{DailyLuck}} < 0": true
+            }            
+        },
+        // ----------------------------------------------------------------------------------------------------
+        // DEATH CONSEQUENCES - ON
+        // MARRIED TO HARVEY
+        // ISLAND
+        // ----------------------------------------------------------------------------------------------------
+        {
+            "LogName": "Island Death - M Lucky",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 13 33 1 {{Spouse}} 14 33 3 0/pause 1500/showFrame 0/speak {{Spouse}} \"{{i18n:AD.Island.Married.Lucky.1}}\"/pause 200/message \"{{i18n:AD.Island.Married.Lucky.2.{{siliconmodding.NPCTokens/NPC:{{Spouse}}+gender}}}}\"/pause 1500/viewport 13 33 clamp true/pause 1000/speak {{Spouse}} \"{{i18n:AD.Island.Married.Lucky.3}}\"/pause 2000/emote farmer 16/pause 500/emote {{Spouse}} 32/pause 1000/minedeath/end"
+            },
+            "When": {
+                "Death Consequences": "On",
+                "Spouse": "Harvey",
+                "Query: {{DailyLuck}} > 0": true
+            }            
+        },
+        {
+            "LogName": "Island Death - M Neutral",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 13 33 1 {{Spouse}} 14 33 3 0/pause 1500/showFrame 0/message \"{{i18n:AD.Island.Married.Neutral.1}}\"/pause 200/speak {{Spouse}} \"{{i18n:AD.Island.Married.Neutral.2}}\"/pause 200/message \"{{i18n:AD.Island.Married.Neutral.3}}\"/pause 200/speak {{Spouse}} \"{{i18n:AD.Island.Married.Neutral.4}}\"/pause 200/message \"{{i18n:AD.Island.Married.Neutral.5}}\"/pause 1500/viewport 13 33 clamp true/pause 1000/speak {{Spouse}} \"{{i18n:AD.Island.Married.Neutral.6}}\"/pause 2000/emote farmer 28/pause 1000/minedeath/end"
+            },
+            "When": {
+                "Death Consequences": "On",
+                "Spouse": "Harvey",
+                "Query: {{DailyLuck}} = 0": true
+            }            
+        },
+        {
+            "LogName": "Island Death - M Unlucky",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 13 33 2 {{Spouse}} -100 -100 0/pause 1500/showFrame 5/speak {{Spouse}} \"{{i18n:AD.Island.Married.Unlucky.1}}\"/pause 200/message \"{{i18n:AD.Island.Married.Unlucky.2.{{siliconmodding.NPCTokens/NPC:{{Spouse}}+gender}}}}\"/pause 1000/message \"{{i18n:AD.Island.Married.Unlucky.3}}\"/pause 1500/viewport 13 33 clamp true/pause 2000/showFrame 0/pause 500/emote farmer 8/pause 500/faceDirection farmer 1/pause 50/faceDirection farmer 0/pause 500/emote farmer 28/pause 1000/minedeath/end"
+            },
+            "When": {
+                "Death Consequences": "On",
+                "Spouse": "Harvey",
+                "Query: {{DailyLuck}} < 0": true
+            }            
+        },
+        // ----------------------------------------------------------------------------------------------------
+        // DEATH CONSEQUENCES - OFF
+        // MARRIED BUT NOT TO HARVEY
+        // ISLAND
+        // ----------------------------------------------------------------------------------------------------
+        {
+            "LogName": "Island Death - M Lucky",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 13 33 1 {{Spouse}} 14 33 3 0/pause 1500/showFrame 0/speak {{Spouse}} \"{{i18n:AD.Island.Married.Lucky.1}}\"/pause 200/message \"{{i18n:AD.Island.Married.Lucky.2.{{siliconmodding.NPCTokens/NPC:{{Spouse}}+gender}}}}\"/pause 1500/viewport 13 33 clamp true/pause 1000/speak {{Spouse}} \"{{i18n:AD.Island.Married.Lucky.3}}\"/pause 2000/emote farmer 16/pause 500/emote {{Spouse}} 32/pause 1000/end"
+            },
+            "When": {
+                "Death Consequences": "Fully Off",
+                "Spouse": "{{Spouse}}, default",
+                "Query: '{{Spouse}}' = 'Harvey'": false,
+                "Query: {{DailyLuck}} > 0": true
+            }            
+        },
+        {
+            "LogName": "Island Death - M Neutral",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 13 33 1 {{Spouse}} 14 33 3 0/pause 1500/showFrame 0/message \"{{i18n:AD.Island.Married.Neutral.1}}\"/pause 200/speak {{Spouse}} \"{{i18n:AD.Island.Married.Neutral.2}}\"/pause 200/message \"{{i18n:AD.Island.Married.Neutral.3}}\"/pause 200/speak {{Spouse}} \"{{i18n:AD.Island.Married.Neutral.4}}\"/pause 200/message \"{{i18n:AD.Island.Married.Neutral.5}}\"/pause 1500/viewport 13 33 clamp true/pause 1000/speak {{Spouse}} \"{{i18n:AD.Island.Married.Neutral.6}}\"/pause 2000/emote farmer 28/pause 1000/end"
+            },
+            "When": {
+                "Death Consequences": "Fully Off",
+                "Spouse": "{{Spouse}}, default",
+                "Query: '{{Spouse}}' = 'Harvey'": false,
+                "Query: {{DailyLuck}} = 0": true
+            }            
+        },
+        {
+            "LogName": "Island Death - M Unlucky",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 13 33 2 {{Spouse}} -100 -100 0/pause 1500/showFrame 5/speak {{Spouse}} \"{{i18n:AD.Island.Married.Unlucky.1}}\"/pause 200/message \"{{i18n:AD.Island.Married.Unlucky.2.{{siliconmodding.NPCTokens/NPC:{{Spouse}}+gender}}}}\"/pause 1000/message \"{{i18n:AD.Island.Married.Unlucky.3}}\"/pause 1500/viewport 13 33 clamp true/pause 2000/showFrame 0/pause 500/emote farmer 8/pause 500/faceDirection farmer 1/pause 50/faceDirection farmer 0/pause 500/emote farmer 28/pause 1000/end"
+            },
+            "When": {
+                "Death Consequences": "Fully Off",
+                "Spouse": "{{Spouse}}, default",
+                "Query: '{{Spouse}}' = 'Harvey'": false,
+                "Query: {{DailyLuck}} < 0": true
+            }            
+        },
+        // ----------------------------------------------------------------------------------------------------
+        // DEATH CONSEQUENCES - ON
+        // MARRIED TO HARVEY
+        // ISLAND
+        // ----------------------------------------------------------------------------------------------------
+        {
+            "LogName": "Island Death - M Lucky",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 13 33 1 {{Spouse}} 14 33 3 0/pause 1500/showFrame 0/speak {{Spouse}} \"{{i18n:AD.Island.Married.Lucky.1}}\"/pause 200/message \"{{i18n:AD.Island.Married.Lucky.2.{{siliconmodding.NPCTokens/NPC:{{Spouse}}+gender}}}}\"/pause 1500/viewport 13 33 clamp true/pause 1000/speak {{Spouse}} \"{{i18n:AD.Island.Married.Lucky.3}}\"/pause 2000/emote farmer 16/pause 500/emote {{Spouse}} 32/pause 1000/end"
+            },
+            "When": {
+                "Death Consequences": "Fully Off, Off only when married to Harvey",
+                "Spouse": "Harvey",
+                "Query: {{DailyLuck}} > 0": true
+            }            
+        },
+        {
+            "LogName": "Island Death - M Neutral",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 13 33 1 {{Spouse}} 14 33 3 0/pause 1500/showFrame 0/message \"{{i18n:AD.Island.Married.Neutral.1}}\"/pause 200/speak {{Spouse}} \"{{i18n:AD.Island.Married.Neutral.2}}\"/pause 200/message \"{{i18n:AD.Island.Married.Neutral.3}}\"/pause 200/speak {{Spouse}} \"{{i18n:AD.Island.Married.Neutral.4}}\"/pause 200/message \"{{i18n:AD.Island.Married.Neutral.5}}\"/pause 1500/viewport 13 33 clamp true/pause 1000/speak {{Spouse}} \"{{i18n:AD.Island.Married.Neutral.6}}\"/pause 2000/emote farmer 28/pause 1000/end"
+            },
+            "When": {
+                "Death Consequences": "Fully Off, Off only when married to Harvey",
+                "Spouse": "Harvey",
+                "Query: {{DailyLuck}} = 0": true
+            }            
+        },
+        {
+            "LogName": "Island Death - M Unlucky",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 13 33 2 {{Spouse}} -100 -100 0/pause 1500/showFrame 5/speak {{Spouse}} \"{{i18n:AD.Island.Married.Unlucky.1}}\"/pause 200/message \"{{i18n:AD.Island.Married.Unlucky.2.{{siliconmodding.NPCTokens/NPC:{{Spouse}}+gender}}}}\"/pause 1000/message \"{{i18n:AD.Island.Married.Unlucky.3}}\"/pause 1500/viewport 13 33 clamp true/pause 2000/showFrame 0/pause 500/emote farmer 8/pause 500/faceDirection farmer 1/pause 50/faceDirection farmer 0/pause 500/emote farmer 28/pause 1000/end"
+            },
+            "When": {
+                "Death Consequences": "Fully Off, Off only when married to Harvey",
+                "Spouse": "Harvey",
+                "Query: {{DailyLuck}} < 0": true
+            }            
+        },
+    ]
+}
