@@ -6,21 +6,21 @@
     █   █ █   █     █ █       █     █   █   █ █      
     █   █  ███  █████ █     █████   █   █   █ █████
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-    // Unmarried type shi
+    // Unmarried type shi - neutral
     "AD.Hospital.NotMarried.1.1": "Your head is pounding...#Maybe it's for the best you don't keep passing out like this.",
     "AD.Hospital.NotMarried.1.2": "You feel someone's breath against your neck before you hear them.#Who is that?#You should keep your eyes closed for now...",
     "AD.Hospital.NotMarried.1.3": "Yoba, I love when you come to me all bloodied and bruised.$h#$b#It makes it so much easier to—$l#$b#What's this?$u#$b#Oh, @...$l#$b#Why's your heart rate climbing so quickly like this, hm?$l",
     "AD.Hospital.NotMarried.1.4": "The sound of their laugh sends a chill straight through your spine.#They lean in close to whisper their next words.",
     "AD.Hospital.NotMarried.1.5": "If you're this responsive to me in your sleep, I wonder what you'd be like when you're awake.$l#$b#How about I let you get some more rest, hm?$h",
 
-    // Scenario 2 -- reformat  
+    // Scenario 2 -- reformat  unlucky
     "AD.Hospital.NotMarried.2.1": "You feel a hand run across your face and what you presume to be a pair of lips graze against your other cheek.#Why... Why can't you open your eyes yet?",
     "AD.Hospital.NotMarried.2.2": "...$a#$b#Do you have to keep being this dumb, @?$a#$b#It's like you're passing out on purpose just so I'd have to come and save you...$s",
     "AD.Hospital.NotMarried.2.3": "You feel your body being lifted off the ground–#Oh how you wish you could gather enough strength to fully see who's manhandling your limp body right now.",
     "AD.Hospital.NotMarried.2.4": "Don't do that again, @.$a#$b#There are things worse than death, and you'll experience them all if you keep scaring me like this.$s",
     "AD.Hospital.NotMarried.2.5": "You feel your body being lowered onto a stiff hospital bed before falling back into an unconscious state.",
 
-    // Scenario 3
+    // Scenario 3 - luckiest
     "AD.Hospital.NotMarried.3.1": "Yoba... Does passing out always hurt your head like this?",
     "AD.Hospital.NotMarried.3.2": "You feel someone's breath against your neck before you hear them.#Who is that?#Oh... Is that a hand running up your thigh?#Fuck... Why's it so hard to open your eyes? This doesn't feel like all the other times you've passed out before...",
     "AD.Hospital.NotMarried.3.3": "You really don't know when to quit, huh?$s",

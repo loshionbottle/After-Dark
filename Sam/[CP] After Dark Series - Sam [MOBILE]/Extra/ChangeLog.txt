@@ -97,3 +97,4 @@ changelog from 4.1.0 onward to make translators lives a bit easier;
         5.0.5: Randomizes dialogue & mail triggers more, meaning you're less likely to get them. No change to i18n on this part.
                 - Fixed "no translation" issue on kent lines, no change to i18n
         5.0.6: 'speak 1750' -> 'pause 750' in JealousyEvents_Sam.json....
+        5.0.7: Added {{Genericsomethingkey}} to his mail; no change to i18n
