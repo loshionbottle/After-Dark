@@ -1,0 +1,139 @@
+{
+    "Changes": [
+        /* ----------------------------------------------------------------------------------------------------
+         DEATH CONSEQUENCES - ON
+         UNMARRIED
+         HOSPITAL
+        ---------------------------------------------------------------------------------------------------- */
+        {
+            // DONE 1/27 2:27AM
+            "LogName": "Hospital Death - NM Luckiest",
+            "Action": "EditData",
+            "Target": "Data/Events/Hospital",
+            "Entries": {
+                "PlayerKilled": "Hospital_Ambient/-100 -100/farmer 20 12 2 Shadow -200 -200 0/pause 1500/showFrame 5/message \"{{i18n:AD.Hospital.Unmarried.Luckiest.1}}\"/pause 1000/playSound Shadow_Breath2/pause 200/playSound Shadow_Breath2/pause 200/playSound Shadow_Breath2/message \"{{i18n:AD.Hospital.Unmarried.Luckiest.2}}\"/pause 200/speak Shadow \"{{i18n:AD.Hospital.Unmarried.Luckiest.3}}\"/pause 200/message \"{{i18n:AD.Hospital.Unmarried.Luckiest.4}}\"/pause 200/speak Shadow \"{{i18n:AD.Hospital.Unmarried.Luckiest.5}}\"/pause 200/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 800/viewport 20 12 true/pause 1000/showFrame 0/pause 1000/emote farmer 40/hospitaldeath/end"
+            },
+            "When": {
+                "Death Consequences": "On, Off only when married to Harvey",
+                "RandomNumber": "1"
+            }
+        },
+        {
+            // DONE 1/27 2:29AM
+            "LogName": "Hospital Death - NM Lucky",
+            "Action": "EditData",
+            "Target": "Data/Events/Hospital",
+            "Entries": {
+                "PlayerKilled": "Hospital_Ambient/-100 -100/farmer 20 12 2 Shadow -200 -200 0/pause 1500/showFrame 5/playSound Shadow_Breath2/pause 200/playSound Shadow_Breath2/pause 200/playSound Shadow_Breath2/pause 1000/message \"{{i18n:AD.Hospital.Unmarried.Lucky.1}}\"/pause 200/speak Shadow \"{{i18n:AD.Hospital.Unmarried.Lucky.2}}\"/pause 200/message \"{{i18n:AD.Hospital.Unmarried.Lucky.3}}\"/pause 500/message \"{{i18n:AD.Hospital.Unmarried.Lucky.4}}\"/pause 200/speak Shadow \"{{i18n:AD.Hospital.Unmarried.Lucky.5}}\"/pause 200/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 800/viewport 20 12 true/pause 1000/showFrame 0/pause 1000/emote farmer 40/hospitaldeath/end"
+            },
+            "When": {
+                "Death Consequences": "On, Off only when married to Harvey",
+                "RandomNumber": "2"
+            }
+        },
+        {
+            // DONE 1/27 3:46AM
+            "LogName": "Hospital Death - NM Neutral",
+            "Action": "EditData",
+            "Target": "Data/Events/Hospital",
+            "Entries": {
+                "PlayerKilled": "Hospital_Ambient/-100 -100/farmer 20 12 2 Shadow -200 -200 0/pause 1500/showFrame 5/message \"{{i18n:AD.Hospital.Unmarried.Neutral.1}}\"/pause 1000/playSound Shadow_Breath2/pause 200/playSound Shadow_Breath2/pause 200/playSound Shadow_Breath2/message \"{{i18n:AD.Hospital.Unmarried.Neutral.2}}\"/pause 200/speak Shadow \"{{i18n:AD.Hospital.Unmarried.Neutral.3}}\"/pause 200/message \"{{i18n:AD.Hospital.Unmarried.Neutral.4}}\"/pause 200/speak Shadow \"{{i18n:AD.Hospital.Unmarried.Neutral.5}}\"/pause 200/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 800/viewport 20 12 true/pause 1000/showFrame 0/pause 1000/emote farmer 40/hospitaldeath/end"
+            },
+            "When": {
+                "Death Consequences": "On, Off only when married to Harvey",
+                "RandomNumber": "3"
+            }
+        },
+        {
+            // DONE 1/27 4:02AM
+            "LogName": "Hospital Death - NM Unlucky",
+            "Action": "EditData",
+            "Target": "Data/Events/Hospital",
+            "Entries": {
+                "PlayerKilled": "Hospital_Ambient/-100 -100/farmer 20 12 2 Shadow -200 -200 0/pause 1500/showFrame 5/message \"{{i18n:AD.Hospital.Unmarried.Unlucky.1}}\"//pause 200/speak Shadow \"{{i18n:AD.Hospital.Unmarried.Unlucky.2}}\"/pause 200/message \"{{i18n:AD.Hospital.Unmarried.Unlucky.3}}\"/pause 200/speak Shadow \"{{i18n:AD.Hospital.Unmarried.Unlucky.4}}\"/pause 200/message \"{{i18n:AD.Hospital.Unmarried.Unlucky.5}}\"/pause 200/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 800/viewport 20 12 true/pause 1000/showFrame 0/pause 1000/emote farmer 40/hospitaldeath/end"
+            },
+            "When": {
+                "Death Consequences": "On, Off only when married to Harvey",
+                "RandomNumber": "4"
+            }
+        },
+        {
+            // DONE 1/27 4:08AM
+            "LogName": "Hospital Death - NM Unluckiest",
+            "Action": "EditData",
+            "Target": "Data/Events/Hospital",
+            "Entries": {
+                "PlayerKilled": "Hospital_Ambient/-100 -100/farmer 20 12 2 Shadow -200 -200 0/pause 1500/showFrame 5/message \"{{i18n:AD.Hospital.Unmarried.Unluckiest.1}}\"/pause 1000/speak Shadow \"{{i18n:AD.Hospital.Unmarried.Unluckiest.2}}\"/pause 200/message \"{{i18n:AD.Hospital.Unmarried.Unluckiest.3}}\"/pause 200/message \"{{i18n:AD.Hospital.Unmarried.Unluckiest.4}}\"/pause 200/speak Shadow \"{{i18n:AD.Hospital.Unmarried.Unluckiest.5}}\"/pause 200/message \"{{i18n:AD.Hospital.Unmarried.Unluckiest.6}}\"/pause 200/speak Shadow \"{{i18n:AD.Hospital.Unmarried.Unluckiest.7}}\"/pause 200/message \"{{i18n:AD.Hospital.Unmarried.Unluckiest.8}}\"/pause 200/message \"{{i18n:AD.Hospital.Unmarried.Unluckiest.9}}\"/pause 200/speak Shadow \"{{i18n:AD.Hospital.Unmarried.Unluckiest.10}}\"/pause 200/message \"{{i18n:AD.Hospital.Unmarried.Unluckiest.11}}\"/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 800/viewport 20 12 true/pause 1000/showFrame 0/pause 1000/emote farmer 40/hospitaldeath/end"
+            },
+            "When": {
+                "Death Consequences": "On, Off only when married to Harvey",
+                "RandomNumber": "5"
+            }
+        },
+        /* ----------------------------------------------------------------------------------------------------
+         DEATH CONSEQUENCES - OFF
+         UNMARRIED
+         HOSPITAL
+        ---------------------------------------------------------------------------------------------------- */
+        {
+            "LogName": "Hospital Death - NMNC Luckiest",
+            "Action": "EditData",
+            "Target": "Data/Events/Hospital",
+            "Entries": {
+                "PlayerKilled": "Hospital_Ambient/-100 -100/farmer 20 12 2 Shadow -200 -200 0/pause 1500/showFrame 5/message \"{{i18n:AD.Hospital.Unmarried.Luckiest.1}}\"/pause 1000/playSound Shadow_Breath2/pause 200/playSound Shadow_Breath2/pause 200/playSound Shadow_Breath2/message \"{{i18n:AD.Hospital.Unmarried.Luckiest.2}}\"/pause 200/speak Shadow \"{{i18n:AD.Hospital.Unmarried.Luckiest.3}}\"/pause 200/message \"{{i18n:AD.Hospital.Unmarried.Luckiest.4}}\"/pause 200/speak Shadow \"{{i18n:AD.Hospital.Unmarried.Luckiest.5}}\"/pause 200/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 800/viewport 20 12 true/pause 1000/showFrame 0/pause 1000/emote farmer 40/pause 500/end"
+            },
+            "When": {
+                "Death Consequences": "Fully off",
+                "RandomNumber": "1"
+            }
+        },
+        {
+            "LogName": "Hospital Death - NMNC Lucky",
+            "Action": "EditData",
+            "Target": "Data/Events/Hospital",
+            "Entries": {
+                "PlayerKilled": "Hospital_Ambient/-100 -100/farmer 20 12 2 Shadow -200 -200 0/pause 1500/showFrame 5/playSound Shadow_Breath2/pause 200/playSound Shadow_Breath2/pause 200/playSound Shadow_Breath2/pause 1000/message \"{{i18n:AD.Hospital.Unmarried.Lucky.1}}\"/pause 200/speak Shadow \"{{i18n:AD.Hospital.Unmarried.Lucky.2}}\"/pause 200/message \"{{i18n:AD.Hospital.Unmarried.Lucky.3}}\"/pause 500/message \"{{i18n:AD.Hospital.Unmarried.Lucky.4}}\"/pause 200/speak Shadow \"{{i18n:AD.Hospital.Unmarried.Lucky.5}}\"/pause 200/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 800/viewport 20 12 true/pause 1000/showFrame 0/pause 1000/emote farmer 40/pause 500/end"
+            },
+            "When": {
+                "Death Consequences": "Fully off",
+                "RandomNumber": "2"
+            }
+        },
+        {
+            "LogName": "Hospital Death - NMNC Neutral",
+            "Action": "EditData",
+            "Target": "Data/Events/Hospital",
+            "Entries": {
+                "PlayerKilled": "Hospital_Ambient/-100 -100/farmer 20 12 2 Shadow -200 -200 0/pause 1500/showFrame 5/message \"{{i18n:AD.Hospital.Unmarried.Neutral.1}}\"/pause 1000/playSound Shadow_Breath2/pause 200/playSound Shadow_Breath2/pause 200/playSound Shadow_Breath2/message \"{{i18n:AD.Hospital.Unmarried.Neutral.2}}\"/pause 200/speak Shadow \"{{i18n:AD.Hospital.Unmarried.Neutral.3}}\"/pause 200/message \"{{i18n:AD.Hospital.Unmarried.Neutral.4}}\"/pause 200/speak Shadow \"{{i18n:AD.Hospital.Unmarried.Neutral.5}}\"/pause 200/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 800/viewport 20 12 true/pause 1000/showFrame 0/pause 1000/emote farmer 40/pause 500/end"
+            },
+            "When": {
+                "Death Consequences": "Fully off",
+                "RandomNumber": "3"
+            }
+        },
+        {
+            "LogName": "Hospital Death - NMNC Unlucky",
+            "Action": "EditData",
+            "Target": "Data/Events/Hospital",
+            "Entries": {
+                "PlayerKilled": "Hospital_Ambient/-100 -100/farmer 20 12 2 Shadow -200 -200 0/pause 1500/showFrame 5/message \"{{i18n:AD.Hospital.Unmarried.Unlucky.1}}\"//pause 200/speak Shadow \"{{i18n:AD.Hospital.Unmarried.Unlucky.2}}\"/pause 200/message \"{{i18n:AD.Hospital.Unmarried.Unlucky.3}}\"/pause 200/speak Shadow \"{{i18n:AD.Hospital.Unmarried.Unlucky.4}}\"/pause 200/message \"{{i18n:AD.Hospital.Unmarried.Unlucky.5}}\"/pause 200/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 800/viewport 20 12 true/pause 1000/showFrame 0/pause 1000/emote farmer 40/pause 500/end"
+            },
+            "When": {
+                "Death Consequences": "Fully off",
+                "RandomNumber": "4"
+            }
+        },
+        {
+            "LogName": "Hospital Death - NMNC Unluckiest",
+            "Action": "EditData",
+            "Target": "Data/Events/Hospital",
+            "Entries": {
+                "PlayerKilled": "Hospital_Ambient/-100 -100/farmer 20 12 2 Shadow -200 -200 0/pause 1500/showFrame 5/message \"{{i18n:AD.Hospital.Unmarried.Unluckiest.1}}\"/pause 1000/speak Shadow \"{{i18n:AD.Hospital.Unmarried.Unluckiest.2}}\"/pause 200/message \"{{i18n:AD.Hospital.Unmarried.Unluckiest.3}}\"/pause 200/message \"{{i18n:AD.Hospital.Unmarried.Unluckiest.4}}\"/pause 200/speak Shadow \"{{i18n:AD.Hospital.Unmarried.Unluckiest.5}}\"/pause 200/message \"{{i18n:AD.Hospital.Unmarried.Unluckiest.6}}\"/pause 200/speak Shadow \"{{i18n:AD.Hospital.Unmarried.Unluckiest.7}}\"/pause 200/message \"{{i18n:AD.Hospital.Unmarried.Unluckiest.8}}\"/pause 200/message \"{{i18n:AD.Hospital.Unmarried.Unluckiest.9}}\"/pause 200/speak Shadow \"{{i18n:AD.Hospital.Unmarried.Unluckiest.10}}\"/pause 200/message \"{{i18n:AD.Hospital.Unmarried.Unluckiest.11}}\"/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 400/playSound stoneStep/pause 800/viewport 20 12 true/pause 1000/showFrame 0/pause 1000/emote farmer 40/pause 500/end"
+            },
+            "When": {
+                "Death Consequences": "Fully off",
+                "RandomNumber": "5"
+            }
+        }
+    ]
+}

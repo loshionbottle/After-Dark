@@ -48,6 +48,10 @@
             "Value": "|PPN1={{Random: {{Player Pronouns 1}} |key=PlayerPronouns}} |LPPN1={{Random: {{Lowercase: {{Player Pronouns 1}}}} |key=PlayerPronouns}} |PPN2={{Random: {{Player Pronouns 2}} |key=PlayerPronouns}} |LPPN2={{Random: {{Lowercase: {{Player Pronouns 2}}}} |key=PlayerPronouns}} |PPN3={{Random: {{Player Pronouns 3}} |key=PlayerPronouns}} |LPPN3={{Random: {{Lowercase: {{Player Pronouns 3}}}} |key=PlayerPronouns}} |PPN4={{Random: {{Player Pronouns 4}} |key=PlayerPronouns}} |LPPN4={{Random: {{Lowercase: {{Player Pronouns 4}}}} |key=PlayerPronouns}}"
         },
         {
+            "Name": "RandomNumber",
+            "Value": "{{Random:{{Range: 1, 5}}}}"
+        },
+        {
             "Name": "SpouseName",
             "Value": "default"
         },
@@ -75,24 +79,14 @@
         },
         // Event Files
         {
-            "LogName": "Farm Death",
+            "LogName": "Unmarried Death",
             "Action": "Include",
-            "FromFile": "Assets/Events/FarmDeath.json"
+            "FromFile": "Assets/Unmarried/UnmarriedHospital.json, Assets/Unmarried/UnmarriedIsland.json, Assets/Unmarried/UnmarriedMines.json"
         },
         {
-            "LogName": "Hospital Death",
+            "LogName": "Married Death",
             "Action": "Include",
-            "FromFile": "Assets/Events/HospitalDeath.json"
-        },
-        {
-            "LogName": "Island Death",
-            "Action": "Include",
-            "FromFile": "Assets/Events/IslandDeath.json"
-        },
-        {
-            "LogName": "Mines Death",
-            "Action": "Include",
-            "FromFile": "Assets/Events/MinesDeath.json"
+            "FromFile": "Assets/Married/MarriedHospital.json, Assets/Married/MarriedIsland.json, Assets/Married/MarriedFarm.json, Assets/Married/MarriedMines.json"
         }
     ]
 }

@@ -1,4 +1,8 @@
 {
+    // A note for those looking in these files & the naming conventions:
+    // NM - Not Married 
+    // NC - No Consequences
+    // Also hi translators :)
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     █   █  ███  █████ ████  █████ █████  ███  █  
     █   █ █   █ █     █   █   █     █   █   █ █       
@@ -10,7 +14,7 @@
      HOSPITAL UNMARRIED
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
     // Scenario 1 - Luckiest
-    "AD.Hospital.Unmarried.Luckiest.1": "Yoba... Does passing out always hurt your head like this?",
+    "AD.Hospital.Unmarried.Luckiest.1": "Yoba... Does passing out always have to hurt your head like this?",
     "AD.Hospital.Unmarried.Luckiest.2": "You feel someone's breath against your neck before you hear them.#Who is that?#Oh... Is that a hand running up your thigh?#Fuck... Why's it so hard to open your eyes? This doesn't feel like all the other times you've passed out before...",
     "AD.Hospital.Unmarried.Luckiest.3": "You really don't know when to quit, huh?$s",
     "AD.Hospital.Unmarried.Luckiest.4": "You feel their hands travel more up your—",
@@ -32,9 +36,9 @@
 
     // Scenario 4 - Unlucky 
     "AD.Hospital.Unmarried.Unlucky.1": "You feel a hand run across your face and what you presume to be a pair of lips graze against your other cheek.#Why... Why can't you open your eyes yet?",
-    "AD.Hospital.Unmarried.Unlucky.2": "...$a#$b#Do you have to keep being this dumb, @?$a#$b#It's like you're passing out on purpose just so I'd have to come and save you...$s",
+    "AD.Hospital.Unmarried.Unlucky.2": "...$a#$b#Do you have to keep being this dumb, @?$a#$b#It's like you're passing out on purpose just so I'd come and save you...$s",
     "AD.Hospital.Unmarried.Unlucky.3": "You feel your body being lifted off the ground–#Oh how you wish you could gather enough strength to fully see who's manhandling your limp body right now.",
-    "AD.Hospital.Unmarried.Unlucky.4": "Don't do that again, @.$a#$b#There are things worse than death, and you'll experience them all if you keep scaring me like this.$s",
+    "AD.Hospital.Unmarried.Unlucky.4": "Y'know, there are things worse than death, and you'll experience them all if you keep scaring me like this.$s",
     "AD.Hospital.Unmarried.Unlucky.5": "You feel your body being lowered onto a stiff hospital bed before falling back into an unconscious state.",
 
     // Scenario 5 - Unluckiest 
@@ -184,7 +188,7 @@
     "AD.Mines.Unmarried.Neutral.5": "You feel your body being lowered onto a cool patch of dirt before you fall back into an unconscious state.",
     "AD.Mines.Unmarried.Neutral.6": "That wasn't Marlon, you're sure of that.",
 
-    // Scenario 4 - Unlucky 
+    // Scenario 4 - Unlucky // Remember Convo Topic !!!!
     "AD.Mines.Unmarried.Unlucky.1": "Hmm...$l",
     "AD.Mines.Unmarried.Unlucky.2": "You feel a few surgical tools graze against your face as you finally come to.#$b#Just—Why can't you open your eyes yet?",
     "AD.Mines.Unmarried.Unlucky.3": "I've been sitting here patching you up for the better part of an hour and yet...#$b#Yoba, I still can't decide how I'd like you to pay me back, @.",
@@ -197,7 +201,7 @@
     // Scenario 5 - Unluckiest 
     "AD.Mines.Unmarried.Unluckiest.1": "...$a#$b#Why the hell am I finding you down here?$a#$b#Bloodied and bruised isn't a good look on you, @...$s",
     "AD.Mines.Unmarried.Unluckiest.2": "You feel the figure lift your limp body off the ground, holding you with a care almost foreign to you.#Is this someone you know?#Their touch is oddly gentle for someone who lifted you without so much as a grunt...",
-    "AD.Mines.Unmarried.Unluckiest.3": "Don't you know by now that you belong to me?$s#$b#Damaging my property like this might result in me actually getting angry for once, @.",
+    "AD.Mines.Unmarried.Unluckiest.3": "Don't you know by now that you belong to me?$s#$b#Damaging my property like this might actually get angry, @.",
     "AD.Mines.Unmarried.Unluckiest.4": "You feel the figure lower you onto a plush bed...#Wait—Is this your bed? When did you get back home?",
     "AD.Mines.Unmarried.Unluckiest.5": "Sleep tight, @.$l",
 
