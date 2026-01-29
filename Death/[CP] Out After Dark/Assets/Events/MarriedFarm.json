@@ -1,0 +1,67 @@
+{
+    "Changes": [
+        {
+            "LogName": "In the Doghouse 1",
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {
+                "ADInTheDogHouse/ActiveDialogueEvent ADSpouseIsTiredOfYou": "continue/-100 -100/farmer 64 15 1 {{Spouse}} -1000 -1000 2/warp {{spouse}} -100 -100/viewport 64 17 true/move farmer 0 2 2/pause 50/faceDirection {{Spouse}} 2/warp {{Spouse}} 64 15/pause 500/emote {{Spouse}} 12/pause 500/emote farmer 8/pause 200/faceDirection farmer 0/pause 500/speak {{Spouse}} \"{{i18n:AD.Farm.Married.Start.1}}\"/pause 200/emote farmer 40/pause 500/speak {{Spouse}} \"{{i18n:AD.Farm.Married.Start.2}}\"/pause 200/emote farmer 28/pause 500/emote {{Spouse}} 28/pause 500/speak {{Spouse}} \"{{i18n:AD.Farm.Married.Start.3}}\"/pause 200/emote farmer 32/pause 500/emote {{Spouse}} 28/pause 500/speak {{Spouse}} \"{{i18n:AD.Farm.Married.Start.4}}\"/pause 200/emote farmer 20/pause 200/emote {{Spouse}} 32/pause 500/globalFade/viewport -100 -100/warp farmer 0 0/addConversationTopic stillInDogHouse 1/end"
+            }
+        },
+        // Bus Stop 
+        {
+            "LogName": "In the Doghouse 2",
+            "Action": "EditData",
+            "Target": "Data/Events/BusStop",
+            "Entries": {
+                "ADInTheDogHouse2/ActiveDialogueEvent stillInDogHouse": "continue/-100 -100/{{Spouse}} 13 23 1 farmer 15 23 1/viewport 24 21 true/move farmer 2 0 1/emote {{Spouse}} 12/pause 500/emote farmer 16/pause 200/faceDirection farmer 3/pause 500/speak {{Spouse}} \"{{i18n:AD.Farm.Married.LeftTwice}}\"/pause 200/emote farmer 28/pause 500/globalFade/viewport -100 -100/addConversationTopic stillInDogHouse2 1/end newDay"
+            }
+        },
+        // Backwoods 
+        {
+            "LogName": "In the Doghouse 2",
+            "Action": "EditData",
+            "Target": "Data/Events/Backwoods",
+            "Entries": {
+                "ADInTheDogHouse2/ActiveDialogueEvent stillInDogHouse": "continue/-100 -100/{{Spouse}} 14 33 0 farmer 14 30 1/viewport 15 31 true/move farmer 0 -2 0/emote {{Spouse}} 12/pause 500/emote farmer 16/pause 200/faceDirection farmer 2/pause 500/speak {{Spouse}} \"{{i18n:AD.Farm.Married.LeftTwice}}\"/pause 200/emote farmer 28/pause 500/globalFade/viewport -100 -100/addConversationTopic stillInDogHouse2 1/end newDay"
+            }
+        },
+        // Mountain
+        {
+            "LogName": "In the Doghouse 2",
+            "Action": "EditData",
+            "Target": "Data/Events/Mountain",
+            "Entries": {
+                "ADInTheDogHouse2/ActiveDialogueEvent stillInDogHouse": "continue/-100 -100/{{Spouse}} 15 37 0 farmer 15 36 0/viewport 15 31 true/move farmer 0 -2 0/emote {{Spouse}} 12/pause 500/emote farmer 16/pause 200/faceDirection farmer 2/pause 500/speak {{Spouse}} \"{{i18n:AD.Farm.Married.LeftTwice}}\"/pause 200/emote farmer 28/pause 500/globalFade/viewport -100 -100/addConversationTopic stillInDogHouse2 1/end newDay"
+            }
+        },
+        // Town
+        {
+            "LogName": "In the Doghouse 2",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+                "ADInTheDogHouse2/ActiveDialogueEvent stillInDogHouse": "continue/-100 -100/{{Spouse}} 4 54 1 farmer 6 54 1/viewport 15 55 true/move farmer 2 0 1/emote {{Spouse}} 12/pause 500/emote farmer 16/pause 200/faceDirection farmer 3/pause 500/speak {{Spouse}} \"{{i18n:AD.Farm.Married.LeftTwice}}\"/pause 200/emote farmer 28/pause 500/globalFade/viewport -100 -100/addConversationTopic stillInDogHouse2 1/end newDay"
+            }
+        },
+         // Beach
+        {
+            "LogName": "In the Doghouse 2",
+            "Action": "EditData",
+            "Target": "Data/Events/Beach",
+            "Entries": {
+                "ADInTheDogHouse2/ActiveDialogueEvent stillInDogHouse": "continue/-100 -100/{{Spouse}} 38 2 2 farmer 38 4 2/viewport 38 8 true/move farmer 0 2 2/emote {{Spouse}} 12/pause 500/emote farmer 16/pause 200/faceDirection farmer 0/pause 500/speak {{Spouse}} \"{{i18n:AD.Farm.Married.LeftTwice}}\"/pause 200/emote farmer 28/pause 500/globalFade/viewport -100 -100/addConversationTopic stillInDogHouse2 1/end newDay"
+            }
+        },
+        // Forest
+        {
+            "LogName": "In the Doghouse 2",
+            "Action": "EditData",
+            "Target": "Data/Events/Forest",
+            "Entries": {
+                "ADInTheDogHouse2/ActiveDialogueEvent stillInDogHouse": "continue/-100 -100/{{Spouse}} 69 3 2 farmer 69 5 2/viewport 69 9 true/move farmer 0 2 2/emote {{Spouse}} 12/pause 500/emote farmer 16/pause 200/faceDirection farmer 0/pause 500/speak {{Spouse}} \"{{i18n:AD.Farm.Married.LeftTwice}}\"/pause 200/emote farmer 28/pause 500/globalFade/viewport -100 -100/addConversationTopic stillInDogHouse2 1/end newDay"
+            }
+        }
+        // TODO: More locations ?
+    ]
+}

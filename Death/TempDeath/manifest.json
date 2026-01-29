@@ -1,9 +1,9 @@
 {
-    "Name": "[CP] After Dark Series - Player Death",
+    "Name": "[CP] After Dark Series - Temp Death",
     "Author": "loshionbottle",
-    "Description": "Yeah, even in death, you'll be stalked.",
+    "Description": "Your spouses now react to ur death PROPERLY.",
     "Version": "1.0.0",
-    "UniqueID": "loshionbottle.outafterdark",
+    "UniqueID": "loshionbottle.tempafterdark",
     "UpdateKeys": [ "Nexus:40843" ],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"

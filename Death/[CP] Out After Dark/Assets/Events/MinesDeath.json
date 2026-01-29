@@ -1,0 +1,314 @@
+{
+    "Changes": [
+        /* ----------------------------------------------------------------------------------------------------
+         DEATH CONSEQUENCES - ON
+         UNMARRIED
+         MINES
+        ---------------------------------------------------------------------------------------------------- */
+        {
+            "LogName": "Mines Death - NM Luckiest",
+            "Action": "EditData",
+            "Target": "Data/Events/Mine",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 19 10 2 Shadow -100 -100 0/pause 1500/showFrame 5/message \"{{i18n:AD.Mines.Unmarried.Luckiest.1}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Unmarried.Luckiest.2}}\"/pause 200/message \"{{i18n:AD.Mines.Unmarried.Luckiest.3}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Unmarried.Luckiest.4}}\"/pause 200/message \"{{i18n:AD.Mines.Unmarried.Luckiest.5}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Unmarried.Luckiest.6}}\"/pause 200/message \"{{i18n:AD.Mines.Unmarried.Luckiest.7}}\"/pause 1000/viewport 19 10 true/pause 2000/showFrame 0/pause 500/emote farmer 8/pause 500/faceDirection farmer 3/pause 100/faceDirection farmer 2/pause 100/faceDirection farmer 1/pause 100/faceDirection farmer 2/pause 200/emote farmer 28/pause 500/message \"{{i18n:AD.Mines.Unmarried.Luckiest.8}}\"/pause 1000/addConversationTopic adMinesWorried1 1/minedeath/end"
+            },
+            "When": {
+                "Death Consequences": "On",
+                "RandomNumber": "1"
+            }           
+        },
+        {
+            "LogName": "Mines Death - NM Lucky",
+            "Action": "EditData",
+            "Target": "Data/Events/Mine",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 19 10 2 Shadow -100 -100 0/pause 1500/showFrame 5/message \"{{i18n:AD.Mines.Unmarried.Lucky.1}}\"/speak Shadow \"{{i18n:AD.Mines.Unmarried.Lucky.2}}\"/pause 200/message \"{{i18n:AD.Mines.Unmarried.Lucky.3}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Unmarried.Lucky.4}}\"/pause 200/message \"{{i18n:AD.Mines.Unmarried.Lucky.5}}\"/pause 200/message \"{{i18n:AD.Mines.Unmarried.Lucky.7}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Unmarried.Lucky.8}}\"/pause 200/message \"{{i18n:AD.Mines.Unmarried.Lucky.9}}\"/pause 1000/viewport 19 10 true/pause 2000/showFrame 0/pause 500/emote farmer 8/pause 500/faceDirection farmer 3/pause 100/faceDirection farmer 2/pause 100/faceDirection farmer 1/pause 100/faceDirection farmer 2/pause 200/emote farmer 28/pause 500/addConversationTopic adMinesWorried2 1/minedeath/end"
+            },
+            "When": {
+                "Death Consequences": "On",
+                "RandomNumber": "2"
+            }           
+        },
+        {
+            "LogName": "Mines Death - NM Neutral",
+            "Action": "EditData",
+            "Target": "Data/Events/Mine",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 19 10 2 Shadow -100 -100 0/pause 1500/showFrame 5/message \"{{i18n:AD.Mines.Unmarried.Neutral.1}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Unmarried.Neutral.2{{GeneralPlayerPronoun}}}}\"/pause 200/message \"{{i18n:AD.Mines.Unmarried.Neutral.3}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Unmarried.Neutral.4}}\"/pause 200/message \"{{i18n:AD.Mines.Unmarried.Neutral.5}}\"/pause 1000/viewport 19 10 true/pause 2000/showFrame 0/pause 500/emote farmer 8/pause 500/faceDirection farmer 3/pause 100/faceDirection farmer 2/pause 100/faceDirection farmer 1/pause 100/faceDirection farmer 2/pause 200/emote farmer 28/pause 500/message \"{{i18n:AD.Mines.Unmarried.Neutral.6}}\"/pause 1000/addConversationTopic adMinesWorried3 1/minedeath/end"
+            },
+            "When": {
+                "Death Consequences": "On",
+                "RandomNumber": "3"
+            }           
+        },
+        {
+            "LogName": "Mines Death - NM Unlucky",
+            "Action": "EditData",
+            "Target": "Data/Events/Mine",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 19 10 2 Shadow -100 -100 0/pause 1500/showFrame 5/speak Shadow \"{{i18n:AD.Mines.Unmarried.Unlucky.1}}\"/pause 200/message \"{{i18n:AD.Mines.Unmarried.Unlucky.2}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Unmarried.Unlucky.3}}\"/pause 200/message \"{{i18n:AD.Mines.Unmarried.Unlucky.4}}\"/pause 200/message \"{{i18n:AD.Mines.Unmarried.Unlucky.5}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Unmarried.Unlucky.6}}\"/pause 200/message \"{{i18n:AD.Mines.Unmarried.Unlucky.7}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Unmarried.Unlucky.8}}\"/pause 1000/viewport 19 10 true/pause 2000/showFrame 0/pause 500/emote farmer 8/pause 500/faceDirection farmer 3/pause 100/faceDirection farmer 2/pause 100/faceDirection farmer 1/pause 100/faceDirection farmer 2/pause 200/emote farmer 28/pause 500/addConversationTopic ADHarveyGotYouInTheMines 1/minedeath/end"
+            },
+            "When": {
+                "Death Consequences": "On",
+                "RandomNumber": "4"
+            }           
+        },
+        {
+            // Has to have the number 5 and it has to be an unlucky day--Otherwise will show #1 event instead -- Doesn't need a no death consequences version
+            "LogName": "Mines Death - NM Unluckiest",
+            "Action": "EditData",
+            "Target": "Data/Events/Mine",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 19 10 2 Shadow -100 -100 0/pause 1500/showFrame 5/speak Shadow \"{{i18n:AD.Mines.Unmarried.Unluckiest.1}}\"/pause 200/message \"{{i18n:AD.Mines.Unmarried.Unluckiest.2}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Unmarried.Unluckiest.3}}\"/pause 200/message \"{{i18n:AD.Mines.Unmarried.Unluckiest.4}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Unmarried.Unluckiest.5}}\"/pause 500/addConversationTopic adMinesWorried5 1/end newDay"
+            },
+            "When": {
+                "RandomNumber": "5"
+            }           
+        },
+        /* ----------------------------------------------------------------------------------------------------
+         DEATH CONSEQUENCES - OFF
+         UNMARRIED
+         MINES
+        ---------------------------------------------------------------------------------------------------- */
+        {
+            "LogName": "Mines Death - NM Luckiest",
+            "Action": "EditData",
+            "Target": "Data/Events/Mine",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 19 10 2 Shadow -100 -100 0/pause 1500/skippable/showFrame 5/message \"{{i18n:AD.Mines.Unmarried.Luckiest.1}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Unmarried.Luckiest.2}}\"/pause 200/message \"{{i18n:AD.Mines.Unmarried.Luckiest.3}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Unmarried.Luckiest.4}}\"/pause 200/message \"{{i18n:AD.Mines.Unmarried.Luckiest.5}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Unmarried.Luckiest.6}}\"/pause 200/message \"{{i18n:AD.Mines.Unmarried.Luckiest.7}}\"/pause 1000/viewport 19 10 true/pause 2000/showFrame 0/pause 500/emote farmer 8/pause 500/faceDirection farmer 3/pause 100/faceDirection farmer 2/pause 100/faceDirection farmer 1/pause 100/faceDirection farmer 2/pause 200/emote farmer 28/pause 500/message \"{{i18n:AD.Mines.Unmarried.Luckiest.8}}\"/addConversationTopic adMinesWorried1 1/pause 1000/end"
+            },
+            "When": {
+                "Death Consequences": "Off",
+                "RandomNumber": "1"
+            }           
+        },
+        {
+            "LogName": "Mines Death - NM Lucky",
+            "Action": "EditData",
+            "Target": "Data/Events/Mine",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 19 10 2 Shadow -100 -100 0/pause 1500/skippable/showFrame 5/message \"{{i18n:AD.Mines.Unmarried.Lucky.1}}\"/speak Shadow \"{{i18n:AD.Mines.Unmarried.Lucky.2}}\"/pause 200/message \"{{i18n:AD.Mines.Unmarried.Lucky.3}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Unmarried.Lucky.4}}\"/pause 200/message \"{{i18n:AD.Mines.Unmarried.Lucky.5}}\"/pause 200/message \"{{i18n:AD.Mines.Unmarried.Lucky.7}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Unmarried.Lucky.8}}\"/pause 200/message \"{{i18n:AD.Mines.Unmarried.Lucky.9}}\"/pause 1000/viewport 19 10 true/pause 2000/showFrame 0/pause 500/emote farmer 8/pause 500/faceDirection farmer 3/pause 100/faceDirection farmer 2/pause 100/faceDirection farmer 1/pause 100/faceDirection farmer 2/pause 200/emote farmer 28/addConversationTopic adMinesWorried2 1/pause 500/end"
+            },
+            "When": {
+                "Death Consequences": "Off",
+                "RandomNumber": "2"
+            }           
+        },
+        {
+            "LogName": "Mines Death - NM Neutral",
+            "Action": "EditData",
+            "Target": "Data/Events/Mine",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 19 10 2 Shadow -100 -100 0/pause 1500/skippable/showFrame 5/message \"{{i18n:AD.Mines.Unmarried.Neutral.1}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Unmarried.Neutral.2{{GeneralPlayerPronoun}}}}\"/pause 200/message \"{{i18n:AD.Mines.Unmarried.Neutral.3}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Unmarried.Neutral.4}}\"/pause 200/message \"{{i18n:AD.Mines.Unmarried.Neutral.5}}\"/pause 1000/viewport 19 10 true/pause 2000/showFrame 0/pause 500/emote farmer 8/pause 500/faceDirection farmer 3/pause 100/faceDirection farmer 2/pause 100/faceDirection farmer 1/pause 100/faceDirection farmer 2/pause 200/emote farmer 28/pause 500/message \"{{i18n:AD.Mines.Unmarried.Neutral.6}}\"/addConversationTopic adMinesWorried3 1/pause 1000/end"
+            },
+            "When": {
+                "Death Consequences": "Off",
+                "RandomNumber": "3"
+            }           
+        },
+        {
+            "LogName": "Mines Death - NM Unlucky",
+            "Action": "EditData",
+            "Target": "Data/Events/Mine",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 19 10 2 Shadow -100 -100 0/pause 1500/skippable/showFrame 5/speak Shadow \"{{i18n:AD.Mines.Unmarried.Unlucky.1}}\"/pause 200/message \"{{i18n:AD.Mines.Unmarried.Unlucky.2}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Unmarried.Unlucky.3}}\"/pause 200/message \"{{i18n:AD.Mines.Unmarried.Unlucky.4}}\"/pause 200/message \"{{i18n:AD.Mines.Unmarried.Unlucky.5}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Unmarried.Unlucky.6}}\"/pause 200/message \"{{i18n:AD.Mines.Unmarried.Unlucky.7}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Unmarried.Unlucky.8}}\"/pause 1000/viewport 19 10 true/pause 2000/showFrame 0/pause 500/emote farmer 8/pause 500/faceDirection farmer 3/pause 100/faceDirection farmer 2/pause 100/faceDirection farmer 1/pause 100/faceDirection farmer 2/pause 200/emote farmer 28/pause 500/addConversationTopic ADHarveyGotYouInTheMines 1/end"
+            },
+            "When": {
+                "Death Consequences": "Off",
+                "RandomNumber": "4"
+            }           
+        },
+        // ----------------------------------------------------------------------------------------------------
+        // DEATH CONSEQUENCES - ON
+        // MARRIED 
+        // MINES
+        // ----------------------------------------------------------------------------------------------------
+        {
+            "LogName": "Mines Death - M Luckiest",
+            "Action": "EditData",
+            "Target": "Data/Events/Mine",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 19 10 2 Shadow -100 -100 0/pause 1500/showFrame 5/speak Shadow \"{{i18n:AD.Mines.Married.Luckiest.1}}\"/pause 200/message \"{{i18n:AD.Mines.Married.Luckiest.2}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Married.Luckiest.3}}\"/pause 200/message \"{{i18n:AD.Mines.Married.Luckiest.4.{{siliconmodding.NPCTokens/NPC:{{Spouse}}+gender}}}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Married.Luckiest.5}}\"/pause 200/message \"{{i18n:AD.Mines.Married.Luckiest.6}}\"/pause 1000/speak Shadow \"{{i18n:AD.Mines.Married.Luckiest.7}}\"/pause 200/message \"{{i18n:AD.Mines.Married.Luckiest.8}}\"/pause 1000/minedeath/end"
+            },
+            "When": {
+                "Death Consequences": "On",
+                "Spouse": "{{Spouse}}, default",
+                "RandomNumber": "1"
+            }            
+        },
+        {
+            "LogName": "Mines Death - M Lucky",
+            "Action": "EditData",
+            "Target": "Data/Events/Mine",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 19 10 2 Shadow -100 -100 0/pause 1500/showFrame 5/message \"{{i18n:AD.Mines.Married.Lucky.1}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Married.Lucky.2}}\"/pause 200/message \"{{i18n:AD.Mines.Married.Lucky.3.{{siliconmodding.NPCTokens/NPC:{{Spouse}}+gender}}}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Married.Lucky.4}}\"/pause 200/message \"{{i18n:AD.Mines.Married.Lucky.5}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Married.Lucky.6}}\"/pause 200/message \"{{i18n:AD.Mines.Married.Lucky.7}}\"/pause 1000/speak Shadow \"{{i18n:AD.Mines.Married.Lucky.8}}\"/pause 200/message \"{{i18n:AD.Mines.Married.Lucky.9}}\"/speak Shadow \"{{i18n:AD.Mines.Married.Lucky.10.{{siliconmodding.NPCTokens/NPC:{{Spouse}}+gender}}}}\"/pause 200/message \"{{i18n:AD.Mines.Married.Lucky.11}}\"/pause 1000/viewport 19 10 true/pause 2000/showFrame 0/pause 500/emote farmer 8/pause 500/faceDirection farmer 3/pause 100/faceDirection farmer 2/pause 100/faceDirection farmer 1/pause 100/faceDirection farmer 2/pause 200/emote farmer 28/pause 1000/minedeath/end"
+            },
+            "When": {
+                "Death Consequences": "On",
+                "Spouse": "{{Spouse}}, default",
+                "RandomNumber": "2"
+            }            
+        },
+        {
+            "LogName": "Mines Death - M Neutral",
+            "Action": "EditData",
+            "Target": "Data/Events/Mine",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 19 10 2 Shadow -100 -100 0 {{Spouse}} 18 10 1/pause 1500/showFrame 5/speak Shadow \"{{i18n:AD.Mines.Married.Neutral.1}}\"/pause 200/message \"{{i18n:AD.Mines.Married.Neutral.2}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Married.Neutral.3}}\"/pause 200/message \"{{i18n:AD.Mines.Married.Neutral.4}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Married.Neutral.5}}\"/pause 200/message \"{{i18n:AD.Mines.Married.Neutral.6.{{siliconmodding.NPCTokens/NPC:{{Spouse}}+gender}}}}\"/pause 1500/viewport 19 10 true/pause 1500/showFrame 0/pause 1000/faceDirection farmer 3/pause 200/message \"'{{i18n:AD.Mines.Married.Neutral.7}}'\"/pause 200/speak {{Spouse}} \"{{i18n:AD.Mines.Married.Neutral.8}}\"/pause 500/emote farmer 28/pause 1000/minedeath/end"
+            },
+            "When": {
+                "Death Consequences": "On",
+                "Spouse": "{{Spouse}}, default",
+                "RandomNumber": "3"
+            }            
+        },
+        {
+            "LogName": "Mines Death - M Unlucky",
+            "Action": "EditData",
+            "Target": "Data/Events/Mine",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 19 10 2 Shadow -100 -100 0 {{Spouse}} 18 10 1/pause 1500/showFrame 5/speak Shadow \"{{i18n:AD.Mines.Married.Unlucky.1}}\"/pause 200/message \"{{i18n:AD.Mines.Married.Unlucky.2}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Married.Unlucky.3}}\"/pause 200/message \"{{i18n:AD.Mines.Married.Unlucky.4.{{siliconmodding.NPCTokens/NPC:{{Spouse}}+gender}}}}\"/pause 1500/viewport 19 10 true/pause 1500/showFrame 0/pause 1000/faceDirection farmer 3/pause 200/speak {{Spouse}} \"{{i18n:AD.Mines.Married.Unlucky.5}}\"/pause 200/emote farmer 32/pause 500/speak {{Spouse}} \"{{i18n:AD.Mines.Married.Unlucky.6}}\"/pause 200/emote farmer 28/pause 1000/minedeath/end"
+            },
+            "When": {
+                "Death Consequences": "On",
+                "Spouse": "{{Spouse}}, default",
+                "RandomNumber": "4"
+            }            
+        },
+        {
+            "LogName": "Mines Death - M Unluckiest",
+            "Action": "EditData",
+            "Target": "Data/Events/Mine",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 19 10 2 {{Spouse}} 18 10 1/pause 1500/showFrame 5/message \"{{i18n:AD.Mines.Married.Unluckiest.{{siliconmodding.NPCTokens/NPC:{{Spouse}}+gender}}.1}}\"/pause 200/speak {{Spouse}} \"{{i18n:AD.Mines.Married.Unluckiest.2}}\"/pause 200/message \"{{i18n:AD.Mines.Married.Unluckiest.3.{{siliconmodding.NPCTokens/NPC:{{Spouse}}+gender}}}}\"/pause 1500/viewport 19 10 true/pause 1500/showFrame 0/pause 500/emote farmer 8/pause 500/faceDirection farmer 3/pause 100/faceDirection farmer 2/pause 100/faceDirection farmer 1/pause 100/faceDirection farmer 2/pause 200/emote farmer 28/pause 1000/addConversationTopic ADSpouseIsTiredOfYou 1/minedeath/end"
+            },
+            "When": {
+                "Death Consequences": "On",
+                "Spouse": "{{Spouse}}, default",
+                "RandomNumber": "5"
+            }            
+        },
+        {
+            "LogName": "Mines Death - M Lucky ElliottGone",
+            "Action": "EditData",
+            "Target": "Data/Events/Mine",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 19 10 2 Shadow -100 -100 0/pause 1500/showFrame 5/speak Shadow \"{{i18n:AD.Mines.Married.ElliottGone.Lucky.1}}\"/pause 200/message \"{{i18n:AD.Mines.Married.ElliottGone.Lucky.2}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Married.ElliottGone.Lucky.3}}\"/pause 200/message \"{{i18n:AD.Mines.Married.ElliottGone.Lucky.4}}\"/pause 1500/viewport 19 10 true/pause 1500/showFrame 0/pause 500/emote farmer 8/pause 500/faceDirection farmer 3/pause 100/faceDirection farmer 2/pause 100/faceDirection farmer 1/pause 100/faceDirection farmer 2/pause 200/emote farmer 28/pause 1000/mail elliottADMines/minedeath/end"
+            },
+            "When": {
+                "Death Consequences": "On",
+                "HasConversationtopic": "elliottGone",
+                "Query: {{DailyLuck}} >= 0": true
+            }            
+        },
+        {
+            "LogName": "Mines Death - M Unlucky ElliottGone",
+            "Action": "EditData",
+            "Target": "Data/Events/Mine",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 19 10 2 Shadow -100 -100 0/pause 1500/showFrame 5/speak Shadow \"{{i18n:AD.Mines.Married.ElliottGone.Unlucky.1}}\"/pause 200/message \"{{i18n:AD.Mines.Married.ElliottGone.Unlucky.2}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Married.ElliottGone.Unlucky.3}}\"/pause 200/message \"{{i18n:AD.Mines.Married.ElliottGone.Unlucky.4}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Married.ElliottGone.Unlucky.5}}\"/pause 1500/viewport 19 10 true/pause 1500/showFrame 0/pause 500/emote farmer 8/pause 500/faceDirection farmer 3/pause 100/faceDirection farmer 2/pause 100/faceDirection farmer 1/pause 100/faceDirection farmer 2/pause 200/emote farmer 28/pause 1000/mail elliottADMines/minedeath/end"
+            },
+            "When": {
+                "Death Consequences": "On",
+                "HasConversationtopic": "elliottGone",
+                "Query: {{DailyLuck}} < 0": true
+            }            
+        },
+        // ----------------------------------------------------------------------------------------------------
+        // DEATH CONSEQUENCES - OFF
+        // MARRIED 
+        // MINES
+        // ----------------------------------------------------------------------------------------------------
+        {
+            "LogName": "Mines Death - M Luckiest",
+            "Action": "EditData",
+            "Target": "Data/Events/Mine",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 19 10 2 Shadow -100 -100 0/pause 1500/skippable/showFrame 5/speak Shadow \"{{i18n:AD.Mines.Married.Luckiest.1}}\"/pause 200/message \"{{i18n:AD.Mines.Married.Luckiest.2}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Married.Luckiest.3}}\"/pause 200/message \"{{i18n:AD.Mines.Married.Luckiest.4.{{siliconmodding.NPCTokens/NPC:{{Spouse}}+gender}}}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Married.Luckiest.5}}\"/pause 200/message \"{{i18n:AD.Mines.Married.Luckiest.6}}\"/pause 1000/speak Shadow \"{{i18n:AD.Mines.Married.Luckiest.7}}\"/pause 200/message \"{{i18n:AD.Mines.Married.Luckiest.8}}\"/pause 1000/end"
+            },
+            "When": {
+                "Death Consequences": "Off",
+                "Spouse": "{{Spouse}}, default",
+                "RandomNumber": "1"
+            }            
+        },
+        {
+            "LogName": "Mines Death - M Lucky",
+            "Action": "EditData",
+            "Target": "Data/Events/Mine",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 19 10 2 Shadow -100 -100 0/pause 1500/skippable/showFrame 5/message \"{{i18n:AD.Mines.Married.Lucky.1}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Married.Lucky.2}}\"/pause 200/message \"{{i18n:AD.Mines.Married.Lucky.3.{{siliconmodding.NPCTokens/NPC:{{Spouse}}+gender}}}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Married.Lucky.4}}\"/pause 200/message \"{{i18n:AD.Mines.Married.Lucky.5}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Married.Lucky.6}}\"/pause 200/message \"{{i18n:AD.Mines.Married.Lucky.7}}\"/pause 1000/speak Shadow \"{{i18n:AD.Mines.Married.Lucky.8}}\"/pause 200/message \"{{i18n:AD.Mines.Married.Lucky.9}}\"/speak Shadow \"{{i18n:AD.Mines.Married.Lucky.10.{{siliconmodding.NPCTokens/NPC:{{Spouse}}+gender}}}}\"/pause 200/message \"{{i18n:AD.Mines.Married.Lucky.11}}\"/pause 1000/viewport 19 10 true/pause 2000/showFrame 0/pause 500/emote farmer 8/pause 500/faceDirection farmer 3/pause 100/faceDirection farmer 2/pause 100/faceDirection farmer 1/pause 100/faceDirection farmer 2/pause 200/emote farmer 28/pause 1000/end"
+            },
+            "When": {
+                "Death Consequences": "Off",
+                "Spouse": "{{Spouse}}, default",
+                "RandomNumber": "2"
+            }            
+        },
+        {
+            "LogName": "Mines Death - M Neutral",
+            "Action": "EditData",
+            "Target": "Data/Events/Mine",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 19 10 2 Shadow -100 -100 0 {{Spouse}} 18 10 1/pause 1500/skippable/showFrame 5/speak Shadow \"{{i18n:AD.Mines.Married.Neutral.1}}\"/pause 200/message \"{{i18n:AD.Mines.Married.Neutral.2}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Married.Neutral.3}}\"/pause 200/message \"{{i18n:AD.Mines.Married.Neutral.4}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Married.Neutral.5}}\"/pause 200/message \"{{i18n:AD.Mines.Married.Neutral.6.{{siliconmodding.NPCTokens/NPC:{{Spouse}}+gender}}}}\"/pause 1500/viewport 19 10 true/pause 1500/showFrame 0/pause 1000/faceDirection farmer 3/pause 200/message \"'{{i18n:AD.Mines.Married.Neutral.7}}'\"/pause 200/speak {{Spouse}} \"{{i18n:AD.Mines.Married.Neutral.8}}\"/pause 500/emote farmer 28/pause 1000/end"
+            },
+            "When": {
+                "Death Consequences": "Off",
+                "Spouse": "{{Spouse}}, default",
+                "RandomNumber": "3"
+            }            
+        },
+        {
+            "LogName": "Mines Death - M Unlucky",
+            "Action": "EditData",
+            "Target": "Data/Events/Mine",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 19 10 2 Shadow -100 -100 0 {{Spouse}} 18 10 1/pause 1500/skippable/showFrame 5/speak Shadow \"{{i18n:AD.Mines.Married.Unlucky.1}}\"/pause 200/message \"{{i18n:AD.Mines.Married.Unlucky.2}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Married.Unlucky.3}}\"/pause 200/message \"{{i18n:AD.Mines.Married.Unlucky.4.{{siliconmodding.NPCTokens/NPC:{{Spouse}}+gender}}}}\"/pause 1500/viewport 19 10 true/pause 1500/showFrame 0/pause 1000/faceDirection farmer 3/pause 200/speak {{Spouse}} \"{{i18n:AD.Mines.Married.Unlucky.5}}\"/pause 200/emote farmer 32/pause 500/speak {{Spouse}} \"{{i18n:AD.Mines.Married.Unlucky.6}}\"/pause 200/emote farmer 28/pause 1000/end"
+            },
+            "When": {
+                "Death Consequences": "Off",
+                "Spouse": "{{Spouse}}, default",
+                "RandomNumber": "4"
+            }            
+        },
+        {
+            "LogName": "Mines Death - M Unluckiest",
+            "Action": "EditData",
+            "Target": "Data/Events/Mine",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 19 10 2 {{Spouse}} 18 10 1/pause 1500/skippable/showFrame 5/message \"{{i18n:AD.Mines.Married.Unluckiest.{{siliconmodding.NPCTokens/NPC:{{Spouse}}+gender}}.1}}\"/pause 200/speak {{Spouse}} \"{{i18n:AD.Mines.Married.Unluckiest.2}}\"/pause 200/message \"{{i18n:AD.Mines.Married.Unluckiest.3.{{siliconmodding.NPCTokens/NPC:{{Spouse}}+gender}}}}\"/pause 1500/viewport 19 10 true/pause 1500/showFrame 0/pause 500/emote farmer 8/pause 500/faceDirection farmer 3/pause 100/faceDirection farmer 2/pause 100/faceDirection farmer 1/pause 100/faceDirection farmer 2/pause 200/emote farmer 28/pause 1000/addConversationTopic ADSpouseIsTiredOfYou 1/end"
+            },
+            "When": {
+                "Death Consequences": "Off",
+                "Spouse": "{{Spouse}}, default",
+                "RandomNumber": "5"
+            }            
+        },
+        {
+            "LogName": "Mines Death - M Lucky ElliottGone",
+            "Action": "EditData",
+            "Target": "Data/Events/Mine",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 19 10 2 Shadow -100 -100 0/pause 1500/skippable/showFrame 5/speak Shadow \"{{i18n:AD.Mines.Married.ElliottGone.Lucky.1}}\"/pause 200/message \"{{i18n:AD.Mines.Married.ElliottGone.Lucky.2}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Married.ElliottGone.Lucky.3}}\"/pause 200/message \"{{i18n:AD.Mines.Married.ElliottGone.Lucky.4}}\"/pause 1500/viewport 19 10 true/pause 1500/showFrame 0/pause 500/emote farmer 8/pause 500/faceDirection farmer 3/pause 100/faceDirection farmer 2/pause 100/faceDirection farmer 1/pause 100/faceDirection farmer 2/pause 200/emote farmer 28/pause 1000/mail elliottADMines/end"
+            },
+            "When": {
+                "Death Consequences": "Off",
+                "HasConversationtopic": "elliottGone",
+                "Query: {{DailyLuck}} >= 0": true
+            }            
+        },
+        {
+            "LogName": "Mines Death - M Unlucky ElliottGone",
+            "Action": "EditData",
+            "Target": "Data/Events/Mine",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 19 10 2 Shadow -100 -100 0/pause 1500/skippable/showFrame 5/speak Shadow \"{{i18n:AD.Mines.Married.ElliottGone.Unlucky.1}}\"/pause 200/message \"{{i18n:AD.Mines.Married.ElliottGone.Unlucky.2}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Married.ElliottGone.Unlucky.3}}\"/pause 200/message \"{{i18n:AD.Mines.Married.ElliottGone.Unlucky.4}}\"/pause 200/speak Shadow \"{{i18n:AD.Mines.Married.ElliottGone.Unlucky.5}}\"/pause 1500/viewport 19 10 true/pause 1500/showFrame 0/pause 500/emote farmer 8/pause 500/faceDirection farmer 3/pause 100/faceDirection farmer 2/pause 100/faceDirection farmer 1/pause 100/faceDirection farmer 2/pause 200/emote farmer 28/pause 1000/mail elliottADMines/end"
+            },
+            "When": {
+                "Death Consequences": "Off",
+                "HasConversationtopic": "elliottGone",
+                "Query: {{DailyLuck}} < 0": true
+            }            
+        }
+    ]
+}

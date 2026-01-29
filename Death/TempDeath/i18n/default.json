@@ -375,38 +375,7 @@
     █      █ █    █   █   █ █   █ 
     █████ █   █   █   █   █ █   █  
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-    "AD.Death.Hospital.Sebastian.Worried.Memory.1": "Hey... I heard you passed out.$s#$b#Are you alright?$s",
-    "AD.Death.Hospital.Harvey.Worried.Memory.2": "...$s#$b#Do you remember much from when you were here last time?$s#$b#Not much? Good.#$e#Hm?#$b#Oh, it's nothing...$s",
-    "AD.Death.Hospital.Harvey.Worried.Memory.3": "I'm starting to worry about you, @.$s#$b#Passing out like that isn't good for your health.$s",
-    "AD.Death.Hospital.Alex.Worried.Memory.4": "Did Harvey patch you up fine?$9#$b#Cause if he didn't...$a",
-    "AD.Death.Hospital.Alex.Worried.Memory.5": "...$a#$b#$y 'You're alright, right?_'What...?'_...Forget it.$s_'What do you mean?'_The passing o–You know what, never mind.$a'",
-
-    "AD.Death.Mines.Sam.Worried.Memory.1": "...$h#$b#Good to see you're walking again, @.$u#$b#You really had me worried there for a minute...$s",
-    "AD.Death.Mines.Sebastian.Worried.Memory.1": "I saw you come out of the mines looking a little battered, are you alright?",
-    "AD.Death.Mines.Sam.Worried.Memory.2": "You should really go get that cut on your face stitched up, @.$s",
-    "AD.Death.Mines.Harvey.Worried.Memory.3": "I heard you nearly died in the mines.$s#$b#Do you need a check up?",
     "AD.Death.Harvey.Memory.OneDay": "What? You passed out in the mines?$8#$b#And someone patched you up saying you needed to pay them back?$a#$b#...$a#$b#And you thought it was me who said that?$a#$e#...$s#$b#I think you must've hit your head too hard back there, @.$s",
-    "AD.Death.Mines.Shane.Worried.Memory.5": "Did you sleep well last night?",
-
-    "AD.Death.LeftTwice.Memory.OneDay": "Have you learned your lesson yet?$a",
-
-    "AD.Death.PassedOutIsland.1": "Do you know how scary it is when you don't come home?",
-    "AD.Death.PassedOutIsland.2": "Don't make me worry again.",
-
-    "AD.Death.PassedOut2.1": "Since you clearly don't care about my efforts to make sure you're okay, you can bet your ass that if I catch you passed out again, I'll just drug you until you learn how to be compliant.",
-
-    "AD.Death.PassedOut3.Billed.1": "You're set on worrying me, aren't you?",
-    "AD.Death.PassedOut3.Billed.2": "Do you know what it's like catching some fucking creep touching you, taking shit out of your pockets while you're passed out helpless?",
-    "AD.Death.PassedOut3.Billed.3": "Fucking bastard ran off before I could even grab him...",
-    "AD.Death.PassedOut3.Billed.4": "I hope you can forgive me for not getting your stuff back.",
-
-    "AD.Death.PassedOut3.NotBilled.1": "You're set on worrying me, aren't you?",
-    "AD.Death.PassedOut3.NotBilled.2": "Do you know what it's like catching some fucking creep touching you, taking shit out of your pockets while you're passed out helpless?",
-    "AD.Death.PassedOut3.NotBilled.3": "I had to fucking grab the bastard by the collar and literally shake your items out of him.",
-    "AD.Death.PassedOut3.NotBilled.4": "Be more careful next time. I can't always be around to protect you, @.",
-
-    "AD.Death.PassedOut4.1": "Can I just say how cute you looked knocked like that?",
-    "AD.Death.PassedOut4.2": "P.S. I think a few coins fell out while I was carrying you back to bed. Sorry :(",
     
     "AD.Death.ElliottMail.Hospital.1": "My Dearest,",
     "AD.Death.ElliottMail.Hospital.2": "I heard about your little accident resulting in you ending up in Harvey's office.",

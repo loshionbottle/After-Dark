@@ -1,0 +1,22 @@
+{
+    "Changes": [
+        // Letters Elliott sends when u perish
+        {
+            "LogName": "Elliott Death Letters",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "passedOutIsland": "{{i18n:AD.Death.PassedOutIsland.1}}^^{{i18n:AD.Death.PassedOutIsland.2}}[letterbg Mods/loshionbottle.outafterdark/LetterBackgrounds 3][#]Shadow's Island Note",
+
+                // thank you clancy
+                "passedOut2": "{{i18n:AD.Death.PassedOut2.1}}[letterbg Mods/loshionbottle.outafterdark/LetterBackgrounds 3][#]Threat from Shadow",
+                "passedOut3_Billed": "{{i18n:AD.Death.PassedOut3.Billed.1}}^^{{i18n:AD.Death.PassedOut3.Billed.2}}^^{{i18n:AD.Death.PassedOut3.Billed.3}}^^{{i18n:AD.Death.PassedOut3.Billed.4}}[letterbg Mods/loshionbottle.outafterdark/LetterBackgrounds 0][#]Shadow's Apology",
+                "passedOut3_NotBilled": "{{i18n:AD.Death.PassedOut3.NotBilled.1}}^^{{i18n:AD.Death.PassedOut3.NotBilled.2}}^^{{i18n:AD.Death.PassedOut3.NotBilled.3}}^^{{i18n:AD.Death.PassedOut3.NotBilled.4}}[letterbg Mods/loshionbottle.outafterdark/LetterBackgrounds 0][#]Shadow's Care",
+                "passedOut4": "@~^^{{i18n:AD.Death.PassedOut4.1}}^^{{i18n:AD.Death.PassedOut4.2}}^^[letterbg Mods/loshionbottle.outafterdark/LetterBackgrounds 1][#]Shadow's Horny",
+                
+                "elliottADHospital": "{{i18n:AD.Death.ElliottMail.Hospital.1}}^^{{i18n:AD.Death.ElliottMail.Hospital.2}}^{{i18n:AD.Death.ElliottMail.Hospital.3}}^^{{i18n:AD.Death.ElliottMail.Hospital.4}}^^{{i18n:AD.Death.ElliottMail.Hospital.5}}^{{i18n:AD.Death.ElliottMail.Hospital.6}}^^{{i18n:AD.Death.ElliottMail.Hospital.7}}^^^{{i18n:AD.Death.ElliottMail.Hospital.8}}^{{i18n:AD.Death.ElliottMail.Hospital.8}}[#]{{i18n:AD.Death.ElliottMail.Hospital.9}}",
+                "elliottADMines": "{{i18n:AD.Death.ElliottMail.Mines.1}}^^{{i18n:AD.Death.ElliottMail.Mines.2}}^{{i18n:AD.Death.ElliottMail.Mines.3}}^^{{i18n:AD.Death.ElliottMail.Mines.4}}^^{{i18n:AD.Death.ElliottMail.Mines.5}}^^^{{i18n:AD.Death.ElliottMail.Mines.6}}^{{i18n:AD.Death.ElliottMail.Mines.7}}[#]{{i18n:AD.Death.ElliottMail.Mines.8}}"
+            }
+        }
+    ]
+}

@@ -34,10 +34,10 @@
         },
         // Consequences
         "Death Consequences": {
-            "AllowValues": "On, Off only when married to Harvey, Fully off",
-            "Default": "Off only when married to Harvey",
+            "AllowValues": "On, Off",
+            "Default": "On",
             "Section": "Consequences",
-            "Description": "Toggles if the player receives penalties for passing out."
+            "Description": "Toggles if the player receives penalties when they're killed."
         }
     },
     // Dynamic Tokens
@@ -67,9 +67,15 @@
     "Changes": [
         // Mail
         {
-            "LogName": "Elliott's Mail",
+            "LogName": "Mail",
             "Action": "Include",
-            "FromFile": "Assets/Extra/ElliottMail.json"
+            "FromFile": "Assets/Mail/Mail.json"
+        },
+        {
+            "LogName": "After Dark's LetterBackgrounds again lol",
+            "Action": "Load",
+            "Target": "Mods/loshionbottle.outafterdark/LetterBackgrounds",
+            "FromFile": "Assets/Mail/ObsessedMail.png"
         },
         // String Edits
         {
@@ -85,14 +91,13 @@
         },
         // Event Files
         {
-            "LogName": "Unmarried Death",
+            "LogName": "Death Events",
             "Action": "Include",
-            "FromFile": "Assets/Unmarried/UnmarriedHospital.json, Assets/Unmarried/UnmarriedIsland.json, Assets/Unmarried/UnmarriedMines.json"
-        },
-        {
-            "LogName": "Married Death",
-            "Action": "Include",
-            "FromFile": "Assets/Married/MarriedHospital.json, Assets/Married/MarriedIsland.json, Assets/Married/MarriedFarm.json, Assets/Married/MarriedMines.json"
+            "FromFile": "Assets/Events/HospitalDeath.json, Assets/Events/IslandDeath.json, Assets/Events/MinesDeath.json"
         }
-    ]
+    ],
+    "RepeatEvents": [
+        "ADInTheDogHouse",
+        "ADInTheDogHouse2"
+   ]
 }

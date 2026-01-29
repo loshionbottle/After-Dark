@@ -4,7 +4,48 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Harvey",
             "Entries": {
-                "ADHarveyGotYouInTheMines": "{{i18n:AD.Death.Harvey.Memory.OneDay}}"
+                "ADHarveyGotYouInTheMines": "{{i18n:AD.Death.Harvey.Memory.OneDay}}",
+                "adHospitalWorried2": "{{i18n:AD.Death.Hospital.Harvey.Worried.Memory.2}}",
+                "adHospitalWorried3": "{{i18n:AD.Death.Hospital.Harvey.Worried.Memory.3}}",
+                "adMinesWorried3": "{{i18n:AD.Death.Mines.Harvey.Worried.Memory.3}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alex",
+            "Entries": {
+                "adHospitalWorried4": "{{i18n:AD.Death.Hospital.Alex.Worried.Memory.4}}",
+                "adHospitalWorried5": "{{i18n:AD.Death.Hospital.Alex.Worried.Memory.5}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "Entries": {
+                "adMinesWorried1": "{{i18n:AD.Death.Mines.Sam.Worried.Memory.1}}",
+                "adMinesWorried2": "{{i18n:AD.Death.Mines.Sam.Worried.Memory.2}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sebastian",
+            "Entries": {
+                "adHospitalWorried1": "{{i18n:AD.Death.Hospital.Sebastian.Worried.Memory.1}}",
+                "adMinesWorried1": "{{i18n:AD.Death.Mines.Sebastian.Worried.Memory.1}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shane",
+            "Entries": {
+                "adMinesWorried5": "{{i18n:AD.Death.Mines.Shane.Worried.Memory.5}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{spouse}}",
+            "Entries": {
+                "stillInDogHouse2": "{{i18n:AD.Death.LeftTwice.Memory.OneDay}}"
             }
         }
     ]
