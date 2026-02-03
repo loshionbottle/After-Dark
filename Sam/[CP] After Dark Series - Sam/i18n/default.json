@@ -1214,6 +1214,7 @@
     "AD.Sam.Mail.ADSamGenericMail1": "Has anyone ever told you just how {{LDescript}} you are, {{LPetName}}?",
 
     "AD.Sam.Mail.ADSamGenericMail2.1": "It's crazy just how many lines for songs... sonnets... poems... what ever you're into, really... pop into my head after getting a little taste of you, {{LPetName}}.",
+    // yeah this is an error; but i just fixed it on the code so translations wouldn't change icl
     "AD.Sam.Mail.ADSamGenericMail1.2": "I can't wait for you to find out who I am...",
 
     "AD.Sam.Mail.ADSamGenericMail3.1": "@~",

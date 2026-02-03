@@ -1,0 +1,174 @@
+{
+    "Changes": [
+        /* ----------------------------------------------------------------------------------------------------
+         DEATH CONSEQUENCES - ON
+         UNMARRIED
+         ISLAND
+        ---------------------------------------------------------------------------------------------------- */
+        {
+            "LogName": "Island Death - NM Lucky",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 13 33 2 Willy -100 -100 0/pause 1500/showFrame 5/message \"{{i18n:AD.Island.Unmarried.Lucky.1}}\"/pause 200/speak Willy \"{{i18n:AD.Island.Unmarried.Lucky.2}}\"/pause 1000/message \"{{i18n:AD.Island.Unmarried.Lucky.3}}\"/pause 200/speak Willy \"{{i18n:AD.Island.Unmarried.Lucky.4}}\"/pause 1500/viewport 13 33 clamp true/pause 2000/showFrame 0/pause 500/emote farmer 28/pause 1000/minedeath/end"
+            },
+            "When": {
+                "Death Consequences": "On",
+                "Query: {{DailyLuck}} > 0": true
+            }            
+        },
+        {
+            "LogName": "Island Death - NM Neutral",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 13 33 2 Shadow -100 -100 0/pause 1500/showFrame 5/message \"{{i18n:AD.Island.Unmarried.Neutral.1}}\"/pause 200/speak Shadow \"{{i18n:AD.Island.Unmarried.Neutral.2}}\"/pause 1000/message \"{{i18n:AD.Island.Unmarried.Neutral.3}}\"/pause 1500/viewport 13 33 clamp true/pause 2000/showFrame 0/pause 500/emote farmer 8/pause 500/faceDirection farmer 1/pause 50/faceDirection farmer 2/pause 50/faceDirection farmer 3/pause 50/faceDirection farmer 0/pause 500/emote farmer 28/pause 1000/minedeath/end"
+            },
+            "When": {
+                "Death Consequences": "On",
+                "Query: {{DailyLuck}} = 0": true
+            }            
+        },
+        {
+            "LogName": "Island Death - NM Unlucky",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 13 33 2 Shadow -100 -100 0/pause 1500/showFrame 5/message \"{{i18n:AD.Island.Unmarried.Unlucky.1}}\"/pause 200/speak Shadow \"{{i18n:AD.Island.Unmarried.Unlucky.2}}\"/pause 1000/message \"{{i18n:AD.Island.Unmarried.Unlucky.3}}\"/pause 1500/viewport 13 33 clamp true/pause 2000/showFrame 0/pause 500/emote farmer 12/pause 500/faceDirection farmer 1/pause 50/faceDirection farmer 2/pause 50/faceDirection farmer 3/pause 50/faceDirection farmer 0/pause 500/emote farmer 28/pause 1000/minedeath/end"
+            },
+            "When": {
+                "Death Consequences": "On",
+                "Query: {{DailyLuck}} < 0": true
+            }            
+        },
+        /* ----------------------------------------------------------------------------------------------------
+         DEATH CONSEQUENCES - OFF
+         UNMARRIED
+         ISLAND
+        ---------------------------------------------------------------------------------------------------- */
+        {
+            "LogName": "Island Death - NM Lucky",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 13 33 2 Willy -100 -100 0/pause 1500/skippable/showFrame 5/message \"{{i18n:AD.Island.Unmarried.Lucky.1}}\"/pause 200/speak Willy \"{{i18n:AD.Island.Unmarried.Lucky.2}}\"/pause 1000/message \"{{i18n:AD.Island.Unmarried.Lucky.3}}\"/pause 200/speak Willy \"{{i18n:AD.Island.Unmarried.Lucky.4}}\"/pause 1500/viewport 13 33 clamp true/pause 2000/showFrame 0/pause 500/emote farmer 28/pause 1000/end"
+            },
+            "When": {
+                "Death Consequences": "Off",
+                "Query: {{DailyLuck}} > 0": true
+            }            
+        },
+        {
+            "LogName": "Island Death - NM Neutral",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 13 33 2 Shadow -100 -100 0/pause 1500/skippable/showFrame 5/message \"{{i18n:AD.Island.Unmarried.Neutral.1}}\"/pause 200/speak Shadow \"{{i18n:AD.Island.Unmarried.Neutral.2}}\"/pause 1000/message \"{{i18n:AD.Island.Unmarried.Neutral.3}}\"/pause 1500/viewport 13 33 clamp true/pause 2000/showFrame 0/pause 500/emote farmer 8/pause 500/faceDirection farmer 1/pause 50/faceDirection farmer 2/pause 50/faceDirection farmer 3/pause 50/faceDirection farmer 0/pause 500/emote farmer 28/pause 1000/end"
+            },
+            "When": {
+                "Death Consequences": "Off",
+                "Query: {{DailyLuck}} = 0": true
+            }            
+        },
+        {
+            "LogName": "Island Death - NM Unlucky",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 13 33 2 Shadow -100 -100 0/pause 1500/skippable/showFrame 5/message \"{{i18n:AD.Island.Unmarried.Unlucky.1}}\"/pause 200/speak Shadow \"{{i18n:AD.Island.Unmarried.Unlucky.2}}\"/pause 1000/message \"{{i18n:AD.Island.Unmarried.Unlucky.3}}\"/pause 1500/viewport 13 33 clamp true/pause 2000/showFrame 0/pause 500/emote farmer 12/pause 500/faceDirection farmer 1/pause 50/faceDirection farmer 2/pause 50/faceDirection farmer 3/pause 50/faceDirection farmer 0/pause 500/emote farmer 28/pause 1000/end"
+            },
+            "When": {
+                "Death Consequences": "Off",
+                "Query: {{DailyLuck}} < 0": true
+            }            
+        },
+                // ----------------------------------------------------------------------------------------------------
+        // DEATH CONSEQUENCES - ON
+        // MARRIED 
+        // ISLAND
+        // ----------------------------------------------------------------------------------------------------
+        {
+            "LogName": "Island Death - M Lucky",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 13 33 2 {{Spouse}} 14 33 3/pause 1500/showFrame 0/speak {{Spouse}} \"{{i18n:AD.Island.Married.Lucky.1}}\"/pause 200/message \"{{i18n:AD.Island.Married.Lucky.2.{{siliconmodding.NPCTokens/NPC:{{Spouse}}+gender}}}}\"/faceDirection farmer 1/pause 1500/viewport 13 33 clamp true/pause 1000/speak {{Spouse}} \"{{i18n:AD.Island.Married.Lucky.3}}\"/pause 200/emote farmer 16/pause 500/emote {{Spouse}} 32/pause 1000/minedeath/end"
+            },
+            "When": {
+                "Death Consequences": "On",
+                "Spouse": "{{Spouse}}, default",
+                "Query: {{DailyLuck}} > 0": true
+            }            
+        },
+        {
+            "LogName": "Island Death - M Neutral",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 13 33 2 {{Spouse}} 14 33 3/pause 1500/showFrame 0/message \"{{i18n:AD.Island.Married.Neutral.1}}\"/pause 200/speak {{Spouse}} \"{{i18n:AD.Island.Married.Neutral.2}}\"/pause 200/message \"{{i18n:AD.Island.Married.Neutral.3.{{siliconmodding.NPCTokens/NPC:{{Spouse}}+gender}}}}\"/pause 200/speak {{Spouse}} \"{{i18n:AD.Island.Married.Neutral.4}}\"/pause 200/message \"{{i18n:AD.Island.Married.Neutral.5}}\"/faceDirection farmer 1/pause 1500/viewport 13 33 clamp true/pause 1000/speak {{Spouse}} \"{{i18n:AD.Island.Married.Neutral.6}}\"/pause 200/emote farmer 32/pause 1000/minedeath/end"
+            },
+            "When": {
+                "Death Consequences": "On",
+                "Spouse": "{{Spouse}}, default",
+                "Query: {{DailyLuck}} = 0": true
+            }            
+        },
+        {
+            "LogName": "Island Death - M Unlucky",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 13 33 2 {{Spouse}} -100 -100 0/pause 1500/showFrame 5/speak {{Spouse}} \"{{i18n:AD.Island.Married.Unlucky.1}}\"/pause 200/message \"{{i18n:AD.Island.Married.Unlucky.2.{{siliconmodding.NPCTokens/NPC:{{Spouse}}+gender}}}}\"/pause 1000/speak {{Spouse}} \"{{i18n:AD.Island.Married.Unlucky.3}}\"/pause 1500/viewport 13 33 clamp true/pause 2000/showFrame 0/pause 500/emote farmer 28/pause 1000/minedeath/end"
+            },
+            "When": {
+                "Death Consequences": "On",
+                "Spouse": "{{Spouse}}, default",
+                "Query: {{DailyLuck}} < 0": true
+            }            
+        },
+        // ----------------------------------------------------------------------------------------------------
+        // DEATH CONSEQUENCES - OFF
+        // MARRIED 
+        // ISLAND
+        // ----------------------------------------------------------------------------------------------------
+        {
+            "LogName": "Island Death - M Lucky",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 13 33 2 {{Spouse}} 14 33 3/pause 1500/skippable/showFrame 0/speak {{Spouse}} \"{{i18n:AD.Island.Married.Lucky.1}}\"/pause 200/message \"{{i18n:AD.Island.Married.Lucky.2.{{siliconmodding.NPCTokens/NPC:{{Spouse}}+gender}}}}\"/faceDirection farmer 1/pause 1500/viewport 13 33 clamp true/pause 1000/speak {{Spouse}} \"{{i18n:AD.Island.Married.Lucky.3}}\"/pause 200/emote farmer 16/pause 500/emote {{Spouse}} 32/pause 1000/end"
+            },
+            "When": {
+                "Death Consequences": "Off",
+                "Spouse": "{{Spouse}}, default",
+                "Query: {{DailyLuck}} > 0": true
+            }            
+        },
+        {
+            "LogName": "Island Death - M Neutral",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 13 33 2 {{Spouse}} 14 33 3/pause 1500/skippable/showFrame 0/message \"{{i18n:AD.Island.Married.Neutral.1}}\"/pause 200/speak {{Spouse}} \"{{i18n:AD.Island.Married.Neutral.2}}\"/pause 200/message \"{{i18n:AD.Island.Married.Neutral.3.{{siliconmodding.NPCTokens/NPC:{{Spouse}}+gender}}}}\"/pause 200/speak {{Spouse}} \"{{i18n:AD.Island.Married.Neutral.4}}\"/pause 200/message \"{{i18n:AD.Island.Married.Neutral.5}}\"/faceDirection farmer 1/pause 1500/viewport 13 33 clamp true/pause 1000/speak {{Spouse}} \"{{i18n:AD.Island.Married.Neutral.6}}\"/pause 200/emote farmer 32/pause 1000/end"
+            },
+            "When": {
+                "Death Consequences": "Off",
+                "Spouse": "{{Spouse}}, default",
+                "Query: {{DailyLuck}} = 0": true
+            }            
+        },
+        {
+            "LogName": "Island Death - M Unlucky",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 13 33 2 {{Spouse}} -100 -100 0/pause 1500/skippable/showFrame 5/speak {{Spouse}} \"{{i18n:AD.Island.Married.Unlucky.1}}\"/pause 200/message \"{{i18n:AD.Island.Married.Unlucky.2.{{siliconmodding.NPCTokens/NPC:{{Spouse}}+gender}}}}\"/pause 1000/speak {{Spouse}} \"{{i18n:AD.Island.Married.Unlucky.3}}\"/pause 1500/viewport 13 33 clamp true/pause 2000/showFrame 0/pause 500/emote farmer 28/pause 1000/end"
+            },
+            "When": {
+                "Death Consequences": "Off",
+                "Spouse": "{{Spouse}}, default",
+                "Query: {{DailyLuck}} < 0": true
+            }            
+        }
+    ]
+}

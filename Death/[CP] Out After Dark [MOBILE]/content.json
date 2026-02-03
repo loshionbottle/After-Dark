@@ -1,0 +1,99 @@
+// Config Schema & Includes 
+{
+    "Format": "2.8.0",
+    // Config 
+    "ConfigSchema": {
+        // Player Pronouns
+        "Player Pronouns 1": {
+            "Default": "They",
+            "AllowValues": "They, She, He",
+            "Section": "Pronouns",
+            "Description": "Sets the player's desired pronoun."
+        },
+        "Player Pronouns 2": {
+            "Default": "Their",
+            "AllowValues": "Their, Her, His",
+            "Section": "Pronouns",
+            "Description": "Sets the player's desired pronoun."
+        },
+        "Player Pronouns 3": {
+            "Default": "Them",
+            "AllowValues": "Them, Her, Him",
+            "Section": "Pronouns",
+            "Description": "Sets the player's desired pronoun."
+        },
+        "Player Pronouns 4": {
+            "Default": "They're",
+            "AllowValues": "They're, She's, He's",
+            "Section": "Pronouns",
+            "Description": "Sets the player's desired pronoun."
+        },
+        // Consequences
+        "Death Consequences": {
+            "AllowValues": "On, Off",
+            "Default": "On",
+            "Section": "Consequences",
+            "Description": "Toggles if the player receives penalties when they're killed."
+        }
+    },
+    // Dynamic Tokens
+    // {{GeneralPlayerPronoun}}
+    "DynamicTokens": [
+        {
+            "Name": "GeneralPlayerPronoun",
+            "Value": "|PPN1={{Random: {{Player Pronouns 1}} |key=PlayerPronouns}} |LPPN1={{Random: {{Lowercase: {{Player Pronouns 1}}}} |key=PlayerPronouns}} |PPN2={{Random: {{Player Pronouns 2}} |key=PlayerPronouns}} |LPPN2={{Random: {{Lowercase: {{Player Pronouns 2}}}} |key=PlayerPronouns}} |PPN3={{Random: {{Player Pronouns 3}} |key=PlayerPronouns}} |LPPN3={{Random: {{Lowercase: {{Player Pronouns 3}}}} |key=PlayerPronouns}} |PPN4={{Random: {{Player Pronouns 4}} |key=PlayerPronouns}} |LPPN4={{Random: {{Lowercase: {{Player Pronouns 4}}}} |key=PlayerPronouns}}"
+        },
+        {
+            "Name": "RandomNumber",
+            "Value": "{{Random:{{Range: 1, 5}}}}"
+        },
+        {
+            "Name": "SpouseName",
+            "Value": "default"
+        },
+        {
+            "Name": "SpouseName",
+            "Value": "{{Spouse}}",
+            "When": {
+                "Spouse": "Alex, Elliott, Harvey, Sam, Sebastian, Shane"
+            }
+        }
+    ],
+    // Include files
+    "Changes": [
+        // Mail
+        {
+            "LogName": "Mail",
+            "Action": "Include",
+            "FromFile": "Assets/Mail/Mail.json"
+        },
+        {
+            "LogName": "After Dark's LetterBackgrounds again lol",
+            "Action": "Load",
+            "Target": "Mods/loshionbottle.outafterdark/LetterBackgrounds",
+            "FromFile": "Assets/Mail/ObsessedMail.png"
+        },
+        // String Edits
+        {
+            "LogName": "String Edits",
+            "Action": "Include",
+            "FromFile": "Assets/Extra/StringEdits.json"
+        },
+        // Like one conversation topic LMFAO -- Future updates might include more?
+        {
+            "LogName": "Conversation Topics",
+            "Action": "Include",
+            "FromFile": "Assets/Extra/DeathConvos.json"
+        },
+        // Event Files
+        {
+            "LogName": "Death Events",
+            "Action": "Include",
+            "FromFile": "Assets/Events/HospitalDeath.json, Assets/Events/IslandDeath.json, Assets/Events/MinesDeath.json"
+        }
+    ],
+    "RepeatEvents": [
+        "ADInTheDogHouse",
+        "ADInTheDogHouse2"
+   ]
+}

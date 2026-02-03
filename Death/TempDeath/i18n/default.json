@@ -6,6 +6,45 @@
     // also, translators: there are strings to translate in Assets > Extra > StringEdits.json
     // It will not work properly if I do the translations, I don't know why--It completely disregards the spaces I put in unless it's directly there...
     // :shrug: translate or not idk
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     ████  ███  █   █ █████ █████  ████     █   █ █████ █   █ █   █ 
+    █     █   █ ██  █ █       █   █         ██ ██ █     ██  █ █   █ 
+    █     █   █ █ █ █ ████    █   █  ██     █ █ █ ████  █ █ █ █   █ 
+    █     █   █ █  ██ █       █   █   █     █   █ █     █  ██ █   █ 
+     ████  ███  █   █ █     █████  ███      █   █ █████ █   █ █████   
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    // Player Config 
+    "config.section.Player Info.name": "Player Info",
+    "config.Player Pronouns 1.name": "Player Pronouns 1",
+    "config.Player Pronouns 1.description": "Sets the player's desired pronoun.",
+    "config.Player Pronouns 1.values.Them": "They",
+    "config.Player Pronouns 1.values.Her": "She",
+    "config.Player Pronouns 1.values.Him": "He",
+    "config.Player Pronouns 2.name": "Player Pronouns 2",
+    "config.Player Pronouns 2.description": "Sets the player's desired pronoun.",
+    "config.Player Pronouns 2.values.Their": "Their",
+    "config.Player Pronouns 2.values.Her": "Her",
+    "config.Player Pronouns 2.values.His": "His",
+    "config.Player Pronouns 3.name": "Player Pronouns 1",
+    "config.Player Pronouns 3.description": "Sets the player's desired pronoun.",
+    "config.Player Pronouns 3.values.Them": "Them",
+    "config.Player Pronouns 3.values.Her": "Her",
+    "config.Player Pronouns 3.values.Him": "Him",
+    "config.Player Pronouns 4.name": "Player Pronouns 2",
+    "config.Player Pronouns 4.description": "Sets the player's desired pronoun.",
+    "config.Player Pronouns 4.values.Their": "They're",
+    "config.Player Pronouns 4.values.Her": "She's",
+    "config.Player Pronouns 4.values.His": "He's",
+
+
+    "config.section.Consequences.name": "Consequences",
+    "config.Death Consequences.name": "Death Consequences",
+    "config.Death Consequences.description": "Toggles if the player receives penalties when they're killed.",
+    "config.Death Consequences.values.On": "On",
+    "config.Death Consequences.values.Off": "Off",
+
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     █   █  ███  █████ ████  █████ █████  ███  █  
     █   █ █   █ █     █   █   █     █   █   █ █       

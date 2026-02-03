@@ -1,0 +1,25 @@
+{
+    "Name": "[CP] After Dark Series - Player Death",
+    "Author": "loshionbottle",
+    "Description": "Yeah, even in death, you'll be stalked.",
+    "Version": "1.0.0",
+    "UniqueID": "loshionbottle.outafterdark",
+    "UpdateKeys": [ "Nexus:40843" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "caterbottle.shadowsafterdark",
+            "IsRequired": true
+        },
+        {
+            "UniqueID": "siliconmodding.NPCTokens",
+            "IsRequired": true
+        },
+        {
+            "UniqueID": "misscoriel.eventrepeater",
+            "IsRequired": true
+        }
+    ]
+}
