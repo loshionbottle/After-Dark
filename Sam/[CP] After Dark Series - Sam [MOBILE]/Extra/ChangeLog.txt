@@ -98,3 +98,5 @@ changelog from 4.1.0 onward to make translators lives a bit easier;
                 - Fixed "no translation" issue on kent lines, no change to i18n
         5.0.6: 'speak 1750' -> 'pause 750' in JealousyEvents_Sam.json....
         5.0.7: Added {{Genericsomethingkey}} to his mail; no change to i18n
+        5.0.8: Failed to fix a mail thing
+        5.0.9: ACTUALLY fixed the mail thing; no change to i18n

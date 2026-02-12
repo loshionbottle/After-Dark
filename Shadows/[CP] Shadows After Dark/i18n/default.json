@@ -1,4 +1,11 @@
 {
+    // config -- SORRY TRANSLATORS I FORGOT
+    "config.section.Getting Stalked.name": "Getting Stalked",
+    "config.Figure Acts as an NPC.name": "Figure Acts as an NPC",
+    "config.Figure Acts as an NPC.description": "Disable to turn off the shadow's schedule, dialogue, and evil nefarious things he might do.",
+    "config.Relationships affect Stalking.name": "Relationships affect Stalking",
+    "config.Relationships affect Stalking.description": "Disable to turn off high relationships with certain bachelors affect the figure stalking you. Just means he'll continue to stalk you no matter who you befriend. - 'Figure Acts as an NPC' must be set to true for this to work.",
+    
     // Daily Dialogue
     "AfterDark.Core.Shadow.Teasing.1": "Isn't it a little late for you to be out, @?$h",
     "AfterDark.Core.Shadow.Teasing.2": "Don't you have things to do? Why are you so focused on me?#$b#Go on, run along back to that little farm of yours.$h",
@@ -32,5 +39,5 @@
     // Strings/Characters
     "AfterDark.Strings.Phonecalls.Cursed": "Upon placing the reciever to your ear, you're met with a rolling, abrasive static along with the sound of heavy breathing.#Beneath it all, it almost sounds like something is... clapping?",
     "AfterDark.Strings.Phonecalls.Foreign": "You hear the sound of heavy breathing on the other side of the reciever.#Your name is moaned out by an indistinguishable voice.",
-    "AfterDark.Strings.Phonecalls.RoboCaller": "You hear a low growl at the end of the line.#'I can't stop thinking about your body, @.'"
+    "AfterDark.Strings.Phonecalls.RoboCaller": "You hear a low growl at the end of the line.#'I can't stop thinking about your body...'"
 }

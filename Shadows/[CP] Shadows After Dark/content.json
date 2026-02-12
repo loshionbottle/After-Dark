@@ -9,6 +9,12 @@
             "Default": "true",
             "Section": "Getting Stalked",
             "Description": "Disable to turn off the shadow's schedule, dialogue, and evil nefarious things he might do."
+        },
+        "Relationships affect Stalking": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Section": "Getting Stalked",
+            "Description": "Disable to turn off high relationships with certain bachelors affect the figure stalking you. Just means he'll continue to stalk you no matter who you befriend. - 'Figure Acts as an NPC' must be set to true for this to work."
         }
     },
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -112,9 +118,9 @@
         {
             "Action": "EditMap",
             "Target": "Maps/Town",
-            "AddWarps": [
-                "99 39 Custom_Shadow_Layer 3 3"
-            ]
+            "MapProperties": {
+                "NPCWarp": "99 39 Custom_Shadow_Layer 3 3"
+            }
         },
         {
             "Action": "Load",

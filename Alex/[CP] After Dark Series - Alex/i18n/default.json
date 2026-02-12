@@ -60,27 +60,29 @@
     - MuseLaSora
     - Pixie
     - Denny
+    - Sunnie
+    - Koro
     For helping with some of these lines :3 */
 
     // Introduction
     "AfterDark.Core.Alex.Introduction": "How disappointing.$a#$b#I would've thought the new farmer would be more...$9#$b#{{Descript}}.$s#$e#Nice to meet you, by the way.$9",
     
     // BIRTHDAY
-    "AfterDark.Core.Alex.Birthday.0": "",
-    "AfterDark.Core.Alex.Birthday.4": "",
+    "AfterDark.Core.Alex.Birthday.0": "Huh?$9#$b#Do I even know you well enough to accept a birthay wish from you?$s",
+    "AfterDark.Core.Alex.Birthday.4": "I'm just rent free in your head, aren't I?$h#$b#Thanks for the birthday wish, stalker.",
     "AfterDark.Core.Alex.Birthday.6": "Hm, oh I guess it is my birthday, huh?#$b#Thanks for remembering, {{LPetName}}.$h",
     "AfterDark.Core.Alex.Birthday.8": "You look so {{LDescript}} when you run up to me all flustered like that.$l#$b#Thanks for the birthday wish though.",
     "AfterDark.Core.Alex.Birthday.10": "Wishing me a happy birthday looking like that?$s#$b#Come on, {{LPetName}}, you know the only way I'll accept one is if those clothes come off with it.$l",
 
     // Pos Romantic Shit
-    "AfterDark.Core.Alex.AcceptBouquet": "",
-    "AfterDark.Core.Alex.StarDrop": "",
-    "AfterDark.Core.Alex.Dating": "",
-    "AfterDark.Core.Alex.Dating.Memory": "",
+    "AfterDark.Core.Alex.AcceptBouquet": "...$7#$b#Are you sure you want to ask me?$7#$b#Even after—$s#$b#Well...$l#$b#Let me say yes before you change your mind.$l",
+    "AfterDark.Core.Alex.StarDrop": "I know I don't say it often but, you know I love you, right?#$b#Enough to spend weeks growing one of these in one of Granny's planters and have her breathing down my neck about taking proper care of it...$s",
+    "AfterDark.Core.Alex.Dating": "Don't think that now that we're dating I'll let up on the teasing.$h#$b#You still have the biggest forehead I've ever seen.$l",
+    "AfterDark.Core.Alex.Dating.Memory": "Say, now that we're dating, will you finally stop talking to the other guys in town?$9#$b#They're a little...$s",
 
     // Neg Romantic Shit
-    "AfterDark.Core.Alex.RejectBouquet": "",
-    "AfterDark.Core.Alex.RejectMermaidPendant": "",
+    "AfterDark.Core.Alex.RejectBouquet": "...$a#$b#You really think I'd accept this from someone like you?$a",
+    "AfterDark.Core.Alex.RejectMermaidPendant": "Do you just have a bunch of these lying around?$9#$b#You do know pendants are a serious thing around here, right?$a#$b#You shouldn't be handing them out willy nilly, especially to someone who's rejecting it in a heartbeat.$a",
     "AfterDark.Core.Alex.RejectGift.Divorced": "Are you really trying to make amends after you divorced me?$a#$b#Please, just leave me alone.$s",
     "AfterDark.Core.Alex.Divorced": "%Alex looks at you longingly, but refuses to say anything.",
     "AfterDark.Core.Alex.BreakUp": "Why are they wilt— Oh.$7#$b#{{PetName}}, I—$s#$b#What did I do wrong?$s",
@@ -106,29 +108,29 @@
     "AfterDark.Core.Alex.GreenRain2": "My grandparents are freaking out about the rain.$s#$b#I don't see what the problem is, I was fine when I went out this morning.",
 
     // Resort
-    "AfterDark.Core.Alex.Resort.Early.Entering": "",
-    "AfterDark.Core.Alex.Resort.Early.Leaving": "",
-    "AfterDark.Core.Alex.Resort.Early.Wander": "I guess I should've brought a frisbee, I can barely sit still.",
-    "AfterDark.Core.Alex.Resort.Early.Wander.2": "",
-    "AfterDark.Core.Alex.Resort.Early.Shore": "",
-    "AfterDark.Core.Alex.Resort.Early.Chair": "Aren't you hot in that outfit?$s#$b#I bet you'd be a lot more comfortable wearing noth— I mean, a swimsuit or something.",
-    "AfterDark.Core.Alex.Resort.Early.Towel": "",
-    "AfterDark.Core.Alex.Resort.Early.Towel.2": "Phew, it feels good to finally get these abs a little sunlight.#$b#Kind of a shame to have them hidden away all the time back home.$s",
-    "AfterDark.Core.Alex.Resort.Early.Towel.3": "",
-    "AfterDark.Core.Alex.Resort.Early.ResortBar": "",
-    "AfterDark.Core.Alex.Resort.Early.Resort": "",
+    "AfterDark.Core.Alex.Resort.Early.Entering": "Ugh, the sunshine already feels so much better than back home.$6",
+    "AfterDark.Core.Alex.Resort.Early.Leaving": "I wish I could stay here longer...$8",
+    "AfterDark.Core.Alex.Resort.Early.Wander": "I guess I should've brought a frisbee, I can barely sit still.$6",
+    "AfterDark.Core.Alex.Resort.Early.Wander.2": "...$8#$b#I wish there was someone I could play volleyball with...$8#$b#Literally anyone at all...$8#$b#Oh, not you though. You're... busy, right?$6",
+    "AfterDark.Core.Alex.Resort.Early.Shore": "I wonder how far I could swim out and still make it back.$6",
+    "AfterDark.Core.Alex.Resort.Early.Chair": "Aren't you hot in that outfit?$6#$b#I bet you'd be a lot more comfortable wearing noth— I mean, a swimsuit or something.$11",
+    "AfterDark.Core.Alex.Resort.Early.Towel": "You're blocking my sun here.$8",
+    "AfterDark.Core.Alex.Resort.Early.Towel.2": "Phew, it feels good to finally get these abs a little sunlight.$11#$b#Kind of a shame to have them hidden away all the time back home.$8",
+    "AfterDark.Core.Alex.Resort.Early.Towel.3": "When I go pro, I'll vacation on islands all around the world.$11#$e#What? Did you need something?$6",
+    "AfterDark.Core.Alex.Resort.Early.ResortBar": "Man, I'm craving a banana shake right now, but no one's here...$8",
+    "AfterDark.Core.Alex.Resort.Early.Resort": "Ugh, it feels so good out here.$11#$b#Though, I bet it'd feel a lot better if you weren't here.$6",
 
-    "AfterDark.Core.Alex.Resort.Late.Entering": "",
-    "AfterDark.Core.Alex.Resort.Late.Leaving": "",
-    "AfterDark.Core.Alex.Resort.Late.Wander": "",
-    "AfterDark.Core.Alex.Resort.Late.Wander.2": "",
-    "AfterDark.Core.Alex.Resort.Late.Shore": "",
-    "AfterDark.Core.Alex.Resort.Late.Chair": "",
-    "AfterDark.Core.Alex.Resort.Late.Towel": "",
-    "AfterDark.Core.Alex.Resort.Late.Towel.2": "",
-    "AfterDark.Core.Alex.Resort.Late.Towel.3": "",
-    "AfterDark.Core.Alex.Resort.Late.ResortBar": "",
-    "AfterDark.Core.Alex.Resort.Late.Resort": "",
+    "AfterDark.Core.Alex.Resort.Late.Entering": "Ugh, the sunshine feels so much better than back home.$11#$b#You did good, repairing all this, @.$6#$b#We should visit more often now that it's open again.$11",
+    "AfterDark.Core.Alex.Resort.Late.Leaving": "Aw... I guess it can't last forever.$8#$b#How about just you and me come back here sometime?$6",
+    "AfterDark.Core.Alex.Resort.Late.Wander": "I guess I should've brought a frisbee, I can barely sit still.$8#$b#Hmm... Since you're here, d'you wanna go for a swim or something?$6",
+    "AfterDark.Core.Alex.Resort.Late.Wander.2": "Hmm, would you be down to play some volleyball with me?$6#$b#Don't worry, I'll go easy on you.$11",
+    "AfterDark.Core.Alex.Resort.Late.Shore": "I wonder how far I could swim out and still make it back.$6#$b#How about you and I have a little competition, huh?$11",
+    "AfterDark.Core.Alex.Resort.Late.Chair": "Aren't you hot in that outfit?$6#$b#I bet you'd be a lot more comfortable wearing nothing.$6#$e#What? I'm just teasing.$11",
+    "AfterDark.Core.Alex.Resort.Late.Towel": "Hey, wanna join me in sunbathing for a bit?$11",
+    "AfterDark.Core.Alex.Resort.Late.Towel.2": "Phew, it feels good to finally get these abs a little sunlight.$11#$b#Kind of a shame to have them hidden away all the time back home.$8",
+    "AfterDark.Core.Alex.Resort.Late.Towel.3": "When I go pro, I'll vacation on islands all around the world.$6#$b#Wouldn't that be fun? Getting to join me on vacation like that?$11",
+    "AfterDark.Core.Alex.Resort.Late.ResortBar": "I'm thinking about ordering a banana shake with two scoops of protein powder, do you want anything?$6",
+    "AfterDark.Core.Alex.Resort.Late.Resort": "Ugh, it feels so good out here.$11#$b#I'm really glad you're here with me, you know that?$6",
 
     // Rain
     "AfterDark.Core.Alex.Rain.1": "Doesn't rain mean you don't have much to do? Why are you still running around outside?$9#$b#You should stay here or go back home so you don't get too sick.$a",
@@ -172,8 +174,8 @@
     "AfterDark.Core.Alex.Spring.EarlyHeart.2": "%You catch Alex staring at you with a serious expression. Looks like he's actually thinking for once.",
     "AfterDark.Core.Alex.Spring.EarlyHeart.3": "You look halfway decent today, {{LPetName}}.#$e#What? That eager for another compliment from me?$h",
     "AfterDark.Core.Alex.Spring.EarlyHeart.4": "{{Petname}}, {{LPetName}}, {{LPetName}}. Has it gotten annoying yet?$h#$e#Oh, don't tell me you actually like it...$s",
-    "AfterDark.Core.Alex.Spring.EarlyHeart.5": "",
-    "AfterDark.Core.Alex.Spring.EarlyHeart.6": "",
+    "AfterDark.Core.Alex.Spring.EarlyHeart.5": "Do you even look in a mirror before you leave the house?$9#$b#Oh don't tell me you look like that on purpose...$s",
+    "AfterDark.Core.Alex.Spring.EarlyHeart.6": "%Alex takes a stray leaf out of your hair, not saying anything.#$e#What?$9#$b#Oh, don't get used to that.$a#$b#I only did it so you'd look less like shit.$a",
     "AfterDark.Core.Alex.Spring.EarlyHeart.7": "",
     "AfterDark.Core.Alex.Spring.EarlyHeart.8": "",
     "AfterDark.Core.Alex.Spring.EarlyHeart.9": "",
@@ -184,7 +186,7 @@
     "AfterDark.Core.Alex.Spring.MidHeart.3": "Hmm... Maybe it's the hair.$9#$b#$y 'Yeah, it's definitely the hair..._What about my hair?_Huh? Who says I was talking to you?$9_Yeah, your hair is pretty bad._I was actually talking about yours. It looks different. I WAS gonna say good, but...$a'",
     "AfterDark.Core.Alex.Spring.MidHeart.4": "Ugh, look who it is!$9#$b#Don't you have another pretty man to bother?$a#$b#Or am I the only one?$h",
     "AfterDark.Core.Alex.Spring.MidHeart.5": "Look, if you keep bothering me like this I'll have to assume you're in love with me or something.#$e#Well, are you?$h",
-    "AfterDark.Core.Alex.Spring.MidHeart.6": "Hey, how's farm-life treating you?$h#$e#%You overhear him swearing under his breath, saying something similar to \"So stupid... 'How's farm-life'? Seriously?\"",
+    "AfterDark.Core.Alex.Spring.MidHeart.6": "Hey, how's farm-life treating you?$h#$e#%You overhear him swearing under his breath, saying something similar to 'So stupid... 'How's farm-life'? Seriously?'",
     "AfterDark.Core.Alex.Spring.MidHeart.7": "%You catch Alex staring at you, this time blushing and turning away.#$b#You uh, you look good today, @.$l",
     "AfterDark.Core.Alex.Spring.MidHeart.8": "{{LDescript}}? Is that really the word you'd use to describe yourself, @?$s#$e#Well, maybe now that I take a better look at you...$l",
     "AfterDark.Core.Alex.Spring.MidHeart.9": "I think you're finally starting to wear me down on the whole talking-my-ear-off thing.#$b#I don't want to walk away nearly as much when I see you coming over now.$h",
@@ -335,7 +337,7 @@
     "AfterDark.Core.Alex.Winter.0Heart.5": "%Alex looks a bit more focused on keeping warm than sparking a conversation with you.",
     "AfterDark.Core.Alex.Winter.0Heart.6": "Oh? Trying to raise your friendship with me this late in the year?$9#$b#And what if I just said \"no\" to all your advances, hm?$a",
     "AfterDark.Core.Alex.Winter.0Heart.7": "What are you looking at?$9#$b#You've spent the entire year just staring at me and NOW'S when you want to spark a conversation?$a",
-    "AfterDark.Core.Alex.Winter.0Heart.8": "",
+    "AfterDark.Core.Alex.Winter.0Heart.8": "Yoba, it's been too damn cold to go for a run lately.$s#$e#What are you looking at? I wasn't talking to you.$a",
     "AfterDark.Core.Alex.Winter.0Heart.9": "",
     "AfterDark.Core.Alex.Winter.0Heart.10": "",
     "AfterDark.Core.Alex.Winter.0Heart.11": "",
@@ -351,7 +353,7 @@
     "AfterDark.Core.Alex.Winter.EarlyHeart.5": "Huh, now that it's Winter, you must have a lot more time to yap my ear off...$9#$b#%You notice Alex pulling out some earplugs.",
     "AfterDark.Core.Alex.Winter.EarlyHeart.6": "Aren't you cold wearing that?$s#$b#Do you want my— er, why don't you go buy a better jacket?$9",
     "AfterDark.Core.Alex.Winter.EarlyHeart.7": "If you keep wandering around here in the cold you'll get sick.$9#$b#Go home and warm up, @.$9",
-    "AfterDark.Core.Alex.Winter.EarlyHeart.8": "",
+    "AfterDark.Core.Alex.Winter.EarlyHeart.8": "Huh, for some reason you feel a lot more tolerable today.$9#$b#Maybe it's because of all those clothes you have on, there's less of you for me to see.$h",
     "AfterDark.Core.Alex.Winter.EarlyHeart.9": "",
     "AfterDark.Core.Alex.Winter.EarlyHeart.10": "",
 
@@ -440,40 +442,60 @@
     "AfterDark.Core.Alex.Jealous.Married.Elliott": "",
     "AfterDark.Jealousy.Alex.Early.Elliott.1": "",
     "AfterDark.Jealousy.Alex.Early.Elliott.2": "",
+    "AfterDark.Jealousy.Alex.Early.Elliott.3": "",
+    "AfterDark.Jealousy.Alex.Early.Elliott.4": "",
     "AfterDark.Jealousy.Alex.Late.Elliott.1": "",
     "AfterDark.Jealousy.Alex.Late.Elliott.2": "",
+    "AfterDark.Jealousy.Alex.Late.Elliott.3": "",
+    "AfterDark.Jealousy.Alex.Late.Elliott.4": "",
 
     // Harvey
     "AfterDark.Core.Alex.Jealous.Dating.Harvey": "",
     "AfterDark.Core.Alex.Jealous.Married.Harvey": "",
     "AfterDark.Jealousy.Alex.Early.Harvey.1": "",
     "AfterDark.Jealousy.Alex.Early.Harvey.2": "",
+    "AfterDark.Jealousy.Alex.Early.Harvey.3": "",
+    "AfterDark.Jealousy.Alex.Early.Harvey.4": "",
     "AfterDark.Jealousy.Alex.Late.Harvey.1": "",
     "AfterDark.Jealousy.Alex.Late.Harvey.2": "",
+    "AfterDark.Jealousy.Alex.Late.Harvey.3": "",
+    "AfterDark.Jealousy.Alex.Late.Harvey.4": "",
 
     // Sam
     "AfterDark.Core.Alex.Jealous.Dating.Sam": "",
     "AfterDark.Core.Alex.Jealous.Married.Sam": "",
     "AfterDark.Jealousy.Alex.Early.Sam.1": "",
     "AfterDark.Jealousy.Alex.Early.Sam.2": "",
+    "AfterDark.Jealousy.Alex.Early.Sam.3": "",
+    "AfterDark.Jealousy.Alex.Early.Sam.4": "",
     "AfterDark.Jealousy.Alex.Late.Sam.1": "",
     "AfterDark.Jealousy.Alex.Late.Sam.2": "",
+    "AfterDark.Jealousy.Alex.Late.Sam.3": "",
+    "AfterDark.Jealousy.Alex.Late.Sam.4": "",
 
     // Sebastian
     "AfterDark.Core.Alex.Jealous.Dating.Sebastian": "",
     "AfterDark.Core.Alex.Jealous.Married.Sebastian": "",
     "AfterDark.Jealousy.Alex.Early.Sebastian.1": "",
     "AfterDark.Jealousy.Alex.Early.Sebastian.2": "",
+    "AfterDark.Jealousy.Alex.Early.Sebastian.3": "",
+    "AfterDark.Jealousy.Alex.Early.Sebastian.4": "",
     "AfterDark.Jealousy.Alex.Late.Sebastian.1": "",
     "AfterDark.Jealousy.Alex.Late.Sebastian.2": "",
+    "AfterDark.Jealousy.Alex.Late.Sebastian.3": "",
+    "AfterDark.Jealousy.Alex.Late.Sebastian.4": "",
 
     // Shane
     "AfterDark.Core.Alex.Jealous.Dating.Shane": "",
     "AfterDark.Core.Alex.Jealous.Married.Shane": "",
     "AfterDark.Jealousy.Alex.Early.Shane.1": "",
     "AfterDark.Jealousy.Alex.Early.Shane.2": "",
+    "AfterDark.Jealousy.Alex.Early.Shane.3": "",
+    "AfterDark.Jealousy.Alex.Early.Shane.4": "",
     "AfterDark.Jealousy.Alex.Late.Shane.1": "",
     "AfterDark.Jealousy.Alex.Late.Shane.2": "",
+    "AfterDark.Jealousy.Alex.Late.Shane.3": "",
+    "AfterDark.Jealousy.Alex.Late.Shane.4": "",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      BACHELORETTES
@@ -876,44 +898,50 @@
     - nekosneko
     - ChatDisabled
     - oWitchieso
+    - Alejumi
+    - Boooob
+    - Sunnie
+    - Pammy 
+    - Viktor
+    - Hansolame
     For helping with some of these lines :3 */
 
     // UNIVERSAL
-    "AfterDark.Gift.Alex.GiftReaction.Early.Love.1": "",
-    "AfterDark.Gift.Alex.GiftReaction.Early.Love.2": "",
-    "AfterDark.Gift.Alex.GiftReaction.Late.Love.1": "",
-    "AfterDark.Gift.Alex.GiftReaction.Late.Love.2": "",
+    "AfterDark.Gift.Alex.GiftReaction.Early.Love.1": "I might actually have to start giving gifts back if you keep getting me stuff like this.$h#$b#Thank you.",
+    "AfterDark.Gift.Alex.GiftReaction.Early.Love.2": "Y'know, I might not hate you as much as I think I do.#$b#Thanks, @.",
+    "AfterDark.Gift.Alex.GiftReaction.Late.Love.1": "Do you really think items are enough to impress me at this point?#$b#Why don't you come and do something for me instead, yeah?$l",
+    "AfterDark.Gift.Alex.GiftReaction.Late.Love.2": "...$9#$b#....#$b#You're dumb, you know that?$l#$b#Thanks for this.$h",
 
-    "AfterDark.Gift.Alex.GiftReaction.Early.Like.1": "",
-    "AfterDark.Gift.Alex.GiftReaction.Early.Like.2": "",
-    "AfterDark.Gift.Alex.GiftReaction.Late.Like.1": "",
-    "AfterDark.Gift.Alex.GiftReaction.Late.Like.2": "",
+    "AfterDark.Gift.Alex.GiftReaction.Early.Like.1": "...$9#$b#I didn't know you had good taste.",
+    "AfterDark.Gift.Alex.GiftReaction.Early.Like.2": "Y'know, it's almost cute how you keep tripping over yourself to bring me gifts like this.$h#$b#Thanks.",
+    "AfterDark.Gift.Alex.GiftReaction.Late.Like.1": "Huh... I can't believe you're learning what I like.#$e#What?$a#$b#Can't I be grateful for a gift every now and then?$a",
+    "AfterDark.Gift.Alex.GiftReaction.Late.Like.2": "Thanks for this.$h#$b#Though, you know there's one thing I really like that's not in the wiki...$l",
 
-    "AfterDark.Gift.Alex.GiftReaction.Early.Neutral.1": "",
-    "AfterDark.Gift.Alex.GiftReaction.Early.Neutral.2": "",
-    "AfterDark.Gift.Alex.GiftReaction.Late.Neutral.1": "",
-    "AfterDark.Gift.Alex.GiftReaction.Late.Neutral.2": "",
+    "AfterDark.Gift.Alex.GiftReaction.Early.Neutral.1": "...Thanks?$9",
+    "AfterDark.Gift.Alex.GiftReaction.Early.Neutral.2": "This is great and all, but I could've gone without this, {{LPetName}}.$a",
+    "AfterDark.Gift.Alex.GiftReaction.Late.Neutral.1": "Oh, thanks.",
+    "AfterDark.Gift.Alex.GiftReaction.Late.Neutral.2": "Thanks, but why are you giving me this?$9",
 
-    "AfterDark.Gift.Alex.GiftReaction.Early.Dislike.1": "",
-    "AfterDark.Gift.Alex.GiftReaction.Early.Dislike.2": "",
-    "AfterDark.Gift.Alex.GiftReaction.Late.Dislike.1": "",
-    "AfterDark.Gift.Alex.GiftReaction.Late.Dislike.2": "",
+    "AfterDark.Gift.Alex.GiftReaction.Early.Dislike.1": "Uh...$s#$b#Yeah, this definitely belongs in the trash, {{LPetName}}.$9",
+    "AfterDark.Gift.Alex.GiftReaction.Early.Dislike.2": "Are you bad at gift-giving or something?$a#$b#Here, let me spell it out for you:$9#$b#I.$9#$b#Don't.$9#$b#Like.$9#$b#This.$a#$b#Or you for that matter.$a",
+    "AfterDark.Gift.Alex.GiftReaction.Late.Dislike.1": "You're lucky you're {{LDescript}}...$s#$b#Yeah no, that's all I have to say about that...$s",
+    "AfterDark.Gift.Alex.GiftReaction.Late.Dislike.2": "...$s#$b#Yeah, {{LPetName}}, I don't like this at all...$s",
 
-    "AfterDark.Gift.Alex.GiftReaction.Early.Hate.1": "",
-    "AfterDark.Gift.Alex.GiftReaction.Early.Hate.2": "",
-    "AfterDark.Gift.Alex.GiftReaction.Late.Hate.1": "",
-    "AfterDark.Gift.Alex.GiftReaction.Late.Hate.2": "",
+    "AfterDark.Gift.Alex.GiftReaction.Early.Hate.1": "You don't have to keep giving me shit like this for me to leave you alone.$a#$b#I'm plenty fine doing that already.$a",
+    "AfterDark.Gift.Alex.GiftReaction.Early.Hate.2": "Damn, and here I thought I couldn't hate you any more.$a",
+    "AfterDark.Gift.Alex.GiftReaction.Late.Hate.1": "...$a#$b#Are you trying to make me hate you again or something?$a",
+    "AfterDark.Gift.Alex.GiftReaction.Late.Hate.2": "I thought we were over the whole 'I hate you' thing...$a#$b#What even is this?$s",
 
     // SPECIFIC LOVES
-    "AfterDark.Gift.Alex.GiftReaction.DefenseBook.Early.false.1": "",
-    "AfterDark.Gift.Alex.GiftReaction.DefenseBook.Early.false.2": "",
+    "AfterDark.Gift.Alex.GiftReaction.DefenseBook.Early.false.1": "Oh thanks.$h#$b#Yeah, I was looking for something to finally fix Granny's wobbly table.",
+    "AfterDark.Gift.Alex.GiftReaction.DefenseBook.Early.false.2": "Oh, thanks.$9#$b#Maybe I can finally find a way to defend myself from stalkers like you.$h",
     "AfterDark.Gift.Alex.GiftReaction.DefenseBook.Late.false.1": "This is probably the first book that looks interesting to me. Thanks, @.$h",
     "AfterDark.Gift.Alex.GiftReaction.DefenseBook.Late.false.2": "Hmm, some workouts in this book look a little hard to do by myself.$9#$b#Maybe you can help me out one of these days.#$b#Y'know, by holding up the book for me or something.",
     "AfterDark.Gift.Alex.GiftReaction.DefenseBook.true.1": "Why don't you sit on my lap and read through this edition with me, {{LPetName}}?#$b#Maybe we can take some of the positions and use them in a different way...$l",
     "AfterDark.Gift.Alex.GiftReaction.DefenseBook.true.2": "Do you wanna read this one with me?#$b#Maybe some of the workouts can make you more flexible...$l",
 
-    "AfterDark.Gift.Alex.GiftReaction.CompleteBreakfast.Early.false.1": "",
-    "AfterDark.Gift.Alex.GiftReaction.CompleteBreakfast.Early.false.2": "",
+    "AfterDark.Gift.Alex.GiftReaction.CompleteBreakfast.Early.false.1": "Oh...$9#$b#I think you forgot the 'complete' part in this... It looks raw.$a",
+    "AfterDark.Gift.Alex.GiftReaction.CompleteBreakfast.Early.false.2": "Eggs and toast are hardly a way of impressing me, {{LPetName}}.$9#$b#Did you even wash the pan before you cooked this?$a",
     "AfterDark.Gift.Alex.GiftReaction.CompleteBreakfast.Late.false.1": "Huh, I guess this means my day is more... complete now.$h#$b#Thanks, {{LPetName}}.",
     "AfterDark.Gift.Alex.GiftReaction.CompleteBreakfast.Late.false.2": "Oh, thanks, @. I really needed one of these to get through the day.",
     "AfterDark.Gift.Alex.GiftReaction.CompleteBreakfast.true.1": "Thanks @, but how about next time I make you breakfast, hm?$h",
@@ -921,96 +949,93 @@
 
     "AfterDark.Gift.Alex.GiftReaction.RadishSalad": "My mom used to make sandwiches that tasted similar to this.#$b#You're gonna have to share the recipe, you got it pretty close.$h",
 
-    "AfterDark.Gift.Alex.GiftReaction.SalmonDinner.Early.false.1": "",
-    "AfterDark.Gift.Alex.GiftReaction.SalmonDinner.Early.false.2": "",
+    "AfterDark.Gift.Alex.GiftReaction.SalmonDinner.Early.false.1": "Oh... How long as this been out?$9#$b#I'm not gonna get food poisoning, right?$s#$b#Thanks, I guess.$s",
+    "AfterDark.Gift.Alex.GiftReaction.SalmonDinner.Early.false.2": "Did Granny tell you I liked this?$9#$b#Thanks, but...$s#$b#I'm really not interested in having a stalker, @.$a",
     "AfterDark.Gift.Alex.GiftReaction.SalmonDinner.Late.false.1": "Did you catch and cook this yourself?#$b#Huh, I'm almost impressed. Thanks, @.$h",
     "AfterDark.Gift.Alex.GiftReaction.SalmonDinner.Late.false.2": "When'd you grow the muscles to reel in such a big fish?$h#$b#Anyways, thanks, {{LPetName}}.$h",
     "AfterDark.Gift.Alex.GiftReaction.SalmonDinner.true.1": "Damn, you're getting pretty good at cooking my favorite meals.$h#$b#You're almost better than Granny; you'll have to teach me one of these days.",
     "AfterDark.Gift.Alex.GiftReaction.SalmonDinner.true.2": "Mmmm... the smell of this almost reminds me of—#$b#Actually, nevermind. Thanks {{LPetName}}.$h",
 
     // SPECIFIC LIKES
-    "AfterDark.Gift.Alex.GiftReaction.FieldSnack.Early.false.1": "Oh, thanks @.#$b#You didn't get this one from a trashcan, did you?$s",
-    "AfterDark.Gift.Alex.GiftReaction.FieldSnack.Early.false.2": "",
-    "AfterDark.Gift.Alex.GiftReaction.FieldSnack.Early.false.3": "",
+    "AfterDark.Gift.Alex.GiftReaction.FieldSnack.Early.false.1": "This looks like a sorry excuse for a granola bar.$s#$b#Thanks, I guess.$s",
+    "AfterDark.Gift.Alex.GiftReaction.FieldSnack.Early.false.2": "...$s#$b#I'm gonna assume you made this since I don't wanna think about the alternative.$s#$b#Thanks though.",
+    "AfterDark.Gift.Alex.GiftReaction.FieldSnack.Early.false.3": "This still has dirt on it.$a#$b#Did you make it from the seeds around your farm or something?$9#$b#It shows.$a",
     "AfterDark.Gift.Alex.GiftReaction.FieldSnack.Late.false.1": "Oh, thanks @.#$b#You didn't get this one from a trashcan, did you?$s",
-    "AfterDark.Gift.Alex.GiftReaction.FieldSnack.Late.false.2": "",
-    "AfterDark.Gift.Alex.GiftReaction.FieldSnack.Late.false.3": "",
+    "AfterDark.Gift.Alex.GiftReaction.FieldSnack.Late.false.2": "I guess it's a good thing you run a farm, eh?#$b#I've been looking forward to getting some of your fresh stuff.$h#$e#...$s#$b#Wait... You didn't get that one from a trashcan did you?$s",
+    "AfterDark.Gift.Alex.GiftReaction.FieldSnack.Late.false.3": "Oh, thanks, but...$s#$b#Sorry, I was hoping I could eat something else of yours...$s#$e#Hm? What, did I say something?#$b#I don't know what you're talking about, {{LPetName}}.$l",
     "AfterDark.Gift.Alex.GiftReaction.FieldSnack.true.1": "Don't you just love quick, easy ways to boost your stamina?#$b#I'll be sure to keep this one on-hand for when you finally decide to let me go all night long.$h",
-    "AfterDark.Gift.Alex.GiftReaction.FieldSnack.true.2": "",
-    "AfterDark.Gift.Alex.GiftReaction.FieldSnack.true.3": "",
+    "AfterDark.Gift.Alex.GiftReaction.FieldSnack.true.2": "I guess you could say I'm...#$b#Nuts about you...$h#$b#Was that too cheesy?$s",
+    "AfterDark.Gift.Alex.GiftReaction.FieldSnack.true.3": "...$s#$b#Sorry, I normally like these, but last time I hurt my tooth on one of them...$s#$b#D'you think you could kiss it better if it happens again?$l",
 
     // PLAIN BUT BIG ASS EGGS
-    "AfterDark.Gift.Alex.GiftReaction.BigEgg.Early.false.1": "",
-    "AfterDark.Gift.Alex.GiftReaction.BigEgg.Early.false.2": "",
-    "AfterDark.Gift.Alex.GiftReaction.BigEgg.Late.false.1": "",
-    "AfterDark.Gift.Alex.GiftReaction.BigEgg.Late.false.2": "",
-    "AfterDark.Gift.Alex.GiftReaction.BigEgg.true.1": "",
-    "AfterDark.Gift.Alex.GiftReaction.BigEgg.true.2": "",
+    "AfterDark.Gift.Alex.GiftReaction.BigEgg.Early.false.1": "Yeah, this egg definitely came from you.$h#$b#What? Y'know, considering how you're a big chicken who left the city for some run down farm.#$e#Oh, don't look at me like that, you know it's true.$h",
+    "AfterDark.Gift.Alex.GiftReaction.BigEgg.Early.false.2": "Oh, thanks.#$e#What? Want a complement for growing a big ass egg?$a#$b#Go ask Shane or something then. I hear he's a big fan of chickens.",
+    "AfterDark.Gift.Alex.GiftReaction.BigEgg.Late.false.1": "Fuck yeah!$h#$b#Now this is an actual egg, thanks @.",
+    "AfterDark.Gift.Alex.GiftReaction.BigEgg.Late.false.2": "Holy shit that's big—$7#$b#Did you hurt your frail little arms carrying it over here?$h",
+    "AfterDark.Gift.Alex.GiftReaction.BigEgg.true.1": "Y'know, I mentioned eggs once and now I feel like you're bringing me the entire coop...$s#$b#Though, I could never deny a big boy like this.$h#$b#Thanks, {{LPetName}}.",
+    "AfterDark.Gift.Alex.GiftReaction.BigEgg.true.2": "Are you trying to get me to cook breakfast or something?$h#$b#Fine, I'll see what I can do.",
 
     // SPECIAL EGGS
-    "AfterDark.Gift.Alex.GiftReaction.FrogEgg.Early.false": "",
+    "AfterDark.Gift.Alex.GiftReaction.FrogEgg.Early.false": "Why is it sticky?$s",
     "AfterDark.Gift.Alex.GiftReaction.FrogEgg.Late.false": "I saw Seb raise one of these as if it was his child... I think he'd be pretty upset if he saw me do this.#$b#*slurrrp*",
     "AfterDark.Gift.Alex.GiftReaction.FrogEgg.true": "Ugh, these never look appealing.$s#$b#How about I come slurp you up instead, {{LPetName}}?",
 
-    "AfterDark.Gift.Alex.GiftReaction.ParrotEgg.Early.false": "",
+    "AfterDark.Gift.Alex.GiftReaction.ParrotEgg.Early.false": "Did you break into Emily's just to get this?$a#$b#Yoba, you're a freak.$9",
     "AfterDark.Gift.Alex.GiftReaction.ParrotEgg.Late.false": "Oh, thanks!$h#$b#Hmm, I wonder if a parrot could catch a gridball...",
     "AfterDark.Gift.Alex.GiftReaction.ParrotEgg.true": "Ooh, what do you think about raising one of these with me, {{LPetName}}?#$b#Personally, I think I'd make a great parrot dad. I'd even teach it to compliment you everyday.$h",
 
-    "AfterDark.Gift.Alex.GiftReaction.GoldenEgg.Early.false": "",
+    "AfterDark.Gift.Alex.GiftReaction.GoldenEgg.Early.false": "A golden egg?$a#$b#I bet you just painted one of your little chicken eggs to try and fool me.$a",
     "AfterDark.Gift.Alex.GiftReaction.GoldenEgg.Late.false": "Whoa, how much does one of these even go for?$7#$b#Thanks, {{LPetName}}, I really appreciate it.$h", 
     "AfterDark.Gift.Alex.GiftReaction.GoldenEgg.true": "Shit, aren't these worth a lot?$7#$b#You didn't have to do all that for me, {{LPetName}}.",
 
-    "AfterDark.Gift.Alex.GiftReaction.DinoEgg.Early.false": "",
+    "AfterDark.Gift.Alex.GiftReaction.DinoEgg.Early.false": "You're telling me this is a real dino egg?$a#$b#Yeah, I'll believe it when I taste it.$h",
     "AfterDark.Gift.Alex.GiftReaction.DinoEgg.Late.false": "Holy shit, this is huge!$7#$b#Hah, wait, that's what she said.$h",
     "AfterDark.Gift.Alex.GiftReaction.DinoEgg.true": "Hmm, do you think one of these would fit u—#$b#Ah, nevermind...$h",
 
-    "AfterDark.Gift.Alex.GiftReaction.OstrichEgg.Early.false": "",
-    "AfterDark.Gift.Alex.GiftReaction.OstrichEgg.Late.false": "Huh, you wanna know what's bigger than an Ostrich egg? My d—#$b#Erm, my dumbells, teehee.$h",
+    "AfterDark.Gift.Alex.GiftReaction.OstrichEgg.Early.false": "Where'd you even get one of these?!$7#$b#Er—$s#$b#I mean, thanks, I guess.$9",
+    "AfterDark.Gift.Alex.GiftReaction.OstrichEgg.Late.false": "Huh, you wanna know what's bigger than an Ostrich egg? My d—#$b#Erm, my dumbells, ha.$h",
     "AfterDark.Gift.Alex.GiftReaction.OstrichEgg.true": "Yoba, these are fucking huge!$7#$b#I wonder if I can use it as practice for our kids...",
 
-    "AfterDark.Gift.Alex.GiftReaction.DuckEgg.Early.false": "",
+    "AfterDark.Gift.Alex.GiftReaction.DuckEgg.Early.false": "I'm surprised your ducks even lay eggs.#$b#I thought your farm was some sort of wasteland.$h",
     "AfterDark.Gift.Alex.GiftReaction.DuckEgg.Late.false": "This looks pretty small, are you sure it has enough protein?#9#$b#Well, thanks anyway.",
     "AfterDark.Gift.Alex.GiftReaction.DuckEgg.true": "I found out there's actually 9 grams of protein in one of these.#$b#Hmm, I wonder how much I'd get with you...$l",
 
     // CATEGORIES
-    "AfterDark.Gift.Alex.GiftReaction.Category.Egg.Early.false.1": "",
-    "AfterDark.Gift.Alex.GiftReaction.Category.Egg.Early.false.2": "",
+    "AfterDark.Gift.Alex.GiftReaction.Category.Egg.Early.false.1": "Are you only giving me this because it's a reject?$a#$b#Thanks, I guess.$s",
+    "AfterDark.Gift.Alex.GiftReaction.Category.Egg.Early.false.2": "Oh, thanks.#$e#What? Did you want more?$a#$b#It's just an egg.$a",
     "AfterDark.Gift.Alex.GiftReaction.Category.Egg.Late.false.1": "Oh, thanks. Did you know yolks are pretty good for protein?#$b#I've gotten pretty good at swallowing them.",
     "AfterDark.Gift.Alex.GiftReaction.Category.Egg.Late.false.2": "Oh, I love these!$h#$b#Funny thing about eggs though, they're actually the chicken's period.#$b#Anyways... *slurp*.",
     "AfterDark.Gift.Alex.GiftReaction.Category.Egg.true.1": "The protein in these are really good for the body but, you know what's better?#$b#You.$l",
     "AfterDark.Gift.Alex.GiftReaction.Category.Egg.true.2": "Y'know, slurping on these eggs has made me really good with catching things on my tongue — wanna see?$h",
 
-    "AfterDark.Gift.Alex.GiftReaction.Cooking.Early.false.1": "",
-    "AfterDark.Gift.Alex.GiftReaction.Cooking.Early.false.2": "",
+    "AfterDark.Gift.Alex.GiftReaction.Cooking.Early.false.1": "Oh, some food?$9#$b#You shouldn't have...$9#$b#No really, I'm not trying to get food poisoning right now.$a",
+    "AfterDark.Gift.Alex.GiftReaction.Cooking.Early.false.2": "Oh, thanks.#$b#...$10#$b#...$9#$b#...$a#$b#This tastes like rubber.$a",
     "AfterDark.Gift.Alex.GiftReaction.Cooking.Late.false.1": "I didn't take you as the cooking type, @.#$b#You did cook this yourself, right?",
     "AfterDark.Gift.Alex.GiftReaction.Cooking.Late.false.2": "Hmm... I'm not sure this is better than what my Gran makes, but thanks anyway.",
     "AfterDark.Gift.Alex.GiftReaction.Cooking.true.1": "$y 'Did you cook this for me, {{LPetName}}?_Yes._Mmmm... do you think I could get a little sugar to go along with it?$h_No, I bought it._Aww, I would've killed to see you cooking in a little apron...$s",
     "AfterDark.Gift.Alex.GiftReaction.Cooking.true.2": "There's always something so homey about the meals you bring me, thanks {{LPetName}}.$h",
 
-    "AfterDark.Gift.Alex.GiftReaction.Flowers.Early.false.1": "",
-    "AfterDark.Gift.Alex.GiftReaction.Flowers.Early.false.2": "",
-    "AfterDark.Gift.Alex.GiftReaction.Flowers.Late.false.1": "",
-    "AfterDark.Gift.Alex.GiftReaction.Flowers.Late.false.2": "",
-    "AfterDark.Gift.Alex.GiftReaction.Flowers.true.1": "",
-    "AfterDark.Gift.Alex.GiftReaction.Flowers.true.2": "",
+    "AfterDark.Gift.Alex.GiftReaction.Flowers.Early.false": "Nice try, @.$h#$b#Your off brand bouquet still makes me want to not date you.#$b#Though, Granny might like these...",
+    "AfterDark.Gift.Alex.GiftReaction.Flowers.Late.false": "Huh...#$b#These are Granny's favorites actually.#$b#I'll have to pass them on, thanks @.$h",
+    "AfterDark.Gift.Alex.GiftReaction.Flowers.true.1": "Aren't I supposed to be the one getting you flowers?$h#$b#Thanks, {{LPetName}}.$l",
 
     // DISLIKES
-    "AfterDark.Gift.Alex.GiftReaction.VoidEgg.Early.false": "",
+    "AfterDark.Gift.Alex.GiftReaction.VoidEgg.Early.false": "Do you think I just accept anything?$a",
     "AfterDark.Gift.Alex.GiftReaction.VoidEgg.Late.false": "Oh... I know I said I liked eggs but this one's kinda questionable, @.$s",
     "AfterDark.Gift.Alex.GiftReaction.VoidEgg.true": "For the last time, {{LPetName}}, I don't like these.$a#$b#There's something... questionable about the after taste.$s",
     
-    "AfterDark.Gift.Alex.GiftReaction.Category.Books.Early.false": "",
+    "AfterDark.Gift.Alex.GiftReaction.Category.Books.Early.false": "...$a#$b#Sorry, I make it a rule to not take education advice from hillbilly wannabes.$a",
     "AfterDark.Gift.Alex.GiftReaction.Category.Books.Late.false": "Are you trying to tease me with one of these?$s#$b#The only way I'm reading this is if you do it for me.",
     "AfterDark.Gift.Alex.GiftReaction.Category.Books.true": "C'mon, {{LPetName}}, you know me better than this.$s#$b#The only way you'll get me to read one of these is if I get to hear your {{LDescript}} voice spelling it out for me.",
 
     // HATES
-    "AfterDark.Gift.Alex.GiftReaction.MuscleRemedy.Early.false": "",
-    "AfterDark.Gift.Alex.GiftReaction.MuscleRemedy.Late.false": "",
-    "AfterDark.Gift.Alex.GiftReaction.MuscleRemedy.true": "",
+    "AfterDark.Gift.Alex.GiftReaction.MuscleRemedy.Early.false": "...$a#$b#What do you take me for?$a#$b#A fake who needs drugs to help with working out?$a",
+    "AfterDark.Gift.Alex.GiftReaction.MuscleRemedy.Late.false": "...$s#$b#Err... Thanks but I'm not really a fan of this stuff...$s#$b#Have you read some of the ingredients?$9",
+    "AfterDark.Gift.Alex.GiftReaction.MuscleRemedy.true": "...$s#$b#I thought you knew me better than this.$s#$b#You know I hate this artificial crap, @.$a",
 
-    "AfterDark.Gift.Alex.GiftReaction.EnergyTonic.Early.false": "",
-    "AfterDark.Gift.Alex.GiftReaction.EnergyTonic.Late.false": "",
-    "AfterDark.Gift.Alex.GiftReaction.EnergyTonic.true": "",
+    "AfterDark.Gift.Alex.GiftReaction.EnergyTonic.Early.false": "Yoba, I hate artificial crap like this.$a#$b#Thanks I guess.$s",
+    "AfterDark.Gift.Alex.GiftReaction.EnergyTonic.Late.false": "...$s#$b#You're lucky you're {{LDescript}}, you know that?$s",
+    "AfterDark.Gift.Alex.GiftReaction.EnergyTonic.true": "Ugh, what've I said about this artificial stuff, {{LPetName}}?$a#$b#I thought you'd know me better than this...$s",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     █   █  ███  █   █ █████ █████       ████  █████  ███  █      ███   ████ █   █ █████ 
@@ -1044,94 +1069,101 @@
     - Pixie
     - Tobabear
     - Twig
+    - Pammy Spammy
+    - Morp
+    - Gulema
+    - Koro
+    - Neurodivergent Enderman
+    - Garden
+    - Lady Lancer
     For helping with some of these lines :3 */
 
     // Egg Festival
-    "AfterDark.Festival.Alex.spring13.Early.false.1": "",
-    "AfterDark.Festival.Alex.spring13.Early.false.2": "",
+    "AfterDark.Festival.Alex.spring13.Early.false.1": "Do you even have time to be here?$9#$b#I mean, I've seen the state of your farm and everything...$s",
+    "AfterDark.Festival.Alex.spring13.Early.false.2": "Y'know eggs are actually really good for bulking up.#$b#Are you sure you're even able to carry a basket with those small ass arms of yours?$s",
     "AfterDark.Festival.Alex.spring13.Late.false.1": "$y 'Are you joining the egg hunt this year?_Yes._Are you trying to win the straw hat? That's a little on the nose, don't you think?$h_What's it to you?_Whoa, no need to get aggressive. Good luck out there, {{LPetName}}.$h'",
     "AfterDark.Festival.Alex.spring13.Late.false.2": "Not that I care if you win or anything but, if you want a hint, check around my house.#$e#What?#$b#I saw Lewis placing down some and thought you could use the leg up since you're new and everything...$9",
     "AfterDark.Festival.Alex.spring13.true.1": "Do you need any help carrying your basket, {{LPetName}}?#$b#I don't mind helping you carry things, you know that, right?$1",
     "AfterDark.Festival.Alex.spring13.true.2": "Are you joining again this year?#$b#If you win, can I wear the hat this time?$1",
-    "AfterDark.Festival.Alex.spring13.true.3": "",
+    "AfterDark.Festival.Alex.spring13.true.3": "...$s#$b#Do we have to come to the egg festival every year?$s#$b#Y'know I love seeing you run around, bending over for every...$l#$b#Actually, never mind. Can we make sure to come again next year?$h",
 
     // Flower Dance
-    "AfterDark.Festival.Alex.spring24.Early.false.1": "",
-    "AfterDark.Festival.Alex.spring24.Early.false.2": "",
+    "AfterDark.Festival.Alex.spring24.Early.false.1": "Y'know people usually dress up for this, right?$a#$b#Oh, wait, don't tell me that's what you look like dressed up...$s",
+    "AfterDark.Festival.Alex.spring24.Early.false.2": "You're not gonna dance today, right?$s#$b#Honestly I hope not. I doubt anyone actually wants to watch that.$9",
     "AfterDark.Festival.Alex.spring24.Late.false.1": "Huh...#$b#I'm surprised you even had nice clothes for something like this.$h#$b#You look {{LDescript}}.",
     "AfterDark.Festival.Alex.spring24.Late.false.2": "I'm so used to being paired up with Haley for these dances but...#$b#Seeing you dressed up like that is seriously making me reconsider that.$l",
     "AfterDark.Festival.Alex.spring24.true.1": "It was worth it waiting for you to get ready this morning, you look {{LDescript}}, {{LPetName}}.$4",
     "AfterDark.Festival.Alex.spring24.true.2": "Y'know I'm surprised my suit still fits.#$b#I think married life has made me a little soft...$2#$e#You look as {{LDescript}} as ever though.$4",
-    "AfterDark.Festival.Alex.spring24.true.3": "",
+    "AfterDark.Festival.Alex.spring24.true.3": "I used to hate coming to this thing, but honestly, I've started to look forward to dancing with my {{LMarriageName}}.#$b#You look {{LDescript}} by the way.$l",
 
-    "AfterDark.Festival.Alex.DanceAccept.Early": "",
+    "AfterDark.Festival.Alex.DanceAccept.Early": "Yeah, I guess I can.$s#$b#Just please tell me you're not a bad dancer or I'll go back to Haley.$a",
     "AfterDark.Festival.Alex.DanceAccept.Late": "Yeah, of course I will.$h#$b#Now, how about you give me a little twirl so I can see the whole outfit?$l",
-    "AfterDark.Festival.Alex.DanceAccept.Spouse.1": "",
+    "AfterDark.Festival.Alex.DanceAccept.Spouse.1": "You're cute every time you ask me to dance with you here, you know that?$l#$b#Of course I will, @.$h",
     "AfterDark.Festival.Alex.DanceAccept.Spouse.2": "Aren't I supposed to be the one asking you?#$b#Of course I'll dance with you, {{LPetName}}.$l",
     "AfterDark.Festival.Alex.DanceDeny": "Sorry, {{LPetName}}. I kinda promised Haley already...$9",
 
     // Luau 
-    "AfterDark.Festival.Alex.summer11.Early.false.1": "",
-    "AfterDark.Festival.Alex.summer11.Early.false.2": "",
+    "AfterDark.Festival.Alex.summer11.Early.false.1": "Ugh, can you try and not fuck up the soup with your subpar crops?$s#$b#Granny put a lot of heart into it this year and I'd hate to see it ruined by you.$a",
+    "AfterDark.Festival.Alex.summer11.Early.false.2": "Do you even grow anything worth throwing into the soup?$9#$b#Ugh, please don't become another Sam.$s",
     "AfterDark.Festival.Alex.summer11.Late.false.1": "This festival's always so boring.$s#$b#How about we go across the beach and uh... throw a ball around?$1",
     "AfterDark.Festival.Alex.summer11.Late.false.2": "Aren't you hot wearing that?#$b#Maybe you should strip down a little more.$1",
     "AfterDark.Festival.Alex.summer11.true.1": "Now that you're here, {{LPetName}}, skinny dipping sounds real fun.$1#$b#Do you think everyone else would notice?",
     "AfterDark.Festival.Alex.summer11.true.2": "Are you throwing something in the pot this year?#$b#Maybe if you do, I'll actually eat some for once.$1",
-    "AfterDark.Festival.Alex.summer11.true.3": "",
+    "AfterDark.Festival.Alex.summer11.true.3": "%Alex leans in close enough to whisper into your ear.#$b#D'you think anyone else knows about the time we spent by that fireplace?$l#$b#Maybe we should give them a chance to find out, yeah?$l",
 
     // Desert Festival
-    "AfterDark.Festival.Alex.Desert.Early.1": "",
-    "AfterDark.Festival.Alex.Desert.Early.2": "",
-    "AfterDark.Festival.Alex.Desert.Late.1": "",
+    "AfterDark.Festival.Alex.Desert.Early.1": "I can tell you haven't visited Emily yet.$9#$b#Your clothes are a mess.$a",
+    "AfterDark.Festival.Alex.Desert.Early.2": "Y'know, this heat's already doing wonders on my patience. I don't need you here making it worse.$a",
+    "AfterDark.Festival.Alex.Desert.Late.1": "I know it's hot out here, but don't strip down too much please.$s#$e#What? the sun's a bitch. Light layers are where it's at.$h",
     "AfterDark.Festival.Alex.Desert.Late.2": "You look hot out here.#$b#Maybe you should take off your shirt to cool down.$1#$e#Well, are you?#$b#If you're worried about others seeing, we can always go to a secluded spot...$4",
-    "AfterDark.Festival.Alex.Desert.Married.1": "",
+    "AfterDark.Festival.Alex.Desert.Married.1": "Yoba, it's hot out here...$s#$b#Though, somehow, you're even hotter.$l",
     "AfterDark.Festival.Alex.Desert.Married.2": "Have I ever told you you look really {{LDescript}} when you're all hot and sweaty?#$b#Maybe you and me can come out here again, alone this time...$4",
     "AfterDark.Festival.Alex.Desert.Shop": "I have a few things in my shop that make me think about you. Can you guess which ones?",
 
     // Moonlight Jellies 
-    "AfterDark.Festival.Alex.summer28.Early.false.1": "",
-    "AfterDark.Festival.Alex.summer28.Early.false.2": "",
-    "AfterDark.Festival.Alex.summer28.Late.false.1": "%You feel Alex's hand push slightly against the small of your back.#$b#Earlier, I heard Penny telling the kids that jellyfish sting.#$b#Wanna find out if these ones do?$1#$e#Don't worry, I'll follow right after you.",
-    "AfterDark.Festival.Alex.summer28.Late.false.2": "Isn't it pretty out here?#$b#$y 'This would make for a great date night, wouldn't it?_Yeah, it would._Maybe I'll take you on one, one of these days._Not really._What a shame, I was prepared to whip out my charm to ask you on one. Nevermind now.'",
+    "AfterDark.Festival.Alex.summer28.Early.false.1": "Ever hear the old myth about piss helping with jellyfish stings?#$b#Wanna test it out?",
+    "AfterDark.Festival.Alex.summer28.Early.false.2": "Have I ever told you how {{LDescript}} you look at night?$l#$b#Yeah, it's 'cause I can barely see you.$h",
+    "AfterDark.Festival.Alex.summer28.Late.false.1": "%You feel Alex's hand push slightly against the small of your back.#$b#Earlier, I heard Penny telling the kids that jellyfish sting.#$b#Wanna find out if these ones do?$1#$e#Don't worry, I'll follow right after you.$l",
+    "AfterDark.Festival.Alex.summer28.Late.false.2": "Isn't it pretty out here?#$b#$y 'This would make for a great date night, wouldn't it?_Yeah, it would._Maybe I'll take you on one, one of these days._Not really._What a shame, I was prepared to whip out my charm to ask you on one... Nevermind now.'",
     "AfterDark.Festival.Alex.summer28.true.1": "My mom used to take me to see the jellies when I was younger.$2#$b#I'm glad I can watch them with you now.$4",
     "AfterDark.Festival.Alex.summer28.true.2": "I can't believe Summer's already over...$2#$b#At least this means I get to admire the way your face glows in two different ways tonight.$4",
-    "AfterDark.Festival.Alex.summer28.true.3": "",
+    "AfterDark.Festival.Alex.summer28.true.3": "I never thought I'd be here, viewing the jellies, actually enjoying the view with you.$h#$b#Have I ever told you just how much I love you?$l",
 
     // Fair
-    "AfterDark.Festival.Alex.fall16.Early.false.1": "",
-    "AfterDark.Festival.Alex.fall16.Early.false.2": "",
+    "AfterDark.Festival.Alex.fall16.Early.false.1": "Huh, I didn't know the fair had a freak show this year.$h#$b#You're missing your clown nose, {{LPetName}}. You should go back home and get it.",
+    "AfterDark.Festival.Alex.fall16.Early.false.2": "Damn, I could really go for a burger right now...$s#$e#What? Why are you bothering me?$a#$b#Don't you have a few games to lose or something?",
     "AfterDark.Festival.Alex.fall16.Late.false.1": "Hey, {{LPetName}}. Wanna see me destroy that strength test?$1",
     "AfterDark.Festival.Alex.fall16.Late.false.2": "I swear, I could eat y—$7#$b#I mean, one of the burgers Gus is selling right now...$1",
     "AfterDark.Festival.Alex.fall16.true.1": "I know you normally handle the display, but I wanted to help out a bit by growing something for you.$1#$b#I just hope the size of this thing is enough to impress the judges.[272]",
     "AfterDark.Festival.Alex.fall16.true.2": "Want me to win you a prize this year, {{LPetName}}?$1#$b#I've gotten pretty good at that slingshot game...",
-    "AfterDark.Festival.Alex.fall16.true.3": "",
+    "AfterDark.Festival.Alex.fall16.true.3": "I think it'd be cute to show one of our kids how to play the slingshot game.#$b#What do you say?$h",
 
     // Spirit's Eve
-    "AfterDark.Festival.Alex.fall27.Early.false.1": "",
-    "AfterDark.Festival.Alex.fall27.Early.false.2": "",
+    "AfterDark.Festival.Alex.fall27.Early.false.1": "...$7#$b#Sorry, you look real scary in that costume of yours.$h#$b#Wait... Are you even wearing one?$s",
+    "AfterDark.Festival.Alex.fall27.Early.false.2": "Shouldn't you be in that cage over there?$9#$b#I thought that's where they put all the ugly monsters.",
     "AfterDark.Festival.Alex.fall27.Late.false.1": "That's what you're wearing?#$b#I honestly thought you'd show up in a more... skimpy outfit.$9#$b#$y 'I have a bunny outfit if you'd like to put that on instead._I think that'd actually look better on you._...You just wanna see my tits in a corset. Nice try.$9_Fuck you._No, thanks for the offer, but I'm not interested.'",
     "AfterDark.Festival.Alex.fall27.Late.false.2": "Hmm...#$e#If I lift you up, do you think you could find the edge of the maze from here?",
     "AfterDark.Festival.Alex.fall27.true.1": "Finally, you're here... I'm getting soo scared in this maze.$7#$b#I think I need a {{LDescript}} little farmer to keep me calm.$1",
     "AfterDark.Festival.Alex.fall27.true.2": "Now that you're here, why don't you let me take you behind one of these bushes real quick...$4#$b#Don't worry, your screams will fit right in.$1",
-    "AfterDark.Festival.Alex.fall27.true.3": "",
+    "AfterDark.Festival.Alex.fall27.true.3": "Oh, I thought we were matching this year, what happened?$9#$b#Now I look like an idiot...$s",
 
     // Ice Festival
-    "AfterDark.Festival.Alex.winter8.Early.false.1": "",
-    "AfterDark.Festival.Alex.winter8.Early.false.2": "",
+    "AfterDark.Festival.Alex.winter8.Early.false.1": "Are you sure you want to join this competition?$9#$b#I mean, are you even able to catch anything besides seaweed?$s",
+    "AfterDark.Festival.Alex.winter8.Early.false.2": "You're cold?#$b#And you're wanting my jacket?#$b#Yeah right, get your own.$5",
     "AfterDark.Festival.Alex.winter8.Late.false.1": "Huh...#$b#Gonna bring out that big rod this year, @?#$b#Can't wait to see it...$1",
     "AfterDark.Festival.Alex.winter8.Late.false.2": "You're cold?#$b#And you're wanting my jacket?#$b#Yeah right, get your own.$5#$e#Ugh, fine. Just be sure to bring it back.$9",
     "AfterDark.Festival.Alex.winter8.true.1": "Are you cold, {{LPetName}}?$9#$b#Come closer, I know you're just itching to be between my arms.$4",
     "AfterDark.Festival.Alex.winter8.true.2": "Let me know if you need any help reeling in those fish, {{LPetName}}.#$b#I don't want a {{LDescript}} little thing like you hurting yourself.$1",
-    "AfterDark.Festival.Alex.winter8.true.3": "",
+    "AfterDark.Festival.Alex.winter8.true.3": "Hey, make sure you wear gloves before you start, yeah?#$b#The last thing I wanna do is visit Harvey after this.$s",
 
     // Winter Star
-    "AfterDark.Festival.Alex.winter25.Early.false.1": "",
-    "AfterDark.Festival.Alex.winter25.Early.false.2": "",
+    "AfterDark.Festival.Alex.winter25.Early.false.1": "Y'know, I was finally starting to feel the holiday spirit.#$b#And then you came...$s",
+    "AfterDark.Festival.Alex.winter25.Early.false.2": "Please, for the love of Yoba, tell me you're not my secret friend this year.$s#$b#The last thing I want is a fucking silver star crop or something...$s",
     "AfterDark.Festival.Alex.winter25.Late.false.1": "%You hear Alex sigh.#$b#I'm a little disappointed with the gifts this year.$2#$b#How about you hold still so I can wrap you up in a nice, pretty bow?$4#$e#Come on, it'll make me feel better!$1",
     "AfterDark.Festival.Alex.winter25.Late.false.2": "I really hope I don't get another book this year...$2#$e#Actually, if you're the one reading it to me, I don't think I'd mind one...$1",
     "AfterDark.Festival.Alex.winter25.true.1": "You know what I'm thankful for this year?#$b#Actually, I'll show you when we get back home...$4",
     "AfterDark.Festival.Alex.winter25.true.2": "You look {{LDescript}} surrounded by snow, you know that?#$b#Maybe that's what I'm thankful for this year; getting to see you like this every Winter from now on.$4",
-    "AfterDark.Festival.Alex.winter25.true.3": "",
+    "AfterDark.Festival.Alex.winter25.true.3": "Is there a reason you keep participating in the gift exchange?$s#$b#{{PetName}}, you know I'm the best present you'll ever get, right?$h",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     █████ █████ ████  █████ █   █  ████ █████ 
@@ -1142,6 +1174,7 @@
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
     /* Thank you:
     - Pixie
+    - Pamorama
     For helping with some of these lines :3 */    
 
     // Strings/StringsFromMaps
@@ -1157,12 +1190,12 @@
     "AfterDark.Strings.Alex.JoshHouse.10": "That's definitely a gridball but... why does it look sticky?",
 
     // Strings/Locations
-    "AfterDark.Strings.Alex.JoshHouse.Trash": "Underneath a few protein bar wrappers, you notice a crumbled piece of paper with your name on it. Digging further, the entire paper is scratched out.",
+    "AfterDark.Strings.Alex.JoshHouse.Trash": "Underneath a few protein bar wrappers, you notice a crumbled piece of paper with your name on it.#Digging further, you notice the entire paper is scratched out.",
 
     // Strings/animationDescriptions
-    "AfterDark.Strings.Alex.LiftingWeights.Early.1": "",
-    "AfterDark.Strings.Alex.LiftingWeights.Early.2": "",
-    "AfterDark.Strings.Alex.LiftingWeights.Early.3": "",
+    "AfterDark.Strings.Alex.LiftingWeights.Early.1": "Come to watch the show?$6#$b#I bet you can't lift as much as I can.$6#$b#Especially with those noodle arms of yours...$8#$b#Seriously, how do you not hurt yourself on the farm?$8",
+    "AfterDark.Strings.Alex.LiftingWeights.Early.2": "Do you always break into people's home's like this?$8#$b#Can't I train in peace one of these days...$8",
+    "AfterDark.Strings.Alex.LiftingWeights.Early.3": "Can I help you? I'm trying to work out alone here...$8",
     "AfterDark.Strings.Alex.LiftingWeights.Late.1": "How much do you weigh again?$6#$b#Huh, looks like I need to train a little more...$8",
     "AfterDark.Strings.Alex.LiftingWeights.Late.2": "Hey, since you're here, do you think you can spot me on this next rep?$6#$b#Actually, are you even strong enough for that?$8#$e#Maybe I'll ask you another time, {{LPetName}}.$6",
     "AfterDark.Strings.Alex.LiftingWeights.Late.3": "Hey, {{LPetName}}. Wanna run through a few reps with me?$6",

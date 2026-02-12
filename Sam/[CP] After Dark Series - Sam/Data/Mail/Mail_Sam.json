@@ -30,7 +30,7 @@
 
                 "ADSamGenericMail1": "...^^{{i18n:AD.Sam.Mail.ADSamGenericMail1{{GeneralPlayerEndearment}}}}[letterbg Mods/loshionbottle.samafterdark/LetterBackgrounds 4][#]???'s Thinking of You Letter",
 
-                "ADSamGenericMail2": "...^^{{i18n:AD.Sam.Mail.ADSamGenericMail2.1}}^^{{i18n:AD.Sam.Mail.ADSamGenericMail1.2{{GeneralPlayerEndearment}}}}[letterbg Mods/loshionbottle.samafterdark/LetterBackgrounds 1][#]???'s Lyric Letter",
+                "ADSamGenericMail2": "...^^{{i18n:AD.Sam.Mail.ADSamGenericMail2.1{{GeneralPlayerEndearment}}}}^^{{i18n:AD.Sam.Mail.ADSamGenericMail1.2}}[letterbg Mods/loshionbottle.samafterdark/LetterBackgrounds 1][#]???'s Lyric Letter",
 
                 "ADSamGenericMail3": "{{i18n:AD.Sam.Mail.ADSamGenericMail3.1}}^^{{i18n:AD.Sam.Mail.ADSamGenericMail3.2}}^^{{i18n:AD.Sam.Mail.ADSamGenericMail3.3}}^^{{i18n:AD.Sam.Mail.ADSamGenericMail3.4}} %item id (WP)10 1 %%[letterbg Mods/loshionbottle.samafterdark/LetterBackgrounds 1][#]???'s Future Home Letter"
             }

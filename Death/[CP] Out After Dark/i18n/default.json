@@ -25,7 +25,7 @@
 
     // Scenario 2 - Lucky 
     "AD.Hospital.Unmarried.Lucky.1": "A breath dancing across your cheek and neck quickly snaps you back to reality, but...#Fuck, why can't you open your eyes yet?",
-    "AD.Hospital.Unmarried.Lucky.2": "My love...$s#$b#Do you have to be so wreckless?$s",
+    "AD.Hospital.Unmarried.Lucky.2": "My love...$s#$b#Do you have to be so reckless?$s",
     "AD.Hospital.Unmarried.Lucky.3": "A hand runs up your thigh, suddenly making you aware of your surroundings.#When—When were you placed in a hospital bed?#Has that heart monitor really been beeping that loudy this entire time?",
     "AD.Hospital.Unmarried.Lucky.4": "A cough comes from across the room, the hand quickly retreating.",
     "AD.Hospital.Unmarried.Lucky.5": "Looks like our time here is done.$s#$b#I'll see you next time, @.$l",
@@ -68,7 +68,7 @@
     "AD.Hospital.Married.Luckiest.5": "Please...$s#$b#You can't keep doing this to me.$s#$b#Finding you out there like that...$s",
     "AD.Hospital.Married.Luckiest.6": "The grip on your hand tightens as they rest their head next to yours.#You feel their breath—mixed with a few tears—dance along your shoulder as the figure nearly whispers their next words.",
     "AD.Hospital.Married.Luckiest.7": "Don't you know what you mean to me?$a",
-    "AD.Hospital.Married.Luckiest.8": "You're my everything.#$b#My breath, my heartbeat, my life itself.$s#$b#Please, my love, you can't be this fucking wreckless.$s",
+    "AD.Hospital.Married.Luckiest.8": "You're my everything.#$b#My breath, my heartbeat, my life itself.$s#$b#Please, my love, you can't be this fucking reckless.$s",
     "AD.Hospital.Married.Luckiest.9": "If I hadn't been there...$s#$b#If it had been any fucking longer...$s",
     "AD.Hospital.Married.Luckiest.10.Male": "This isn't your husband, is it?#Yoba, it's so fucking hard to make out who the voice belongs to...",
     "AD.Hospital.Married.Luckiest.10.Female": "This isn't your wife, is it?#Yoba, it's so fucking hard to make out who the voice belongs to...",
@@ -314,7 +314,7 @@
     "AD.Island.Unmarried.Neutral.3": "You feel the figure set you down on what seems to be a damp patch of sand before you fall back into an unconscious state.",
 
     "AD.Island.Unmarried.Unlucky.1": "The faint sounds of island rustling fade as a distinct voice comes closer–#One whose presence always makes the hair on the back of your neck stand up despite you now barely being conscious.",
-    "AD.Island.Unmarried.Unlucky.2": "Will you ever quit being so wreckless, @?$a#$b#If you insist on handling things out here by yourself, then don't fucking get yourelf killed so easily.$a#$b#Next time this happens, I'll make sure Willy's boat stays out of comission so you can't come back.$a",
+    "AD.Island.Unmarried.Unlucky.2": "Will you ever quit being so reckless, @?$a#$b#If you insist on handling things out here by yourself, then don't fucking get yourelf killed so easily.$a#$b#Next time this happens, I'll make sure Willy's boat stays out of comission so you can't come back.$a",
     "AD.Island.Unmarried.Unlucky.3": "The figure nearly drops you on the sand before you fall back into an unconscious state.",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
