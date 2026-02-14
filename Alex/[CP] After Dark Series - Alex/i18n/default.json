@@ -26,6 +26,13 @@
     "config.Marriage Affection.name": "Marriage Affection",
     "config.Marriage Affection.description": "How Alex refers to you after marriage. Would typically be \"Husband\", \"Wife\", \"Spouse\", \"Shawty Bae\", etc.",
 
+    // Degradement
+    "config.section.Degradement.name": "Degradement",
+    "config.Bad....name": "Bad...",
+    "config.Bad....description": "Would typically be \"Slut\", \"Whore\", \"Boy\", \"Girl\", etc. These are **typically** used in tandem with your degrade word.",
+    "config.Degrade Word.name": "Degrade Word",
+    "config.Degrade Word.description": "Would typically be \"Filthy\", \"Disgusting\", \"Pathetic\", etc. These are **typically** used in tandem with your bad... word.",
+
     // Dialogue
     "config.section.Dialogue.name": "Dialogue",
     "config.After Dark Dialogue.name": "After Dark Dialogue",
@@ -391,6 +398,50 @@
     █ █   █     █   █ █     █   █ █   █     █   █       █   █   █   █   █ █     █   █ █   █ █   █ █     
     ███   █████ █   █ █████  ███  █████ █████   █       ████  █████ █   █ █████  ███   ███  █████ █████ 
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    /* Thank you:
+    - Morp (SpaceHoodie)
+    - Gulema
+    - Mint
+    - Lady-Lancer
+    - sleepyduck92
+    - tar0_
+    - Viktor
+    For helping with some of these lines :3 */
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     █▀▀ █▀▀ █▀▀ ▀█▀ ▀█▀ █ █ ▄▀▄ █   
+     █▀  ██▄ ▄██  █  ▄█▄ ▀▄▀ █▀█ █▄▄ 
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    "AfterDark.FestivalJealousy.Alex.Egg.Early": "",
+    "AfterDark.FestivalJealousy.Alex.Egg.Late": "",
+
+    "AfterDark.FestivalJealousy.Alex.Desert.Early": "",
+    "AfterDark.FestivalJealousy.Alex.Desert.Late": "",
+
+    "AfterDark.FestivalJealousy.Alex.Luau.Early": "",
+    "AfterDark.FestivalJealousy.Alex.Luau.Late": "",
+
+    "AfterDark.FestivalJealousy.Alex.Moonlight.Early": "",
+    "AfterDark.FestivalJealousy.Alex.Moonlight.Late": "",
+
+    "AfterDark.FestivalJealousy.Alex.Fair.Early": "",
+    "AfterDark.FestivalJealousy.Alex.Fair.Late": "",
+
+    "AfterDark.FestivalJealousy.Alex.Spirits.Early": "",
+    "AfterDark.FestivalJealousy.Alex.Spirits.Late": "",
+
+    "AfterDark.FestivalJealousy.Alex.Ice.Early": "",
+    "AfterDark.FestivalJealousy.Alex.Ice.Late": "",
+
+    "AfterDark.FestivalJealousy.Alex.NightMarket.Early": "",
+    "AfterDark.FestivalJealousy.Alex.NightMarket.Late": "",
+
+    "AfterDark.FestivalJealousy.Alex.WinterStar.Early": "",
+    "AfterDark.FestivalJealousy.Alex.WinterStar.Late": "You...$s#$b#You didn't enjoy the gift you got yesterday, right?$9#$b#Are you really so easy?$s",
+
+    "AfterDark.FestivalJealousy.Alex.wonEggHunt": "",
+    "AfterDark.FestivalJealousy.Alex.wonGrange": "",
+    "AfterDark.FestivalJealousy.Alex.wonIceFishing": "",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      SPECIFICALLY: FLOWER DANCE
@@ -426,52 +477,63 @@
 
     // Otherwise Day After
     "AfterDark.FestivalJealousy.Alex.HasPartner.Alex.Early.Memory": "",
-    "AfterDark.FestivalJealousy.Alex.HasPartner.NotAlex.Early.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.NotAlex.Early.Memory": "You looked dumb yesterday, by the way.$a#$b#I mean, why'd you even join the dance if you don't know how?$h",
 
     // Otherwise Day After
     "AfterDark.FestivalJealousy.Alex.HasPartner.Alex.Late.Memory": "",
-    "AfterDark.FestivalJealousy.Alex.HasPartner.NotAlex.Late.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.NotAlex.Late.Memory": "...$s#$b#Did it feel good, dancing in someone else's arms yesterday, @?$s",
     
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     BACHELORS
+     █▀█ ▀█▀ █ █ ▄▀▄ █   █▀▀ 
+     █▀▄ ▄█▄ ▀▄▀ █▀█ █▄▄ ▄██ 
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-                                                                
-    // Elliott                              
-    "AfterDark.Core.Alex.Jealous.Dating.Elliott": "",
-    "AfterDark.Core.Alex.Jealous.Married.Elliott": "",
-    "AfterDark.Jealousy.Alex.Early.Elliott.1": "",
-    "AfterDark.Jealousy.Alex.Early.Elliott.2": "",
-    "AfterDark.Jealousy.Alex.Early.Elliott.3": "",
-    "AfterDark.Jealousy.Alex.Early.Elliott.4": "",
-    "AfterDark.Jealousy.Alex.Late.Elliott.1": "",
-    "AfterDark.Jealousy.Alex.Late.Elliott.2": "",
-    "AfterDark.Jealousy.Alex.Late.Elliott.3": "",
-    "AfterDark.Jealousy.Alex.Late.Elliott.4": "",
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     BACHELORS
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/                                                
+    // Elliott
+    "AfterDark.Core.Alex.Jealous.Dating.Early.Elliott": "Are you sure you want to date Elliott?$9#$b#His shack doesn't even have a shower...",                              
+    "AfterDark.Core.Alex.Jealous.Dating.Late.Elliott": "Okay, the joke's over, {{LPetName}}. Break up with him now.[277]$a",
+    "AfterDark.Core.Alex.Jealous.Married.Early.Elliott": "Really? Elliott of all people?#$b#I didn't know all it took was a few fancy words and cheap cologne.$h",
+    "AfterDark.Core.Alex.Jealous.Married.Late.Elliott": "Really? Elliott of all people?$a#$b#I'm sure as soon as one of his books takes off he'll leave you behind, {{LPetName}}.$s",
+    // 0-4h with Alex, 2 4 6 8 with Elliott
+    "AfterDark.Jealousy.Alex.Early.Elliott.1": "You should really stay away from Elliott.$9#$b#Nevermind the cheap ass cologne he wears, but the overall vibe of that man is...$s",
+    "AfterDark.Jealousy.Alex.Early.Elliott.2": "What's so interesting about Elliott anyway?$9#$b#He's just some washed-up writer living in a shabby little shack.$a",
+    "AfterDark.Jealousy.Alex.Early.Elliott.3": "How do you even understand Elliott?$a#$b#I tune out half the things he says.$9",
+    "AfterDark.Jealousy.Alex.Early.Elliott.4": "...$a#$b#I know I normally have nothing but mean things to say to you, but you really shouldn't continue talking to Elliott.$a#$b#Here, I heard he hates these.[721]$9",
+    // 5+h with Alex, 2 4 6 8 with Elliott
+    "AfterDark.Jealousy.Alex.Late.Elliott.1": "Y'know, it's pretty tacky to move to a town just to live on the outskirts.$a#$b#Why are you talking to Elliott anyway?$9#$b#He gives me the creeps.$s",
+    "AfterDark.Jealousy.Alex.Late.Elliott.2": "You're spending an awful lot of time with that long-haired freak.$a#$b#You know he cries when he's drunk, right?$s",
+    "AfterDark.Jealousy.Alex.Late.Elliott.3": "Why are you spending so much damn time with Elliott?$a#$b#What, do you need me to write a love letter too for it to get in your dumb, {{LDescript}} little head that you shouldn't be talking to him?$a",
+    "AfterDark.Jealousy.Alex.Late.Elliott.4": "Are you getting close with Elliott to spite me or something?$a#$b#I don't know how many times I told you he's bad news, {{LPetName}}...$s",
 
     // Harvey
-    "AfterDark.Core.Alex.Jealous.Dating.Harvey": "",
-    "AfterDark.Core.Alex.Jealous.Married.Harvey": "",
-    "AfterDark.Jealousy.Alex.Early.Harvey.1": "",
-    "AfterDark.Jealousy.Alex.Early.Harvey.2": "",
-    "AfterDark.Jealousy.Alex.Early.Harvey.3": "",
-    "AfterDark.Jealousy.Alex.Early.Harvey.4": "",
-    "AfterDark.Jealousy.Alex.Late.Harvey.1": "",
-    "AfterDark.Jealousy.Alex.Late.Harvey.2": "",
-    "AfterDark.Jealousy.Alex.Late.Harvey.3": "",
-    "AfterDark.Jealousy.Alex.Late.Harvey.4": "",
+    "AfterDark.Core.Alex.Jealous.Dating.Early.Harvey": "You know most checkups are free, right?$9#$b#You don't have to date the town doctor for a discount.$a",
+    "AfterDark.Core.Alex.Jealous.Dating.Late.Harvey": "Harvey still charges you when you use the clinic?$a#$b#Here, you can have this for free.[277]$9",
+    "AfterDark.Core.Alex.Jealous.Married.Early.Harvey": "Seriously, what do you even see in a guy like Harvey?$a#$b#At last year's Egg Festival he got wine drunk and wouldn't stop talking about planes...$9",
+    "AfterDark.Core.Alex.Jealous.Married.Late.Harvey": "Seriously? You married the scardy cat of all people?$a#$b#I bet if he was here right now he'd be hiding behind you. The man has like no backbone.$a",
+    "AfterDark.Jealousy.Alex.Early.Harvey.1": "Y'know, I think there's only one person more annoying than you in this town...$a#$b#I made the mistake of asking Harvey about his hobbies and dude wouldn't stop talking for like an hour.$s#$b#I was only there to pick up some meds for George.$s",
+    "AfterDark.Jealousy.Alex.Early.Harvey.2": "Man, I saw Harvey doing aerobics one time. Fuckin' aerobics!$h#$b#Remind me again, why are you even talking to that wimp?#$b#Wait, I guess it makes sense now that I think about it.$h",
+    "AfterDark.Jealousy.Alex.Early.Harvey.3": "Where the hell did Harvey even get his practicing license?$9#$b#Ugh, sorry. I saw you talking to him earlier and it made me think about the last physical I had with him.$a#$b#Dude's a creep, seriously.$9",
+    "AfterDark.Jealousy.Alex.Early.Harvey.4": "...$a#$b#Don't you have a chicken to be talking to?$a#$b#Y'know, Harvey? Since you're all buddy buddy with him and everything...$9",
+    "AfterDark.Jealousy.Alex.Late.Harvey.1": "I saw you talking to Harvey earlier...$9#$b#A word of advice: stay away from that creep.$s",
+    "AfterDark.Jealousy.Alex.Late.Harvey.2": "Y'know, one time Harvey told me about how he needs more patients to keep his clinic up and running...$9#$b#He sort of had this crazed look in his eyes when he said it though...$s#$b#You should really rethink befriending him, {{LPetName}}.$9",
+    "AfterDark.Jealousy.Alex.Late.Harvey.3": "You should really rethink befriending Harvey, @.$9#$b#Last time he checked on George a photo of you slipped out of his bag and it...$s#$b#Ugh, it just rubbed me the wrong way.$a",
+    "AfterDark.Jealousy.Alex.Late.Harvey.4": "You're still friends with Harvey? Seriously?$a#$b#Have you seen some of the questionable shit he carries in that medical bag of his?$a",
 
     // Sam
-    "AfterDark.Core.Alex.Jealous.Dating.Sam": "",
-    "AfterDark.Core.Alex.Jealous.Married.Sam": "",
-    "AfterDark.Jealousy.Alex.Early.Sam.1": "",
-    "AfterDark.Jealousy.Alex.Early.Sam.2": "",
-    "AfterDark.Jealousy.Alex.Early.Sam.3": "",
-    "AfterDark.Jealousy.Alex.Early.Sam.4": "",
-    "AfterDark.Jealousy.Alex.Late.Sam.1": "",
-    "AfterDark.Jealousy.Alex.Late.Sam.2": "",
-    "AfterDark.Jealousy.Alex.Late.Sam.3": "",
-    "AfterDark.Jealousy.Alex.Late.Sam.4": "",
+    "AfterDark.Core.Alex.Jealous.Dating.Early.Sam": "Are you sure you're even able to keep up with that golden retriever?$9#$b#Good luck with that...$s",
+    "AfterDark.Core.Alex.Jealous.Dating.Late.Sam": "Would begging like Sam get you to leave him for me?$s#$b#Please, {{LPetName}}, I need you, I need you, I need you...$l",
+    "AfterDark.Core.Alex.Jealous.Married.Early.Sam": "You don't plan on raising kids with Sam, right? He's basically another kid.$9#$b#I once overheard Jodi talking about how bad of a cook he was...$s",
+    "AfterDark.Core.Alex.Jealous.Married.Late.Sam": "I didn't think you were THAT into pathetic guys like Sam.$s#$b#I could be pathetic if it means you'd—$s#$b#No, I'm not gonna beg.$a",
+    "AfterDark.Jealousy.Alex.Early.Sam.1": "I wouldn't get any closer to Sam if I were you...$s#$b#He's known for getting a little too obsessed with new toys.$9",
+    "AfterDark.Jealousy.Alex.Early.Sam.2": "You've been talking to Sam?$9#$b#Do you seriously need that much attention?$a",
+    "AfterDark.Jealousy.Alex.Early.Sam.3": "Man, last time I was in the bathhouse, some weirdo dragged something across my face saying how they missed my touch.$s#$b#I think they thought I was you or something.$9",
+    "AfterDark.Jealousy.Alex.Early.Sam.4": "%Alex is ignoring you.#$b#What? Wouldn't you rather be talking to that blonde creep instead?$a",
+    "AfterDark.Jealousy.Alex.Late.Sam.1": "Y'know, weight-lifters have calloused hands too.$9#$b#...$a#$b#So there should be no reason to keep talking to that blonde creep, right?$a",
+    "AfterDark.Jealousy.Alex.Late.Sam.2": "I don't know why Sam keeps saying shit about us knowing each other when we were younger.$9#$b#I've never even spoken to the guy.$s",
+    "AfterDark.Jealousy.Alex.Late.Sam.3": "If you wanted someone who breaks boundaries without asking, you don't need some blond creep.$a#$b#I'm right here, {{LPetName}}.$a",
+    "AfterDark.Jealousy.Alex.Late.Sam.4": "How are you still talking to Sam after all he's done?$a#$b#Are you that stupid to figure out who's been—$a#$b#You know what, never mind.$s",
 
     // Sebastian
     "AfterDark.Core.Alex.Jealous.Dating.Sebastian": "",
@@ -522,8 +584,12 @@
     "AfterDark.Core.Alex.Jealous.Married.Haley": "",
     "AfterDark.Jealousy.Alex.Early.Haley.1": "",
     "AfterDark.Jealousy.Alex.Early.Haley.2": "",
+    "AfterDark.Jealousy.Alex.Early.Haley.3": "",
+    "AfterDark.Jealousy.Alex.Early.Haley.4": "",
     "AfterDark.Jealousy.Alex.Late.Haley.1": "",
     "AfterDark.Jealousy.Alex.Late.Haley.2": "",
+    "AfterDark.Jealousy.Alex.Late.Haley.3": "",
+    "AfterDark.Jealousy.Alex.Late.Haley.4": "",
 
     // Leah
     "AfterDark.Core.Alex.Jealous.Dating.Leah": "",
@@ -548,6 +614,35 @@
     "AfterDark.Jealousy.Alex.Early.Penny.2": "",
     "AfterDark.Jealousy.Alex.Late.Penny.1": "",
     "AfterDark.Jealousy.Alex.Late.Penny.2": "",
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     █▄ ▄█ ▀█▀ █▀▀ █▀▀ 
+     █ ▀ █ ▄█▄ ▄██ █▄▄ 
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    // "houseUpgrade_[level]"
+    "AfterDark.Jealousy.Alex.HouseUpgrade.1": "Do you seriously need a bigger house?$a#$b#I needed to buy some firewood and Robin's was closed for three days.$9",
+    "AfterDark.Jealousy.Alex.HouseUpgrade.2": "Why the hell does a {{LGoodName}} like you need such a big house for?$a#$b#I mean, it's not like anyone'll actually want to share it with you.$h",
+
+    // "achievement_[id]"
+    // 10h with 8 people
+    "AfterDark.Jealousy.Alex.Achievements.BelovedFarmer": "Man, you just hand it out to anyone who'll look at you, huh?$a#$b#Y'know, you don't need to be friends with EVERYONE in town, right?$s",
+    // 5h with 4 people
+    "AfterDark.Jealousy.Alex.Achievements.Cliques": "Y'know, maybe you should focus on your little farm rather than chatting with anyone you can find.$9#$b#It sure needs it.",
+    // 5h with 10 people
+    "AfterDark.Jealousy.Alex.Achievements.Networking": "And here I thought I was the only person you couldn't resist bothering.$a#$b#Do me a favor and stop spending your time on everyone. They're not as good of people as you believe them to be.$s",
+    // 5h with 20 people
+    "AfterDark.Jealousy.Alex.Achievements.Popular": "Why the hell do you feel the need to be so buddy buddy with the entire town?$a",
+    // 10 Help wanted quests
+    "AfterDark.Jealousy.Alex.Achievements.Gofer": "Y'know, it's a little pathetic how hard you work for like 50 gold, {{LPetName}}.$a#$b#Almost makes me wonder what else you're willing to do for such a small reward.$h",
+    // 40 Help wanted quests
+    "AfterDark.Jealousy.Alex.Achievements.ABigHelp": "You don't have to keep doing those little quests for everyone, you know that, right?$a#$b#At some point, they need to learn to do shit themselves.$a",
+
+    // "mineArea_[area]"
+    "AfterDark.Jealousy.Alex.Mines.0": "What the hell are you doing out in the mines?$a#$b#You know it's dangerous down there, right?#$e#What? No, I'm not stalking you.$a#$b#I wanted to go for a swim somewhere that wasn't polluted and I just so happened to see you.$a",
+    "AfterDark.Jealousy.Alex.Mines.10": "...$a#$b#Can you at least tell me before you go down into the mines?$a#$b#Seriously, I doubt a weak thing like you'll last long in there.",
+    "AfterDark.Jealousy.Alex.Mines.40": "You know I hate going deep in the mines, right? You should stop venturing so far down.$a#$e#What?$9#$b#Oh, don't tell me you actually want some other guy saving you when you inevitably get stuck.$a",
+    "AfterDark.Jealousy.Alex.Mines.80": "What's so important that you're venturing that deep into the mines?$a#$b#Here, at least take one of these so you're not hurting yourself too bad.[527]$s",
+    "AfterDark.Jealousy.Alex.Mines.121": "Don't you think you should take someone with you when you're out there in skull caverns?$a#$b#I've only heard horror stories of what's down there...$s",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     █████  ███  █   █ █████ █     █   █     ████  █████  ███  █      ███   ████ █   █ █████ 
