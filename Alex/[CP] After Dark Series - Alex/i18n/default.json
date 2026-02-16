@@ -1,4 +1,7 @@
 {
+    // Hii Translators!! I'm so sorry about this update, but honestly 2.0.0+ should be treated as a new modpack.
+    // Most lines have been moved, changed, etc. and it's just overall a BIG ASS change from 1.0.
+    // Again... I'm sorry... But it was for the best... <3 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      ████  ███  █   █ █████ █████  ████     █   █ █████ █   █ █   █ 
     █     █   █ ██  █ █       █   █         ██ ██ █     ██  █ █   █ 
@@ -400,87 +403,65 @@
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
     /* Thank you:
     - Morp (SpaceHoodie)
-    - Gulema
+    - Sulema
     - Mint
     - Lady-Lancer
     - sleepyduck92
     - tar0_
     - Viktor
+    - Cherie
+    - Hysden
+    - Hansolame
+    - Koro
     For helping with some of these lines :3 */
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      █▀▀ █▀▀ █▀▀ ▀█▀ ▀█▀ █ █ ▄▀▄ █   
      █▀  ██▄ ▄██  █  ▄█▄ ▀▄▀ █▀█ █▄▄ 
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-    "AfterDark.FestivalJealousy.Alex.Egg.Early": "",
-    "AfterDark.FestivalJealousy.Alex.Egg.Late": "",
 
-    "AfterDark.FestivalJealousy.Alex.Desert.Early": "",
-    "AfterDark.FestivalJealousy.Alex.Desert.Late": "",
-
-    "AfterDark.FestivalJealousy.Alex.Luau.Early": "",
-    "AfterDark.FestivalJealousy.Alex.Luau.Late": "",
-
-    "AfterDark.FestivalJealousy.Alex.Moonlight.Early": "",
-    "AfterDark.FestivalJealousy.Alex.Moonlight.Late": "",
-
-    "AfterDark.FestivalJealousy.Alex.Fair.Early": "",
-    "AfterDark.FestivalJealousy.Alex.Fair.Late": "",
-
-    "AfterDark.FestivalJealousy.Alex.Spirits.Early": "",
-    "AfterDark.FestivalJealousy.Alex.Spirits.Late": "",
-
-    "AfterDark.FestivalJealousy.Alex.Ice.Early": "",
-    "AfterDark.FestivalJealousy.Alex.Ice.Late": "",
-
-    "AfterDark.FestivalJealousy.Alex.NightMarket.Early": "",
-    "AfterDark.FestivalJealousy.Alex.NightMarket.Late": "",
-
-    "AfterDark.FestivalJealousy.Alex.WinterStar.Early": "",
-    "AfterDark.FestivalJealousy.Alex.WinterStar.Late": "You...$s#$b#You didn't enjoy the gift you got yesterday, right?$9#$b#Are you really so easy?$s",
-
-    "AfterDark.FestivalJealousy.Alex.wonEggHunt": "",
-    "AfterDark.FestivalJealousy.Alex.wonGrange": "",
-    "AfterDark.FestivalJealousy.Alex.wonIceFishing": "",
+    "AfterDark.FestivalJealousy.Alex.wonEggHunt": "Winning the egg festival of all things isn't the flex you think it is, you know that, right?$a",
+    "AfterDark.FestivalJealousy.Alex.wonGrange": "I think I should try my own display next year.#$b#I mean, if you were able to win that easily, it shouldn't be hard, right?$h",
+    "AfterDark.FestivalJealousy.Alex.wonIceFishing": "...$a#$b#Ugh, you smell like fish.$a",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      SPECIFICALLY: FLOWER DANCE
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
     
     // Day After - 0-4h
-    "AfterDark.FestivalJealousy.Alex.HasPartner.Harvey.Early.Memory": "",
-    "AfterDark.FestivalJealousy.Alex.HasPartner.Elliott.Early.Memory": "",
-    "AfterDark.FestivalJealousy.Alex.HasPartner.Sam.Early.Memory": "",
-    "AfterDark.FestivalJealousy.Alex.HasPartner.Sebastian.Early.Memory": "",
-    "AfterDark.FestivalJealousy.Alex.HasPartner.Shane.Early.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Harvey.Early.Memory": "I didn't know Harvey's dance moves could get any worse, but yesterday definitely changed my mind.$h#$b#Yoba, you really do drag everyone down, don't you, {{LPetName}}?",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Elliott.Early.Memory": "Who was that girl you were dancing with yesterday? I don't think I've seen her before.#$b#...#$b#...$9#$b#What do you mean that was Elliott?$9",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Sam.Early.Memory": "Did you enjoy dancing with that snotty mess yesterday?#$b#Yoba, his nose was dripping all over you! Did it feel as gross as it looked, {{LPetName}}?$h",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Sebastian.Early.Memory": "...$s#$b#Why is everyone so obsessed with that emo freak?$a#$b#I swear, he doesn't know how good he has it.$s",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Shane.Early.Memory": "What'd you do to convince Shane to dance with you yesterday?#$b#Buy him a beer can or something?$h",
 
-    "AfterDark.FestivalJealousy.Alex.HasPartner.Abigail.Early.Memory": "",
-    "AfterDark.FestivalJealousy.Alex.HasPartner.Haley.Early.Memory": "",
-    "AfterDark.FestivalJealousy.Alex.HasPartner.Emily.Early.Memory": "",
-    "AfterDark.FestivalJealousy.Alex.HasPartner.Leah.Early.Memory": "",
-    "AfterDark.FestivalJealousy.Alex.HasPartner.Maru.Early.Memory": "",
-    "AfterDark.FestivalJealousy.Alex.HasPartner.Penny.Early.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Abigail.Early.Memory": "Was Abigail even dancing with you yesterday?#$b#I swear, she had her eyes on Sebastian the whole time.$h",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Haley.Early.Memory": "Thank Yoba you chose Haley yesterday.#$b#For once, I didn't have to dance in that yoba-foresaken festival.$h",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Emily.Early.Memory": "Y'know, it was kinda fitting having two freaks dance with each other yesterday.",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Leah.Early.Memory": "Who was that girl with the braid you were dancing with yesterday?#$b#I swear, she looks familiar but I can't put my finger on it...$s#$b#Wait, don't tell me you flew someone in just so you'd have someone to dance with yesterday, right?$h",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Maru.Early.Memory": "I'd be careful around Demetrius if I were you.$9#$b#He was practically seething after yesterday's dance.",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Penny.Early.Memory": "...$s#$b#Can you please be careful with who you dance with?$s#$b#I overheard Penny on the phone all night yesterday talking about you.$9#$b#I had to close my window to finally get some sleep.$s",
 
     // Day After - 5h+
-    "AfterDark.FestivalJealousy.Alex.HasPartner.Harvey.Late.Memory": "",
-    "AfterDark.FestivalJealousy.Alex.HasPartner.Elliott.Late.Memory": "",
-    "AfterDark.FestivalJealousy.Alex.HasPartner.Sam.Late.Memory": "",
-    "AfterDark.FestivalJealousy.Alex.HasPartner.Sebastian.Late.Memory": "",
-    "AfterDark.FestivalJealousy.Alex.HasPartner.Shane.Late.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Harvey.Late.Memory": "It's really not fun watching that creepy ass doctor get to touch and dance with what should be mine, you know that?$a#$b#You're mine next year.$9",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Elliott.Late.Memory": "If you were gonna dance with someone yesterday, could you've made it someone at least worth the trouble?$s#$b#I mean seriously, Elliott of all people?$a",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Sam.Late.Memory": "Did you enjoy getting felt up yesterday?$a#$b#Yoba, Sam really does have no shame, does he?$s",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Sebastian.Late.Memory": "...$a#$b#What? Wouldn't you rather be falling into that emo-freak's arms right about now?$a#$b#%Alex walks away mumbling something about Sebastian not even wanting to be there yesterday.",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Shane.Late.Memory": "Psh, Shane's so easy to get to dance.$a#$b#I mean, why else would you choose someone like him?",
 
-    "AfterDark.FestivalJealousy.Alex.HasPartner.Abigail.Late.Memory": "",
-    "AfterDark.FestivalJealousy.Alex.HasPartner.Haley.Late.Memory": "",
-    "AfterDark.FestivalJealousy.Alex.HasPartner.Emily.Late.Memory": "",
-    "AfterDark.FestivalJealousy.Alex.HasPartner.Leah.Late.Memory": "",
-    "AfterDark.FestivalJealousy.Alex.HasPartner.Maru.Late.Memory": "",
-    "AfterDark.FestivalJealousy.Alex.HasPartner.Penny.Late.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Abigail.Late.Memory": "Honestly, I'm just impressed you got Abi to choose you over Sebastian.$s",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Haley.Late.Memory": "...$a#$b#How come Haley danced better with you yesterday than she ever did with me?$s#$b#Next year, you better choose me. I'm not taking any other choice, {{LPetName}}.$9",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Emily.Late.Memory": "You were...$s#$b#You were just having fun with a friend at the dance yesterday, right?$9#$b#You aren't actually serious about Emily... right?$s",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Leah.Late.Memory": "...$s#$b#Man, I didn't even know who Leah was until yesterday.$a",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Maru.Late.Memory": "...$s#$b#...$a#$b#Y'know, I think Maru would've looked better with a robot yesterday.$a",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Penny.Late.Memory": "Honestly, kinda glad you took Sam's place yesterday.$9#$b#He's a mess to dance with, I swear.$s",
 
     // Otherwise Day After
-    "AfterDark.FestivalJealousy.Alex.HasPartner.Alex.Early.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Alex.Early.Memory": "You tripped over my foot yesterday, you know.$a#$b#Next time we dance together could you do me a favor and actually know what you're doing?$s",
     "AfterDark.FestivalJealousy.Alex.HasPartner.NotAlex.Early.Memory": "You looked dumb yesterday, by the way.$a#$b#I mean, why'd you even join the dance if you don't know how?$h",
 
     // Otherwise Day After
-    "AfterDark.FestivalJealousy.Alex.HasPartner.Alex.Late.Memory": "",
+    "AfterDark.FestivalJealousy.Alex.HasPartner.Alex.Late.Memory": "...$s#$b#Yesterday didn't change anything between us by the way.$a#$b#I still hate you...$a#$b#I think.$s",
     "AfterDark.FestivalJealousy.Alex.HasPartner.NotAlex.Late.Memory": "...$s#$b#Did it feel good, dancing in someone else's arms yesterday, @?$s",
     
 
@@ -536,84 +517,81 @@
     "AfterDark.Jealousy.Alex.Late.Sam.4": "How are you still talking to Sam after all he's done?$a#$b#Are you that stupid to figure out who's been—$a#$b#You know what, never mind.$s",
 
     // Sebastian
-    "AfterDark.Core.Alex.Jealous.Dating.Sebastian": "",
-    "AfterDark.Core.Alex.Jealous.Married.Sebastian": "",
-    "AfterDark.Jealousy.Alex.Early.Sebastian.1": "",
-    "AfterDark.Jealousy.Alex.Early.Sebastian.2": "",
-    "AfterDark.Jealousy.Alex.Early.Sebastian.3": "",
-    "AfterDark.Jealousy.Alex.Early.Sebastian.4": "",
-    "AfterDark.Jealousy.Alex.Late.Sebastian.1": "",
-    "AfterDark.Jealousy.Alex.Late.Sebastian.2": "",
-    "AfterDark.Jealousy.Alex.Late.Sebastian.3": "",
-    "AfterDark.Jealousy.Alex.Late.Sebastian.4": "",
+    "AfterDark.Core.Alex.Jealous.Dating.Early.Sebastian": "Y'know, if you're gonna date a smoker, could you at least stay away from me?$a#$b#I can't stand the smell.$9",
+    "AfterDark.Core.Alex.Jealous.Dating.Late.Sebastian": "Really? Sebastian of all people?$a#$b#I mean, I bet after all that smoking, he doesn't even have the lungs to properly take your breath away.$a#$b#You can do a lot better than him, @.[277]$9",
+    "AfterDark.Core.Alex.Jealous.Married.Early.Sebastian": "Is Sebastian even strong enough to help out around your farm?$9",
+    "AfterDark.Core.Alex.Jealous.Married.Late.Sebastian": "...$s#$b#I didn't know you were serious about that computer nerd, @.$9",
+    "AfterDark.Jealousy.Alex.Early.Sebastian.1": "Gross. You smell like cigarettes.$a#$b#Have you been hanging around Sebastian or something?$9",
+    "AfterDark.Jealousy.Alex.Early.Sebastian.2": "For some reason, you befriending weirdos like Sebastian makes sense.$h#$b#Y'know, being that you're a freak yourself, {{LPetName}}.",
+    "AfterDark.Jealousy.Alex.Early.Sebastian.3": "How can you stand to be around that emo creep so much?$9#$b#Don't you know his computer is filled with—$a#$b#Ugh, never mind. It's not my place to say anything.$s",
+    "AfterDark.Jealousy.Alex.Early.Sebastian.4": "Y'know, I would make fun of you today, but...$9#$b#Honestly? You hanging around that emo freak says more about you than an insult from me ever could.$a",
+    "AfterDark.Jealousy.Alex.Late.Sebastian.1": "Did you break your phone or something?$9#$b#I can't imagnie any other reason you'd need to talk to that freak.$a",
+    "AfterDark.Jealousy.Alex.Late.Sebastian.2": "Y'know, if you were looking for a bad habit, I have a few off the top of my mind that don't involve that emo freak you've been talking to.$a",
+    "AfterDark.Jealousy.Alex.Late.Sebastian.3": "What? Isn't there some depressed emo you'd rather be talking to right about now?$a",
+    "AfterDark.Jealousy.Alex.Late.Sebastian.4": "What were uh...$9#$b#You and Sebastian talking about earlier?$9#$b#Wait, don't answer that. I feel like I'd be hurting my own feelings.$s",
 
     // Shane
-    "AfterDark.Core.Alex.Jealous.Dating.Shane": "",
-    "AfterDark.Core.Alex.Jealous.Married.Shane": "",
-    "AfterDark.Jealousy.Alex.Early.Shane.1": "",
-    "AfterDark.Jealousy.Alex.Early.Shane.2": "",
-    "AfterDark.Jealousy.Alex.Early.Shane.3": "",
-    "AfterDark.Jealousy.Alex.Early.Shane.4": "",
-    "AfterDark.Jealousy.Alex.Late.Shane.1": "",
-    "AfterDark.Jealousy.Alex.Late.Shane.2": "",
-    "AfterDark.Jealousy.Alex.Late.Shane.3": "",
-    "AfterDark.Jealousy.Alex.Late.Shane.4": "",
+    "AfterDark.Core.Alex.Jealous.Dating.Early.Shane": "Y'know, I thought you had higher standards than the town drunk, {{LPetName}}.$a",
+    "AfterDark.Core.Alex.Jealous.Dating.Late.Shane": "He'll never love you, you know that right?$9#$b#All Shane did was move from one addiction to another.$a",
+    "AfterDark.Core.Alex.Jealous.Married.Early.Shane": "Shane's not exactly a proper role model for Jaz...$9#$b#What makes you think he'll be a better one for your kids?$9",
+    "AfterDark.Core.Alex.Jealous.Married.Late.Shane": "Are you addicted to disappointment?$a#$b#He's never going to change for you, {{LPetName}}.$s",
+    "AfterDark.Jealousy.Alex.Early.Shane.1": "Y'know, ever since I saw Shane passed out drunk by Dusty's pen I haven't seen him the same.$s#$b#Are you sure you want to befriend someone like that?$9#$e#Ugh... Never mind. I don't care what you do.$s",
+    "AfterDark.Jealousy.Alex.Early.Shane.2": "Ugh, do me a favor and take a shower after you hang out with Shane.$9#$b#I can almost smell the alcohol on you now.$a",
+    "AfterDark.Jealousy.Alex.Early.Shane.3": "It's pathetic how you keep talking to men who're only mean to you.$9#$b#Are you trying to collect us or something?$a",
+    "AfterDark.Jealousy.Alex.Early.Shane.4": "Why are you so keen on trying to fix Shane?$9#$b#Do you have a savior complex or something? How pathetic.",
+    "AfterDark.Jealousy.Alex.Late.Shane.1": "Why've you been talking to Shane so much lately? Isn't he an asshole to everyone?$a#$b#If anything, I should be the only one who gets to be mean to you, {{LPetName}}.$s",
+    "AfterDark.Jealousy.Alex.Late.Shane.2": "Ever since you came to town, Shane's been looking worse.$9#$b#You should stay away from him, @. You need better standards than a man who can't even take care of himself.$a",
+    "AfterDark.Jealousy.Alex.Late.Shane.3": "Y'know, you can talk to me when you decide to get some standards in the company you keep.$a#$e#What? Do I need to spell it out for you?$a#$b#Quit.$9#$b#Talking.$9#$b#To.$9#$b#Shane.$a",
+    "AfterDark.Jealousy.Alex.Late.Shane.4": "...$a#$b#I'm not a big fan of addicts, you know that?$a#$b#Why do you even see in Shane? There's no way he's that interesting to talk to.$a",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      BACHELORETTES
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
     // Abigail
-    "AfterDark.Core.Alex.Jealous.Dating.Abigail": "",
-    "AfterDark.Core.Alex.Jealous.Married.Abigail": "",
-    "AfterDark.Jealousy.Alex.Early.Abigail.1": "",
-    "AfterDark.Jealousy.Alex.Early.Abigail.2": "",
-    "AfterDark.Jealousy.Alex.Late.Abigail.1": "",
-    "AfterDark.Jealousy.Alex.Late.Abigail.2": "",
+    "AfterDark.Core.Alex.Jealous.Married.Abigail": "Abigail? Really?$9#$b#Y'know she'll drop you for Sebastian as soon as she gets the green light, right?$a",
+    "AfterDark.Jealousy.Alex.Early.Abigail.1": "Y'know, no wonder you're a damn weirdo.#$b#You hang around the freak who plays her flute in the woods.$h",
+    "AfterDark.Jealousy.Alex.Early.Abigail.2": "What is it about Abigail that has you so entranced?$9#$b#Is it the dair dye frying your brain? I mean, why else would you want to hang out with that off-brand emo?$a",
+    "AfterDark.Jealousy.Alex.Late.Abigail.1": "I'm pretty sure Abigail's entire personality revolves around Sebastian.$9#$b#I mean, she only dresses like that to impress him.$9#$b#What do you see in her, anyway?$a",
+    "AfterDark.Jealousy.Alex.Late.Abigail.2": "Ever since you started hanging out with Abi, the music she plays in Pierre's has somehow gotten WORSE.$9#$b#How do you manage to fuck up everyone you meet?$a",
 
     // Emily
-    "AfterDark.Core.Alex.Jealous.Dating.Emily": "",
-    "AfterDark.Core.Alex.Jealous.Married.Emily": "",
-    "AfterDark.Jealousy.Alex.Early.Emily.1": "",
-    "AfterDark.Jealousy.Alex.Early.Emily.2": "",
-    "AfterDark.Jealousy.Alex.Late.Emily.1": "",
-    "AfterDark.Jealousy.Alex.Late.Emily.2": "",
+    "AfterDark.Core.Alex.Jealous.Married.Emily": "I mean, I get wanting to fuck crazy and all, but... really?$9#$b#Emily's the best you got?$9",
+    "AfterDark.Jealousy.Alex.Early.Emily.1": "You hang out with Emily of all people?!#$b#Man, no wonder you're always saying weird shit.$h",
+    "AfterDark.Jealousy.Alex.Early.Emily.2": "Y'know, I could probably read your fortune better than Emily can.#$b#Let's see...$9#$b#Desperate, alone, and just as useless.$h#$b#Sound about right?$h",
+    "AfterDark.Jealousy.Alex.Late.Emily.1": "Wait, you don't really believe in all that crystal and meditation bullshit, do you?$a#$b#Yoba, I bet Emily's just trying to pull you into some pyramid scheme...$a",
+    "AfterDark.Jealousy.Alex.Late.Emily.2": "Yoba, I can smell the sage and desperation on you.$a#$b#Can you at least air out a little after you hang out with Emily?$9",
 
     // Haley
-    "AfterDark.Core.Alex.Jealous.Dating.Haley": "",
-    "AfterDark.Core.Alex.Jealous.Married.Haley": "",
-    "AfterDark.Jealousy.Alex.Early.Haley.1": "",
-    "AfterDark.Jealousy.Alex.Early.Haley.2": "",
-    "AfterDark.Jealousy.Alex.Early.Haley.3": "",
-    "AfterDark.Jealousy.Alex.Early.Haley.4": "",
-    "AfterDark.Jealousy.Alex.Late.Haley.1": "",
-    "AfterDark.Jealousy.Alex.Late.Haley.2": "",
-    "AfterDark.Jealousy.Alex.Late.Haley.3": "",
-    "AfterDark.Jealousy.Alex.Late.Haley.4": "",
+    "AfterDark.Core.Alex.Jealous.Dating.Haley": "Haha, the joke's over now, {{LPetName}}.$a#$b#You can break up with Haley now.[277]$a",
+    "AfterDark.Core.Alex.Jealous.Married.Haley": "Did you marry her just to spite me, {{LPetName}}?$s",
+    "AfterDark.Jealousy.Alex.Early.Haley.1": "I saw you hanging out with Haley earlier, are you sure you're able to afford a friend like that?",
+    "AfterDark.Jealousy.Alex.Early.Haley.2": "Oh, so it's not just me you're stalking.$9#$b#Nice to see you're taking an interest in my friends too.$a",
+    "AfterDark.Jealousy.Alex.Early.Haley.3": "You shouldn't let Haley get in your head by the way.$9#$b#She likes attention. That's kinda her thing.$9#$b#You're not special.$a",
+    "AfterDark.Jealousy.Alex.Late.Haley.1": "Knowing Haley, she'd get bored with you as soon as she fixes you.$9#$b#Are you sure you wanna keep being her friend?$s",
+    "AfterDark.Jealousy.Alex.Late.Haley.2": "Why've you been letting Haley walk all over you lately?$9#$b#Do you have a thing for people who are mean to you or something?$a#$b#It should just be me, {{LPetName}}.$9",
+    "AfterDark.Jealousy.Alex.Late.Haley.3": "...$a#$b#Sorry, wouldn't you rather be talking to Haley or something?$av",
 
     // Leah
-    "AfterDark.Core.Alex.Jealous.Dating.Leah": "",
-    "AfterDark.Core.Alex.Jealous.Married.Leah": "",
-    "AfterDark.Jealousy.Alex.Early.Leah.1": "",
-    "AfterDark.Jealousy.Alex.Early.Leah.2": "",
-    "AfterDark.Jealousy.Alex.Late.Leah.1": "",
-    "AfterDark.Jealousy.Alex.Late.Leah.2": "",
+    "AfterDark.Core.Alex.Jealous.Married.Leah": "I guess it makes sense you married a starving artist, being the attention whore you are.$a#$b#Tell me, when she shows you a new painting that looks like shit, do you lie to her?",
+    "AfterDark.Jealousy.Alex.Early.Leah.1": "Sorry, what?$9#$b#Why are you coming up to me telling me something Leah said?$9#$b#Who even is that?$s",
+    "AfterDark.Jealousy.Alex.Early.Leah.2": "Do you enjoy the struggle of getting to know a starving artist?$9#$b#I mean, what other reason do you have talking to Leah so much?$a",
+    "AfterDark.Jealousy.Alex.Late.Leah.1": "...$a#$b#Who's the redhead with a braid you keep talking to?$a",
+    "AfterDark.Jealousy.Alex.Late.Leah.2": "For someone as needy as you, are you sure about Leah?$9#$b#I'm sure a starving artist like her'd leave you in a heartbeat for some new muse.$a",
 
     // Maru
-    "AfterDark.Core.Alex.Jealous.Dating.Maru": "",
-    "AfterDark.Core.Alex.Jealous.Married.Maru": "",
-    "AfterDark.Jealousy.Alex.Early.Maru.1": "",
-    "AfterDark.Jealousy.Alex.Early.Maru.2": "",
-    "AfterDark.Jealousy.Alex.Late.Maru.1": "",
-    "AfterDark.Jealousy.Alex.Late.Maru.2": "",
+    "AfterDark.Core.Alex.Jealous.Married.Maru": "I'm honestly surprised you *want* someone like Demetrius as your father in law.$9#$b#Isn't he the guy who's obsessed with his daughter?$a",
+    "AfterDark.Jealousy.Alex.Early.Maru.1": "Why do you have to keep bothering me so much?$a#$b#Y'know, for someone who's been hanging around Maru so much lately, you sure are stupid.$a",
+    "AfterDark.Jealousy.Alex.Early.Maru.2": "Honestly, I'm surprised Demetrius is even letting you talk to Maru so much.$9#$b#Why are you so into her, anyway?$a",
+    "AfterDark.Jealousy.Alex.Late.Maru.1": "If you're gonna make friends, could you at least choose some who are interesting to look at?$a#$b#I didn't even know who Maru was until you started talking to her.$s",
+    "AfterDark.Jealousy.Alex.Late.Maru.2": "Are you sure about Maru?$9#$b#I mean, won't you end up in second place to some robot or something?$s",
 
     // Penny
-    "AfterDark.Core.Alex.Jealous.Dating.Penny": "",
-    "AfterDark.Core.Alex.Jealous.Married.Penny": "",
-    "AfterDark.Jealousy.Alex.Early.Penny.1": "",
-    "AfterDark.Jealousy.Alex.Early.Penny.2": "",
-    "AfterDark.Jealousy.Alex.Late.Penny.1": "",
-    "AfterDark.Jealousy.Alex.Late.Penny.2": "",
+    "AfterDark.Core.Alex.Jealous.Married.Penny": "Y'know, I'd normally be jealous, but Penny deserved a better home.$s",
+    "AfterDark.Jealousy.Alex.Early.Penny.1": "It's been a while since I've heard Penny and her mom going at it...$9#$b#%Alex coughs.#$b#Thank you or whatever.$9",
+    "AfterDark.Jealousy.Alex.Early.Penny.2": "Y'know, I'm honestly kind of glad you're befriending Penny.#$b#Sometimes they leave their windows open and I overhear some conversations between her and Pam.$s#$b#They've kinda died down since you started talking to her.",
+    "AfterDark.Jealousy.Alex.Late.Penny.1": "Here, why don't I teach you something new since you can't seem to get it through your thick skull?$a#$b#Stay.$a#$b#Away.$a#$b#From.$a#$b#Anyone.$a#$b#But.$a#$b#Me.$a",
+    "AfterDark.Jealousy.Alex.Late.Penny.2": "Penny won't take you away from me, will she?$s",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      █▄ ▄█ ▀█▀ █▀▀ █▀▀ 
@@ -1166,7 +1144,7 @@
     - Twig
     - Pammy Spammy
     - Morp
-    - Gulema
+    - Sulema
     - Koro
     - Neurodivergent Enderman
     - Garden
