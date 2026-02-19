@@ -145,13 +145,13 @@
                 "Neutral_9": "{{i18n:AfterDark.Marriage.Sam.Neutral.{{Random:{{Range: 0, 15}}}}{{GeneralPlayerEndearment}}}}",
                 "Bad_0": "{{i18n:AfterDark.Marriage.Sam.Bad.0}}",
                 "Bad_1": "{{i18n:AfterDark.Marriage.Sam.Bad.1}}",
-                "Bad_2": "{{i18n:AfterDark.Marriage.Sam.Bad.2}}",
-                "Bad_3": "{{i18n:AfterDark.Marriage.Sam.Bad.3}}",
+                "Bad_2": "{{i18n:AfterDark.Marriage.Sam.Bad.2{{GeneralPlayerEndearment}}}}",
+                "Bad_3": "{{i18n:AfterDark.Marriage.Sam.Bad.3{{GeneralPlayerEndearment}}}}",
                 "Bad_4": "{{i18n:AfterDark.Marriage.Sam.Bad.4}}",
                 "Bad_5": "{{i18n:AfterDark.Marriage.Sam.Bad.5}}",
                 "Bad_6": "{{i18n:AfterDark.Marriage.Sam.Bad.6}}",
                 "Bad_7": "{{i18n:AfterDark.Marriage.Sam.Bad.7}}",
-                "Bad_8": "{{i18n:AfterDark.Marriage.Sam.Bad.8}}",
+                "Bad_8": "{{i18n:AfterDark.Marriage.Sam.Bad.8{{GeneralPlayerEndearment}}}}",
                 "Bad_9": "{{i18n:AfterDark.Marriage.Sam.Bad.9}}"
             }
         }

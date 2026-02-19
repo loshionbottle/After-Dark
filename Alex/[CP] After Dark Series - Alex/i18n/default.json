@@ -670,17 +670,17 @@
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      ENGAGEMENT
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-    
+    // I'm excited for our wedding, have you chosen something to wear yet?#$e#Yoba, you've made me so happy, {{LPetName}}.$l
     "AfterDark.Marriage.Alex.Engagement.0": "",
-    "AfterDark.Marriage.Alex.Engagement.1": "",
+    "AfterDark.Marriage.Alex.Engagement.1": "You think I'd look good in overalls?#$b#I'm really trying to embrace the whole 'Farmer' thing now.$h",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      PATIO
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-    "AfterDark.Marriage.Alex.Patio.1": "",
-    "AfterDark.Marriage.Alex.Patio.2": "",
-    "AfterDark.Marriage.Alex.Patio.3": "",
+    "AfterDark.Marriage.Alex.Patio.1": "Morning, {{LPetName}}, I was just getting a quick workout in while the weather's still nice.$6#$b#Maybe for this next rep, I can lift you up a few times.$6",
+    "AfterDark.Marriage.Alex.Patio.2": "1... 2... mph...#$e#Oh, hey {{LPetName}}. Wanna join me for a few reps? Or maybe I could help you out with some farm work?#$b#Either one is fine with me, especially since I'll get to see you sweaty no matter what.$l",
+    "AfterDark.Marriage.Alex.Patio.3": "%You hear Alex grunt a few times while working out.#$e#Are you just gonna stand there gawking at me while I workout?$6#$b#I think I should start making you pay to keep watching this show, {{LPetName}}.$6",
     "AfterDark.Marriage.Alex.Patio.4": "",
     "AfterDark.Marriage.Alex.Patio.5": "",
     "AfterDark.Marriage.Alex.Patio.6": "",
@@ -692,10 +692,10 @@
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      SPOUSE ROOM
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-    "AfterDark.Marriage.Alex.SpouseRoom.1": "",
-    "AfterDark.Marriage.Alex.SpouseRoom.2": "",
-    "AfterDark.Marriage.Alex.SpouseRoom.3": "",
-    "AfterDark.Marriage.Alex.SpouseRoom.4": "",
+    "AfterDark.Marriage.Alex.SpouseRoom.1": "Good morning, {{LPetName}}.[201]$l#$e#What? Why are you looking at me like that?#$b#I told you I'd be the one to make you breakfast one of these days, didn't I?$l",
+    "AfterDark.Marriage.Alex.SpouseRoom.2": "Hey, brewed some coffee for you.[253]#$b#I thought you might need a little pick me up after what we did last night.$l#$e#Hm? Do you wanna go again or something?#$b#At least let me get some breakfast in first, {{LPetName}}...$h",
+    "AfterDark.Marriage.Alex.SpouseRoom.3": "You look {{LDescript}} this morning, {{LPetName}}.$l#$e#Ah, sorry- I mean you look {{LDescript}} every morning, @.$h",
+    "AfterDark.Marriage.Alex.SpouseRoom.4": "Y'know, even though we're married now, I can't help but..$l#$b#%You hear Alex laugh.#$b#Sorry, sorry... I just can't get over how big your forehead still is, {{LPetName}}.$h#$b#$y 'What? I'm not wrong!_Punch him._Ow! Okay, okay, I'm sorry. I love you.$h_'Fuck off...'_No, I won't, but we can later if you want.$l'",
     "AfterDark.Marriage.Alex.SpouseRoom.5": "",
     "AfterDark.Marriage.Alex.SpouseRoom.6": "",
     "AfterDark.Marriage.Alex.SpouseRoom.7": "",
@@ -706,7 +706,7 @@
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      FUNLEAVE/RETURN
     -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
-    "AfterDark.Marriage.Alex.funLeave.1": "",
+    "AfterDark.Marriage.Alex.funLeave.1": "Hey {{LPetName}}. I'm going out today, do you want me to bring you back anything?",
     "AfterDark.Marriage.Alex.funLeave.2": "",
     "AfterDark.Marriage.Alex.funLeave.3": "",
     "AfterDark.Marriage.Alex.funLeave.4": "",
@@ -717,9 +717,9 @@
     "AfterDark.Marriage.Alex.funLeave.9": "",
     "AfterDark.Marriage.Alex.funLeave.10": "",
     
-    "AfterDark.Marriage.Alex.funReturn.1": "",
-    "AfterDark.Marriage.Alex.funReturn.2": "",
-    "AfterDark.Marriage.Alex.funReturn.3": "",
+    "AfterDark.Marriage.Alex.funReturn.1": "I wasn't sure what to bring you back, so I got you this.[593 595 421]#$b#I would've gotten you 11 more to make a bouquet, but I had a hard time finding more than one.$s#$b#I guess it makes sense though, since you're the only one for me.$l",
+    "AfterDark.Marriage.Alex.funReturn.2": "Granny wouldn't stop boasting about how much you loved the last one she made, so she had me bring you back some.[237 239 608]",
+    "AfterDark.Marriage.Alex.funReturn.3": "I stopped by Harvey's on my way home to pick up a bottle of this stuff.[349]#$b#Thought you might need it for later.$l",
     "AfterDark.Marriage.Alex.funReturn.4": "",
     "AfterDark.Marriage.Alex.funReturn.5": "",
     "AfterDark.Marriage.Alex.funReturn.6": "",
@@ -732,20 +732,20 @@
      SPECIAL DATES
     -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
     // Spring
-    "AfterDark.Marriage.Alex.Spring12.1": "",
+    "AfterDark.Marriage.Alex.Spring12.1": "Hey {{LPetName}} excited for the egg festival tomorrow?#$b#You know, I'm always down to bribe the kids if you ever need a sure-fire way to win.$h",
     "AfterDark.Marriage.Alex.Spring12.2": "",
     "AfterDark.Marriage.Alex.Spring12.3": "",
 
-    "AfterDark.Marriage.Alex.Spring23.1": "",
+    "AfterDark.Marriage.Alex.Spring23.1": "Do you think my old flower dance suit still fits me?$s#$b#Actually, why am I asking you? You'd just enjoy seeing me in tight clothes for an entire day.$h",
     "AfterDark.Marriage.Alex.Spring23.2": "",
     "AfterDark.Marriage.Alex.Spring23.3": "",
 
     // Summer
-    "AfterDark.Marriage.Alex.Summer16.1": "",
-    "AfterDark.Marriage.Alex.Summer16.2": "",
-    "AfterDark.Marriage.Alex.Summer16.3": "",
+    "AfterDark.Marriage.Alex.Summer10.1": "I almost forgot that the Luau was tomorrow.$h#$b#Are you gonna put on that one skimpy little bathing suit I know you have in the back of our closet?$l",
+    "AfterDark.Marriage.Alex.Summer10.2": "",
+    "AfterDark.Marriage.Alex.Summer10.3": "",
 
-    "AfterDark.Marriage.Alex.Summer27.1": "",
+    "AfterDark.Marriage.Alex.Summer27.1": "I always love going to watch the moonlight jellies every summer.#$b#I used to go with my mom, so it makes me happier knowing I can go with you now.$l",
     "AfterDark.Marriage.Alex.Summer27.2": "",
     "AfterDark.Marriage.Alex.Summer27.3": "",
 
@@ -754,7 +754,7 @@
     "AfterDark.Marriage.Alex.Summer28.3": "",
 
     // Fall
-    "AfterDark.Marriage.Alex.Fall15.1": "",
+    "AfterDark.Marriage.Alex.Fall15.1": "Don't stress too much about tomorrow's fair, {{LPetName}}.#$b#I've been warming up all week to make sure I win you enough tickets.$h",
     "AfterDark.Marriage.Alex.Fall15.2": "",
     "AfterDark.Marriage.Alex.Fall15.3": "",
 
@@ -762,31 +762,35 @@
     "AfterDark.Marriage.Alex.Fall17.2": "",
     "AfterDark.Marriage.Alex.Fall17.3": "",
 
-    "AfterDark.Marriage.Alex.Fall26.1": "",
-    "AfterDark.Marriage.Alex.Fall26.2": "",
+    "AfterDark.Marriage.Alex.Fall26.1": "%You hear Alex sigh.#$b#Fall's almost over and we've yet to carve a pumpkin together...$s#$b#You are growing an extra one just for us, right, {{LPetName}}?",
+    "AfterDark.Marriage.Alex.Fall26.2": "I still haven't decided on what I wanna be for Spirit's Eve this year... Cowboy, Knight?$s#$b#Why don't we just go as a matching couple instead? That'd be so much easier.$l",
     "AfterDark.Marriage.Alex.Fall26.3": "",
     
     // Winter 
-    "AfterDark.Marriage.Alex.Winter17.1": "",
+    "AfterDark.Marriage.Alex.Winter7.1": "Don't forget to bring a jacket for the Ice Festival tomorrow.#$b#I don't want you to get too cold when you're absolutely crushing the competition.$h",
+    "AfterDark.Marriage.Alex.Winter7.2": "",
+    "AfterDark.Marriage.Alex.Winter7.3": "",
+
+    "AfterDark.Marriage.Alex.Winter17.1": "Hey, did you get everything you needed at the market yet?#$b#Don't forget to pick up an extra cup of that coffee for me, we'll need it for tonight.$l",
     "AfterDark.Marriage.Alex.Winter17.2": "",
     "AfterDark.Marriage.Alex.Winter17.3": "",
 
-    "AfterDark.Marriage.Alex.Winter24.1": "",
+    "AfterDark.Marriage.Alex.Winter24.1": "It'll be nice to see the entire town tomorrow at the feast.#$b#Though, I'm more excited to give you this huge present I've had saved after the festival...$l#$e#Actually, if you wanna unwrap it now, I wouldn't mind.$l",
     "AfterDark.Marriage.Alex.Winter24.2": "",
     "AfterDark.Marriage.Alex.Winter24.3": "",
 
-    "AfterDark.Marriage.Alex.Winter28": "",
-    "AfterDark.Marriage.Alex.Winter28.1": "",
+    "AfterDark.Marriage.Alex.Winter28.1": "As much as I enjoy Spring, I'm a little sad Winter's ending.$s#$b#We won't be able to cuddle by the fireplace the same...$s",
     "AfterDark.Marriage.Alex.Winter28.2": "",
+    "AfterDark.Marriage.Alex.Winter28.3": "",
     
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      GENERAL SEASON RELATED LINES 
     -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
     // Spring
-    "AfterDark.Marriage.Alex.Spring.1": "",
-    "AfterDark.Marriage.Alex.Spring.2": "",
-    "AfterDark.Marriage.Alex.Spring.3": "",
-    "AfterDark.Marriage.Alex.Spring.4": "",
+    "AfterDark.Marriage.Alex.Spring.1": "Let me know if you need any help clearing any remaining debris from Winter.#$b#You know I'm always willing to lend you a hand, {{LPetName}}.$l",
+    "AfterDark.Marriage.Alex.Spring.2": "I can't wait to start jogging again now that there's no more snow on the ground.$h#$b#You should've seen me try last week, I nearly fell straight on my ass.$s",
+    "AfterDark.Marriage.Alex.Spring.3": "I was finally able to get my hands on Gran's famous flower-shaped cookies.#$b#How about you and I stay home today and cook a few batches?$l",
+    "AfterDark.Marriage.Alex.Spring.4": "Granny gave me a whole bunch of these earlier, saying how she planted too many.#$b#I thought we could put a few in the kitchen or something.[591]",
     "AfterDark.Marriage.Alex.Spring.5": "",
     "AfterDark.Marriage.Alex.Spring.6": "",
     "AfterDark.Marriage.Alex.Spring.7": "",
@@ -795,8 +799,10 @@
     "AfterDark.Marriage.Alex.Spring.10": "",
 
     // Summer
-    "AfterDark.Marriage.Alex.Summer.1": "",
-    "AfterDark.Marriage.Alex.Summer.2": "",
+    "AfterDark.Marriage.Alex.Summer.1": "Ugh, I love summer.$h#$b#It always reminds me of the practice games we used to run before gridball season officially started.#$b#I guess summer now means crops and working with you, huh?$l",
+    // Now that summer's back, we should go the beach like we used to.#$b#Maybe even throw the gridball around like we did that one time...$l
+    "AfterDark.Marriage.Alex.Summer.2": "What do you think about me putting a grill out back? I've been thinking of getting into BBQ lately.#$b#Yeah, just think about it. I could put on a little apron and cook for you while you sit and look {{LDescript}} on one of our lawn chairs.$h",
+    // The middle of Summer is always the hottest, but it's perfect for sweating everything out.#$b#I actually know a few excerses to help with that if you wanna join me...$l
     "AfterDark.Marriage.Alex.Summer.3": "",
     "AfterDark.Marriage.Alex.Summer.4": "",
     "AfterDark.Marriage.Alex.Summer.5": "",
@@ -807,9 +813,9 @@
     "AfterDark.Marriage.Alex.Summer.10": "",
 
     // Fall
-    "AfterDark.Marriage.Alex.Fall.1": "",
-    "AfterDark.Marriage.Alex.Fall.2": "",
-    "AfterDark.Marriage.Alex.Fall.3": "",
+    "AfterDark.Marriage.Alex.Fall.1": "Now that it's fall, you think Granny's down to make us some spooky treats?#$b#She makes some killer ghost-looking cookies, I'll have to bring them back one of these days.$h",
+    "AfterDark.Marriage.Alex.Fall.2": "I can't wait to start watching more gridball games now that the season's officially started back up again.#$b#You should join me this week, maybe you can wear one of my old jerseys while we watch together.$l",
+    "AfterDark.Marriage.Alex.Fall.3": "Whew, I'm so not looking forward to cleaning the gutters later.$s#$b#How about you give me a little reward for being such a good little house-husband, hm?$l",
     "AfterDark.Marriage.Alex.Fall.4": "",
     "AfterDark.Marriage.Alex.Fall.5": "",
     "AfterDark.Marriage.Alex.Fall.6": "",
@@ -819,8 +825,9 @@
     "AfterDark.Marriage.Alex.Fall.10": "",
 
     // Winter
-    "AfterDark.Marriage.Alex.Winter.1": "",
-    "AfterDark.Marriage.Alex.Winter.2": "",
+    "AfterDark.Marriage.Alex.Winter.1": "I used to love making snow angels as a kid.#$b#Do you think ours will too?$l",
+    //Hmm... Now that Winter's finally here, I can start decorating for the Winter Feast.$h#$b#Where do you want to put the tree this year, {{LPetName}}?
+    "AfterDark.Marriage.Alex.Winter.2": "I can't wait to build snow forts with our kids when they're older.#$b#There's just so much open space out here, it's really nice.$h",
     "AfterDark.Marriage.Alex.Winter.3": "",
     "AfterDark.Marriage.Alex.Winter.4": "",
     "AfterDark.Marriage.Alex.Winter.5": "",
@@ -834,9 +841,9 @@
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      RAINY DAYS 
     -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
-    "AfterDark.Marriage.Alex.Rainy.Day.Alex": "",
-    "AfterDark.Marriage.Alex.Rainy.Day.0": "",
-    "AfterDark.Marriage.Alex.Rainy.Day.1": "",
+    "AfterDark.Marriage.Alex.Rainy.Day.Alex": "Don't spend too long outside today, {{LPetName}}. I don't want the rain making you too sick.$s#$b#Though, you know I'll always be here to take care of you if you do.$l",
+    "AfterDark.Marriage.Alex.Rainy.Day.0": "Since you don't have to water the crops today, I was thinking we could spend a little quality time inside instead.#$b#What do you think, {{LPetName}}?$l",
+    "AfterDark.Marriage.Alex.Rainy.Day.1": "It's pouring pretty hard out there, you sure you don't want to just stay inside with me all day?#$b#Maybe we can even try out one of Gran's recipes that she gave me recently.$h",
     "AfterDark.Marriage.Alex.Rainy.Day.2": "",
     "AfterDark.Marriage.Alex.Rainy.Day.3": "",
     "AfterDark.Marriage.Alex.Rainy.Day.4": "",

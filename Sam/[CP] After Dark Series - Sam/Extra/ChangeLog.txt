@@ -101,3 +101,5 @@ changelog from 4.1.0 onward to make translators lives a bit easier;
         5.0.8: Failed to fix a mail thing
         5.0.9: ACTUALLY fixed the mail thing; no change to i18n
         5.0.10: Fixed B error on AfterDark.Core.Sam.Spring.MidHeart.5
+        - Fixed typo in AfterDark.Core.Sam.Saloon.4
+        - Added {{GeneralPlayerEndearment}} to bad marriage lines -- oops

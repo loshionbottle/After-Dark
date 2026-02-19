@@ -144,7 +144,7 @@
     "AfterDark.Core.Sam.Saloon.1": "Hey, you look spent. Rough day?#$b#Maybe a round of pool with me and Seb will give you some energy back.$u",
     "AfterDark.Core.Sam.Saloon.2": "Oh hey, you showed up.$h#$b#Are you hungry? We could split a pizza if you'd like.$u#$b#My treat.$l",
     "AfterDark.Core.Sam.Saloon.3": "%Sam leans in close to whisper in your ear.#$b#You should go home and change before I flip you over this pool table and—$l#$b#Well, I think you know the rest.$u",
-    "AfterDark.Core.Sam.Saloon.4": "Yoba, if you keep coming in here look like that...$l#$b#Let's just say pool balls won't be the only thing I hit tonight.$u",
+    "AfterDark.Core.Sam.Saloon.4": "Yoba, if you keep coming in here looking like that...$l#$b#Let's just say pool balls won't be the only thing I hit tonight.$u",
     "AfterDark.Core.Sam.Saloon.5": "%You overhear Sam groan in frustration as Sebastian pockets another ball. Sam notices you walking up, now turning to face you.#$b#I'm so tired of losing to Seb, {{LPetName}}.$s#$e#Hey, actually...$u#$b#How about you help me release some of this pent-up frustration in Gus' backroom, hm?$l",
     
     // Pos Romantic Shit 041720
@@ -236,7 +236,7 @@
     "AfterDark.Core.Sam.Spring.MidHeart.2": "Give me your hands.#$b#...$7#$b#You really should be taking better care of them, {{LPetName}}.$a#$b#These belong to me, after all.$u",
     "AfterDark.Core.Sam.Spring.MidHeart.3": "You look really {{LDescript}} today, {{LPetName}}.$l#$b#I wonder if it's because you're in love with me.$u#$b#No?$8#$b#Are you sure?$l",
     "AfterDark.Core.Sam.Spring.MidHeart.4": "You should really start closing your bedroom window at night, @. You'll catch a cold.$s#$b#Or worse, you'll catch another man entering through it.$a#$e#How did I know that it was open last night?$8#$b#Oh {{LPetName}}, you should know that I'm a little obsessed with you by now.$10",
-    "AfterDark.Core.Sam.Spring.MidHeart.5": "I swear, springtime is the worst for my allergies.$s#$b#I can't help but...$s#$b#*sneezes*$8#$B#Hnng...$s#$e#Hey, maybe you should come real close so I could take in your scent and lose all this dreadful pollen.$u",
+    "AfterDark.Core.Sam.Spring.MidHeart.5": "I swear, springtime is the worst for my allergies.$s#$b#I can't help but...$s#$b#*sneezes*$8#$b#Hnng...$s#$e#Hey, maybe you should come real close so I could take in your scent and lose all this dreadful pollen.$u",
     "AfterDark.Core.Sam.Spring.MidHeart.6": "Hmmm...$u#$b#I swear, one of these days I'm gonna tie you up and force you to love me, @.$l",
     "AfterDark.Core.Sam.Spring.MidHeart.7": "Tch...$s#$b#Man, I'm REALLY depressed, {{LPetName}}.$s#$e#Actually, you know what'd make me feel better?$u#$b#You not talking to anyone else for the rest of the day.$l#$b#I wanna be the last and only one that gets to witness those lips moving.$l",
     "AfterDark.Core.Sam.Spring.MidHeart.8": "Are you trying to romance me, {{LPetName}}? You've been giving me a lot of gifts lately.$u#$b#Don't worry, even if you aren't, I'll still make you mine one of these days.$l",
