@@ -1,0 +1,132 @@
+// Marriage Dialogue
+
+{
+    "Changes": [
+        {
+            "LogName": "Harvey's Engagement Dialogue",
+            "Action": "EditData",
+            "Target": "Data/EngagementDialogue",
+            "Entries": {
+                "Harvey0": "{{i18n:AfterDark.Marriage.Harvey.Engagement.0}}",
+                "Harvey1": "{{i18n:AfterDark.Marriage.Harvey.Engagement.1}}"
+            }
+        },
+        {
+            "LogName": "Harvey's Married Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogueHarvey",
+            "Entries": {
+                // Rando Dialogue
+                "patio_Harvey": "{{i18n:AfterDark.Marriage.Harvey.Patio.{{Random:1++2++3|inputSeparator=++}}}}",
+                "spouseRoom_Harvey": "{{i18n:AfterDark.Marriage.Harvey.SpouseRoom.{{Random:1++2++3|inputSeparator=++}}}}",
+                
+                "funLeave_Harvey": "{{i18n:AfterDark.Marriage.Harvey.funLeave}}",
+                "funReturn_Harvey": "{{i18n:AfterDark.Marriage.Harvey.funReturn.{{Random:1++2++3|inputSeparator=++}}}}",
+                "jobLeave_Harvey": "{{i18n:AfterDark.Marriage.Harvey.JobLeave.{{Random:1++2++3|inputSeparator=++}}}}",
+                "jobReturn_Harvey": "{{i18n:AfterDark.Marriage.Harvey.JobReturn.{{Random:1++2++3|inputSeparator=++}}}}",
+
+                // Special Dates - Spring
+                "spring_Harvey": "{{i18n:AfterDark.Marriage.Harvey.Spring}}",
+                "spring_1": "{{i18n:AfterDark.Marriage.Harvey.Spring1}}",
+                "spring_12": "{{i18n:AfterDark.Marriage.Harvey.Spring12}}",
+                "spring_23": "{{i18n:AfterDark.Marriage.Harvey.Spring23}}",
+
+                // Special Dates - Summer
+                "summer_Harvey": "{{i18n:AfterDark.Marriage.Harvey.Summer}}",
+                "summer_1": "{{i18n:AfterDark.Marriage.Harvey.Summer1}}",
+                "summer_10": "{{i18n:AfterDark.Marriage.Harvey.Summer10}}",
+                "summer_27": "{{i18n:AfterDark.Marriage.Harvey.Summer27}}",
+                
+                // Special Dates - Fall
+                "fall_Harvey": "{{i18n:AfterDark.Marriage.Harvey.Fall}}",
+                "fall_1": "{{i18n:AfterDark.Marriage.Harvey.Fall1}}",
+                "fall_15": "{{i18n:AfterDark.Marriage.Harvey.Fall15}}",
+                "fall_26": "{{i18n:AfterDark.Marriage.Harvey.Fall26}}",
+
+                // Special Dates - Winter
+                "winter_Harvey": "{{i18n:AfterDark.Marriage.Harvey.Winter}}",
+                "winter_1": "{{i18n:AfterDark.Marriage.Harvey.Winter1}}",
+                "winter_7": "{{i18n:AfterDark.Marriage.Harvey.Winter7}}",
+                "winter_28": "{{i18n:AfterDark.Marriage.Harvey.Winter28}}",
+
+                // Rainy Dayz
+                "Rainy_Day_Harvey": "{{i18n:AfterDark.Marriage.Harvey.Rainy.Day.Harvey}}",
+                "Rainy_Day_0": "{{i18n:AfterDark.Marriage.Harvey.Rainy.Day.0}}",
+                "Rainy_Day_1": "{{i18n:AfterDark.Marriage.Harvey.Rainy.Day.1}}",
+                "Rainy_Day_2": "{{i18n:AfterDark.Marriage.Harvey.Rainy.Day.2}}",
+                "Rainy_Day_3": "{{i18n:AfterDark.Marriage.Harvey.Rainy.Day.3}}",
+                "Rainy_Day_4": "{{i18n:AfterDark.Marriage.Harvey.Rainy.Day.4}}",
+                "Rainy_Day_5": "{{i18n:AfterDark.Marriage.Harvey.Rainy.Day.5}}",
+                "Rainy_Night_Harvey": "{{i18n:AfterDark.Marriage.Harvey.Rainy.Night.Harvey}}",
+                "Rainy_Night_0": "{{i18n:AfterDark.Marriage.Harvey.Rainy.Night.0}}",
+                "Rainy_Night_1": "{{i18n:AfterDark.Marriage.Harvey.Rainy.Night.1}}",
+                "Rainy_Night_2": "{{i18n:AfterDark.Marriage.Harvey.Rainy.Night.2}}",
+                "Rainy_Night_3": "{{i18n:AfterDark.Marriage.Harvey.Rainy.Night.3}}",
+                "Rainy_Night_4": "{{i18n:AfterDark.Marriage.Harvey.Rainy.Night.4}}",
+                "Rainy_Night_5": "{{i18n:AfterDark.Marriage.Harvey.Rainy.Night.5}}",
+
+                // Indoor/Outdoor Dayz
+                "Indoor_Day_Harvey": "{{i18n:AfterDark.Marriage.Harvey.Indoor.Day.Harvey}}",
+                "Indoor_Day_0": "{{i18n:AfterDark.Marriage.Harvey.Indoor.Day.0}}",
+                "Indoor_Day_1": "{{i18n:AfterDark.Marriage.Harvey.Indoor.Day.1}}",
+                "Indoor_Day_2": "{{i18n:AfterDark.Marriage.Harvey.Indoor.Day.2}}",
+                "Indoor_Day_3": "{{i18n:AfterDark.Marriage.Harvey.Indoor.Day.3}}",
+                "Indoor_Day_4": "{{i18n:AfterDark.Marriage.Harvey.Indoor.Day.4}}",
+                "Indoor_Night_Harvey": "{{i18n:AfterDark.Marriage.Harvey.Indoor.Night.Harvey}}",
+                "Indoor_Night_0": "{{i18n:AfterDark.Marriage.Harvey.Indoor.Night.0}}",
+                "Indoor_Night_1": "{{i18n:AfterDark.Marriage.Harvey.Indoor.Night.1}}",
+                "Indoor_Night_2": "{{i18n:AfterDark.Marriage.Harvey.Indoor.Night.2}}",
+                "Indoor_Night_3": "{{i18n:AfterDark.Marriage.Harvey.Indoor.Night.3}}",
+                "Indoor_Night_4": "{{i18n:AfterDark.Marriage.Harvey.Indoor.Night.4}}",
+                "Outdoor_Harvey": "{{i18n:AfterDark.Marriage.Harvey.Outdoor.Harvey}}",
+                "Outdoor_0": "{{i18n:AfterDark.Marriage.Harvey.Outdoor.0}}",
+                "Outdoor_1": "{{i18n:AfterDark.Marriage.Harvey.Outdoor.1}}",
+                "Outdoor_2": "{{i18n:AfterDark.Marriage.Harvey.Outdoor.2}}",
+                "Outdoor_3": "{{i18n:AfterDark.Marriage.Harvey.Outdoor.3}}",
+                "Outdoor_4": "{{i18n:AfterDark.Marriage.Harvey.Outdoor.4}}",
+
+                // Lil jits
+                "OneKid_0": "{{i18n:AfterDark.Marriage.Harvey.OneKid.0}}",
+                "OneKid_1": "{{i18n:AfterDark.Marriage.Harvey.OneKid.1}}",
+                "OneKid_2": "{{i18n:AfterDark.Marriage.Harvey.OneKid.2}}",
+                "OneKid_3": "{{i18n:AfterDark.Marriage.Harvey.OneKid.3 }}",
+                "TwoKids_0": "{{i18n:AfterDark.Marriage.Harvey.TwoKids.0}}",
+                "TwoKids_1": "{{i18n:AfterDark.Marriage.Harvey.TwoKids.1}}",
+                "TwoKids_2": "{{i18n:AfterDark.Marriage.Harvey.TwoKids.2}}",
+                "TwoKids_3": "{{i18n:AfterDark.Marriage.Harvey.TwoKids.3}}",
+
+                // affection
+                "Good_0": "{{i18n:AfterDark.Marriage.Harvey.Good.0}}",
+                "Good_1": "{{i18n:AfterDark.Marriage.Harvey.Good.1}}",
+                "Good_2": "{{i18n:AfterDark.Marriage.Harvey.Good.2}}",
+                "Good_3": "{{i18n:AfterDark.Marriage.Harvey.Good.3}}",
+                "Good_4": "{{i18n:AfterDark.Marriage.Harvey.Good.4}}",
+                "Good_5": "{{i18n:AfterDark.Marriage.Harvey.Good.5}}",
+                "Good_6": "{{i18n:AfterDark.Marriage.Harvey.Good.6}}",
+                "Good_7": "{{i18n:AfterDark.Marriage.Harvey.Good.7}}",
+                "Good_8": "{{i18n:AfterDark.Marriage.Harvey.Good.8}}",
+                "Good_9": "{{i18n:AfterDark.Marriage.Harvey.Good.9}}",
+                "Neutral_0": "{{i18n:AfterDark.Marriage.Harvey.Neutral.0}}",
+                "Neutral_1": "{{i18n:AfterDark.Marriage.Harvey.Neutral.1}}",
+                "Neutral_2": "{{i18n:AfterDark.Marriage.Harvey.Neutral.2}}",
+                "Neutral_3": "{{i18n:AfterDark.Marriage.Harvey.Neutral.3}}",
+                "Neutral_4": "{{i18n:AfterDark.Marriage.Harvey.Neutral.4}}",
+                "Neutral_5": "{{i18n:AfterDark.Marriage.Harvey.Neutral.5}}",
+                "Neutral_6": "{{i18n:AfterDark.Marriage.Harvey.Neutral.6}}",
+                "Neutral_7": "{{i18n:AfterDark.Marriage.Harvey.Neutral.7}}",
+                "Neutral_8": "{{i18n:AfterDark.Marriage.Harvey.Neutral.8}}",
+                "Neutral_9": "{{i18n:AfterDark.Marriage.Harvey.Neutral.9}}",
+                "Bad_0": "{{i18n:AfterDark.Marriage.Harvey.Bad.0}}",
+                "Bad_1": "{{i18n:AfterDark.Marriage.Harvey.Bad.1}}",
+                "Bad_2": "{{i18n:AfterDark.Marriage.Harvey.Bad.2}}",
+                "Bad_3": "{{i18n:AfterDark.Marriage.Harvey.Bad.3}}",
+                "Bad_4": "{{i18n:AfterDark.Marriage.Harvey.Bad.4}}",
+                "Bad_5": "{{i18n:AfterDark.Marriage.Harvey.Bad.5}}",
+                "Bad_6": "{{i18n:AfterDark.Marriage.Harvey.Bad.6}}",
+                "Bad_7": "{{i18n:AfterDark.Marriage.Harvey.Bad.7}}",
+                "Bad_8": "{{i18n:AfterDark.Marriage.Harvey.Bad.8}}",
+                "Bad_9": "{{i18n:AfterDark.Marriage.Harvey.Bad.9}}"
+            }
+        }
+    ]
+}

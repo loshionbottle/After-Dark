@@ -1,0 +1,919 @@
+{
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     ████  ███  █   █ █████ █████  ████     █   █ █████ █   █ █   █ 
+    █     █   █ ██  █ █       █   █         ██ ██ █     ██  █ █   █ 
+    █     █   █ █ █ █ ████    █   █  ██     █ █ █ ████  █ █ █ █   █ 
+    █     █   █ █  ██ █       █   █   █     █   █ █     █  ██ █   █ 
+     ████  ███  █   █ █     █████  ███      █   █ █████ █   █ █████   
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    // Player Config 
+    "config.section.Pronouns.name": "Pronouns",
+    "config.Player Pronouns 1.name": "Player Pronouns 1",
+    "config.Player Pronouns 1.description": "Would typically be something similar to \"Them\", \"Her\", \"Him\".",
+    "config.Player Pronouns 2.name": "Player Pronouns 2",
+    "config.Player Pronouns 2.description": "Would typically be something similar to \"Their\", \"Her\", \"His\".",
+
+    // Endearment
+    "config.section.Endearment.name": "Endearment",
+    "config.Pet Name.name": "Pet Name",
+    "config.Pet Name.description": "Would typically be \"Babe\", \"Darling\", \"Sweetheart\", etc.",
+    "config.Descriptive Word.name": "Descriptive Word",
+    "config.Descriptive Word.description": "Would typically be \"Pretty\", \"Cute\", \"Handsome\", etc.",
+    "config.Good....name": "Good...",
+    "config.Good....description": "Would typically be \"Boy\", \"Girl\", \"Slut\", etc.",
+
+    // Dialogue
+    "config.section.Dialogue.name": "Dialogue",
+    "config.After Dark Dialogue.name": "After Dark Dialogue",
+    "config.After Dark Dialogue.description": "Toggle between which dialogue you'd like this pack to add. Choosing \"No Jealousy Dialogue\" will disable all jealousy-related dialogue this pack offers. If you'd like to turn off all dialogue, select \"No Dialogue\".",
+    "config.After Dark Dialogue.values.All Dialogue": "All Dialogue",
+    "config.After Dark Dialogue.values.No Jealousy Dialogue": "No Jealousy Dialogue",
+    "config.After Dark Dialogue.values.No Dialogue": "No Dialogue",
+
+    // Events
+    "config.section.Events.name": "Events",
+    "config.After Dark Events.name": "After Dark Events",
+    "config.After Dark Events.description": "Toggle between which events you'd like this pack to add. Choosing \"All Events\" will include ALL events his pack offers, including jealousy-related ones. Choosing \"No Jealousy Events\" will include MOST events his pack offers, only excluding jealousy-related ones. If you'd like to turn off all events, select \"No Events\".",
+    "config.After Dark Events.values.Jealousy Events": "All Events",
+    "config.After Dark Events.values.No Jealousy Events": "No Jealousy Events",
+    "config.After Dark Events.values.No Events": "No Events",
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    ████   ███  █   █ ████   ███  █   █     ████  █████  ███  █      ███   ████ █   █ █████ 
+    █   █ █   █ ██  █ █   █ █   █ ██ ██     █   █   █   █   █ █     █   █ █     █   █ █     
+    ████  █████ █ █ █ █   █ █   █ █ █ █     █   █   █   █████ █     █   █ █  ██ █   █ ████  
+    █   █ █   █ █  ██ █   █ █   █ █   █     █   █   █   █   █ █     █   █ █   █ █   █ █     
+    █   █ █   █ █   █ ████   ███  █   █     ████  █████ █   █ █████  ███   ███  █████ █████  
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    
+    // Introduction
+    "AfterDark.Core.Harvey.Introduction": "...$7#$b#Sorry, I didn't mean to stare. You must be the new farmer everyone's been going on about.$h#$e#Wait, before you go, I think I see something on your neck...$8#$b#You should swing by my office one of these days and I'll check it out for you.#$b#@? Was it?$l",
+
+    // Rain
+    "AfterDark.Core.Harvey.Rain.1": "",
+    "AfterDark.Core.Harvey.Rain.2": "",
+    "AfterDark.Core.Harvey.Rain.3": "",
+
+    // Pos Romantic Shit
+    "AfterDark.Core.Harvey.AcceptBouquet": "",
+    "AfterDark.Core.Harvey.StarDrop": "",
+    "AfterDark.Core.Harvey.Dating": "",
+
+    // Neg Romantic Shit
+    "AfterDark.Core.Harvey.RejectBouquet": "",
+    "AfterDark.Core.Harvey.RejectPendant": "",
+    "AfterDark.Core.Harvey.RejectGift.Divorced": "",
+    "AfterDark.Core.Harvey.Divorced": "",
+    "AfterDark.Core.Harvey.BreakUp": "",
+    "AfterDark.Core.Harvey.DumpedGuys": "",
+    "AfterDark.Core.Harvey.SecondChanceGuys": "",
+
+    // SlingShot
+    "AfterDark.Core.Harvey.Slingshot": "",
+
+    // Green Rain
+    "AfterDark.Core.Harvey.GreenRain": "",
+    "AfterDark.Core.Harvey.GreenRain2": "",
+    "AfterDark.Core.Harvey.GreenRainFinished": "",
+
+    // Resort
+    "AfterDark.Core.Harvey.Resort.Entering": "",
+    "AfterDark.Core.Harvey.Resort": "",
+    "AfterDark.Core.Harvey.Resort.Leaving": "",
+    "AfterDark.Core.Harvey.Resort.Shore": "",
+    "AfterDark.Core.Harvey.Resort.Chair": "",
+    "AfterDark.Core.Harvey.Resort.Bar": "",
+
+    // Summit
+    "Extra.Harvey.Summit": "When I'm next to you, I'm not even scared of falling off this cliff and dashing onto the sharp rocks below...$l\"/jump Harvey/shake Harvey 1000/pause 1000/speak Harvey \"...$8#$b#I... I love and admire you very much, @...$l\"",
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     ████ █████ █   █ █████ ████  █████  ████       ████  █████  ███  █      ███   ████ █   █ █████ 
+    █     █     ██  █ █     █   █   █   █           █   █   █   █   █ █     █   █ █     █   █ █     
+    █  ██ ████  █ █ █ ████  ████    █   █           █   █   █   █████ █     █   █ █  ██ █   █ ████  
+    █   █ █     █  ██ █     █   █   █   █           █   █   █   █   █ █     █   █ █   █ █   █ █     
+     ███  █████ █   █ █████ █   █ █████  ████       ████  █████ █   █ █████  ███   ███  █████ █████ 
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    /* Thank you, the following users, for helping with this section:
+    - Ambrosius
+    - Pandie
+    - Sicilia
+    - soup7430
+    - dovah_kinstead (village idiot)
+    - stary.hollow (cyra)
+    */
+
+    /* Yoba, I wish I could stand out in the open fields here all day. All of the blooming flowers and weeds make such good medicine.
+    peaking of, you wouldn't happen to have any taraxacum officinale - err, dandelions on you, would you? Their roots are a great liver tonic, and make for a good coffee substitute.
+
+    Oh, you're looking rather flush today, I assume from your work? If not, you should schedule an appointment ASAP.
+
+    Have you decided on a date for your yearly appointment yet, @?#$b#I'd like to get you scheduled in for that checkup we discussed when you first came down...
+
+    You should really be careful on that farm, petname. I wouldn't want you to overwork yourself and end up in one of my beds. ...What? 'Petname?' Oh, @. If you're having trouble hearing, you should book an appointment with the clinic.
+
+    %Harvey bumps into you.#$b#Oh my yoba, so sorry about that, @! Oh, you got a bruise there... Was that because of me? Or because of your farmwork? 
+    Well, no matter... Here, take some of this with food and that should go away quickly... [351] **muscle remedy
+
+    %You overhear harvey mumbling a few names of medications to himself. Hm? Oh, sorry, I'm just listing all of my patient's medications again so I don't forget... Say you aren't taking any outside of the ones I've given you, are you?
+
+    ...$l#$b#Hm? I was staring? Oh, no, @. I was checking on that mark on your neck. You've still yet to make an appointment for that, by the way." 
+
+    Oh, hey. I was looking over some of the medical records your last doctor sent over. Looks like you're chronically vitamin me deficient...
+    Sorry, was that too cheesy?
+
+    %Harvey yawns, his age peeking through as you notice the bags under his eyes. Sorry, I was up all last night taking inventory of our medicine reserves. Did you need something?
+
+    Make sure you wear something warm while you're outside. I know summer's right around the corner, but it's still flu season! I wouldn't want you getting sick so early in the year, yeah?
+
+    Question abt "Hey, I saw you exit the mines earlier, you didn't get hurt, right?_No.%Harvey presses a finger into a wound on your side. Liar. %His finger presses deeper in your wound, causing you to flinch. Do I need to remind you of what you promised me about getting my--err, your body hurt like this?_Well..._...$a#$b#Come to the clinic, let me patch you up properly...$a
+
+    Is the pollen here bothering you at all? Sam's allergies hit him like a truck every year, and with you being new and all, I wouldn't be surprised if you also got a bit...
+    Well, if you need any benadryl just let me know, yeah?
+
+    Springtime's always my favorite, means there's always an excuse to stand outside and breathe fresh air. 
+    That and I notice a few of my patients' moods improve this time of year. It really is a miracle season.
+
+    %You notice Harvey running his fingers through his hair, clearly stressed. 
+    Not now, @. I have a lot of work to finish. 
+    ... Actually, I wouldn't mind your company. Maybe I could bounce a few ideas off of you.
+    Do you know anything about Polyarthralgia?
+
+    Huh, today's weather seems perfect for a plane ride.
+    Speaking of, have you ever considered getting an AT-502 for your farm? I bet it'd make pest control a hell of a lot easier.
+    */
+
+    // 
+    // SPRING
+    "AfterDark.Core.Harvey.Spring.EarlyHeart.1": "",
+    "AfterDark.Core.Harvey.Spring.EarlyHeart.2": "",
+    "AfterDark.Core.Harvey.Spring.EarlyHeart.3": "",
+    "AfterDark.Core.Harvey.Spring.EarlyHeart.4": "",
+    "AfterDark.Core.Harvey.Spring.EarlyHeart.5": "",
+    "AfterDark.Core.Harvey.Spring.EarlyHeart.6": "",
+    "AfterDark.Core.Harvey.Spring.EarlyHeart.7": "",
+    "AfterDark.Core.Harvey.Spring.EarlyHeart.8": "",
+    "AfterDark.Core.Harvey.Spring.EarlyHeart.9": "",
+    "AfterDark.Core.Harvey.Spring.EarlyHeart.10": "",
+    "AfterDark.Core.Harvey.Spring.EarlyHeart.11": "",
+    "AfterDark.Core.Harvey.Spring.EarlyHeart.12": "",
+    "AfterDark.Core.Harvey.Spring.EarlyHeart.13": "",
+    "AfterDark.Core.Harvey.Spring.EarlyHeart.14": "",
+    "AfterDark.Core.Harvey.Spring.EarlyHeart.15": "",
+
+    /* Y'know, even with the clinic drowning in debt, I'm glad I have time to relax. 
+    It's nice having an opportunity to enjoy a small town, the people, and especially the views...
+
+    Oh, you look stressed today. Is it the disease flaring up? 
+    Do you need to come to the back and rest for a bit? You worry me, petname.
+
+    Remember to get plenty of rest, yeah?
+    I know it's not easy managing both a disease and a farm, but...
+
+    Oh this heat is killer, isn't it? How are you doing? Is the disease flaring up with the heat?
+    Oh, it can't be easy doing all that farmwork in your condition... You should take a break, petname. Here, why don't I go pour you a glass of water, hm?
+
+    I know it's only spring, but make sure you're wearing sunscreen when you go out, yeah? UV rays hit no matter the season, and I wouldn't want you in more discomfort with your... err... circimstances.
+
+    Oh, petname! There you are, I was just wondering when you'd show up. Here, I got you something to make you feel better. [591 597]
+
+    Y'know, you've really been putting me in a pickle with some of these thoughts I've been having about you, @. [342]
+    No, seriously. I might have to talk to the medical board about you soon...
+
+    Oh, petname... I have some bad news.
+    The more I'm reading about it, the more I'm worried your disease might be contagious. Maybe you should stay away from others for now...
+    Err... Not me though! You still need someone to continuously monitor you...
+
+    %Harvey nearly drops the clipboard he's holding when you tap on his shoulder.
+    O-Oh! Petname, sorry, didn't see you there.
+    D-Did you uh..
+    %Harvey slowly puts the clipboard behind him, out of view.
+    Did you need something today? 
+
+    Oh, before I forget! I meant to show you a few diagrams of proper lifting techniques... I know you're alone often on that massive farm of yours and the last thing I want is for you to hurt yourself when no one else is around...
+
+    Y'know, when your grandpa was still alive, I'd sit with him at his appointments just chatting sometimes... Back then there was another doctor who worked here that I shadowed, but...
+    Yeah, he'd go on and on about how proud he was of you... I'd never imagined just how much better you are compared to the stories...
+
+    Y'know, I've never really had a patient with such a rare blood type. I guess you're special in more ways than one, huh?
+    Hm? Oh, don't worry. I'm probably the only one in town able to give blood if necessary.
+
+    Hey, I never got any records on your last dental checkup when you moved down. I mean, I'm not too big on the dental aspect of health, but if you need me to pry around that mouth, I'm more than happy to shove a few of my tools in there...
+
+    Are you still prying around in the mines, petname? Yes_Are you kidding?! Last time you passed out you got that disease! How can you be this careless._No.__ You aren't lying to me, right? You know it's dangerous down there, given your newfound disease and all...
+
+    It's been a while since your last checkup, I could fit you in now, if you'd like.
+    Say 'Ahhh', petname. 
+    */
+
+    "AfterDark.Core.Harvey.Spring.MidHeart.1": "",
+    "AfterDark.Core.Harvey.Spring.MidHeart.2": "",
+    "AfterDark.Core.Harvey.Spring.MidHeart.3": "",
+    "AfterDark.Core.Harvey.Spring.MidHeart.4": "",
+    "AfterDark.Core.Harvey.Spring.MidHeart.5": "",
+    "AfterDark.Core.Harvey.Spring.MidHeart.6": "",
+    "AfterDark.Core.Harvey.Spring.MidHeart.7": "",
+    "AfterDark.Core.Harvey.Spring.MidHeart.8": "",
+    "AfterDark.Core.Harvey.Spring.MidHeart.9": "",
+    "AfterDark.Core.Harvey.Spring.MidHeart.10": "",
+    "AfterDark.Core.Harvey.Spring.MidHeart.11": "",
+    "AfterDark.Core.Harvey.Spring.MidHeart.12": "",
+    "AfterDark.Core.Harvey.Spring.MidHeart.13": "",
+    "AfterDark.Core.Harvey.Spring.MidHeart.14": "",
+    "AfterDark.Core.Harvey.Spring.MidHeart.15": "",
+
+    /* 
+    
+    */ 
+    "AfterDark.Core.Harvey.Spring.LateHeart.1": "",
+    "AfterDark.Core.Harvey.Spring.LateHeart.2": "",
+    "AfterDark.Core.Harvey.Spring.LateHeart.3": "",
+    "AfterDark.Core.Harvey.Spring.LateHeart.4": "",
+    "AfterDark.Core.Harvey.Spring.LateHeart.5": "",
+    "AfterDark.Core.Harvey.Spring.LateHeart.6": "",
+    "AfterDark.Core.Harvey.Spring.LateHeart.7": "",
+    "AfterDark.Core.Harvey.Spring.LateHeart.8": "",
+    "AfterDark.Core.Harvey.Spring.LateHeart.9": "",
+    "AfterDark.Core.Harvey.Spring.LateHeart.10": "",
+    "AfterDark.Core.Harvey.Spring.LateHeart.11": "",
+    "AfterDark.Core.Harvey.Spring.LateHeart.12": "",
+    "AfterDark.Core.Harvey.Spring.LateHeart.13": "",
+    "AfterDark.Core.Harvey.Spring.LateHeart.14": "",
+    "AfterDark.Core.Harvey.Spring.LateHeart.15": "",
+
+
+    // SUMMER
+    "AfterDark.Core.Harvey.Summer.EarlyHeart.1": "",
+    "AfterDark.Core.Harvey.Summer.EarlyHeart.2": "",
+    "AfterDark.Core.Harvey.Summer.EarlyHeart.3": "",
+    "AfterDark.Core.Harvey.Summer.EarlyHeart.4": "",
+    "AfterDark.Core.Harvey.Summer.EarlyHeart.5": "",
+    "AfterDark.Core.Harvey.Summer.EarlyHeart.6": "",
+    "AfterDark.Core.Harvey.Summer.EarlyHeart.7": "",
+    "AfterDark.Core.Harvey.Summer.EarlyHeart.8": "",
+    "AfterDark.Core.Harvey.Summer.EarlyHeart.9": "",
+    "AfterDark.Core.Harvey.Summer.EarlyHeart.10": "",
+    "AfterDark.Core.Harvey.Summer.EarlyHeart.11": "",
+    "AfterDark.Core.Harvey.Summer.EarlyHeart.12": "",
+    "AfterDark.Core.Harvey.Summer.EarlyHeart.13": "",
+    "AfterDark.Core.Harvey.Summer.EarlyHeart.14": "",
+    "AfterDark.Core.Harvey.Summer.EarlyHeart.15": "",
+
+    "AfterDark.Core.Harvey.Summer.MidHeart.1": "",
+    "AfterDark.Core.Harvey.Summer.MidHeart.2": "",
+    "AfterDark.Core.Harvey.Summer.MidHeart.3": "",
+    "AfterDark.Core.Harvey.Summer.MidHeart.4": "",
+    "AfterDark.Core.Harvey.Summer.MidHeart.5": "",
+    "AfterDark.Core.Harvey.Summer.MidHeart.6": "",
+    "AfterDark.Core.Harvey.Summer.MidHeart.7": "",
+    "AfterDark.Core.Harvey.Summer.MidHeart.8": "",
+    "AfterDark.Core.Harvey.Summer.MidHeart.9": "",
+    "AfterDark.Core.Harvey.Summer.MidHeart.10": "",   
+    "AfterDark.Core.Harvey.Summer.MidHeart.11": "",
+    "AfterDark.Core.Harvey.Summer.MidHeart.12": "",
+    "AfterDark.Core.Harvey.Summer.MidHeart.13": "",
+    "AfterDark.Core.Harvey.Summer.MidHeart.14": "",
+    "AfterDark.Core.Harvey.Summer.MidHeart.15": "",
+
+    "AfterDark.Core.Harvey.Summer.LateHeart.1": "",
+    "AfterDark.Core.Harvey.Summer.LateHeart.2": "",
+    "AfterDark.Core.Harvey.Summer.LateHeart.3": "",
+    "AfterDark.Core.Harvey.Summer.LateHeart.4": "",
+    "AfterDark.Core.Harvey.Summer.LateHeart.5": "",
+    "AfterDark.Core.Harvey.Summer.LateHeart.6": "",
+    "AfterDark.Core.Harvey.Summer.LateHeart.7": "",
+    "AfterDark.Core.Harvey.Summer.LateHeart.8": "",
+    "AfterDark.Core.Harvey.Summer.LateHeart.9": "",
+    "AfterDark.Core.Harvey.Summer.LateHeart.10": "",
+    "AfterDark.Core.Harvey.Summer.LateHeart.11": "",
+    "AfterDark.Core.Harvey.Summer.LateHeart.12": "",
+    "AfterDark.Core.Harvey.Summer.LateHeart.13": "",
+    "AfterDark.Core.Harvey.Summer.LateHeart.14": "",
+    "AfterDark.Core.Harvey.Summer.LateHeart.15": "",
+
+    // BIRTHDAY
+    "AfterDark.Core.Harvey.Birthday.0": "",
+    "AfterDark.Core.Harvey.Birthday.4": "",
+    "AfterDark.Core.Harvey.Birthday.6": "",
+    "AfterDark.Core.Harvey.Birthday.8": "",
+    "AfterDark.Core.Harvey.Birthday.10": "",
+
+    /*
+    // Hey, don't forget flu season's starting soon. Make sure you swing by and get yourself a flu shot, yeah?
+    */
+
+    // FALL
+    "AfterDark.Core.Harvey.Fall.EarlyHeart.1": "",
+    "AfterDark.Core.Harvey.Fall.EarlyHeart.2": "",
+    "AfterDark.Core.Harvey.Fall.EarlyHeart.3": "",
+    "AfterDark.Core.Harvey.Fall.EarlyHeart.4": "",
+    "AfterDark.Core.Harvey.Fall.EarlyHeart.5": "",
+    "AfterDark.Core.Harvey.Fall.EarlyHeart.6": "",
+    "AfterDark.Core.Harvey.Fall.EarlyHeart.7": "",
+    "AfterDark.Core.Harvey.Fall.EarlyHeart.8": "",
+    "AfterDark.Core.Harvey.Fall.EarlyHeart.9": "",
+    "AfterDark.Core.Harvey.Fall.EarlyHeart.10": "",
+    "AfterDark.Core.Harvey.Fall.EarlyHeart.11": "",
+    "AfterDark.Core.Harvey.Fall.EarlyHeart.12": "",
+    "AfterDark.Core.Harvey.Fall.EarlyHeart.13": "",
+    "AfterDark.Core.Harvey.Fall.EarlyHeart.14": "",
+    "AfterDark.Core.Harvey.Fall.EarlyHeart.15": "",
+
+    "AfterDark.Core.Harvey.Fall.MidHeart.1": "",
+    "AfterDark.Core.Harvey.Fall.MidHeart.2": "",
+    "AfterDark.Core.Harvey.Fall.MidHeart.3": "",
+    "AfterDark.Core.Harvey.Fall.MidHeart.4": "",
+    "AfterDark.Core.Harvey.Fall.MidHeart.5": "",
+    "AfterDark.Core.Harvey.Fall.MidHeart.6": "",
+    "AfterDark.Core.Harvey.Fall.MidHeart.7": "",
+    "AfterDark.Core.Harvey.Fall.MidHeart.8": "",
+    "AfterDark.Core.Harvey.Fall.MidHeart.9": "",
+    "AfterDark.Core.Harvey.Fall.MidHeart.10": "",
+    "AfterDark.Core.Harvey.Fall.MidHeart.11": "",
+    "AfterDark.Core.Harvey.Fall.MidHeart.12": "",
+    "AfterDark.Core.Harvey.Fall.MidHeart.13": "",
+    "AfterDark.Core.Harvey.Fall.MidHeart.14": "",
+    "AfterDark.Core.Harvey.Fall.MidHeart.15": "",
+
+    "AfterDark.Core.Harvey.Fall.LateHeart.1": "",
+    "AfterDark.Core.Harvey.Fall.LateHeart.2": "",
+    "AfterDark.Core.Harvey.Fall.LateHeart.3": "",
+    "AfterDark.Core.Harvey.Fall.LateHeart.4": "",
+    "AfterDark.Core.Harvey.Fall.LateHeart.5": "",
+    "AfterDark.Core.Harvey.Fall.LateHeart.6": "",
+    "AfterDark.Core.Harvey.Fall.LateHeart.7": "",
+    "AfterDark.Core.Harvey.Fall.LateHeart.8": "",
+    "AfterDark.Core.Harvey.Fall.LateHeart.9": "",
+    "AfterDark.Core.Harvey.Fall.LateHeart.10": "",
+    "AfterDark.Core.Harvey.Fall.LateHeart.11": "",
+    "AfterDark.Core.Harvey.Fall.LateHeart.12": "",
+    "AfterDark.Core.Harvey.Fall.LateHeart.13": "",
+    "AfterDark.Core.Harvey.Fall.LateHeart.14": "",
+    "AfterDark.Core.Harvey.Fall.LateHeart.15": "",
+
+    /*
+    not spring but he also likes holly. the LEAVES of holly can be used for treating measles and colds and help relieve itchy skin and sore eyes (allergies) but the berries can cause vomiting and other less savory things, and can keep you bed ridden if bad enough.
+    */
+
+    // WINTER
+    "AfterDark.Core.Harvey.Winter.EarlyHeart.1": "",
+    "AfterDark.Core.Harvey.Winter.EarlyHeart.2": "",
+    "AfterDark.Core.Harvey.Winter.EarlyHeart.3": "",
+    "AfterDark.Core.Harvey.Winter.EarlyHeart.4": "",
+    "AfterDark.Core.Harvey.Winter.EarlyHeart.5": "",
+    "AfterDark.Core.Harvey.Winter.EarlyHeart.6": "",
+    "AfterDark.Core.Harvey.Winter.EarlyHeart.7": "",
+    "AfterDark.Core.Harvey.Winter.EarlyHeart.8": "",
+    "AfterDark.Core.Harvey.Winter.EarlyHeart.9": "",
+    "AfterDark.Core.Harvey.Winter.EarlyHeart.10": "",
+    "AfterDark.Core.Harvey.Winter.EarlyHeart.11": "",
+    "AfterDark.Core.Harvey.Winter.EarlyHeart.12": "",
+    "AfterDark.Core.Harvey.Winter.EarlyHeart.13": "",
+    "AfterDark.Core.Harvey.Winter.EarlyHeart.14": "",
+    "AfterDark.Core.Harvey.Winter.EarlyHeart.15": "",
+
+    "AfterDark.Core.Harvey.Winter.MidHeart.1": "",
+    "AfterDark.Core.Harvey.Winter.MidHeart.2": "",
+    "AfterDark.Core.Harvey.Winter.MidHeart.3": "",
+    "AfterDark.Core.Harvey.Winter.MidHeart.4": "",
+    "AfterDark.Core.Harvey.Winter.MidHeart.5": "",
+    "AfterDark.Core.Harvey.Winter.MidHeart.6": "",
+    "AfterDark.Core.Harvey.Winter.MidHeart.7": "",
+    "AfterDark.Core.Harvey.Winter.MidHeart.8": "",
+    "AfterDark.Core.Harvey.Winter.MidHeart.9": "",
+    "AfterDark.Core.Harvey.Winter.MidHeart.10": "",
+    "AfterDark.Core.Harvey.Winter.MidHeart.11": "",
+    "AfterDark.Core.Harvey.Winter.MidHeart.12": "",
+    "AfterDark.Core.Harvey.Winter.MidHeart.13": "",
+    "AfterDark.Core.Harvey.Winter.MidHeart.14": "",
+    "AfterDark.Core.Harvey.Winter.MidHeart.15": "",
+
+    "AfterDark.Core.Harvey.Winter.LateHeart.1": "",
+    "AfterDark.Core.Harvey.Winter.LateHeart.2": "",
+    "AfterDark.Core.Harvey.Winter.LateHeart.3": "",
+    "AfterDark.Core.Harvey.Winter.LateHeart.4": "",
+    "AfterDark.Core.Harvey.Winter.LateHeart.5": "",
+    "AfterDark.Core.Harvey.Winter.LateHeart.6": "",
+    "AfterDark.Core.Harvey.Winter.LateHeart.7": "",
+    "AfterDark.Core.Harvey.Winter.LateHeart.8": "",
+    "AfterDark.Core.Harvey.Winter.LateHeart.9": "",
+    "AfterDark.Core.Harvey.Winter.LateHeart.10": "",
+    "AfterDark.Core.Harvey.Winter.LateHeart.11": "",
+    "AfterDark.Core.Harvey.Winter.LateHeart.12": "",
+    "AfterDark.Core.Harvey.Winter.LateHeart.13": "",
+    "AfterDark.Core.Harvey.Winter.LateHeart.14": "",
+    "AfterDark.Core.Harvey.Winter.LateHeart.15": "",
+
+        /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     ████  ███  █   █ █   █ █████ ████  █████  ███  █████ █████  ███  █   █ █████ 
+    █     █   █ ██  █ █   █ █     █   █ █     █   █   █     █   █   █ ██  █ █     
+    █     █   █ █ █ █  █ █  ████  ████  █████ █████   █     █   █   █ █ █ █ █████ 
+    █     █   █ █  ██  █ █  █     █   █     █ █   █   █     █   █   █ █  ██     █ 
+     ████  ███  █   █   █   █████ █   █ █████ █   █   █   █████  ███  █   █ █████ 
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    
+    // oneday
+    // oneweek
+    // twoweeks
+    // fourweeks
+    // eightweeks
+    // oneyear
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     GENERIC -- PREMARRIAGE
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    "AfterDark.Core.Harvey.Conversation.Parsnips": "",
+    "AfterDark.Core.Harvey.Conversation.Melons": "",
+    "AfterDark.Core.Harvey.Conversation.Strawberries": "",
+    "AfterDark.Core.Harvey.Conversation.Potatoes": "",
+    "AfterDark.Core.Harvey.Conversation.Carrots": "",
+    "AfterDark.Core.Harvey.Conversation.Cauliflower": "",
+    "AfterDark.Core.Harvey.Conversation.Blueberries": "",
+    "AfterDark.Core.Harvey.Conversation.Pumpkins": "",
+    "AfterDark.Core.Harvey.Conversation.Cranberries": "",
+    "AfterDark.Core.Harvey.Conversation.AncientFruit": "",
+    "AfterDark.Core.Harvey.Conversation.Sunflowers": "",
+    "AfterDark.Core.Harvey.Conversation.Beans": "",
+    "AfterDark.Core.Harvey.Conversation.Kale": "",
+    "AfterDark.Core.Harvey.Conversation.Garlic": "",
+    "AfterDark.Core.Harvey.Conversation.Starfruit": "",
+    "AfterDark.Core.Harvey.Conversation.Radish": "",
+    "AfterDark.Core.Harvey.Conversation.RedCabbage": "",
+    "AfterDark.Core.Harvey.Conversation.Hops": "",
+    "AfterDark.Core.Harvey.Conversation.Amaranth": "",
+    "AfterDark.Core.Harvey.Conversation.Coffee": "",
+
+    // SVE
+    "AfterDark.Core.Harvey.Conversation.Cucumber": "",
+    "AfterDark.Core.Harvey.Conversation.ButternutSquash": "",
+    "AfterDark.Core.Harvey.Conversation.SweetPotato": "",
+    
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    █████ █████  ███  █      ███  █   █ █████ █   █     ████  █████  ███  █      ███   ████ █   █ █████ 
+      █   █     █   █ █     █   █ █   █ █      █ █      █   █   █   █   █ █     █   █ █     █   █ █     
+      █   ████  █████ █     █   █ █   █ █████   █       █   █   █   █████ █     █   █ █  ██ █   █ ████  
+    █ █   █     █   █ █     █   █ █   █     █   █       █   █   █   █   █ █     █   █ █   █ █   █ █     
+    ███   █████ █   █ █████  ███  █████ █████   █       ████  █████ █   █ █████  ███   ███  █████ █████ 
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    // Vanilla Peeps -- He will start spewin lines at 3 hearts 
+    // He'll spew early lines when you're 0-5 hearts with said NPC, and late lines when you're 6+ hearts with said NPC
+
+    // In reguards to expansion characters.... :wince: probably won't icl 
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     BACHELORS
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    // Alex
+    "AfterDark.Core.Harvey.Jealous.Dating.Alex": "",
+    "AfterDark.Core.Harvey.Jealous.Married.Alex": "",
+    "AfterDark.Jealousy.Harvey.Early.Alex.1": "",
+    "AfterDark.Jealousy.Harvey.Early.Alex.2": "",
+    "AfterDark.Jealousy.Harvey.Late.Alex.1": "",
+    "AfterDark.Jealousy.Harvey.Late.Alex.2": "",
+                                                                
+    // Elliott                              
+    "AfterDark.Core.Harvey.Jealous.Dating.Elliott": "",
+    "AfterDark.Core.Harvey.Jealous.Married.Elliott": "",
+    "AfterDark.Jealousy.Harvey.Early.Elliott.1": "",
+    "AfterDark.Jealousy.Harvey.Early.Elliott.2": "",
+    "AfterDark.Jealousy.Harvey.Late.Elliott.1": "",
+    "AfterDark.Jealousy.Harvey.Late.Elliott.2": "",
+
+    // Sam
+    "AfterDark.Core.Harvey.Jealous.Dating.Sam": "",
+    "AfterDark.Core.Harvey.Jealous.Married.Sam": "",
+    "AfterDark.Jealousy.Harvey.Early.Sam.1": "",
+    "AfterDark.Jealousy.Harvey.Early.Sam.2": "",
+    "AfterDark.Jealousy.Harvey.Late.Sam.1": "",
+    "AfterDark.Jealousy.Harvey.Late.Sam.2": "",
+
+    // Sam
+    "AfterDark.Core.Harvey.Jealous.Dating.Sebastian": "",
+    "AfterDark.Core.Harvey.Jealous.Married.Sebastian": "",
+    "AfterDark.Jealousy.Harvey.Early.Sebastian.1": "",
+    "AfterDark.Jealousy.Harvey.Early.Sebastian.2": "",
+    "AfterDark.Jealousy.Harvey.Late.Sebastian.1": "",
+    "AfterDark.Jealousy.Harvey.Late.Sebastian.2": "",
+
+    // Shane
+    "AfterDark.Core.Harvey.Jealous.Dating.Shane": "",
+    "AfterDark.Core.Harvey.Jealous.Married.Shane": "",
+    "AfterDark.Jealousy.Harvey.Early.Shane.1": "",
+    "AfterDark.Jealousy.Harvey.Early.Shane.2": "",
+    "AfterDark.Jealousy.Harvey.Late.Shane.1": "",
+    "AfterDark.Jealousy.Harvey.Late.Shane.2": "",
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     BACHELORETTES
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    // Abigail
+    "AfterDark.Core.Harvey.Jealous.Dating.Abigail": "",
+    "AfterDark.Core.Harvey.Jealous.Married.Abigail": "",
+    "AfterDark.Jealousy.Harvey.Early.Abigail.1": "",
+    "AfterDark.Jealousy.Harvey.Early.Abigail.2": "",
+    "AfterDark.Jealousy.Harvey.Late.Abigail.1": "",
+    "AfterDark.Jealousy.Harvey.Late.Abigail.2": "",
+
+    // Emily
+    "AfterDark.Core.Harvey.Jealous.Dating.Emily": "",
+    "AfterDark.Core.Harvey.Jealous.Married.Emily": "",
+    "AfterDark.Jealousy.Harvey.Early.Emily.1": "",
+    "AfterDark.Jealousy.Harvey.Early.Emily.2": "",
+    "AfterDark.Jealousy.Harvey.Late.Emily.1": "",
+    "AfterDark.Jealousy.Harvey.Late.Emily.2": "",
+
+    // Haley
+    "AfterDark.Core.Harvey.Jealous.Dating.Haley": "",
+    "AfterDark.Core.Harvey.Jealous.Married.Haley": "",
+    "AfterDark.Jealousy.Harvey.Early.Haley.1": "",
+    "AfterDark.Jealousy.Harvey.Early.Haley.2": "",
+    "AfterDark.Jealousy.Harvey.Late.Haley.1": "",
+    "AfterDark.Jealousy.Harvey.Late.Haley.2": "",
+
+    // Leah
+    "AfterDark.Core.Harvey.Jealous.Dating.Leah": "",
+    "AfterDark.Core.Harvey.Jealous.Married.Leah": "",
+    "AfterDark.Jealousy.Harvey.Early.Leah.1": "",
+    "AfterDark.Jealousy.Harvey.Early.Leah.2": "",
+    "AfterDark.Jealousy.Harvey.Late.Leah.1": "",
+    "AfterDark.Jealousy.Harvey.Late.Leah.2": "",
+
+    // Maru
+    "AfterDark.Core.Harvey.Jealous.Dating.Maru": "",
+    "AfterDark.Core.Harvey.Jealous.Married.Maru": "",
+    "AfterDark.Jealousy.Harvey.Early.Maru.1": "",
+    "AfterDark.Jealousy.Harvey.Early.Maru.2": "",
+    "AfterDark.Jealousy.Harvey.Late.Maru.1": "",
+    "AfterDark.Jealousy.Harvey.Late.Maru.2": "",
+
+    // Penny
+    "AfterDark.Core.Harvey.Jealous.Dating.Penny": "",
+    "AfterDark.Core.Harvey.Jealous.Married.Penny": "",
+    "AfterDark.Jealousy.Harvey.Early.Penny.1": "",
+    "AfterDark.Jealousy.Harvey.Early.Penny.2": "",
+    "AfterDark.Jealousy.Harvey.Late.Penny.1": "",
+    "AfterDark.Jealousy.Harvey.Late.Penny.2": "",
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    █████  ███  █   █ █████ █     █   █     ████  █████  ███  █      ███   ████ █   █ █████ 
+    █     █   █ ██ ██   █   █      █ █      █   █   █   █   █ █     █   █ █     █   █ █     
+    ████  █████ █ █ █   █   █       █       █   █   █   █████ █     █   █ █  ██ █   █ ████  
+    █     █   █ █   █   █   █       █       █   █   █   █   █ █     █   █ █   █ █   █ █     
+    █     █   █ █   █ █████ █████   █       ████  █████ █   █ █████  ███   ███  █████ █████ 
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    
+    // something something about his parents back home that've probably already died so that's why he's so keen on taking care of george and ev-
+    "AfterDark.Family.Harvey.Parents.1": "",
+    "AfterDark.Family.Harvey.Parents.2": "",
+    "AfterDark.Family.Harvey.Parents.3": "",
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    █   █  ███  ████  ████  █████  ███   ████ █████     ████  █████  ███  █      ███   ████ █   █ █████ 
+    ██ ██ █   █ █   █ █   █   █   █   █ █     █         █   █   █   █   █ █     █   █ █     █   █ █     
+    █ █ █ █████ ████  ████    █   █████ █  ██ ████      █   █   █   █████ █     █   █ █  ██ █   █ ████  
+    █   █ █   █ █   █ █   █   █   █   █ █   █ █         █   █   █   █   █ █     █   █ █   █ █   █ █     
+    █   █ █   █ █   █ █   █ █████ █   █  ███  █████     ████  █████ █   █ █████  ███   ███  █████ █████ 
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    // Engagement
+    "AfterDark.Marriage.Harvey.Engagement.0": "",
+    "AfterDark.Marriage.Harvey.Engagement.1": "",
+
+    // Patio
+    "AfterDark.Marriage.Harvey.Patio.1": "",
+    "AfterDark.Marriage.Harvey.Patio.2": "",
+    "AfterDark.Marriage.Harvey.Patio.3": "",
+
+    // SpouseRoom
+    "AfterDark.Marriage.Harvey.SpouseRoom.1": "",
+    "AfterDark.Marriage.Harvey.SpouseRoom.2": "",
+    "AfterDark.Marriage.Harvey.SpouseRoom.3": "",
+
+    // JobLeave & Return
+    "AfterDark.Marriage.Harvey.JobLeave.1": "",
+    "AfterDark.Marriage.Harvey.JobLeave.2": "",
+    "AfterDark.Marriage.Harvey.JobLeave.3": "",
+    "AfterDark.Marriage.Harvey.JobReturn.1": "",
+    "AfterDark.Marriage.Harvey.JobReturn.2": "",
+    "AfterDark.Marriage.Harvey.JobReturn.3": "",
+
+    // FunLeave & Return
+    "AfterDark.Marriage.Harvey.funLeave": "",
+    "AfterDark.Marriage.Harvey.funReturn.1": "",
+    "AfterDark.Marriage.Harvey.funReturn.2": "",
+    "AfterDark.Marriage.Harvey.funReturn.3": "",
+
+    // Special Dates - Spring
+    "AfterDark.Marriage.Harvey.Spring": "",
+    "AfterDark.Marriage.Harvey.Spring1": "",
+    "AfterDark.Marriage.Harvey.Spring12": "",
+    "AfterDark.Marriage.Harvey.Spring23": "",
+
+    // Special Dates - Summer
+    "AfterDark.Marriage.Harvey.Summer": "",
+    "AfterDark.Marriage.Harvey.Summer1": "",
+    "AfterDark.Marriage.Harvey.Summer10": "",
+    "AfterDark.Marriage.Harvey.Summer27": "",
+
+    // Special Dates - Fall
+    "AfterDark.Marriage.Harvey.Fall": "",
+    "AfterDark.Marriage.Harvey.Fall1": "",
+    "AfterDark.Marriage.Harvey.Fall15": "",
+    "AfterDark.Marriage.Harvey.Fall26": "",
+
+    // Special Dates - Winter
+    "AfterDark.Marriage.Harvey.Winter": "",
+    "AfterDark.Marriage.Harvey.Winter1": "",
+    "AfterDark.Marriage.Harvey.Winter7": "",
+    "AfterDark.Marriage.Harvey.Winter28": "",
+
+    // Generic - Rainy Days
+    "AfterDark.Marriage.Harvey.Rainy.Day.Harvey": "",
+    "AfterDark.Marriage.Harvey.Rainy.Day.0": "",
+    "AfterDark.Marriage.Harvey.Rainy.Day.1": "",
+    "AfterDark.Marriage.Harvey.Rainy.Day.2": "",
+    "AfterDark.Marriage.Harvey.Rainy.Day.3": "",
+    "AfterDark.Marriage.Harvey.Rainy.Day.4": "",
+    "AfterDark.Marriage.Harvey.Rainy.Day.5": "",
+    "AfterDark.Marriage.Harvey.Rainy.Night.Harvey": "",
+    "AfterDark.Marriage.Harvey.Rainy.Night.0": "",
+    "AfterDark.Marriage.Harvey.Rainy.Night.1": "",
+    "AfterDark.Marriage.Harvey.Rainy.Night.2": "",
+    "AfterDark.Marriage.Harvey.Rainy.Night.3": "",
+    "AfterDark.Marriage.Harvey.Rainy.Night.4": "",
+    "AfterDark.Marriage.Harvey.Rainy.Night.5": "",
+
+    // Generic - Indoor/Outdoor
+    "AfterDark.Marriage.Harvey.Indoor.Day.Harvey": "",
+    "AfterDark.Marriage.Harvey.Indoor.Day.0": "",
+    "AfterDark.Marriage.Harvey.Indoor.Day.1": "",
+    "AfterDark.Marriage.Harvey.Indoor.Day.2": "",
+    "AfterDark.Marriage.Harvey.Indoor.Day.3": "",
+    "AfterDark.Marriage.Harvey.Indoor.Day.4": "",
+    "AfterDark.Marriage.Harvey.Indoor.Night.Harvey": "",
+    "AfterDark.Marriage.Harvey.Indoor.Night.0": "",
+    "AfterDark.Marriage.Harvey.Indoor.Night.1": "",
+    "AfterDark.Marriage.Harvey.Indoor.Night.2": "",
+    "AfterDark.Marriage.Harvey.Indoor.Night.3": "",
+    "AfterDark.Marriage.Harvey.Indoor.Night.4": "",
+    "AfterDark.Marriage.Harvey.Outdoor.Harvey": "Y",
+    "AfterDark.Marriage.Harvey.Outdoor.0": "",
+    "AfterDark.Marriage.Harvey.Outdoor.1": "",
+    "AfterDark.Marriage.Harvey.Outdoor.2": "",
+    "AfterDark.Marriage.Harvey.Outdoor.3": "",
+    "AfterDark.Marriage.Harvey.Outdoor.4": "",
+
+    // Generic - Kids
+    "AfterDark.Marriage.Harvey.OneKid.0": "",
+    "AfterDark.Marriage.Harvey.OneKid.1": "",
+    "AfterDark.Marriage.Harvey.OneKid.2": "",
+    "AfterDark.Marriage.Harvey.OneKid.3": "",
+    "AfterDark.Marriage.Harvey.TwoKids.0": "",
+    "AfterDark.Marriage.Harvey.TwoKids.1": "",
+    "AfterDark.Marriage.Harvey.TwoKids.2": "",
+    "AfterDark.Marriage.Harvey.TwoKids.3": "",
+
+    // Affection 
+    "AfterDark.Marriage.Harvey.Good.0": "",
+    "AfterDark.Marriage.Harvey.Good.1": "",
+    "AfterDark.Marriage.Harvey.Good.2": "",
+    "AfterDark.Marriage.Harvey.Good.3": "",
+    "AfterDark.Marriage.Harvey.Good.4": "",
+    "AfterDark.Marriage.Harvey.Good.5": "",
+    "AfterDark.Marriage.Harvey.Good.6": "",
+    "AfterDark.Marriage.Harvey.Good.7": "",
+    "AfterDark.Marriage.Harvey.Good.8": "",
+    "AfterDark.Marriage.Harvey.Good.9": "",
+
+    "AfterDark.Marriage.Harvey.Neutral.0": "",
+    "AfterDark.Marriage.Harvey.Neutral.1": "",
+    "AfterDark.Marriage.Harvey.Neutral.2": "",
+    "AfterDark.Marriage.Harvey.Neutral.3": "",
+    "AfterDark.Marriage.Harvey.Neutral.4": "",
+    "AfterDark.Marriage.Harvey.Neutral.5": "",
+    "AfterDark.Marriage.Harvey.Neutral.6": "",
+    "AfterDark.Marriage.Harvey.Neutral.7": "",
+    "AfterDark.Marriage.Harvey.Neutral.8": "",
+    "AfterDark.Marriage.Harvey.Neutral.9": "",
+
+    "AfterDark.Marriage.Harvey.Bad.0": "",
+    "AfterDark.Marriage.Harvey.Bad.1": "",
+    "AfterDark.Marriage.Harvey.Bad.2": "",
+    "AfterDark.Marriage.Harvey.Bad.3": "",
+    "AfterDark.Marriage.Harvey.Bad.4": "",
+    "AfterDark.Marriage.Harvey.Bad.5": "",
+    "AfterDark.Marriage.Harvey.Bad.6": "",
+    "AfterDark.Marriage.Harvey.Bad.7": "",
+    "AfterDark.Marriage.Harvey.Bad.8": "",
+    "AfterDark.Marriage.Harvey.Bad.9": "",
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     ████ █████ █████ █████     ████  █████  ███  █      ███   ████ █   █ █████ 
+    █       █   █       █       █   █   █   █   █ █     █   █ █     █   █ █     
+    █  ██   █   ████    █       █   █   █   █████ █     █   █ █  ██ █   █ ████  
+    █   █   █   █       █       █   █   █   █   █ █     █   █ █   █ █   █ █     
+     ███  █████ █       █       ████  █████ █   █ █████  ███   ███  █████ █████ 
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    "AfterDark.Gift.Harvey.GiftReaction.Coffee.1": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Coffee.2": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Coffee.3": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Coffee.4": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Coffee.5": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Coffee.6": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Coffee.7": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Coffee.8": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Married.Coffee.1": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Married.Coffee.2": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Married.Coffee.3": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Married.Coffee.4": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Married.Coffee.5": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Married.Coffee.6": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Married.Coffee.7": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Married.Coffee.8": "",
+
+    "AfterDark.Gift.Harvey.GiftReaction.Pickles.1": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Pickles.2": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Married.Pickles.1": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Married.Pickles.2": "",
+
+    "AfterDark.Gift.Harvey.GiftReaction.SuperMeal.1": "",
+    "AfterDark.Gift.Harvey.GiftReaction.SuperMeal.2": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Married.SuperMeal.1": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Married.SuperMeal.2": "",
+
+    "AfterDark.Gift.Harvey.GiftReaction.TruffleOil.1": "",
+    "AfterDark.Gift.Harvey.GiftReaction.TruffleOil.2": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Married.TruffleOil.1": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Married.TruffleOil.2": "",
+
+    "AfterDark.Gift.Harvey.GiftReaction.Wine.1": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Wine.2": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Married.Wine.1": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Married.Wine.2": "",
+
+    "AfterDark.Gift.Harvey.GiftReaction.Cooking.1": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Cooking.2": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Married.Cooking.1": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Married.Cooking.2": "",
+
+    "AfterDark.Gift.Harvey.GiftReaction.StarDropTea": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Married.StarDropTea": "",
+
+    "AfterDark.Gift.Harvey.GiftReaction.RabbitsFoot": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Married.RabbitsFoot": "",
+
+    "AfterDark.Gift.Harvey.GiftReaction.PrismaticShard": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Married.PrismaticShard": "",
+
+    // Birthdays
+    "AfterDark.Gift.Harvey.GiftReaction.Positive.Birthday": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Positive.Married.Birthday": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Negative.Birthday": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Negative.Married.Birthday": "",
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    █   █  ███  █   █ █████ █████       ████  █████  ███  █      ███   ████ █   █ █████ 
+    ██ ██ █   █ █   █   █   █           █   █   █   █   █ █     █   █ █     █   █ █     
+    █ █ █ █   █  █ █    █   ████        █   █   █   █████ █     █   █ █  ██ █   █ ████  
+    █   █ █   █  █ █    █   █           █   █   █   █   █ █     █   █ █   █ █   █ █     
+    █   █  ███    █   █████ █████       ████  █████ █   █ █████  ███   ███  █████ █████  
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    "AfterDark.Movie.Harvey.BeforeMovie.Movie1": "I'm nervous about this one... gulp",
+    "AfterDark.Movie.Harvey.DuringMovie.Movie1.0": "I'm scared!$8",
+    "AfterDark.Movie.Harvey.DuringMovie.Movie1.1": "Harvey is shaking!",
+    "AfterDark.Movie.Harvey.AfterMovie.Movie1": "I have a fear of heights, so those soaring aerial shots really got to me... Still, I had a good time overall.$h",
+    "AfterDark.Movie.Harvey.BeforeMovie.Love": "I read a glowing review of this movie in the Zuzu City Times...",
+    "AfterDark.Movie.Harvey.DuringMovie.Love": "It really makes you think, doesn't it?",
+    "AfterDark.Movie.Harvey.AfterMovie.Love": "That was outstanding! I'm really glad that you brought me out for this, @.$h",
+    "AfterDark.Movie.Harvey.BeforeMovie.Like": "I don't watch a lot of movies, but this one's been well-received, right?",
+    "AfterDark.Movie.Harvey.AfterMovie.Like": "That was interesting! I'm going to be thinking about {0} one for a while.",
+    "AfterDark.Movie.Harvey.BeforeMovie.Dislike": "This movie seems a little intense for me...$s",
+    "AfterDark.Movie.Harvey.DuringMovie.Dislike.0": "I feel faint...$8",
+    "AfterDark.Movie.Harvey.DuringMovie.Dislike.1": "Harvey's blood pressure is skyrocketing!",
+    "AfterDark.Movie.Harvey.AfterMovie.Dislike": "My body feels inflamed after that movie...$s",
+
+    "AfterDark.Movie.Harvey.Invite.Spouse": "Movie tickets? Well... yes, I'd love to go with you!$h#$e#It's good to do things like this, I don't want married life to get boring for you!",
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    █████ █████ █████ █████ █████ █   █  ███  █         ████  █████  ███  █      ███   ████ █   █ █████ 
+    █     █     █       █     █   █   █ █   █ █         █   █   █   █   █ █     █   █ █     █   █ █     
+    ████  ████  █████   █     █    █ █  █████ █         █   █   █   █████ █     █   █ █  ██ █   █ ████  
+    █     █         █   █     █    █ █  █   █ █         █   █   █   █   █ █     █   █ █   █ █   █ █     
+    █     █████ █████   █   █████   █   █   █ █████     ████  █████ █   █ █████  ███   ███  █████ █████ 
+    //------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    // Egg Festival
+    "AfterDark.Festival.Harvey.spring13.false.1": "",
+    "AfterDark.Festival.Harvey.spring13.false.2": "",
+    "AfterDark.Festival.Harvey.spring13.true.1": "",
+    "AfterDark.Festival.Harvey.spring13.true.2": "",
+
+    // Flower Dance
+    "AfterDark.Festival.Harvey.spring24.false.1": "",
+    "AfterDark.Festival.Harvey.spring24.false.2": "",
+    "AfterDark.Festival.Harvey.spring24.true.1": "",
+    "AfterDark.Festival.Harvey.spring24.true.2": "",
+    "AfterDark.Festival.Harvey.DanceAccept": "",
+    "AfterDark.Festival.Harvey.DanceAccept.Spouse": "",
+    "AfterDark.Festival.Harvey.DanceDeny": "",
+
+    // Luau 
+    "AfterDark.Festival.Harvey.summer11.false.1": "",
+    "AfterDark.Festival.Harvey.summer11.false.2": "",
+    "AfterDark.Festival.Harvey.summer11.true.1": "",
+    "AfterDark.Festival.Harvey.summer11.true.2": "",
+
+    // Desert Festival
+    "AfterDark.Festival.Harvey.Desert": "",
+    "AfterDark.Festival.Harvey.Desert.Married": "",
+    "AfterDark.Festival.Harvey.Desert.Shop": "",
+
+    // Moonlight Jellies 
+    "AfterDark.Festival.Harvey.summer28.false.1": "",
+    "AfterDark.Festival.Harvey.summer28.false.2": "",
+    "AfterDark.Festival.Harvey.summer28.true.1": "",
+    "AfterDark.Festival.Harvey.summer28.true.2": "",
+
+    // Fair
+    "AfterDark.Festival.Harvey.fall16.false.1": "",
+    "AfterDark.Festival.Harvey.fall16.false.2": "",
+    "AfterDark.Festival.Harvey.fall16.true.1": "",
+    "AfterDark.Festival.Harvey.fall16.true.2": "",
+
+    // Spirit's Eve
+    "AfterDark.Festival.Harvey.fall27.false.1": "",
+    "AfterDark.Festival.Harvey.fall27.false.2": "",
+    "AfterDark.Festival.Harvey.fall27.true.1": "",
+    "AfterDark.Festival.Harvey.fall27.true.2": "",
+
+    // Ice Festival
+    "AfterDark.Festival.Harvey.winter8.false.1": "",
+    "AfterDark.Festival.Harvey.winter8.false.2": "",
+    "AfterDark.Festival.Harvey.winter8.true.1": "",
+    "AfterDark.Festival.Harvey.winter8.true.2": "",
+
+    // Winter Star
+    "AfterDark.Festival.Harvey.winter28.false.1": "",
+    "AfterDark.Festival.Harvey.winter28.false.2": "",
+    "AfterDark.Festival.Harvey.winter28.true.1": "",
+    "AfterDark.Festival.Harvey.winter28.true.2": "",
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    █████ █████ ████  █████ █   █  ████ █████ 
+    █       █   █   █   █   ██  █ █     █     
+    █████   █   ████    █   █ █ █ █  ██ █████ 
+        █   █   █   █   █   █  ██ █   █     █ 
+    █████   █   █   █ █████ █   █  ███  █████  
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    "AfterDark.Strings.Harvey.Radio": "%Harvey looks busy right now.",
+    "AfterDark.Strings.Harvey.Examine": "Now just hold still... Take a deep breath for me.$u", 
+
+    "AfterDark.Strings.Harvey.HarveyRoom.1": "A comparison between fighter planes of the Ferngill Republic and the Gotoro Empire.",
+    "AfterDark.Strings.Harvey.HarveyRoom.2": "There's a beautiful view of the sky above Stardew Valley.",
+    "AfterDark.Strings.Harvey.HarveyRoom.3": "It's Harvey's model airplane collection.",
+    "AfterDark.Strings.Harvey.HarveyRoom.4": "It's Harvey's model airplane collection.",
+    "AfterDark.Strings.Harvey.HarveyRoom.5": "It's a complicated radio broadcasting set.",
+    "AfterDark.Strings.Harvey.HarveyRoom.6": "It's a complicated radio broadcasting set.",
+    "AfterDark.Strings.Harvey.HarveyRoom.7": "There's a tape inside: 'Anthology Of Classic Jazz'",
+    "AfterDark.Strings.Harvey.HarveyRoom.8": "'Do-It-Yourself! Knee Surgery'",
+    "AfterDark.Strings.Harvey.HarveyRoom.9": "'The Lone Ranger Of Pulmonary Hypertension'",
+    "AfterDark.Strings.Harvey.HarveyRoom.10": "You didn't find anything, and now your hands smell bad.",
+    "AfterDark.Strings.Harvey.HarveyRoom.11": "It looks well used.",
+    "AfterDark.Strings.Harvey.HarveyRoom.12": "It's full of convenience food.",
+    "AfterDark.Strings.Harvey.HarveyRoom.13": "Ground-To-Air Radio Protocol",
+    "AfterDark.Strings.Harvey.HarveyRoom.14": "It's a pretty standard TV set. It's set to the history station.",
+
+    "AfterDark.Strings.Harvey.Hospital.1": "The sign of the vessel. It's here to comfort those who believe in Yoba.",
+    "AfterDark.Strings.Harvey.Hospital.2": "It's a sample jar. Better not put your fingers in there.",
+    "AfterDark.Strings.Harvey.Hospital.3": "It's probably not a good idea to stick your hands in there. It's full of used syringes, dirty swabs, and little nozzles that Harvey stuck into people's ears.",
+    "AfterDark.Strings.Harvey.Hospital.4": "Is life sometimes difficult? Do you ever have trouble staying focused? Talk to your doctor about Pravoloxinone.^(Pravoloxinone is not for everyone. Side effects may include insomnia, severe anger, uncontrollable swelling of the throat, permanent discoloration of the lips, hair loss, and stroke. In extremely rare cases (1 in 500), test subjects experienced complete disintegration of one or more bones.) ",
+    "AfterDark.Strings.Harvey.Hospital.5": "'Don't spread disease... Cover your sneeze!'",
+    "AfterDark.Strings.Harvey.Hospital.6": "This clinic is licensed for medical practice by the Ferngill Republic Health Authority.",
+    "AfterDark.Strings.Harvey.Hospital.7": "Hey, this plant's fake!",
+
+    "AfterDark.Strings.Harvey.Fri.000": "This stuff can definitely be incorporated into a healthy diet.",
+    "AfterDark.Strings.Harvey.marriageJob.000": "Hi Honey. What are you doing at the clinic?#$e#Ah, you just came to see me. That's nice.$h",
+    "AfterDark.Strings.Harvey.Fri.001": "I'm just putting away these groceries.",
+    "AfterDark.Strings.Harvey.marriage.Mon.001": "The sound of running water is relaxing for me.",
+    "AfterDark.Strings.Harvey.marriage.Mon.000": "Hi! I'm just shopping for some essentials, so I can continue to cook healthy meals for us.",
+    "AfterDark.Strings.Harvey.Sat.000": "I'm just putting away these groceries.",
+    "AfterDark.Strings.Harvey.winter.15.000": "Winter can be a dreary season, but events like this make it a little brighter!"
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    █████ █   █ █████ █   █ █████ █████ 
+    █     █   █ █     ██  █   █   █     
+    ████   █ █  ████  █ █ █   █   █████ 
+    █      █ █  █     █  ██   █       █ 
+    █████   █   █████ █   █   █   █████
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    
+}

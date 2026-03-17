@@ -1,0 +1,158 @@
+{
+    "Format": "2.7.0",
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+       ████  ███  █   █ █████ █████  ████ 
+      █     █   █ ██  █ █       █   █     
+      █     █   █ █ █ █ ████    █   █  ██ 
+      █     █   █ █  ██ █       █   █   █ 
+       ████  ███  █   █ █     █████  ███  
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    "ConfigSchema": {
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    PRONOUNS 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        "Player Pronouns 1": {
+            "Default": "Them",
+            "AllowBlank": false,
+            "AllowMultiple": true,
+            "Section": "Pronouns",
+            "Description": "Would typically be something similar to \"Them\", \"Her\", \"Him\"."
+        },
+        "Player Pronouns 2": {
+            "Default": "Their",
+            "AllowBlank": false,
+            "AllowMultiple": true,
+            "Section": "Pronouns",
+            "Description": "Would typically be something similar to \"Their\", \"Her\", \"His\"."
+        },
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    PLAYER ENDEARMENT 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        "Pet Name": {
+            "Default": "Babe",
+            "AllowBlank": false,
+            "AllowMultiple": true,
+            "Section": "Endearment",
+            "Description": "Would typically be \"Babe\", \"Darling\", \"Sweetheart\", etc."
+        },
+        "Descriptive Word": {
+            "Default": "Cute",
+            "AllowBlank": false,
+            "AllowMultiple": true,
+            "Section": "Endearment",
+            "Description": "Would typically be \"Pretty\", \"Cute\", \"Handsome\", etc."
+        },
+        "Good...": {
+            "Default": "Farmer",
+            "AllowBlank": false,
+            "AllowMultiple": true,
+            "Section": "Endearment",
+            "Description": "Would typically be \"Boy\", \"Girl\", \"Slut\", etc."
+        },
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    DIALOGUE 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        // Whether to include each dialogue file
+        "After Dark Dialogue": {
+            "AllowValues": "All Dialogue, No Jealousy Dialogue, No Dialogue",
+            "Default": "All Dialogue",
+            "Section": "Dialogue",
+            "Description": "Toggle between which dialogue you'd like this pack to add. Choosing \"No Jealousy Dialogue\" will disable all jealousy-related dialogue this pack offers. If you'd like to turn off all dialogue, select \"No Dialogue\"."
+        },
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    EVENTS 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        // Whether to include the events as a whole or not
+        "After Dark Events": {
+            "AllowValues": "All Events, No Jealousy Events, No Events",
+            "Default": "All Events",
+            "Section": "Events",
+            "Description": "Toggle between which events you'd like this pack to add. Choosing \"All Events\" will include ALL events his pack offers, including jealousy-related ones. Choosing \"No Jealousy Events\" will include MOST events his pack offers, only excluding jealousy-related ones. If you'd like to turn off all events, select \"No Events\"."
+        }
+    },
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     █████  ███  █  █  █████ █   █ █████ 
+       █   █   █ █ █   █     ██  █ █     
+       █   █   █ ██ █  ████  █ █ █ █████ 
+       █   █   █ █  █  █     █  ██     █ 
+       █    ███  █   █ █████ █   █ █████
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    "DynamicTokens": [
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    PRONOUNS 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        {
+            "Name": "PlayerPronoun",
+            "Value": "|PPN1={{Random: {{Player Pronouns 1}} |key=PlayerPronoun}} |LPPN1={{Random: {{Lowercase: {{Player Pronouns 1}}}} |key=PlayerPronoun}} |PPN2={{Random: {{Player Pronouns 2}} |key=PlayerPronoun}} |LPPN1={{Random: {{Lowercase: {{Player Pronouns 2}}}} |key=PlayerPronoun}}"
+        },
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    PLAYER ENDEARMENT 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        {
+            "Name": "PlayerEndearment",
+            "Value": "|PetName={{Random: {{Player Pet Name}} |key=PlayerEndearment}} |LPetName={{Random: {{Lowercase: {{Player Pet Name}}}} |key=PlayerEndearment}} |Descript={{Random: {{Descriptive Word}} |key=PlayerEndearment}} |LDescript={{Random: {{Lowercase: {{Descriptive Word}}}} |key=PlayerEndearment}} |GoodName={{Random: {{Good...}} |key=PlayerEndearment}} |LGoodName={{Random: {{Lowercase: {{Good...}}}} |key=PlayerEndearment}}"
+        },
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    MISC 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        {
+            "Name": "JealousyChar",
+            "Value": "{{Random: Alex, Elliott, Sam, Sebastian, Shane, Abigail, Emily, Haley, Leah, Maru, Penny}}"
+        },
+        {
+            "Name": "WeekDayList",
+            "Value": "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+        },
+        {
+            "Name": "WeekDay",
+            "Value": "{{WeekDayList |valueAt={{Query: {{Day}}%7}}}}"
+        }
+    ],
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     █████ █   █  ████ █     █   █ ████  █████ 
+       █   ██  █ █     █     █   █ █   █ █     
+       █   █ █ █ █     █     █   █ █   █ ████  
+       █   █  ██ █     █     █   █ █   █ █     
+     █████ █   █  ████ █████ █████ ████  █████ 
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    "Changes": [
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    EVENTS 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        {
+            "LogName": "After Dark Harvey's ALL Events",
+            "Action": "Include",
+            "FromFile": "Data/Events/Mail_Harvey.json, Data/Events/NewEvents_Harvey.json, Data/Events/VanillaEvents_Harvey.json, Data/Events/JealousyEvents_Harvey.json",
+            "When": {
+                "After Dark Events": "All Events"
+            }
+        },
+        {
+            "LogName": "After Dark Harvey's No Jealousy Events",
+            "Action": "Include",
+            "FromFile": "Data/Events/Mail_Harvey.json, Data/Events/NewEvents_Harvey.json, Data/Events/VanillaEvents_Harvey.json",
+            "When": {
+                "After Dark Events": "No Jealousy Events"
+            }
+        },
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    DIALOGUE 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        {
+            "LogName": "After Dark Harvey's ALL Dialogue",
+            "Action": "Include",
+            "FromFile": "Data/Dialogue/Dialogue_Harvey.json, Data/Dialogue/MarriageDialogue_Harvey.json, Data/Dialogue/JealousDialogue_Harvey.json",
+            "When": {
+                "After Dark Dialogue": "All Dialogue"
+            }
+        },
+        {
+            "LogName": "After Dark Harvey's No Jealousy Dialogue",
+            "Action": "Include",
+            "FromFile": "Data/Dialogue/Dialogue_Harvey.json, Data/Dialogue/MarriageDialogue_Harvey.json",
+            "When": {
+                "After Dark Dialogue": "No Jealousy Dialogue"
+            }
+        }
+    ]
+}

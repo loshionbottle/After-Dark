@@ -217,7 +217,7 @@
     "AfterDark.Core.Sam.Spring.EarlyHeart.3": "I've had this one song stuck in my head lately.$s#$b#Ha, I guess it's kinda like you in that way, huh?$10",
     "AfterDark.Core.Sam.Spring.EarlyHeart.4": "Say, what kind of music do you listen to?#$b#I'll have to make you a playlist one of these days.$u",
     "AfterDark.Core.Sam.Spring.EarlyHeart.5": "...$s#$b#Y'know, I love Seb and Abby, but I really hate feeling like a third wheel when I'm with them.$s#$b#How about you join us more often and keep me company, hm?$u",
-    "AfterDark.Core.Sam.Spring.EarlyHeart.6": "Yoba, the pollen this year is actually killing me and my sinuses.$s#$b#Good thing the flowers make it worth it.$u#$e#Here, I got you this.#$b#Get it, cause you're so sweet?[402]$h",
+    "AfterDark.Core.Sam.Spring.EarlyHeart.6": "The pollen this year is actually killing me and my sinuses.$s#$b#Good thing the flowers make it worth it.$u#$e#Here, I got you this.#$b#Get it, cause you're so sweet?[402]$h",
     "AfterDark.Core.Sam.Spring.EarlyHeart.7": "I know we barely know each other but I'm going crazy here...$s#$b#All I can think about is you.$7#$e#How do you do that? Just get in my head and make it your own?$7#$b#Though, I can't really say I mind all that much.$l",
     "AfterDark.Core.Sam.Spring.EarlyHeart.8": "Oh hey, @.#$b#What do you think about being my muse for this next song I'm writing?$u#$e#What?$u#$b#I know it's soon, but everytime I look at you, I just think of more and more things to write about.$l",
     "AfterDark.Core.Sam.Spring.EarlyHeart.9": "How's that little farm of yours coming along?#$b#Made any room for me on it yet?$l",
@@ -242,7 +242,7 @@
     "AfterDark.Core.Sam.Spring.MidHeart.8": "Are you trying to romance me, {{LPetName}}? You've been giving me a lot of gifts lately.$u#$b#Don't worry, even if you aren't, I'll still make you mine one of these days.$l",
     "AfterDark.Core.Sam.Spring.MidHeart.9": "%You hear Sam sigh loudly.#$b#When will you be mine already, @?$s#$b#I need to touch you, hold you, kiss you...$s",
     "AfterDark.Core.Sam.Spring.MidHeart.10": "Hey, {{LPetName}}.$u#$b#I'm glad you're here actually, I was just thinking about how cute it'd be to own something belonging to you.#$b#Think you could help me out by giving me a few pairs of your underwear?$u",
-    "AfterDark.Core.Sam.Spring.MidHeart.11": "What do I have to do to get you to laugh today, hm?$u#$b#Yoba, I don't know what it is but lately I've been craving each and every sound you could possibly make.$10",
+    "AfterDark.Core.Sam.Spring.MidHeart.11": "I don't know what it is, but lately I've been craving each and every sound you could possibly make.$10#$e#So, what do I have to do to get you to laugh today, hm?$u",
     "AfterDark.Core.Sam.Spring.MidHeart.12": "%You notice a photograph fall out of Sam's pocket. He quickly picks it up, but not before you notice your own silhouette in the frame.#$b#%He shoves the glossy paper back into his pants, hoping you didn't see much.#$b#Oh, hey @. Fancy seeing you here.$10",
     "AfterDark.Core.Sam.Spring.MidHeart.13": "Y'know, you look really {{LDescript}} when you're wearing multiple accessories.$u#$b#Say, how about I get you a new one? Like a new necklace, ring, or...#$b#Maybe even my arms wrapped around you...$l",
     "AfterDark.Core.Sam.Spring.MidHeart.14": "Is it too soon to get a kiss out of you, @?#$b#Aww, come on...$u#$b#I'll do anything.$l",
@@ -252,7 +252,7 @@
     "AfterDark.Core.Sam.Spring.LateHeart.2": "I swear, springtime stuffing up my nose only makes me want to stuff something else up so I won't be the only one suffering.$a#$b#Though, I don't think you'd really mind if you were that 'something', huh?$l",
     "AfterDark.Core.Sam.Spring.LateHeart.3": "Hey, {{LPetName}}.$l#$b#Say, when are you gonna let me live on that little farm of yours, hm?$u",
     "AfterDark.Core.Sam.Spring.LateHeart.4": "Y'know, no matter how many times you... spring up in front of me, I never get tired of it.$u#$b#Now, how about you spring onto my lap, {{LPetName}}?$l",
-    "AfterDark.Core.Sam.Spring.LateHeart.5": "Yoba, you look so {{LDescript}} with all these spring petals flying around the place.$u#$b#Though, I bet you'd look even hotter with my hand wrapped around that {{LDescript}} little throat of yours.$l",
+    "AfterDark.Core.Sam.Spring.LateHeart.5": "Damn, you look so {{LDescript}} with all these spring petals flying around the place.$u#$b#Though, I bet you'd look even hotter with my hand wrapped around that {{LDescript}} little throat of yours.$l",
     "AfterDark.Core.Sam.Spring.LateHeart.6": "Hey, I saw one of these earlier and thought it'd look really pretty in your hair.[591]$10#$e#Hey, speaking of giving each other things, put any thought into giving me a pendant yet?$u#$b#Come on, you know I'm just itching to be yours.$l#$b#And I don't think you'd exactly mind being mine either, {{LPetName}}.$u",
     "AfterDark.Core.Sam.Spring.LateHeart.7": "%You catch Sam messing with some sort of...#$b#%Is that a collar or a necklace?",
     "AfterDark.Core.Sam.Spring.LateHeart.8": "Oh, there you are, {{LPetName}}!$u#$b#I've actually been meaning to ask you something.#$b#...#$b#...$a#$e#Shit, I forgot what it was...$s#$b#Well, no matter. Let's talk about something more important; like how {{LDescript}} you've been looking lately.$u",
@@ -377,7 +377,7 @@
     "AfterDark.Core.Sam.Winter.EarlyHeart.10": "%You catch Sam staring at you, his cheeks flushed as he looks away.#$b#%Hm, maybe it's just the cold weather making his face red like that.",
     "AfterDark.Core.Sam.Winter.EarlyHeart.11": "With you spending less time on the farm now that it's winter, will you come see me more often?$u#$b#Come on...$s#$b#t's almost the end of the year and you're not at least the slightest bit interested in getting to know me more?$7",
     "AfterDark.Core.Sam.Winter.EarlyHeart.12": "...$s#$b#Oh, hey @.$u#$b#Sorry, I recently got into a fight over y— something.$10",
-    "AfterDark.Core.Sam.Winter.EarlyHeart.13": "Man, I've been having a ton of nightmares about you lately.$s#$b#Mostly just ones of you slipping from my fingers over and over.$7#$e#Yoba, you're driving me insane, @.$s",
+    "AfterDark.Core.Sam.Winter.EarlyHeart.13": "Man, I've been having a ton of nightmares about you lately.$s#$b#Mostly just ones of you slipping from my fingers over and over.$7#$e#You're driving me insane, @.$s",
     "AfterDark.Core.Sam.Winter.EarlyHeart.14": "Excited for the new year, @?#$b#I think... I'm gonna rebrand myself!$u#$b#A new genre for the band, maybe I'll pick up a new instrument...#$b#Or, maybe someone new to play with.$l",
     "AfterDark.Core.Sam.Winter.EarlyHeart.15": "Yoba, it's so cold out today.$s#$b#Hey, how about me and you do a few exercises to warm up?$u#$b#C'mon, I'll even let you choose which position you're in.$l",
 
@@ -394,11 +394,11 @@
     "AfterDark.Core.Sam.Winter.MidHeart.11": "Do you get bored in winter now that you don't have as much to do on your farm?#$b#If you ever need someone to keep you company, I'm always a text away.$u",
     "AfterDark.Core.Sam.Winter.MidHeart.12": "%Sam's a little distracted with all the snow falling around him.#$b#%If you didn't know any better, it'd seem like his first time seeing the stuff.#$b#%You should leave him alone.",
     "AfterDark.Core.Sam.Winter.MidHeart.13": "Hey, how are you holding up with the weather?$u#$b#Our door was almost frozen shut this morning. I nearly had to run into the damn thing!$10",
-    "AfterDark.Core.Sam.Winter.MidHeart.14": "Do you want me like I want you, @?#$b#Yoba, I don't know how much longer I can go with hiding these feelings.$10",
+    "AfterDark.Core.Sam.Winter.MidHeart.14": "Do you want me like I want you, @?#$b#I don't know how much longer I can go with hiding these feelings.$10",
     "AfterDark.Core.Sam.Winter.MidHeart.15": "You know, you're really {{LDescript}} with all the snow in your hair.$u#$b#How about you let me take you on a date one of these days to get to know you better, hm?$l",
 
     "AfterDark.Core.Sam.Winter.LateHeart.1": "You look really {{LDescript}} today, @.$l#$b#Did you do something different?$10",
-    "AfterDark.Core.Sam.Winter.LateHeart.2": "Yoba, I can't seem to get you out of my head lately.$l#$b#Are you casting some sort of spell on me?$u#$b#Don't worry, I wouldn't mind at all if you did.$l",
+    "AfterDark.Core.Sam.Winter.LateHeart.2": "I can't seem to get you out of my head lately.$l#$b#Are you casting some sort of spell on me?$u#$b#Don't worry, I wouldn't mind at all if you did.$l",
     "AfterDark.Core.Sam.Winter.LateHeart.3": "Y'know, my songs have gotten a lot better since I've met you, @.$10#$b#I swear, it feels really nice to finally have a muse.$l",
     "AfterDark.Core.Sam.Winter.LateHeart.4": "The snow in your hair makes you even more {{LDescript}}, I swear.$u#$b#Here, let me clean you off a bit.",
     "AfterDark.Core.Sam.Winter.LateHeart.5": "Ugh, it's so cold out today.$s#$b#Hey, how about you let me hold you to warm up?$u#$b#I promise I'll keep my hands where you can't see them.$l",
@@ -450,7 +450,7 @@
     "AfterDark.Marriage.Sam.Conversation.TwoKids.4.Memory.OneDay": "Oh, there you are, {{LPetName}}.$u#$b#I took the kids to their doctor's appointment earlier.#$b#He said everything was fine, but seemed oddly disappointed that I was the one there and not you.$a",
 
     "AfterDark.Marriage.Sam.Indoor.Day.10": "Hmm... It's been a while since I've cooked for you, huh?$u#$t samADMarriedCooksFr 7#$y 'Which do you like more?_Lucky Lunch_You got it, though it might be a few days until I can get my hands on all those ingredients...$s_Farmer's Lunch_You got it, though it'll be a few days until I can get my hands on all those ingredients...$s'",
-    "AfterDark.Core.Conversation.SamMarriedCooks.Memory.OneWeek": "Yoba, it took all week to find the ingredients for this stuff, I couldn't even remember which one you said you liked more...$s#$b#Well, I guess whichever one you don't like I can eat.[204]$u#$e#Oh, whoops, sorry. I forgot to give you this as well.[240]$10#$b#Just let me know which one you don't want, yeah?$u",
+    "AfterDark.Core.Conversation.SamMarriedCooks.Memory.OneWeek": "It took all week to find the ingredients for this stuff, I couldn't even remember which one you said you liked more...$s#$b#Well, I guess whichever one you don't like I can eat.[204]$u#$e#Oh, whoops, sorry. I forgot to give you this as well.[240]$10#$b#Just let me know which one you don't want, yeah?$u",
 
     "AfterDark.Marriage.Sam.Good.15": "I have this stupid tune stuck in my head.$s#$b#Actually, maybe I could turn it into a song for you...$u#$t samADMakesMusic 7",
     "AfterDark.Marriage.Sam.Conversation.Good.10.Memory.OneWeek": "Hey, remember that earworm I had a week ago?#$b#Well, I finally got around to putting some lyrics to it.$u#$b#I'll uh...$10#$b#I'll sing it to you later if you know what I mean.$l",
@@ -514,7 +514,7 @@
     "AfterDark.Core.Sam.Jealous.Dating.Elliott": "Don't give me that look.$a#$b#I've told you numerous times you were mine and you go hookup with Elliott of all people.$a#$b#Now, be a good {{LGoodName}} and break up with him.[277]$u",
     "AfterDark.Core.Sam.Jealous.Married.Elliott": "Are you sure you want to stay married to Elliott?$s#$b#I'm sure I could offer a lot more than he can.$a",
     "AfterDark.Jealousy.Sam.Early.Elliott.1": "Man, I'm so fucking tired of Elliott coming into the bar on Friday nights.$s#$b#Oh, didn't I tell you?$7#$b#Yeah, last time he got a little too tipsy and spent hours going on and on about some stupid book idea of his.$s",
-    "AfterDark.Jealousy.Sam.Early.Elliott.2": "Hey, did I tell you that I ran into Elliott the other day while near the river?#$b#Ugh, yeah. I tried to be friendly but he kept going on and on about his \"new muse\" or whatever.$a#$b#Yoba, do me a favor and stay away from that guy, @.$7",
+    "AfterDark.Jealousy.Sam.Early.Elliott.2": "Hey, did I tell you that I ran into Elliott the other day while near the river?#$b#Ugh, yeah. I tried to be friendly but he kept going on and on about his \"new muse\" or whatever.$a#$b#Do me a favor and stay away from that guy, @.$7",
     "AfterDark.Jealousy.Sam.Late.Elliott.1": "...$a#$b#Don't tell me you've been falling for all those love letters he writes, @.$a#$b#I mean, what other reason could you have for talking to Elliott so much?$s",
     "AfterDark.Jealousy.Sam.Late.Elliott.2": "Why have you been spending so much time with Elliott lately?$7#$b#Does being a failed author turn you on that much, {{LPetName}}?$a#$b#C'mon, hurry up and tell him you're not interested so I can have you all to myself again.$l",
 
@@ -522,7 +522,7 @@
     "AfterDark.Core.Sam.Jealous.Dating.Harvey": "Let's be smart about this, {{LPetName}}.$a#$b#Leave Harvey and come back to me before I make you.[277]$7",
     "AfterDark.Core.Sam.Jealous.Married.Harvey": "Does Harvey give you discounts to his services now that you're married?$s#$b#He doesn't? Well why the hell would you choose him over me, then?$a",
     "AfterDark.Jealousy.Sam.Early.Harvey.1": "Hey, you've met Harvey, right?$7#$b#You ever notice how sometimes he—$a#$b#Ugh, never mind. I shouldn't be talking to you about this.$7",
-    "AfterDark.Jealousy.Sam.Early.Harvey.2": "Yoba, I can't stop thinking about my last appointment I had with Harvey.$s#$b#Yoba, that man just gives me the chills.$7",
+    "AfterDark.Jealousy.Sam.Early.Harvey.2": "I can't stop thinking about my last appointment I had with Harvey.$s#$b#Yoba, that man just gives me the chills.$7",
     "AfterDark.Jealousy.Sam.Late.Harvey.1": "...$a#$b#Sorry, I'm just trying to think of any reason for you to befriend that creep of a doctor.$a#$b#Do yourself a favor, @: Run. Away.$7",
     "AfterDark.Jealousy.Sam.Late.Harvey.2": "%You notice Sam frantically running his hands through his hair.#$b#Oh, there you are, @.$7#$b#Listen, I can't help but notice how... friendly you've been with Harvey lately.$7#$b#Do you know about his...$s#$b#Or even what he does with your—$a#$b#Please, {{LPetName}}. Get away from him while you still can.$7",
 
@@ -531,7 +531,7 @@
     "AfterDark.Core.Sam.Jealous.Married.Sebastian": "I'm not super into polygamy, but if you don't divorce Sebastian I might have to end up sharing you.$s",
     "AfterDark.Jealousy.Sam.Early.Sebastian.1": "Man, Sebastian's been getting me to do all these little tasks for him lately.$s#$b#Hm? What tasks?$7#$b#Oh... Uh—$8#$b#It's nothing. Just stuff for this new DND campaign he was thinking about starting.$10",
     "AfterDark.Jealousy.Sam.Early.Sebastian.2": "Sebastian was talking about getting a new piercing the other day and it got me thinking...#$b#$y 'Say @, if you had to choose one, which should I get?_Definitely an eyebrow piercing._Huh... I guess I can see that. Thanks @.$10_Definitely a tongue piercing._Huh, really? Eager to feel that little piece of metal dragging across your neck, {{LPetName}}?$l'",
-    "AfterDark.Jealousy.Sam.Late.Sebastian.1": "{{PetName}}, do you have to talk to Sebastian so much?$s#$b#Yoba, I hate just the image of you guys...$s#$b#Actually, it wouldn't be so bad now that I think about it.$l",
+    "AfterDark.Jealousy.Sam.Late.Sebastian.1": "{{PetName}}, do you have to talk to Sebastian so much?$s#$b#I don't know, I just really hate the image of you guys...$s#$e#Actually, it wouldn't be so bad now that I think about it.$l",
     "AfterDark.Jealousy.Sam.Late.Sebastian.2": "Seb's been talking about you so much lately.$s#$b#Since when did you guys get so close?$7#$b#I know I should be happy that you and my best friend are getting along but...$s#$b#Can't I just have you all to myself, {{LPetName}}?$7",
 
     // Shane
@@ -612,7 +612,7 @@
     "AfterDark.Family.Sam.Vincent.4": "Say, are you any good at math?#$b#Penny's been driving me crazy with all these worksheets she's been giving Vince as \"extra\" help.$s#$b#I swear, if I have to look at one more addition sign I might explode.$a",
     "AfterDark.Family.Sam.Vincent.5": "I've been thinking about teaching Vince how to play guitar but...$s#$b#His hands are always so... grimy.$s#$b#Maybe I should just wait until he's older.$10",
 
-    "AfterDark.Family.Sam.Jodi.1": "You know, I love my mom and Vincent and all but...$s#$b#Yoba, I just wish I could have a few moments to myself without one of them asking me for something.$a#$e#Sorry about that, @. I swear, being around you always makes me feel like I can tell you anything.$u#$b#Did you need something though?",
+    "AfterDark.Family.Sam.Jodi.1": "You know, I love my mom and Vincent and all but...$s#$b#I just wish I could have a few moments to myself without one of them asking me for something.$a#$e#Sorry about that, @. I swear, being around you always makes me feel like I can tell you anything.$u#$b#Did you need something though?",
     "AfterDark.Family.Sam.Jodi.2": "Ugh, I wish I could just keep one of my damn paychecks for myself.$a#$b#Sorry, money's been tight lately and I've had to put in pretty much my entire paycheck to making sure the lights stay on.$s",
     "AfterDark.Family.Sam.Jodi.3": "Hey, my mom was mentioning something about starting a garden to save some extra money.#$b#Do you think you could stop by sometime and help out?$u#$b#Don't worry, I'll be sure to reward you plenty for all your hard work.$l",
     "AfterDark.Family.Sam.Jodi.4": "Jeez, I never realized just how much gossip this town had.$s#$b#My mom invited her friends over for drinks the other night and I don't think there was one quiet moment with all they had to talk about.$7#$e#Hm?$7#$b#Oh, don't worry.$u#$b#Oddly enough, they didn't even mention you.",
@@ -675,7 +675,7 @@
     "AfterDark.Marriage.Sam.SpouseRoom.5": "%Sam is focused on fixing his boombox, but looks up when you walk up, asking what he's doing.#$b#Hm?$7#$b#Oh, it's nothing...$u#$e#Fine, you caught me... I was trying to get this track of your laughter to play correctly.$s#$b#What? Can you blame me?$10#$b#Your laugh is my favorite song, {{LPetName}}.$l",
     "AfterDark.Marriage.Sam.SpouseRoom.6": "Hey {{LPetName}}, I made you something to help with last night.$u#$b#I would say I'm sorry about how rough I was, but we both know that'd be a lie.[253 395]$l",
     "AfterDark.Marriage.Sam.SpouseRoom.7": "Good morning my {{LDescript}} little {{LMarriageName}}.$l#$b#Here, I made you a cup of coffee to help you wake up.[395]$u",
-    "AfterDark.Marriage.Sam.SpouseRoom.8": "Oh, there you are.$u#$b#Yoba, I swear, when I see you sleeping, it just gets my mind going with more and more song lyrics to write.$10#$b#Speaking of, have I ever told you how sometimes it still feels like I'm dreaming when I wake up to see you?$l#$b#That'd be a good lyric, right?$10",
+    "AfterDark.Marriage.Sam.SpouseRoom.8": "Oh, there you are.$u#$b#I swear, when I see you sleeping, it just gets my mind going with more and more song lyrics to write.$10#$e#Speaking of, have I ever told you how sometimes it still feels like I'm dreaming when I wake up to see you?$l#$b#That'd be a good lyric, right?$10",
     "AfterDark.Marriage.Sam.SpouseRoom.9": "%You notice Sam messing with his guitar, not picking it up.#$b#Oh, hey {{LPetName}}.$10#$b#What am I doing?$8#$b#Oh... I've been a little dry on ideas for songs lately.$s#$b#But, I'm hoping that looking at my guitar'll fix that.$u#$e#Actually, now that you're here... I can think of a few ideas I could try out.$l",
     "AfterDark.Marriage.Sam.SpouseRoom.10": "Hey, now that you're here, I was thinking of putting an order in online for some...$u#$b#Err...$s#$b#Actually, never mind. I know exactly what you'd like.$u",
 
@@ -776,7 +776,7 @@
     "AfterDark.Marriage.Sam.Summer.3": "Here, I was walking past a bunch earlier before you woke up.[593]$u#$b#I thought it'd go well with your eyes.$l",
     "AfterDark.Marriage.Sam.Summer.4": "Do you think Seb would let me steal his motorcycle so I could take you out on a little roadtrip?#$b#Hm... Maybe he would if you were the one asking...$a",
     "AfterDark.Marriage.Sam.Summer.5": "Hmmm...$l#$b#What do I have to do to get my {{LDescript}} little {{LMarriageName}} to wear a tiny little bathing suit and go out to the beach with me today, hm?$l",
-    "AfterDark.Marriage.Sam.Summer.6": "Yoba, it's so fucking hot out today.$s#$b#Can you help me out and take off a few of my clothes?$7#$b#Maybe you could join me...$l",
+    "AfterDark.Marriage.Sam.Summer.6": "Ugh, it's so fucking hot out today.$s#$b#Can you help me out and take off a few of my clothes?$7#$b#Maybe you could join me...$l",
     "AfterDark.Marriage.Sam.Summer.7": "I hear it'll be a lot cooler tonight.$u#$b#Speaking of, do you maybe wanna go out to the beach and take a walk with me?#$b#I'd love to spend a few hours catching up with my {{LMarriageName}}.$l",
     "AfterDark.Marriage.Sam.Summer.8": "...$l#$b#Have I ever told you how you make my heart race, my palms a little sweaty...$l#$b#Ugh, wait, I think it might actually be the heat doing it to me.$s",
     "AfterDark.Marriage.Sam.Summer.9": "...$s#$b#Man, I have a few new song ideas, but I can't strum it out with how sweaty my hands are from this heat.$s",
@@ -796,13 +796,13 @@
 
     // Winter
     "AfterDark.Marriage.Sam.Winter.1": "Don't forget to wear a jacket today.#$b#I can't have my {{LPetName}} getting sick now, can I?$u",
-    "AfterDark.Marriage.Sam.Winter.2": "%You notice Sam shivering.#$b#Yoba, it's so cold out today.$s#$b#Can you stay home today since there's not a lot of crops to grow in winter?#$b#Please? I need my {{LPetName}} to warm me up.$l",
+    "AfterDark.Marriage.Sam.Winter.2": "%You notice Sam shivering.#$b#Fuck, it's so cold out today.$s#$b#Can you stay home today since there's not a lot of crops to grow in winter?#$b#Please? I need my {{LPetName}} to warm me up.$l",
     "AfterDark.Marriage.Sam.Winter.3": "...$s#$b#Sorry, I couldn't find any mistletoe this year, but maybe you'll let me kiss you under one of these.[283]$10",
     "AfterDark.Marriage.Sam.Winter.4": "Hey, close your eyes. I have something special for you.$u#$b#I told you I'd find something in winter that'd brighten your day.[418]$10",
     "AfterDark.Marriage.Sam.Winter.5": "Hey, how do you feel about going to the bathhouse later for a little 'treat yourself' night?#$b#You could relax in the water...$u#$b#And I could relax to the sight of you.$l",
     "AfterDark.Marriage.Sam.Winter.6": "Hmm...$7#$b#Are you coming down with a cold, {{LPetName}}?$7#$b#You really should take a break, stay home or something.$s#$b#Actually, that's not a suggestion. Stay home or I'll hold you down with an old guitar strap.$a",
     "AfterDark.Marriage.Sam.Winter.7": "Y'know, one of these winters, since you're not working that much, we should uh...$10#$b#I don't know, maybe like a marathon or something?$u#$b#Wait, I don't mean running—$8#$b#Ugh, forget it.$s",
-    "AfterDark.Marriage.Sam.Winter.8": "Brrr...$s#$b#Yoba, it's cold out.$s#$b#Can you stay home today?$7#$b#I need my {{LDescript}} little {{LMarriageName}} to keep me nice and toasty.$l",
+    "AfterDark.Marriage.Sam.Winter.8": "Brrr... It's cold out.$s#$b#Can you stay home today?$7#$b#I need my {{LDescript}} little {{LMarriageName}} to keep me nice and toasty.$l",
     "AfterDark.Marriage.Sam.Winter.9": "Ugh, I could really go for some hot cocoa right about now.$s#$b#I haven't had some since we moved from the city, for some reason it's hard to find here.$s#$b#Hey, maybe one of these days you could grow some cocoa beans if you find them.$u",
     "AfterDark.Marriage.Sam.Winter.10": "Y'know, you really shouldn't be outside today.$s#$b#If you keep going out in the cold like this, you might get sick.$7#$b#Not that I mind nursing to health, I'd rather not see you suffer like that.$s",
 
@@ -828,7 +828,7 @@
     "AfterDark.Marriage.Sam.Rainy.Night.2": "Aww, your clothes are all wet from the rain.$l#$b#Here, let me help you get out of them.$u",
     "AfterDark.Marriage.Sam.Rainy.Night.3": "Y'know, I never get tired of seeing you drenched from the rain.$l#$b#Here, let me run you a hot bath to warm you up.$u",
     "AfterDark.Marriage.Sam.Rainy.Night.4": "Hey, welcome home.$u#$b#Do you need me to run you a bath? I bet you're cold from the rain.",
-    "AfterDark.Marriage.Sam.Rainy.Night.5": "Yoba, I fucking love when you're all soaked from the rain.$l",
+    "AfterDark.Marriage.Sam.Rainy.Night.5": "Damn, I fucking love when you're all soaked from the rain.$l#$b#Hold on, turn around. I wanna see everything.$l",
     "AfterDark.Marriage.Sam.Rainy.Night.6": "Did you just come in from the rain or are you just soaked from seeing me?$l#$b#I'm kidding, let me run you a hot bath or something.$u",
     "AfterDark.Marriage.Sam.Rainy.Night.7": "Ugh, you're all wet from the rain; it makes me wish you would've just stayed home today.$s#$b#Here, let me go run a bath before you get a cold.",
     "AfterDark.Marriage.Sam.Rainy.Night.8": "...$s#$b#Did you have to go out in the rain today?$s#$b#Now the floor's all dirty...$s",
@@ -868,7 +868,7 @@
     "AfterDark.Marriage.Sam.Outdoor.3": "I still can't believe I get to call you mine.$l#$b#Hey, why don't we go ahead and fuck in the middle of townsquare so everyone else knows it as well?$u",
     "AfterDark.Marriage.Sam.Outdoor.4": "Mmmm... Wait, don't leave quite yet.$l#$b#I need a kiss or two or maybe even three before you leave.$l",
     "AfterDark.Marriage.Sam.Outdoor.5": "Damn, now that I'm really taking a look at it, your farm is massive.#$b#I bet playing hide and seek with you would be fun.$u#$e#Hmm...$l#$b#When we do play, and I find you, do you think I could choose the reward?$l",
-    "AfterDark.Marriage.Sam.Outdoor.6": "Yoba, I still can't get used to being out here on a farm.$s#$b#I went out to feed the animals this morning and nearly had a heart attack seeing mice run around.$7#$b#You know I would've give this up for the world though, right?$l",
+    "AfterDark.Marriage.Sam.Outdoor.6": "Man, I still can't get used to being out here on a farm.$s#$b#I went out to feed the animals this morning and nearly had a heart attack seeing mice run around.$7#$b#You know I would've give this up for the world though, right?$l",
     "AfterDark.Marriage.Sam.Outdoor.7": "Hmm...$7#$b#I'm thinking of sweeping the porch and maybe doing some handiwork around the house today.#$e#Hm? Oh, no I don't need help.$u#$b#You focus on looking {{LDescript}} and doing what you need to get done.",
     "AfterDark.Marriage.Sam.Outdoor.8": "Oh! I meant to tell you the other day while I was out here sweeping, I saw the coolest bird!$u#$b#Oh, listen to me, that sounded so lame.$s#$b#Anyways, don't forget to give me a kiss before you leave, yeah?$u",
     "AfterDark.Marriage.Sam.Outdoor.9": "Hey, how do you think the animals would react if I played guitar out here?#$b#I've been considering it but...$s#$b#I don't want them upset with me.$7",
@@ -989,7 +989,7 @@
     "AfterDark.Gift.Sam.GiftReaction.Pizza.true.2": "You know just what to get me to make me feel better huh, @?$u#$b#Though, you know what'd make this even better?#$b#If you let me get a slice of that ass next, {{LPetName}}.$l",
     "AfterDark.Gift.Sam.GiftReaction.Pizza.true.3": "I love how you always know how to cheer me up with stuff like this, @.$u#$b#Though, I think I'd rather have a slice of that ass next, {{LPetName}}.$l",
 
-    "AfterDark.Gift.Sam.GiftReaction.TigerEye.false.1": "Yoba, where did you find one of these?$8#$b#You didn't hurt yourself getting it, did you?$a#$b#Thank you {{LPetName}}, but you don't have to go through all that trouble for me.$10",
+    "AfterDark.Gift.Sam.GiftReaction.TigerEye.false.1": "Where did you find one of these?$8#$b#You didn't hurt yourself getting it, did you?$a#$b#Thank you {{LPetName}}, but you don't have to go through all that trouble for me.$10",
     "AfterDark.Gift.Sam.GiftReaction.TigerEye.false.2": "Oh, what a cool rock.#$b#Thanks, @.$u#$e#Wait— Aren't tiger eye's really rare? How did you get one of these?$8#$b#Looks like I'll have to step up my gift—giving game a little more from now on.$10",
     "AfterDark.Gift.Sam.GiftReaction.TigerEye.true.1": "I swear, every time I get one of these I can't help but think of how pretty they are.$10#$b#Though, its looks could never compare to yours.$l",
     "AfterDark.Gift.Sam.GiftReaction.TigerEye.true.2": "Thanks, {{LPetName}}.$u#$b#Actually, maybe I'll ask Emily if she could turn this one into a necklace for you.#$b#I'd love to see something of mine wrapped around that pretty little neck of yours.$l",
@@ -1086,7 +1086,7 @@
     "AfterDark.Festival.Sam.spring24.false.2": "...$l#$b#Sorry, you just look really {{LDescript}} today.$10",
     "AfterDark.Festival.Sam.spring24.false.3": "%You notice Sam tugging at the collar of his suit.#$e#Hm?$7#$b#Oh, it's nothing.$u#$b#Though, if you're offering, I'd love a chance to get out of this suit.$l#$b#No seriously, it's suffocating in more ways than one.$s",
     "AfterDark.Festival.Sam.spring24.true.1": "Y'know, it was really hard to not keep you home when I saw you getting ready this morning.$10#$b#Dance with me? Make the waiting worth it?$l",
-    "AfterDark.Festival.Sam.spring24.true.2": "Yoba, you always look so {{LDescript}} at this festival.$10#$b#Come on {{LPetName}}, ask me to dance with you again.$l",
+    "AfterDark.Festival.Sam.spring24.true.2": "You always look so {{LDescript}} at this festival.$10#$b#Come on {{LPetName}}, ask me to dance with you again.$l",
     "AfterDark.Festival.Sam.spring24.true.3": "...$l#$b#Y'know, I could get used to you wearing things like that.$10#$b#So, are you going to ask me to dance, {{LPetName}}?$u",
 
     // FD Acceptance/Denial
@@ -1098,7 +1098,7 @@
 
     // Luau 
     "AfterDark.Festival.Sam.summer11.false.1": "The waves here really suck for surfing.$s#$b#Hmm...$7#$b#Now that I think about it, it'd be really hot to watch you ride my board.$l#$e#Huh? The Luau?$7#$b#Oh, right— I nearly forgot about that...$10",
-    "AfterDark.Festival.Sam.summer11.false.2": "Yoba, this festival is always so boring.$s#$b#They won't even let me near the pot anymore due to the little 'incident' I caused a few years back.$a#$b#Hey, what do you say about leaving early to go find a secluded spot? Y'know, with just us?$l",
+    "AfterDark.Festival.Sam.summer11.false.2": "This festival is always so boring.$s#$b#They won't even let me near the pot anymore due to the little 'incident' I caused a few years back.$a#$b#Hey, what do you say about leaving early to go find a secluded spot? Y'know, with just us?$l",
     "AfterDark.Festival.Sam.summer11.false.3": "...$s#$b#Damn, I'm almost sad you didn't show up in a bathing suit this year.$7",
     "AfterDark.Festival.Sam.summer11.true.1": "Ugh, I should've brought a camera today.$a#$b#You just always look so {{LDescript}} next to the ocean, surrounded by sand.$10#$b#Remind me to force you back here tomorrow to take some pictures alone.$u",
     "AfterDark.Festival.Sam.summer11.true.2": "%You hear Sam sigh loudly.#$b#{{PetName}}, I know just how much you loooove slipping things into people's foods but...$7#$b#Do we have to keep coming here every year? It's always so boring.$s#$b#I'd much rather be home alone with you.$u",
@@ -1262,6 +1262,7 @@
     "AD.Sam.Mail.ADSamGenericMail1": "Has anyone ever told you just how {{LDescript}} you are, {{LPetName}}?",
 
     "AD.Sam.Mail.ADSamGenericMail2.1": "It's crazy just how many lines for songs... sonnets... poems... what ever you're into, really... pop into my head after getting a little taste of you, {{LPetName}}.",
+    // yeah this is an error; but i just fixed it on the code so translations wouldn't change icl
     "AD.Sam.Mail.ADSamGenericMail1.2": "I can't wait for you to find out who I am...",
 
     "AD.Sam.Mail.ADSamGenericMail3.1": "@~",

@@ -1,0 +1,17 @@
+{
+    "Name": "[CP] After Dark Series - Harvey",
+    "Author": "loshionbottle & bruhmoment",
+    "Description": "Adds over 450 lines of dialogue and creepy ass yandere events for Harvey.",
+    "Version": "1.0.0",
+    "UniqueID": "bruhbottle.harveyafterdark",
+    "UpdateKeys": [ "" ],
+    "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+      {
+        "UniqueID": "caterbottle.shadowsafterdark",
+        "IsRequired": true
+      }
+    ]
+}

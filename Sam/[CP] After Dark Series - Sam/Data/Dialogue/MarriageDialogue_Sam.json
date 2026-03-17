@@ -14,7 +14,7 @@
         {
             "LogName": "Sam Conversation Topics - Married",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/MarriageDialogueSam",
+            "Target": "Characters/Dialogue/Sam",
             "When": { "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue" },
             "Entries": {
                 // two kids 
@@ -101,13 +101,13 @@
                 "Indoor_Day_2": "{{i18n:AfterDark.Marriage.Sam.Indoor.Day.{{Random:{{Range: 0, 10}}}}{{GeneralPlayerEndearment}}}}",
                 "Indoor_Day_3": "{{i18n:AfterDark.Marriage.Sam.Indoor.Day.{{Random:{{Range: 0, 10}}}}{{GeneralPlayerEndearment}}}}",
                 "Indoor_Day_4": "{{i18n:AfterDark.Marriage.Sam.Indoor.Day.{{Random:{{Range: 0, 10}}}}{{GeneralPlayerEndearment}}}}",
-                "Indoor_Night_Sam": "{{i18n:AfterDark.Marriage.Sam.Indoor.Night.Sam}}",
+                "Indoor_Night_Sam": "{{i18n:AfterDark.Marriage.Sam.Indoor.Night.Sam{{GeneralPlayerEndearment}}}}",
                 "Indoor_Night_0": "{{i18n:AfterDark.Marriage.Sam.Indoor.Night.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
                 "Indoor_Night_1": "{{i18n:AfterDark.Marriage.Sam.Indoor.Night.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
                 "Indoor_Night_2": "{{i18n:AfterDark.Marriage.Sam.Indoor.Night.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
                 "Indoor_Night_3": "{{i18n:AfterDark.Marriage.Sam.Indoor.Night.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
                 "Indoor_Night_4": "{{i18n:AfterDark.Marriage.Sam.Indoor.Night.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
-                "Outdoor_Sam": "{{i18n:AfterDark.Marriage.Sam.Outdoor.Sam}}",
+                "Outdoor_Sam": "{{i18n:AfterDark.Marriage.Sam.Outdoor.Sam{{GeneralPlayerEndearment}}}}",
                 "Outdoor_0": "{{i18n:AfterDark.Marriage.Sam.Outdoor.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
                 "Outdoor_1": "{{i18n:AfterDark.Marriage.Sam.Outdoor.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
                 "Outdoor_2": "{{i18n:AfterDark.Marriage.Sam.Outdoor.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
@@ -115,7 +115,7 @@
                 "Outdoor_4": "{{i18n:AfterDark.Marriage.Sam.Outdoor.{{Random:{{Range: 0, 9}}}}{{GeneralPlayerEndearment}}}}",
                 // Lil jits
                 "OneKid_0": "{{i18n:AfterDark.Marriage.Sam.OneKid.0}}",
-                "OneKid_1": "{{i18n:AfterDark.Marriage.Sam.OneKid.1}}",
+                "OneKid_1": "{{i18n:AfterDark.Marriage.Sam.OneKid.1{{GeneralPlayerEndearment}}}}",
                 "OneKid_2": "{{i18n:AfterDark.Marriage.Sam.OneKid.2}}",
                 "OneKid_3": "{{i18n:AfterDark.Marriage.Sam.OneKid.3}}",
                 "TwoKids_0": "{{i18n:AfterDark.Marriage.Sam.TwoKids.{{Random:{{Range: 0, 4}}}}{{GeneralPlayerEndearment}}}}",

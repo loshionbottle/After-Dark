@@ -103,3 +103,25 @@ changelog from 4.1.0 onward to make translators lives a bit easier;
         5.0.10: Fixed B error on AfterDark.Core.Sam.Spring.MidHeart.5
         - Fixed typo in AfterDark.Core.Sam.Saloon.4
         - Added {{GeneralPlayerEndearment}} to bad marriage lines -- oops
+        5.1.0: Fixed a few marriage { errors
+        - Eradicated Yoba's existence in (I just changed the wording of) the following lines:
+            AfterDark.Core.Sam.Spring.EarlyHeart.6
+            AfterDark.Core.Sam.Spring.MidHeart.11
+            AfterDark.Core.Sam.Spring.LateHeart.5
+            AfterDark.Core.Sam.Winter.EarlyHeart.13
+            AfterDark.Core.Sam.Winter.MidHeart.14
+            AfterDark.Core.Sam.Winter.LateHeart.2
+            AfterDark.Core.Conversation.SamMarriedCooks.Memory.OneWeek
+            AfterDark.Jealousy.Sam.Early.Elliott.2
+            AfterDark.Jealousy.Sam.Early.Harvey.2
+            AfterDark.Jealousy.Sam.Late.Sebastian.1
+            AfterDark.Family.Sam.Jodi.1
+            AfterDark.Marriage.Sam.SpouseRoom.8
+            AfterDark.Marriage.Sam.Summer.6
+            AfterDark.Marriage.Sam.Winter.2
+            AfterDark.Marriage.Sam.Winter.8
+            AfterDark.Marriage.Sam.Rainy.Night.5
+            AfterDark.Marriage.Sam.Outdoor.6
+            AfterDark.Gift.Sam.GiftReaction.TigerEye.false.1
+            AfterDark.Festival.Sam.spring24.true.2
+            AfterDark.Festival.Sam.summer11.false.2

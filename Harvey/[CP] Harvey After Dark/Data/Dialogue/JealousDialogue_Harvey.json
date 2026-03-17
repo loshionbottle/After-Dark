@@ -1,0 +1,27 @@
+// Festival Dialogue 
+
+{
+    "Changes": [
+       {
+            "LogName": "Harvey's Festival Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13, Data/Festivals/spring24, Data/Festivals/summer11, Data/Festivals/summer28, Data/Festivals/fall16, Data/Festivals/fall27, Data/Festivals/winter8, Data/Festivals/winter28",
+            "Entries": {
+                "Harvey": "{{i18n:AfterDark.Festival.Harvey.{{TargetWithoutPath}}.{{Relationship:Harvey |contains=Married}}.{{Random:{{Range: 1, 2}}}} |LPetName={{LPetName}} |LDescript={{LDescript}}}}",
+                "Harvey_y2": "{{i18n:AfterDark.Festival.Harvey.{{TargetWithoutPath}}.{{Relationship:Harvey |contains=Married}}.{{Random:{{Range: 1, 2}}}} |LPetName={{LPetName}} |LDescript={{LDescript}}}}",
+                "Harvey_spouse": "{{i18n:AfterDark.Festival.Harvey.{{TargetWithoutPath}}.{{Relationship:Harvey |contains=Married}}.{{Random:{{Range: 1, 2}}}} |LPetName={{LPetName}} |LDescript={{LDescript}}}}",
+                "Harvey_spouse_y2": "{{i18n:AfterDark.Festival.Harvey.{{TargetWithoutPath}}.{{Relationship:Harvey |contains=Married}}.{{Random:{{Range: 1, 2}}}} |LPetName={{LPetName}} |LDescript={{LDescript}}}}"
+            }
+       },
+       {
+            "LogName": "Harvey's Desert Dialogue",
+            "Action": "EditData",
+            "Target": "Strings/1_6_Strings",
+            "Entries": {
+                "DesertFestival_Harvey": "{{i18n:AfterDark.Festival.Harvey.Desert}}",
+                "DesertFestival_Harvey_marriage": "{{i18n:AfterDark.Festival.Harvey.Desert.Married |LDescript={{LDescript}}}}",
+                "Shop_Harvey": "{{i18n:AfterDark.Festival.Harvey.Desert.Shop |LPetName={{LPetName}}}}"
+            }
+       }
+    ]
+}

@@ -15,7 +15,7 @@
             "When": {
                 "Death Consequences": "On",
                 "RandomNumber": "1"
-            }
+            } 
         },
         {
             "LogName": "Hospital Death - NM Lucky",
