@@ -102,6 +102,8 @@
     - soup7430
     - dovah_kinstead (village idiot)
     - stary.hollow (cyra)
+    - drboywonderr
+    - verrah22
     */
 
     /* Yoba, I wish I could stand out in the open fields here all day. All of the blooming flowers and weeds make such good medicine.
@@ -224,7 +226,42 @@
     "AfterDark.Core.Harvey.Spring.MidHeart.15": "",
 
     /* 
-    
+    Why are you in town? Your disease--
+    Here, let me do all the shopping for you, petname. You go back to the farm and rest, yeah?
+
+    I've seen all the work you've been doing on your farm lately, but...
+    Do you ever listen to me? You should really be taking this disease more seriously. You could get hurt if you overexert yourself. 
+
+    ...$l#$b#Sorry, I just can't help but to stare when the scenery's so beautiful...
+    You don't have to leave, right? You can stay here all day with me?
+
+    Mmmm... You look paler than usual.
+    You weren't in the mines again, were you?
+
+    %Harvey's lost in thought, mumbling to himself about medications and their interactions.#$b#Hm? Oh. ...$l Sorry, I didn't expect to see you today, petname. How are you?
+    You're not working too hard, right? Might have to drag you to one of our empty beds if you are.
+
+    ...$s#$b#You don't think I'm... controlling, do you?
+    I just... I just care about your health is all, petname. I know what's best for you.
+
+    %Harvey notices a petal on your hair, picking it out.#$b#How fitting, hm? Even while you're here just chatting with me, you still need me to take care of you. 
+    What'd you come by for, anyway?
+
+    Oh, hold on. %Harvey takes your wrist, checking your pulse. #$b#Your heartbeat is running a little high, are you sure you should be running around in your condition? You could seriously hurt yourself, petname! Here, come sit on one of the chairs in the waiting room to calm yourself down. 
+
+    Here, I thought you should eat something other than random things you forage. Someone in your condition needs to eat hearty! [237] \\ super meal
+
+    %Harvey takes out a small hankerchief, wiping some sweat away from your brow, pocketing the fabric before smiling. Please make sure you're taking care of yourself, petname. I wouldn't want you to end up on my examination bed before your next appointment. 
+
+    Did you know chocolates are considered to be an aphrodisiac? It contains small amounts of substances that boost pleasure and reduce stress, including phenylethylamine, tryptophan, and theobromine.  While its not the most healthy of gifts, I just had to get you some, my dear. [220]
+
+    You're glowing today, petname.
+    I think our treatments for your illness may finally be helping, but don't put any unecessary strain on yourself! Doctor's orders.
+
+    I had the strangest dream about you last night...
+    Say, do you think it'd be hard to tie you down? Maybe rope would do the trick or... No, you'd need something more medicinal...
+
+    It gets lonely at night in the clinic. You should keep me company sometime. Even doctors need some TLC. 
     */ 
     "AfterDark.Core.Harvey.Spring.LateHeart.1": "",
     "AfterDark.Core.Harvey.Spring.LateHeart.2": "",
@@ -242,7 +279,9 @@
     "AfterDark.Core.Harvey.Spring.LateHeart.14": "",
     "AfterDark.Core.Harvey.Spring.LateHeart.15": "",
 
-
+    /*
+     
+    */
     // SUMMER
     "AfterDark.Core.Harvey.Summer.EarlyHeart.1": "",
     "AfterDark.Core.Harvey.Summer.EarlyHeart.2": "",
@@ -301,6 +340,8 @@
 
     /*
     // Hey, don't forget flu season's starting soon. Make sure you swing by and get yourself a flu shot, yeah?
+
+    Hey, I heard these were great aphrodisiacs.[421] Maybe we can test that theory at your next appointment.
     */
 
     // FALL
