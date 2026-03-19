@@ -104,6 +104,8 @@
     - stary.hollow (cyra)
     - drboywonderr
     - verrah22
+    - kii.ri
+    - Lady-Lancer 
     */
 
     /* Yoba, I wish I could stand out in the open fields here all day. All of the blooming flowers and weeds make such good medicine.
@@ -280,7 +282,53 @@
     "AfterDark.Core.Harvey.Spring.LateHeart.15": "",
 
     /*
-     
+    ... (Shock) Sorry, I just don't think I've ever seen you in anything but your normal getup. Do you always wear less clothes during summer? 
+
+    It's always important to regulate your body temperature through these heatwaves. Say, are you free later? We could always go cool down by the beach if you're interested. 
+    Err, as a doctor wanting the best for his patient, of course. 
+
+    Y'know, the key to lowering your chances of melanoma are sunscreen and thin layers of clothing, especially with you being outside most of the day. 
+    Speaking of, do you ever take a break? You can always stop by the clinic for some AC and some electrolytes if needed.
+
+    Hey, I was looking through your files earlier and hope you don't mind that I... Err, I adjusted it a bit. Just some doctor jargon, nothing to worry about, promise. 
+
+    I know it gets hot down here in the valley, but make sure you're keeping your windows closed at night, yeah?
+    Why? Oh... Uh, contrary to popular belief, drafts, especially when you're sleeping, can be detrimental to your health! 
+    Just trust me...
+
+    Oh, I thought you'd show up today! Here, I made extra just for you. [253] // triple shot espresso
+
+    Oh, your face is so red and flushed, hold on, let me check your heart rate. 
+    ...
+    Hmm... You aren't overextering yourself, are you? You know people die every day due to not taking proper precautions in summer. 
+    Here, this should help you cool down. [873] // pina colada
+
+    It's awfully hot today, isn't it?
+    Make sure you're wearing enough sunscreen. I wouldn't want that beautiful skin to--
+    Err, I mean, I just wouldn't want you to get a sunburn is all.
+
+    Here, I thought you might like one of these... I found one over by the playground and thought it'd look good in your ha- [402] 
+    Err... Sorry, Just--Traditinally, lathyrus odoratus --err--sweet peas were used for wound dressings and for their anti-inflamatory benefits.
+    I thought it might help you stay safer when you're down in the mines. Albiet against medical advice, but...
+
+    Hey, I've been meaning to ask you: do you think I could get a spare key to your house? It'll just be for medical emergencies -- I have them for all my patients. 
+    I wouldn't want something to happen to you and you be all alone... 
+
+    I've been doing some reading into electroconvulsive therapy. Interesting stuff, I might say...
+    Though, some patients have been known to become more docile and suffer memory losses... 
+    Hm? What is electroconvulsive therapy?
+    Oh, shock therapy.
+    Why? Interested in a few sessions? Hm, it might help with the depression you might feel being alone all the time on that farm...
+
+    Oh, hold still.
+    %Harvey lifts your chin, inspecting your jaw and neck. He plucks a leaf from inside the collar of your shirt out.
+    Just needed to make sure everything's fine. Many things can be missed, y'know?
+
+    Have you been up to the bathhouse yet?
+    It might help some of those aches and pains you might have doing all that farmwork. 
+
+    You trust me, right? As your doctor, of course...
+    I only want what's best for you, petname. 
     */
     // SUMMER
     "AfterDark.Core.Harvey.Summer.EarlyHeart.1": "",
@@ -299,6 +347,63 @@
     "AfterDark.Core.Harvey.Summer.EarlyHeart.14": "",
     "AfterDark.Core.Harvey.Summer.EarlyHeart.15": "",
 
+    /*
+    I've been interested in learning more about the psychology aspect of medicine, but...
+    Ugh, the library here really isn't the best for that.
+    Maybe I should pay a visit to zuzu city soon...
+
+    Have you ever heard of the milgram experiment?
+    Well, to cut things short, it essentially tested the willingness of participants to obey an authority figure despite conflicts with their conscience.
+    ...
+    Do you think you'd follow someone, despite the heinous things they might ask you to do, petname? 
+
+    I was doing some reading the other day and stumbled upon a few books about the 'dancing plague.'
+    Apparently contemporaries blamed 'divine punishment' or 'hot blood' for the mass hysteria that happened in 1518. 
+    While the doctor part of me wants to blame potential ergot poisoning and just plain religious fears... I can't help but think divine punishment shows itself in mysterious ways, don't you agree?
+
+    How are you faring lately? You aren't over exterting yourself, are you? 
+    I worry about you, dealing with that illness and doing all this hard farmwork when the heat is bearing down...
+
+    We should have a safeword when you call me, so I know when you're okay vs. when you need help... You know I'd be there in a heartbeat to take care of you, petname.
+    Err... As your doctor that is.
+
+    Ugh, all this heat is making me sweat up a storm. I don't know how others can maintain facial hair, it all just... accumulates.
+    Do you think I should shave it? Maybe it's time for something new...
+
+    %Harvey seems distracted, listing a few conditions and their known symptoms, almost like he's quizzing himself so he won't forget.
+    ...
+    Oh, @! Sorry, didn't see you there.
+    Yoba, with the way you keep sneaking up on me, it can't be good for my heart. 
+
+    ...
+    Have you been running around this entire time without sunscreen? You look red.
+    Ugh, come on, I'll take you to an exam room to help you apply some since you clearly can't do it on your own.
+
+    Oh, I didn't think I'd get a chance to see you today! 
+    Well, since you're here, I think I could fit you in for a little checkup. How are you feeling with your disease and all?
+    Is the heat having an effect on you at all?
+
+    Y'know, long exposure to the sun can cause dizziness. 
+    If you ever need to lay down, you're more than welcome to in my be--Err, the clinic.
+    Just tell Maru I let you. 
+
+    Just because it's summer doesn't mean you can't get sick.
+    I've seen some of the stuff you do on that farm, petname. You should really wash your hands more often, given your condition and all.
+
+    Yoba, this heat is killing me. I could really use an iced coffee right about now. 
+    Hm... Wouldn't that be nice? Having a coffee shop here in the valley?
+
+    I know I should be grateful for the lack of illness in summer, but I can't help but worry for some of my patients. 
+    Take George for example, I'm sure his knees are killing him right about now. 
+    Hm, speaking of, are you growing any peppers? I'm sure they'd help out with their natural pain-relief properties. 
+
+    Have you a radio on that farm yet, petname? You should really look into getting one. 
+    I swear, summer skies are the best kind to listen in to, especially for planes. There's no interference from any clouds.
+
+    Have you seen any fireflies out yet? They love to come out during cool summer nights.
+    I guess I should show you my favorite spot someday, yeah? It could be a date! Err... A casual meeting between a doctor and their patient, yeah?
+    */
+
     "AfterDark.Core.Harvey.Summer.MidHeart.1": "",
     "AfterDark.Core.Harvey.Summer.MidHeart.2": "",
     "AfterDark.Core.Harvey.Summer.MidHeart.3": "",
@@ -314,6 +419,52 @@
     "AfterDark.Core.Harvey.Summer.MidHeart.13": "",
     "AfterDark.Core.Harvey.Summer.MidHeart.14": "",
     "AfterDark.Core.Harvey.Summer.MidHeart.15": "",
+
+    /*
+    You know, you shouldn't be out in the sun for too long, petname. I know you wanted to see me, but it's not worth risking your health for that. 
+
+    Hey, I heard these were great aphrodisiacs.[421] Maybe we can test that theory at your next appointment, yeah?
+
+    Y'know, next time you decide to be a brat at your checkup, I'll pull out the medical-grade restraints. 
+    Ain't no reason to stick your tongue out and lick me like that...
+
+    I know it's hot out, but you should really cover up. Thin layers are the key to preventing heat stroke out here.
+    Plus, it's not only the sun's gaze you have to be weary of...
+
+    %You overhear Harvey mumbling about new pieces of MRI and CT technology that he can't quite afford.
+    Oh, @. Sorry, I was just mumbling to myself how city doctors always get all this new, less-invasive and "safe" procedural tech, but...
+    I don't know, there's just something about doing things the old-fashioned way, right, petname?
+
+    Have you been taking your medicines lately?_Yes._Good {{Name}}. Keep it up and I might reward you at our next appointment._...Maybe_Don't lie to me, petname. I'll shove the pills down your throat if need be.
+
+    You look flushed in this heat. Do you want me to escort you home?
+    I could conduct a home exam if you need...
+
+    I can't believe it's almost been half a year already. How does the saying go? 
+    I guess time really does fly when you do the things you love?
+    
+    Has anyone ever told you you're just like summer, petname?
+    Warm and bright, yet fleeting. Let me cherish these moments with you, yeah? I'm not getting any younger...
+
+    Even though it gets pretty hot here during summer, visiting the bathhouse every once in a while is still good for your health. 
+    Something about the benefits of saunas have caused even some patients of mine to miraculously regain some lost mobility in their extremeties. 
+    If you'd like, I could go with you. I could use some pain relief myself. 
+
+    Have you been harvesting honey with all the flowers you're growing? 
+    I'm sure Vincent would like some. It's my secret to getting him to take cough medicine whenever he comes in with a cold. 
+
+    ...$l#$b#Hm? Oh, my cheeks are red?
+    Sorry, it must be the summer heat making me feel a little woozy.
+
+    ...$l#$b#Sorry, sometimes I like to imagine what it'd be like if our roles were reversed. It'd be cute to see you taking care of me, but I think it'd be best if we kept the medicine to me, yeah, petname?
+
+    Seeing you run around town makes me remember my college days. I had so much energy back then, I honestly miss having knees that didn't ache all the time.
+    I don't miss it for the life of me though, it wasn't until I was older that I got to meet you, after all. 
+
+    Mmm... Hold on, you don't look too well. Say 'ahh' for me, petname. I need to make sure you don't have heatstroke... or something worse. 
+    ...
+    You look fine, for now. Take it easy or I'll force you to relax in the clinic. 
+    */
 
     "AfterDark.Core.Harvey.Summer.LateHeart.1": "",
     "AfterDark.Core.Harvey.Summer.LateHeart.2": "",
@@ -331,17 +482,53 @@
     "AfterDark.Core.Harvey.Summer.LateHeart.14": "",
     "AfterDark.Core.Harvey.Summer.LateHeart.15": "",
 
-    // BIRTHDAY
-    "AfterDark.Core.Harvey.Birthday.0": "",
-    "AfterDark.Core.Harvey.Birthday.4": "",
-    "AfterDark.Core.Harvey.Birthday.6": "",
-    "AfterDark.Core.Harvey.Birthday.8": "",
-    "AfterDark.Core.Harvey.Birthday.10": "",
-
     /*
-    // Hey, don't forget flu season's starting soon. Make sure you swing by and get yourself a flu shot, yeah?
+    Hey, don't forget flu season's starting soon. Make sure you swing by and get yourself a flu shot, yeah?
+    
+    Ugh, fall being around makes me remember all the times Alex came to me with a concussion after his gridball practices. I'm so glad he stopped, but between you and me, the business was nice...
+    
+    Brrr... It's always so chilly this time of year. Make sure you cover up. Doctor's orders.
 
-    Hey, I heard these were great aphrodisiacs.[421] Maybe we can test that theory at your next appointment.
+    I can't believe how quickly the seasons have been changing this year. I can't believe it's already fall and I've yet to really get to know you.
+    Say, why don't we get a drink at Gus' sometime? We can err...
+    Discuss your medical record or something...
+
+    Hmm... Hold out your hands for me.
+    %Harvey runs his hands along your calloused hands, months of farmwork truly showing for the first time. 
+    ...
+    As I thought. Make sure you're taking care of these. It can get worse.
+
+    Fall's probably the busiest season for you, yeah?
+    Well, if you ever need extra energy tonics, I'd be happy to write a personalized prescription for you. 
+
+    Ugh, I tried changing my morning routine and adding some pumpkin spice to go along with the seasonal trends but...
+    ... Ugh.
+    I think I'll just stick to my normal cup of plain coffee...
+
+    Y'know, I keep seeing you run around without a jacket. As a doctor, I have to advise against that. 
+    Here, you could have mine for now, but seriously, bundle up more. Doctor's orders. [(S)1018] 
+
+    I know you're the type to forage a lot, so be careful while you're out there, yeah?
+    While fall is the time for a lot of mushrooms, there's been many cases of people mistaking the good ones from the bad ones. 
+
+    In a pinch, blackberry leaves can be used as a gargle for mouth and throat inflamation. 
+    But... Don't get any ideas, please. Due to the high levels of tannins, it can cause nausea and vomiting. 
+    If you have a cold or just a sore throat, you should always stop by the clinic. The stuff I have in here works a hell of a lot better. 
+
+    Say, have you found any hazelnut lately? It makes a wonderful addition to coffee when roasted. 
+    I'll have to brew you some whenever I get my hands on it, the flavor's to die for. 
+
+    That'll be the last time I try one of their "new and better fall flavors!". 
+    I'm so tired of falling for all the same gimicks these coffee companies run on their products.
+    It tasted like dirt. Such a shame to put good coffee beans to waste like that... 
+
+    Make sure you're keeping your windows closed and locked at night. With this type of weather, I fear the slightest breeze could trigger a cold. 
+    Though I'd love the business, I'd hate to see someone as {{LDescript}} as you sick. 
+
+    Don't take this the wrong way, but please, if I do something that makes you uncomfortable, do tell me.
+    There's nothing I hate more than to causing a patient displeasure. 
+
+    %You overheard Harvey mumbling something about lost medical records and patient's perscriptions. Maybe it's best you leave him alone to actually work today. 
     */
 
     // FALL
@@ -361,6 +548,63 @@
     "AfterDark.Core.Harvey.Fall.EarlyHeart.14": "",
     "AfterDark.Core.Harvey.Fall.EarlyHeart.15": "",
 
+    /*
+    %You overhear Harvey mumbling to himself.
+    Hm, oh, sorry petname. I just...
+    Ugh, I have so much work to do this time of year, it being flu season and all. Why don't you keep me company for a bit?
+
+    Oh, hold on. You look...
+    %Harvey presses his fingers to your throat, feeling for any abnormalities.
+    Do me a favor, say 'ahh'.
+    Mmm. Just what I thought. You need some rest, you look like you might come down with a cold if you don't bundle up, petname. 
+
+    I could really go for a cup of coffee right now... Ugh, there's nothing better than a fresh cup on a cold day like this.
+    Speaking of, I was just about to go put another pot of my favorite brew on, would you like some?
+
+    You aren't still going into the mines, are you? 
+    Petname, you know better than that. You could risk making your condition worse. 
+    At least tell me before you go down, yeah? That way I can stock up on extra supplies when I sa-
+    Err... If you come into the office afterwards. 
+
+    Make sure you're still maintaining a good diet, petname.
+    I know treats like Gus' pizza are good for its price, but make sure you're still eating veggies. You can't indulge in too much greasy food in your condition. 
+
+    I know you're growing a few pumpkins on your farm, if you intend to carve them please be careful, I wouldn't want you cutting yourself on accident.
+    You can always bring them to me, I mean, believe it or not I know my way around a bone saw, so how hard could a carving knife be?
+
+    All this labwork I've been doing has really been making my head spin.
+    I think it's the loneliness making it worse, honestly. 
+    Say, why don't you come and keep me company one of these days? It'd make it a hell of a lot more enjoyable running your results with you there next to me.
+    
+    Y'know, it's a little too cold to be wearing something like that, especially with your disease. 
+    Go back home and bundle up. As your doctor, the last thing I want is for you to get worse. 
+
+    Ugh, sometimes I think about moving to the city for a better chance at a successful clinic, but...
+    ...
+    I don't know, something about a peaceful life on a farm has been drawing me back into staying. 
+
+    Tch. My fingers are already starting to go numb and it's only fall. 
+    Hmm... Maybe some skin to skin contact would help get my blood flowing properly again. What do you think? 
+
+    Aww, petname. You always look so cute running around doing your errands, but...
+    Are you sure you should be doing all this in your condition? 
+
+    You seem a bit stressed, are you alright?
+    _It's all the farmwork..._Aww, petname. You need to take it easy. Someone in your health shouldn't work too hard.
+    _It's the disease..._Aww, petname. You're doing an amazing job taking care of it though! I'm sure you'll live a long life despite it.
+
+    Are you always this kind to everyone? Or just me.
+    Or... Is it just because I'm your doctor?
+    You don't have to put on a fascade around me, petname. I want you to treat me like any normal friend... Or... Potentially more than.
+
+    ...$a
+    Hm? Oh, sorry, I got into a tussle with another patient this morning. 
+    I guess they can't all be as {{LDescript}} as you.
+    
+    Ugh, this weather would be perfect to open a book and sit next to a fireplace all day. 
+    Too bad I have some paperwork to finish up...
+    */
+
     "AfterDark.Core.Harvey.Fall.MidHeart.1": "",
     "AfterDark.Core.Harvey.Fall.MidHeart.2": "",
     "AfterDark.Core.Harvey.Fall.MidHeart.3": "",
@@ -376,6 +620,55 @@
     "AfterDark.Core.Harvey.Fall.MidHeart.13": "",
     "AfterDark.Core.Harvey.Fall.MidHeart.14": "",
     "AfterDark.Core.Harvey.Fall.MidHeart.15": "",
+
+    /*
+    This season always brings the loveliest shades of reds and oranges to the leaves.
+    ... Hm...
+    I can't wait to see just how many different shades your face can make too.
+
+    I can almost feel the winter breezes coming through already.
+    Though, at least this year I can enjoy them with you. 
+
+    ...$l Sorry? I was staring?
+    Sorry, I can't help it. I swear, I fall faster than the leaves whenever you're around, petname.
+
+    Hey, what are you doing out here? Someone in your condition shouldn't be running around the town like this, and you know that.
+    ...
+    Just make sure you get home at a decent hour, yeah? The only thing scarier than a flare up is a world without you, petname. 
+
+    Ugh, flu season is so taxing on my body. I know I should be grateful for the business but...
+    Hey, here's an idea. Why don't you spend the day with me? I could keep an eye on your condition and I get good company out of it. 
+
+    D'you know if you suck too hard on someone's neck, you could burst an artery?
+    I've seen it happen a few times in med school, so safe to say I got a pretty good understanding of when to stop. 
+    Or... When not to stop. 
+
+    Brrr... It's chilly out today. I can't imagine how cold winter'll get.
+    Hm, speaking of, make sure you're bundled up, petname. After all, cold feet can statistically get in the way of orgasming.
+
+    I'm really started to get annoyed with all the leaves falling around, they make every floor slippery for some reason.
+    Do take care, petname. I can't have you slipping and falling for anyone else. You belong to me.
+
+    Did you know the human tongue has over eight thousand tastebuds? 
+    Honestly, I've been meaning to run an experiment involving that little known fact. Care to be a subject, petname? 
+
+    Mmmm, oh hey. Your cheeks are red, presumably from the cold? Or from me? 
+    Well, no matter. Wait, speaking of, did you know when you blush, your stomach also blushes? I thought it was a cute fact you might enjoy now that we've been talking more often. 
+
+    You know a kiss could increase a person's pulse rate to 100 beats per minute or more.
+    I mean, I've got a stethoscope at the ready if you'd like to try. 
+
+    Did you know tastebuds are replaced every ten days or so?
+    Hmm... Maybe we should kiss so I can always keep you on mine. 
+
+    I swear, I always get such a rush when you come by. I don't think I've personally tried any drugs that come close to the high you give me, petname. 
+
+    Isn't it so nice getting to marry a doctor? I may not be the richest, but I'm probably the most knowledgable on taking proper care of you, petname.
+    ... What do you mean we're not getting married yet? 
+
+    Tch. I've been needing to brush up on my anatomy lately. I can feel myself forgetting some of the basics...
+    Hm, would you mind being a model for me one of these days? We can make it a date if you'd like.
+    */
 
     "AfterDark.Core.Harvey.Fall.LateHeart.1": "",
     "AfterDark.Core.Harvey.Fall.LateHeart.2": "",
@@ -393,8 +686,17 @@
     "AfterDark.Core.Harvey.Fall.LateHeart.14": "",
     "AfterDark.Core.Harvey.Fall.LateHeart.15": "",
 
+    // BIRTHDAY -- Winter 14
+    "AfterDark.Core.Harvey.Birthday.0": "",
+    "AfterDark.Core.Harvey.Birthday.4": "",
+    "AfterDark.Core.Harvey.Birthday.6": "",
+    "AfterDark.Core.Harvey.Birthday.8": "",
+    "AfterDark.Core.Harvey.Birthday.10": "",
+
     /*
     not spring but he also likes holly. the LEAVES of holly can be used for treating measles and colds and help relieve itchy skin and sore eyes (allergies) but the berries can cause vomiting and other less savory things, and can keep you bed ridden if bad enough.
+
+    
     */
 
     // WINTER
@@ -850,6 +1152,10 @@
     █     █         █   █     █    █ █  █   █ █         █   █   █   █   █ █     █   █ █   █ █   █ █     
     █     █████ █████   █   █████   █   █   █ █████     ████  █████ █   █ █████  ███   ███  █████ █████ 
     //------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    /*
+    Thank you to the following users who helped with this section:
+    - Viktor
+    */
 
     // Egg Festival
     "AfterDark.Festival.Harvey.spring13.false.1": "",
@@ -890,6 +1196,7 @@
     "AfterDark.Festival.Harvey.fall16.true.2": "",
 
     // Spirit's Eve
+    // Sometimes the thrill of adrenaline makes us feel certain ways, want to go into the haunted maze this year.. find that abandonned little cottage?
     "AfterDark.Festival.Harvey.fall27.false.1": "",
     "AfterDark.Festival.Harvey.fall27.false.2": "",
     "AfterDark.Festival.Harvey.fall27.true.1": "",
