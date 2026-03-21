@@ -905,10 +905,14 @@
     ███   █████ █   █ █████  ███  █████ █████   █       ████  █████ █   █ █████  ███   ███  █████ █████ 
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-    // Vanilla Peeps -- He will start spewin lines at 3 hearts 
-    // He'll spew early lines when you're 0-5 hearts with said NPC, and late lines when you're 6+ hearts with said NPC
+    // late lines when you're 6+ hearts with said NPC
 
     // In reguards to expansion characters.... :wince: probably won't icl 
+
+    /*
+    Thank you to the following users who helped with this section: 
+    - kii.ri
+    */
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      BACHELORS
@@ -916,41 +920,32 @@
 
     // Alex
     "AfterDark.Core.Harvey.Jealous.Dating.Alex": "",
-    "AfterDark.Core.Harvey.Jealous.Married.Alex": "",
-    "AfterDark.Jealousy.Harvey.Early.Alex.1": "",
-    "AfterDark.Jealousy.Harvey.Early.Alex.2": "",
+    "AfterDark.Core.Harvey.Jealous.Married.Alex": "Y'know, I don't really see how Alex could help you out on the farm.$a#$b#He's already a failed gridball player, I wouldn't want him to fail you as well.$s",
+    // George and Evenlyn speak so highly of you. I do hope you're steering clear of Alex though, a kid like that isn't suited to care for your needs, petname. 
     "AfterDark.Jealousy.Harvey.Late.Alex.1": "",
     "AfterDark.Jealousy.Harvey.Late.Alex.2": "",
                                                                 
     // Elliott                              
     "AfterDark.Core.Harvey.Jealous.Dating.Elliott": "",
     "AfterDark.Core.Harvey.Jealous.Married.Elliott": "",
-    "AfterDark.Jealousy.Harvey.Early.Elliott.1": "",
-    "AfterDark.Jealousy.Harvey.Early.Elliott.2": "",
     "AfterDark.Jealousy.Harvey.Late.Elliott.1": "",
     "AfterDark.Jealousy.Harvey.Late.Elliott.2": "",
 
     // Sam
     "AfterDark.Core.Harvey.Jealous.Dating.Sam": "",
     "AfterDark.Core.Harvey.Jealous.Married.Sam": "",
-    "AfterDark.Jealousy.Harvey.Early.Sam.1": "",
-    "AfterDark.Jealousy.Harvey.Early.Sam.2": "",
     "AfterDark.Jealousy.Harvey.Late.Sam.1": "",
     "AfterDark.Jealousy.Harvey.Late.Sam.2": "",
 
     // Sam
     "AfterDark.Core.Harvey.Jealous.Dating.Sebastian": "",
     "AfterDark.Core.Harvey.Jealous.Married.Sebastian": "",
-    "AfterDark.Jealousy.Harvey.Early.Sebastian.1": "",
-    "AfterDark.Jealousy.Harvey.Early.Sebastian.2": "",
     "AfterDark.Jealousy.Harvey.Late.Sebastian.1": "",
     "AfterDark.Jealousy.Harvey.Late.Sebastian.2": "",
 
     // Shane
     "AfterDark.Core.Harvey.Jealous.Dating.Shane": "",
     "AfterDark.Core.Harvey.Jealous.Married.Shane": "",
-    "AfterDark.Jealousy.Harvey.Early.Shane.1": "",
-    "AfterDark.Jealousy.Harvey.Early.Shane.2": "",
     "AfterDark.Jealousy.Harvey.Late.Shane.1": "",
     "AfterDark.Jealousy.Harvey.Late.Shane.2": "",
 
@@ -961,32 +956,24 @@
     // Abigail
     "AfterDark.Core.Harvey.Jealous.Dating.Abigail": "",
     "AfterDark.Core.Harvey.Jealous.Married.Abigail": "",
-    "AfterDark.Jealousy.Harvey.Early.Abigail.1": "",
-    "AfterDark.Jealousy.Harvey.Early.Abigail.2": "",
     "AfterDark.Jealousy.Harvey.Late.Abigail.1": "",
     "AfterDark.Jealousy.Harvey.Late.Abigail.2": "",
 
     // Emily
     "AfterDark.Core.Harvey.Jealous.Dating.Emily": "",
     "AfterDark.Core.Harvey.Jealous.Married.Emily": "",
-    "AfterDark.Jealousy.Harvey.Early.Emily.1": "",
-    "AfterDark.Jealousy.Harvey.Early.Emily.2": "",
     "AfterDark.Jealousy.Harvey.Late.Emily.1": "",
     "AfterDark.Jealousy.Harvey.Late.Emily.2": "",
 
     // Haley
     "AfterDark.Core.Harvey.Jealous.Dating.Haley": "",
     "AfterDark.Core.Harvey.Jealous.Married.Haley": "",
-    "AfterDark.Jealousy.Harvey.Early.Haley.1": "",
-    "AfterDark.Jealousy.Harvey.Early.Haley.2": "",
     "AfterDark.Jealousy.Harvey.Late.Haley.1": "",
     "AfterDark.Jealousy.Harvey.Late.Haley.2": "",
 
     // Leah
     "AfterDark.Core.Harvey.Jealous.Dating.Leah": "",
     "AfterDark.Core.Harvey.Jealous.Married.Leah": "",
-    "AfterDark.Jealousy.Harvey.Early.Leah.1": "",
-    "AfterDark.Jealousy.Harvey.Early.Leah.2": "",
     "AfterDark.Jealousy.Harvey.Late.Leah.1": "",
     "AfterDark.Jealousy.Harvey.Late.Leah.2": "",
 
@@ -1001,8 +988,6 @@
     // Penny
     "AfterDark.Core.Harvey.Jealous.Dating.Penny": "",
     "AfterDark.Core.Harvey.Jealous.Married.Penny": "",
-    "AfterDark.Jealousy.Harvey.Early.Penny.1": "",
-    "AfterDark.Jealousy.Harvey.Early.Penny.2": "",
     "AfterDark.Jealousy.Harvey.Late.Penny.1": "",
     "AfterDark.Jealousy.Harvey.Late.Penny.2": "",
 
@@ -1321,7 +1306,6 @@
     █   █   █   █       █       █   █   █   █   █ █     █   █ █   █ █   █ █     
      ███  █████ █       █       ████  █████ █   █ █████  ███   ███  █████ █████ 
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-    // change apples to a hated gift
 
     "AfterDark.Gift.Harvey.GiftReaction.Coffee.1": "",
     "AfterDark.Gift.Harvey.GiftReaction.Coffee.2": "",
@@ -1359,6 +1343,12 @@
     "AfterDark.Gift.Harvey.GiftReaction.Wine.2": "",
     "AfterDark.Gift.Harvey.GiftReaction.Married.Wine.1": "",
     "AfterDark.Gift.Harvey.GiftReaction.Married.Wine.2": "",
+
+    // change to hate lmao
+    "AfterDark.Gift.Harvey.GiftReaction.Apple.1": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Apple.2": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Married.Apple.1": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Married.Apple.2": "",
 
     "AfterDark.Gift.Harvey.GiftReaction.Cooking.1": "",
     "AfterDark.Gift.Harvey.GiftReaction.Cooking.2": "",
