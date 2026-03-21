@@ -1027,105 +1027,250 @@
     █   █ █   █ █   █ █   █ █████ █   █  ███  █████     ████  █████ █   █ █████  ███   ███  █████ █████ 
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-    // Engagement
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     ENGAGEMENT
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
     "AfterDark.Marriage.Harvey.Engagement.0": "",
     "AfterDark.Marriage.Harvey.Engagement.1": "",
 
-    // Patio
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     PATIO
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
     "AfterDark.Marriage.Harvey.Patio.1": "",
     "AfterDark.Marriage.Harvey.Patio.2": "",
     "AfterDark.Marriage.Harvey.Patio.3": "",
+    "AfterDark.Marriage.Harvey.Patio.4": "",
+    "AfterDark.Marriage.Harvey.Patio.5": "",
+    "AfterDark.Marriage.Harvey.Patio.6": "",
+    "AfterDark.Marriage.Harvey.Patio.7": "",
+    "AfterDark.Marriage.Harvey.Patio.8": "",
+    "AfterDark.Marriage.Harvey.Patio.9": "",
+    "AfterDark.Marriage.Harvey.Patio.10": "",
 
-    // SpouseRoom
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     SPOUSE ROOM
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
     "AfterDark.Marriage.Harvey.SpouseRoom.1": "",
     "AfterDark.Marriage.Harvey.SpouseRoom.2": "",
     "AfterDark.Marriage.Harvey.SpouseRoom.3": "",
+    "AfterDark.Marriage.Harvey.SpouseRoom.4": "",
+    "AfterDark.Marriage.Harvey.SpouseRoom.5": "",
+    "AfterDark.Marriage.Harvey.SpouseRoom.6": "",
+    "AfterDark.Marriage.Harvey.SpouseRoom.7": "",
+    "AfterDark.Marriage.Harvey.SpouseRoom.8": "",
+    "AfterDark.Marriage.Harvey.SpouseRoom.9": "",
+    "AfterDark.Marriage.Harvey.SpouseRoom.10": "",
 
-    // JobLeave & Return
-    "AfterDark.Marriage.Harvey.JobLeave.1": "",
-    "AfterDark.Marriage.Harvey.JobLeave.2": "",
-    "AfterDark.Marriage.Harvey.JobLeave.3": "",
-    "AfterDark.Marriage.Harvey.JobReturn.1": "",
-    "AfterDark.Marriage.Harvey.JobReturn.2": "",
-    "AfterDark.Marriage.Harvey.JobReturn.3": "",
-
-    // FunLeave & Return
-    "AfterDark.Marriage.Harvey.funLeave": "",
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     FUNLEAVE/RETURN
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+    "AfterDark.Marriage.Harvey.funLeave.1": "",
+    "AfterDark.Marriage.Harvey.funLeave.2": "",
+    "AfterDark.Marriage.Harvey.funLeave.3": "",
+    "AfterDark.Marriage.Harvey.funLeave.4": "",
+    "AfterDark.Marriage.Harvey.funLeave.5": "",
+    "AfterDark.Marriage.Harvey.funLeave.6": "",
+    "AfterDark.Marriage.Harvey.funLeave.7": "",
+    "AfterDark.Marriage.Harvey.funLeave.8": "",
+    "AfterDark.Marriage.Harvey.funLeave.9": "",
+    "AfterDark.Marriage.Harvey.funLeave.10": "",
+    
     "AfterDark.Marriage.Harvey.funReturn.1": "",
     "AfterDark.Marriage.Harvey.funReturn.2": "",
     "AfterDark.Marriage.Harvey.funReturn.3": "",
+    "AfterDark.Marriage.Harvey.funReturn.4": "",
+    "AfterDark.Marriage.Harvey.funReturn.5": "",
+    "AfterDark.Marriage.Harvey.funReturn.6": "",
+    "AfterDark.Marriage.Harvey.funReturn.7": "",
+    "AfterDark.Marriage.Harvey.funReturn.8": "",
+    "AfterDark.Marriage.Harvey.funReturn.9": "",
+    "AfterDark.Marriage.Harvey.funReturn.10": "",
 
-    // Special Dates - Spring
-    "AfterDark.Marriage.Harvey.Spring": "",
-    "AfterDark.Marriage.Harvey.Spring1": "",
-    "AfterDark.Marriage.Harvey.Spring12": "",
-    "AfterDark.Marriage.Harvey.Spring23": "",
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     SPECIAL DATES
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+    // Spring
+    "AfterDark.Marriage.Harvey.Spring12.1": "",
+    "AfterDark.Marriage.Harvey.Spring12.2": "",
+    "AfterDark.Marriage.Harvey.Spring12.3": "",
 
-    // Special Dates - Summer
-    "AfterDark.Marriage.Harvey.Summer": "",
-    "AfterDark.Marriage.Harvey.Summer1": "",
-    "AfterDark.Marriage.Harvey.Summer10": "",
-    "AfterDark.Marriage.Harvey.Summer27": "",
+    "AfterDark.Marriage.Harvey.Spring23.1": "",
+    "AfterDark.Marriage.Harvey.Spring23.2": "",
+    "AfterDark.Marriage.Harvey.Spring23.3": "",
 
-    // Special Dates - Fall
-    "AfterDark.Marriage.Harvey.Fall": "",
-    "AfterDark.Marriage.Harvey.Fall1": "",
-    "AfterDark.Marriage.Harvey.Fall15": "",
-    "AfterDark.Marriage.Harvey.Fall26": "",
+    // Summer
+    "AfterDark.Marriage.Harvey.Summer16.1": "",
+    "AfterDark.Marriage.Harvey.Summer16.2": "",
+    "AfterDark.Marriage.Harvey.Summer16.3": "",
 
-    // Special Dates - Winter
-    "AfterDark.Marriage.Harvey.Winter": "",
-    "AfterDark.Marriage.Harvey.Winter1": "",
-    "AfterDark.Marriage.Harvey.Winter7": "",
+    "AfterDark.Marriage.Harvey.Summer27.1": "",
+    "AfterDark.Marriage.Harvey.Summer27.2": "",
+    "AfterDark.Marriage.Harvey.Summer27.3": "",
+
+    "AfterDark.Marriage.Harvey.Summer28.1": "",
+    "AfterDark.Marriage.Harvey.Summer28.2": "",
+    "AfterDark.Marriage.Harvey.Summer28.3": "",
+
+    // Fall
+    "AfterDark.Marriage.Harvey.Fall15.1": "",
+    "AfterDark.Marriage.Harvey.Fall15.2": "",
+    "AfterDark.Marriage.Harvey.Fall15.3": "",
+
+    "AfterDark.Marriage.Harvey.Fall17.1": "",
+    "AfterDark.Marriage.Harvey.Fall17.2": "",
+    "AfterDark.Marriage.Harvey.Fall17.3": "",
+
+    "AfterDark.Marriage.Harvey.Fall26.1": "",
+    "AfterDark.Marriage.Harvey.Fall26.2": "",
+    "AfterDark.Marriage.Harvey.Fall26.3": "",
+    
+    // Winter 
+    "AfterDark.Marriage.Harvey.Winter17.1": "",
+    "AfterDark.Marriage.Harvey.Winter17.2": "",
+    "AfterDark.Marriage.Harvey.Winter17.3": "",
+
+    "AfterDark.Marriage.Harvey.Winter24.1": "",
+    "AfterDark.Marriage.Harvey.Winter24.2": "",
+    "AfterDark.Marriage.Harvey.Winter24.3": "",
+
     "AfterDark.Marriage.Harvey.Winter28": "",
+    "AfterDark.Marriage.Harvey.Winter28.1": "",
+    "AfterDark.Marriage.Harvey.Winter28.2": "",
+    
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     GENERAL SEASON RELATED LINES 
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+    // Spring
+    "AfterDark.Marriage.Harvey.Spring.1": "",
+    "AfterDark.Marriage.Harvey.Spring.2": "",
+    "AfterDark.Marriage.Harvey.Spring.3": "",
+    "AfterDark.Marriage.Harvey.Spring.4": "",
+    "AfterDark.Marriage.Harvey.Spring.5": "",
+    "AfterDark.Marriage.Harvey.Spring.6": "",
+    "AfterDark.Marriage.Harvey.Spring.7": "",
+    "AfterDark.Marriage.Harvey.Spring.8": "",
+    "AfterDark.Marriage.Harvey.Spring.9": "",
+    "AfterDark.Marriage.Harvey.Spring.10": "",
 
-    // Generic - Rainy Days
-    "AfterDark.Marriage.Harvey.Rainy.Day.Harvey": "",
+    // Summer
+    "AfterDark.Marriage.Harvey.Summer.1": "",
+    "AfterDark.Marriage.Harvey.Summer.2": "",
+    "AfterDark.Marriage.Harvey.Summer.3": "",
+    "AfterDark.Marriage.Harvey.Summer.4": "",
+    "AfterDark.Marriage.Harvey.Summer.5": "",
+    "AfterDark.Marriage.Harvey.Summer.6": "",
+    "AfterDark.Marriage.Harvey.Summer.7": "",
+    "AfterDark.Marriage.Harvey.Summer.8": "",
+    "AfterDark.Marriage.Harvey.Summer.9": "",
+    "AfterDark.Marriage.Harvey.Summer.10": "",
+
+    // Fall
+    "AfterDark.Marriage.Harvey.Fall.1": "",
+    "AfterDark.Marriage.Harvey.Fall.2": "",
+    "AfterDark.Marriage.Harvey.Fall.3": "",
+    "AfterDark.Marriage.Harvey.Fall.4": "",
+    "AfterDark.Marriage.Harvey.Fall.5": "",
+    "AfterDark.Marriage.Harvey.Fall.6": "",
+    "AfterDark.Marriage.Harvey.Fall.7": "",
+    "AfterDark.Marriage.Harvey.Fall.8": "",
+    "AfterDark.Marriage.Harvey.Fall.9": "",
+    "AfterDark.Marriage.Harvey.Fall.10": "",
+
+    // Winter
+    "AfterDark.Marriage.Harvey.Winter.1": "",
+    "AfterDark.Marriage.Harvey.Winter.2": "",
+    "AfterDark.Marriage.Harvey.Winter.3": "",
+    "AfterDark.Marriage.Harvey.Winter.4": "",
+    "AfterDark.Marriage.Harvey.Winter.5": "",
+    "AfterDark.Marriage.Harvey.Winter.6": "",
+    "AfterDark.Marriage.Harvey.Winter.7": "",
+    "AfterDark.Marriage.Harvey.Winter.8": "",
+    "AfterDark.Marriage.Harvey.Winter.9": "",
+    "AfterDark.Marriage.Harvey.Winter.10": "",
+
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     RAINY DAYS 
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+    "AfterDark.Marriage.Harvey.Rainy.Day.Sam": "",
     "AfterDark.Marriage.Harvey.Rainy.Day.0": "",
     "AfterDark.Marriage.Harvey.Rainy.Day.1": "",
     "AfterDark.Marriage.Harvey.Rainy.Day.2": "",
     "AfterDark.Marriage.Harvey.Rainy.Day.3": "",
     "AfterDark.Marriage.Harvey.Rainy.Day.4": "",
     "AfterDark.Marriage.Harvey.Rainy.Day.5": "",
-    "AfterDark.Marriage.Harvey.Rainy.Night.Harvey": "",
+    "AfterDark.Marriage.Harvey.Rainy.Day.6": "",
+    "AfterDark.Marriage.Harvey.Rainy.Day.7": "",
+    "AfterDark.Marriage.Harvey.Rainy.Day.8": "",
+    "AfterDark.Marriage.Harvey.Rainy.Day.9": "",
+    
+    "AfterDark.Marriage.Harvey.Rainy.Night.Sam": "",
     "AfterDark.Marriage.Harvey.Rainy.Night.0": "",
     "AfterDark.Marriage.Harvey.Rainy.Night.1": "",
     "AfterDark.Marriage.Harvey.Rainy.Night.2": "",
     "AfterDark.Marriage.Harvey.Rainy.Night.3": "",
     "AfterDark.Marriage.Harvey.Rainy.Night.4": "",
     "AfterDark.Marriage.Harvey.Rainy.Night.5": "",
+    "AfterDark.Marriage.Harvey.Rainy.Night.6": "",
+    "AfterDark.Marriage.Harvey.Rainy.Night.7": "",
+    "AfterDark.Marriage.Harvey.Rainy.Night.8": "",
+    "AfterDark.Marriage.Harvey.Rainy.Night.9": "",
 
-    // Generic - Indoor/Outdoor
-    "AfterDark.Marriage.Harvey.Indoor.Day.Harvey": "",
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     INDOOR/OUTDOOR 
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+    "AfterDark.Marriage.Harvey.Indoor.Day.Sam": "",
     "AfterDark.Marriage.Harvey.Indoor.Day.0": "",
     "AfterDark.Marriage.Harvey.Indoor.Day.1": "",
     "AfterDark.Marriage.Harvey.Indoor.Day.2": "",
     "AfterDark.Marriage.Harvey.Indoor.Day.3": "",
     "AfterDark.Marriage.Harvey.Indoor.Day.4": "",
-    "AfterDark.Marriage.Harvey.Indoor.Night.Harvey": "",
+    "AfterDark.Marriage.Harvey.Indoor.Day.5": "",
+    "AfterDark.Marriage.Harvey.Indoor.Day.6": "",
+    "AfterDark.Marriage.Harvey.Indoor.Day.7": "",
+    "AfterDark.Marriage.Harvey.Indoor.Day.8": "",
+    "AfterDark.Marriage.Harvey.Indoor.Day.9": "",
+
+    "AfterDark.Marriage.Harvey.Indoor.Night.Sam": "",
     "AfterDark.Marriage.Harvey.Indoor.Night.0": "",
     "AfterDark.Marriage.Harvey.Indoor.Night.1": "",
     "AfterDark.Marriage.Harvey.Indoor.Night.2": "",
     "AfterDark.Marriage.Harvey.Indoor.Night.3": "",
     "AfterDark.Marriage.Harvey.Indoor.Night.4": "",
-    "AfterDark.Marriage.Harvey.Outdoor.Harvey": "Y",
+    "AfterDark.Marriage.Harvey.Indoor.Night.5": "",
+    "AfterDark.Marriage.Harvey.Indoor.Night.6": "",
+    "AfterDark.Marriage.Harvey.Indoor.Night.7": "",
+    "AfterDark.Marriage.Harvey.Indoor.Night.8": "",
+    "AfterDark.Marriage.Harvey.Indoor.Night.9": "",
+
+    "AfterDark.Marriage.Harvey.Outdoor.Sam": "",
     "AfterDark.Marriage.Harvey.Outdoor.0": "",
     "AfterDark.Marriage.Harvey.Outdoor.1": "",
     "AfterDark.Marriage.Harvey.Outdoor.2": "",
     "AfterDark.Marriage.Harvey.Outdoor.3": "",
     "AfterDark.Marriage.Harvey.Outdoor.4": "",
+    "AfterDark.Marriage.Harvey.Outdoor.5": "",
+    "AfterDark.Marriage.Harvey.Outdoor.6": "",
+    "AfterDark.Marriage.Harvey.Outdoor.7": "",
+    "AfterDark.Marriage.Harvey.Outdoor.8": "",
+    "AfterDark.Marriage.Harvey.Outdoor.9": "",
 
-    // Generic - Kids
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     KIDS 
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
     "AfterDark.Marriage.Harvey.OneKid.0": "",
     "AfterDark.Marriage.Harvey.OneKid.1": "",
     "AfterDark.Marriage.Harvey.OneKid.2": "",
     "AfterDark.Marriage.Harvey.OneKid.3": "",
+
     "AfterDark.Marriage.Harvey.TwoKids.0": "",
     "AfterDark.Marriage.Harvey.TwoKids.1": "",
     "AfterDark.Marriage.Harvey.TwoKids.2": "",
     "AfterDark.Marriage.Harvey.TwoKids.3": "",
 
-    // Affection 
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     AFFECTION 
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
     "AfterDark.Marriage.Harvey.Good.0": "",
     "AfterDark.Marriage.Harvey.Good.1": "",
     "AfterDark.Marriage.Harvey.Good.2": "",
@@ -1136,6 +1281,11 @@
     "AfterDark.Marriage.Harvey.Good.7": "",
     "AfterDark.Marriage.Harvey.Good.8": "",
     "AfterDark.Marriage.Harvey.Good.9": "",
+    "AfterDark.Marriage.Harvey.Good.10": "",
+    "AfterDark.Marriage.Harvey.Good.11": "",
+    "AfterDark.Marriage.Harvey.Good.12": "",
+    "AfterDark.Marriage.Harvey.Good.13": "",
+    "AfterDark.Marriage.Harvey.Good.14": "",
 
     "AfterDark.Marriage.Harvey.Neutral.0": "",
     "AfterDark.Marriage.Harvey.Neutral.1": "",
@@ -1147,6 +1297,11 @@
     "AfterDark.Marriage.Harvey.Neutral.7": "",
     "AfterDark.Marriage.Harvey.Neutral.8": "",
     "AfterDark.Marriage.Harvey.Neutral.9": "",
+    "AfterDark.Marriage.Harvey.Neutral.10": "",
+    "AfterDark.Marriage.Harvey.Neutral.11": "",
+    "AfterDark.Marriage.Harvey.Neutral.12": "",
+    "AfterDark.Marriage.Harvey.Neutral.13": "",
+    "AfterDark.Marriage.Harvey.Neutral.14": "",
 
     "AfterDark.Marriage.Harvey.Bad.0": "",
     "AfterDark.Marriage.Harvey.Bad.1": "",
