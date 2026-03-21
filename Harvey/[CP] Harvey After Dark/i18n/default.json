@@ -106,6 +106,8 @@
     - verrah22
     - kii.ri
     - Lady-Lancer 
+    - nxctuary
+    - dezzyrosehill
     */
 
     /* Yoba, I wish I could stand out in the open fields here all day. All of the blooming flowers and weeds make such good medicine.
@@ -139,11 +141,6 @@
     Springtime's always my favorite, means there's always an excuse to stand outside and breathe fresh air. 
     That and I notice a few of my patients' moods improve this time of year. It really is a miracle season.
 
-    %You notice Harvey running his fingers through his hair, clearly stressed. 
-    Not now, @. I have a lot of work to finish. 
-    ... Actually, I wouldn't mind your company. Maybe I could bounce a few ideas off of you.
-    Do you know anything about Polyarthralgia?
-
     Huh, today's weather seems perfect for a plane ride.
     Speaking of, have you ever considered getting an AT-502 for your farm? I bet it'd make pest control a hell of a lot easier.
     */
@@ -164,13 +161,9 @@
     "AfterDark.Core.Harvey.Spring.EarlyHeart.12": "",
     "AfterDark.Core.Harvey.Spring.EarlyHeart.13": "",
     "AfterDark.Core.Harvey.Spring.EarlyHeart.14": "",
-    "AfterDark.Core.Harvey.Spring.EarlyHeart.15": "",
 
     /* Y'know, even with the clinic drowning in debt, I'm glad I have time to relax. 
     It's nice having an opportunity to enjoy a small town, the people, and especially the views...
-
-    Oh, you look stressed today. Is it the disease flaring up? 
-    Do you need to come to the back and rest for a bit? You worry me, petname.
 
     Remember to get plenty of rest, yeah?
     I know it's not easy managing both a disease and a farm, but...
@@ -225,7 +218,6 @@
     "AfterDark.Core.Harvey.Spring.MidHeart.12": "",
     "AfterDark.Core.Harvey.Spring.MidHeart.13": "",
     "AfterDark.Core.Harvey.Spring.MidHeart.14": "",
-    "AfterDark.Core.Harvey.Spring.MidHeart.15": "",
 
     /* 
     Why are you in town? Your disease--
@@ -260,9 +252,6 @@
     You're glowing today, petname.
     I think our treatments for your illness may finally be helping, but don't put any unecessary strain on yourself! Doctor's orders.
 
-    I had the strangest dream about you last night...
-    Say, do you think it'd be hard to tie you down? Maybe rope would do the trick or... No, you'd need something more medicinal...
-
     It gets lonely at night in the clinic. You should keep me company sometime. Even doctors need some TLC. 
     */ 
     "AfterDark.Core.Harvey.Spring.LateHeart.1": "",
@@ -279,7 +268,6 @@
     "AfterDark.Core.Harvey.Spring.LateHeart.12": "",
     "AfterDark.Core.Harvey.Spring.LateHeart.13": "",
     "AfterDark.Core.Harvey.Spring.LateHeart.14": "",
-    "AfterDark.Core.Harvey.Spring.LateHeart.15": "",
 
     /*
     ... (Shock) Sorry, I just don't think I've ever seen you in anything but your normal getup. Do you always wear less clothes during summer? 
@@ -326,9 +314,6 @@
 
     Have you been up to the bathhouse yet?
     It might help some of those aches and pains you might have doing all that farmwork. 
-
-    You trust me, right? As your doctor, of course...
-    I only want what's best for you, petname. 
     */
     // SUMMER
     "AfterDark.Core.Harvey.Summer.EarlyHeart.1": "",
@@ -345,7 +330,6 @@
     "AfterDark.Core.Harvey.Summer.EarlyHeart.12": "",
     "AfterDark.Core.Harvey.Summer.EarlyHeart.13": "",
     "AfterDark.Core.Harvey.Summer.EarlyHeart.14": "",
-    "AfterDark.Core.Harvey.Summer.EarlyHeart.15": "",
 
     /*
     I've been interested in learning more about the psychology aspect of medicine, but...
@@ -369,11 +353,6 @@
 
     Ugh, all this heat is making me sweat up a storm. I don't know how others can maintain facial hair, it all just... accumulates.
     Do you think I should shave it? Maybe it's time for something new...
-
-    %Harvey seems distracted, listing a few conditions and their known symptoms, almost like he's quizzing himself so he won't forget.
-    ...
-    Oh, @! Sorry, didn't see you there.
-    Yoba, with the way you keep sneaking up on me, it can't be good for my heart. 
 
     ...
     Have you been running around this entire time without sunscreen? You look red.
@@ -418,7 +397,6 @@
     "AfterDark.Core.Harvey.Summer.MidHeart.12": "",
     "AfterDark.Core.Harvey.Summer.MidHeart.13": "",
     "AfterDark.Core.Harvey.Summer.MidHeart.14": "",
-    "AfterDark.Core.Harvey.Summer.MidHeart.15": "",
 
     /*
     You know, you shouldn't be out in the sun for too long, petname. I know you wanted to see me, but it's not worth risking your health for that. 
@@ -456,8 +434,6 @@
     ...$l#$b#Hm? Oh, my cheeks are red?
     Sorry, it must be the summer heat making me feel a little woozy.
 
-    ...$l#$b#Sorry, sometimes I like to imagine what it'd be like if our roles were reversed. It'd be cute to see you taking care of me, but I think it'd be best if we kept the medicine to me, yeah, petname?
-
     Seeing you run around town makes me remember my college days. I had so much energy back then, I honestly miss having knees that didn't ache all the time.
     I don't miss it for the life of me though, it wasn't until I was older that I got to meet you, after all. 
 
@@ -480,7 +456,6 @@
     "AfterDark.Core.Harvey.Summer.LateHeart.12": "",
     "AfterDark.Core.Harvey.Summer.LateHeart.13": "",
     "AfterDark.Core.Harvey.Summer.LateHeart.14": "",
-    "AfterDark.Core.Harvey.Summer.LateHeart.15": "",
 
     /*
     Hey, don't forget flu season's starting soon. Make sure you swing by and get yourself a flu shot, yeah?
@@ -525,9 +500,6 @@
     Make sure you're keeping your windows closed and locked at night. With this type of weather, I fear the slightest breeze could trigger a cold. 
     Though I'd love the business, I'd hate to see someone as {{LDescript}} as you sick. 
 
-    Don't take this the wrong way, but please, if I do something that makes you uncomfortable, do tell me.
-    There's nothing I hate more than to causing a patient displeasure. 
-
     %You overheard Harvey mumbling something about lost medical records and patient's perscriptions. Maybe it's best you leave him alone to actually work today. 
     */
 
@@ -546,7 +518,6 @@
     "AfterDark.Core.Harvey.Fall.EarlyHeart.12": "",
     "AfterDark.Core.Harvey.Fall.EarlyHeart.13": "",
     "AfterDark.Core.Harvey.Fall.EarlyHeart.14": "",
-    "AfterDark.Core.Harvey.Fall.EarlyHeart.15": "",
 
     /*
     %You overhear Harvey mumbling to himself.
@@ -596,10 +567,6 @@
     Are you always this kind to everyone? Or just me.
     Or... Is it just because I'm your doctor?
     You don't have to put on a fascade around me, petname. I want you to treat me like any normal friend... Or... Potentially more than.
-
-    ...$a
-    Hm? Oh, sorry, I got into a tussle with another patient this morning. 
-    I guess they can't all be as {{LDescript}} as you.
     
     Ugh, this weather would be perfect to open a book and sit next to a fireplace all day. 
     Too bad I have some paperwork to finish up...
@@ -619,7 +586,6 @@
     "AfterDark.Core.Harvey.Fall.MidHeart.12": "",
     "AfterDark.Core.Harvey.Fall.MidHeart.13": "",
     "AfterDark.Core.Harvey.Fall.MidHeart.14": "",
-    "AfterDark.Core.Harvey.Fall.MidHeart.15": "",
 
     /*
     This season always brings the loveliest shades of reds and oranges to the leaves.
@@ -653,10 +619,7 @@
     Honestly, I've been meaning to run an experiment involving that little known fact. Care to be a subject, petname? 
 
     Mmmm, oh hey. Your cheeks are red, presumably from the cold? Or from me? 
-    Well, no matter. Wait, speaking of, did you know when you blush, your stomach also blushes? I thought it was a cute fact you might enjoy now that we've been talking more often. 
-
-    You know a kiss could increase a person's pulse rate to 100 beats per minute or more.
-    I mean, I've got a stethoscope at the ready if you'd like to try. 
+    Well, no matter. Wait, speaking of, did you know when you blush, your stomach also blushes? I thought it was a cute fact you might enjoy now that we've been talking more often.  
 
     Did you know tastebuds are replaced every ten days or so?
     Hmm... Maybe we should kiss so I can always keep you on mine. 
@@ -684,7 +647,6 @@
     "AfterDark.Core.Harvey.Fall.LateHeart.12": "",
     "AfterDark.Core.Harvey.Fall.LateHeart.13": "",
     "AfterDark.Core.Harvey.Fall.LateHeart.14": "",
-    "AfterDark.Core.Harvey.Fall.LateHeart.15": "",
 
     // BIRTHDAY -- Winter 14
     "AfterDark.Core.Harvey.Birthday.0": "",
@@ -694,9 +656,53 @@
     "AfterDark.Core.Harvey.Birthday.10": "",
 
     /*
-    not spring but he also likes holly. the LEAVES of holly can be used for treating measles and colds and help relieve itchy skin and sore eyes (allergies) but the berries can cause vomiting and other less savory things, and can keep you bed ridden if bad enough.
+    Did I hear you sneeze? 
+    Well, did you know that holly leaves can be used to treat a variety of ailments, including allergy symptoms?
+    Though, their berries can cause quite a few issues. Large quantities often leaving people bedridden. 
+    Right, I guess I did get off track. Did you need something for your sneezing? 
 
-    
+    Mmmm... Hot chocolate in this weather would be to die for, wouldn't you agree?
+    Though, What really interests me would be a mocha coffee of some sort... I'll have to test that one out later. 
+
+    Hmph, I can't believe it's been almost a year and I still have yet to properly get to know you, petname. 
+    Shall we make it a new year's resolution to get to know one another? 
+
+    Make sure you're dripping your faucets and leaving the heat on. 
+    Yoba knows the one thing worse than a doctor's pill is a plumber's...
+
+    Hm? Can I help you?
+    Sorry, this season's just busy for me and I don't have much time to socialize. 
+    I'll make it a mission to get to know you more after cold and flu season's over, promise.
+
+    Listen, I know winter means ample opportunity to make progress in the mines, but please be careful. 
+    Though I enjoy your company, having you in one of my hospital beds is far from ideal.
+
+    I guess I should be flattered you came all this way despite the weather, huh?
+    Would you like me to fetch a blanket and some hot cocoa for you? It's the least I could do.
+
+    Fresh air is good for the body, but with this weather, spending too much time outside can be dangerous for your health.
+    Make sure you don't wander around too much, yeah? 
+
+    Don't take this the wrong way, but please, if I do something that makes you uncomfortable, do tell me.
+    There's nothing I hate more than to causing a patient displeasure. 
+
+    You trust me, right? As your doctor, of course...
+    I only want what's best for you, petname. 
+
+    %You notice Harvey running his fingers through his hair, clearly stressed. 
+    Not now, @. I have a lot of work to finish. 
+    ... Actually, I wouldn't mind your company. Maybe I could bounce a few ideas off of you.
+    Do you know anything about Polyarthralgia?
+
+    Winter's your off season, right?
+    Well, for me it's the opposite... Flu season's in full force this year and paperwork keeps piling up...
+
+    I was hoping you could plant this when spring comes around so it'll be ready for harvest once summer hits.
+    Vitamin C's good for the immune system and all. [630] //orange tree
+
+    With how cold it's gotten, I hope your fireplace is cleaned and working properly.
+    If you need help, don't hesitate to ask. I'm more than willing to come over and take a look. 
+    You'd be surprised on the amount of soot-related injuries I've seen...
     */
 
     // WINTER
@@ -714,7 +720,59 @@
     "AfterDark.Core.Harvey.Winter.EarlyHeart.12": "",
     "AfterDark.Core.Harvey.Winter.EarlyHeart.13": "",
     "AfterDark.Core.Harvey.Winter.EarlyHeart.14": "",
-    "AfterDark.Core.Harvey.Winter.EarlyHeart.15": "",
+
+    /*
+    Hmm... I guess now that it's winter you finally have enough time for me--
+    Err... your treatments. You'll be coming by a lot more frequently, right?
+
+    Make sure you're washing your hands frequently, yeah? You're immunocompromised due to your disease and I'd hate how bad the flu would feel to someone in your condition. 
+
+    Please, petname, be sure you're drinking and eating something that's nice and warm during this cold season.
+    I'd offer a suggestion, but I don't want to be too forward just yet. 
+
+    You look a bit flush, are you feeling alright?
+    I don't have my thermometer on me, but using my lips against your forehead would quickly test if you're running a fever.
+    Could I try?
+
+    ...
+    Ugh, sorry, I just can't put my name on-Oh, Crocus! That's what it's called...
+    Anyways, did you know that the spice harvested from the flower has several terribly interesting medicinal properties, @? 
+    It has anti-depressant, anti-inflammatory, and… sedative properties.
+
+    Oh, you're shivering! 
+    Here, come with me, I'll get you something warm to drink and a blanket, yeah?_I'd rather you warm me up yourself._Oh... @... I love where you're thinking but you're still getting the blanket. Doctor's orders._Thank you..._Anything for my favorite patient. 
+
+    Jeez, I can't believe the year's already coming to an end.
+    Am I crazy or do I feel like I barely know you? I know I have all your medical records but...
+    I want to know everything about you, petname. 
+
+    Oh, your lips look dry.
+    I mean, if you're interested, I have a salve or two which might be able to help. 
+
+    If you're ever needing a change of scenery, feel free to rest in my apartment above the clinic.
+    Knowing where you are means I worry less anyway. 
+
+    I swear, I knew from the moment we met that you'd be someone special to me.
+    Do you think we could professional relationship aside and get to know each other better?
+
+    ...$a
+    Hm? Oh, sorry, I got into a tussle with another patient this morning. 
+    I guess they can't all be as {{LDescript}} as you.
+
+    %Harvey seems distracted, listing a few conditions and their known symptoms, almost like he's quizzing himself so he won't forget.
+    ...
+    Oh, @! Sorry, didn't see you there.
+    Yoba, with the way you keep sneaking up on me, it can't be good for my heart. 
+
+    Oh, you look stressed today. Is it the disease flaring up? 
+    Do you need to come to the back and rest for a bit? You worry me, petname.
+
+    I've been reading the most fascinating journal lately. It's been giving me some wonderful ideas for new treatments on your condition. 
+    I hope this doesn't make you feel like too much of a guinea pig, but I can't help it.
+
+    Hey, I know it's a little early but, I was hoping you'd wear this.
+    I found it outside the mines and the light reminded me so much of your eyes. [888] //glowstone ring
+    */
 
     "AfterDark.Core.Harvey.Winter.MidHeart.1": "",
     "AfterDark.Core.Harvey.Winter.MidHeart.2": "",
@@ -730,7 +788,53 @@
     "AfterDark.Core.Harvey.Winter.MidHeart.12": "",
     "AfterDark.Core.Harvey.Winter.MidHeart.13": "",
     "AfterDark.Core.Harvey.Winter.MidHeart.14": "",
-    "AfterDark.Core.Harvey.Winter.MidHeart.15": "",
+
+    /*
+    Oh, you're shivering... Here, let me help.
+    %Harvey takes your hands, bringing them to his lips, seemingly to ghost his lips over them.
+    Sorry, I needed to be selfish. My lips were blue from the cold as well. 
+
+    Do you have enough blankets and firewood? I know that house must be cold without me in it. 
+
+    Mmmm... Days like this always make me want to cuddle up next to a fireplace with my favorite person...
+    Maybe partake in some more 'warming' activities as well...
+
+    Have you ever made snow angels before?
+    Well, I'm sure with how angelic you are, petname, they'd be perfect every time. 
+
+    Oh, I hate to sound needy but could you spend the night?
+    My heater ran out and it's too cold to sleep without someone else... 
+
+    Has anyone ever told you just how warming your smile is? 
+    I swear, it always feels like a few degrees rise when we're in the same room. 
+
+    Y'know, the best way for me to monitor your health is for you to come by more often. 
+    Or, I could move in finally. I know that little farmhouse of yours is cold without me. 
+
+    You know a kiss could increase a person's pulse rate to 100 beats per minute or more.
+    I mean, I've got a stethoscope at the ready if you'd like to try.
+
+    ...$l#$b#Sorry, sometimes I like to imagine what it'd be like if our roles were reversed. It'd be cute to see you taking care of me, but I think it'd be best if we kept the medicine to me, yeah, petname?
+
+    I had the strangest dream about you last night...
+    Say, do you think it'd be hard to tie you down? Maybe rope would do the trick or... No, you'd need something more medicinal...
+
+    Until we can observe local traditions, I was hoping you could...
+    Err... I was hoping you could wear this. I wanted you to have something that'd symbolize my ever growing love and want for you, petname... [527] // iridium band
+    I hope it'll guide you back to me if you ever get lost. 
+
+    Hey, I got you something that I thought you'd like. [74] //prismatic shard
+    Hm? Where'd I get a prismatic shard? Oh... Er... Marlon gave it to me last time I went up near the mines to...
+    Sorry, do the details really matter? 
+
+    Here, this is for you. [72] //diamond
+    Did you know that diamonds are actually made after being subjected to intense heat and pressure? 
+    I'd love to see how you'd turn out under similar conditions...
+
+    ...$l
+    Sorry, your cheeks have such a lovely pink glow to them in this weather. 
+    I swear, I wish you'd hide away in my apartment so only I could be the one to see you like this.
+    */
 
     "AfterDark.Core.Harvey.Winter.LateHeart.1": "",
     "AfterDark.Core.Harvey.Winter.LateHeart.2": "",
@@ -746,7 +850,6 @@
     "AfterDark.Core.Harvey.Winter.LateHeart.12": "",
     "AfterDark.Core.Harvey.Winter.LateHeart.13": "",
     "AfterDark.Core.Harvey.Winter.LateHeart.14": "",
-    "AfterDark.Core.Harvey.Winter.LateHeart.15": "",
 
         /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      ████  ███  █   █ █   █ █████ ████  █████  ███  █████ █████  ███  █   █ █████ 
@@ -1063,6 +1166,7 @@
     █   █   █   █       █       █   █   █   █   █ █     █   █ █   █ █   █ █     
      ███  █████ █       █       ████  █████ █   █ █████  ███   ███  █████ █████ 
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    // change apples to a hated gift
 
     "AfterDark.Gift.Harvey.GiftReaction.Coffee.1": "",
     "AfterDark.Gift.Harvey.GiftReaction.Coffee.2": "",
