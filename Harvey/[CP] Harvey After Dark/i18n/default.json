@@ -46,14 +46,181 @@
     █   █ █   █ █  ██ █   █ █   █ █   █     █   █   █   █   █ █     █   █ █   █ █   █ █     
     █   █ █   █ █   █ ████   ███  █   █     ████  █████ █   █ █████  ███   ███  █████ █████  
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-    
+     /* Thank you, the following users, for helping with this section:
+    - Sulema
+    - Mrs. Levi Ackerman
+    - Sicilia
+    - soup7430
+    - twojstaryhazardzista
+    - dovah_kinstead (village idiot)
+    - verrah22
+    - kii.ri
+    - Lady-Lancer 
+    - Pandie
+    - kateylynn96
+    - drboywonderr
+    */
+
     // Introduction
     "AfterDark.Core.Harvey.Introduction": "...$7#$b#Sorry, I didn't mean to stare. You must be the new farmer everyone's been going on about.$h#$e#Wait, before you go, I think I see something on your neck...$8#$b#You should swing by my office one of these days and I'll check it out for you.#$b#@? Was it?$l",
 
     // Rain
+    /*
+    You're soaked! Goodness...
+    %His eyes linger for a moment longer than polite on your drenched shirt.
+    Ahem... Let me fetch you a towel. Would you like to borrow one of my sweaters or an umbrella since you're going to be out? 
+
+    Don't tell me you're heading out there without an umbrella. Please don't make me worry for your health more than I already do.
+    Err... As a patient that is...
+
+    --- 
+
+    Oh, petname! You know better than to be walking out there without an umbrella! 
+    Ugh, look at you, you're soaked! You'll catch a cold at this rate... Here, let me go grab you a towel and something warm to drink...
+
+    You shouldn't be out in the rain like this... You'll catch a cold and exacerbate your condition.
+
+    You know if you get sick because you're out in the rain it'll make your condition worse and I'll be the one having to adjust your treatment to fix you. 
+    Do take more caution when you're out there in the rain, yeah? 
+
+    */
     "AfterDark.Core.Harvey.Rain.1": "",
     "AfterDark.Core.Harvey.Rain.2": "",
     "AfterDark.Core.Harvey.Rain.3": "",
+    "AfterDark.Core.Harvey.Rain.4": "",
+    "AfterDark.Core.Harvey.Rain.5": "",
+
+
+    // BIRTHDAY -- Winter 14
+    /*
+    Hm, did you need a check-up or something? I mean, I normally take my birthday off but for you I can always make an exception. 
+
+    Mmm... What a lovely surprise getting to see my favorite patient on my birthday. 
+    No need to give me a gift, just seeing you in good health is enough for me. 
+
+    Oh, are you here to wish me a happy birthday?
+    I swear, each year that goes by really makes me insecure about how old I'm getting, but seeing you so happy to talk to me today makes it worth it.
+
+    Y'know, I thought today would be filled with labwork and boring stacks of paper. I'm glad you came by, you made my day. 
+
+    Mmmm... Do you think for my birthday I could get a kiss from my favorite patient? 
+    */
+    "AfterDark.Core.Harvey.Birthday.0": "",
+    "AfterDark.Core.Harvey.Birthday.4": "",
+    "AfterDark.Core.Harvey.Birthday.6": "",
+    "AfterDark.Core.Harvey.Birthday.8": "",
+    "AfterDark.Core.Harvey.Birthday.10": "",
+
+    // Hospital
+    // TODO: CHANGE SCHEDULE TO GET RID OF HIM GOING INTO THE EXAM ROOM
+    // SETHEALTH/STAMINA WITH BETAS
+    /*
+    Hm... We don't have an appointment today, are you needing something?
+    Do you feel poorly? 
+    You can tell me anything, you know that. 
+
+    Oh, I was wondering when you'd show up for your blood draw. 
+    Come to the back, I got a chair nice and ready for you.
+
+    Hm... I wasn't expecting you today. Are you taking care of yourself? Getting enough rest?
+
+    Y'know, I'm glad you're being diligent and taking your health seriously, but you don't have to come in on days that aren't your appointment.
+    Though, I won't say no having a chat with my favorite patient. 
+
+    Do you have some concerns about your treatment? You know I'm always here to answer any questions if you have them.
+
+    Hm... I have a new formula for treatment I'd like to try out, do tell me if it works better for you, yeah?
+    // Makes you worse; conversation topic which halves your health 
+
+    --- 
+
+    Oh, petname. Why are you here? Do you feel alright?
+    Maybe I should designate our appointments to twice a week... You need better monitoring on your condition.
+
+    Oh, is it our appointment time already? Here, let me go grab you a gown to change into.
+    ...
+    What do you mean you don't need a gown for a blood draw? Are you questioning my decisions as a doctor, petname? 
+
+    Make sure you're coming to your appointments on time, yeah? It's important that someone in your condition gets regularly tested. 
+    Speaking of, our appointment isn't today, did you stop by for a different reason? 
+
+    Are you alright? You look a little flush.
+    Here, come into the back, I need to take your temperature ASAP.
+    ...
+    Ah, unless you're willing to use a different kind, maybe you could stay for a bit while Maru finishes tuning the oral thermometers...
+
+    I didn't expect to see you here today. Actually, since you're here, do you think I could check something out on you?
+    Last time you were here, I noticed some anomalies at the back of your throat, would you mind saying 'ahhh' for dadd-- I mean me? 
+
+    ...
+    Are you still messing around in the mines, petname? Despite my warnings?
+    You're going to make your condition worse--Nevermind the possibility of you getting physically hurt again in those mines. 
+    Please, head my warnings and be careful. 
+
+    ---
+
+    Tch. Looks like my stethoscope is broken. I guess after 10 years I'm bound for a new one, right? 
+    Anyways, I guess I'll have to listen to your heart and lungs the old fashioned way for today's appointment.
+    Y'know, ear to your back, hand on your stomach to keep you from moving away.
+
+    Oh, petname! Are you here for something? Today's not your appointment day, is it?
+    I mean, it seems like you look fine. Is there something bothering you? 
+
+    Mmm... Your cheeks look flushed. Come in for a quick check-up, yeah? You know we can't go risking your health. 
+
+    I noticed you've started going deeper into the mines despite my multiple warnings against doing so given your condition, petname.
+    I guess I'll probably go insane trying to get you to change, hm?
+    Perhaps we should up the frequency of your treatments and check-ups, hm? Just to be on the safe side, of course. 
+
+    Hmm... I've been looking at your labs and something's just... amiss. I think we need to do another check-up to make sure everything's accurate.
+    I hope this doesn't put a damper in your day, I just don't want you to have another episode, petname. 
+
+    ---
+
+    Hm... Looks like we're out of tongue compressors for today's appointment.
+    Do you mind if we do things the old fashioned way? I promise, I'll be gentle with my fingers. 
+
+    Y'know, you've been coming here for months now. Aren't you sick of seeing me yet?
+    Anyways, your appointment isn't today, were you looking to hang out or something? 
+
+    I swear, just having you around gives me a boost in energy. I'm so glad we met when we did. 
+    ...
+    Oh, you're here for a check-up? Um... Looking at my books, you aren't due until Tuesday, right? 
+    I mean, you know I can always squeeze you in if you're not feeling good.
+
+    Hm... Would you be interested in switching some of your appointments to home-visits?
+    I wouldn't mind the walk and opportunity to make your day easier. 
+
+    You look flushed. Here, come sit down.
+    Are you overextending yourself? Or does your heart always beat this loudly around me? 
+
+    Ugh, the medication for your treatment is on back order. 
+    So, just for today, take it easy please. If you need a break while you're in town you can always stop by here--Or if you want a more private area you can always use my apartment.
+
+    */
+    "AfterDark.Core.Harvey.Hospital.2h.1": "",
+    "AfterDark.Core.Harvey.Hospital.2h.2": "",
+    "AfterDark.Core.Harvey.Hospital.2h.3": "",
+    "AfterDark.Core.Harvey.Hospital.2h.4": "",
+    "AfterDark.Core.Harvey.Hospital.2h.5": "",
+
+    "AfterDark.Core.Harvey.Hospital.4h.1": "",
+    "AfterDark.Core.Harvey.Hospital.4h.2": "",
+    "AfterDark.Core.Harvey.Hospital.4h.3": "",
+    "AfterDark.Core.Harvey.Hospital.4h.4": "",
+    "AfterDark.Core.Harvey.Hospital.4h.5": "",
+
+    "AfterDark.Core.Harvey.Hospital.6h.1": "",
+    "AfterDark.Core.Harvey.Hospital.6h.2": "",
+    "AfterDark.Core.Harvey.Hospital.6h.3": "",
+    "AfterDark.Core.Harvey.Hospital.6h.4": "",
+    "AfterDark.Core.Harvey.Hospital.6h.5": "",
+
+    "AfterDark.Core.Harvey.Hospital.8h.1": "",
+    "AfterDark.Core.Harvey.Hospital.8h.2": "",
+    "AfterDark.Core.Harvey.Hospital.8h.3": "",
+    "AfterDark.Core.Harvey.Hospital.8h.4": "",
+    "AfterDark.Core.Harvey.Hospital.8h.5": "",
 
     // Pos Romantic Shit
     "AfterDark.Core.Harvey.AcceptBouquet": "",
@@ -648,13 +815,6 @@
     "AfterDark.Core.Harvey.Fall.LateHeart.13": "",
     "AfterDark.Core.Harvey.Fall.LateHeart.14": "",
 
-    // BIRTHDAY -- Winter 14
-    "AfterDark.Core.Harvey.Birthday.0": "",
-    "AfterDark.Core.Harvey.Birthday.4": "",
-    "AfterDark.Core.Harvey.Birthday.6": "",
-    "AfterDark.Core.Harvey.Birthday.8": "",
-    "AfterDark.Core.Harvey.Birthday.10": "",
-
     /*
     Did I hear you sneeze? 
     Well, did you know that holly leaves can be used to treat a variety of ailments, including allergy symptoms?
@@ -1012,6 +1172,19 @@
     █   █ █   █ █   █ █   █ █████ █   █  ███  █████     ████  █████ █   █ █████  ███   ███  █████ █████ 
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
+    /*
+    Thank you to the following users who helped with this section:
+    - Pandie
+    - Lady-Lancer
+    - mrs_levi_ackerman
+    - yukket
+    - soup7430
+    - justaninternetwreck
+    - stary.hollow
+    - verrah22
+
+    */
+
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      ENGAGEMENT
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -1020,6 +1193,39 @@
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      PATIO
+
+     Good morning, I was just reading up on the latest study, it's almost as interesting as you.
+
+     Hey petname. I'm just looking over your records... and a few other things.
+     It's impressive just how many documents have your old last name on them. Don't worry, they'll all have mine soon enough.
+     
+     Morning, d'you come over here to read with me? I have this amazing new edition of x we can look at together. Hm, do we have a chair nearby to pull up? 
+
+     How are you feeling today, petname? 
+     I could go grab a few medical supplies from inside if you're needing a checkup. 
+
+     Hmm... My plants out here aren't growing too well...
+     D'you think you could help me out, petname? You're just so good at this whole gardening thing... 
+
+     Oh, hey. 
+     Say, I've been thinking about putting a little swing out here. It'd be nice to watch the sunset together on, don't you think? 
+
+     %You try and peek into the book he's reading, but he quickly shuts it. 
+     O-Oh! Petname... Uh... Sorry, I didn't see you there...
+     What am I reading?
+     Err... Don't you have a few crops to tend to or something?
+
+     ...$l#$b#Sorry, I can't help but stare at you sometimes. You look {{LDescript}} under the sunlight, petname. 
+     ...
+     Fuck, I lost my place in this book... 
+
+     Hm....
+     ....Oh! Petname, there you are.
+     I was just brushing up on a few anatomy poses, but... Ugh. These diagrams are nothing like the real thing.
+     Care to help me study later?
+
+     It's so impressive how you've managed to maintain your farm so well with your condition. 
+     I'm trying to follow your lead with my own plants, but I guess only you have the green thumb.
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
     "AfterDark.Marriage.Harvey.Patio.1": "",
     "AfterDark.Marriage.Harvey.Patio.2": "",
@@ -1034,6 +1240,39 @@
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      SPOUSE ROOM
+
+     Good morning, petname. How'd you sleep?
+     Mmmm, it was good? I mean with how often you were mumbling and drooling last night, I bet it was a good sleep.
+
+     Aww, awake already? I was hoping to...
+     Never mind. I hope you slept well last night, petname. You'll need the energy for later. 
+
+     Mmmmm...
+     I don't think I'm quite awake yet, would you mind helping me?
+     I mean, I know a few things you could try that'd wake me right up.
+
+     Good morning, I made you some eggs, but please eat them slowly. I know you have a busy day today, but I don't want to see you choke on them.
+     ...
+     Though, there is something else I'd rather see you choke on. 
+
+     %You overhear Harvey sighing to himself.
+     Hm? Oh, hey petname. It's nothing, just... Hm...
+     Sometimes I really wish you were like one of my model planes. Small, easy to control, and always willing to do what I tell you.
+
+     Good morning, here's some coffee to get your day started.
+     Do let me know if you start feeling unwell, yeah? You know I'll be over straight away to make you feel better. 
+
+     Y'know, you slept pretty peacefully for someone who reached a new level of soprano last night.
+     Here's some tea to help that throat of yours, petname. 
+
+     ... It really is too bad I can't keep you on a shelf out of harmsway.
+     Promise me you'll be safe today, yeah? Come home straight away if you're not feeling good and I'll fix you up.
+
+     I almost forgot to make you breakfast this morning.
+     Yoba, I swear, watching you sleep has become my new favorite thing about living on this farm. 
+     
+     Mmm.. Your breathing this morning sounded pretty irregular. 
+     Here, take your shirt back off so I can listen. 
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
     "AfterDark.Marriage.Harvey.SpouseRoom.1": "",
     "AfterDark.Marriage.Harvey.SpouseRoom.2": "",
@@ -1048,28 +1287,114 @@
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      FUNLEAVE/RETURN
+
+     Hey, I'm heading out for a bit today. I just need to pick up a... err. Just a few supplies. 
+     I'll bring home dinner, don't worry. 
+
+     I'm heading out to do some grocery shopping today, would you like me to pick you up anything extra?
+     Don't worry about the essentials, I know exactly what you need. 
+
+     While I'm out today, please remember to take breaks, yeah?
+     I know you have a tendency to overwork yourself while in the zone. If you get hurt, come to me immediately. Do you understand?
+
+     I have a few errands to run today, but don't worry, I have something special planned for tonight. 
+     I love you, stay safe, petname. 
+
+     Mmm... We're running a bit low on sugar and I can't have you using your sweetness for anything other than me.
+     I need to make a small trip to Pierre's, I'll be back before you know it.
+
+     ---
+
+     
     -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
     "AfterDark.Marriage.Harvey.funLeave.1": "",
     "AfterDark.Marriage.Harvey.funLeave.2": "",
     "AfterDark.Marriage.Harvey.funLeave.3": "",
     "AfterDark.Marriage.Harvey.funLeave.4": "",
     "AfterDark.Marriage.Harvey.funLeave.5": "",
-    "AfterDark.Marriage.Harvey.funLeave.6": "",
-    "AfterDark.Marriage.Harvey.funLeave.7": "",
-    "AfterDark.Marriage.Harvey.funLeave.8": "",
-    "AfterDark.Marriage.Harvey.funLeave.9": "",
-    "AfterDark.Marriage.Harvey.funLeave.10": "",
     
     "AfterDark.Marriage.Harvey.funReturn.1": "",
     "AfterDark.Marriage.Harvey.funReturn.2": "",
     "AfterDark.Marriage.Harvey.funReturn.3": "",
     "AfterDark.Marriage.Harvey.funReturn.4": "",
     "AfterDark.Marriage.Harvey.funReturn.5": "",
-    "AfterDark.Marriage.Harvey.funReturn.6": "",
-    "AfterDark.Marriage.Harvey.funReturn.7": "",
-    "AfterDark.Marriage.Harvey.funReturn.8": "",
-    "AfterDark.Marriage.Harvey.funReturn.9": "",
-    "AfterDark.Marriage.Harvey.funReturn.10": "",
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     JOBLEAVE/RETURN
+
+     Hey, I'm going out to work today. Don't worry though, I'll be back before you know it. If you start to miss me too much you can just stop by the clinic.
+     You know I'll always take your company. 
+
+     As much as it pains me to leave you by yourself, I have to head to work today, petname. 
+     Please, make sure you stop by today. I don't think I could go a full 8 hours without seeing your smile.
+
+     I almost wish I didn't have to keep running my clinic. No one else deserves my care like you do, petname. 
+
+     Y'know, even though I have to work today, I half a mind to tie you up so I know exactly where you are when I'm gone. 
+     C'mon, let me? I'll make it a point to come every other hour to take care of you. 
+
+     Even though I have work today, make sure you still stop by if you get hurt, yeah?
+     You know I love being the only one able to fix you. 
+
+     Ugh, I wish we could stay in bed all day and just cuddle, but duty calls.
+     I'll see you later today, yeah, petname?
+     
+     Oh, please don't look at me like that, petname. You know I'm weak for you and oh how I wish I could stay but...
+     My patients... My clinic... 
+     How about tonight I show you just how much I really need you, hm? 
+
+     Ugh, I have a few tests to run and medications to fill...
+     Oh, and paperwork.... Ugh, I'm sorry, petname. I would stay here with you all day but I have to go work...
+
+     // need 2 more 
+
+     ---
+
+     ...$s 
+     Sorry, today was such a long day at the clinic.
+     Say, do you think we could go to the bathhouse to decompress? Or maybe we could decompress in another way...
+
+     Hey, how was your day? 
+     Personally, I couldn't focus on a damn thing due to you running through my mind. 
+
+     Y'know, it really is nice having someone to come home to when I go out.
+     How was your day, petname?
+
+     Today was such an eventful day at the clinic.
+     One of my patients--
+     Ugh, wait. I can't tell you the story without violating doctor patient confidentiality...
+     Anyways, did you have a good day today? 
+
+     %You hear Harvey sighing.
+     It was such a slow day at work today, though I did get to spend all of my free time thinking of you...
+     And what I wanted to do to you tonight. 
+
+     Today was so exhausting, petname.
+     Here, I brought us home some dinner... Why don't we eat this, cuddle on the porch, and watch the stars tonight? 
+
+     I will never get tired of coming home to you, petname. Every day that I see you I fall deeper in love with you. 
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+    "AfterDark.Marriage.Harvey.jobLeave.1": "",
+    "AfterDark.Marriage.Harvey.jobLeave.2": "",
+    "AfterDark.Marriage.Harvey.jobLeave.3": "",
+    "AfterDark.Marriage.Harvey.jobLeave.4": "",
+    "AfterDark.Marriage.Harvey.jobLeave.5": "",
+    "AfterDark.Marriage.Harvey.jobLeave.6": "",
+    "AfterDark.Marriage.Harvey.jobLeave.7": "",
+    "AfterDark.Marriage.Harvey.jobLeave.8": "",
+    "AfterDark.Marriage.Harvey.jobLeave.9": "",
+    "AfterDark.Marriage.Harvey.jobLeave.10": "",
+    
+    "AfterDark.Marriage.Harvey.jobReturn.1": "",
+    "AfterDark.Marriage.Harvey.jobReturn.2": "",
+    "AfterDark.Marriage.Harvey.jobReturn.3": "",
+    "AfterDark.Marriage.Harvey.jobReturn.4": "",
+    "AfterDark.Marriage.Harvey.jobReturn.5": "",
+    "AfterDark.Marriage.Harvey.jobReturn.6": "",
+    "AfterDark.Marriage.Harvey.jobReturn.7": "",
+    "AfterDark.Marriage.Harvey.jobReturn.8": "",
+    "AfterDark.Marriage.Harvey.jobReturn.9": "",
+    "AfterDark.Marriage.Harvey.jobReturn.10": "",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      SPECIAL DATES
@@ -1403,10 +1728,30 @@
     //------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
     /*
     Thank you to the following users who helped with this section:
-    - Viktor
+    - Viktor\
+    - kii.ri
+    - starry.hollow
+    - dennifer
     */
 
     // Egg Festival
+    /*
+    I never participated in the actual hunt aspect of this event. If you choose to join in do be careful, I wouldn't want you to sprain an ankle or anything
+
+    Isn't it such a lovely day for an egg hunt? Remember not to dig too deep into the tall grass, yeah? Wouldn't want you to get a tick or something like that. 
+
+    Are you joining the egg hunt this year? Well, remember it's a game above all else. Don't do anything to overexert or harm yourself, yeah? 
+
+    ---
+
+    Make sure you go at a steady pace this year, yeah? Keeping yourself safe is just as important as having fun, petname. 
+    I don't wanna have a repeat of last year where you nearly broke your ankle trying to snatch an egg out of a bush...
+
+    Are you sure you want to compete this year, petname? You could get hurt.... Here, why don't I hide some eggs on the farm and we can have the same fun with just ourselves? 
+
+    Perhaps we could find some use for the eggs you gather today at home.
+    Wait... they are real eggs, right?
+    */
     "AfterDark.Festival.Harvey.spring13.false.1": "",
     "AfterDark.Festival.Harvey.spring13.false.2": "",
     "AfterDark.Festival.Harvey.spring13.false.3": "",
@@ -1415,6 +1760,32 @@
     "AfterDark.Festival.Harvey.spring13.true.3": "",
 
     // Flower Dance
+    /*
+    ...!
+    Sorry, I didn't expect you to dress up for the festival. You look absolutely stunning by the way.
+
+    The flowers are lovely this year, they are almost the second most beautiful view at this event. What's the first? Ah um well...
+
+    if you need a bit of help with the steps, just let me know. I've done the Flower Dance more than a few times.
+
+    ---
+
+    ...$l#$B#Have I ever told you how much I love getting to show you off at this event? 
+    We will be dancing together, right, petname? 
+
+    tell me if you start feeling woozy at all [pet name]. I'll be right there to catch you if you fall, i promise.
+    you know how strenuous the flower dance can be on your body... I hate to see you overexert yourself.
+
+    Have I ever told you how I used to secretly hate this dance? But now... I love a reason to show you off, petname. 
+
+    --- 
+
+    Yes! Oh... I mean— Yes. Of course. I'd be honored. I'll see you on the dance floor.
+
+    How could I reject such a {{LDescript}} little face like that. C'mon, let's show 'em how it's done. 
+
+    Oh sorry pet name, I think it would be better if you sat this one out. I wouldnt hate for you to overdo it for such a silly dance
+    */
     "AfterDark.Festival.Harvey.spring24.false.1": "",
     "AfterDark.Festival.Harvey.spring24.false.2": "",
     "AfterDark.Festival.Harvey.spring24.false.3": "",
@@ -1426,6 +1797,12 @@
     "AfterDark.Festival.Harvey.DanceDeny": "",
 
     // Luau 
+    /*
+    As a doctor, the idea of a communal soup really disgusts me, but it's hard to deny local traditions.
+    Did you put anything in? 
+
+    
+    */
     "AfterDark.Festival.Harvey.summer11.false.1": "",
     "AfterDark.Festival.Harvey.summer11.false.2": "",
     "AfterDark.Festival.Harvey.summer11.false.3": "",
