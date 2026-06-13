@@ -158,6 +158,12 @@
     - MuseLaSora
     - Pixie
     - Denny
+    - d.rat
+    - kii.ri
+    - chemicalamity
+    - aria_cantabile
+    - lady-lancer!!
+    - morp
     For helping with a lot of these lines :3 */ 
 
     // TRANSLATORS: I'm sorry, his pack's content has been MAJORLY overhauled. Please treat this section as if it's new content.
@@ -170,15 +176,12 @@
     "AfterDark.Core.Alex.Spring.0Heart.4": "You again? Don't you have some important farmwork to do or something?$9",
     "AfterDark.Core.Alex.Spring.0Heart.5": "Ugh, could you at least shower before you come here?$a#$b#I can still smell farm all over you.$9",
     "AfterDark.Core.Alex.Spring.0Heart.6": "%Alex rolls his eyes as soon as he sees you walking up. Doesn't look like he wants to talk to you today.",
-    "AfterDark.Core.Alex.Spring.0Heart.7": "",
-    "AfterDark.Core.Alex.Spring.0Heart.8": "",
-    "AfterDark.Core.Alex.Spring.0Heart.9": "",
-    "AfterDark.Core.Alex.Spring.0Heart.10": "",
-    "AfterDark.Core.Alex.Spring.0Heart.11": "",
-    "AfterDark.Core.Alex.Spring.0Heart.12": "",
-    "AfterDark.Core.Alex.Spring.0Heart.13": "",
-    "AfterDark.Core.Alex.Spring.0Heart.14": "",
-    "AfterDark.Core.Alex.Spring.0Heart.15": "",
+    "AfterDark.Core.Alex.Spring.0Heart.7": "%Alex's eyes run up and down your body.#$b#Y'know, for someone from the city, even Haley has better fashion sense than you.$a",
+    "AfterDark.Core.Alex.Spring.0Heart.8": "...$a#$b#Sorry, I don't speak farm animal.$9",
+    "AfterDark.Core.Alex.Spring.0Heart.9": "Does farmwork pay well?$9#$b#I mean, with those clothes, you really can't tell.$9",
+    "AfterDark.Core.Alex.Spring.0Heart.10": "I'm not gonna lie...$9#$b#I'd rather be talking to Clint of all people than you right now.$a",
+    "AfterDark.Core.Alex.Spring.0Heart.11": "Y'know, you seem like the type of farmer that'd step on a rake.#$b#What? Am I wrong?$h",
+    "AfterDark.Core.Alex.Spring.0Heart.12": "...$a#$b#Why don't you go grow something that'll actually want to talk to you?$a",
 
     "AfterDark.Core.Alex.Spring.EarlyHeart.1": "Don't you get tired of coming around here all the time?$9#$b#Am I that interesting to talk to?$h",
     "AfterDark.Core.Alex.Spring.EarlyHeart.2": "%You catch Alex staring at you with a serious expression. Looks like he's actually thinking for once.",
@@ -186,10 +189,10 @@
     "AfterDark.Core.Alex.Spring.EarlyHeart.4": "{{Petname}}, {{LPetName}}, {{LPetName}}. Has it gotten annoying yet?$h#$e#Oh, don't tell me you actually like it...$s",
     "AfterDark.Core.Alex.Spring.EarlyHeart.5": "Do you even look in a mirror before you leave the house?$9#$b#Oh don't tell me you look like that on purpose...$s",
     "AfterDark.Core.Alex.Spring.EarlyHeart.6": "%Alex takes a stray leaf out of your hair, not saying anything.#$e#What?$9#$b#Oh, don't get used to that.$a#$b#I only did it so you'd look less like shit.$a",
-    "AfterDark.Core.Alex.Spring.EarlyHeart.7": "",
-    "AfterDark.Core.Alex.Spring.EarlyHeart.8": "",
-    "AfterDark.Core.Alex.Spring.EarlyHeart.9": "",
-    "AfterDark.Core.Alex.Spring.EarlyHeart.10": "",
+    "AfterDark.Core.Alex.Spring.EarlyHeart.7": "Shouldn't you be working instead of bothering me?$9#$b#That farm is still a mess, y'know.#$b#...#$b#Kinda like you.$h",
+    "AfterDark.Core.Alex.Spring.EarlyHeart.8": "...$9#$e#Oh, you're still here.$a#$b#Can't you ever take a hint?$a",
+    "AfterDark.Core.Alex.Spring.EarlyHeart.9": "...$9#$b#Listen, {{LPetName}}, I know I'm gonna be a big gridball star, but trying to cozy up to me before my break isn't gonna get you tickets.",
+    "AfterDark.Core.Alex.Spring.EarlyHeart.10": "{{PetName}}?$a#$b#Seriously?$a#$b#Of all things, that's what you decided I should call you?$a",
 
     "AfterDark.Core.Alex.Spring.MidHeart.1": "Hey, how many other guys do you talk to?#$b#Actually, don't answer that. I feel like I'd be hurting my own feelings there.$s",
     "AfterDark.Core.Alex.Spring.MidHeart.2": "Man, you have a really big forehead... Honestly, I could even land a plane on there...$h#$b#$y 'Oh, c'mon! Don't look at me like that..._You're one to talk._I'll have you know, my forehead is AVERAGE size, thank you very much.$a_Don't respond._Aww, did my way with words make you speechless? How cute.$h'",
@@ -211,15 +214,15 @@
     "AfterDark.Core.Alex.Fall.Wed.01.02": "Aww, not gonna put up a fight today, {{LPetName}}?$h#$b#You're no fun when you're so submissive...",
 
     "AfterDark.Core.Alex.Spring.LateHeart.1": "Hey, I got you something.#$b#I know it's a bit out of season, but, I don't know...[421]#$b#It kind of reminds me of your smile, almost.$h",
-    "AfterDark.Core.Alex.Spring.LateHeart.2": "",
-    "AfterDark.Core.Alex.Spring.LateHeart.3": "",
-    "AfterDark.Core.Alex.Spring.LateHeart.4": "",
-    "AfterDark.Core.Alex.Spring.LateHeart.5": "",
-    "AfterDark.Core.Alex.Spring.LateHeart.6": "",
-    "AfterDark.Core.Alex.Spring.LateHeart.7": "",
-    "AfterDark.Core.Alex.Spring.LateHeart.8": "",
-    "AfterDark.Core.Alex.Spring.LateHeart.9": "",
-    "AfterDark.Core.Alex.Spring.LateHeart.10": "",
+    "AfterDark.Core.Alex.Spring.LateHeart.2": "Why don't you let me help you out on that farm sometime?#$b#These muscles aren't just for show, you know?$h",
+    "AfterDark.Core.Alex.Spring.LateHeart.3": "...$l#$b#You're really {{LDescript}}, you know that?$l#$b#...#$b#What? I can be nice when I want to.$h",
+    "AfterDark.Core.Alex.Spring.LateHeart.4": "You've been so focused on your farm lately, @...$s#$b#Hmm...#$b#How about one of these days you let me do all the heavy lifting, yeah?$l#$b#I promise I can take good care of you, {{LPetName}}.$l",
+    "AfterDark.Core.Alex.Spring.LateHeart.5": "Oh, I can't wait for summer, it's my favorite season.$h#$b#Maybe we should go on a little date by the beach when it warms up some, hm?$l",
+    "AfterDark.Core.Alex.Spring.LateHeart.6": "Yoba, I swear, with you running around all the time, it makes it hard to stay focused.$l#$b#Maybe you should put on a few more layers. I don't want anyone else getting ideas.$h",
+    "AfterDark.Core.Alex.Spring.LateHeart.7": "...$s#$b#Sorry, for some reason Gran's been nagging me about learning how to cook lately.$s#$b#Hmmm... Well, maybe if you were my taste tester I'd experiment more often.$l",
+    "AfterDark.Core.Alex.Spring.LateHeart.8": "Ugh, Granny keeps telling me over and over how spring's a great season for weddings.$a#$b#...$9#$b#Well... I guess she isn't wrong.$l#$b#You look good with all the petals flying around you, you know that?$l",
+    "AfterDark.Core.Alex.Spring.LateHeart.9": "...$s#$b#I wish you'd rely on me more for all the heavy lifting you do.$s#$b#I don't know what I'd do if I ever saw you hurt, @.$9",
+    "AfterDark.Core.Alex.Spring.LateHeart.10": "Oh, hey @.$l#$b#Though grateful, I'm surprised you're even giving me the time of day.$h#$b#I thought spring was a busy season for farmers, no?",
 
     // SUMMER
     "AfterDark.Core.Alex.Summer.0Heart.1": "Would you stop bothering me already?$9#$b#I don't want whatever products you're selling.$a",
@@ -229,25 +232,22 @@
     "AfterDark.Core.Alex.Summer.0Heart.5": "Before you even say anything, just know I'd rather be messing around with Haley or even getting checked out by Harvey right now instead of talking to you.$a",
     "AfterDark.Core.Alex.Summer.0Heart.6": "Do you ever do farmwork or do you just try and spend your entire day bothering me?$9",
     "AfterDark.Core.Alex.Summer.0Heart.7": "Look, {{LPetName}}, I know I'm extremely good-looking but, you gotta realize, I'm just not interested.$9#$e#%Alex is ignoring you now.",
-    "AfterDark.Core.Alex.Summer.0Heart.8": "",
-    "AfterDark.Core.Alex.Summer.0Heart.9": "",
-    "AfterDark.Core.Alex.Summer.0Heart.10": "",
-    "AfterDark.Core.Alex.Summer.0Heart.11": "",
-    "AfterDark.Core.Alex.Summer.0Heart.12": "",
-    "AfterDark.Core.Alex.Summer.0Heart.13": "",
-    "AfterDark.Core.Alex.Summer.0Heart.14": "",
-    "AfterDark.Core.Alex.Summer.0Heart.15": "",
+    "AfterDark.Core.Alex.Summer.0Heart.8": "Want to be a good little {{LGoodName}}?$l#$b#Stay the fuck away from me.$a",
+    "AfterDark.Core.Alex.Summer.0Heart.9": "If you're gonna hang out at the beach this summer, could you at least do it at night?$s#$b#I really don't want to run into you.$s",
+    "AfterDark.Core.Alex.Summer.0Heart.10": "Ugh, the heat just sucks all the life out of me.$s#$b#Come on, make it quick. I don't have the energy to deal with you today.$a",
+    "AfterDark.Core.Alex.Summer.0Heart.11": "%Alex's eyes rake over you.#$b#Haven't you been here for a while?$a#$b#How the hell do you still look so weak after doing all that farmwork?$h",
+    "AfterDark.Core.Alex.Summer.0Heart.12": "...$a#$b#Y'know, if only you were a little bit taller...#$b#That way you could be blocking the sun instead of wasting my air.$h",
 
     "AfterDark.Core.Alex.Summer.EarlyHeart.1": "%Alex is ignoring you. Better try again tomorrow.",
     "AfterDark.Core.Alex.Summer.EarlyHeart.2": "%Alex sighs, running his hands through his hair.#$b#Why do you keep coming around here? You're just so...$9#$b#I don't know, but you're confusing and it's pissing me off.$a",
     "AfterDark.Core.Alex.Summer.EarlyHeart.3": "The air feels so good today.#$b#Though, it'd feel even better if you weren't here bothering me.$9",
     "AfterDark.Core.Alex.Summer.EarlyHeart.4": "Summer's such a great season, isn't it, @?#$b#You know what'd make it even better?$h#$b#Not talking to you.$9",
     "AfterDark.Core.Alex.Summer.EarlyHeart.5": "%You catch Alex staring at you.#$b#What are you fucking looking at?$a",
-    "AfterDark.Core.Alex.Summer.EarlyHeart.6": "",
-    "AfterDark.Core.Alex.Summer.EarlyHeart.7": "",
-    "AfterDark.Core.Alex.Summer.EarlyHeart.8": "",
-    "AfterDark.Core.Alex.Summer.EarlyHeart.9": "",
-    "AfterDark.Core.Alex.Summer.EarlyHeart.10": "",
+    "AfterDark.Core.Alex.Summer.EarlyHeart.6": "Ugh... How many times do I have to say this, @?$a#$b#No, I won't give you my autograph.$a",
+    "AfterDark.Core.Alex.Summer.EarlyHeart.7": "Can you not stare at me like that?$s#$b#Ugh, I feel like the piece of steak I threw at Dusty last week...$s",
+    "AfterDark.Core.Alex.Summer.EarlyHeart.8": "Yoba, you're fucking lucky Lewis is our mayor.$a#$b#Anyone else and I would've filed a restraining order against you already.$a",
+    "AfterDark.Core.Alex.Summer.EarlyHeart.9": "Mmmm... Gah, the weather today's perfect for exercising.#$b#And I'm gonna start by running away from you.$h",
+    "AfterDark.Core.Alex.Summer.EarlyHeart.10": "Y'know, if you're gonna keep bothering me, at least be useful.$a#$b#I need a back weight and you seem to be the perfect size...$9su",
 
     "AfterDark.Core.Alex.Summer.MidHeart.1": "Yoba, {{LPetName}}, why do you keep bothering me so much?$a#$b#$y 'Can't you see I don't want you here?_I like annoying you._You're impossible, you know that?$l_If I'm so much of a bother, I'll leave._Wait, no- I didn't mean it like that...$7",
     "AfterDark.Core.Alex.Summer.MidHeart.2": "I swear, every time you talk to me, you have dirt somewhere on your face.$9#$b#Do you know how to bathe or do you need m—$9#$b#Er...$a#$b#Someone to teach you?$9",
@@ -258,55 +258,51 @@
     "AfterDark.Core.Alex.Summer.MidHeart.7": "I found this the other day while around your ho—#$b#I mean, Granny found it while she was gardening.$7#$b#I thought it'd look good on you.[191]",
     "AfterDark.Core.Alex.Summer.MidHeart.8": "Are you trying to impress someone?$9#$b#$y 'Who?_Why are you asking this?_You just uh, you look nicer than usual is all...$l_None of your business._Damn, no need to get so defensive, {{LPetName}}. You just look better than normal is all.$h",
     "AfterDark.Core.Alex.Summer.MidHeart.9": "You look tense from all that farmwork, how about you and I...$l#$b#Hm, actually, never mind...$h",
-    "AfterDark.Core.Alex.Summer.MidHeart.10": "",
-    "AfterDark.Core.Alex.Summer.MidHeart.11": "",
-    "AfterDark.Core.Alex.Summer.MidHeart.12": "",
-    "AfterDark.Core.Alex.Summer.MidHeart.13": "",
-    "AfterDark.Core.Alex.Summer.MidHeart.14": "",
-    "AfterDark.Core.Alex.Summer.MidHeart.15": "Hey @, let me ask you a question real quick.#$b#$q 52/53 summer_Wed_01_old#Do you think I'm good enough to go pro?#$r 52 30 summer_Wed_01_01#I think so, yeah.#$r 52 0 summer_Wed_01_02#I haven't really seen you play...#$r 53 -50 summer_Wed_01_03#In your dreams.",
+    "AfterDark.Core.Alex.Summer.MidHeart.10": "You remind me a lot of Dusty: both desperate for attention.#$b#Yoba, I hate that I have a thing for strays.$a",
+    "AfterDark.Core.Alex.Summer.MidHeart.11": "Yoba, can you stop coming to me all hot and sweaty?$s#$b#It's almost like you want me to—$l#$b#Agh, get out of my head and leave me alone.$a",
+    "AfterDark.Core.Alex.Summer.MidHeart.12": "...$l#$b#Y'know, if you look like that everyday, I don't think I'd mind having you around more often.$h",
+    "AfterDark.Core.Alex.Summer.MidHeart.13": "I know it's summer, but...$a#$b#Cover up a little more, there's more creeps than you think in this town.$a",
+    "AfterDark.Core.Alex.Summer.MidHeart.14": "Hey @, let me ask you a question real quick.#$b#$q 52/53 summer_Wed_01_old#Do you think I'm good enough to go pro?#$r 52 30 summer_Wed_01_01#I think so, yeah.#$r 52 0 summer_Wed_01_02#I haven't really seen you play...#$r 53 -50 summer_Wed_01_03#In your dreams.",
     "AfterDark.Core.Alex.Summer.Wed.01.old": "$p 52#Now that I think about it, having you walk around in one of my old jerseys would be pretty hot.$h|Willing to reconsider? Maybe if you apologize right now I'll even sign a jersey for you.",
     "AfterDark.Core.Alex.Summer.Wed.01.01": "You really think so?#$b#Or are you just saying that to see me in my uniform again?$h",
     "AfterDark.Core.Alex.Summer.Wed.01.02": "Hm, I guess you really haven't seen me play much, huh?$9#$b#Maybe you could come watch me practice one of these days.",
     "AfterDark.Core.Alex.Summer.Wed.01.03": "Aww, where's all this hate coming from, {{LPetName}}?$h#$b#C'mon, if I do go pro, I'll maybe consider letting you be my first fan.",
 
-    "AfterDark.Core.Alex.Summer.LateHeart.1": "...$l#$b#The Summer tan you got going on suits you. I like it.",
+    "AfterDark.Core.Alex.Summer.LateHeart.1": "...$l#$b#The summer tan you got going on suits you. I like it.",
     "AfterDark.Core.Alex.Summer.LateHeart.2": "I'll never get tired of seeing you run up to talk to me everyday, {{LPetName}}.$l#$b#It's so desperate it's almost cute.$h",
     "AfterDark.Core.Alex.Summer.LateHeart.3": "%You hear Alex sigh.#$b#It's kind of boring having to work the ice cream stall the entire summer.$s#$b#Maybe you should keep me company more often, {{LPetName}}.$h",
     "AfterDark.Core.Alex.Summer.LateHeart.4": "Did you know swimming in the ocean is the best way to cool off during the Summer?#$b#Plus, I know a secluded spot so no one would know what we'd be up to...$l",
-    "AfterDark.Core.Alex.Summer.LateHeart.5": "",
-    "AfterDark.Core.Alex.Summer.LateHeart.6": "",
-    "AfterDark.Core.Alex.Summer.LateHeart.7": "",
-    "AfterDark.Core.Alex.Summer.LateHeart.8": "",
-    "AfterDark.Core.Alex.Summer.LateHeart.9": "",
-    "AfterDark.Core.Alex.Summer.LateHeart.10": "",
+    "AfterDark.Core.Alex.Summer.LateHeart.5": "Mmmm... Forecast says the rest of this week might be sunny.#$b#Say, what do I have to do to get a chance to see you in a bikini of my choosing, hm?$l",
+    "AfterDark.Core.Alex.Summer.LateHeart.6": "Have you been putting on enough sunscreen lately?#$b#Y'know if you ever need help getting the hard to reach places, I'm here.$l",
+    "AfterDark.Core.Alex.Summer.LateHeart.7": "...$a#$b#I know summer here gets pretty hot, but you really shouldn't be wearing stuff like that.$a#$b#You have way too many people looking at you, {{LPetName}}.$a",
+    "AfterDark.Core.Alex.Summer.LateHeart.8": "%Alex's eyes settle on your neck.#$b#Is that a mosquito bite or did some asshole—$a#$b#Oh, it's a mosquito bite? Okay.$h",
+    "AfterDark.Core.Alex.Summer.LateHeart.9": "It's a little hot out today, but what do you think about having a little date tonight?#$e#Oh... Don't tell me you're busy...$s",
+    "AfterDark.Core.Alex.Summer.LateHeart.10": "...$l#$b#Sorry, you just look so {{LDescript}} with sweat running down your face, {{LPetName}}.$l",
 
     // FALL
-    "AfterDark.Core.Alex.Fall.0Heart.1": "How's the weather treating you?#$b#Uh— Actually, I don't really care.$9",
+    "AfterDark.Core.Alex.Fall.0Heart.1": "How's the weather treating you?#$b#Uh—Actually, I don't really care.$9",
     "AfterDark.Core.Alex.Fall.0Heart.2": "...$9#$e#What? Why are you still here?$a",
     "AfterDark.Core.Alex.Fall.0Heart.3": "What was your name again? %name? No, %firstnameletter%name?$9#$b#Eh, doesn't matter anyway.",
     "AfterDark.Core.Alex.Fall.0Heart.4": "Yoba, you look like shit. What exactly are you doing on that farm?$9#$b#Maybe you should uh... I don't know, go to the bathhouse or something and recover...$9#$b#Your whole aura is ruining my vibe.$a",
     "AfterDark.Core.Alex.Fall.0Heart.5": "What?$9#$b#Huh?#$b#Sorry, the wind's just so loud I can't talk to you today.",
     "AfterDark.Core.Alex.Fall.0Heart.6": "%You notice new headphones on Alex. Looks like he'd rather listen to music than talk to you.",
     "AfterDark.Core.Alex.Fall.0Heart.7": "Look, I have some plans with Haley today and I don't wanna be bothered by you.$9#$b#So, how about you make like a leaf and dip or something.#$e#Go on, I don't know why you're still here.$9",
-    "AfterDark.Core.Alex.Fall.0Heart.8": "",
-    "AfterDark.Core.Alex.Fall.0Heart.9": "",
-    "AfterDark.Core.Alex.Fall.0Heart.10": "",
-    "AfterDark.Core.Alex.Fall.0Heart.11": "",
-    "AfterDark.Core.Alex.Fall.0Heart.12": "",
-    "AfterDark.Core.Alex.Fall.0Heart.13": "",
-    "AfterDark.Core.Alex.Fall.0Heart.14": "",
-    "AfterDark.Core.Alex.Fall.0Heart.15": "",
+    "AfterDark.Core.Alex.Fall.0Heart.8": "...$9#$b#Blue lips don't look good on you, by the way.$9",
+    "AfterDark.Core.Alex.Fall.0Heart.9": "...$a#$b#What?$a#$b#Can't you see I'm trying to give you the cold shoulder here?$a",
+    "AfterDark.Core.Alex.Fall.0Heart.10": "$y 'Huh... I could've sworn I heard something..._Yeah, I'm right here._There's that noise again... Yoba, I swear I'm hearing things..._Hit him._Ow! What the hell is wrong with you?$a'",
+    "AfterDark.Core.Alex.Fall.0Heart.11": "Oh, dressing up for Spirit's Eve already?$h#$b#...$9#$b#What do you mean that's your normal look?$9",
+    "AfterDark.Core.Alex.Fall.0Heart.12": "Hey, do you feel the wind by chance?#$b#Maybe this time it'll finally whisk your scrawny ass away from me so I don't have to talk to you anymore.$h",
 
     "AfterDark.Core.Alex.Fall.EarlyHeart.1": "For someone who's supposedly SOOO productive on their farm, you seem to love spending all day here talking my ear off.$9#$b#Don't you have some dying crops or something to take care of?",
-    "AfterDark.Core.Alex.Fall.EarlyHeart.2": "You look worn out.$9#$b#$y 'Is that normal for a farmer?_Yeah, so what?_Hm... No reason.$h_No, I was busy with your mom last night._You know she's dead, right?$s'",
+    "AfterDark.Core.Alex.Fall.EarlyHeart.2": "%Looks like Alex is busy right now. Maybe you should try again later...#$e#Didn't you read the previous message?$a",
     "AfterDark.Core.Alex.Fall.EarlyHeart.3": "Ugh, maybe if words don't work, this will.$a#$b#%Alex places his hands on your shoulders, spinning you around and giving you a little push away from him.",
     "AfterDark.Core.Alex.Fall.EarlyHeart.4": "Doesn't fall mean harvest season for farmers? Why are you still here talking to me?$9#$b#Huh, actually, does this mean your crops are doing so poorly that you have a lot of time to kill?",
     "AfterDark.Core.Alex.Fall.EarlyHeart.5": "You know what I've been thinking about lately, @?$l#$b#Not you.$9",
-    "AfterDark.Core.Alex.Fall.EarlyHeart.6": "",
-    "AfterDark.Core.Alex.Fall.EarlyHeart.7": "",
-    "AfterDark.Core.Alex.Fall.EarlyHeart.8": "",
-    "AfterDark.Core.Alex.Fall.EarlyHeart.9": "",
-    "AfterDark.Core.Alex.Fall.EarlyHeart.10": "",
+    "AfterDark.Core.Alex.Fall.EarlyHeart.6": "%Alex doesn't bother looking at you, but he does make a face. Seems like you picked the wrong body spray today.",
+    "AfterDark.Core.Alex.Fall.EarlyHeart.7": "Yoba, I woke up in a cold sweat this morning...$s#$b#Yeah, I had a dream we were actually friends.$9",
+    "AfterDark.Core.Alex.Fall.EarlyHeart.8": "Huh...$9#$b#Y'know, it's crazy how after all this time...$9#$b#I still don't want to talk to you.",
+    "AfterDark.Core.Alex.Fall.EarlyHeart.9": "...$a#$b#Is there anyway I could train you to leave me alone?$a",
+    "AfterDark.Core.Alex.Fall.EarlyHeart.10": "Y'know, if you're having issues growing things, you might want to visit the library.$9#$b#At least then you'd actually make a living.",
 
     "AfterDark.Core.Alex.Fall.MidHeart.1": "{{PetName}}, I don't want to have to keep wiping dirt from your face each time I see you.$9#$b#You're such a mess.",
     "AfterDark.Core.Alex.Fall.MidHeart.2": "You have a few leaves stuck in your hair, you should get them out.#$e#Ugh, you're so useless... Here, let me get them for you.$9",
@@ -316,13 +312,12 @@
     "AfterDark.Core.Alex.Fall.MidHeart.6": "Oh, finally. I've been waiting for you all d—$h#$b#Ah, uh... nevermind. What do you want?$9",
     "AfterDark.Core.Alex.Fall.MidHeart.7": "You know, you're tougher than you look, @.#$b#Yeah, I didn't think a frail thing like you would last too long working on a farm all year.$h",
     "AfterDark.Core.Alex.Fall.MidHeart.8": "Are you enjoying the weather?#$b#I bet fall's a lot nicer to work in than summer, huh?$h",
-    "AfterDark.Core.Alex.Fall.MidHeart.9": "Did you eat something this morning? You look sick.$s#$b#Here, take this. I was gonna eat it myself, but...[201]#$e#Shut up. Don't try to give it back to me. It's yours now.$9",
-    "AfterDark.Core.Alex.Fall.MidHeart.10": "Gran's been trying to get her hands on apples this year... Something about making some sort of pie, I think?$s#$b#Hey, you wouldn't happen to grow any, would you?#$e#Well, if you do, you should give them to her yourself. I know she'd love to see you.$h",
-    "AfterDark.Core.Alex.Fall.MidHeart.11": "...$9#$b#Here. It reminded me of you.[421]$9#$e#Shut up, just don't mention it.$9",
-    "AfterDark.Core.Alex.Fall.MidHeart.12": "",
-    "AfterDark.Core.Alex.Fall.MidHeart.13": "",
-    "AfterDark.Core.Alex.Fall.MidHeart.14": "",
-    "AfterDark.Core.Alex.Fall.MidHeart.15": "Days like today make me really wish I had someone to play catch with.$u#$b#I'd ask you, but I wouldn't want to hurt you.$e#$q 5/6 Wed_01_old#How about one of these days I give you some private lessons on how to throw a gridball properly?#$r 6 0 Wed_01_02#I already know how to throw one.#$r 5 15 Wed_01_01#I'd rather just watch you throw it from a distance.#$r 5 0 Wed_01_03#Who says I'd even play catch with you?",
+    "AfterDark.Core.Alex.Fall.MidHeart.9": "Gran's been trying to get her hands on apples this year... Something about making some sort of pie, I think?$s#$b#Hey, you wouldn't happen to grow any, would you?#$e#Well, if you do, you should give them to her yourself. I know she'd love to see you.$h",
+    "AfterDark.Core.Alex.Fall.MidHeart.10": "...$9#$b#Here. It reminded me of you.[421]$9#$e#Shut up, just don't mention it.$9",
+    "AfterDark.Core.Alex.Fall.MidHeart.11": "...$s#$b#Uh...$s#$b#Gran was trying out a new recipe and...$s#$b#Ugh, here, just take it.[236]$a",
+    "AfterDark.Core.Alex.Fall.MidHeart.12": "What's wrong with you?$a#$b#Your face looks redder than the leaves on the trees right now.$a#$b#Oh...#$b#Don't tell me you're all flustered just by being around me, {{LPetName}}.$h#$b#How cute.$l",
+    "AfterDark.Core.Alex.Fall.MidHeart.13": "You look worn out.$9#$b#$y 'Is that normal for a farmer?_Yeah, so what?_Hm... No reason.$h_No, I was busy with your mom last night._You know she's dead, right?$s'",
+    "AfterDark.Core.Alex.Fall.MidHeart.14": "Days like today make me really wish I had someone to play catch with.$u#$b#I'd ask you, but I wouldn't want to hurt you.$e#$q 5/6 Wed_01_old#How about one of these days I give you some private lessons on how to throw a gridball properly?#$r 6 0 Wed_01_02#I already know how to throw one.#$r 5 15 Wed_01_01#I'd rather just watch you throw it from a distance.#$r 5 0 Wed_01_03#Who says I'd even play catch with you?",
     "AfterDark.Core.Alex.Wed.01.old": "Thought about those private lessons yet, {{LPetName}}?$h",
     "AfterDark.Core.Alex.Wed.01.01": "Yeah, nice try. With arms like those, I bet it wouldn't even go far.#$b#Just think about it, yeah?$h",
     "AfterDark.Core.Alex.Wed.01.02": "Already prepared to be a fan, huh {{LPetName}}?#$b#Obedience looks good on you.$h",
@@ -336,8 +331,8 @@
     "AfterDark.Core.Alex.Fall.LateHeart.6": "Hey, I got you something.#$b#I thought you might like it.[595]$l",
     "AfterDark.Core.Alex.Fall.LateHeart.7": "I think I might buy a motorcycle. Seb's been making me jealous lately.#$b#Plus, I'm already used to wearing helmets and I think it'd be nice to have a {{LDescript}} little thing like you wrapped around me.$h",
     "AfterDark.Core.Alex.Fall.LateHeart.8": "Hmm... I was wanting to take you out for apple picking this week as a cute date but...$s#$b#Ugh, I guess that's like work for you, isn't it?$9",
-    "AfterDark.Core.Alex.Fall.LateHeart.9": "",
-    "AfterDark.Core.Alex.Fall.LateHeart.10": "",
+    "AfterDark.Core.Alex.Fall.LateHeart.9": "...$l#$b#Y'know, despite it being chilly today, your lips look surprisingly soft.$l#$b#Could I get a taste, {{LPetName}}?$l",
+    "AfterDark.Core.Alex.Fall.LateHeart.10": "Oh, hey.$h#$b#Hm...$l#$b#What do I have to say to make you laugh today, hm?$l#$b#I'm just dying to hear your laugh.$l",
 
     // WINTER
     "AfterDark.Core.Alex.Winter.0Heart.1": "Look, you seem nice, but I think I'd rather make conversation with a gridball right now.$9",
@@ -348,13 +343,10 @@
     "AfterDark.Core.Alex.Winter.0Heart.6": "Oh? Trying to raise your friendship with me this late in the year?$9#$b#And what if I just said \"no\" to all your advances, hm?$a",
     "AfterDark.Core.Alex.Winter.0Heart.7": "What are you looking at?$9#$b#You've spent the entire year just staring at me and NOW'S when you want to spark a conversation?$a",
     "AfterDark.Core.Alex.Winter.0Heart.8": "Yoba, it's been too damn cold to go for a run lately.$s#$e#What are you looking at? I wasn't talking to you.$a",
-    "AfterDark.Core.Alex.Winter.0Heart.9": "",
-    "AfterDark.Core.Alex.Winter.0Heart.10": "",
-    "AfterDark.Core.Alex.Winter.0Heart.11": "",
-    "AfterDark.Core.Alex.Winter.0Heart.12": "",
-    "AfterDark.Core.Alex.Winter.0Heart.13": "",
-    "AfterDark.Core.Alex.Winter.0Heart.14": "",
-    "AfterDark.Core.Alex.Winter.0Heart.15": "",
+    "AfterDark.Core.Alex.Winter.0Heart.9": "Ugh, c'mon...$s#$b#I thought I could've went the rest of the year without talking to you...$s#$b#Why do you have to start now?$a",
+    "AfterDark.Core.Alex.Winter.0Heart.10": "Hm... How come you're not hibernating or whatever?#$b#...#$b#What? You're basically an animal already.$h",
+    "AfterDark.Core.Alex.Winter.0Heart.11": "Be careful of the ice outside, you might slip and fall.#$e#Ugh, no, don't get any ideas.$a#$b#I'm only worried you might hit y our head and become even dumber than you already are.$a",
+    "AfterDark.Core.Alex.Winter.0Heart.12": "Are you happy it's winter?#$b#At least you won't be able to kill anything this season.$h",
 
     "AfterDark.Core.Alex.Winter.EarlyHeart.1": "Huh? You're talking to me now?$9#$b#And how long have you been ignoring me for, @?$a",
     "AfterDark.Core.Alex.Winter.EarlyHeart.2": "It's cold out today, huh?#$e#What, are you expecting a longer conversation? {{LPetName}}, I barely know you.$s",
@@ -364,8 +356,8 @@
     "AfterDark.Core.Alex.Winter.EarlyHeart.6": "Aren't you cold wearing that?$s#$b#Do you want my— er, why don't you go buy a better jacket?$9",
     "AfterDark.Core.Alex.Winter.EarlyHeart.7": "If you keep wandering around here in the cold you'll get sick.$9#$b#Go home and warm up, @.$9",
     "AfterDark.Core.Alex.Winter.EarlyHeart.8": "Huh, for some reason you feel a lot more tolerable today.$9#$b#Maybe it's because of all those clothes you have on, there's less of you for me to see.$h",
-    "AfterDark.Core.Alex.Winter.EarlyHeart.9": "",
-    "AfterDark.Core.Alex.Winter.EarlyHeart.10": "",
+    "AfterDark.Core.Alex.Winter.EarlyHeart.9": "...$a#$b#You really are too stupid for your own good, you know that?$a#$b#Go put on a real jacket before you make yourself sick.$a",
+    "AfterDark.Core.Alex.Winter.EarlyHeart.10": "Wow... I guess winter really is the season where everyone couples up...$9#$b#Does it suck being the only one in town not having someone to go home to?",
 
     "AfterDark.Core.Alex.Winter.MidHeart.1": "%You catch Alex smiling at you.#$b#You look stupid with all that snow in your hair. Do you want me to clean it off you?$h",
     "AfterDark.Core.Alex.Winter.MidHeart.2": "The tip of your nose is red.#$b#It looks cute on you, rudolph.$h",
@@ -374,25 +366,24 @@
     "AfterDark.Core.Alex.Winter.MidHeart.5": "I think Dusty gets bored around this time of year, he can't stop digging stuff up and bringing it to me.$9#$b#Here, have this one. I can't keep hoarding them.[105 114 119 580]",
     "AfterDark.Core.Alex.Winter.MidHeart.6": "Gran made some of this stuff earlier, saying how she was so lucky to have all of us in her life...#$b#Anyways, I thought you might like some.[204]",
     "AfterDark.Core.Alex.Winter.MidHeart.7": "I nearly fell on my ass trying to walk out of the house earlier.$s#$b#You'd think Lewis would invest in clearing the paths around here, but I have to do it so Gran doesn't end up falling over.$9",
-    "AfterDark.Core.Alex.Winter.MidHeart.8": "",
-    "AfterDark.Core.Alex.Winter.MidHeart.9": "",
-    "AfterDark.Core.Alex.Winter.MidHeart.10": "",
-    "AfterDark.Core.Alex.Winter.MidHeart.11": "",
-    "AfterDark.Core.Alex.Winter.MidHeart.12": "",
-    "AfterDark.Core.Alex.Winter.MidHeart.13": "",
-    "AfterDark.Core.Alex.Winter.MidHeart.14": "",
-    "AfterDark.Core.Alex.Winter.MidHeart.15": "",
+    "AfterDark.Core.Alex.Winter.MidHeart.8": "...$a#$b#Are you trying to freeze your ass off in this weather? Put some more layers on.$a#$b#Here, take my jacket. I have plenty at home.[(S)1137]$a",
+    "AfterDark.Core.Alex.Winter.MidHeart.9": "...$9#$b#Y'know, you almost look tolerable with snow in your hair...",
+    "AfterDark.Core.Alex.Winter.MidHeart.10": "You look like a baby deer trying to navigate the icy roads.$9#$b#Go home and warm up, I promise I'll still be here tomorrow.",
+    "AfterDark.Core.Alex.Winter.MidHeart.11": "Aww, how cute. You're all flushed running up to me.$h#$b#...$9#$b#What do you mean it's just the cold making your face that red?$9#$b#Is that even possible?$h",
+    "AfterDark.Core.Alex.Winter.MidHeart.12": "If you're not busy later, Gran's about to make some fresh hot cocoa.#$b#...$9#$b#Don't look at me like that. Just stop by.$a",
+    "AfterDark.Core.Alex.Winter.MidHeart.13": "Did you eat something this morning? You look sick.$s#$b#Here, take this. I was gonna eat it myself, but...[201]#$e#Shut up. Don't try to give it back to me. It's yours now.$9",
+    "AfterDark.Core.Alex.Winter.MidHeart.14": "...$9#$b#You uh...$9#$b#You look good today.#$e#Oh, don't start...$s",
 
-    "AfterDark.Core.Alex.Winter.LateHeart.1": "Hm... That sweater looks pretty good on you— oh, you have a little string hanging out.#$b#Uh, you'd better get this one, if I did it, I'd probably unravel you until nothing's left.$l",
+    "AfterDark.Core.Alex.Winter.LateHeart.1": "Hm... That sweater looks pretty good on you—#$b#Oh, you have a little string hanging out.$9#$b#...$9#$b#You'd uh, better get this one.$9#$b#If I did it, I'd probably unravel you until nothing's left.$l",
     "AfterDark.Core.Alex.Winter.LateHeart.2": "What do you even do in winter now that there's barely any crops to tend to? I feel like I've been seeing you a lot more recently.#$b#Not that I mind though.$l",
     "AfterDark.Core.Alex.Winter.LateHeart.3": "Since this town doesn't have a skating rink, how about you let me take you to one in Zuzu City?#$b#It can be a little competition: see who ends up falling into the other's arms first.$h",
     "AfterDark.Core.Alex.Winter.LateHeart.4": "Ugh, Winter SUCKS. I feel like I'm going stir crazy being stuck at home with Gran all day.$s#$b#Though, I do feel better when you come around.$l",
     "AfterDark.Core.Alex.Winter.LateHeart.5": "Hey, did you know crocuses are part of the iris family?[418]#$e#What? Don't give me that look. I may or may not've recently picked up a book...$h#$b#And it may or may not have been inspired by you...$l",
-    "AfterDark.Core.Alex.Winter.LateHeart.6": "",
-    "AfterDark.Core.Alex.Winter.LateHeart.7": "",
-    "AfterDark.Core.Alex.Winter.LateHeart.8": "",
-    "AfterDark.Core.Alex.Winter.LateHeart.9": "",
-    "AfterDark.Core.Alex.Winter.LateHeart.10": "",
+    "AfterDark.Core.Alex.Winter.LateHeart.6": "Y'know, I used to think my future was all about getting out of this town and making it big somehow.#$b#But lately...$l#$b#I don't know.$h#$b#For some reason, lately, it feels like my entire life is right in front of me.$l",
+    "AfterDark.Core.Alex.Winter.LateHeart.7": "Oh, hey.#$b#Say, what time are you gonna head back to the farm? I'll walk you home.$h",
+    "AfterDark.Core.Alex.Winter.LateHeart.8": "...$l#$b#Sorry, I'm just really glad you came today.$h#$b#You always end up making my day better somehow.$l",
+    "AfterDark.Core.Alex.Winter.LateHeart.9": "Hm...$a#$b#You're a little late coming to talk to me today, aren't you?$a#$b#I guess you'll have to make it up to me somehow, yeah?$l",
+    "AfterDark.Core.Alex.Winter.LateHeart.10": "Mmm... You look good today, {{LPetName}}. Did you do something different?$l#$b#No? Well, I know one or two things that'd make you look even more {{LDescript}} if you let me.$l",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     █████ █████  ███  █      ███  █   █ █████ █   █     ████  █████  ███  █      ███   ████ █   █ █████ 
@@ -629,30 +620,35 @@
     █     █   █ █   █   █   █       █       █   █   █   █   █ █     █   █ █   █ █   █ █     
     █     █   █ █   █ █████ █████   █       ████  █████ █   █ █████  ███   ███  █████ █████ 
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    /*
+    Thank you to the following users who helped with this section:
+    - toxxxicmars
+    - zicktora3440
+    - narellie
+    - thespacehoodie
+    - hot_honey_garbage
+    - alexanderpetrus
+    - ladylancer
+    - death_2nova
+    */
 
-    "AfterDark.Family.Alex.Granny.1": "",
-    "AfterDark.Family.Alex.Granny.2": "",
-    "AfterDark.Family.Alex.Granny.3": "",
-    "AfterDark.Family.Alex.Granny.4": "",
-    "AfterDark.Family.Alex.Granny.5": "",
+    "AfterDark.Family.Alex.Granny.1": "...$s#$b#Sorry, it's just—Well, Gran does so much around town and I tried helping her out earlier...$s#$b#Do you think she'll be upset that I broke a flower bed?$9",
+    "AfterDark.Family.Alex.Granny.2": "I don't know why, but Gran's just seemed a bit off lately.$s#$b#Hey, would you happen to know any recipes for chocolate cake?$9#$b#I bet it'd cheer her right up.",
+    "AfterDark.Family.Alex.Granny.3": "...$s#$b#Man, I've been really wanting to cook Granny some of her favorites lately, but...#$b#Ugh, I swear, she keeps her recipes locked tighter than a clam.$s",
+    "AfterDark.Family.Alex.Granny.4": "Say, what kind of flowers have you been growing on your farm?#$b#...$9#$b#Oh, don't look at me like that.$a#$b#I was just trying to get Gran something nice.$a",
+    "AfterDark.Family.Alex.Granny.5": "Have you made any progress on your greenhouse yet?#$b#I'm sure Gran would always be happy to lend a hand if you need it.#$b#Err—Sorry. Am I overstepping?$s",
 
-    "AfterDark.Family.Alex.George.1": "",
-    "AfterDark.Family.Alex.George.2": "",
-    "AfterDark.Family.Alex.George.3": "",
-    "AfterDark.Family.Alex.George.4": "",
-    "AfterDark.Family.Alex.George.5": "",
+    "AfterDark.Family.Alex.George.1": "Man, I know he's getting older and has been through it, but...$s#$b#Yoba, I just wish Gramps would at least try to do more with me and Gran.$s#$e#Sorry, was that too much?$9",
+    "AfterDark.Family.Alex.George.2": "Ugh, Gramps has been nagging me about getting a job over at Joja lately but...$s#$b#Ugh, I honestly just don't know if I'd be able to work alongside Sam or Shane everyday.$s",
+    "AfterDark.Family.Alex.George.3": "Did you know your grandpa very well before he passed?$9#$b#Well, I'm sure you could probably coax some information out of mine.#$b#They used to be really good friends before... you know.",
 
-    "AfterDark.Family.Alex.Dad.1": "",
-    "AfterDark.Family.Alex.Dad.2": "",
-    "AfterDark.Family.Alex.Dad.3": "",
-    "AfterDark.Family.Alex.Dad.4": "",
-    "AfterDark.Family.Alex.Dad.5": "",
+    "AfterDark.Family.Alex.Dad.1": "...$s#$b#Sorry, I don't know what it is lately but all I've been able to think about is my dad.$s#$b#Hm?$9#$b#I mean, I knew him briefly before...$s#$b#Never mind.$9",
+    "AfterDark.Family.Alex.Dad.2": "Are you close with your dad, @?$9#$b#Uh—Sorry, forget I said anything.",
+    "AfterDark.Family.Alex.Dad.3": "Hey.$9#$b#...$a#$b#Sorry, someone said something earlier that really got under my skin.$a#$e#Y'know, everyone always says you need a father in your life to be a proper man, but I think I turned out just fine without that piece of shit around.$a#$b#I swear, if we—Err... I ever have kids, I'd be nothing like him.$s",
 
-    "AfterDark.Family.Alex.Mom.1": "",
-    "AfterDark.Family.Alex.Mom.2": "",
-    "AfterDark.Family.Alex.Mom.3": "",
-    "AfterDark.Family.Alex.Mom.4": "",
-    "AfterDark.Family.Alex.Mom.5": "",
+    "AfterDark.Family.Alex.Mom.1": "Oh, hey.$h#$b#Did I ever tell you how I got Dusty?#$b#Well, it's a funny story. My mom actually got him for me after—#$b#Uh, never mind. It's embarassing.$s",
+    "AfterDark.Family.Alex.Mom.2": "Have I ever told you just how frustrating you are?$a#$b#I swear, my mom would've loved you.$a#$e#What? Did I say something?$9",
+    "AfterDark.Family.Alex.Mom.3": "...$s#$b#Sorry, idk what it is lately but I can't stop thinking about if my mom would be proud of me or not.$s#$b#Would you?$9",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     █   █  ███  ████  ████  █████  ███   ████ █████     ████  █████  ███  █      ███   ████ █   █ █████ 
@@ -665,6 +661,15 @@
     /* Thank you:
     - MuseLaSora
     - Pixie
+    - toxxxicmars
+    - zicktora3440
+    - narellie
+    - thespacehoodie
+    - hot_honey_garbage
+    - alexanderpetrus
+    - ladylancer
+    - death_2nova
+    - dovah_kinstead
     For helping with some of these lines :3 */
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -686,8 +691,8 @@
     "AfterDark.Marriage.Alex.Patio.6": "Ugh, for some reason my pants have been a bit tighter than normal...$8#$b#D'you mind if I spend a bit longer here before helping out?$6",
     "AfterDark.Marriage.Alex.Patio.7": "%You notice the weights on his bar add up to about yours...#$b#%Maybe it's best you let him get his workout in.",
     "AfterDark.Marriage.Alex.Patio.8": "Hey, wanna join me for a few reps?$6#$b#Lifting this bar is kinda getting boring...$8#$e#Hm? Well? Are you gonna join or...$6#$b#Were you looking for some other type of workout?$11",
-    "AfterDark.Marriage.Alex.Patio.9": "",
-    "AfterDark.Marriage.Alex.Patio.10": "",
+    "AfterDark.Marriage.Alex.Patio.9": "How about instead of standing there looking pretty, you give me something else to lift, yeah?$6",
+    "AfterDark.Marriage.Alex.Patio.10": "Enjoying the view, {{LPetName}}?#$b#I enjoyed mine last night.$l",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      SPOUSE ROOM
@@ -696,12 +701,12 @@
     "AfterDark.Marriage.Alex.SpouseRoom.2": "Hey, brewed some coffee for you.[253]#$b#I thought you might need a little pick me up after what we did last night.$l#$e#Hm? Do you wanna go again or something?#$b#At least let me get some breakfast in first, {{LPetName}}...$h",
     "AfterDark.Marriage.Alex.SpouseRoom.3": "You look {{LDescript}} this morning, {{LPetName}}.$l#$e#Ah, sorry- I mean you look {{LDescript}} every morning, @.$h",
     "AfterDark.Marriage.Alex.SpouseRoom.4": "Y'know, even though we're married now, I can't help but..$l#$b#%You hear Alex laugh.#$b#Sorry, sorry... I just can't get over how big your forehead still is, {{LPetName}}.$h#$b#$y 'What? I'm not wrong!_Punch him._Ow! Okay, okay, I'm sorry. I love you.$h_'Fuck off...'_No, I won't, but we can later if you want.$l'",
-    "AfterDark.Marriage.Alex.SpouseRoom.5": "",
-    "AfterDark.Marriage.Alex.SpouseRoom.6": "",
-    "AfterDark.Marriage.Alex.SpouseRoom.7": "",
-    "AfterDark.Marriage.Alex.SpouseRoom.8": "",
-    "AfterDark.Marriage.Alex.SpouseRoom.9": "",
-    "AfterDark.Marriage.Alex.SpouseRoom.10": "",
+    "AfterDark.Marriage.Alex.SpouseRoom.5": "Oh, hey, you're finally up.$h#$b#Wanna come on a run with me this morning?#$b#Don't worry, I'll be right there to catch you if you fall.$l",
+    "AfterDark.Marriage.Alex.SpouseRoom.6": "Morning, @.$h#$b#Or should I call you a little {{LBadName}} the way you were screaming last night?$l",
+    "AfterDark.Marriage.Alex.SpouseRoom.7": "Morning, {{LPetName}}.$l#$b#...$l#$b#Sorry, I can't believe such a {{LDescript}} face can do such things.$l",
+    "AfterDark.Marriage.Alex.SpouseRoom.8": "Oh, good thing you're here.$h#$b#Mind if I lift you for a few reps? I need to set a new record.",
+    "AfterDark.Marriage.Alex.SpouseRoom.9": "%Before you can say anything, Alex pulls you close, giving you a kiss.#$b#Hmm...$l#$b#Maybe I should spoil you tonight. What do you think, {{LPetName}}?$l",
+    "AfterDark.Marriage.Alex.SpouseRoom.10": "...$s#$b#Do you have to work today? You just work yourself to the bone every single day and...$s#$b#Well, I thought you deserved a day where you sit back and let me spoil you for once.#$b#Here, why don't I start right now? I made pancakes just for you.[211]$l",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      FUNLEAVE/RETURN
@@ -844,21 +849,21 @@
     "AfterDark.Marriage.Alex.Rainy.Day.Alex": "Don't spend too long outside today, {{LPetName}}. I don't want the rain making you too sick.$s#$b#Though, you know I'll always be here to take care of you if you do.$l",
     "AfterDark.Marriage.Alex.Rainy.Day.0": "Since you don't have to water the crops today, I was thinking we could spend a little quality time inside instead.#$b#What do you think, {{LPetName}}?$l",
     "AfterDark.Marriage.Alex.Rainy.Day.1": "It's pouring pretty hard out there, you sure you don't want to just stay inside with me all day?#$b#Maybe we can even try out one of Gran's recipes that she gave me recently.$h",
-    "AfterDark.Marriage.Alex.Rainy.Day.2": "",
-    "AfterDark.Marriage.Alex.Rainy.Day.3": "",
-    "AfterDark.Marriage.Alex.Rainy.Day.4": "",
-    "AfterDark.Marriage.Alex.Rainy.Day.5": "",
+    "AfterDark.Marriage.Alex.Rainy.Day.2": "I hate when it rains like this, I couldn't even go on my morning run.$s#$b#Good news for you, though. I was able to go all out with your breakfast.[201]$h",
+    "AfterDark.Marriage.Alex.Rainy.Day.3": "I feel like I get all jittery when it rains and I can't go work outside.$s#$b#Why don't you stay home with me so I can get all this energy out in another way.$l",
+    "AfterDark.Marriage.Alex.Rainy.Day.4": "Hmm...#$b#If you don't go out and get soaking wet from the rain, maybe I can get you that way instead.$l",
+    "AfterDark.Marriage.Alex.Rainy.Day.5": "I hope you don't get sick from running around in the rain all day, @.$s#$b#Though, I would love a chance to nurse you back to health.$l",
     "AfterDark.Marriage.Alex.Rainy.Day.6": "",
     "AfterDark.Marriage.Alex.Rainy.Day.7": "",
     "AfterDark.Marriage.Alex.Rainy.Day.8": "",
     "AfterDark.Marriage.Alex.Rainy.Day.9": "",
     
-    "AfterDark.Marriage.Alex.Rainy.Night.Alex": "",
-    "AfterDark.Marriage.Alex.Rainy.Night.0": "",
-    "AfterDark.Marriage.Alex.Rainy.Night.1": "",
-    "AfterDark.Marriage.Alex.Rainy.Night.2": "",
-    "AfterDark.Marriage.Alex.Rainy.Night.3": "",
-    "AfterDark.Marriage.Alex.Rainy.Night.4": "",
+    "AfterDark.Marriage.Alex.Rainy.Night.Alex": "{{PetName}}, you know I love it when you're all nice and wet for me, but why don't you go dry off.$s#$b#I just mopped.$9",
+    "AfterDark.Marriage.Alex.Rainy.Night.0": "Glad you're back, {{LPetName}}. You didn't stay out too long in the rain, did you?$h",
+    "AfterDark.Marriage.Alex.Rainy.Night.1": "Look at you, {{LPetName}}. You're practically shivering from all the rain.$s#$b#How about I go run you a nice hot bath and maybe I'll join you.$l",
+    "AfterDark.Marriage.Alex.Rainy.Night.2": "I already started the fireplace before you came home, do you wanna cuddle in front of it before we go to bed, {{LPetName}}?$l",
+    "AfterDark.Marriage.Alex.Rainy.Night.3": "%You notice Alex eyeing you up and down.#$b#You look good when your clothes are all wet.#$b#Though, I think they'll look better when they're off completely.$l#$b#Don't worry, I'll do that step for you.$l",
+    "AfterDark.Marriage.Alex.Rainy.Night.4": "Welcome home, {{LPetName}}.#$b#I bet you're just exhausted from running around in the rain all day.$s#$b#How about we end the night by taking a nice hot shower and cuddling to the sound of rain, hm?$l",
     "AfterDark.Marriage.Alex.Rainy.Night.5": "",
     "AfterDark.Marriage.Alex.Rainy.Night.6": "",
     "AfterDark.Marriage.Alex.Rainy.Night.7": "",
@@ -920,8 +925,8 @@
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      AFFECTION 
     -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
-    "AfterDark.Marriage.Alex.Good.0": "l",
-    "AfterDark.Marriage.Alex.Good.1": "",
+    "AfterDark.Marriage.Alex.Good.0": "...$l#$b#Y'know, I can't help but remember our wedding when you look like that...$l#$b#Wanna have a repeat of that night, {{LPetName}}?$l",
+    "AfterDark.Marriage.Alex.Good.1": "...$l#$b#Hey, I heard certain positions make it easier to have kids.$l#$b#Wanna try them all?$l",
     "AfterDark.Marriage.Alex.Good.2": "",
     "AfterDark.Marriage.Alex.Good.3": "",
     "AfterDark.Marriage.Alex.Good.4": "",
