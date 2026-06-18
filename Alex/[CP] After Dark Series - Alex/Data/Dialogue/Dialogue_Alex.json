@@ -1,12 +1,765 @@
 {
     "Changes": [
+        /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        ████   ███  █   █ ████   ███  █   █ 
+        █   █ █   █ ██  █ █   █ █   █ ██ ██ 
+        ████  █████ █ █ █ █   █ █   █ █ █ █ 
+        █   █ █   █ █  ██ █   █ █   █ █   █ 
+        █   █ █   █ █   █ ████   ███  █   █ 
+        ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
         {
-            "LogName": "Alex's Rando Dialogue",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Alex",
+            "When": { "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue" },
             "Entries": {
                 // Intro 
-                "Introduction": "{{i18n:AfterDark.Core.Alex.Introduction{{GeneralPlayerEndearment}}}}"
+                "Introduction": "{{i18n:AfterDark.Core.Alex.Introduction{{GeneralPlayerEndearment}}}}",
+
+                // Birthday
+                "summer_13": "{{i18n:AfterDark.Core.Alex.Birthday.0}}",
+                "summer4_13": "{{i18n:AfterDark.Core.Alex.Birthday.4}}",
+                "summer6_13": "{{i18n:AfterDark.Core.Alex.Birthday.6{{GeneralPlayerEndearment}}}}",
+                "summer8_13": "{{i18n:AfterDark.Core.Alex.Birthday.8{{GeneralPlayerEndearment}}}}",
+                "summer10_13": "{{i18n:AfterDark.Core.Alex.Birthday.10{{GeneralPlayerEndearment}}}}",
+
+                // Pos Romance
+                "AcceptBouquet": "{{i18n:AfterDark.Core.Alex.AcceptBouquet}}",
+                "SpouseStardrop": "{{i18n:AfterDark.Core.Alex.StarDrop}}",
+                "dating_Alex": "{{i18n:AfterDark.Core.Alex.Dating}}",
+                "dating_Alex_memory_oneday": "{{i18n:AfterDark.Core.Alex.Dating.Memory}}",
+
+                // Neg Romance
+                "RejectBouquet": "{{i18n:AfterDark.Core.Alex.RejectBouquet}}",
+                "RejectMermaidPendant": "{{i18n:AfterDark.Core.Alex.RejectMermaidPendant}}",
+                "RejectGift_Divorced": "{{i18n:AfterDark.Core.Alex.RejectGift.Divorced}}",
+                "divorced": "{{i18n:AfterDark.Core.Alex.Divorced}}",
+                "breakUp": "{{i18n:AfterDark.Core.Alex.BreakUp{{GeneralPlayerEndearment}}}}",
+                "dumped_Guys": "{{i18n:AfterDark.Core.Alex.DumpedGuys}}",
+                "secondChance_Guys": "{{i18n:AfterDark.Core.Alex.SecondChanceGuys{{GeneralPlayerEndearment}}}}",
+
+                // Random
+                "cc_Bridge": "{{i18n:AfterDark.Core.Alex.cc.Bridge}}",
+                "fishCaught_159": "{{i18n:AfterDark.Core.Alex.fishCaught.159}}",
+                "purchasedAnimal_Chicken_memory_oneday": "{{i18n:AfterDark.Core.Alex.Chicken}}",
+                "fishCaught_139": "{{i18n:AfterDark.Core.Alex.fishCaught.139}}",
+                "firstVisit_BathHouse_MensLocker_memory_oneday": "{{i18n:AfterDark.Core.Alex.FirstVisit.Bathhouse}}",
+
+                // SLingshot
+                "HitBySlingshot": "{{i18n:AfterDark.Core.Alex.Slingshot}}",
+
+                // Green Rain
+                "GreenRain": "{{i18n:AfterDark.Core.Alex.GreenRain}}",
+                "GreenRainFinished": "{{i18n:AfterDark.Core.Alex.GreenRainFinished}}",
+                "GreenRain_2": "{{i18n:AfterDark.Core.Alex.GreenRain2}}",
+
+                // misc not quite jealousy but like still jealous
+                "wonEggHunt": "{{i18n:AfterDark.FestivalJealousy.Alex.wonEggHunt}}",
+                "wonGrange": "{{i18n:AfterDark.FestivalJealousy.Alex.wonGrange}}",
+                "wonIceFishing": "{{i18n:AfterDark.FestivalJealousy.Alex.wonIceFishing}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alex",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3, 4"
+             },
+            "Entries": {
+                "Resort_Entering": "{{i18n:AfterDark.Core.Alex.Resort.Early.Entering}}",
+                "Resort_Leaving": "{{i18n:AfterDark.Core.Alex.Resort.Early.Leaving}}",
+                "Resort_Wander": "{{i18n:AfterDark.Core.Alex.Resort.Early.Wander}}",
+                "Resort_Wander_2": "{{i18n:AfterDark.Core.Alex.Resort.Early.Wander.2}}",
+                "Resort_Shore": "{{i18n:AfterDark.Core.Alex.Resort.Early.Shore}}",
+                "Resort_Chair": "{{i18n:AfterDark.Core.Alex.Resort.Early.Chair}}",
+                "Resort_Towel": "{{i18n:AfterDark.Core.Alex.Resort.Early.Towel}}",
+                "Resort_Towel_2": "{{i18n:AfterDark.Core.Alex.Resort.Early.Towel.2}}",
+                "Resort_Towel_3": "{{i18n:AfterDark.Core.Alex.Resort.Early.Towel.3}}",
+                "Resort_Bar": "{{i18n:AfterDark.Core.Alex.Resort.Early.ResortBar}}",
+                "Resort": "{{i18n:AfterDark.Core.Alex.Resort.Early.Resort}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alex",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue",
+                "Hearts:Alex": "5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+             },
+            "Entries": {
+                "Resort_Entering": "{{i18n:AfterDark.Core.Alex.Resort.Late.Entering}}",
+                "Resort_Leaving": "{{i18n:AfterDark.Core.Alex.Resort.Late.Leaving}}",
+                "Resort_Wander": "{{i18n:AfterDark.Core.Alex.Resort.Late.Wander}}",
+                "Resort_Wander_2": "{{i18n:AfterDark.Core.Alex.Resort.Late.Wander.2}}",
+                "Resort_Shore": "{{i18n:AfterDark.Core.Alex.Resort.Late.Shore}}",
+                "Resort_Chair": "{{i18n:AfterDark.Core.Alex.Resort.Late.Chair}}",
+                "Resort_Towel": "{{i18n:AfterDark.Core.Alex.Resort.Late.Towel}}",
+                "Resort_Towel_2": "{{i18n:AfterDark.Core.Alex.Resort.Late.Towel.2}}",
+                "Resort_Towel_3": "{{i18n:AfterDark.Core.Alex.Resort.Late.Towel.3}}",
+                "Resort_Bar": "{{i18n:AfterDark.Core.Alex.Resort.Late.ResortBar}}",
+                "Resort": "{{i18n:AfterDark.Core.Alex.Resort.Late.Resort}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/rainy",
+            "When": { "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue" },
+            "Entries": {
+                "Alex": "{{i18n:AfterDark.Core.Alex.Rain.{{Random:{{Range: 1, 3}}}}}}"
+            }
+        },
+        /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+         ████  ███  ████  █████ 
+        █     █   █ █   █ █     
+        █     █   █ ████  ████  
+        █     █   █ █   █ █     
+         ████  ███  █   █ █████ 
+        ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alex",
+            "When": { "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue" },
+            "Entries": {
+                // questions
+                "Wed_01_old": "{{i18n:AfterDark.Core.Alex.Wed.01.old{{GeneralPlayerEndearment}}}}",
+                "Wed_01_01": "{{i18n:AfterDark.Core.Alex.Wed.01.01{{GeneralPlayerEndearment}}}}",
+                "Wed_01_02": "{{i18n:AfterDark.Core.Alex.Wed.01.02{{GeneralPlayerEndearment}}}}",
+                "Wed_01_03": "{{i18n:AfterDark.Core.Alex.Wed.01.03{{GeneralPlayerEndearment}}}}",
+                "summer_Wed_01_old": "{{i18n:AfterDark.Core.Alex.Summer.Wed.01.old{{GeneralPlayerEndearment}}}}",
+                "summer_Wed_01_01": "{{i18n:AfterDark.Core.Alex.Summer.Wed.01.01{{GeneralPlayerEndearment}}}}",
+                "summer_Wed_01_02": "{{i18n:AfterDark.Core.Alex.Summer.Wed.01.02{{GeneralPlayerEndearment}}}}",
+                "summer_Wed_01_03": "{{i18n:AfterDark.Core.Alex.Summer.Wed.01.03{{GeneralPlayerEndearment}}}}",
+                "fall_Wed_01_old": "{{i18n:AfterDark.Core.Alex.Fall.Wed.01.old{{GeneralPlayerEndearment}}}}",
+                "fall_Wed_01_01": "{{i18n:AfterDark.Core.Alex.Fall.Wed.01.01{{GeneralPlayerEndearment}}}}",
+                "fall_Wed_01_02": "{{i18n:AfterDark.Core.Alex.Fall.Wed.01.02{{GeneralPlayerEndearment}}}}",
+
+                "summer_1": "{{i18n:AfterDark.Core.Alex.{{Season}}.EarlyHeart.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",
+                "fall_1": "{{i18n:AfterDark.Core.Alex.{{Season}}.EarlyHeart.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",
+                "winter_1": "{{i18n:AfterDark.Core.Alex.{{Season}}.EarlyHeart.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",
+
+                // 0h
+                "{{WeekDay}}": "{{i18n:AfterDark.Core.Alex.{{Season}}.0Heart.{{Random:{{Range: 1, 12}}}}{{GeneralPlayerEndearment}}}}",
+                "{{WeekDay}}2": "{{i18n:AfterDark.Core.Alex.{{Season}}.0Heart.{{Random:{{Range: 1, 12}}}}{{GeneralPlayerEndearment}}}}",
+                "{{season}}_{{WeekDay}}": "{{i18n:AfterDark.Core.Alex.{{Season}}.0Heart.{{Random:{{Range: 1, 12}}}}{{GeneralPlayerEndearment}}}}",
+                "{{season}}_{{WeekDay}}2": "{{i18n:AfterDark.Core.Alex.{{Season}}.0Heart.{{Random:{{Range: 1, 12}}}}{{GeneralPlayerEndearment}}}}",
+
+                // earlyheart
+                "{{WeekDay}}4": "{{i18n:AfterDark.Core.Alex.{{Season}}.EarlyHeart.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",
+                "{{season}}_{{WeekDay}}4": "{{i18n:AfterDark.Core.Alex.{{Season}}.EarlyHeart.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",
+
+                // midheart
+                "{{WeekDay}}6": "{{i18n:AfterDark.Core.Alex.{{Season}}.MidHeart.{{Random:{{Range: 1, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "{{WeekDay}}8": "{{i18n:AfterDark.Core.Alex.{{Season}}.MidHeart.{{Random:{{Range: 1, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "{{season}}_{{WeekDay}}6": "{{i18n:AfterDark.Core.Alex.{{Season}}.MidHeart.{{Random:{{Range: 1, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "{{season}}_{{WeekDay}}8": "{{i18n:AfterDark.Core.Alex.{{Season}}.MidHeart.{{Random:{{Range: 1, 15}}}}{{GeneralPlayerEndearment}}}}",
+
+                // highkheart
+                "{{WeekDay}}10": "{{i18n:AfterDark.Core.Alex.{{Season}}.LateHeart.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",
+                "{{season}}_{{WeekDay}}10": "{{i18n:AfterDark.Core.Alex.{{Season}}.LateHeart.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}"
+            }
+        },
+        /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        █████ █████  ███  █      ███  █   █ █████ █   █    
+          █   █     █   █ █     █   █ █   █ █      █ █        
+          █   ████  █████ █     █   █ █   █ █████   █    
+        █ █   █     █   █ █     █   █ █   █     █   █        
+        ███   █████ █   █ █████  ███  █████ █████   █      
+        ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alex",
+            "When": {
+                "Hearts:Alex": "0, 1, 2, 3, 4",
+                "After Dark Dialogue": "All Dialogue"
+            },
+            "Entries": {
+                "dating_Elliott": "{{i18n:AfterDark.Core.Alex.Jealous.Dating.Early.Elliott}}",
+                "married_Elliott": "{{i18n:AfterDark.Core.Alex.Jealous.Married.Early.Elliott}}",
+                "dating_Harvey": "{{i18n:AfterDark.Core.Alex.Jealous.Dating.Early.Harvey}}",
+                "married_Harvey": "{{i18n:AfterDark.Core.Alex.Jealous.Married.Early.Harvey}}",
+                "dating_Sam": "{{i18n:AfterDark.Core.Alex.Jealous.Dating.Early.Sam}}",
+                "married_Sam": "{{i18n:AfterDark.Core.Alex.Jealous.Married.Early.Sam}}",
+                "dating_Sebastian": "{{i18n:AfterDark.Core.Alex.Jealous.Dating.Early.Sebastian}}",
+                "married_Sebastian": "{{i18n:AfterDark.Core.Alex.Jealous.Married.Early.Sebastian}}",
+                "dating_Shane": "{{i18n:AfterDark.Core.Alex.Jealous.Dating.Early.Shane{{GeneralPlayerEndearment}}}}",
+                "married_Shane": "{{i18n:AfterDark.Core.Alex.Jealous.Married.Early.Shane}}",
+                
+                "married_Abigail": "{{i18n:AfterDark.Core.Alex.Jealous.Married.Abigail}}",
+                "married_Emily": "{{i18n:AfterDark.Core.Alex.Jealous.Married.Emily}}",
+                "dating_Haley": "{{i18n:AfterDark.Core.Alex.Jealous.Dating.Haley{{GeneralPlayerEndearment}}}}",
+                "married_Haley": "{{i18n:AfterDark.Core.Alex.Jealous.Married.Haley{{GeneralPlayerEndearment}}}}",
+                "married_Leah": "{{i18n:AfterDark.Core.Alex.Jealous.Married.Leah}}",
+                "married_Maru": "{{i18n:AfterDark.Core.Alex.Jealous.Married.Maru}}",
+                "married_Penny": "{{i18n:AfterDark.Core.Alex.Jealous.Married.Penny}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alex",
+            "When": {
+                "Hearts:Alex": "5, 6, 7, 8, 9, 10, 11, 12, 13, 14",
+                "After Dark Dialogue": "All Dialogue"
+            },
+            "Entries": {
+                "dating_Elliott": "{{i18n:AfterDark.Core.Alex.Jealous.Dating.Late.Elliott{{GeneralPlayerEndearment}}}}",
+                "married_Elliott": "{{i18n:AfterDark.Core.Alex.Jealous.Married.Late.Elliott{{GeneralPlayerEndearment}}}}",
+                "dating_Harvey": "{{i18n:AfterDark.Core.Alex.Jealous.Dating.Late.Harvey}}",
+                "married_Harvey": "{{i18n:AfterDark.Core.Alex.Jealous.Married.Late.Harvey}}",
+                "dating_Sam": "{{i18n:AfterDark.Core.Alex.Jealous.Dating.Late.Sam{{GeneralPlayerEndearment}}}}",
+                "married_Sam": "{{i18n:AfterDark.Core.Alex.Jealous.Married.Late.Sam}}",
+                "dating_Sebastian": "{{i18n:AfterDark.Core.Alex.Jealous.Dating.Late.Sebastian}}",
+                "married_Sebastian": "{{i18n:AfterDark.Core.Alex.Jealous.Married.Late.Sebastian}}",
+                "dating_Shane": "{{i18n:AfterDark.Core.Alex.Jealous.Dating.Late.Shane}}",
+                "married_Shane": "{{i18n:AfterDark.Core.Alex.Jealous.Married.Late.Shane{{GeneralPlayerEndearment}}}}",
+                
+                "married_Abigail": "{{i18n:AfterDark.Core.Alex.Jealous.Married.Abigail}}",
+                "married_Emily": "{{i18n:AfterDark.Core.Alex.Jealous.Married.Emily}}",
+                "dating_Haley": "{{i18n:AfterDark.Core.Alex.Jealous.Dating.Haley{{GeneralPlayerEndearment}}}}",
+                "married_Haley": "{{i18n:AfterDark.Core.Alex.Jealous.Married.Haley{{GeneralPlayerEndearment}}}}",
+                "married_Leah": "{{i18n:AfterDark.Core.Alex.Jealous.Married.Leah}}",
+                "married_Maru": "{{i18n:AfterDark.Core.Alex.Jealous.Married.Maru}}",
+                "married_Penny": "{{i18n:AfterDark.Core.Alex.Jealous.Married.Penny}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alex",
+            "When": { "After Dark Dialogue": "All Dialogue" },
+            "Entries": {
+                // tee bee aych not all of these need the generalplayerendearment but like......... LMFAOOO do you see how many lines there are?? i do not wanna dig
+                "ADAlexLowHeartElliottJealousy1": "{{i18n:AfterDark.Jealousy.Alex.Early.Elliott.1{{GeneralPlayerEndearment}}}}",
+                "ADAlexLowHeartElliottJealousy2": "{{i18n:AfterDark.Jealousy.Alex.Early.Elliott.2{{GeneralPlayerEndearment}}}}",
+                "ADAlexLowHeartElliottJealousy3": "{{i18n:AfterDark.Jealousy.Alex.Early.Elliott.3{{GeneralPlayerEndearment}}}}",
+                "ADAlexLowHeartElliottJealousy4": "{{i18n:AfterDark.Jealousy.Alex.Early.Elliott.4{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartElliottJealousy1": "{{i18n:AfterDark.Jealousy.Alex.Late.Elliott.1{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartElliottJealousy2": "{{i18n:AfterDark.Jealousy.Alex.Late.Elliott.2{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartElliottJealousy3": "{{i18n:AfterDark.Jealousy.Alex.Late.Elliott.3{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartElliottJealousy4": "{{i18n:AfterDark.Jealousy.Alex.Late.Elliott.4{{GeneralPlayerEndearment}}}}",
+                
+                "ADAlexLowHeartHarveyJealousy1": "{{i18n:AfterDark.Jealousy.Alex.Early.Harvey.1{{GeneralPlayerEndearment}}}}",
+                "ADAlexLowHeartHarveyJealousy2": "{{i18n:AfterDark.Jealousy.Alex.Early.Harvey.2{{GeneralPlayerEndearment}}}}",
+                "ADAlexLowHeartHarveyJealousy3": "{{i18n:AfterDark.Jealousy.Alex.Early.Harvey.3{{GeneralPlayerEndearment}}}}",
+                "ADAlexLowHeartHarveyJealousy4": "{{i18n:AfterDark.Jealousy.Alex.Early.Harvey.4{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartHarveyJealousy1": "{{i18n:AfterDark.Jealousy.Alex.Late.Harvey.1{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartHarveyJealousy2": "{{i18n:AfterDark.Jealousy.Alex.Late.Harvey.2{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartHarveyJealousy3": "{{i18n:AfterDark.Jealousy.Alex.Late.Harvey.3{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartHarveyJealousy4": "{{i18n:AfterDark.Jealousy.Alex.Late.Harvey.4{{GeneralPlayerEndearment}}}}",
+
+                "ADAlexLowHeartSamJealousy1": "{{i18n:AfterDark.Jealousy.Alex.Early.Sam.1{{GeneralPlayerEndearment}}}}",
+                "ADAlexLowHeartSamJealousy2": "{{i18n:AfterDark.Jealousy.Alex.Early.Sam.2{{GeneralPlayerEndearment}}}}",
+                "ADAlexLowHeartSamJealousy3": "{{i18n:AfterDark.Jealousy.Alex.Early.Sam.3{{GeneralPlayerEndearment}}}}",
+                "ADAlexLowHeartSamJealousy4": "{{i18n:AfterDark.Jealousy.Alex.Early.Sam.4{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartSamJealousy1": "{{i18n:AfterDark.Jealousy.Alex.Late.Sam.1{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartSamJealousy2": "{{i18n:AfterDark.Jealousy.Alex.Late.Sam.2{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartSamJealousy3": "{{i18n:AfterDark.Jealousy.Alex.Late.Sam.3{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartSamJealousy4": "{{i18n:AfterDark.Jealousy.Alex.Late.Sam.4{{GeneralPlayerEndearment}}}}",
+
+                "ADAlexLowHeartSebastianJealousy1": "{{i18n:AfterDark.Jealousy.Alex.Early.Sebastian.1{{GeneralPlayerEndearment}}}}",
+                "ADAlexLowHeartSebastianJealousy2": "{{i18n:AfterDark.Jealousy.Alex.Early.Sebastian.2{{GeneralPlayerEndearment}}}}",
+                "ADAlexLowHeartSebastianJealousy3": "{{i18n:AfterDark.Jealousy.Alex.Early.Sebastian.3{{GeneralPlayerEndearment}}}}",
+                "ADAlexLowHeartSebastianJealousy4": "{{i18n:AfterDark.Jealousy.Alex.Early.Sebastian.4{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartSebastianJealousy1": "{{i18n:AfterDark.Jealousy.Alex.Late.Sebastian.1{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartSebastianJealousy2": "{{i18n:AfterDark.Jealousy.Alex.Late.Sebastian.2{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartSebastianJealousy3": "{{i18n:AfterDark.Jealousy.Alex.Late.Sebastian.3{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartSebastianJealousy4": "{{i18n:AfterDark.Jealousy.Alex.Late.Sebastian.4{{GeneralPlayerEndearment}}}}",
+
+                "ADAlexLowHeartShaneJealousy1": "{{i18n:AfterDark.Jealousy.Alex.Early.Shane.1{{GeneralPlayerEndearment}}}}",
+                "ADAlexLowHeartShaneJealousy2": "{{i18n:AfterDark.Jealousy.Alex.Early.Shane.2{{GeneralPlayerEndearment}}}}",
+                "ADAlexLowHeartShaneJealousy3": "{{i18n:AfterDark.Jealousy.Alex.Early.Shane.3{{GeneralPlayerEndearment}}}}",
+                "ADAlexLowHeartShaneJealousy4": "{{i18n:AfterDark.Jealousy.Alex.Early.Shane.4{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartShaneJealousy1": "{{i18n:AfterDark.Jealousy.Alex.Late.Shane.1{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartShaneJealousy2": "{{i18n:AfterDark.Jealousy.Alex.Late.Shane.2{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartShaneJealousy3": "{{i18n:AfterDark.Jealousy.Alex.Late.Shane.3{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartShaneJealousy4": "{{i18n:AfterDark.Jealousy.Alex.Late.Shane.4{{GeneralPlayerEndearment}}}}",
+
+                "ADAlexLowHeartAbigailJealousy1": "{{i18n:AfterDark.Jealousy.Alex.Early.Abigail.1{{GeneralPlayerEndearment}}}}",
+                "ADAlexLowHeartAbigailJealousy2": "{{i18n:AfterDark.Jealousy.Alex.Early.Abigail.2{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartAbigailJealousy1": "{{i18n:AfterDark.Jealousy.Alex.Late.Abigail.1{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartAbigailJealousy2": "{{i18n:AfterDark.Jealousy.Alex.Late.Abigail.2{{GeneralPlayerEndearment}}}}",
+
+                "ADAlexLowHeartEmilyJealousy1": "{{i18n:AfterDark.Jealousy.Alex.Early.Emily.1{{GeneralPlayerEndearment}}}}",
+                "ADAlexLowHeartEmilyJealousy2": "{{i18n:AfterDark.Jealousy.Alex.Early.Emily.2{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartEmilyJealousy1": "{{i18n:AfterDark.Jealousy.Alex.Late.Emily.1{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartEmilyJealousy2": "{{i18n:AfterDark.Jealousy.Alex.Late.Emily.2{{GeneralPlayerEndearment}}}}",
+
+                "ADAlexLowHeartHaleyJealousy1": "{{i18n:AfterDark.Jealousy.Alex.Early.Haley.1{{GeneralPlayerEndearment}}}}",
+                "ADAlexLowHeartHaleyJealousy2": "{{i18n:AfterDark.Jealousy.Alex.Early.Haley.2{{GeneralPlayerEndearment}}}}",
+                "ADAlexLowHeartHaleyJealousy3": "{{i18n:AfterDark.Jealousy.Alex.Early.Haley.3{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartHaleyJealousy1": "{{i18n:AfterDark.Jealousy.Alex.Late.Haley.1{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartHaleyJealousy2": "{{i18n:AfterDark.Jealousy.Alex.Late.Haley.2{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartHaleyJealousy3": "{{i18n:AfterDark.Jealousy.Alex.Late.Haley.3{{GeneralPlayerEndearment}}}}",
+
+                "ADAlexLowHeartLeahJealousy1": "{{i18n:AfterDark.Jealousy.Alex.Early.Leah.1{{GeneralPlayerEndearment}}}}",
+                "ADAlexLowHeartLeahJealousy2": "{{i18n:AfterDark.Jealousy.Alex.Early.Leah.2{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartLeahJealousy1": "{{i18n:AfterDark.Jealousy.Alex.Late.Leah.1{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartLeahJealousy2": "{{i18n:AfterDark.Jealousy.Alex.Late.Leah.2{{GeneralPlayerEndearment}}}}",
+
+                "ADAlexLowHeartMaruJealousy1": "{{i18n:AfterDark.Jealousy.Alex.Early.Maru.1{{GeneralPlayerEndearment}}}}",
+                "ADAlexLowHeartMaruJealousy2": "{{i18n:AfterDark.Jealousy.Alex.Early.Maru.2{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartMaruJealousy1": "{{i18n:AfterDark.Jealousy.Alex.Late.Maru.1{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartMaruJealousy2": "{{i18n:AfterDark.Jealousy.Alex.Late.Maru.2{{GeneralPlayerEndearment}}}}",
+
+                "ADAlexLowHeartPennyJealousy1": "{{i18n:AfterDark.Jealousy.Alex.Early.Penny.1{{GeneralPlayerEndearment}}}}",
+                "ADAlexLowHeartPennyJealousy2": "{{i18n:AfterDark.Jealousy.Alex.Early.Penny.2{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartPennyJealousy1": "{{i18n:AfterDark.Jealousy.Alex.Late.Penny.1{{GeneralPlayerEndearment}}}}",
+                "ADAlexHighHeartPennyJealousy2": "{{i18n:AfterDark.Jealousy.Alex.Late.Penny.2{{GeneralPlayerEndearment}}}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alex",
+            "When": { "After Dark Dialogue": "All Dialogue" },
+            "Entries": {
+                "houseUpgrade_1": "{{i18n:AfterDark.Jealousy.Alex.HouseUpgrade.1}}",
+                "houseUpgrade_2": "{{i18n:AfterDark.Jealousy.Alex.HouseUpgrade.2{{GeneralPlayerEndearment}}}}",
+                
+                // beloved farmer
+                "achievement_9": "{{i18n:AfterDark.Jealousy.Alex.Achievements.BelovedFarmer}}",
+                // cliques
+                "achievement_11": "{{i18n:AfterDark.Jealousy.Alex.Achievements.Cliques}}",
+                // networking
+                "achievement_12": "{{i18n:AfterDark.Jealousy.Alex.Achievements.Networking}}",
+                // popular
+                "achievement_13": "{{i18n:AfterDark.Jealousy.Alex.Achievements.Popular}}",
+                // gofer
+                "achievement_29": "{{i18n:AfterDark.Jealousy.Alex.Achievements.Gofer{{GeneralPlayerEndearment}}}}",
+                // a big help
+                "achievement_30": "{{i18n:AfterDark.Jealousy.Alex.Achievements.ABigHelp}}",
+
+                "mineArea_0": "{{i18n:AfterDark.Jealousy.Alex.Mines.0}}",
+                "mineArea_10": "{{i18n:AfterDark.Jealousy.Alex.Mines.10}}",
+                "mineArea_40": "{{i18n:AfterDark.Jealousy.Alex.Mines.40}}",
+                "mineArea_80": "{{i18n:AfterDark.Jealousy.Alex.Mines.80}}",
+                "mineArea_121": "{{i18n:AfterDark.Jealousy.Alex.Mines.121}}"
+            }
+        },
+        /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+         ████ █████ █████ █████ 
+        █       █   █       █   
+        █  ██   █   ████    █   
+        █   █   █   █       █   
+         ███  █████ █       █  
+        ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alex",
+            "When": {
+                "Hearts:Alex": "0, 1, 2, 3, 4",
+                "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue"
+            },
+            "Entries": {
+                "AcceptGift_Loved": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Early.Love.{{Random:{{Range: 1,2}}}}}}",
+                "AcceptGift_Liked": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Early.Like.{{Random:{{Range: 1,2}}}}}}",
+                "AcceptGift_Neutral": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Early.Neutral.{{Random:{{Range: 1,2}}}}{{GeneralPlayerEndearment}}}}",
+                "AcceptGift_Disliked": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Early.Dislike.{{Random:{{Range: 1,2}}}}{{GeneralPlayerEndearment}}}}",
+                "AcceptGift_Hated": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Early.Hate.{{Random:{{Range: 1,2}}}}}}",
+
+                // defense book
+                "AcceptGift_(O)Book_Defense": "{{i18n:AfterDark.Gift.Alex.GiftReaction.DefenseBook.Early.false.{{Random:{{Range: 1, 2}}}}}}",
+                // complete breakfast
+                "AcceptGift_(O)201": "{{i18n:AfterDark.Gift.Alex.GiftReaction.CompleteBreakfast.Early.false.{{Random:{{Range: 1, 2}}}}}}",
+                // radish salad
+                "AcceptGift_(O)609": "{{i18n:AfterDark.Gift.Alex.GiftReaction.RadishSalad}}",
+                // salmon dinner
+                "AcceptGift_(O)212": "{{i18n:AfterDark.Gift.Alex.GiftReaction.SalmonDinner.Early.false.{{Random:{{Range: 1, 2}}}}}}",
+                // field snack
+                "AcceptGift_(O)403": "{{i18n:AfterDark.Gift.Alex.GiftReaction.FieldSnack.Early.false.{{Random:{{Range: 1, 3}}}}}}",
+
+                // big egg
+                "AcceptGift_(O)174": "{{i18n:AfterDark.Gift.Alex.GiftReaction.BigEgg.Early.false.{{Random:{{Range: 1, 2}}}}}}",
+                "AcceptGift_(O)182": "{{i18n:AfterDark.Gift.Alex.GiftReaction.BigEgg.Early.false.{{Random:{{Range: 1, 2}}}}}}",
+                // frog egg
+                "AcceptGift_(TR)FrogEgg": "{{i18n:AfterDark.Gift.Alex.GiftReaction.FrogEgg.Early.false}}",
+                // parrot egg
+                "AcceptGift_(TR)ParrotEgg": "{{i18n:AfterDark.Gift.Alex.GiftReaction.ParrotEgg.Early.false}}",
+                // golden egg
+                "AcceptGift_(O)928": "{{i18n:AfterDark.Gift.Alex.GiftReaction.GoldenEgg.Early.false}}",
+                // dino egg
+                "AcceptGift_(O)107": "{{i18n:AfterDark.Gift.Alex.GiftReaction.DinoEgg.Early.false}}",
+                // ostrich egg
+                "AcceptGift_(O)289": "{{i18n:AfterDark.Gift.Alex.GiftReaction.OstrichEgg.Early.false}}",
+                // duck egg
+                "AcceptGift_(O)442": "{{i18n:AfterDark.Gift.Alex.GiftReaction.DuckEgg.Early.false}}",
+
+                // category: egg
+                "AcceptGift_category_egg": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Category.Egg.Early.false.{{Random:{{Range: 1, 2}}}}}}",
+                // category: cooking
+                "AcceptGift_category_cooking": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Cooking.Early.false.{{Random:{{Range: 1, 2}}}}}}",
+                // category: flowers
+                "AcceptGift_category_flowers": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Flowers.Early.false}}",
+
+                // void egg
+                "AcceptGift_(O)305": "{{i18n:AfterDark.Gift.Alex.GiftReaction.VoidEgg.Early.false}}",
+                // category: books
+                "AcceptGift_book_item": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Category.Books.Early.false}}",
+
+                // muscle remedy
+                "AcceptGift_(O)351": "{{i18n:AfterDark.Gift.Alex.GiftReaction.MuscleRemedy.Early.false}}",
+                // energy tonic
+                "AcceptGift_(O)349": "{{i18n:AfterDark.Gift.Alex.GiftReaction.EnergyTonic.Early.false}}",
+
+                // TODO
+                // rabbits foot
+                "AcceptGift_(O)446": "{{i18n:AfterDark.Gift.Alex.GiftReaction.RabbitsFoot.Early.false}}",
+                // prismatic shard
+                "AcceptGift_(O)74": "{{i18n:AfterDark.Gift.Alex.GiftReaction.PrismaticShard.Early.false}}",
+                // stardrop tea
+                "AcceptGift_(O)StardropTea": "{{i18n:AfterDark.Gift.Alex.GiftReaction.StarDropTea.Early.false}}",
+
+                // BIRTHDAY   
+                "AcceptBirthdayGift_Positive": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Positive.Birthday.Early.false}}",
+                "AcceptBirthdayGift_Negative": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Negative.Birthday.Early.false}}"
+                
+            }
+        }, 
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alex",
+            "When": {
+                "Hearts:Alex": "5, 6, 7, 8, 9, 10",
+                "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue"
+            },
+            "Entries": {
+                "AcceptGift_Loved": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Late.Love.{{Random:{{Range: 1,2}}}}}}",
+                "AcceptGift_Liked": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Late.Like.{{Random:{{Range: 1,2}}}}}}",
+                "AcceptGift_Neutral": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Late.Neutral.{{Random:{{Range: 1,2}}}}{{GeneralPlayerEndearment}}}}",
+                "AcceptGift_Disliked": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Late.Dislike.{{Random:{{Range: 1,2}}}}{{GeneralPlayerEndearment}}}}",
+                "AcceptGift_Hated": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Late.Hate.{{Random:{{Range: 1,2}}}}}}",
+
+                // defense book
+                "AcceptGift_(O)Book_Defense": "{{i18n:AfterDark.Gift.Alex.GiftReaction.DefenseBook.Late.false.{{Random:{{Range: 1, 2}}}}}}",
+                // complete breakfast
+                "AcceptGift_(O)201": "{{i18n:AfterDark.Gift.Alex.GiftReaction.CompleteBreakfast.Late.false.{{Random:{{Range: 1, 2}}}}}}",
+                // radish salad
+                "AcceptGift_(O)609": "{{i18n:AfterDark.Gift.Alex.GiftReaction.RadishSalad}}",
+                // salmon dinner
+                "AcceptGift_(O)212": "{{i18n:AfterDark.Gift.Alex.GiftReaction.SalmonDinner.Late.false.{{Random:{{Range: 1, 2}}}}}}",
+                // field snack
+                "AcceptGift_(O)403": "{{i18n:AfterDark.Gift.Alex.GiftReaction.FieldSnack.Late.false.{{Random:{{Range: 1, 3}}}}}}",
+
+                // big egg
+                "AcceptGift_(O)174": "{{i18n:AfterDark.Gift.Alex.GiftReaction.BigEgg.Late.false.{{Random:{{Range: 1, 2}}}}}}",
+                "AcceptGift_(O)182": "{{i18n:AfterDark.Gift.Alex.GiftReaction.BigEgg.Late.false.{{Random:{{Range: 1, 2}}}}}}",
+                // frog egg
+                "AcceptGift_(TR)FrogEgg": "{{i18n:AfterDark.Gift.Alex.GiftReaction.FrogEgg.Late.false}}",
+                // parrot egg
+                "AcceptGift_(TR)ParrotEgg": "{{i18n:AfterDark.Gift.Alex.GiftReaction.ParrotEgg.Late.false}}",
+                // golden egg
+                "AcceptGift_(O)928": "{{i18n:AfterDark.Gift.Alex.GiftReaction.GoldenEgg.Late.false}}",
+                // dino egg
+                "AcceptGift_(O)107": "{{i18n:AfterDark.Gift.Alex.GiftReaction.DinoEgg.Late.false}}",
+                // ostrich egg
+                "AcceptGift_(O)289": "{{i18n:AfterDark.Gift.Alex.GiftReaction.OstrichEgg.Late.false}}",
+                // duck egg
+                "AcceptGift_(O)442": "{{i18n:AfterDark.Gift.Alex.GiftReaction.DuckEgg.Late.false}}",
+
+                // category: egg
+                "AcceptGift_category_egg": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Category.Egg.Late.false.{{Random:{{Range: 1, 2}}}}}}",
+                // category: cooking
+                "AcceptGift_category_cooking": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Cooking.Late.false.{{Random:{{Range: 1, 2}}}}}}",
+                // category: flowers
+                "AcceptGift_category_flowers": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Flowers.Late.false}}",
+
+                // void egg
+                "AcceptGift_(O)305": "{{i18n:AfterDark.Gift.Alex.GiftReaction.VoidEgg.Late.false}}",
+                // category: books
+                "AcceptGift_book_item": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Category.Books.Late.false}}",
+
+                // muscle remedy
+                "AcceptGift_(O)351": "{{i18n:AfterDark.Gift.Alex.GiftReaction.MuscleRemedy.Late.false}}",
+                // energy tonic
+                "AcceptGift_(O)349": "{{i18n:AfterDark.Gift.Alex.GiftReaction.EnergyTonic.Late.false}}",
+
+                // TODO
+                // rabbits foot
+                "AcceptGift_(O)446": "{{i18n:AfterDark.Gift.Alex.GiftReaction.RabbitsFoot.Late.false}}",
+                // prismatic shard
+                "AcceptGift_(O)74": "{{i18n:AfterDark.Gift.Alex.GiftReaction.PrismaticShard.Late.false}}",
+                // stardrop tea
+                "AcceptGift_(O)StardropTea": "{{i18n:AfterDark.Gift.Alex.GiftReaction.StarDropTea.Late.false}}",
+
+                // BIRTHDAY   
+                "AcceptBirthdayGift_Positive": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Positive.Birthday.Late.false}}",
+                "AcceptBirthdayGift_Negative": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Negative.Birthday.Late.false}}"
+                
+            }
+        }, 
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alex",
+            "When": {
+                "Relationship:Alex": "Dating, Engaged, Married",
+                "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue"
+            },
+            "Entries": {
+                "AcceptGift_Loved": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Late.Love.{{Random:{{Range: 1,2}}}}}}",
+                "AcceptGift_Liked": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Late.Like.{{Random:{{Range: 1,2}}}}}}",
+                "AcceptGift_Neutral": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Late.Neutral.{{Random:{{Range: 1,2}}}}{{GeneralPlayerEndearment}}}}",
+                "AcceptGift_Disliked": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Late.Dislike.{{Random:{{Range: 1,2}}}}{{GeneralPlayerEndearment}}}}",
+                "AcceptGift_Hated": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Late.Hate.{{Random:{{Range: 1,2}}}}}}",
+
+                // defense book
+                "AcceptGift_(O)Book_Defense": "{{i18n:AfterDark.Gift.Alex.GiftReaction.DefenseBook.true.{{Random:{{Range: 1, 2}}}}}}",
+                // complete breakfast
+                "AcceptGift_(O)201": "{{i18n:AfterDark.Gift.Alex.GiftReaction.CompleteBreakfast.true.{{Random:{{Range: 1, 2}}}}}}",
+                // radish salad
+                "AcceptGift_(O)609": "{{i18n:AfterDark.Gift.Alex.GiftReaction.RadishSalad}}",
+                // salmon dinner
+                "AcceptGift_(O)212": "{{i18n:AfterDark.Gift.Alex.GiftReaction.SalmonDinner.true.{{Random:{{Range: 1, 2}}}}}}",
+                // field snack
+                "AcceptGift_(O)403": "{{i18n:AfterDark.Gift.Alex.GiftReaction.FieldSnack.true.{{Random:{{Range: 1, 3}}}}}}",
+
+                // big egg
+                "AcceptGift_(O)174": "{{i18n:AfterDark.Gift.Alex.GiftReaction.BigEgg.true.{{Random:{{Range: 1, 2}}}}}}",
+                "AcceptGift_(O)182": "{{i18n:AfterDark.Gift.Alex.GiftReaction.BigEgg.true.{{Random:{{Range: 1, 2}}}}}}",
+                // frog egg
+                "AcceptGift_(TR)FrogEgg": "{{i18n:AfterDark.Gift.Alex.GiftReaction.FrogEgg.true}}",
+                // parrot egg
+                "AcceptGift_(TR)ParrotEgg": "{{i18n:AfterDark.Gift.Alex.GiftReaction.ParrotEgg.true}}",
+                // golden egg
+                "AcceptGift_(O)928": "{{i18n:AfterDark.Gift.Alex.GiftReaction.GoldenEgg.true}}",
+                // dino egg
+                "AcceptGift_(O)107": "{{i18n:AfterDark.Gift.Alex.GiftReaction.DinoEgg.true}}",
+                // ostrich egg
+                "AcceptGift_(O)289": "{{i18n:AfterDark.Gift.Alex.GiftReaction.OstrichEgg.true}}",
+                // duck egg
+                "AcceptGift_(O)442": "{{i18n:AfterDark.Gift.Alex.GiftReaction.DuckEgg.true}}",
+
+                // category: egg
+                "AcceptGift_category_egg": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Category.Egg.true.{{Random:{{Range: 1, 2}}}}}}",
+                // category: cooking
+                "AcceptGift_category_cooking": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Cooking.true.{{Random:{{Range: 1, 2}}}}}}",
+                // category: flowers
+                "AcceptGift_category_flowers": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Flowers.true}}",
+
+                // void egg
+                "AcceptGift_(O)305": "{{i18n:AfterDark.Gift.Alex.GiftReaction.VoidEgg.true}}",
+                // category: books
+                "AcceptGift_book_item": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Category.Books.true}}",
+
+                // muscle remedy
+                "AcceptGift_(O)351": "{{i18n:AfterDark.Gift.Alex.GiftReaction.MuscleRemedy.true}}",
+                // energy tonic
+                "AcceptGift_(O)349": "{{i18n:AfterDark.Gift.Alex.GiftReaction.EnergyTonic.true}}",
+
+                // TODO
+                // rabbits foot
+                "AcceptGift_(O)446": "{{i18n:AfterDark.Gift.Alex.GiftReaction.RabbitsFoot.true}}",
+                // prismatic shard
+                "AcceptGift_(O)74": "{{i18n:AfterDark.Gift.Alex.GiftReaction.PrismaticShard.true}}",
+                // stardrop tea
+                "AcceptGift_(O)StardropTea": "{{i18n:AfterDark.Gift.Alex.GiftReaction.StarDropTea.true}}",
+
+                // BIRTHDAY   
+                "AcceptBirthdayGift_Positive": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Positive.Birthday.true}}",
+                "AcceptBirthdayGift_Negative": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Negative.Birthday.true}}"
+            }
+        }, 
+        /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        █████ █████ █████ █████ █████ █   █  ███  █     
+        █     █     █       █     █   █   █ █   █ █     
+        ████  ████  █████   █     █    █ █  █████ █     
+        █     █         █   █     █    █ █  █   █ █     
+        █     █████ █████   █   █████   █   █   █ █████ 
+        ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */ 
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13, Data/Festivals/spring24, Data/Festivals/summer11, Data/Festivals/summer28, Data/Festivals/fall16, Data/Festivals/fall27, Data/Festivals/winter8, Data/Festivals/winter25",
+            "When": {
+                "Hearts:Alex": "0, 1, 2, 3, 4",
+                "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue"
+            },
+            "Entries": {
+                "Alex": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.Early.{{Relationship:Alex |contains=Married}}.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
+                "Alex_y2": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.Early.{{Relationship:Alex |contains=Married}}.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
+                "Alex_spouse": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.{{Relationship:Alex |contains=Married}}.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
+                "Alex_spouse_y2": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.{{Relationship:Alex |contains=Married}}.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}"
+            }
+       },
+       {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13, Data/Festivals/spring24, Data/Festivals/summer11, Data/Festivals/summer28, Data/Festivals/fall16, Data/Festivals/fall27, Data/Festivals/winter8, Data/Festivals/winter25",
+            "When": {
+                "Hearts:Alex": "5, 6, 7, 8, 9, 10",
+                "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue"
+            },
+            "Entries": {
+                "Alex": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.Late.{{Relationship:Alex |contains=Married}}.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
+                "Alex_y2": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.Late.{{Relationship:Alex |contains=Married}}.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
+                "Alex_spouse": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.{{Relationship:Alex |contains=Married}}.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
+                "Alex_spouse_y2": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.{{Relationship:Alex |contains=Married}}.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}"
+            }
+       },
+       {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13, Data/Festivals/spring24, Data/Festivals/summer11, Data/Festivals/summer28, Data/Festivals/fall16, Data/Festivals/fall27, Data/Festivals/winter8, Data/Festivals/winter25",
+            "When": {
+                "Relationship:Alex": "Dating, Engaged, Married",
+                "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue"
+            },
+            "Entries": {
+                "Alex": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.Late.{{Relationship:Alex |contains=Married}}.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
+                "Alex_y2": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.Late.{{Relationship:Alex |contains=Married}}.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
+                "Alex_spouse": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.{{Relationship:Alex |contains=Married}}.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
+                "Alex_spouse_y2": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.{{Relationship:Alex |contains=Married}}.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}"
+            }
+       },
+       {
+            "Action": "EditData",
+            "Target": "Strings/1_6_Strings",
+            "When": {
+                "Hearts:Alex": "0, 1, 2, 3, 4",
+                "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue"
+            },
+            "Entries": {
+                "DesertFestival_Alex": "{{i18n:AfterDark.Festival.Alex.Desert.Early.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
+                "DesertFestival_Alex_marriage": "{{i18n:AfterDark.Festival.Alex.Desert.Married.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
+                "Shop_Alex": "{{i18n:AfterDark.Festival.Alex.Desert.Shop{{GeneralPlayerEndearment}}}}"
+            }
+       },
+       {
+            "Action": "EditData",
+            "Target": "Strings/1_6_Strings",
+            "When": {
+                "Hearts:Alex": "5, 6, 7, 8, 9, 10",
+                "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue"
+            },
+            "Entries": {
+                "DesertFestival_Alex": "{{i18n:AfterDark.Festival.Alex.Desert.Late.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
+                "DesertFestival_Alex_marriage": "{{i18n:AfterDark.Festival.Alex.Desert.Married.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
+                "Shop_Alex": "{{i18n:AfterDark.Festival.Alex.Desert.Shop{{GeneralPlayerEndearment}}}}"
+            }
+       },
+       {
+            "Action": "EditData",
+            "Target": "Strings/1_6_Strings",
+            "When": {
+                "Relationship:Alex": "Dating, Engaged, Married",
+                "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue"
+            },
+            "Entries": {
+                "DesertFestival_Alex": "{{i18n:AfterDark.Festival.Alex.Desert.Late.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
+                "DesertFestival_Alex_marriage": "{{i18n:AfterDark.Festival.Alex.Desert.Married.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
+                "Shop_Alex": "{{i18n:AfterDark.Festival.Alex.Desert.Shop{{GeneralPlayerEndearment}}}}"
+            }
+       },
+       // JEALOUSY DANCE LINES
+       {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alex",
+            "When": { "After Dark Dialogue": "All Dialogue" },
+            "Entries": {
+                "ADLowAlexElliottDance": "{{i18n:AfterDark.FestivalJealousy.Alex.HasPartner.Elliott.Early.Memory{{GeneralPlayerEndearment}}}}",
+                "ADLowAlexHarveyDance": "{{i18n:AfterDark.FestivalJealousy.Alex.HasPartner.Harvey.Early.Memory{{GeneralPlayerEndearment}}}}",
+                "ADLowAlexSamDance": "{{i18n:AfterDark.FestivalJealousy.Alex.HasPartner.Sam.Early.Memory{{GeneralPlayerEndearment}}}}",
+                "ADLowAlexSebastianDance": "{{i18n:AfterDark.FestivalJealousy.Alex.HasPartner.Sebastian.Early.Memory{{GeneralPlayerEndearment}}}}",
+                "ADLowAlexShaneDance": "{{i18n:AfterDark.FestivalJealousy.Alex.HasPartner.Shane.Early.Memory{{GeneralPlayerEndearment}}}}",
+                "ADLowAlexAbigailDance": "{{i18n:AfterDark.FestivalJealousy.Alex.HasPartner.Abigail.Early.Memory{{GeneralPlayerEndearment}}}}",
+                "ADLowAlexEmilyDance": "{{i18n:AfterDark.FestivalJealousy.Alex.HasPartner.Emily.Early.Memory{{GeneralPlayerEndearment}}}}",
+                "ADLowAlexHaleyDance": "{{i18n:AfterDark.FestivalJealousy.Alex.HasPartner.Haley.Early.Memory{{GeneralPlayerEndearment}}}}",
+                "ADLowAlexLeahDance": "{{i18n:AfterDark.FestivalJealousy.Alex.HasPartner.Leah.Early.Memory{{GeneralPlayerEndearment}}}}",
+                "ADLowAlexMaruDance": "{{i18n:AfterDark.FestivalJealousy.Alex.HasPartner.Maru.Early.Memory{{GeneralPlayerEndearment}}}}",
+                "ADLowAlexPennyDance": "{{i18n:AfterDark.FestivalJealousy.Alex.HasPartner.Penny.Early.Memory{{GeneralPlayerEndearment}}}}",
+
+                "ADHighAlexElliottDance": "{{i18n:AfterDark.FestivalJealousy.Alex.HasPartner.Elliott.Late.Memory{{GeneralPlayerEndearment}}}}",
+                "ADHighAlexHarveyDance": "{{i18n:AfterDark.FestivalJealousy.Alex.HasPartner.Harvey.Late.Memory{{GeneralPlayerEndearment}}}}",
+                "ADHighAlexSamDance": "{{i18n:AfterDark.FestivalJealousy.Alex.HasPartner.Sam.Late.Memory{{GeneralPlayerEndearment}}}}",
+                "ADHighAlexSebastianDance": "{{i18n:AfterDark.FestivalJealousy.Alex.HasPartner.Sebastian.Late.Memory{{GeneralPlayerEndearment}}}}",
+                "ADHighAlexShaneDance": "{{i18n:AfterDark.FestivalJealousy.Alex.HasPartner.Shane.Late.Memory{{GeneralPlayerEndearment}}}}",
+                "ADHighAlexAbigailDance": "{{i18n:AfterDark.FestivalJealousy.Alex.HasPartner.Abigail.Late.Memory{{GeneralPlayerEndearment}}}}",
+                "ADHighAlexEmilyDance": "{{i18n:AfterDark.FestivalJealousy.Alex.HasPartner.Emily.Late.Memory{{GeneralPlayerEndearment}}}}",
+                "ADHighAlexHaleyDance": "{{i18n:AfterDark.FestivalJealousy.Alex.HasPartner.Haley.Late.Memory{{GeneralPlayerEndearment}}}}",
+                "ADHighAlexLeahDance": "{{i18n:AfterDark.FestivalJealousy.Alex.HasPartner.Leah.Late.Memory{{GeneralPlayerEndearment}}}}",
+                "ADHighAlexMaruDance": "{{i18n:AfterDark.FestivalJealousy.Alex.HasPartner.Maru.Late.Memory{{GeneralPlayerEndearment}}}}",
+                "ADHighAlexPennyDance": "{{i18n:AfterDark.FestivalJealousy.Alex.HasPartner.Penny.Late.Memory{{GeneralPlayerEndearment}}}}",
+
+                "ADLowAlexAlexDance": "{{i18n:AfterDark.FestivalJealousy.Alex.HasPartner.Alex.Early.Memory{{GeneralPlayerEndearment}}}}",
+                "ADLowAlexNotAlexDance": "{{i18n:AfterDark.FestivalJealousy.Alex.HasPartner.NotAlex.Early.Memory{{GeneralPlayerEndearment}}}}",
+
+                "ADHighAlexAlexDance": "{{i18n:AfterDark.FestivalJealousy.Alex.HasPartner.Alex.Late.Memory{{GeneralPlayerEndearment}}}}",
+                "ADHighAlexNotAlexDance": "{{i18n:AfterDark.FestivalJealousy.Alex.HasPartner.NotAlex.Late.Memory{{GeneralPlayerEndearment}}}}"
+            }
+       },
+       /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        █   █ █████ █████  ████ 
+        ██ ██   █   █     █     
+        █ █ █   █   █████ █     
+        █   █   █       █ █     
+        █   █ █████ █████  ████ 
+        ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+        {
+            "Action": "EditData",
+            "Target": "Strings/MovieReactions",
+            "When": { "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue" },
+            "Entries": {
+                "Alex_summer_movie_1_BeforeMovie": "{{i18n:AfterDark.Movie.Alex.summer.movie.1.BeforeMovie}}",
+                "Alex_summer_movie_1_AfterMovie": "{{i18n:AfterDark.Movie.Alex.summer.movie.1.AfterMovie}}",
+                "Alex_love_BeforeMovie": "{{i18n:AfterDark.Movie.Alex.love.BeforeMovie{{GeneralPlayerEndearment}}}}",
+                "Alex_love_AfterMovie": "{{i18n:AfterDark.Movie.Alex.love.AfterMovie}}",
+                "Alex_like_BeforeMovie": "{{i18n:AfterDark.Movie.Alex.like.BeforeMovie{{GeneralPlayerEndearment}}}}",
+                "Alex_like_AfterMovie": "{{i18n:AfterDark.Movie.Alex.like.AfterMovie}}",
+                "Alex_dislike_BeforeMovie": "{{i18n:AfterDark.Movie.Alex.dislike.BeforeMovie}}",
+                "Alex_dislike_AfterMovie": "{{i18n:AfterDark.Movie.Alex.dislike.AfterMovie}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "When": { "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue" },
+            "Entries": {
+                "BathHouse_MensLocker.4": "{{i18n:AfterDark.Strings.Alex.Bathhouse.Locker}}",
+
+                "JoshHouse.3": "{{i18n:AfterDark.Strings.Alex.JoshHouse.3}}",
+                "JoshHouse.4": "{{i18n:AfterDark.Strings.Alex.JoshHouse.4}}",
+                "JoshHouse.5": "{{i18n:AfterDark.Strings.Alex.JoshHouse.5}}",
+                "JoshHouse.6": "{{i18n:AfterDark.Strings.Alex.JoshHouse.6}}",
+                "JoshHouse.7": "{{i18n:AfterDark.Strings.Alex.JoshHouse.7}}",
+                "JoshHouse.8": "{{i18n:AfterDark.Strings.Alex.JoshHouse.8}}",
+                "JoshHouse.9": "{{i18n:AfterDark.Strings.Alex.JoshHouse.9}}",
+                "JoshHouse.10": "{{i18n:AfterDark.Strings.Alex.JoshHouse.10}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/Locations",
+            "When": { "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue" },
+            "Entries": {
+                "JoshHouse_Alex_Trash": "{{i18n:AfterDark.Strings.Alex.JoshHouse.Trash}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/animationDescriptions",
+            "When": {
+                "Hearts:Alex": "0, 1, 2, 3, 4",
+                "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue"
+            },
+            "Entries": {
+                "alex_lift_weights": "{{i18n:AfterDark.Strings.Alex.LiftingWeights.Early.{{Random: {{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/animationDescriptions",
+            "When": {
+                "Hearts:Alex": "5, 6, 7, 8, 9, 10, 11, 12, 13, 14",
+                "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue"
+            },
+            "Entries": {
+                "alex_lift_weights": "{{i18n:AfterDark.Strings.Alex.LiftingWeights.Late.{{Random: {{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Alex",
+            "When": { "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue" },
+            "Entries": {
+                "winter_17.000": "{{i18n:AfterDark.Strings.Alex.winter.17.000}}",
+                "marriage_Mon.000": "{{i18n:AfterDark.Strings.Alex.marriage.Mon.000{{GeneralPlayerEndearment}}}}",
+                "summer_16.000": "{{i18n:AfterDark.Strings.Alex.summer.16.000}}",
+                "summer_16.001": "{{i18n:AfterDark.Strings.Alex.summer.16.001}}",
+                "Sun.000": "{{i18n:AfterDark.Strings.Alex.Sun.000}}",
+                "Sun.000_married": "{{i18n:AfterDark.Strings.Alex.Sun.000.married{{GeneralPlayerEndearment}}}}"
             }
         }
     ]

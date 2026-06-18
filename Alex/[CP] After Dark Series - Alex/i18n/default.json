@@ -96,7 +96,7 @@
     "AfterDark.Core.Alex.RejectGift.Divorced": "Are you really trying to make amends after you divorced me?$a#$b#Please, just leave me alone.$s",
     "AfterDark.Core.Alex.Divorced": "%Alex looks at you longingly, but refuses to say anything.",
     "AfterDark.Core.Alex.BreakUp": "Why are they wilt— Oh.$7#$b#{{PetName}}, I—$s#$b#What did I do wrong?$s",
-    // on 9/14/2024 7:33pm CST, user density120 made an nsfw edit of alex & Alex fucking with me, a pure, angelic, did I mention *pure*?, lotion bottle covering their dicks and I haven't been the Alexe since. I was working on the following line.
+    // on 9/14/2024 7:33pm CST, user density120 made an nsfw edit of alex & sam with me, a pure, angelic, did I mention *pure*?, lotion bottle covering their dicks and I haven't been the same since. I was working on the following line.
     "AfterDark.Core.Alex.DumpedGuys": "How could you, @?$s",
     "AfterDark.Core.Alex.SecondChanceGuys": "I don't think I could ever stay mad at you for too long, {{LPetName}}.$9#$b#I'm just glad you've realized I'm the better man for you.",
 
@@ -110,6 +110,10 @@
     "AfterDark.Core.Alex.fishCaught.139": "How was that salmon you caught recently?#$e#What? No, I'm not stalking your movements.$a#$b#I just so happened to be close by...$s",
 
     "AfterDark.Core.Alex.FirstVisit.Bathhouse": "How was your last bathhouse visit? Anything fun happen?#$e#Uh, wait... you didn't go poking around in my locker, did you?$9",
+
+    "AfterDark.FestivalJealousy.Alex.wonEggHunt": "Winning the egg festival of all things isn't the flex you think it is, you know that, right?$a",
+    "AfterDark.FestivalJealousy.Alex.wonGrange": "I think I should try my own display next year.#$b#I mean, if you were able to win that easily, it shouldn't be hard, right?$h",
+    "AfterDark.FestivalJealousy.Alex.wonIceFishing": "...$a#$b#Ugh, you smell like fish.$a",
 
     "AfterDark.Core.Alex.Slingshot": "Would you stop?$a#$b#I know you're trying to get me back for teasing you, but damn.$9",
     
@@ -407,15 +411,6 @@
     For helping with some of these lines :3 */
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     █▀▀ █▀▀ █▀▀ ▀█▀ ▀█▀ █ █ ▄▀▄ █   
-     █▀  ██▄ ▄██  █  ▄█▄ ▀▄▀ █▀█ █▄▄ 
-    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-    "AfterDark.FestivalJealousy.Alex.wonEggHunt": "Winning the egg festival of all things isn't the flex you think it is, you know that, right?$a",
-    "AfterDark.FestivalJealousy.Alex.wonGrange": "I think I should try my own display next year.#$b#I mean, if you were able to win that easily, it shouldn't be hard, right?$h",
-    "AfterDark.FestivalJealousy.Alex.wonIceFishing": "...$a#$b#Ugh, you smell like fish.$a",
-
-    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      SPECIFICALLY: FLOWER DANCE
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
     
@@ -670,13 +665,16 @@
     - ladylancer
     - death_2nova
     - dovah_kinstead
-    For helping with some of these lines :3 */
+    - alayna_le_snek
+    - vainityy
+    - ltlprinc3ss
+    - milkyway_wishes
+    For helping with these lines :3 */
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      ENGAGEMENT
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-    // I'm excited for our wedding, have you chosen something to wear yet?#$e#Yoba, you've made me so happy, {{LPetName}}.$l
-    "AfterDark.Marriage.Alex.Engagement.0": "",
+    "AfterDark.Marriage.Alex.Engagement.0": "I'm excited for our wedding, have you chosen something to wear yet?#$e#Yoba, you've made me so happy, {{LPetName}}.$l",
     "AfterDark.Marriage.Alex.Engagement.1": "You think I'd look good in overalls?#$b#I'm really trying to embrace the whole 'Farmer' thing now.$h",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -796,51 +794,48 @@
     "AfterDark.Marriage.Alex.Spring.2": "I can't wait to start jogging again now that there's no more snow on the ground.$h#$b#You should've seen me try last week, I nearly fell straight on my ass.$s",
     "AfterDark.Marriage.Alex.Spring.3": "I was finally able to get my hands on Gran's famous flower-shaped cookies.#$b#How about you and I stay home today and cook a few batches?$l",
     "AfterDark.Marriage.Alex.Spring.4": "Granny gave me a whole bunch of these earlier, saying how she planted too many.#$b#I thought we could put a few in the kitchen or something.[591]",
-    "AfterDark.Marriage.Alex.Spring.5": "",
-    "AfterDark.Marriage.Alex.Spring.6": "",
-    "AfterDark.Marriage.Alex.Spring.7": "",
-    "AfterDark.Marriage.Alex.Spring.8": "",
-    "AfterDark.Marriage.Alex.Spring.9": "",
-    "AfterDark.Marriage.Alex.Spring.10": "",
+    "AfterDark.Marriage.Alex.Spring.5": "Hmm...#$b#Do you think you could give me some tips with the flowers?#$b#I kinda wanna help Gran out with them this year.$h",
+    "AfterDark.Marriage.Alex.Spring.6": "Hey, found these while I was out for a run this morning.#$b#I hope it's not too late to plant them.[499]",
+    "AfterDark.Marriage.Alex.Spring.7": "D'you need any help clearing out old winter debris?#$b#How about you slow down a little and let your husband haul those heavy logs for you?#$b#I've been lifting all winter for this.$h",
+    "AfterDark.Marriage.Alex.Spring.8": "I know you have a lot to do, but surely taking one day off from farmwork wouldn't hurt, right?#$b#I got so used to being around you in winter...$s",
+    "AfterDark.Marriage.Alex.Spring.9": "Your eyes get so intense when you're working, you know that?$h#$b#...$l#$b#Fuck, now I'm all flustered thinking about what I could do to get you to look at me like that.$l",
+    "AfterDark.Marriage.Alex.Spring.10": "Sometimes I wish I could bring Dusty onto the farm, but I just know he'd undo all the hardwork you do.$s#$b#D'you think he'd get along with %pet?",
 
     // Summer
     "AfterDark.Marriage.Alex.Summer.1": "Ugh, I love summer.$h#$b#It always reminds me of the practice games we used to run before gridball season officially started.#$b#I guess summer now means crops and working with you, huh?$l",
-    // Now that summer's back, we should go the beach like we used to.#$b#Maybe even throw the gridball around like we did that one time...$l
     "AfterDark.Marriage.Alex.Summer.2": "What do you think about me putting a grill out back? I've been thinking of getting into BBQ lately.#$b#Yeah, just think about it. I could put on a little apron and cook for you while you sit and look {{LDescript}} on one of our lawn chairs.$h",
-    // The middle of Summer is always the hottest, but it's perfect for sweating everything out.#$b#I actually know a few excerses to help with that if you wanna join me...$l
-    "AfterDark.Marriage.Alex.Summer.3": "",
-    "AfterDark.Marriage.Alex.Summer.4": "",
-    "AfterDark.Marriage.Alex.Summer.5": "",
-    "AfterDark.Marriage.Alex.Summer.6": "",
-    "AfterDark.Marriage.Alex.Summer.7": "",
-    "AfterDark.Marriage.Alex.Summer.8": "",
-    "AfterDark.Marriage.Alex.Summer.9": "",
-    "AfterDark.Marriage.Alex.Summer.10": "",
+    "AfterDark.Marriage.Alex.Summer.3": "The middle of summer is always the hottest, but it's perfect for sweating everything out.#$b#I actually know a few excerses to help with that if you wanna join me...$l",
+    "AfterDark.Marriage.Alex.Summer.4": "It's a perfect day for ice cream and beach chairs, isn't it?$h#$b#How about we leave the farm and go on a little date together soon?",
+    "AfterDark.Marriage.Alex.Summer.5": "It's so nice out today.#$b#How about we go on a walk around town today? I need to pick up a few things from Pierre's anyway...",
+    "AfterDark.Marriage.Alex.Summer.6": "Hm... I was thinking about taking a nice trip down to the beach later.#$b#Think about it: we could lay in the warm sand, soaking in the sunshine...#$b#You in your swimsuit...$l",
+    "AfterDark.Marriage.Alex.Summer.7": "...$l#$b#Sorry, I just love seeing you all flustered from the heat.$l",
+    "AfterDark.Marriage.Alex.Summer.8": "Oh, {{LPetName}}. Don't wear yourself out today.$s#$b#I know it's a busy season for you, but I didn't marry you just to watch you get heatstroke.$s#$b#Take breaks when you need it, yeah?",
+    "AfterDark.Marriage.Alex.Summer.9": "...$9#$b#I know it's hot out today, but you should really wear a little more...$a#$b#Yoba knows there're people in this town willing to pounce on you in a heartbeat.$s",
+    "AfterDark.Marriage.Alex.Summer.10": "You look flushed.$9#$b#Here, come sit down and take a break with me, yeah?#$b#I'll go grab you some ice and water. Just sit back and relax.",
 
     // Fall
     "AfterDark.Marriage.Alex.Fall.1": "Now that it's fall, you think Granny's down to make us some spooky treats?#$b#She makes some killer ghost-looking cookies, I'll have to bring them back one of these days.$h",
     "AfterDark.Marriage.Alex.Fall.2": "I can't wait to start watching more gridball games now that the season's officially started back up again.#$b#You should join me this week, maybe you can wear one of my old jerseys while we watch together.$l",
     "AfterDark.Marriage.Alex.Fall.3": "Whew, I'm so not looking forward to cleaning the gutters later.$s#$b#How about you give me a little reward for being such a good little house-husband, hm?$l",
-    "AfterDark.Marriage.Alex.Fall.4": "",
-    "AfterDark.Marriage.Alex.Fall.5": "",
-    "AfterDark.Marriage.Alex.Fall.6": "",
-    "AfterDark.Marriage.Alex.Fall.7": "",
-    "AfterDark.Marriage.Alex.Fall.8": "",
-    "AfterDark.Marriage.Alex.Fall.9": "",
-    "AfterDark.Marriage.Alex.Fall.10": "",
+    "AfterDark.Marriage.Alex.Fall.4": "You should really start wearing more layers now that it's getting cold again.#$b#Please go grab one of my jackets before you head out, {{LPetName}}.$s",
+    "AfterDark.Marriage.Alex.Fall.5": "The leaves look pretty this season, don't they?#$b#The red almost kinda reminds me of the color your face turns whenever you're mad.",
+    "AfterDark.Marriage.Alex.Fall.6": "Hmmm...#$b#I think today's one for the couch and a movie, yeah?#$b#Why don't you come have a seat and I'll go make us some hot chocolate?$l",
+    "AfterDark.Marriage.Alex.Fall.7": "I know we still have to get through fall, but I honestly can't wait for winter to come.$h#$b#You're always so much more available when you don't have to manage all those crops.",
+    "AfterDark.Marriage.Alex.Fall.8": "It's so windy out today...$s#$b#You know I don't mind taking care of you if you get sick, but do try to be careful, yeah?",
+    "AfterDark.Marriage.Alex.Fall.9": "Hmm... How do you feel about carving some pumpkins this year?#$b#Wouldn't it be cute to have two matching ones outside our door?$h",
+    "AfterDark.Marriage.Alex.Fall.10": "...$s#$b#Do you have to be out today?$s#$b#It's just... The weather's so perfect for staying home and cuddling under some blankets...$s",
 
     // Winter
     "AfterDark.Marriage.Alex.Winter.1": "I used to love making snow angels as a kid.#$b#Do you think ours will too?$l",
-    //Hmm... Now that Winter's finally here, I can start decorating for the Winter Feast.$h#$b#Where do you want to put the tree this year, {{LPetName}}?
     "AfterDark.Marriage.Alex.Winter.2": "I can't wait to build snow forts with our kids when they're older.#$b#There's just so much open space out here, it's really nice.$h",
-    "AfterDark.Marriage.Alex.Winter.3": "",
-    "AfterDark.Marriage.Alex.Winter.4": "",
-    "AfterDark.Marriage.Alex.Winter.5": "",
-    "AfterDark.Marriage.Alex.Winter.6": "",
-    "AfterDark.Marriage.Alex.Winter.7": "",
-    "AfterDark.Marriage.Alex.Winter.8": "",
-    "AfterDark.Marriage.Alex.Winter.9": "",
-    "AfterDark.Marriage.Alex.Winter.10": "",
+    "AfterDark.Marriage.Alex.Winter.3": "All this extra free time is driving me crazy.$s#$b#I know it's slow season, but is there anything you need me to do, {{LPetName}}?$9#$b#I really want to help you out more often...$s",
+    "AfterDark.Marriage.Alex.Winter.4": "Man, I got so used to all the fresh produce you grew during the year.$s#$b#At least now I get to spend more time cuddling with you.",
+    "AfterDark.Marriage.Alex.Winter.5": "Gran used to make the best hot chocolate when I was a kid.#$b#I've always imagined doing the same for ours... I'll have to ask her how she does it.",
+    "AfterDark.Marriage.Alex.Winter.6": "Y'know, I always thought you'd have a lot more free time during winter since you don't have much to grow.#$b#I never realized how much work you do every season.#$b#Here, something to keep you energized today.[204]$h",
+    "AfterDark.Marriage.Alex.Winter.7": "This might be Gran's hallmark movies talking, but the snow around town really makes things look romantic.$h#$b#Hmm...$l#$b#Maybe we could recreate a scene or two from them, yeah?$l",
+    "AfterDark.Marriage.Alex.Winter.8": "I honestly used to hate winter. I had to quit practicing outside and ended up couped inside most days.#$b#Though, now that I'm here with you, I find myself not minding it nearly as much.$l",
+    "AfterDark.Marriage.Alex.Winter.9": "Hmm...$l#$b#Is your face all red because you're cold or because you're around me?$l#$b#Either way, you look adorable, {{LPetName}}.$h",
+    "AfterDark.Marriage.Alex.Winter.10": "Yoba, with all this damn snow I can't help but want to keep you home and in my arms all day.$h#$b#How about it, {{LPetName}}? Care to spend a whole day with just me?$l",
 
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -853,10 +848,10 @@
     "AfterDark.Marriage.Alex.Rainy.Day.3": "I feel like I get all jittery when it rains and I can't go work outside.$s#$b#Why don't you stay home with me so I can get all this energy out in another way.$l",
     "AfterDark.Marriage.Alex.Rainy.Day.4": "Hmm...#$b#If you don't go out and get soaking wet from the rain, maybe I can get you that way instead.$l",
     "AfterDark.Marriage.Alex.Rainy.Day.5": "I hope you don't get sick from running around in the rain all day, @.$s#$b#Though, I would love a chance to nurse you back to health.$l",
-    "AfterDark.Marriage.Alex.Rainy.Day.6": "",
-    "AfterDark.Marriage.Alex.Rainy.Day.7": "",
-    "AfterDark.Marriage.Alex.Rainy.Day.8": "",
-    "AfterDark.Marriage.Alex.Rainy.Day.9": "",
+    "AfterDark.Marriage.Alex.Rainy.Day.6": "Are you sure you can't stay in today?$s#$b#I don't want you to catch a cold... Or unwanted eyes.$s",
+    "AfterDark.Marriage.Alex.Rainy.Day.7": "Please don't tell me you're going out today, look, the rain's already doing the work for you, {{LPetName}}.$s#$b#Stay in with me, yeah? That's an order.$l",
+    "AfterDark.Marriage.Alex.Rainy.Day.8": "Mmmm... Listen to the rain hitting the roof, {{LPetName}}.#$b#It's the perfect excuse to lock the front door, leave the chores for tomorrow, and just spend the entire day with me.$l",
+    "AfterDark.Marriage.Alex.Rainy.Day.9": "...$s#$b#It's raining, so do you really have to go out?$s#$b#Can you at least give me a kiss or two before you leave?$s",
     
     "AfterDark.Marriage.Alex.Rainy.Night.Alex": "{{PetName}}, you know I love it when you're all nice and wet for me, but why don't you go dry off.$s#$b#I just mopped.$9",
     "AfterDark.Marriage.Alex.Rainy.Night.0": "Glad you're back, {{LPetName}}. You didn't stay out too long in the rain, did you?$h",
@@ -864,11 +859,11 @@
     "AfterDark.Marriage.Alex.Rainy.Night.2": "I already started the fireplace before you came home, do you wanna cuddle in front of it before we go to bed, {{LPetName}}?$l",
     "AfterDark.Marriage.Alex.Rainy.Night.3": "%You notice Alex eyeing you up and down.#$b#You look good when your clothes are all wet.#$b#Though, I think they'll look better when they're off completely.$l#$b#Don't worry, I'll do that step for you.$l",
     "AfterDark.Marriage.Alex.Rainy.Night.4": "Welcome home, {{LPetName}}.#$b#I bet you're just exhausted from running around in the rain all day.$s#$b#How about we end the night by taking a nice hot shower and cuddling to the sound of rain, hm?$l",
-    "AfterDark.Marriage.Alex.Rainy.Night.5": "",
-    "AfterDark.Marriage.Alex.Rainy.Night.6": "",
-    "AfterDark.Marriage.Alex.Rainy.Night.7": "",
-    "AfterDark.Marriage.Alex.Rainy.Night.8": "",
-    "AfterDark.Marriage.Alex.Rainy.Night.9": "",
+    "AfterDark.Marriage.Alex.Rainy.Night.5": "I swear, you're going to catch a cold running around in those wet clothes of yours.#$b#Here, let me take them off and warm you up a bit.$l",
+    "AfterDark.Marriage.Alex.Rainy.Night.6": "Look at you... all soaked from the rain.#$b#I think I can do one better though.$l",
+    "AfterDark.Marriage.Alex.Rainy.Night.7": "Y'know, as eager as I am to get you in bed, let's get you dried off first, yeah?",
+    "AfterDark.Marriage.Alex.Rainy.Night.8": "Well, look who's finally home.$h#$b#Not that I can say I mind you looking all wet and shivering from the rain, but maybe we should get you dried off first.",
+    "AfterDark.Marriage.Alex.Rainy.Night.9": "You really are relentless, you know that?$a#$b#Here, let me get a warm towel to dry your stubborn ass off.$9",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      INDOOR/OUTDOOR 
@@ -879,11 +874,11 @@
     "AfterDark.Marriage.Alex.Indoor.Day.2": "How do you always look so {{LDescript}} first thing in the morning?$l#$b#Let's go back to bed for a little, the farm can wait.$l",
     "AfterDark.Marriage.Alex.Indoor.Day.3": "It's pretty boring without you here all day, are you sure the farm can't go just one day without you?$s#$b#I'll even take the day off from working out just to spend more time cuddling with you instead.$l",
     "AfterDark.Marriage.Alex.Indoor.Day.4": "Morning {{LPetName}}.$l#$b#I was on my morning run earlier and couldn't stop thinking about you, so I ran back early to make you breakfast.[201]$h",
-    "AfterDark.Marriage.Alex.Indoor.Day.5": "",
-    "AfterDark.Marriage.Alex.Indoor.Day.6": "",
-    "AfterDark.Marriage.Alex.Indoor.Day.7": "",
-    "AfterDark.Marriage.Alex.Indoor.Day.8": "",
-    "AfterDark.Marriage.Alex.Indoor.Day.9": "",
+    "AfterDark.Marriage.Alex.Indoor.Day.5": "Mmm... Another early morning, {{LPetName}}?#$b#Are you sure I can't convince you to have a bit of a lie in?$l",
+    "AfterDark.Marriage.Alex.Indoor.Day.6": "Y'know, sometimes I wish you'd sleep in longer.$s#$b#I was trying to admire you sleeping, but your need to wake up at 6am ruined it.$s#$b#I swear, one day I'll get up before you.#$b#Even if it means I need to tire you out.$l",
+    "AfterDark.Marriage.Alex.Indoor.Day.7": "Hmm... I have a few recipes that Gran showed me that I want to try.#$b#How about you stay home and be my taste tester for the day?#$b#I promise I'll make it worth your while.$l",
+    "AfterDark.Marriage.Alex.Indoor.Day.8": "Hnngg...$s#$b#Sorry, I'm still so tired after last night.$s#$b#Here, I made us some coffee to wake us up.[253]",
+    "AfterDark.Marriage.Alex.Indoor.Day.9": "There's a few things around the farm that I'm gonna try and fix.#$b#Maybe if I do a good job you can reward me later, hm?$l",
 
     "AfterDark.Marriage.Alex.Indoor.Night.Alex": "Hey, {{LPetName}}. How was your day?#$b#Why don't you let me give you a nice, deep massage with my co-$l#$b#I mean, a deep massage for your back while you tell me all about it.",
     "AfterDark.Marriage.Alex.Indoor.Night.0": "I wasn't sure when you'd be home today, but I made you dinner anyway.#$b#I tried a new recipe for this one, hope you like it, {{LPetName}}.[198 209 214 237]$h",
@@ -892,10 +887,10 @@
     "AfterDark.Marriage.Alex.Indoor.Night.3": "%You hear Alex sigh.#$b#I really miss you when you're out working all day, {{LPetName}}.$s#$b#At least this means I have time to think of all the things I'll do to you once you're home.$l",
     "AfterDark.Marriage.Alex.Indoor.Night.4": "The house felt way too quiet while you were away, {{LPetName}}. I hated it.$s#$b#I swear, I'm locking the door tonight and keeping you all to myself.$l",
     "AfterDark.Marriage.Alex.Indoor.Night.5": "%Alex fiddles with the necklace around your throat.#$b#Care to relive some old memories tonight, {{LPetName}}?$l",
-    "AfterDark.Marriage.Alex.Indoor.Night.6": "",
-    "AfterDark.Marriage.Alex.Indoor.Night.7": "",
-    "AfterDark.Marriage.Alex.Indoor.Night.8": "",
-    "AfterDark.Marriage.Alex.Indoor.Night.9": "",
+    "AfterDark.Marriage.Alex.Indoor.Night.6": "%Alex eyes the necklace at your throat, smiling knowing you still wear it.#$b#Yoba, what I wouldn't give right now to see you in nothing but that necklace tonight.$l",
+    "AfterDark.Marriage.Alex.Indoor.Night.7": "Mmmm... You've been working so hard all day, {{LPetName}}...#$b#How about you lay back tonight and let me do all the heavy lifting, yeah?$l",
+    "AfterDark.Marriage.Alex.Indoor.Night.8": "Oh, there you are!$h#$b#Here, have a seat at the table, dinner's almost ready for you.",
+    "AfterDark.Marriage.Alex.Indoor.Night.9": "...$s#$b#Tomorrow, can you not leave for so long?$s#$b#I missed you so much today, {{LPetName}}.$9",
 
     "AfterDark.Marriage.Alex.Outdoor.Alex": "$y 'Hey, I was just about to go out for a run, wanna join?_Sure._Great. Now, how about you go put on something a little more skimpy so I can happily watch you run from behind.$l_No thanks._Aww, and here I was excited to see you all hot and bothered after running a few miles.$s'",
     "AfterDark.Marriage.Alex.Outdoor.0": "Hm?#$b#What am I doing today?#$b#Uhh, I was thinking about just going for a run or lifting a few weights.#$b#Or, if you want, we could stay home together all day and workout in a different way.$l",
@@ -903,11 +898,11 @@
     "AfterDark.Marriage.Alex.Outdoor.2": "It's so nice being all the way out here.#$b#Actually, I was thinking of bringing Dusty out here so he can run around. I bet he'd just love all the open space.$h",
     "AfterDark.Marriage.Alex.Outdoor.3": "The farm looks great, {{LPetName}}. Though, maybe you should take the day off.$l#$b#Yeah, we could go back inside right now and spend our time today doing much better things...$l",
     "AfterDark.Marriage.Alex.Outdoor.4": "The air out here feels so good!$h#$b#Have I ever told you how much I love you for bringing me out here? I don't regret it one bit.$l",
-    "AfterDark.Marriage.Alex.Outdoor.5": "",
-    "AfterDark.Marriage.Alex.Outdoor.6": "",
-    "AfterDark.Marriage.Alex.Outdoor.7": "",
-    "AfterDark.Marriage.Alex.Outdoor.8": "",
-    "AfterDark.Marriage.Alex.Outdoor.9": "",
+    "AfterDark.Marriage.Alex.Outdoor.5": "Hey, {{LPetName}}.$h#$b#Don't mind me, I'm just admiring the view out here.$l",
+    "AfterDark.Marriage.Alex.Outdoor.6": "You're working out on the farm today, right?#$b#Do you need any help or do you mind if I just watch?$l",
+    "AfterDark.Marriage.Alex.Outdoor.7": "Y'know, I couldn't have asked for a more perfect place to start our family, {{LPetName}}.#$b#You really do such an amazing job out here. It fills me with such pride knowing I can call you my {{LMarriageName}}.$h",
+    "AfterDark.Marriage.Alex.Outdoor.8": "Hold on... We need to go back inside.$a#$b#Why?$9#$b#Because you're looking too good for me to keep my hands off you, my {{LDescript}} little {{LMarriageName}}.$l#$b#I don't think I can stand the idea of anyone else looking at you today.$l",
+    "AfterDark.Marriage.Alex.Outdoor.9": "After seeing what you've done with the place, I can't be prouder.#$b#You've really made this feel like home for me, {{LPetName}}. Thank you.$l",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      KIDS 
@@ -937,9 +932,9 @@
     "AfterDark.Marriage.Alex.Good.9": "Have I ever told you how {{LDescript}} you are?$4#$b#Sometimes I find myself struggling to look away.$1",
     "AfterDark.Marriage.Alex.Good.10": "...$l#$b#Y'know, I can't help but remember our wedding when you look like that...$l#$b#Wanna have a repeat of that night, {{LPetName}}?$l",
     "AfterDark.Marriage.Alex.Good.11": "...$l#$b#Hey, I heard certain positions make it easier to have kids.$l#$b#Wanna try them all?$l",
-    "AfterDark.Marriage.Alex.Good.12": "",
-    "AfterDark.Marriage.Alex.Good.13": "",
-    "AfterDark.Marriage.Alex.Good.14": "",
+    "AfterDark.Marriage.Alex.Good.12": "Yoba, how do you expect me to keep my hands off you when you look like that, {{LPetName}}?$l#$b#It should be criminal to be so {{LDescript}}. I'm just a man, @.$l",
+    "AfterDark.Marriage.Alex.Good.13": "Maybe I should follow you around today.$l#$b#I can't have you running around town looking as good as you do right now.$l",
+    "AfterDark.Marriage.Alex.Good.14": "Please tell me you're staying home today.$l#$b#I'll let you do whatever you want as long as you let me be the only one to see you like this, {{LPetName}}.$l",
 
     "AfterDark.Marriage.Alex.Neutral.0": "Have I ever shown you how to properly tackle?#$b#I haven't?#$b#Oh, don't worry, {{LPetName}}, I'll be sure to put our mattress to good use teaching you how...$4",
     "AfterDark.Marriage.Alex.Neutral.1": "You think I'd make a good wrestler, {{LPetName}}?#$b#I was thinking of picking it up just so I'd get the chance to use some of the moves on you, {{LPetName}}.$1",
@@ -951,11 +946,11 @@
     "AfterDark.Marriage.Alex.Neutral.7": "You ever think about what it'd be like if you never moved down?$9#$b#Ugh, nevermind, I don't like that thought.$2#$b#I don't think I'd be able to live without you anymore.$4",
     "AfterDark.Marriage.Alex.Neutral.8": "You should come over to Gran's house for dinner next time I go.$1#$b#She's been asking for you non-stop, it'd seriously make her week if you did.",
     "AfterDark.Marriage.Alex.Neutral.9": "I'm always the one cooking for us, {{LPetName}}.#$b#I mean, it's not that I mind it, I just think you should be the one naked under the apron once in a while.",
-    "AfterDark.Marriage.Alex.Neutral.10": "",
-    "AfterDark.Marriage.Alex.Neutral.11": "",
-    "AfterDark.Marriage.Alex.Neutral.12": "",
-    "AfterDark.Marriage.Alex.Neutral.13": "",
-    "AfterDark.Marriage.Alex.Neutral.14": "",
+    "AfterDark.Marriage.Alex.Neutral.10": "Fuck, you look too good to be real.$l#$b#No wonder there's so many people around here who want to...$a#$b#Never mind.$h",
+    "AfterDark.Marriage.Alex.Neutral.11": "Yoba...$l#$b#I adore you, you know? You have me wrapped around your finger.$l",
+    "AfterDark.Marriage.Alex.Neutral.12": "Y'know, I never imagined my life looking like this, but honestly...#$b#I don't think I'd trade you—or anything here—for the world now that it's mine.$l",
+    "AfterDark.Marriage.Alex.Neutral.13": "%Alex's hand wraps around your necklace, toying with it.#$b#I know mermaid pendants are tradition, but this is proof you picked me and I wouldn't trade it for the world.$l#$b#You make me so happy, {{LPetName}}.$l",
+    "AfterDark.Marriage.Alex.Neutral.14": "Mmmm...$l#$b#Have I ever told you just how happy I am that you're my {{LMarriageName}}?$l#$b#I thank Yoba every damn day that you picked me.$l",
 
     "AfterDark.Marriage.Alex.Bad.0": "Please, {{LPetName}}, I don't know why you've been ignoring me but please, I need something. Anything.$2#$b#Do I need to get on my knees and beg for you to love me again?$2",
     "AfterDark.Marriage.Alex.Bad.1": "What happened, {{LPetName}}? I thought we were doing good.$2#$b#Do I need to start cooking naked for you to pay attention to me again?",
@@ -1122,6 +1117,26 @@
     "AfterDark.Gift.Alex.GiftReaction.EnergyTonic.Late.false": "...$s#$b#You're lucky you're {{LDescript}}, you know that?$s",
     "AfterDark.Gift.Alex.GiftReaction.EnergyTonic.true": "Ugh, what've I said about this artificial stuff, {{LPetName}}?$a#$b#I thought you'd know me better than this...$s",
 
+    "AfterDark.Gift.Alex.GiftReaction.RabbitsFoot.Early.false": "...$a#$b#What about me screams 'unlucky' to you?$a#$b#...$a#$b#...$9#$b#Thanks, I guess.$9",
+    "AfterDark.Gift.Alex.GiftReaction.RabbitsFoot.Late.false": "Oh, gross. What poor creature did you lob this off of?$a#$b#%Alex pockets the rabbit's foot anyway.",
+    "AfterDark.Gift.Alex.GiftReaction.RabbitsFoot.true": "Hm?$9#$b#A rabbit's foot?$9#$b#I mean, thanks for the lucky charm, but I've already got you, {{LPetName}}.$l",
+
+    "AfterDark.Gift.Alex.GiftReaction.PrismaticShard.Early.false": "Oh my yoba, is that—$7#$b#Err, thanks for this.$9",
+    "AfterDark.Gift.Alex.GiftReaction.PrismaticShard.Late.false": "Oh, this is amazing!$7#$b#You didn't do anything stupid to get this for me, did you?$a",
+    "AfterDark.Gift.Alex.GiftReaction.PrismaticShard.true": "You didn't put your life in danger getting this for me, did you?$s#$b#You know I can't help but worry about you, @.$9#$b#Thank you though.$l",
+
+    "AfterDark.Gift.Alex.GiftReaction.StarDropTea.Early.false": "Hm... It's not nearly as good as Gran could make but it's passable.#$b#I'm honestly surprised you were able to make something so nice when you barely have a kitchen.$h",
+    "AfterDark.Gift.Alex.GiftReaction.StarDropTea.Late.false": "Fuck, isn't this stuff expensive?$7#$b#Damn, now you're making me almost want to spoil you.$h",
+    "AfterDark.Gift.Alex.GiftReaction.StarDropTea.true": "Is this your way of telling me to relax, {{LPetName}}?$h#$b#How about I return the favor, hm?$l",
+
+    "AfterDark.Gift.Alex.GiftReaction.Positive.Birthday.Early.false": "Hm... I actually like this.#$b#Thanks, @.$h",
+    "AfterDark.Gift.Alex.GiftReaction.Positive.Birthday.Late.false": "Oh, you didn't have to get me anything!$h#$b#Though, maybe it is a little nice having a stalker who knows what I like.$l",
+    "AfterDark.Gift.Alex.GiftReaction.Positive.Birthday.true": "I mean, this is nice, but...$8#$b#It's not nearly as nice as what I'm actually wanting for my birthday.$l",
+
+    "AfterDark.Gift.Alex.GiftReaction.Negative.Birthday.Early.false": "...$a#$b#Why would you ever think I wanted this?$a#$b#I mean, thanks I guess... Way to ruin a guy's birthday though.$a",
+    "AfterDark.Gift.Alex.GiftReaction.Negative.Birthday.Late.false": "...$a#$b#With all that stalking you do, I'm surprised you still don't know me all that well.$9",
+    "AfterDark.Gift.Alex.GiftReaction.Negative.Birthday.true": "...$s#$b#We're married and this is what you give me for my birthday?$s#$b#I know I should be grateful, but...$s#$b#Damn, do you not know me at all?$s",
+
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     █   █  ███  █   █ █████ █████       ████  █████  ███  █      ███   ████ █   █ █████ 
     ██ ██ █   █ █   █   █   █           █   █   █   █   █ █     █   █ █     █   █ █     
@@ -1270,9 +1285,9 @@
     "AfterDark.Strings.Alex.JoshHouse.5": "Looks like a magazine with a bunch of muscly men inside... Maybe Alex wouldn't notice if you grabbed it for yourself.",
     "AfterDark.Strings.Alex.JoshHouse.6": "You see a note stuck to the side of the weight, it reads: \"Approx weight of a farmer's\"... the rest is smudged.",
     "AfterDark.Strings.Alex.JoshHouse.7": "Between a few bottles of hair gel and more trading cards, you notice a small hand written note from someone named 'Clara'.",
-    "AfterDark.Strings.Alex.JoshHouse.8": "Underneath a few gridball trading cards, you notice a small polaroid of... is that you?",
+    "AfterDark.Strings.Alex.JoshHouse.8": "Underneath a few gridball trading cards, you notice a few crumbled letters... Huh... The writing looks familiar.",
     "AfterDark.Strings.Alex.JoshHouse.9": "Alex's gridball helmet, it's in really good condition despite some wear and tear. You can't help but imagine Granny showing him how to polish his gear. How cute.",
-    "AfterDark.Strings.Alex.JoshHouse.10": "That's definitely a gridball but... why does it look sticky?",
+    "AfterDark.Strings.Alex.JoshHouse.10": "Looks like there's something underneath the ball... Is that an old scarf of yours?",
 
     // Strings/Locations
     "AfterDark.Strings.Alex.JoshHouse.Trash": "Underneath a few protein bar wrappers, you notice a crumbled piece of paper with your name on it.#Digging further, you notice the entire paper is scratched out.",
