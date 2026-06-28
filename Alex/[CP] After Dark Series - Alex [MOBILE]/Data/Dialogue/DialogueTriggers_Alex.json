@@ -1,0 +1,1671 @@
+{
+    "Changes": [
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    FAMILY 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        // Granny
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_AlexFamilyGran": {
+                    "Id": "{{ModId}}_AlexFamilyGran",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Alex 800, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexFamilyGran1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_AlexFamilyGran": {
+                    "Id": "{{ModId}}_AlexFamilyGran",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Alex 1000, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexFamilyGran2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_AlexFamilyGran": {
+                    "Id": "{{ModId}}_AlexFamilyGran",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Alex 1200, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexFamilyGran3 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_AlexFamilyGran": {
+                    "Id": "{{ModId}}_AlexFamilyGran",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Alex 1400, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexFamilyGran4 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_AlexFamilyGran": {
+                    "Id": "{{ModId}}_AlexFamilyGran",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Alex 1600, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexFamilyGran5 1"
+                }
+            }
+        },
+        // George
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_AlexFamilyGeorge": {
+                    "Id": "{{ModId}}_AlexFamilyGeorge",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Alex 700, RANDOM 0.1",
+                    "Action": "AddConversationTopic AlexFamilyGeorge1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_AlexFamilyGeorge": {
+                    "Id": "{{ModId}}_AlexFamilyGeorge",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Alex 900, RANDOM 0.1",
+                    "Action": "AddConversationTopic AlexFamilyGeorge2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_AlexFamilyGeorge": {
+                    "Id": "{{ModId}}_AlexFamilyGeorge",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Alex 1100, RANDOM 0.1",
+                    "Action": "AddConversationTopic AlexFamilyGeorge3 1"
+                }
+            }
+        },
+        // Dad
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_AlexFamilyDad": {
+                    "Id": "{{ModId}}_AlexFamilyDad",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Alex 1300, RANDOM 0.1",
+                    "Action": "AddConversationTopic AlexFamilyDad1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_AlexFamilyDad": {
+                    "Id": "{{ModId}}_AlexFamilyDad",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Alex 1500, RANDOM 0.1",
+                    "Action": "AddConversationTopic AlexFamilyDad2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_AlexFamilyDad": {
+                    "Id": "{{ModId}}_AlexFamilyDad",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Alex 1700, RANDOM 0.1",
+                    "Action": "AddConversationTopic AlexFamilyDad3 1"
+                }
+            }
+        },
+        // Mom
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_AlexFamilyMom": {
+                    "Id": "{{ModId}}_AlexFamilyMom",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Alex 1250, RANDOM 0.1",
+                    "Action": "AddConversationTopic AlexFamilyMom1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_AlexFamilyMom": {
+                    "Id": "{{ModId}}_AlexFamilyMom",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Alex 1450, RANDOM 0.1",
+                    "Action": "AddConversationTopic AlexFamilyMom2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_AlexFamilyMom": {
+                    "Id": "{{ModId}}_AlexFamilyMom",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Alex 1650, RANDOM 0.1",
+                    "Action": "AddConversationTopic AlexFamilyMom3 1"
+                }
+            }
+        },
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    FRIENDSHIP - BACHELORS
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        // Elliott
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowElliottJealousy1": {
+                    "Id": "{{ModId}}_LowElliottJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Elliott 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartElliottJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowElliottJealousy2": {
+                    "Id": "{{ModId}}_LowElliottJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Elliott 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartElliottJealousy2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowElliottJealousy3": {
+                    "Id": "{{ModId}}_LowElliottJealousy3",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Elliott 6, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartElliottJealousy3 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowElliottJealousy4": {
+                    "Id": "{{ModId}}_LowElliottJealousy4",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Elliott 8, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartElliottJealousy4 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighElliottJealousy1": {
+                    "Id": "{{ModId}}_HighElliottJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Elliott 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartElliottJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighElliottJealousy2": {
+                    "Id": "{{ModId}}_HighElliottJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Elliott 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartElliottJealousy2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighElliottJealousy3": {
+                    "Id": "{{ModId}}_HighElliottJealousy3",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Elliott 6, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartElliottJealousy3 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighElliottJealousy4": {
+                    "Id": "{{ModId}}_HighElliottJealousy4",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Elliott 8, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartElliottJealousy4 1"
+                }
+            }
+        },
+        // Harvey
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowHarveyJealousy1": {
+                    "Id": "{{ModId}}_LowHarveyJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Harvey 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartHarveyJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowHarveyJealousy2": {
+                    "Id": "{{ModId}}_LowHarveyJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Harvey 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartHarveyJealousy2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowHarveyJealousy3": {
+                    "Id": "{{ModId}}_LowHarveyJealousy3",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Harvey 6, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartHarveyJealousy3 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowHarveyJealousy4": {
+                    "Id": "{{ModId}}_LowHarveyJealousy4",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Harvey 8, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartHarveyJealousy4 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighHarveyJealousy1": {
+                    "Id": "{{ModId}}_HighHarveyJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Harvey 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartHarveyJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighHarveyJealousy2": {
+                    "Id": "{{ModId}}_HighHarveyJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Harvey 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartHarveyJealousy2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighHarveyJealousy3": {
+                    "Id": "{{ModId}}_HighHarveyJealousy3",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Harvey 6, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartHarveyJealousy3 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighHarveyJealousy4": {
+                    "Id": "{{ModId}}_HighHarveyJealousy4",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Harvey 8, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartHarveyJealousy4 1"
+                }
+            }
+        },
+        // Sam
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowSamJealousy1": {
+                    "Id": "{{ModId}}_LowSamJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Sam 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartSamJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowSamJealousy2": {
+                    "Id": "{{ModId}}_LowSamJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Sam 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartSamJealousy2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowSamJealousy3": {
+                    "Id": "{{ModId}}_LowSamJealousy3",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Sam 6, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartSamJealousy3 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowSamJealousy4": {
+                    "Id": "{{ModId}}_LowSamJealousy4",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Sam 8, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartSamJealousy4 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighSamJealousy1": {
+                    "Id": "{{ModId}}_HighSamJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Sam 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartSamJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighSamJealousy2": {
+                    "Id": "{{ModId}}_HighSamJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Sam 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartSamJealousy2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighSamJealousy3": {
+                    "Id": "{{ModId}}_HighSamJealousy3",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Sam 6, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartSamJealousy3 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighSamJealousy4": {
+                    "Id": "{{ModId}}_HighSamJealousy4",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Sam 8, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartSamJealousy4 1"
+                }
+            }
+        },
+        // Sebastian
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowSebastianJealousy1": {
+                    "Id": "{{ModId}}_LowSebastianJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Sebastian 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartSebastianJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowSebastianJealousy2": {
+                    "Id": "{{ModId}}_LowSebastianJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Sebastian 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartSebastianJealousy2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowSebastianJealousy3": {
+                    "Id": "{{ModId}}_LowSebastianJealousy3",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Sebastian 6, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartSebastianJealousy3 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowSebastianJealousy4": {
+                    "Id": "{{ModId}}_LowSebastianJealousy4",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Sebastian 8, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartSebastianJealousy4 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighSebastianJealousy1": {
+                    "Id": "{{ModId}}_HighSebastianJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Sebastian 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartSebastianJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighSebastianJealousy2": {
+                    "Id": "{{ModId}}_HighSebastianJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Sebastian 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartSebastianJealousy2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighSebastianJealousy3": {
+                    "Id": "{{ModId}}_HighSebastianJealousy3",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Sebastian 6, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartSebastianJealousy3 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighSebastianJealousy4": {
+                    "Id": "{{ModId}}_HighSebastianJealousy4",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Sebastian 8, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartSebastianJealousy4 1"
+                }
+            }
+        },
+        // Shane
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowShaneJealousy1": {
+                    "Id": "{{ModId}}_LowShaneJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Shane 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartShaneJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowShaneJealousy2": {
+                    "Id": "{{ModId}}_LowShaneJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Shane 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartShaneJealousy2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowShaneJealousy3": {
+                    "Id": "{{ModId}}_LowShaneJealousy3",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Shane 6, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartShaneJealousy3 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowShaneJealousy4": {
+                    "Id": "{{ModId}}_LowShaneJealousy4",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Shane 8, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartShaneJealousy4 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighShaneJealousy1": {
+                    "Id": "{{ModId}}_HighShaneJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Shane 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartShaneJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighShaneJealousy2": {
+                    "Id": "{{ModId}}_HighShaneJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Shane 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartShaneJealousy2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighShaneJealousy3": {
+                    "Id": "{{ModId}}_HighShaneJealousy3",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Shane 6, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartShaneJealousy3 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighShaneJealousy4": {
+                    "Id": "{{ModId}}_HighShaneJealousy4",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Shane 8, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartShaneJealousy4 1"
+                }
+            }
+        },
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    FRIENDSHIP - BACHELORETTES
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        // Abigail
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowAbigailJealousy1": {
+                    "Id": "{{ModId}}_LowAbigailJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Abigail 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartAbigailJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowAbigailJealousy2": {
+                    "Id": "{{ModId}}_LowAbigailJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Abigail 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartAbigailJealousy2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighAbigailJealousy1": {
+                    "Id": "{{ModId}}_HighAbigailJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Abigail 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartAbigailJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighAbigailJealousy2": {
+                    "Id": "{{ModId}}_HighAbigailJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Abigail 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartAbigailJealousy2 1"
+                }
+            }
+        },
+        // Emily
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowEmilyJealousy1": {
+                    "Id": "{{ModId}}_LowEmilyJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Emily 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartEmilyJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowEmilyJealousy2": {
+                    "Id": "{{ModId}}_LowEmilyJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Emily 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartEmilyJealousy2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighEmilyJealousy1": {
+                    "Id": "{{ModId}}_HighEmilyJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Emily 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartEmilyJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighEmilyJealousy2": {
+                    "Id": "{{ModId}}_HighEmilyJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Emily 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartEmilyJealousy2 1"
+                }
+            }
+        },
+        // Haley
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowHaleyJealousy1": {
+                    "Id": "{{ModId}}_LowHaleyJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Haley 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartHaleyJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowHaleyJealousy2": {
+                    "Id": "{{ModId}}_LowHaleyJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Haley 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartHaleyJealousy2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowHaleyJealousy3": {
+                    "Id": "{{ModId}}_LowHaleyJealousy3",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Haley 8, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartHaleyJealousy3 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighHaleyJealousy1": {
+                    "Id": "{{ModId}}_HighHaleyJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Haley 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartHaleyJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighHaleyJealousy2": {
+                    "Id": "{{ModId}}_HighHaleyJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Haley 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartHaleyJealousy2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighHaleyJealousy3": {
+                    "Id": "{{ModId}}_HighHaleyJealousy3",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Haley 8, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartHaleyJealousy3 1"
+                }
+            }
+        },
+        // Leah
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowLeahJealousy1": {
+                    "Id": "{{ModId}}_LowLeahJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Leah 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartLeahJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowLeahJealousy2": {
+                    "Id": "{{ModId}}_LowLeahJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Leah 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartLeahJealousy2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighLeahJealousy1": {
+                    "Id": "{{ModId}}_HighLeahJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Leah 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartLeahJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighLeahJealousy2": {
+                    "Id": "{{ModId}}_HighLeahJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Leah 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartLeahJealousy2 1"
+                }
+            }
+        },
+        // Maru
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowMaruJealousy1": {
+                    "Id": "{{ModId}}_LowMaruJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Maru 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartMaruJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowMaruJealousy2": {
+                    "Id": "{{ModId}}_LowMaruJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Maru 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartMaruJealousy2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighMaruJealousy1": {
+                    "Id": "{{ModId}}_HighMaruJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Maru 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartMaruJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighMaruJealousy2": {
+                    "Id": "{{ModId}}_HighMaruJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Maru 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartMaruJealousy2 1"
+                }
+            }
+        },
+        // Penny
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowPennyJealousy1": {
+                    "Id": "{{ModId}}_LowPennyJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Penny 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartPennyJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowPennyJealousy2": {
+                    "Id": "{{ModId}}_LowPennyJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Penny 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexLowHeartPennyJealousy2 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighPennyJealousy1": {
+                    "Id": "{{ModId}}_HighPennyJealousy1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Penny 2, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartPennyJealousy1 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighPennyJealousy2": {
+                    "Id": "{{ModId}}_HighPennyJealousy2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Penny 4, RANDOM 0.1",
+                    "Action": "AddConversationTopic ADAlexHighHeartPennyJealousy2 1"
+                }
+            }
+        },
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    FLOWER DANCE 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowElliottDancePartner": {
+                    "Id": "{{ModId}}_LowElliottDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Elliott, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADLowAlexElliottDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighElliottDancePartner": {
+                    "Id": "{{ModId}}_HighElliottDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Elliott, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADHighAlexElliottDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowHarveyDancePartner": {
+                    "Id": "{{ModId}}_LowHarveyDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Harvey, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADLowAlexHarveyDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighHarveyDancePartner": {
+                    "Id": "{{ModId}}_HighHarveyDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Harvey, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADHighAlexHarveyDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowSamDancePartner": {
+                    "Id": "{{ModId}}_LowSamDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Sam, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADLowAlexSamDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighSamDancePartner": {
+                    "Id": "{{ModId}}_HighSamDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Sam, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADHighAlexSamDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowSebastianDancePartner": {
+                    "Id": "{{ModId}}_LowSebastianDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Sebastian, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADLowAlexSebastianDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighSebastianDancePartner": {
+                    "Id": "{{ModId}}_HighSebastianDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Sebastian, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADHighAlexSebastianDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowShaneDancePartner": {
+                    "Id": "{{ModId}}_LowShaneDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Shane, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADLowAlexShaneDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighShaneDancePartner": {
+                    "Id": "{{ModId}}_HighShaneDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Shane, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADHighAlexShaneDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowAbigailDancePartner": {
+                    "Id": "{{ModId}}_LowAbigailDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Abigail, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADLowAlexAbigailDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighAbigailDancePartner": {
+                    "Id": "{{ModId}}_HighAbigailDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Abigail, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADHighAlexAbigailDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowEmilyDancePartner": {
+                    "Id": "{{ModId}}_LowEmilyDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Emily, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADLowAlexEmilyDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighEmilyDancePartner": {
+                    "Id": "{{ModId}}_HighEmilyDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Emily, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADHighAlexEmilyDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowHaleyDancePartner": {
+                    "Id": "{{ModId}}_LowHaleyDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Haley, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADLowAlexHaleyDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighHaleyDancePartner": {
+                    "Id": "{{ModId}}_HighHaleyDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Haley, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADHighAlexHaleyDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowLeahDancePartner": {
+                    "Id": "{{ModId}}_LowLeahDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Leah, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADLowAlexLeahDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighLeahDancePartner": {
+                    "Id": "{{ModId}}_HighLeahDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Leah, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADHighAlexLeahDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowMaruDancePartner": {
+                    "Id": "{{ModId}}_LowMaruDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Maru, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADLowAlexMaruDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighMaruDancePartner": {
+                    "Id": "{{ModId}}_HighMaruDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Maru, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADHighAlexMaruDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowPennyDancePartner": {
+                    "Id": "{{ModId}}_LowPennyDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Penny, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADLowAlexPennyDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighPennyDancePartner": {
+                    "Id": "{{ModId}}_HighPennyDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Penny, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADHighAlexPennyDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowAlexDancePartner": {
+                    "Id": "{{ModId}}_LowAlexDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Alex, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADLowAlexAlexDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighAlexDancePartner": {
+                    "Id": "{{ModId}}_HighAlexDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Alex, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC true",
+                    "Action": "AddConversationTopic ADHighAlexAlexDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "{{ModId}}_LowNotAlexDancePartner": {
+                    "Id": "{{ModId}}_LowNotAlexDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Alex, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC false",
+                    "Action": "AddConversationTopic ADLowAlexNotAlexDance 1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": { 
+                "After Dark Dialogue": "All Dialogue",
+                "Hearts:Alex": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+            },
+            "Entries": {
+                "{{ModId}}_HighNotAlexDancePartner": {
+                    "Id": "{{ModId}}_HighNotAlexDance",
+                    "Trigger": "Spiderbuttons.BETAS_DancePartnered",
+                    "Condition": "ITEM_ID Target Alex, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/DancePartnered/WasNPC false",
+                    "Action": "AddConversationTopic ADHighAlexNotAlexDance 1"
+                }
+            }
+        }
+    ]
+}

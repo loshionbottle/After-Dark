@@ -125,3 +125,7 @@ changelog from 4.1.0 onward to make translators lives a bit easier;
             AfterDark.Gift.Sam.GiftReaction.TigerEye.false.1
             AfterDark.Festival.Sam.spring24.true.2
             AfterDark.Festival.Sam.summer11.false.2
+        5.2.0
+            - Edited precondition for Post Alex Bathhouse Jealousy Event
+            - Edited Marriage Dialogue Good/Neutral ranges from 15 to 14 
+            - No Change to i18n
