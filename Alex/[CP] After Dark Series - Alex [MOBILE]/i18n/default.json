@@ -96,7 +96,7 @@
     "config.After Dark Events.values.No Events": "No Events",
 
     // Mail
-    "config.section.Mail.name": "Events",
+    "config.section.Mail.name": "Mail",
     "config.After Dark Mail.name": "After Dark Mail",
     "config.After Dark Mail.description": "Toggle between which mail you'd like this pack to add. Choosing \"Mail\" will include ALL mail he (or the figure) sends. If you'd like to turn off all mail, select \"No Mail\".",
     "config.After Dark Mail.values.Mail": "Mail",
@@ -1397,7 +1397,7 @@
     "AD.Events.Alex.1Heart.1": "Thank you again, dear.#$b#I've been meaning to fix this one up for a while, but I've needed a second pair of hands.#$b#And, well, Alex...$s#$b#He's been busy doing Yoba knows what.",
     "AD.Events.Alex.1Heart.2": "Who is...?",
     "AD.Events.Alex.1Heart.3": "Oh, @. Could you get this next one for me? I can't quite reach it from here...",
-    "AD.Events.Alex.1Heart.4": "'@'?$9#$b#I haven't seen...$a#$b#Right. Gran was mentioning a few farmer the other day.$9",
+    "AD.Events.Alex.1Heart.4": "'@'?$9#$b#I haven't seen...$a#$b#Right. Gran was mentioning a new farmer the other day.$9",
     "AD.Events.Alex.1Heart.5": "Oh, Sam!$h#$b#Lovely to see you! You've met @, right?$h#$b#Here, grab some gloves. I could use your help again.",
     "AD.Events.Alex.1Heart.6": "Oh, I didn't tell you?#$b#Since Alex has been so busy lately, Sam's been offering to help with the flower beds around town.$h",
     "AD.Events.Alex.1Heart.7": "You think too highly of me, Gran.$h#$b#It's the least I could do after destroying a few boxes with my skateboard.$10",

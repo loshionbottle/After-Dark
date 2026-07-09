@@ -357,7 +357,7 @@
                 // defense book
                 "AcceptGift_(O)Book_Defense": "{{i18n:AfterDark.Gift.Alex.GiftReaction.DefenseBook.Early.false.{{Random:{{Range: 1, 2}}}}}}",
                 // complete breakfast
-                "AcceptGift_(O)201": "{{i18n:AfterDark.Gift.Alex.GiftReaction.CompleteBreakfast.Early.false.{{Random:{{Range: 1, 2}}}}}}",
+                "AcceptGift_(O)201": "{{i18n:AfterDark.Gift.Alex.GiftReaction.CompleteBreakfast.Early.false.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
                 // radish salad
                 "AcceptGift_(O)609": "{{i18n:AfterDark.Gift.Alex.GiftReaction.RadishSalad}}",
                 // salmon dinner
@@ -422,20 +422,20 @@
             "Entries": {
                 "AcceptGift_Loved": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Late.Love.{{Random:{{Range: 1,2}}}}}}",
                 "AcceptGift_Liked": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Late.Like.{{Random:{{Range: 1,2}}}}}}",
-                "AcceptGift_Neutral": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Late.Neutral.{{Random:{{Range: 1,2}}}}{{GeneralPlayerEndearment}}}}",
+                "AcceptGift_Neutral": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Late.Neutral.{{Random:{{Range: 1,2}}}}}}",
                 "AcceptGift_Disliked": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Late.Dislike.{{Random:{{Range: 1,2}}}}{{GeneralPlayerEndearment}}}}",
                 "AcceptGift_Hated": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Late.Hate.{{Random:{{Range: 1,2}}}}}}",
 
                 // defense book
                 "AcceptGift_(O)Book_Defense": "{{i18n:AfterDark.Gift.Alex.GiftReaction.DefenseBook.Late.false.{{Random:{{Range: 1, 2}}}}}}",
                 // complete breakfast
-                "AcceptGift_(O)201": "{{i18n:AfterDark.Gift.Alex.GiftReaction.CompleteBreakfast.Late.false.{{Random:{{Range: 1, 2}}}}}}",
+                "AcceptGift_(O)201": "{{i18n:AfterDark.Gift.Alex.GiftReaction.CompleteBreakfast.Late.false.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
                 // radish salad
                 "AcceptGift_(O)609": "{{i18n:AfterDark.Gift.Alex.GiftReaction.RadishSalad}}",
                 // salmon dinner
-                "AcceptGift_(O)212": "{{i18n:AfterDark.Gift.Alex.GiftReaction.SalmonDinner.Late.false.{{Random:{{Range: 1, 2}}}}}}",
+                "AcceptGift_(O)212": "{{i18n:AfterDark.Gift.Alex.GiftReaction.SalmonDinner.Late.false.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
                 // field snack
-                "AcceptGift_(O)403": "{{i18n:AfterDark.Gift.Alex.GiftReaction.FieldSnack.Late.false.{{Random:{{Range: 1, 3}}}}}}",
+                "AcceptGift_(O)403": "{{i18n:AfterDark.Gift.Alex.GiftReaction.FieldSnack.Late.false.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
 
                 // big egg
                 "AcceptGift_(O)174": "{{i18n:AfterDark.Gift.Alex.GiftReaction.BigEgg.Late.false.{{Random:{{Range: 1, 2}}}}}}",
@@ -445,7 +445,7 @@
                 // parrot egg
                 "AcceptGift_(TR)ParrotEgg": "{{i18n:AfterDark.Gift.Alex.GiftReaction.ParrotEgg.Late.false}}",
                 // golden egg
-                "AcceptGift_(O)928": "{{i18n:AfterDark.Gift.Alex.GiftReaction.GoldenEgg.Late.false}}",
+                "AcceptGift_(O)928": "{{i18n:AfterDark.Gift.Alex.GiftReaction.GoldenEgg.Late.false{{GeneralPlayerEndearment}}}}",
                 // dino egg
                 "AcceptGift_(O)107": "{{i18n:AfterDark.Gift.Alex.GiftReaction.DinoEgg.Late.false}}",
                 // ostrich egg
@@ -468,7 +468,7 @@
                 // muscle remedy
                 "AcceptGift_(O)351": "{{i18n:AfterDark.Gift.Alex.GiftReaction.MuscleRemedy.Late.false}}",
                 // energy tonic
-                "AcceptGift_(O)349": "{{i18n:AfterDark.Gift.Alex.GiftReaction.EnergyTonic.Late.false}}",
+                "AcceptGift_(O)349": "{{i18n:AfterDark.Gift.Alex.GiftReaction.EnergyTonic.Late.false{{GeneralPlayerEndearment}}}}",
 
                 // TODO
                 // rabbits foot
@@ -492,32 +492,32 @@
                 "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue"
             },
             "Entries": {
-                "AcceptGift_Loved": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Late.Love.{{Random:{{Range: 1,2}}}}}}",
-                "AcceptGift_Liked": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Late.Like.{{Random:{{Range: 1,2}}}}}}",
-                "AcceptGift_Neutral": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Late.Neutral.{{Random:{{Range: 1,2}}}}{{GeneralPlayerEndearment}}}}",
-                "AcceptGift_Disliked": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Late.Dislike.{{Random:{{Range: 1,2}}}}{{GeneralPlayerEndearment}}}}",
-                "AcceptGift_Hated": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Late.Hate.{{Random:{{Range: 1,2}}}}}}",
+                "AcceptGift_Loved": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Late.Love.{{Random:{{Range: 1, 2}}}}}}",
+                "AcceptGift_Liked": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Late.Like.{{Random:{{Range: 1, 2}}}}}}",
+                "AcceptGift_Neutral": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Late.Neutral.{{Random:{{Range: 1, 2}}}}}}",
+                "AcceptGift_Disliked": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Late.Dislike.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
+                "AcceptGift_Hated": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Late.Hate.{{Random:{{Range: 1, 2}}}}}}",
 
                 // defense book
-                "AcceptGift_(O)Book_Defense": "{{i18n:AfterDark.Gift.Alex.GiftReaction.DefenseBook.true.{{Random:{{Range: 1, 2}}}}}}",
+                "AcceptGift_(O)Book_Defense": "{{i18n:AfterDark.Gift.Alex.GiftReaction.DefenseBook.true.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
                 // complete breakfast
                 "AcceptGift_(O)201": "{{i18n:AfterDark.Gift.Alex.GiftReaction.CompleteBreakfast.true.{{Random:{{Range: 1, 2}}}}}}",
                 // radish salad
                 "AcceptGift_(O)609": "{{i18n:AfterDark.Gift.Alex.GiftReaction.RadishSalad}}",
                 // salmon dinner
-                "AcceptGift_(O)212": "{{i18n:AfterDark.Gift.Alex.GiftReaction.SalmonDinner.true.{{Random:{{Range: 1, 2}}}}}}",
+                "AcceptGift_(O)212": "{{i18n:AfterDark.Gift.Alex.GiftReaction.SalmonDinner.true.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
                 // field snack
                 "AcceptGift_(O)403": "{{i18n:AfterDark.Gift.Alex.GiftReaction.FieldSnack.true.{{Random:{{Range: 1, 3}}}}}}",
 
                 // big egg
-                "AcceptGift_(O)174": "{{i18n:AfterDark.Gift.Alex.GiftReaction.BigEgg.true.{{Random:{{Range: 1, 2}}}}}}",
-                "AcceptGift_(O)182": "{{i18n:AfterDark.Gift.Alex.GiftReaction.BigEgg.true.{{Random:{{Range: 1, 2}}}}}}",
+                "AcceptGift_(O)174": "{{i18n:AfterDark.Gift.Alex.GiftReaction.BigEgg.true.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
+                "AcceptGift_(O)182": "{{i18n:AfterDark.Gift.Alex.GiftReaction.BigEgg.true.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
                 // frog egg
-                "AcceptGift_(TR)FrogEgg": "{{i18n:AfterDark.Gift.Alex.GiftReaction.FrogEgg.true}}",
+                "AcceptGift_(TR)FrogEgg": "{{i18n:AfterDark.Gift.Alex.GiftReaction.FrogEgg.true{{GeneralPlayerEndearment}}}}",
                 // parrot egg
-                "AcceptGift_(TR)ParrotEgg": "{{i18n:AfterDark.Gift.Alex.GiftReaction.ParrotEgg.true}}",
+                "AcceptGift_(TR)ParrotEgg": "{{i18n:AfterDark.Gift.Alex.GiftReaction.ParrotEgg.true{{GeneralPlayerEndearment}}}}",
                 // golden egg
-                "AcceptGift_(O)928": "{{i18n:AfterDark.Gift.Alex.GiftReaction.GoldenEgg.true}}",
+                "AcceptGift_(O)928": "{{i18n:AfterDark.Gift.Alex.GiftReaction.GoldenEgg.true{{GeneralPlayerEndearment}}}}",
                 // dino egg
                 "AcceptGift_(O)107": "{{i18n:AfterDark.Gift.Alex.GiftReaction.DinoEgg.true}}",
                 // ostrich egg
@@ -528,27 +528,27 @@
                 // category: egg
                 "AcceptGift_category_egg": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Category.Egg.true.{{Random:{{Range: 1, 2}}}}}}",
                 // category: cooking
-                "AcceptGift_category_cooking": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Cooking.true.{{Random:{{Range: 1, 2}}}}}}",
+                "AcceptGift_category_cooking": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Cooking.true.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
                 // category: flowers
-                "AcceptGift_category_flowers": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Flowers.true}}",
+                "AcceptGift_category_flowers": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Flowers.true.1{{GeneralPlayerEndearment}}}}",
 
                 // void egg
-                "AcceptGift_(O)305": "{{i18n:AfterDark.Gift.Alex.GiftReaction.VoidEgg.true}}",
+                "AcceptGift_(O)305": "{{i18n:AfterDark.Gift.Alex.GiftReaction.VoidEgg.true{{GeneralPlayerEndearment}}}}",
                 // category: books
-                "AcceptGift_book_item": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Category.Books.true}}",
+                "AcceptGift_book_item": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Category.Books.true{{GeneralPlayerEndearment}}}}",
 
                 // muscle remedy
                 "AcceptGift_(O)351": "{{i18n:AfterDark.Gift.Alex.GiftReaction.MuscleRemedy.true}}",
                 // energy tonic
-                "AcceptGift_(O)349": "{{i18n:AfterDark.Gift.Alex.GiftReaction.EnergyTonic.true}}",
+                "AcceptGift_(O)349": "{{i18n:AfterDark.Gift.Alex.GiftReaction.EnergyTonic.true{{GeneralPlayerEndearment}}}}",
 
                 // TODO
                 // rabbits foot
-                "AcceptGift_(O)446": "{{i18n:AfterDark.Gift.Alex.GiftReaction.RabbitsFoot.true}}",
+                "AcceptGift_(O)446": "{{i18n:AfterDark.Gift.Alex.GiftReaction.RabbitsFoot.true{{GeneralPlayerEndearment}}}}",
                 // prismatic shard
                 "AcceptGift_(O)74": "{{i18n:AfterDark.Gift.Alex.GiftReaction.PrismaticShard.true}}",
                 // stardrop tea
-                "AcceptGift_(O)StardropTea": "{{i18n:AfterDark.Gift.Alex.GiftReaction.StarDropTea.true}}",
+                "AcceptGift_(O)StardropTea": "{{i18n:AfterDark.Gift.Alex.GiftReaction.StarDropTea.true{{GeneralPlayerEndearment}}}}",
 
                 // BIRTHDAY   
                 "AcceptBirthdayGift_Positive": "{{i18n:AfterDark.Gift.Alex.GiftReaction.Positive.Birthday.true}}",
@@ -570,10 +570,10 @@
                 "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue"
             },
             "Entries": {
-                "Alex": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.Early.{{Relationship:Alex |contains=Married}}.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
-                "Alex_y2": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.Early.{{Relationship:Alex |contains=Married}}.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
-                "Alex_spouse": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.{{Relationship:Alex |contains=Married}}.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
-                "Alex_spouse_y2": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.{{Relationship:Alex |contains=Married}}.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}"
+                "Alex": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.Early.false.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
+                "Alex_y2": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.Early.false.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
+                "Alex_spouse": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.true.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
+                "Alex_spouse_y2": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.true.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}"
             }
        },
        {
@@ -584,10 +584,10 @@
                 "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue"
             },
             "Entries": {
-                "Alex": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.Late.{{Relationship:Alex |contains=Married}}.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
-                "Alex_y2": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.Late.{{Relationship:Alex |contains=Married}}.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
-                "Alex_spouse": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.{{Relationship:Alex |contains=Married}}.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
-                "Alex_spouse_y2": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.{{Relationship:Alex |contains=Married}}.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}"
+                "Alex": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.Late.false.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
+                "Alex_y2": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.Late.false.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
+                "Alex_spouse": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.true.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
+                "Alex_spouse_y2": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.true.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}"
             }
        },
        {
@@ -598,10 +598,10 @@
                 "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue"
             },
             "Entries": {
-                "Alex": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.Late.{{Relationship:Alex |contains=Married}}.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
-                "Alex_y2": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.Late.{{Relationship:Alex |contains=Married}}.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
-                "Alex_spouse": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.{{Relationship:Alex |contains=Married}}.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
-                "Alex_spouse_y2": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.{{Relationship:Alex |contains=Married}}.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}"
+                "Alex": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.Late.false.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
+                "Alex_y2": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.Late.false.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",
+                "Alex_spouse": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.true.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
+                "Alex_spouse_y2": "{{i18n:AfterDark.Festival.Alex.{{TargetWithoutPath}}.true.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}"
             }
        },
        {

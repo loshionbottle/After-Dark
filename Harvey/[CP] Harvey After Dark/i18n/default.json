@@ -1053,7 +1053,13 @@
     "AfterDark.Core.Harvey.Conversation.Cucumber": "",
     "AfterDark.Core.Harvey.Conversation.ButternutSquash": "",
     "AfterDark.Core.Harvey.Conversation.SweetPotato": "",
-    
+
+    "AfterDark.Core.Harvey.Mines.0": "",
+    "AfterDark.Core.Harvey.Mines.10": "",
+    "AfterDark.Core.Harvey.Mines.40": "",
+    "AfterDark.Core.Harvey.Mines.80": "",
+    // Skull Caverns
+    "AfterDark.Core.Harvey.Mines.121": "",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     █████ █████  ███  █      ███  █   █ █████ █   █     ████  █████  ███  █      ███   ████ █   █ █████ 
@@ -1070,41 +1076,106 @@
     /*
     Thank you to the following users who helped with this section: 
     - kii.ri
+    - rat_s0ckz
+    - mbirv
+    - ladylancer
+    - aimsvalley
+    - stary.hollow
+    - siciliavt
+    - alextheowlet
+    - density120
+    - loaf_of_darkness
+    - purpleynurpley
     */
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     SPECIFICALLY: FLOWER DANCE
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    
+    // Day After
+    // Was it fun being jerked around by Alex yesterday? It's beyond me how that man still doesn't know the dance when it's so simple. 
+    "AfterDark.FestivalJealousy.Harvey.HasPartner.Alex.Memory": "",
+    // You'd think with all that time reading, Elliott would've been able to properly sweep you off your feet yesterday, petname. It was pathetic, you could practically see his nerves sticking up. 
+    "AfterDark.FestivalJealousy.Harvey.HasPartner.Elliott.Memory": "",
+    // Do you really believe you're the first person he's looked at in that way, petname? I suppose charm does lose its magic once you realize how often it's been practiced.
+    "AfterDark.FestivalJealousy.Harvey.HasPartner.Sam.Memory": "",
+    // I couldn't help but notice how uncomfortable Sebastian was at the dance yesterday. He looked as uncomfortable as ever. Tell me, petname. How often do you find yourself asking him to love the things you do? Eventually, people stop pretending. 
+    "AfterDark.FestivalJealousy.Harvey.HasPartner.Sebastian.Memory": "",
+    // I'm surprised the smell of beer didn't put you off yesterday. I'll expect to see you in my office later, I'm sure Shane's drunken stumbling no doubt bruised your lovely feet. 
+    "AfterDark.FestivalJealousy.Harvey.HasPartner.Shane.Memory": "",
+
+    // Y'know, with all the things Abigail eats, I'm surprised she was even able to show up yesterday.
+    "AfterDark.FestivalJealousy.Harvey.HasPartner.Abigail.Memory": "",
+    // Haley was so focused on becoming flower queen yesterday, she barely paid attention to you. Why'd you decide to dance with her? 
+    "AfterDark.FestivalJealousy.Harvey.HasPartner.Haley.Memory": "",
+    // ...Emily looked more focused on showing off her own moves yesterday than on you, petname. Next time you should dance with someone who'll give you the attention you deserve.
+    "AfterDark.FestivalJealousy.Harvey.HasPartner.Emily.Memory": "",
+    // The flower dance suits Leah so well... She has a remarkable eye for beauty after all. You should be careful with her, petname. The cruel thing about muses is that they aren't remember for who they are, only for what they gave the artist. 
+    "AfterDark.FestivalJealousy.Harvey.HasPartner.Leah.Memory": "",
+    // Was it fun dancing with Maru yesterday? I'm honestly just surprised her movements weren't more... robotic.
+    "AfterDark.FestivalJealousy.Harvey.HasPartner.Maru.Memory": "",
+    // You danced beautifully with Penny yesterday. I only hope she sees you as an equal, not another promise she's made to herself. 
+    "AfterDark.FestivalJealousy.Harvey.HasPartner.Penny.Memory": "",
+
+    // Otherwise Day After
+    // Were you nervous yesterday, petname? I swear, the only thing I could think about yesterday was how fast your heart was racing.
+    // Maybe I should conduct a quick exam on you, yeah? It couldn't possibly be that healthy to maintain such a high heartrate for an extended period of time...
+    "AfterDark.FestivalJealousy.Harvey.HasPartner.Harvey.Memory": "",
+    // You looked happy out there yesterday. I wonder... was it because someone finally made you feel chosen or because you were so willing to believe they did? I'd prefer making sure you never have to question that feeling it at all. I'll see you next Tuesday, petname.
+    "AfterDark.FestivalJealousy.Harvey.HasPartner.NotHarvey.Memory": "",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      BACHELORS
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
     // Alex
+    // I heard about his dad, petname. You should steer clear of people like that... It tends to be genetic.
     "AfterDark.Core.Harvey.Jealous.Dating.Alex": "",
     "AfterDark.Core.Harvey.Jealous.Married.Alex": "Y'know, I don't really see how Alex could help you out on the farm.$a#$b#He's already a failed gridball player, I wouldn't want him to fail you as well.$s",
     // George and Evenlyn speak so highly of you. I do hope you're steering clear of Alex though, a kid like that isn't suited to care for your needs, petname. 
     "AfterDark.Jealousy.Harvey.Late.Alex.1": "",
+    // Careful around him, petname. Alex had numerous concussions back when he regularly played gridball. I wouldn't be surprised if he was no longer fully there.
     "AfterDark.Jealousy.Harvey.Late.Alex.2": "",
                                                                 
-    // Elliott                              
+    // Elliott 
+    // When will you realize all those fantasies he offers is fake, petname?                              
     "AfterDark.Core.Harvey.Jealous.Dating.Elliott": "",
+    // You know he'll leave you on the whim of a promising book, right? Who's to say he wouldn't leave you for longer, petname. You need a man who'll take care of you.
     "AfterDark.Core.Harvey.Jealous.Married.Elliott": "",
+    // I heard tetanus shots hurt. I mean--I wouldn't know, but one of my patients continously comes in talking about a new scrape from one of the many failed construction points he has around his shack. 
     "AfterDark.Jealousy.Harvey.Late.Elliott.1": "",
+    // You don't seriously believe all those promises Elliott makes you, do you? I mean, at the end of the day, beautiful lies are still lies, petname. 
     "AfterDark.Jealousy.Harvey.Late.Elliott.2": "",
 
     // Sam
+    // Do you really think your grandpa would approve of him, petname? Do him and yourself a favor and end things with Sam. He's not worth your precious time and effort.
+    // $y 'Who would he approve of?_Well, someone like me--Er, someone with a stable job of course._Who are you to say that?_I'm just thinking about what's best for you, petname.'
     "AfterDark.Core.Harvey.Jealous.Dating.Sam": "",
+    // That man can barely takes care of himself, petname. I've seen his bloodwork. You really should rethink your desire to spend the rest of your life with him. 
     "AfterDark.Core.Harvey.Jealous.Married.Sam": "",
+    // Tch... Y'know, Sam really does have confidence, but I've found that often compensates for something else.
     "AfterDark.Jealousy.Harvey.Late.Sam.1": "",
+    // Sam's always been good at making people feel like they're the only one. I wonder how many people actually believe that.
     "AfterDark.Jealousy.Harvey.Late.Sam.2": "",
 
-    // Sam
+    // Sebastian
+    // Motorcycle deaths are fairly common nowadays, petname. You really should be careful dating someone who so easily hops on those death machines.
     "AfterDark.Core.Harvey.Jealous.Dating.Sebastian": "",
+    // ...$a#$b#I doubt his infatuation for you would supersede his addiction to smoking. Look past the haze, petname. He'd drop you for another chance to get high. 
     "AfterDark.Core.Harvey.Jealous.Married.Sebastian": "",
+    // You should really be careful around Sebastian. I wouldn't want all that second hand smoke affecting your perfectly healthy lungs, petname. 
     "AfterDark.Jealousy.Harvey.Late.Sebastian.1": "",
+    // ...$a#$b#Tell me, if you stopped visiting his basement tomorrow, how long would it take before he noticed? 
     "AfterDark.Jealousy.Harvey.Late.Sebastian.2": "",
 
     // Shane
+    // Really? An alcoholic? You can do better than him, petname. You shouldn't have to wonder whether he's having a good day or not before making plans. 
     "AfterDark.Core.Harvey.Jealous.Dating.Shane": "",
+    // Careful with Shane, yeah? He spent years letting alcohol make the decisions for him. I wouldn't let him make yours. 
     "AfterDark.Core.Harvey.Jealous.Married.Shane": "",
+    // You know, I'm all for recovering alcoholics, but are you sure about Shane? His issues stem from far before he started drinking.
     "AfterDark.Jealousy.Harvey.Late.Shane.1": "",
+    // I'd be a bit more careful hanging around addicts, petname. Though not fully proven, you're more likely to develop something yourself. 
     "AfterDark.Jealousy.Harvey.Late.Shane.2": "",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -1112,41 +1183,68 @@
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
     // Abigail
+    // She can't possibly be serious about you, petname. Have you seen the way she reacts around Sebastian at the saloon? She's baiting you, petname, 
     "AfterDark.Core.Harvey.Jealous.Dating.Abigail": "",
+    // From the time I've known her, Abigail seems to only love the excitement of the chase. I wonder how long she'll enjoy the catch until she drops you. 
     "AfterDark.Core.Harvey.Jealous.Married.Abigail": "",
+    // ...Tch, you know how serious your condition is, petname. You really shouldn't be hanging around girls who spend all their time in the same mines which afflicted you.
     "AfterDark.Jealousy.Harvey.Late.Abigail.1": "",
+    // Please tell me you haven't been going back into those mines with Abigail, petname. You know how dangerous it is! For Yoba's sake, I'll have to adjust your dosing at this rate...
     "AfterDark.Jealousy.Harvey.Late.Abigail.2": "",
 
     // Emily
+    // Emily's "crystal healing" is nice and all, but you should really be with someone who's more realistic about your health and safety. 
     "AfterDark.Core.Harvey.Jealous.Dating.Emily": "",
+    // ... Y'know, I once heard Emily left an ex over the fact their horoscopes didn't align anymore. What's stopping her from leaving you at the whim of the stars? 
     "AfterDark.Core.Harvey.Jealous.Married.Emily": "",
+    // Careful around Emily, yeah? Alternative methods to medicine don't always work out for the best...
     "AfterDark.Jealousy.Harvey.Late.Emily.1": "",
+    // ...$s#$b#Sorry, I can't stop thinking about the time I treated one of our villagers for psittacosis. Truly disgusting stuff when you get up close and personal with it. 
+    /// ... How can you get it? Oh, parrots. 
     "AfterDark.Jealousy.Harvey.Late.Emily.2": "",
 
     // Haley
+    // Someone with such delusional ideas about her own appearance will never be able to appreciate your raw beauty, petname. 
     "AfterDark.Core.Harvey.Jealous.Dating.Haley": "",
+    // Have you seen how she treats her sister, petname? What's stopping her from being equally as obnoxious and mean to her {{LMarriageName}}?
     "AfterDark.Core.Harvey.Jealous.Married.Haley": "",
+    // A vpid little girl like Haley only thinks skin deep, petname. Wouldn't you rather hang out with someone who knows you more... intimately?
     "AfterDark.Jealousy.Harvey.Late.Haley.1": "",
+    // Should you really be hanging around the girl who breathes more aerosol than oxygen from her hair products? It can't possibly be healthy being around her, petname. 
     "AfterDark.Jealousy.Harvey.Late.Haley.2": "",
 
     // Leah
+    // From our appointments, Leah is so prone to getting lost in her head. Are you sure you want someone like that being in your life and helping on your Grandfather's farm?
     "AfterDark.Core.Harvey.Jealous.Dating.Leah": "",
+    // I overheard Leah the other day talking about looking for inspiration for her newest artwork despite not finishing the last. I really wonder what'll happen to you once the novelty wears off.
     "AfterDark.Core.Harvey.Jealous.Married.Leah": "",
+    // Despite being her doctor, I really have no real knowledge on Leah. All I remember were her records from the city being a real mess to decifer when she moved down. 
     "AfterDark.Jealousy.Harvey.Late.Leah.1": "",
+    // ...Do you really think Leah'll let you into that little world she created for herself? Artists are starving and I'd hate for you to get eaten, @. 
     "AfterDark.Jealousy.Harvey.Late.Leah.2": "",
 
     // Maru
+    // Maru would drop you instantly for an opportunity to advance her studies. It would break my heart to see you abandoned like that. 
     "AfterDark.Core.Harvey.Jealous.Dating.Maru": "",
+    // You've trusted me with every part of yourself, do you seriously believe Maru knows you better than I? 
     "AfterDark.Core.Harvey.Jealous.Married.Maru": "",
+    // I've worked with Maru for a few years now. It's astonishing how little I know about her though. 
     "AfterDark.Jealousy.Harvey.Early.Maru.1": "",
+    // Try not to be too distracting to Maru, yeah? I pay her to help out around here for a reason. 
     "AfterDark.Jealousy.Harvey.Early.Maru.2": "",
+    // Y'know, I heard a few stories of Demetrius handling dangerous chemicals with Maru. I'd really hate for you to get caught in the crossfire, petname.
     "AfterDark.Jealousy.Harvey.Late.Maru.1": "",
+    // I've seen the way her father looks at you, @. Are you sure you want to be involved with a family like that? 
     "AfterDark.Jealousy.Harvey.Late.Maru.2": "",
 
     // Penny
+    // ...Sorry, I just can't see how a woman so at the whim of her alcoholic mother could possibly give you the attention you truly need, petname. 
     "AfterDark.Core.Harvey.Jealous.Dating.Penny": "",
+    // ...$a#$b#Though she may know your favorite flower, I know the rhythm of your hearbeat, petname. Never forget that. 
     "AfterDark.Core.Harvey.Jealous.Married.Penny": "",
+    // Addiction is generic, petname. You really should stop wasting your time on those who are pre-despositioned to disappoint you.
     "AfterDark.Jealousy.Harvey.Late.Penny.1": "",
+    // You've really been getting to know Penny a lot lately, haven't you? ...Are you sure about her? Have you seen what her home life is like? 
     "AfterDark.Jealousy.Harvey.Late.Penny.2": "",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------

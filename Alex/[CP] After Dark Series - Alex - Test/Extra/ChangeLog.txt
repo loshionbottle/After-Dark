@@ -27,12 +27,12 @@
             - Listen... it's 5am when I finished this pack... Treat the dialogue like a new file
         - Events
             - EVERY single event has been redone except the 14h
+    2.0.1 
+        - Fixed the "few" typo in the 1h oops
     2.0.2
         - Fixed engaged festival dialogue not showing up
         - changed "config.section.Mail.name": "Mail"
     2.0.3
         - Fixed gift/festival dialogue might not showing up
         - no change to i18n
-    2.0.4
-        - Fixed 9H Kiss not showing up
-        - no change to i18n
+

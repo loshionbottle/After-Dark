@@ -1,0 +1,212 @@
+{
+    "Format": "2.8.0",
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+       ████  ███  █   █ █████ █████  ████ 
+      █     █   █ ██  █ █       █   █     
+      █     █   █ █ █ █ ████    █   █  ██ 
+      █     █   █ █  ██ █       █   █   █ 
+       ████  ███  █   █ █     █████  ███  
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    "ConfigSchema": {
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    PRONOUNS 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        "Default Player Pronouns": {
+            "AllowValues": "Neutral, Feminine, Masculine",
+            "Default": "Neutral",
+            "Section": "Pronouns",
+            "Description": "English is weird and I can't accomplish all grammar rules with all the different pronoun options. There are especially a few lines where it's like... themself vs. themselves and rather than having you guys put in 40 different customizations, certain lines will default to whatever you choose here. I tried my best to accomodate your pronouns otherwise!!"
+        },
+        "Player Pronouns 1": {
+            "Default": "Them",
+            "AllowBlank": false,
+            "AllowMultiple": true,
+            "Section": "Pronouns",
+            "Description": "Would typically be something similar to \"Them\", \"Her\", \"Him\""
+        },
+        "Player Pronouns 2": {
+            "Default": "Their",
+            "AllowBlank": false,
+            "AllowMultiple": true,
+            "Section": "Pronouns",
+            "Description": "Would typically be something similar to \"Their\", \"Her\", \"His\""
+        },
+        "Player Pronouns 3": {
+            "Default": "They",
+            "AllowBlank": false,
+            "AllowMultiple": true,
+            "Section": "Pronouns",
+            "Description": "Would typically be something similar to \"They\", \"She\", \"He\"."
+        },
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    PLAYER ENDEARMENT 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        "Pet Name": {
+            "Default": "Babe",
+            "AllowBlank": false,
+            "AllowMultiple": true,
+            "Section": "Endearment",
+            "Description": "Would typically be \"Babe\", \"Darling\", \"Sweetheart\", etc."
+        },
+        "Descriptive Word": {
+            "Default": "Cute",
+            "AllowBlank": false,
+            "AllowMultiple": true,
+            "Section": "Endearment",
+            "Description": "Would typically be \"Pretty\", \"Cute\", \"Handsome\", etc."
+        },
+        "Good...": {
+            "Default": "Farmer",
+            "AllowBlank": false,
+            "AllowMultiple": true,
+            "Section": "Endearment",
+            "Description": "Would typically be \"Boy\", \"Girl\", \"Slut\", etc."
+        },
+        "Marriage Affection": {
+            "Default": "Spouse",
+            "AllowBlank": false,
+            "AllowMultiple": true,
+            "Section": "Endearment",
+            "Description": "How Alex refers to you after marriage. Would typically be \"Husband\", \"Wife\", \"Spouse\", \"Shawty Bae\", etc."
+        },
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    DIALOGUE 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        // Whether to include each dialogue file
+        "After Dark Dialogue": {
+            "AllowValues": "All Dialogue, No Jealousy Dialogue, No Dialogue",
+            "Default": "All Dialogue",
+            "Section": "Dialogue",
+            "Description": "Toggle between which dialogue you'd like this pack to add. Choosing \"No Jealousy Dialogue\" will disable all jealousy-related dialogue this pack offers. If you'd like to turn off all dialogue, select \"No Dialogue\"."
+        },
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    EVENTS 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        // Whether to include the events as a whole or not
+        "After Dark Events": {
+            "AllowValues": "All Events, No Events",
+            "Default": "All Events",
+            "Section": "Events",
+            "Description": "Toggle between which events you'd like this pack to add. Choosing \"All Events\" will include ALL events his pack offers. If you'd like to turn off all events, select \"No Events\"."
+        },
+        "Choking Events": {
+            "AllowValues": "I'm ok with choking, I'm not ok with choking",
+            "Default": "I'm not ok with choking",
+            "Section": "Events",
+            "Description": "Toggle between which events you'd like this pack to add. Choosing \"I'm ok with choking\" will include ALL, non-edited events his pack offers. If you'd like to not be choked whatsoever, select \"I'm not ok with choking\"."
+        },
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    MAIL 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        // Whether to include jealousy mail as a whole or not
+        "After Dark Mail": {
+            "AllowValues": "Mail, No Mail",
+            "Default": "Mail",
+            "Section": "Mail",
+            "Description": "Toggle between which mail you'd like this pack to add. Choosing \"Mail\" will include ALL mail he (or the figure) sends. If you'd like to turn off all mail, select \"No Mail\"."
+        }
+    },
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     █████  ███  █  █  █████ █   █ █████ 
+       █   █   █ █ █   █     ██  █ █     
+       █   █   █ ██ █  ████  █ █ █ █████ 
+       █   █   █ █  █  █     █  ██     █ 
+       █    ███  █   █ █████ █   █ █████
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    "DynamicTokens": [
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    PRONOUNS 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        {
+            "Name": "GeneralPlayerPronoun",
+            "Value": "|PPN1={{Random: {{Player Pronouns 1}} |key=PlayerPronouns}} |LPPN1={{Random: {{Lowercase: {{Player Pronouns 1}}}} |key=PlayerPronouns}} |PPN2={{Random: {{Player Pronouns 2}} |key=PlayerPronouns}} |LPPN2={{Random: {{Lowercase: {{Player Pronouns 2}}}} |key=PlayerPronouns}} |PPN3={{Random: {{Player Pronouns 3}} |key=PlayerPronouns}} |LPPN3={{Random: {{Lowercase: {{Player Pronouns 3}}}} |key=PlayerPronouns}}"
+        },
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    PLAYER ENDEARMENT 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        {
+            "Name": "GeneralPlayerEndearment",
+            "Value": "|PetName={{Random: {{Pet Name}} |key=PlayerEndearment}} |LPetName={{Random: {{Lowercase: {{Pet Name}}}} |key=PlayerEndearment}} |Descript={{Random: {{Descriptive Word}} |key=PlayerEndearment}} |LDescript={{Random: {{Lowercase: {{Descriptive Word}}}} |key=PlayerEndearment}} |GoodName={{Random: {{Good...}} |key=PlayerEndearment}} |LGoodName={{Random: {{Lowercase: {{Good...}}}} |key=PlayerEndearment}} |MarriageName={{Random:{{Marriage Affection}} |key=PlayerEndearment}} |LMarriageName={{Random: {{Lowercase: {{Marriage Affection}}}} |key=PlayerEndearment}}"
+        },
+        /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |    MISC 
+        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        {
+            "Name": "WeekDayList",
+            "Value": "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+        },
+        {
+            "Name": "WeekDay",
+            "Value": "{{WeekDayList |valueAt={{Query: {{Day}}%7}}}}"
+        },
+        {
+            "Name": "FarmerHarvest",
+            "Value": "animate farmer true false 200 58 59 60 61 6"
+        },
+        {
+            "Name": "GrannyHarvest",
+            "Value": "animate Evelyn false false 250 17 18 18 18 17 17 18 18 17"
+        },
+        {
+            "Name": "FarmerAlmostPassOut",
+            "Value": "animate farmer false false 500 16 0 16 0"
+        },
+        {
+            "Name": "FarmerPassOut",
+            "Value": "animate farmer false false 500 16 0 16 4 5"
+        }
+    ],
+    /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     █████ █   █  ████ █     █   █ ████  █████ 
+       █   ██  █ █     █     █   █ █   █ █     
+       █   █ █ █ █     █     █   █ █   █ ████  
+       █   █  ██ █     █     █   █ █   █ █     
+     █████ █   █  ████ █████ █████ ████  █████ 
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    "Changes": [
+        {
+            "LogName": "After Dark Alex's ALL Events",
+            "Action": "Include",
+            "FromFile": "Data/Events/Events_Alex.json"
+        },
+        {
+            "LogName": "After Dark Alex's Dialogue",
+            "Action": "Include",
+            "FromFile": "Data/Dialogue/Dialogue_Alex.json, Data/Dialogue/MarriageDialogue_Alex.json, Data/Dialogue/DialogueTriggers_Alex.json"
+        },
+        {
+            "LogName": "After Dark Alex's Mail",
+            "Action": "Include",
+            "FromFile": "Data/Mail/Mail_Alex.json, Data/Mail/MailTriggers_Alex.json"
+        },
+        {
+            "LogName": "After Dark Alex's LetterBackgrounds",
+            "Action": "Load",
+            "Target": "Mods/loshionbottle.alexafterdark/LetterBackgrounds",
+            "FromFile": "Data/Mail/TsundereMail_Alex.png"
+        },
+        {
+            "LogName": "After Dark Alex's Necklace Load",
+            "Action": "Include",
+            "FromFile": "Data/Necklace/Necklace.json"
+        },
+        {
+            "LogName": "After Dark Alex's Lucky in Love Buff Icon",
+            "Action": "Load",
+            "FromFile": "Data/Necklace/LuckyLove_BuffIcon.png",
+            "Target": "Mods/{{ModId}}/LuckyLove_BuffIcon"
+        },
+        {
+            "LogName": "After Dark Alex's Silver Necklace",
+            "Action": "Load",
+            "FromFile": "Data/Necklace/Silver_Necklace.png",
+            "Target": "Mods/{{ModId}}/Silver_Necklace"
+        },
+        {
+            "LogName": "After Dark Alex's Silver Necklace",
+            "Action": "Load",
+            "FromFile": "Data/Necklace/Gold_Necklace.png",
+            "Target": "Mods/{{ModId}}/Gold_Necklace"
+        }
+    ]
+}

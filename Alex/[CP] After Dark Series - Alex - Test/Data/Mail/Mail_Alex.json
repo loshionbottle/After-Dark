@@ -1,0 +1,32 @@
+{
+    "Changes": [
+        // 8 & 10 Heart Mail
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "When": { "After Dark Events": "All Events" },
+            "Entries": {
+                "joshMessage": "@,^^{{i18n:AD.Mail.Alex.joshMessage.1}} ^^   {{i18n:AD.Mail.Alex.joshMessage.2}}[#]{{i18n:AD.Mail.Alex.joshMessage.3}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "When": { "After Dark Mail": "Mail" },
+            "Entries": {
+                "ADAlexAfterSamBathhouse": "^^{{i18n:AD.Mail.Alex.AfterSamBathhouse.1}}[letterbg Mods/loshionbottle.alexafterdark/LetterBackgrounds 1][#]{{i18n:AD.Mail.Alex.AfterSamBathhouse.2}}",
+                // thank you toxxxicmars
+                "ADAlexAfterChapel": "^{{i18n:AD.Mail.Alex.AfterChapel.1}}^{{i18n:AD.Mail.Alex.AfterChapel.2}}^^{{i18n:AD.Mail.Alex.AfterChapel.3}}[letterbg Mods/loshionbottle.alexafterdark/LetterBackgrounds 1][#]{{i18n:AD.Mail.Alex.AfterChapel.4}}",
+
+                // thank you lady-lancer
+                "ADAlexAfterSebastianKiss": "^{{i18n:AD.Mail.Alex.AfterSebKiss.1}}[letterbg Mods/loshionbottle.alexafterdark/LetterBackgrounds 3][#]{{i18n:AD.Mail.Alex.AfterSebKiss.2}}",
+                "ADAlexAfterSebastian7Heart": "{{i18n:AD.Mail.Alex.AfterSeb7H.1}}^^{{i18n:AD.Mail.Alex.AfterSeb7H.2}}^{{i18n:AD.Mail.Alex.AfterSeb7H.3}}^{{i18n:AD.Mail.Alex.AfterSeb7H.4}}^^^{{i18n:AD.Mail.Alex.AfterSeb7H.5}}[letterbg Mods/loshionbottle.alexafterdark/LetterBackgrounds 2][#]{{i18n:AD.Mail.Alex.AfterSeb7H.6}}",
+
+                // after sam and seb 3h thank you toxxxic mars
+                "ADAlex3hSamSeb": "^{{i18n:AD.Mail.Alex.3hSebSam.1}}^^{{i18n:AD.Mail.Alex.3hSebSam.2}}[letterbg Mods/loshionbottle.alexafterdark/LetterBackgrounds 1][#]{{i18n:AD.Mail.Alex.3hSebSam.3}}",
+
+                "ADAlexPost9HeartMail": "...^^{{i18n:AD.Mail.Alex.Post9Heart.1}}[letterbg Mods/loshionbottle.alexafterdark/LetterBackgrounds 3][#]{{i18n:AD.Mail.Alex.Post9Heart.2}}"
+            }
+        }
+    ]
+}

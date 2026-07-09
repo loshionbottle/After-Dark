@@ -1,0 +1,88 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_MailAfterSamBathhouse": {
+                    "Id": "{{ModId}}_MailAfterSamBathhouse",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Alex 250 999, PLAYER_HAS_SEEN_EVENT Current SamADBathhouse",
+                    "Action": "AddMail Current ADAlexAfterSamBathhouse now"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_MailAfterSamChapel": {
+                    "Id": "{{ModId}}_MailAfterSamChapel",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Alex 750 999, PLAYER_HAS_SEEN_EVENT Current SamADChapel",
+                    "Action": "AddMail Current ADAlexAfterChapel now"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_MailAfterSebKiss": {
+                    "Id": "{{ModId}}_MailAfterSebKiss",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Alex 750 999, PLAYER_HAS_SEEN_EVENT Current ADShotgunKiss",
+                    "Action": "AddMail Current ADAlexAfterSebastianKiss now"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_MailAfterSebCameras": {
+                    "Id": "{{ModId}}_MailAfterSebCameras",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Alex 750 999, PLAYER_HAS_SEEN_EVENT Current ADCameraStalker",
+                    "Action": "AddMail Current ADAlexAfterSebastian7Heart now"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_MailAfter3hSebSam": {
+                    "Id": "{{ModId}}_MailAfter3hSebSam",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sam 750 999, PLAYER_FRIENDSHIP_POINTS Current Sebastian 750 999",
+                    "Action": "AddMail Current ADAlex3hSamSeb now"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_MailAfterAlex9H": {
+                    "Id": "{{ModId}}_MailAfterAlex9H",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Current ADAlexNoNecklaceKiss",
+                    "Action": "AddMail Current ADAlexPost9HeartMail now"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_MailAfterAlex9H": {
+                    "Id": "{{ModId}}_MailAfterAlex9H",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Current ADAlexNecklaceKiss",
+                    "Action": "AddMail Current ADAlexPost9HeartMail now"
+                }
+            }
+        }
+    ]
+}

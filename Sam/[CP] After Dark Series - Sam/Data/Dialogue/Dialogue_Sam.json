@@ -289,11 +289,11 @@
             "When": { "After Dark Dialogue": "All Dialogue, No Jealousy Dialogue" },
             "Entries": {
                 // generic
-                "AcceptGift_Loved": "{{i18n:AfterDark.Gift.Sam.GiftReaction.Love.{{Random:{{Range: 1,3}}}}{{GeneralPlayerEndearment}}}}",
-                "AcceptGift_Liked": "{{i18n:AfterDark.Gift.Sam.GiftReaction.Like.{{Random:{{Range: 1,3}}}}{{GeneralPlayerEndearment}}}}",
-                "AcceptGift_Neutral": "{{i18n:AfterDark.Gift.Sam.GiftReaction.Neutral.{{Random:{{Range: 1,3}}}}{{GeneralPlayerEndearment}}}}",
-                "AcceptGift_Disliked": "{{i18n:AfterDark.Gift.Sam.GiftReaction.Dislike.{{Random:{{Range: 1,3}}}}{{GeneralPlayerEndearment}}}}",
-                "AcceptGift_Hated": "{{i18n:AfterDark.Gift.Sam.GiftReaction.Hate.{{Random:{{Range: 1,3}}}}{{GeneralPlayerEndearment}}}}",
+                "AcceptGift_Loved": "{{i18n:AfterDark.Gift.Sam.GiftReaction.Love.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
+                "AcceptGift_Liked": "{{i18n:AfterDark.Gift.Sam.GiftReaction.Like.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
+                "AcceptGift_Neutral": "{{i18n:AfterDark.Gift.Sam.GiftReaction.Neutral.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
+                "AcceptGift_Disliked": "{{i18n:AfterDark.Gift.Sam.GiftReaction.Dislike.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
+                "AcceptGift_Hated": "{{i18n:AfterDark.Gift.Sam.GiftReaction.Hate.{{Random:{{Range: 1, 3}}}}{{GeneralPlayerEndearment}}}}",
 
                 // Cactus Fruit
                 "AcceptGift_(O)90": "{{i18n:AfterDark.Gift.Sam.GiftReaction.CactusFruit.{{Relationship:Sam |contains=Married}}.{{Random:{{Range: 1, 2}}}}{{GeneralPlayerEndearment}}}}",

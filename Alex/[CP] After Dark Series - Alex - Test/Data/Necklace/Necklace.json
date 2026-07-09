@@ -1,0 +1,69 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_AlexLocket": {
+                    "Name": "{{ModId}}_AlexLocket",
+                    "Displayname": "Alex's Locket",
+                    "Description": "Well... I guess now it's your locket.",
+                    "Type": "Ring",
+                    "Category": -96,
+                    "Texture": "Mods/{{ModId}}/Gold_Necklace",
+                    "SpriteIndex": 0,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "CanBeGivenAsGift": false,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "CanBeTrashed": true,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                }
+            }
+        },
+        {
+            "LogName": "Luck Buff",
+            "Action": "EditData",
+            "Target": "Data/Buffs",
+            "Entries": {
+                "{{ModId}}_LuckBuff": {
+                    "Displayname": "Lucky in Love",
+                    "Duration": -2,
+                    "IconTexture": "Mods/{{ModId}}/LuckyLove_BuffIcon",
+                    "IconSpriteIndex": 0,
+                    "Effects": {
+                        "LuckLevel": 3.0
+                    }
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "AddSilverNecklaceBuffs": {
+                    "Id": "AddSilverNecklaceBuffs",
+                    "Trigger": "Spiderbuttons.BETAS_ItemEquipped",
+                    "Condition": "ITEM_ID Target {{ModId}}_AlexLocket",
+                    "Action": "AddBuff {{ModId}}_LuckBuff -2"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "RemoveSilverNecklaceBuffs": {
+                    "Id": "RemoveSilverNecklaceBuffs",
+                    "Trigger": "Spiderbuttons.BETAS_ItemUnequipped",
+                    "Condition": "ITEM_ID Target {{ModId}}_AlexLocket",
+                    "Action": "RemoveBuff {{ModId}}_LuckBuff"
+                }
+            }
+        }
+    ]
+}
