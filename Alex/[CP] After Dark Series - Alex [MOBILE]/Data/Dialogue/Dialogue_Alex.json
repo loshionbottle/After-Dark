@@ -148,10 +148,10 @@
                 "{{season}}_{{WeekDay}}4": "{{i18n:AfterDark.Core.Alex.{{Season}}.EarlyHeart.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",
 
                 // midheart
-                "{{WeekDay}}6": "{{i18n:AfterDark.Core.Alex.{{Season}}.MidHeart.{{Random:{{Range: 1, 15}}}}{{GeneralPlayerEndearment}}}}",
-                "{{WeekDay}}8": "{{i18n:AfterDark.Core.Alex.{{Season}}.MidHeart.{{Random:{{Range: 1, 15}}}}{{GeneralPlayerEndearment}}}}",
-                "{{season}}_{{WeekDay}}6": "{{i18n:AfterDark.Core.Alex.{{Season}}.MidHeart.{{Random:{{Range: 1, 15}}}}{{GeneralPlayerEndearment}}}}",
-                "{{season}}_{{WeekDay}}8": "{{i18n:AfterDark.Core.Alex.{{Season}}.MidHeart.{{Random:{{Range: 1, 15}}}}{{GeneralPlayerEndearment}}}}",
+                "{{WeekDay}}6": "{{i18n:AfterDark.Core.Alex.{{Season}}.MidHeart.{{Random:{{Range: 1, 14}}}}{{GeneralPlayerEndearment}}}}",
+                "{{WeekDay}}8": "{{i18n:AfterDark.Core.Alex.{{Season}}.MidHeart.{{Random:{{Range: 1, 14}}}}{{GeneralPlayerEndearment}}}}",
+                "{{season}}_{{WeekDay}}6": "{{i18n:AfterDark.Core.Alex.{{Season}}.MidHeart.{{Random:{{Range: 1, 14}}}}{{GeneralPlayerEndearment}}}}",
+                "{{season}}_{{WeekDay}}8": "{{i18n:AfterDark.Core.Alex.{{Season}}.MidHeart.{{Random:{{Range: 1, 14}}}}{{GeneralPlayerEndearment}}}}",
 
                 // highkheart
                 "{{WeekDay}}10": "{{i18n:AfterDark.Core.Alex.{{Season}}.LateHeart.{{Random:{{Range: 1, 10}}}}{{GeneralPlayerEndearment}}}}",

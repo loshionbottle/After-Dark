@@ -1,9 +1,9 @@
 // fake edit
 {
-    "Name": "[CP] After Dark Series - Alex",
+    "Name": "[CP] After Dark Series - Alex [MOBILE]",
     "Author": "loshionbottle",
     "Description": "Adds roughly a bunch of cute dialogue and tsundere-esque events for Alex.",
-    "Version": "2.0.4",
+    "Version": "2.1.1",
     "UniqueID": "loshionbottle.alexafterdark",
     "UpdateKeys": [ "Nexus:28267" ],
     "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },

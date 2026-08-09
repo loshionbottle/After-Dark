@@ -4,10 +4,10 @@
         {
             "LogName": "Alex's Rando Dialogue",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Alex",
+            "Target": "Characters/Dialogue/Harvey",
             "Entries": {
                 // Intro 
-                "Introduction": "{{i18n:Core.Alex.Introduction |Descript={{Descript}}}}",
+                "Introduction": "i'm like this because i was a lonely child :(",
 
                 // Rando Lines
                 "HitBySlingshot": "{{i18n:Core.Alex.Slingshot}}",

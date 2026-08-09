@@ -6,10 +6,10 @@
             "Entries": {
                 "{{ModId}}_AlexLocket": {
                     "Name": "{{ModId}}_AlexLocket",
-                    "Displayname": "Alex's Locket",
-                    "Description": "Well... I guess now it's your locket.",
-                    "Type": "Ring",
-                    "Category": -96,
+                    "Displayname": "{{i18n:AfterDark.AlexLocket.Name}}",
+                    "Description": "{{i18n:AfterDark.AlexLocket.Description}}",
+                    "Type": "Basic",
+                    "Category": -20,
                     "Texture": "Mods/{{ModId}}/Gold_Necklace",
                     "SpriteIndex": 0,
                     "Edibility": -300,
@@ -24,7 +24,13 @@
                     "ExcludeFromShippingCollection": true
                 }
             }
-        },
+        }/*,
+        og update included an incomplete buff (the below stuff) i never made note that this wasn't functional so i accidentally implemented it
+    
+        i would like for the ring to give a buff ? but like ... 
+        i'd rather the player not download another mod and making a .dll just for this?? lol no
+
+        
         {
             "LogName": "Luck Buff",
             "Action": "EditData",
@@ -40,16 +46,20 @@
                     }
                 }
             }
-        },
+        }//,
+        /*
         {
             "Action": "EditData",
             "Target": "Data/TriggerActions",
             "Entries": {
-                "AddSilverNecklaceBuffs": {
-                    "Id": "AddSilverNecklaceBuffs",
+                "{{ModId}}_AddSilverNecklaceBuffs": {
+                    "Id": "{{ModId}}_AddSilverNecklaceBuffs",
                     "Trigger": "Spiderbuttons.BETAS_ItemEquipped",
                     "Condition": "ITEM_ID Target {{ModId}}_AlexLocket",
-                    "Action": "AddBuff {{ModId}}_LuckBuff -2"
+                    "Actions": [
+                        "AddBuff {{ModId}}_LuckBuff -2",
+                        "MarkActionApplied Current {{ModId}}_AddSilverNecklaceBuffs false"
+                    ]
                 }
             }
         },
@@ -57,13 +67,17 @@
             "Action": "EditData",
             "Target": "Data/TriggerActions",
             "Entries": {
-                "RemoveSilverNecklaceBuffs": {
-                    "Id": "RemoveSilverNecklaceBuffs",
+                "{{ModId}}_RemoveSilverNecklaceBuffs": {
+                    "Id": "{{ModId}}_RemoveSilverNecklaceBuffs",
                     "Trigger": "Spiderbuttons.BETAS_ItemUnequipped",
                     "Condition": "ITEM_ID Target {{ModId}}_AlexLocket",
-                    "Action": "RemoveBuff {{ModId}}_LuckBuff"
+                    "Actions": [
+                        "RemoveBuff {{ModId}}_LuckBuff",
+                        "MarkActionApplied Current {{ModId}}_RemoveSilverNecklaceBuffs false"
+                    ]
                 }
             }
         }
+            */
     ]
 }

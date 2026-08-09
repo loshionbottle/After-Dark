@@ -74,6 +74,9 @@
 
     // Introduction
     "AfterDark.Core.Alex.Introduction": "How disappointing.$a#$b#I would've thought the new farmer would be more...$9#$b#{{Descript}}.$s#$e#Nice to meet you, by the way.$9",
+
+    "AfterDark.AlexLocket.Name": "Alex's Locket",
+    "AfterDark.AlexLocket.Description": "Well... I guess now it's your locket.",
     
     // BIRTHDAY
     "AfterDark.Core.Alex.Birthday.0": "Huh?$9#$b#Do I even know you well enough to accept a birthay wish from you?$s",
@@ -209,8 +212,7 @@
     "AfterDark.Core.Alex.Spring.MidHeart.11": "...$l#$b#Has anyone ever told you how {{LDescript}} you look with mud on your face?$l#$b#I—$7#$b#No, sorry, I meant the mud makes you look...$7#$b#{{LDegradeWord}}?$s#$b#...$s#$b#Can we just pretend this didn't happen, please?$s",
     "AfterDark.Core.Alex.Spring.MidHeart.12": "Here.[591]$9",
     "AfterDark.Core.Alex.Spring.MidHeart.13": "Granny uh—$9#$b#She forced me to help bake cookies with her earlier.$9#$b#I thought maybe you'd like a few.[223]",
-    "AfterDark.Core.Alex.Spring.MidHeart.14": "I can't get you out of my fucking head, @.$9#$e#What are you doing to me?$s",
-    "AfterDark.Core.Alex.Spring.MidHeart.15": "...$a#$e#$q 54/55 fall_Wed_01_old#Why do you always have to show up here and bother me?#$r 54 30 fall_Wed_01_01#You didn't think I was bothering you last night.#$r 55 -30 fall_Wed_01_02#Fine, I'll be on my way then.",
+    "AfterDark.Core.Alex.Spring.MidHeart.14": "...$a#$e#$q 54/55 fall_Wed_01_old#Why do you always have to show up here and bother me?#$r 54 30 fall_Wed_01_01#You didn't think I was bothering you last night.#$r 55 -30 fall_Wed_01_02#Fine, I'll be on my way then.",
     "AfterDark.Core.Alex.Fall.Wed.01.old": "You're fun when you fight back, you know that?$h",
     "AfterDark.Core.Alex.Fall.Wed.01.01": "...$7#$b#Shut up...$9",
     "AfterDark.Core.Alex.Fall.Wed.01.02": "Aww, not gonna put up a fight today, {{LPetName}}?$h#$b#You're no fun when you're so submissive...",

@@ -1023,42 +1023,41 @@
     // fourweeks
     // eightweeks
     // oneyear
+    /*
+    - aimsvalley
+    - alextheowlet
+    - yukket
+    */
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      GENERIC -- PREMARRIAGE
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-    "AfterDark.Core.Harvey.Conversation.Parsnips": "",
-    "AfterDark.Core.Harvey.Conversation.Melons": "",
-    "AfterDark.Core.Harvey.Conversation.Strawberries": "",
-    "AfterDark.Core.Harvey.Conversation.Potatoes": "",
+    // D'you know the old myth of carrots stems from one of the first world wars? Apparently, the radars Ferngill Republic developed stumped the Gotoro empire so bad that they resolved that our pilots ate a lot of carrots. Interesting how things like that work, yeah?
     "AfterDark.Core.Harvey.Conversation.Carrots": "",
-    "AfterDark.Core.Harvey.Conversation.Cauliflower": "",
-    "AfterDark.Core.Harvey.Conversation.Blueberries": "",
-    "AfterDark.Core.Harvey.Conversation.Pumpkins": "",
+    // I noticed you recently harvested a batch of cranberries, say, do you think I could get a batch of them one of these days? I've been thinking about experimenting with herbal remedies lately and they're perfect for U--Err, a handful of gynelogical problems.
     "AfterDark.Core.Harvey.Conversation.Cranberries": "",
+    // I haven't really done much research into them, but I'm sure there's some sort of herbal remedy ancient fruit might be able to concoct. 
+    // Who knows, it might even help that disease of yours. 
     "AfterDark.Core.Harvey.Conversation.AncientFruit": "",
-    "AfterDark.Core.Harvey.Conversation.Sunflowers": "",
-    "AfterDark.Core.Harvey.Conversation.Beans": "",
-    "AfterDark.Core.Harvey.Conversation.Kale": "",
-    "AfterDark.Core.Harvey.Conversation.Garlic": "",
+    // Hm... I don't know how I feel about you growing so much starfruit, petname. Do take care not to indulge too much into your own supply. With your condition, they might have adverse effects on your kidney and... Huh, do I even have a dialysis machine anymore?
     "AfterDark.Core.Harvey.Conversation.Starfruit": "",
-    "AfterDark.Core.Harvey.Conversation.Radish": "",
-    "AfterDark.Core.Harvey.Conversation.RedCabbage": "",
+    // Did you know hops are classified as a sedative? Chemistry sure has a remarkable way of convincing the body to cooperate, doesn't it, petname? 
     "AfterDark.Core.Harvey.Conversation.Hops": "",
-    "AfterDark.Core.Harvey.Conversation.Amaranth": "",
+    // Did you know coffee was one of many natural stimulants? I know it helps a lot when I'm working late at the office.
+    // You should try brewing some of the beans you grow, I'd love a chance to taste coffee straight from the source. 
     "AfterDark.Core.Harvey.Conversation.Coffee": "",
 
     // SVE
+    // %You overhear Harvey muttering something about having a craving for homemade pickles. Huh... Didn't you grow some cucumbers recently? It might be a good idea to make some.
     "AfterDark.Core.Harvey.Conversation.Cucumber": "",
-    "AfterDark.Core.Harvey.Conversation.ButternutSquash": "",
-    "AfterDark.Core.Harvey.Conversation.SweetPotato": "",
 
-    "AfterDark.Core.Harvey.Mines.0": "",
-    "AfterDark.Core.Harvey.Mines.10": "",
+    // You seem so set on diving deep in those mines don't you? I guess as your doctor I can't do too much about it but... Oh, how I wish you were a lot more careful with that disease of yours, petname. 
     "AfterDark.Core.Harvey.Mines.40": "",
+    // 80 floors? Petname, I've told you just how fragile your condition is. I'm beginning to think you're a glutton for punishment, @.
     "AfterDark.Core.Harvey.Mines.80": "",
     // Skull Caverns
+    // Oh @, I know you contracted the disease from our local mines, but seriously? Resulting to taking a bus for minerals? I'm sure that place is just as bad as ours if not worse. 
     "AfterDark.Core.Harvey.Mines.121": "",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -1255,10 +1254,7 @@
     █     █   █ █   █ █████ █████   █       ████  █████ █   █ █████  ███   ███  █████ █████ 
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
     
-    // something something about his parents back home that've probably already died so that's why he's so keen on taking care of george and ev-
-    "AfterDark.Family.Harvey.Parents.1": "",
-    "AfterDark.Family.Harvey.Parents.2": "",
-    "AfterDark.Family.Harvey.Parents.3": "",
+    // lol yeah no
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     █   █  ███  ████  ████  █████  ███   ████ █████     ████  █████  ███  █      ███   ████ █   █ █████ 
@@ -1440,7 +1436,12 @@
      Ugh, I have a few tests to run and medications to fill...
      Oh, and paperwork.... Ugh, I'm sorry, petname. I would stay here with you all day but I have to go work...
 
-     // need 2 more 
+     %You overhear Harvey mumbling about a few menial tasks he needs to do while at work today. 
+     Hey, {{LPetName}}. Give me a kiss before I leave for work?
+
+     ...$s
+     Why is it on the days I have to go to work you always look so irresistable.
+     Visit me today? Please?
 
      ---
 
@@ -1467,6 +1468,12 @@
      Here, I brought us home some dinner... Why don't we eat this, cuddle on the porch, and watch the stars tonight? 
 
      I will never get tired of coming home to you, petname. Every day that I see you I fall deeper in love with you. 
+
+     %Harvey looks exhausted from the day's work. 
+     Gah, our bed looks so good right about now. 
+     Ugh, what I wouldn't give to just pass out with you right now, petname. 
+
+     
     -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
     "AfterDark.Marriage.Harvey.jobLeave.1": "",
     "AfterDark.Marriage.Harvey.jobLeave.2": "",
@@ -1596,7 +1603,7 @@
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      RAINY DAYS 
     -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
-    "AfterDark.Marriage.Harvey.Rainy.Day.Sam": "",
+    "AfterDark.Marriage.Harvey.Rainy.Day.Harvey": "",
     "AfterDark.Marriage.Harvey.Rainy.Day.0": "",
     "AfterDark.Marriage.Harvey.Rainy.Day.1": "",
     "AfterDark.Marriage.Harvey.Rainy.Day.2": "",
@@ -1608,7 +1615,7 @@
     "AfterDark.Marriage.Harvey.Rainy.Day.8": "",
     "AfterDark.Marriage.Harvey.Rainy.Day.9": "",
     
-    "AfterDark.Marriage.Harvey.Rainy.Night.Sam": "",
+    "AfterDark.Marriage.Harvey.Rainy.Night.Harvey": "",
     "AfterDark.Marriage.Harvey.Rainy.Night.0": "",
     "AfterDark.Marriage.Harvey.Rainy.Night.1": "",
     "AfterDark.Marriage.Harvey.Rainy.Night.2": "",
@@ -1623,7 +1630,7 @@
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      INDOOR/OUTDOOR 
     -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
-    "AfterDark.Marriage.Harvey.Indoor.Day.Sam": "",
+    "AfterDark.Marriage.Harvey.Indoor.Day.Harvey": "",
     "AfterDark.Marriage.Harvey.Indoor.Day.0": "",
     "AfterDark.Marriage.Harvey.Indoor.Day.1": "",
     "AfterDark.Marriage.Harvey.Indoor.Day.2": "",
@@ -1635,7 +1642,7 @@
     "AfterDark.Marriage.Harvey.Indoor.Day.8": "",
     "AfterDark.Marriage.Harvey.Indoor.Day.9": "",
 
-    "AfterDark.Marriage.Harvey.Indoor.Night.Sam": "",
+    "AfterDark.Marriage.Harvey.Indoor.Night.Harvey": "",
     "AfterDark.Marriage.Harvey.Indoor.Night.0": "",
     "AfterDark.Marriage.Harvey.Indoor.Night.1": "",
     "AfterDark.Marriage.Harvey.Indoor.Night.2": "",
@@ -1647,7 +1654,7 @@
     "AfterDark.Marriage.Harvey.Indoor.Night.8": "",
     "AfterDark.Marriage.Harvey.Indoor.Night.9": "",
 
-    "AfterDark.Marriage.Harvey.Outdoor.Sam": "",
+    "AfterDark.Marriage.Harvey.Outdoor.Harvey": "",
     "AfterDark.Marriage.Harvey.Outdoor.0": "",
     "AfterDark.Marriage.Harvey.Outdoor.1": "",
     "AfterDark.Marriage.Harvey.Outdoor.2": "",
@@ -1726,64 +1733,370 @@
      ███  █████ █       █       ████  █████ █   █ █████  ███   ███  █████ █████ 
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
+    /* Thank you:
+    - aslynn1008
+    - ladylancer
+    - alextheowlet
+    - pandora_boxx
+    - drboywonderr
+    - thespacehoodie
+    - vanejpeg
+
+    */
+
+    /*
+    LOVES
+    ---
+    Oh, how did you know I love this stuff?
+    How sweet of you, @. Thank you.
+
+    Ah~ You really shouldn't spoil me like this.
+    There's absolutely no way I could repay you fairly. 
+
+    ...(Shock)
+    For me? Seriously?
+    Ah, I swear, I don't think I've been given gifts this amazing in years.
+    Hell, I don't even think half of my patients here know what I truly like...
+
+    LIKES
+    ---
+    Thank you for this. I'll figure out a way to repay you, I swear! 
+
+    Gah, I really can't ask for a better patient, can I?
+    Thank you, I really like this stuff. 
+
+    Ah, how lovely! I haven't gotten one of these in a hot minute! 
+    Thank you, @. This is just what I needed to brighten up my day.
+    Well, getting a chance to talk to you also brightened it... Ah, never mind. Thank you. 
+
+    NEUTRAL
+    ---
+    Oh, for me? Thank you.
+    Ah~ It's always nice to know you were thinking of me.
+
+    Ah, thank you. I'll be sure to put this to good use. 
+
+    Oh, you didn't have to! 
+    No, seriously, just talking to my favorite patient is enough. 
+    Thank you anyways, @. 
+
+    DISLIKES
+    ---
+    Oh... Uh...
+    How kind of you, I think...
+
+    ...
+    I normally don't accept stuff like this. But I guess for you I can...
+
+    Ah... Are you sure I was the person you wanted to give this to?
+    I guess I can take it...
+
+    HATES
+    ---
+    %Harvey seems to be checking you for some sort of head trauma.
+    Hm? Sorry, it seems as though you might have mild amnesia... I could've sworn I told you how much I hated this stuff...
+
+    ...
+    Is your condition acting up? I think it might be affecting your cognitive functions...
+
+    Hmm... How about you step into my office for an emergency appointment?
+    I think there might be something wrong with you...  It's unlike you to gift people stuff they hate... 
+    */
+    "AfterDark.Gift.Harvey.GiftReaction.Love.1": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Love.2": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Love.3": "",
+
+    "AfterDark.Gift.Harvey.GiftReaction.Like.1": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Like.2": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Like.3": "",
+
+    "AfterDark.Gift.Harvey.GiftReaction.Neutral.1": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Neutral.2": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Neutral.3": "",
+
+    "AfterDark.Gift.Harvey.GiftReaction.Dislike.1": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Dislike.2": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Dislike.3": "",
+    
+    "AfterDark.Gift.Harvey.GiftReaction.Hate.1": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Hate.2": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Hate.3": "",
+
+    /*
+    Yoba, I used to down this stuff religiously in college.
+    You'd think I'd slow down after I graduated but ever since leaving and starting my own practice I feel like I've started to drink more.
+    Oh, thanks by the way.
+
+    Oh, this smells incredible. Did you make it yourself?
+    Thanks, @. This is just the pick-me-up I needed.
+
+    Ah, you spoil me, @. 
+    Did you pick up or brew this just for me? 
+    -> Pick up.
+    Ah, well, nonetheless thank you. It's just how I like it.
+    -> I brewed it for you.
+    Oh... I'll treasure this then. Thank you, petname. 
+
+    How did you know that that's exactly what I was wanting?
+    Oh... And it's exactly how I like it.
+    You truly do spoil me, @.
+
+    Hmm... Oh, thank you.
+    Did you happen to put any sugar in this? 
+    I know I should be the last person saying this, but I can't seem to get my mind off of sweet things lately. It's all I want to consume. 
+
+    Ah~ What a pleasant aroma. Did you grow the coffee beans yourself?
+    -> Yes
+    Incredible! Whenever you make another batch of coffee, I'd love another cup. Thank you.
+    -> No
+    Ah, that's fine. I can't say no to a good cup of coffee no matter where it comes from. Thank you.
+
+    ---
+
+    Oh, perfect timing, I just finished my last cup.
+    You really do know exactly what I need, don't you, my {{LDescript}} little {{LMarriageName}}?
+
+    Mmmm... Coffee and my {{LDescript}} {{LMarriageName}}? I couldn't think of a better combo.
+    Thank you, {{LPetName}}.
+
+    Mmmm... Thank you, but seeing you first thing in the morning gives me the right amount of energy nowadays.
+    Though, I guess this doesn't hurt. 
+
+    Ah~ Thank you my love.
+    Though this cup is amazing, it's no where near as strong as my addiction to you. 
+
+    Sometimes I wonder if it's the coffee or you that perks me up in the mornings.
+    I guess more studies need to be done, don't you agree? 
+
+    Oh, how sweet of you.
+    I guess I do need to keep my energy, especially after...
+    Well...
+    */
     "AfterDark.Gift.Harvey.GiftReaction.Coffee.1": "",
     "AfterDark.Gift.Harvey.GiftReaction.Coffee.2": "",
     "AfterDark.Gift.Harvey.GiftReaction.Coffee.3": "",
     "AfterDark.Gift.Harvey.GiftReaction.Coffee.4": "",
     "AfterDark.Gift.Harvey.GiftReaction.Coffee.5": "",
     "AfterDark.Gift.Harvey.GiftReaction.Coffee.6": "",
-    "AfterDark.Gift.Harvey.GiftReaction.Coffee.7": "",
-    "AfterDark.Gift.Harvey.GiftReaction.Coffee.8": "",
     "AfterDark.Gift.Harvey.GiftReaction.Married.Coffee.1": "",
     "AfterDark.Gift.Harvey.GiftReaction.Married.Coffee.2": "",
     "AfterDark.Gift.Harvey.GiftReaction.Married.Coffee.3": "",
     "AfterDark.Gift.Harvey.GiftReaction.Married.Coffee.4": "",
     "AfterDark.Gift.Harvey.GiftReaction.Married.Coffee.5": "",
     "AfterDark.Gift.Harvey.GiftReaction.Married.Coffee.6": "",
-    "AfterDark.Gift.Harvey.GiftReaction.Married.Coffee.7": "",
-    "AfterDark.Gift.Harvey.GiftReaction.Married.Coffee.8": "",
 
+    /*
+    Ooh, what vegetable did you make these with?
+    Oh, don't tell me... Parsnips?!
+    Wait... You didn't just buy these, did you? Man... I was hoping to get farm-fresh ones...
+
+    Did you make these yourself?
+    Wow... I can't imagine what goes on inside that farm of yours... 
+    Ah, yes, yes, thank you! Agh, sorry, I'm just getting giddy thinking about how fresh these are. 
+
+    Oh, this batch came in nicely, didn't it? What'd you use for the brine on this one?
+    Please tell me you added a tad of garlic and red pepper flakes... It always adds a nice kick to them! 
+
+    Ah~ It's so hard getting a fresh batch of pickles around here.
+    I guess we're lucky to have a farmer right up the road, hm?
+    Thanks, @. 
+
+    ---
+
+    Hmm... With how salty these are I don't know if they're the best for your condition, {{LPetName}}.
+    I guess it's good you have me here to eat them all for you, yeah?
+
+    One of these days you're gonna have to teach me how you make these so well, {{LPetName}}.
+    I can't let you do all the work around here, can I? 
+
+    Oh, is this from the batch I made?
+    I just hope they turned out good.
+    Here, why don't you have the first bite? [342]
+
+    Hm? Oh, thank you.
+    What'd you put in this batch, hm? It looks different than normal...
+
+    */
     "AfterDark.Gift.Harvey.GiftReaction.Pickles.1": "",
     "AfterDark.Gift.Harvey.GiftReaction.Pickles.2": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Pickles.3": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Pickles.4": "",
     "AfterDark.Gift.Harvey.GiftReaction.Married.Pickles.1": "",
     "AfterDark.Gift.Harvey.GiftReaction.Married.Pickles.2": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Married.Pickles.3": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Married.Pickles.4": "",
 
+    /*
+    Did you cook this yourself? 
+    Ah~ Dare I say this might even be better than Gus', but then again that may just be my soft spot for you speaking.
+    Thank you, petname. 
+
+    Ah~ This is one of the few things that'll keep me going in the same way a good cup of coffee does. 
+    This was very sweet of you, thanks @. 
+
+    ---
+
+    Haha... Well, if this isn't just...
+    Super.
+    Sorry, was that too cheesy? 
+
+    Mmmm... How'd you know I was craving a plate of this, hm?
+    You know me so well, don't you, {{LPetName}}?
+
+    */
     "AfterDark.Gift.Harvey.GiftReaction.SuperMeal.1": "",
     "AfterDark.Gift.Harvey.GiftReaction.SuperMeal.2": "",
     "AfterDark.Gift.Harvey.GiftReaction.Married.SuperMeal.1": "",
     "AfterDark.Gift.Harvey.GiftReaction.Married.SuperMeal.2": "",
 
-    "AfterDark.Gift.Harvey.GiftReaction.TruffleOil.1": "",
-    "AfterDark.Gift.Harvey.GiftReaction.TruffleOil.2": "",
-    "AfterDark.Gift.Harvey.GiftReaction.Married.TruffleOil.1": "",
-    "AfterDark.Gift.Harvey.GiftReaction.Married.TruffleOil.2": "",
+    /*
+    Contrary to one's typical belief, this stuff actually promotes heart health. 
+    Plus... It's not too bad when drizzled on certain potato dishes...
+    Thanks, @. I'll be sure to think of you when I use this next.
 
+    Oh, I always love cooking with this stuff.
+    Have you tried it on pasta? Maybe I could share a recipe with you for a dish I love one of these days. 
+    Or... Maybe we could cook it together? 
+    */
+    "AfterDark.Gift.Harvey.GiftReaction.TruffleOil": "",
+    "AfterDark.Gift.Harvey.GiftReaction.Married.TruffleOil": "",
+
+    /*
+    Ah~ In excess this tends to be detrimental to ones health.
+    But... A glass every now and then isn't bad.
+    Care to join me? 
+
+    Mmmm... In small amounts even wine has some medicinal benefits.
+    If given an opportunity, I'd love to sample more vintages from %farmname. 
+    Thank you.
+
+    ---
+
+    Trying to get me drunk this early in the day, petname? 
+    Ah~ Maybe in a few hours I'll open this up and share a glass with you, yeah? 
+
+    Oh, you're evil for this, petname. 
+    You know I can't say no to a good bottle of wine like this.
+    How about I cook us up something that goes perfectly with this later, yeah? It can be a little date, just the two of us.
+
+    */
     "AfterDark.Gift.Harvey.GiftReaction.Wine.1": "",
     "AfterDark.Gift.Harvey.GiftReaction.Wine.2": "",
     "AfterDark.Gift.Harvey.GiftReaction.Married.Wine.1": "",
     "AfterDark.Gift.Harvey.GiftReaction.Married.Wine.2": "",
 
     // change to hate lmao
+    /*
+    ...
+    Have you ever heard the saying "An apple a day keeps the doctor away?"
+    I mean--I know they're good for your health, but... Not a fan. I mean, why give this to your doctor?
+    Are you that eager to keep me away? 
+
+    ...
+    While they certainly do have some medicinal properties, they don't magically remove doctors from your vicinity.
+    This one, however, will.
+
+    ---
+
+    Even though we're married you still insist on the old saying about apples?
+    {{PetName}}, you know there's nothing in this world that'll keep me away from you for long. 
+
+    {{PetName}}, how many times do I have to tell you?
+    Though you keep trying, there's no way you're getting rid of this doctor. 
+    How about you eat it yourself since you're so keen on them? [613]
+    */
     "AfterDark.Gift.Harvey.GiftReaction.Apple.1": "",
     "AfterDark.Gift.Harvey.GiftReaction.Apple.2": "",
     "AfterDark.Gift.Harvey.GiftReaction.Married.Apple.1": "",
     "AfterDark.Gift.Harvey.GiftReaction.Married.Apple.2": "",
 
+    /*
+    Ugh, I haven't had a homemade meal like this in a while.
+    I could get used to you bringing me meals like this, @.
+
+    Ah! Did you get this from Gus?
+    -> No, I made it myself.
+    Really? I didn't kno wyou liked to cook. Thank you for looking out for me. I'm sure its delicious.
+    -> Yes, got it just for you.
+    Oh, that's so sweet. You shouldn't have! Next time, it's my treat, promise! 
+
+    ---
+
+    Oh, but it was my turn to cook tonight!
+    Ah~ Thank you, petname. I swear, your cooking always tastes better than mine. 
+    Maybe it's due to the fact that anything you create with those {{LDescript}} hands of yours is just heavenly. 
+
+    Mmmmm....
+    Have I ever told you just how much I love when you cook for me? 
+    This smells amazing, thank you, {{LPetName}}.
+    */
     "AfterDark.Gift.Harvey.GiftReaction.Cooking.1": "",
     "AfterDark.Gift.Harvey.GiftReaction.Cooking.2": "",
     "AfterDark.Gift.Harvey.GiftReaction.Married.Cooking.1": "",
     "AfterDark.Gift.Harvey.GiftReaction.Married.Cooking.2": "",
 
+    /*
+    This is a bit more fancy than the cup of joe I'm used to but...
+    Oh! This is delicious. Thank you, petname.
+    I think I might've found my latest addiction. 
+    ...
+    Don't tell my other patients I said that. 
+
+    ---
+
+    Oh~! I haven't had a cup of this in a hot minute...
+    I swear, drinking this is almost as addicting as my daily coffee. 
+    Well... I guess not nearly as addicting as some other things I know of...
+    */
     "AfterDark.Gift.Harvey.GiftReaction.StarDropTea": "",
     "AfterDark.Gift.Harvey.GiftReaction.Married.StarDropTea": "",
 
+    /*
+    Oh... Uh... Keeping it like this might not be fully sanitary, but properly preserved...
+    I guess it's a precious gift, thank you. I could always use an extra leg of luck in my field of work. 
+
+    ---
+
+    Oh, look how perfectly preserved this is.
+    Fascinating... And this came from our farm? 
+    You truly are a marvel at this stuff, you know that?
+    Thanks for the extra luck, petname. 
+    */
     "AfterDark.Gift.Harvey.GiftReaction.RabbitsFoot": "",
     "AfterDark.Gift.Harvey.GiftReaction.Married.RabbitsFoot": "",
 
+    /*
+    Ah~
+    It's always wonderful receiving a gift from you, but...
+    You didn't venture too far down into the mines for this did you?
+    Petname... In your condition you shouldn't stress yourself out just for me...
+
+    ---
+
+    This is quite rare, where did you find it? 
+    Oh, and you're giving it to me? Ah~ I'm flattered, @. Thank you.
+    */
     "AfterDark.Gift.Harvey.GiftReaction.PrismaticShard": "",
     "AfterDark.Gift.Harvey.GiftReaction.Married.PrismaticShard": "",
 
     // Birthdays
+    /*
+    Ah~ For me? You didn't have to...
+    Oh, I don't know what to say! It's been a while since I've received a gift on my birthday like this.
+    Thank you, @.
+
+    Mmmm...
+    I'm so lucky my {{LMarriageName}} knows me so well...
+    Now, do you think I could get one extra gift for my birthday, {{LPetName}}?
+
+    ---
+
+    I appreciate that you thought of me, but I truly have no use for stuff like this.
+    Especially on my birthday...
+
+    I guess since we're married I could try and pretend I like this...
+    But seriously? For my birthday my {{LMarriageName}} gifts me this?
+    */
     "AfterDark.Gift.Harvey.GiftReaction.Positive.Birthday": "",
     "AfterDark.Gift.Harvey.GiftReaction.Positive.Married.Birthday": "",
     "AfterDark.Gift.Harvey.GiftReaction.Negative.Birthday": "",
@@ -1822,10 +2135,20 @@
     //------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
     /*
     Thank you to the following users who helped with this section:
-    - Viktor\
+    - Viktor
     - kii.ri
     - starry.hollow
     - dennifer
+    - vanejpeg
+    - odessari
+    - DANNY MA BITCH
+    - narellie
+    - jazzalope
+    - sangosprint
+    - arielleonland
+    - ladylancer
+    - siciliavt
+    - xiydiy
     */
 
     // Egg Festival
@@ -1895,7 +2218,27 @@
     As a doctor, the idea of a communal soup really disgusts me, but it's hard to deny local traditions.
     Did you put anything in? 
 
-    
+    The UV index today is quite high... Hm... Have you put on sunblock yet?
+    Sorry, I know I'm off the clock, but as your doctor, I can't help but wish to see you in perfect health. 
+
+    Ugh, I can't help but dread the possibility of food poisoning coming from the soup.
+    I don't think I'll ever forget the year Sam thought it'd be a fun idea to throw a whole can of expired sardines into the batch.
+    My office was swarming with people for days afterwards.
+
+    --- 
+
+    ...(Shock)
+    Damn, I guess the sun isn't the only scorching hot thing around here.
+    Sorry... Was that too cheesy?
+
+    Oh, petname. Do be wary of eating the soup--I believe they accidentally put something you're allergic to in there.
+    -> I'm not allergic to anything...
+        Oh, how cute that you believe that. Don't eat the soup, @.
+    -> Oh, how tragic...
+        I know how much you were looking forward to it, but I'd rather you not go into shock, @. I can't have my (husband/wife/spouse) getting sick like that again...
+
+    Did you want to move somewhere with more shade, petname?
+    Though you look absolutely radiant, I'd rather you not get heat stroke. 
     */
     "AfterDark.Festival.Harvey.summer11.false.1": "",
     "AfterDark.Festival.Harvey.summer11.false.2": "",
@@ -1904,6 +2247,36 @@
     "AfterDark.Festival.Harvey.summer11.true.2": "",
     "AfterDark.Festival.Harvey.summer11.true.3": "",
 
+    // Desert Festival
+    /*
+    ...
+    Do be careful out here, @. Those mines are a lot worse than the ones at home.
+    ...As your doctor, I do hope you'll take my worse of caution to heart. I'd rather you not get sicker than you already are. 
+
+    Though the sun's beating down, it's such a perfect day for these festivities.
+    Although, as much as I love seeing you flushed from the heat, you really should wear some sunscreen, @. 
+    Doctor's orders! And make sure you reapply every few hours, yeah?
+
+    Oh... I love coming out here to collect some medicinal herbs I can't quite find back in Pelican Town, but...
+    Ugh, do tell me if you come across any aloe plants while you're running around, yeah?
+    They're quite helpful for wound treatment in a pinch... 
+    
+    ---
+
+    Make sure you stay hydrated out here, yeah?
+    Though I'd love nothing more than to nurse you back to health, I don't need you passing out in front of all these people.
+
+    Do you really have to go into the mines, petname?
+    Why don't you stay here and help me out with a few things. I'm sure I have a spare nurse outfit somewhere. 
+
+    Fancy seeing you here, petname.
+    Did something happen? Did you hurt yourself?
+    Oh... You just wanted to talk--Oh, well, have I ever told you all about the natural remedies found in the desert?
+    Cactus fruit, for example, is wonderful for reducing inflammation, heart health, and managing blood sugar levels. 
+
+    ---
+    I set a few things aside for you. Hope you enjoy them! 
+    */
     "AfterDark.Festival.Harvey.Desert.1": "",
     "AfterDark.Festival.Harvey.Desert.2": "",
     "AfterDark.Festival.Harvey.Desert.3": "",
@@ -1913,6 +2286,32 @@
     "AfterDark.Festival.Harvey.Desert.Shop": "",
 
     // Moonlight Jellies 
+    /*
+    Did you know out of the thousands of jellyfish species, only about a hundred are strong enough to seriously harm or inflict pain in humans?
+    Though, don't get me wrong, if you get stung by ANY jellyfish, you should still see a medical professional--preferably me, but...
+    Sorry, I really don't know where I was going with this.
+
+    Out of all my time in the valley, I'm surprised I haven't done more research on the moonlight jellies. 
+    Though, I did hear through the grapevine that moonlight jellies in some places are considered an aphrodisiac due to their mystical properties.
+    I... Don't think I could ethically recommend trying that at home though.
+    
+    It really pains me when I hear others spreading that dreaded myth of pee soothing jellyfish stings.
+    There's simply far too many species of jellyfish for that to be a reliable treatment. Not to mention how urine is simply just human waste... Such a disgusting myth if I do say so myself.
+    In the actual case you get stung, you ought to instead see a doctor for proper first aid. Often picking the visible tentacles will immediately soothe pain. 
+
+    ---
+
+    Did  you know there are certain species of jellyfish that are functionally immortal?
+    Really makes you think if we could ever reach that point...
+    I mean, wouldn't it be nice? A true eternity spent with those you love...
+
+    ...$l
+    Y'know, I have a million facts and interesting stories about these jellyfish just swarming in my mind but...
+    Yoba, {{LPetName}}, have I ever told you just how {{LDescript}} you are under the moonlight? 
+
+    I almost wonder what these jellyfish would look like from an aerial point of view...
+    Though, probably wouldn't be nearly as lovely as you, {{LPetName}}.
+    */
     "AfterDark.Festival.Harvey.summer28.false.1": "",
     "AfterDark.Festival.Harvey.summer28.false.2": "",
     "AfterDark.Festival.Harvey.summer28.false.3": "",
@@ -1921,6 +2320,36 @@
     "AfterDark.Festival.Harvey.summer28.true.3": "",
 
     // Fair
+    /*
+    I know my work isn't nearly as important as yours, granted you have a whole town to feed, but...
+    I don't know... Do you think it'd defeat the purpose of a grange display if I put a few herbal remedies I've recently concocted?
+    This competition always makes me feel so left out...
+
+    ...$a
+    Sorry, I'm still a little worked up over a fight I had with Pierre over some of his more... questionable stocking methods.
+    Hm? What do I mean by 'questionable stocking methods'? 
+    Don't worry your {{LDescript}} little head about it. I can handle it.
+
+    ...
+    Mmmm... Are you sure you should be out here? You're looking a little sickly.
+    Here, why don't I go ahead and set up your grange for you? Maybe play a few games on your behalf?
+    Someone in your condition really shouldn't do too many strenuous activities...
+    $e 
+    Oh, you got it? Right... I apologize if I overstepped. 
+    A doctor always worries about his patients, y'know?
+
+    ---
+    Hmm... I've really been wanting to try my hand at the strength test, but...
+    Oh, how embarassing would it be if I failed in front of my {{LMarriageName}}.
+    You wouldn't judge, right?
+
+    Do you think, after all this time helping out on the farm, I'm finally strong enough for the strength test?
+    Would you cheer me on if I tried?
+
+    Do you believe in fate, {{LPetName}}?
+    Agh, I know it's such a silly question, but there is a fortune teller here and well, last time I talked to her...
+    Let's just say things turned out exactly as she predicted.
+    */
     "AfterDark.Festival.Harvey.fall16.false.1": "",
     "AfterDark.Festival.Harvey.fall16.false.2": "",
     "AfterDark.Festival.Harvey.fall16.false.3": "",
@@ -1929,7 +2358,31 @@
     "AfterDark.Festival.Harvey.fall16.true.3": "",
 
     // Spirit's Eve
-    // Sometimes the thrill of adrenaline makes us feel certain ways, want to go into the haunted maze this year.. find that abandonned little cottage?
+    /*
+    Oh, you look pale. Are you scared, petname? Here, you should come with me through the maze. I'd rather you not pass out on me...
+
+    ...
+    Why are you here, @?
+    As your doctor, I'd have to advise against going any deeper into the maze.
+    We most certainly don't want to awaken any potential heart problems with too much fright.
+
+    Oh, I'm glad we ran into each other here.
+    I do hope nothing's scared you too bad so far, @.
+    Are you alright to keep going? In your condition... I would strongly advise against overexerting yourself. 
+
+    ---
+    Sometimes the thrill of adrenaline makes us feel certain ways, don't you agree, {{LPetName}}?
+    How about we go through the rest of the haunted maze together.. 
+    Maybe find that abandonned little cottage?
+
+    Are you cold out here, {{LPetName}}?
+    Aww, well, I know it might not match your costume but I'd hate for you to get sick out here.
+    How about you take my jacket, yeah? [(S)1018]
+
+    I'm almost a little upset we didn't match this year. I mean... How else is the town supposed to know we're together?
+    ...$s
+    Though... you still look good in your costume, {{LPetName}}.
+    */
     "AfterDark.Festival.Harvey.fall27.false.1": "",
     "AfterDark.Festival.Harvey.fall27.false.2": "",
     "AfterDark.Festival.Harvey.fall27.false.3": "",
@@ -1938,6 +2391,38 @@
     "AfterDark.Festival.Harvey.fall27.true.3": "",
 
     // Ice Festival
+    /*
+    Are you participating this year, @?
+    ... You are?
+    Well, just make sure not to strain yourself too much when reeling in the fish, yeah?
+
+    ...
+    Sorry, all the ice really makes it easy to get lost in thought.
+    ... $e
+    What was I thinking about?
+    Err... It's nothing really--Just...
+    I don't know, taking a look, it's so easy to compare people to the ice around us. 
+    Beautiful, fragile, ephemeral...
+    Though now that I'm hearing myself, I think I might just be going crazy from how cold it is out here. 
+    You are warm enough, right?
+
+    Mmmm... Come closer, you have some snow in your hair.
+    ...
+    There, I think I got it all. 
+    $e
+    What? I can't worry about my favorite patient now?$l
+
+    ---
+
+    Careful not to fall in, {{LPetName}}. Though I am trained in CPR, I'd rather not experience the horror that'd be holding your limp body. 
+
+    Ugh, I can barely see anything with how bright the snow is...
+    Though, so long as you're here, I don't think I need to look at anything else.
+
+    Hmm... I wonder if the ice here is thick enough to skate on...
+    Wouldn't that be a cute date for us? 
+    Oh, I'll have to ask Lewis about setting up a rink out here one of these days...
+    */
     "AfterDark.Festival.Harvey.winter8.false.1": "",
     "AfterDark.Festival.Harvey.winter8.false.2": "",
     "AfterDark.Festival.Harvey.winter8.false.3": "",
@@ -1946,6 +2431,31 @@
     "AfterDark.Festival.Harvey.winter8.true.3": "",
 
     // Winter Star
+    /*
+    This festival is set to last another few hours...
+    If you get too cold, let me know and I'll open my clinic up for you, yeah? 
+     
+    Who'd you end up getting for your 'secret friend' this year? 
+    I'm sure anyone'd be lucky to get a gift from you. 
+
+    Have I ever mentioned how fond I am of this festival?
+    Ever since my parents died, I find myself cherishing those around me a lot more.
+    It's just nice to have a formal event dedicated to that, y'know?
+
+    ---
+    Hm? Oh, what am I wishing to get this year?
+    I-Hah... Well, it's a bit embarassing to say, but I think I already received the best present of all.
+    You. 
+
+    Did you know mistletoe is actually poisonous to humans?
+    It actually causes--
+    Err, sorry. You know I can't help myself, {{LPetName}}.
+    Though, despite its nature, I wouldn't mind conforming to another winter feast tradition with you and it sometime. 
+
+    The holiday lights sure are pretty, aren't they, {{LPetName}}?
+    Though, I don't think they could ever hold a candle to you. 
+    You really are the light of my life, you know that?
+    */
     "AfterDark.Festival.Harvey.winter28.false.1": "",
     "AfterDark.Festival.Harvey.winter28.false.2": "",
     "AfterDark.Festival.Harvey.winter28.false.3": "",

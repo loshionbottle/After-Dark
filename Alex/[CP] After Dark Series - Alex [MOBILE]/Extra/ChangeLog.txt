@@ -27,6 +27,8 @@
             - Listen... it's 5am when I finished this pack... Treat the dialogue like a new file
         - Events
             - EVERY single event has been redone except the 14h
+    2.0.1 
+        - Fixed the "few" typo in the 1h oops
     2.0.2
         - Fixed engaged festival dialogue not showing up
         - changed "config.section.Mail.name": "Mail"
@@ -36,3 +38,17 @@
     2.0.4
         - Fixed 9H Kiss not showing up
         - no change to i18n
+    2.0.5
+        - Midheart range to 14 (why the fuck did i have one singular section at 15???)
+        - no change to i18n
+    2.1.0 
+    [CHANGES TO i18n]
+        - Under "AfterDark.Core.Alex.Introduction" there are two additional lines for the necklace:
+            - "AfterDark.AlexLocket.Name": "Alex's Locket",
+            - "AfterDark.AlexLocket.Description": "Well... I guess now it's your locket.",
+    [OTHERWISE]
+        - Changed Alex's Locket from a Ring to a basic item you can't equip 
+        - Would've made it an actual item to wear, but if you wear the item it won't count towards the event which defeats the whole purpose of the event me thinks
+    TLDR Do not update until your translation file is up to date.
+    2.1.1
+        - fixed indoor marriage showing .10 (no translation error -- no change to i18n)
