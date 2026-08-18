@@ -1272,7 +1272,15 @@
     - yukket
     - stary.hollow
     - verrah22
-
+    - friskydingo1248
+    - starrygoldfish
+    - Jeremy H Chewer
+    - dovah_kinstead
+    - .bubsie
+    - verrah22
+    - samzstoriez
+    - drboywonderr (GOAT)
+    - siciliavt
     */
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -1473,6 +1481,11 @@
      Gah, our bed looks so good right about now. 
      Ugh, what I wouldn't give to just pass out with you right now, petname. 
 
+     Ugh... After the day I had, I can't help but wonder why I don't just fully close down the clinic.
+     I think I'd much rather spend my days here with you anyway. 
+
+     Hey, there you are. I hope you had a better day than I did cause being a doctor is... Well, rewarding, but days like today make me wish I could just spend all day with you.
+
      
     -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
     "AfterDark.Marriage.Harvey.jobLeave.1": "",
@@ -1550,6 +1563,136 @@
     
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      GENERAL SEASON RELATED LINES 
+
+     Spring is such a beautiful season with everything blooming.
+     I could certainly see our love blooming even further...
+     What, too cheesy?
+
+     I feel like I've never asked if you liked flowers before.
+     Ah~ Well, I picked this one for you anyway. [591]
+     Sorry, I know I'm giving it before you said anything, but I really wanted to take advantage of this weather and gift you as many as I can. 
+     Maybe if I get another 11 I could make a full bouquet... 
+
+     Agh, I love this spring weather.
+     Not only that, but all the views of birds, bees...
+     Wait...NO! I didn't-Not like that- 
+
+     Is it too early in the year to go down to the lake? 
+     Ah, you're right, the water's probably way too cold to actually enjoy it...
+
+     The flowers and foragables in this season always look so...
+     Delectable? Is that the right word? 
+     Ah, but of course, nothing compares to you, my love. 
+
+
+
+     ---
+
+     Summer always means less patients at the clinic...
+     And with you working longer days now...
+     Oh, I can't stand it! 
+     Why don't we go out on a date here soon, hm? 
+     You know I can't stand the thought of going too long without my amazing, {{LDescript}}, wonderful {{LMarriageName}}. 
+
+     ...$l
+     Sorry, you just look so...
+     {{LDescript}} with your face all flush like that...
+     You are drinking enough water while out there, right? 
+
+     Ah, I think I might have to call someone out to take a look at our air conditioning. 
+     It keeps doing this weird thing where one minute it's a nice and cool and then shoots up to almost boiling temps! 
+     
+     ...$a
+     Why do you look so out of breath?
+     Have you been taking enough breaks while out there, @? 
+     Here, come sit down, I'll get you a glass of water.
+     And put your feet up, it'll help with circulation. 
+
+     Make sure you're wearing a hat out there, yeah?
+     You spend so long out there in the sun... I'd hate for you to come home with burns again...
+
+     I'm so envious of pilots this time of year...
+     They must get such beautiful views of the valley...
+
+     ---
+
+     ...$s
+     Oh, hey. Sorry, I just...
+     Ah, I don't know what's gotten into me!
+     I just... I can't help but fall in love with you everytime I see you get so passionate about your work...
+
+     Sometimes I feel like the seasons in the valley change so quickly...
+     How are you feeling? I think I heard you sneeze the other day...
+     You aren't getting a cold, are you? 
+     %Harvey presses the back of his hand to your forehead.
+     Oh, good... No fever... I guess I could let you get back to your work then...
+
+     Agh, I swear, the falling leaves make for the perfect ambiance for a date.
+     ...$l
+     Speaking of, it's been a while since I've taken you on one of those, hm?
+
+     Mmm...
+     I almost want to try something new with my coffee but...
+     Ugh, last time I tried one of those seasonal flavors... pumpkin... pumpkin sprice I think it was?
+     SPICE!! Pumpkin spice!! 
+     Ah, anyways, it wasn't really the best... Kinda ruined the want to try new things... 
+
+     Have you put any thought into what you're wearing this year for Spirit's Eve? 
+     Ah~ Wouldn't it be cute if we matched this year? 
+     Oh, I'm getting giddy just thinking about it, please? 
+
+     Ugh, if it's this cold in fall, I'm terrified of what our winter'll look like this year...
+     Though... I guess this does give me more of an excuse to stay bundled up with you in bed more often, yeah? 
+
+     Mmm... This weather always makes me so excited for winter and the feast...
+     Oh, I can't wait to see what secret friend I get this year! 
+     I do hope I get you, I know just the thing to get you. 
+
+     
+
+     ---
+
+     Ah, hear me out, this might be a little unorthodox, but...
+     Here, I made you a coffee and myself a hot chocolate. [395]
+     I would've switched the drinks, but you're already too sweet as is. 
+
+     Where's your spare coat?
+     The amount of layers you have on can't possibly be enough for the weather out today... 
+
+     The weather channel says it's supposed to be one of the coldest days of the year tomorrow.
+     Mmmm... Why don't you stay home tomorrow, yeah? 
+     We could cuddle... Spend all day in front of the fireplace...
+
+     Oh, wait up! I was actually gonna follow you out today.
+     It's been a while since I've made a snow angel...
+     Oh... But I really don't want to risk getting a cold...
+
+     ...$s
+     Sorry, I know I should be grateful for all the patients coming to me in winter, but...
+     Yoba, my docket for next Tuesday is packed...
+
+     With the year almost coming to an end, have you accomplished everything you want?
+     -> Yes.
+     Oh, I'm so glad! We should celebrate! Say... Do you have a spare bottle of wine brewing anywhere...
+     -> Not yet...
+     Mmm... What else could you possibly have to finish up? Why don't I help you, {{LPetName}}?
+
+     Ugh, this weather always just makes me want to stay in bed all day.
+     I don't know how you do it, {{LPetName}}. Your drive to keep this farm up and running is certainly something to admire. 
+
+     Mmm...
+     I could seriously go for some soup my mother used to make me as a child...
+     I wonder if I still have some of her old recipes somewhere in my stuff...
+
+     I can't believe this year's already coming to an end.
+     We should do something for new year's, maybe I could cook something and you could brew some of that wine you're famous for? 
+
+     Man, I can't wait for spring to finally roll around...
+     I'm so tired of this cold weather...
+     I mean, don't get me wrong! I love our nights huddled together, just...
+     I miss the greenery I guess...
+     Oh, that so came out wrong, didn't it? 
+
     -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
     // Spring
     "AfterDark.Marriage.Harvey.Spring.1": "",
@@ -1602,6 +1745,94 @@
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      RAINY DAYS 
+
+     Since the rain is taking care of the crops, why not stay inside today, hm?
+     I'd hate for you to hate a cold, but you know I wouldn't mind nursing you back to health. 
+
+     Ugh, I didn't plan for the rain today. 
+     Make sure you take an umbrella when you go out today, petname. 
+     I wouldn't want you get sick out there... 
+
+     Have any big plans for this rainy day?
+     I was planning on reading this new medical journal on certain sleeping medications and their side affects.
+     Ah, yeah, normally stuff like this would put me to sleep, but...
+     I don't know, I guess reading while its pouring might make for a relaxing day. 
+
+     Make sure you wear sunscreen while you're out today, {{LPetName}}.
+     Even though the sun's covered, the UV rays will still get you! 
+
+     Mmm... Looks like today might be a work-from-home day for the both of us.
+     Good news though, it means we can get ahead on your physical.
+
+     Looks like it'll be storming all day...
+     Did you have plans today? If not, I wouldn't mind spending the day cuddled up with you reading a book or something. 
+
+     Must you leave, @?
+     I must admit I am feeling quite needy, especially with this weather...
+     Oh, it'd mean the world to me if we just stayed home and cuddled all day, @. 
+
+     %You feel Harvey tugging at your shirt.
+     Stay home with me today? 
+     I love how devoted you are to your work, but let the rain do its job and you relax with me, yeah? 
+
+     Where are you going dressed like that?
+     Don't you know what the weather is like outside?
+     Put on some warmer clothes, I can't have you catching a cold again! 
+    
+     Ah~ I absolutely love when it rains.
+     It gives me a legitamate excuse to stop you from leaving.
+     I mean, we wouldn't want you to get sick after all, right?
+
+     Mmmmm... Come on, {{LPetName}}, stay home with me, won't you? 
+     What if I begged a little harder, hm?
+     C'mon... The rain's already doing half your job, the farm'll survive one day without you. 
+     
+     ---
+     
+     Oh, you shouldn't have gone out today, petname. Surely the rain'll make your condition worse...
+     Come, let's get you dried off and into bed so I can check over you. 
+
+     Did you stay warm while out today?
+     Ah-You're tracking in so much mud!
+     Here, take off your boots and let me clean you off... 
+
+     %Harvey grabs your wrist, seemingly to check your pulse. 
+     As I thought... With a pulse like this your blood pressure must be through the roof! 
+     Here, take off your boots and go have a seat, I'll start the fire to warm you up. 
+
+     Oh, there you are! How was your day?
+     I was actually looking at the latest catalogue on remote controlled planes...
+     I bet with all this open air it might be a fun activity for us to play with.
+     What do you think?
+
+     ...$s
+     Look at you, soaked thing.
+     Here, let's get you into some dry clothes and I'll start the fire. 
+     How was your day, dear? 
+
+     Ah~You're home a bit early. 
+     I made us some dinner, hopefully the warm meal'll ease the side effects of you being out in the rain all day. [219]
+
+     Hopefully the rain'll lower tonight's temperature and we should be able to save a bit on heating and...
+     Hm? I was just going to say use more blankets, why are you so red?
+
+     You look like you could use a good, thorough massage tonight.
+     Come, sit down and let me help you relax, doctor's orders. 
+
+     ...$a
+     You should've been home hours ago!
+     Look at you, soaked and trembling from the rain. 
+     Tch, here, take off your clothes, let me get you something warmer. 
+
+     Gah, I know this sounds lame, but I can't help but wonder how this weather impacts aeroplanes.
+     Do you think they've had to ground a few planes today?
+     Ah, I sure hope not... That sounds like a lot of wasted fuel, money, time, effort...
+     Oh, how was your day? You look drenched...
+
+     Oh my, is it evening already?
+     Gah, I swear, my days are starting to blend together! 
+     Not that I'm complaining of course...
+
     -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
     "AfterDark.Marriage.Harvey.Rainy.Day.Harvey": "",
     "AfterDark.Marriage.Harvey.Rainy.Day.0": "",
@@ -1629,6 +1860,138 @@
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      INDOOR/OUTDOOR 
+
+     What are your plans for today, my {{LDescript}} {{LMarriageName}}?
+     I think I'm gonna stick my nose in a new medical journal that came in the mail... 
+
+     I was thinking of putting on music and finalizing some medical reports today, you? 
+     Ah~ I'm almost jealous of how busy your days can get. Here, this'll help get your day started. [201]
+
+     Good morning, petname. How'd you sleep?
+     Here, I added something special to your breakfast this morning.
+     What? It was just bacon. I thought you'd need the extra protein for your plans today. [201]
+
+     ...$l
+     You look so {{LDescript}} when you sleep, you know that? 
+     Almost makes me feel insane knowing when I first saw you I was too nervous to approach you.
+     Though... That day was one of the happiest in my life.
+
+     Ah, you look tired, did you get enough rest?
+     Wouldn't you rather stay home all day with me anyway...
+
+     Make sure you drink plenty of water while you're out there today, yeah?
+     Can't have you passing out on me again...
+     I love you, but you scare the ever loving crap out of me when you do that, @. 
+
+     %You catch Harvey shoving a small vial into his pocket. He's almost startled when he sees you.
+     Hm? Oh, sorry... Ah~
+     Completely unrelated, but you drool a little when you sleep.
+     It's cute. 
+
+     You talk a lot in your sleep, you know that? 
+     I think I should start keeping a journal of all the cute little things you say while knocked out. 
+
+     Mmm... Good morning, my {{LDescript}} {{LMarriageName}}. 
+     Did you sleep well? Here, I made an extra batch just to help get your day started. [395]
+
+     ...$l
+     Can you pinch me? I think I'm still dreaming... 
+     Afterall, I have an Angel standing right in front of me. 
+
+     ...$s
+     Do you have to go to early? 
+     Please, how about you just stay home all day with me, yeah? 
+     I promise, I'll make it worth your while. 
+
+     ---
+     
+     Ah! You look exhausted! Here, have a seat and let me give you a massage...
+     I was actually reading something in a medical journal about massages being one of the best ways to improve muscle tension, blood circulation, and reducing stress horomones.
+
+     Oh good, you're back earlier than normal!
+     Let me run you a bath and you can tell me all you've done today, yeah? 
+
+     ...$s
+     ...!
+     Oh, you're back!
+     Sorry, I was so deep in thought while you were gone...
+     ...
+     What was I thinking about?
+     ...What time you'd be home...
+
+     ...I know you have all that farmwork to do, but do you have to take so long? 
+     I miss you when you're gone a while, you know that? 
+
+     Sorry, I think I'm still seeing medical reports in my vision.
+     I spent over 9 hours straight today just going through them...
+     Yeah, yeah, I know I should take it easy, but it's hard to when I see you do so much more in your day.
+     Can you blame me for trying to make you proud, @? 
+
+     Oh, hey, how was your day today, {{LPetName}}?
+     I, personally, spent my day doing some light reading, working on a model plane, thinking of you...
+     Ah, sorry, I feel like I've been making every conversation about you. 
+     It's just so hard to talk about anything else when... Well, when you're you. 
+
+     Did you overhear the planes that went overhead today? I don't think I've seen a fleet of planes like that in years...
+     Maybe the last time was... Well, before I met you I think.
+     It's crazy how much time changes us, don't you think? 
+
+     How's the soreness after today, hm?
+     Maybe I could prescribe something like a massage to help you relax after all that heavy lifting, hm?
+
+     Ah, it's quiet nights like these that really make me remember our little trip in the air together.
+     Oh, what I wouldn't give to see that look on your face again. 
+
+     ...
+     You have a new cut on your leg there.
+     Here, have a seat on the couch and let me properly bandage that.
+     Tch. What would you do without me here at your service, hm?
+
+     Oh, you don't look good.
+     Here, have a seat and let me test your reflexes.
+     Mmmm... Though, tonight, why don't you just focus on the sensations, yeah?
+
+     ---
+
+     It's the perfect day to get some vitamin D, don't you think?
+     Ah~ Not that kind, pervert!
+
+     ...You look absolutely divine under the sunlight, you know that? 
+
+     Ah, look at all this land! 
+     It still sometimes surprises me that we live out in such a beautiful area.
+     I think this might just be the best place to raise kids, don't you agree? 
+
+     Do you mind if I watch you work for a bit, petname? 
+     Actually, did you put on sunscreen yet? The sun's beating down like crazy. 
+
+     Mmmm... Going out already, petname?
+     Give me a kiss before you go, yeah? I'll be here for a bit longer if you need me...
+
+     ...$l 
+     Forgive me for staring, but...
+     Ah, I can't help but just picturing your cardiovasular system.
+     Sorry, Sorry! I know it sounds strange. I just...
+     I don't know, sometimes I just wish I could see the heart that beats for me.
+     ...Does it still sound odd? 
+
+     Yoba, I don't think I could ever get used to the beautiful views here.
+     Hm? Oh, I meant you of course. The farmland is just an added bonus. 
+
+     %Farm really is beautiful up close, isn't it? I spent so far looking at it from afar that I...
+     Huh? What? Did I say something strange? 
+     Petname, I knew we'd end up together from day one, you should know this by now. 
+
+     I know I have my shortcomings but, petname, I'll stay loyal to you for the rest of my life.
+     Whatever you ask of me, I'll do it. It's the least I could do after... all that I put you through. 
+
+     Yoba, the air out here is so... clean.
+     It feels amazing knowing that I get to spend the rest of my life with you, here.
+     And hopefully it'll be a long time...
+
+     I love how dedicated you are to your work.
+     Do you mind if I sit and watch you for a bit? I'm procrastinating some medical reports, but...
+     Watching you sounds so much better.  
     -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
     "AfterDark.Marriage.Harvey.Indoor.Day.Harvey": "",
     "AfterDark.Marriage.Harvey.Indoor.Day.0": "",
@@ -1668,6 +2031,31 @@
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      KIDS 
+     I always knew you'd make a good parent, you know that?
+     %Kid1 is one of the healthiest, smartest kids I've seen. 
+
+     Ugh, I love our little family so much. 
+     I can't wait to see what type of person %kid1 grows up into. 
+
+     Ah, I know it wasn't easy, but I'm so happy we have %kid1 in our lives.
+     Sometimes they really make me want a second...
+
+     Oh, I can't wait until %kid1 gets older. I just know they're gonna love building little model aeroplanes with me.
+
+     
+     ---
+
+     Can I just say how much I love how %Kid1 and %kid2 both look so much like you?
+     I always hoped to have more of you to love. 
+
+     Yesterday, %kid1 taught %kid2 how to say "Papa" 
+     I almost started crying on the spot, you should've seen them. 
+
+     Life feels so perfect with you, petname.
+     Ah~ Before I forget, I'm taking %kid1 and %kid2 out to town later, maybe you could meet us at Gus' for a late lunch?
+
+     Mmm... Sometimes I look at our kids and wonder which one'll turn into the doctor and the other a farmer.
+     Maybe they'll throw us a curve ball and become neither.
     -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
     "AfterDark.Marriage.Harvey.OneKid.0": "",
     "AfterDark.Marriage.Harvey.OneKid.1": "",
@@ -1681,6 +2069,164 @@
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      AFFECTION 
+     GOOD ------------
+     Oh, your face is red. Is it hot outside?
+     ...
+     Or is it just cause I'm here?
+     ...
+     Sorry, was that too cheesy?
+
+     %You notice Harvey spacing out.
+     Hm? Oh, sorry, I was just thinking about our wedding night.
+     Mmm... What's that? You think you need a reminder? 
+
+     Mmmm... Where are you going dressed like that? 
+     Nu-uh, doctor's orders, you're staying home. 
+     Can't have you spreading whatever madness got into you across town today. 
+
+     I swear, even after drinking all this coffee I have had so much less energy lately.
+     Mmmm... What are you doing to me, @? 
+
+     ...$l
+     Sorry, I swear, every time I manage to get a glimpse of you, it pulls me deeper and deeper in thought.
+     What am I thinking about?
+     Ah, why don't you give me a chance to show you, hm?
+
+     %Harvey grabs your hand, spinning you around and dipping your head down, kissing your neck as you lean further back.
+     Mmmm... I swear, when you look like that, petname, it reminds me exactly why I'm obsessed with you.
+
+     I swear, if the board new of all the unorthodox methods I do to keep you healthy...
+     Hm? What methods have I used?
+     Ah~ Well,
+     Don't you remember last night?
+
+     Agh~ Are you done with all your chores for today?
+     I think I'm starting to get stir crazy... I don't know if I could go the rest of the day without you. 
+     Hmm... How about you stay here with me for the rest of the day and I could give you another anatomy lesson, yeah?
+
+     Ah, there you are.
+     I was listening to the radio earlier and I couldn't help but think of you as they played back-to-back love songs.
+
+     I swear, you can't be good for my heart.
+     Every time you walk back in that door, my blood pressure spikes in ways I can't even describe.
+     
+     Can I tell you a secret?
+     %Harvey leans in close, his hand running down the small of your back as his lips ghost against your ear.
+     I'm desperate for you, @.
+     Last night wasn't enough.
+     %Harvey's grip on your back tightens.
+     Stay home with me, you're done with your chores for today. 
+
+     Mmmm... What's the temperature outside? You're sweating...
+     Here, why don't you take a break, yeah? You work too hard, {{LPetName}}. 
+
+     ...
+     Come here, sit down. You're very clearly out of breath from all that running around you do.
+     ...
+     @...
+     Y'know, if you won't listen to me as your doctor, at least listen to me as your husband when I voice my concerns.
+     I only want what's best for you. Now sit down. 
+
+     Are you supraventricular tachycardia? 
+     Because you’re making my heart beat wildly out of rhythm, @...
+
+     Ah, there you are! Yoba, I know it hasn't even been half a day, but I can't stop thinking about you.
+     I swear, you're like a drug I can't detox from.
+     ...Not that I'd want to anyway.
+
+     NEUTRAL ------------
+
+     I know you have a busy day today, but please take care of yourself and come home on time, yeah?
+     I really don't want to find you passed out on the road again. 
+
+     Ugh...
+     My mustache is getting a little wild.
+     Maybe you could sit on my lap and trim it up for me?
+
+     %You overhear Harvey mumbling a few numbers off the top of his head. He looks focused.
+     Hm? Oh, sorry, petname. I'm just running through a few expenses for the clinic...
+     I think we might break even this month.
+
+     Have you changed something in your routine lately?
+     Ah, it's nothing. You've just looked absolutely {{LDescript}} lately. 
+
+     Make sure you're not working too hard out there, yeah?
+     I know I'm trained in first aide, but seeing you hurt really does something to me...
+     And not in a good way.
+
+     Oh, what I wouldn't give for a cup of coffee right about now...
+     Though, seeing you now is suddenly giving me a delectable boost of energy.
+
+     Hey, how's the farm out there? I haven't had a chance to go out and see for myself yet...
+     Ah, I'm sure it's just as perfect as you are. 
+
+     Mmm... Are you heading out again or are you staying for the night?
+     I have a movie and a few snacks ready if you're done for the day...
+
+     Mmm... There you are.
+     How're your chores doing? Are you finished yet?
+     I could get started on dinner early if so...
+
+     Do you have a lot left to do today?
+     I think I'm going to start building this new model airplane I got...
+
+     Say, what has my {{LDescript}} little {{LMarriageName}} been growing lately?
+     Is it strawberry season? Ugh, what I would've give for a batch of them right now...
+
+     Ah~ Have I ever told you how good you always seem to smell?
+     Even after all that farm work...
+     You make it hard for me to think straight, you know that? 
+
+     Y'know, I don't think I ever really believed in Yoba until you came along...
+     I mean, when you look like that, it's hard to believe the divine don't exist...
+
+     Mmm... What do you think about oysters for dinner?
+     Wait... Are you back early? Oh... Do I still have time to cook?
+     Maybe we should just order from Gus' tonight...
+
+     ... Please never ask me to help with the animals again.
+     One of the cows chewed my hair...
+     Oh, can you look and see if I have a bald spot, {{LPetName}}? I swear there's one there now...
+
+     BAD ------------
+
+     ...What did I do wrong? Was I too overbearing with your treatments? 
+     Why are you treating me like this, petname?
+
+     Can't you stay home today?
+     It feels like we never spend time together anymore...
+
+     Please, petname. I'll give everything that I am to you if you could just talk, smile, anything to me. 
+     The silence is killing me here, @. I need you back. 
+
+     Listen, I know what I did was bad, but it was for us! 
+     Please, think about it. Can anyone truly take care of you like I do?
+     Just talk to me again, please, petname. Anything. I won't give up on us.
+
+     You don't talk to me much anymore...
+     It feels like you don't appreciate all the things I did-Everything I still do, for you, @.
+
+     You don't look at me anymore.
+     What are you trying not to see, @? 
+
+     I love you so, so much, why don't you seem to understand, @?
+     I need you, I need you more than I need air itself.
+     Why won't you talk to me?
+     Please, @. I'm going insane without you. No one loves you more than me.
+     Please, at least a whisper, a singular word...
+
+     ...
+     Oh, Are you finally talking to me?
+     I didn't know we were doing that now...
+
+     %Harvey is currently ignoring you. Maybe you should talk to him more often.
+
+     Please, please, @.
+     What do I have to do for you to love me again?
+     I miss your touch, your voice, your laugh.
+     You consume me, body and soul, I can't let this little dry spell we're under ruin a perfectly good marriage.
+     Here, Maybe this will change your mind about me... [74]
+
     -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
     "AfterDark.Marriage.Harvey.Good.0": "",
     "AfterDark.Marriage.Harvey.Good.1": "",
@@ -1741,7 +2287,6 @@
     - drboywonderr
     - thespacehoodie
     - vanejpeg
-
     */
 
     /*

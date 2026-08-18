@@ -93,7 +93,7 @@
         {
             "LogName": "Death Events",
             "Action": "Include",
-            "FromFile": "Assets/Events/HospitalDeath.json, Assets/Events/IslandDeath.json, Assets/Events/MinesDeath.json"
+            "FromFile": "Assets/Events/HospitalDeath.json, Assets/Events/IslandDeath.json, Assets/Events/MinesDeath.json, Assets/Events/MarriedFarm.json"
         }
     ],
     "RepeatEvents": [

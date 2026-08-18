@@ -1,8 +1,8 @@
 {
-    "Name": "[CP] After Dark Series - Player Death",
+    "Name": "[CP] After Dark Series - Player Death [MOBILE]",
     "Author": "loshionbottle",
     "Description": "Yeah, even in death, you'll be stalked.",
-    "Version": "1.0.0",
+    "Version": "1.0.1",
     "UniqueID": "loshionbottle.outafterdark",
     "UpdateKeys": [ "Nexus:40843" ],
     "ContentPackFor": {
