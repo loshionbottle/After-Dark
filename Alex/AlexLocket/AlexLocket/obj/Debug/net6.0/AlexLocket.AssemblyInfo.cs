@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlexLocket")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d90cc222f364f18015551356c7b99a5f92e115dc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b49dc8e32a63775a26cf172f9242b417c1028066")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlexLocket")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlexLocket")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

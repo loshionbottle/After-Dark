@@ -65,30 +65,11 @@
     "AfterDark.Core.Harvey.Introduction": "...$7#$b#Sorry, I didn't mean to stare. You must be the new farmer everyone's been going on about.$h#$e#Wait, before you go, I think I see something on your neck...$8#$b#You should swing by my office one of these days and I'll check it out for you.#$b#@? Was it?$l",
 
     // Rain
-    /*
-    You're soaked! Goodness...
-    %His eyes linger for a moment longer than polite on your drenched shirt.
-    Ahem... Let me fetch you a towel. Would you like to borrow one of my sweaters or an umbrella since you're going to be out? 
-
-    Don't tell me you're heading out there without an umbrella. Please don't make me worry for your health more than I already do.
-    Err... As a patient that is...
-
-    --- 
-
-    Oh, petname! You know better than to be walking out there without an umbrella! 
-    Ugh, look at you, you're soaked! You'll catch a cold at this rate... Here, let me go grab you a towel and something warm to drink...
-
-    You shouldn't be out in the rain like this... You'll catch a cold and exacerbate your condition.
-
-    You know if you get sick because you're out in the rain it'll make your condition worse and I'll be the one having to adjust your treatment to fix you. 
-    Do take more caution when you're out there in the rain, yeah? 
-
-    */
-    "AfterDark.Core.Harvey.Rain.1": "",
-    "AfterDark.Core.Harvey.Rain.2": "",
-    "AfterDark.Core.Harvey.Rain.3": "",
-    "AfterDark.Core.Harvey.Rain.4": "",
-    "AfterDark.Core.Harvey.Rain.5": "",
+    "AfterDark.Core.Harvey.Rain.1": "You're soaked! Goodness...$8#$b#%Harvey's eyes linger for a moment longer than polite on your drenched shirt.#$b#Ahem... Let me fetch you a towel.#$b#Would you like to borrow one of my sweaters or an umbrella since you're going to be out a bit longer?",
+    "AfterDark.Core.Harvey.Rain.2": "Don't tell me you're heading out there without an umbrella.$a#$b#Please don't make me worry for your health more than I already do.$s#$b#Err...$8#$b#As a patient that is.$h",
+    "AfterDark.Core.Harvey.Rain.3": "Oh, {{LPetName}}! You know better than to be walking out there without an umbrella!$8#$b#Ugh, look at you, you're soaked. You'll catch a cold at this rate...$a#$b#Here, let me grab you a towel and something warm to drink...",
+    "AfterDark.Core.Harvey.Rain.4": "You really shouldn't be out in the rain like this...$a#$b#You'll catch a cold and exacerbate your condition.$s",
+    "AfterDark.Core.Harvey.Rain.5": "{{PetName}}, if you continue being out in the rain like this you'll get sick, making your condition worse.$a#$b#Not to mention all the adjustments I'll have to make in your treatment plan...$s#$b#Do take more caution when you're out there in the rain, yeah?",
 
 
     // BIRTHDAY -- Winter 14
@@ -1403,7 +1384,33 @@
 
      ---
 
-     
+     Mmmm... How was your day today?
+     I thought about you while I was out... [421 595 591]
+
+     Hey, while I was out today I ran into Pierre and he said you might like these... [499]
+     Said something about them being ultra rare... 
+     I don't know. I just hope you like them is all. 
+
+     I just so happened to make a few stops around town...
+     Mmmm... Close your eyes, I have a surprise for you.
+     ...
+     I said close them.
+     ...
+     Okay, open.
+     [527]
+     Do you like it? 
+
+     ...
+     Sorry, I couldn't find ANYTHING worth getting you while I was out today...
+     ...
+     ...$h
+     Sorry, I'm a bad liar! 
+     Here, I hope you like it. [74]
+
+     Mmmm...
+     You didn't overwork yourself today while I was out, did you?
+     Good.
+     Here, I brought us back some dinner from Gus'. [224]
     -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
     "AfterDark.Marriage.Harvey.funLeave.1": "",
     "AfterDark.Marriage.Harvey.funLeave.2": "",
@@ -1514,52 +1521,198 @@
      SPECIAL DATES
     -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
     // Spring
+    /*
+     Agh~ I know we were all sentimental last night about the new year beginning, but, Yoba...
+     Everytime I see you, {{LPetName}}, it's like I learn to breathe again. 
+     I'm so happy I get to spend the rest of my life with you. 
+
+     It's always so wonderful seeing all the plants spring back to life as the season changes.
+     Though, I think I might have to get a new coat before next winter... I might've accidentally ripped it while clearing some leftover debris.
+
+     Mmmm...
+     Are you planting anything in specific this year?
+     Might I suggest some parsnips or garlic?
+     They're quite delectable when pickled.
+     */
+    "AfterDark.Marriage.Harvey.Spring1.1": "",
+    "AfterDark.Marriage.Harvey.Spring1.2": "",
+    "AfterDark.Marriage.Harvey.Spring1.3": "",
+
+    /*
+     Why don't we just leave the egg festival to the kids this year?
+     Me and you can stay home... Maybe watch a movie... 
+
+     I can't help but be a little spiffed with the egg festival prizes. 
+     All that work for a lowsy hat?
+     If my {{LMarriageName}} is putting that much effort into something, {{LPPN}} at least deserve something worth {{LPPN2}} while...
+
+     Ugh, the crowd at tomorrow's festival always makes me a little queezy. 
+     But, I guess if you're gonna be there I'll be just fine.
+     */
     "AfterDark.Marriage.Harvey.Spring12.1": "",
     "AfterDark.Marriage.Harvey.Spring12.2": "",
     "AfterDark.Marriage.Harvey.Spring12.3": "",
+    /*
+     Oh, there you are.
+     I ironed your outfit for the dance tomorrow, though I don't really know how it got so wrinkled in the first place...
+     Ah~ Well, maybe a few reasons why come to mind.
+
+     Are you ready for the dance tomorrow? I know you're going to look as {{LDescript}} as ever.
+     
+     Oh, I'm getting all jittery thinking about the dance tomorrow! 
+     Getting to show off how {{LDescript}} my {{LMarriageName}} is really makes going there worth it. 
+     */
 
     "AfterDark.Marriage.Harvey.Spring23.1": "",
     "AfterDark.Marriage.Harvey.Spring23.2": "",
     "AfterDark.Marriage.Harvey.Spring23.3": "",
 
     // Summer
-    "AfterDark.Marriage.Harvey.Summer16.1": "",
-    "AfterDark.Marriage.Harvey.Summer16.2": "",
-    "AfterDark.Marriage.Harvey.Summer16.3": "",
+    /*
+     Ah~ This summer's already starting to feel like one of the hottest we've had.
+     Make sure you wear plenty of sunscreen, {{LPetName}}. 
 
+     I sure hope this summer won't be one of the hotter ones...
+     I don't think I could handle it if our AC went out in the middle of a heatwave...
+
+     %Harvey stretches, taking in the fresh summer air.
+     Ah~ I'll never get tired of how refreshing summer feels.
+     The feeling's nearly as good as you, {{LPetName}}.
+     */
+    "AfterDark.Marriage.Harvey.Summer1.1": "",
+    "AfterDark.Marriage.Harvey.Summer1.2": "",
+    "AfterDark.Marriage.Harvey.Summer1.3": "",
+    /*
+     Have you thought of what you're putting into the soup tomorrow?
+     I'm sure no matter what it is it'll be a perfect addition. 
+
+     I sure hope one of the adolescents in town don't ruin the soup tomorrow.
+     I really hate seeing such hard work put to waste...
+     Surely you're not one of those people, right, {{LPetName}}?
+     If you are, I'm afraid I might have to bring you in for an emergency checkup... 
+
+     Mmmm...
+     My mouth's already watering thinking about the soup tomorrow.
+     Hopefully it won't be ruined and we'll have leftovers for a few days. 
+     */
+    "AfterDark.Marriage.Harvey.Summer10.1": "",
+    "AfterDark.Marriage.Harvey.Summer10.2": "",
+    "AfterDark.Marriage.Harvey.Summer10.3": "",
+    /*
+     Oh, I'm so looking forward to the lovely view tomorrow night.
+     Ah~ Yeah, I'm sure the jellyfish'll be lovely too. 
+
+     The jellyfish sure are a pleasant sight, but after you've seen one, it almost starts to feel like you've seen them all.
+     But... I uh...
+     I don't think I'll ever get tired of how {{LDescript}} you are. 
+
+     I'm excited for the jellyfish tomorrow, are you?
+     Ah~ You don't think anyone'll be dumb enough to jump in this year, right?
+     I'll never forget the year Sam dove head first into the batch. He was stung everywhere.
+     And I mean everywhere.
+
+     */
     "AfterDark.Marriage.Harvey.Summer27.1": "",
     "AfterDark.Marriage.Harvey.Summer27.2": "",
     "AfterDark.Marriage.Harvey.Summer27.3": "",
 
-    "AfterDark.Marriage.Harvey.Summer28.1": "",
-    "AfterDark.Marriage.Harvey.Summer28.2": "",
-    "AfterDark.Marriage.Harvey.Summer28.3": "",
-
     // Fall
+    /*
+     Oh, this fall is looking like it's gonna be a windy one...
+     Make sure you're keeping warm, yeah? 
+     Flu season is no joke... 
+
+     Mmmm... Now that is fall, have you considered making pumpkin wine?
+     Ah~ I know how weird it sounds, but I think the aroma could be quite pleasing.
+
+     Isn't fall a busier season for you?
+     Oh, do tell me you'll make time for me, right?
+     I don't know if I could go too long without your love, touch, or voice, {{LPetName}}.
+     */
+    "AfterDark.Marriage.Harvey.Fall1.1": "",
+    "AfterDark.Marriage.Harvey.Fall1.2": "",
+    "AfterDark.Marriage.Harvey.Fall1.3": "",
+    /*
+     Hm?
+     Oh, the fair is tomorrow, isn't it?
+     Have you put any thought into what you're putting on display?
+     Ah~Well, I'm sure no matter what you put up, it'll be a hit as always. 
+
+     %You catch Harvey warming his arm up.
+     Hey, {{LPetName}}! I'm just warming up my arm to try and win you some prizes at the fair tomorrow! 
+     What? Don't look at me like that. I just want to make sure you get at least one good thing tomorrow. 
+
+     Mmmm... The grange display is tomorrow, right?
+     Do you have everything ready for it?
+     Ah~ Well, hopefully you'll still have space to be able to use this as your center piece. [74]
+     */
     "AfterDark.Marriage.Harvey.Fall15.1": "",
     "AfterDark.Marriage.Harvey.Fall15.2": "",
     "AfterDark.Marriage.Harvey.Fall15.3": "",
+    /*
+     I've really never been one to dress up for Spirit's Eve, but...
+     I don't know, I just think it'd be really nice to dress up with you, {{LPetName}}.
+     Ah~ I guess marriage has made me a bit soft, hasn't it?
 
-    "AfterDark.Marriage.Harvey.Fall17.1": "",
-    "AfterDark.Marriage.Harvey.Fall17.2": "",
-    "AfterDark.Marriage.Harvey.Fall17.3": "",
+     I know it's quite late to be deciding this, but should we match tomorrow?
+     I'll be a doctor if you'll be my nurse. 
 
+     I wonder if they changed up the maze this year.
+     You know, at the Spirit's Eve festival tomorrow? 
+     Mmm... If they did, do you wanna go through it together? I think it'd be quite fun. 
+     */
     "AfterDark.Marriage.Harvey.Fall26.1": "",
     "AfterDark.Marriage.Harvey.Fall26.2": "",
     "AfterDark.Marriage.Harvey.Fall26.3": "",
     
     // Winter 
-    "AfterDark.Marriage.Harvey.Winter17.1": "",
-    "AfterDark.Marriage.Harvey.Winter17.2": "",
-    "AfterDark.Marriage.Harvey.Winter17.3": "",
+    /*
+     %You notice Harvey shivering, closing his jacket tighter.
+     Ugh...
+     It always surprises me just how quickly this place turns cold. 
+     Oh... This means the clinic'll be packed from minor colds to slip injuries...
+     I guess I should go ahead and finish up fall's paperwork...
 
-    "AfterDark.Marriage.Harvey.Winter24.1": "",
-    "AfterDark.Marriage.Harvey.Winter24.2": "",
-    "AfterDark.Marriage.Harvey.Winter24.3": "",
+     Ah, you're not wearing nearly enough layers.
+     Here, take another. 
+     %Harvey wraps his jacket around you. 
+     Now make sure you keep warm this season, yeah? 
 
-    "AfterDark.Marriage.Harvey.Winter28": "",
+     Oh, look at you.
+     Your nose is already red from the weather! 
+     Hmm... Come sit by the fire, yeah? I'll make you a hot drink. 
+     */
+    "AfterDark.Marriage.Harvey.Winter1.1": "",
+    "AfterDark.Marriage.Harvey.Winter1.2": "",
+    "AfterDark.Marriage.Harvey.Winter1.3": "",
+    /*
+     Mmmm... Are you participating in the ice festival tomorrow?
+     ...
+     Do you think Willy'll let me take some of the fish home?
+     I have a few recipes I want to try out...
+
+     I always wonder what Willy does with all the fish that come out of tomorrow's festival.
+     It'd be a shame if they all just went to waste...
+
+     Oh, I'm excited for tomorrow's festival! 
+     D'you think we could get there a little early? I always like to admire how well the igloos are crafted... 
+     */
+    "AfterDark.Marriage.Harvey.Winter7.1": "",
+    "AfterDark.Marriage.Harvey.Winter7.2": "",
+    "AfterDark.Marriage.Harvey.Winter7.3": "",
+    /*
+     Agh, has it truly been another year already?
+     I can't wait to spend another with you, {{LPetName}}.
+
+     I can't help but be excited that this year is ending already.
+     It means I get to spend another with you, afterall.
+
+     ...$l
+     Sorry, I'm just admiring the view I'll have for the new year.
+     */
     "AfterDark.Marriage.Harvey.Winter28.1": "",
     "AfterDark.Marriage.Harvey.Winter28.2": "",
+    "AfterDark.Marriage.Harvey.Winter28.3": "",
     
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      GENERAL SEASON RELATED LINES 
@@ -1584,7 +1737,27 @@
      Delectable? Is that the right word? 
      Ah, but of course, nothing compares to you, my love. 
 
+     ...$l
+     Sorry, there's just really something about knowing I'm going to spend the rest of my life with you.
+     
+     Hm?
+     What? The flowers?
+     Oh, yeah, they are pretty, aren't they?
+     Sorry, I've just been so focused on staring at you I really haven't noticed...
 
+     %You overhear Harvey humming to himself.
+     Oh! Don't sneak up on me like that! 
+     Yoba, I swear, my heart nearly jumped out of my chest.
+     What am I doing?
+     Err... Just a bit of spring cleaning... Care to join me, {{LPetName}}?
+
+     Mmm...
+     You know what I could really go for right about now?
+     Some chocolate flavored strawberries...
+     Have you managed to plant any this year? It's okay if not... I'm sure Pierre might be able to spare a carton on discount... 
+
+     Mmmm... I know it's spring, but the weather really has been on the chillier side lately.
+     Do make sure you're wearing layers... I'd hate for you to get a cold this early in the year. 
 
      ---
 
@@ -1613,6 +1786,23 @@
 
      I'm so envious of pilots this time of year...
      They must get such beautiful views of the valley...
+
+     Agh, today seems like the perfect day to take a long walk, yeah?
+     How about you join me? I'm sure there's at least one spot in the valley you haven't seen yet.
+     You can think of me as your unofficial tour guide... Wouldn't that be cute? 
+
+     Agh, the heat is absolutely killing me. 
+     I've turned on three fans, but our AC just isn't catching up.
+     We might have to invest in a new one soon...
+
+     Oh, did you see that?
+     The plane above us! Oh, I'm sure it was a Douglas MD-80... Did you see how long it was?
+     Ugh, do you think it's too late for me to get my camera? 
+
+     The birds are loud today, wouldn't you agree?
+     I'm sure if we went out right now we'd probably spot a few...
+     Do you think we'll end up as one of those old couples who feed birds together?
+     I think it'd be wonderful... Getting to that age with my favorite person...
 
      ---
 
@@ -1648,7 +1838,18 @@
      Oh, I can't wait to see what secret friend I get this year! 
      I do hope I get you, I know just the thing to get you. 
 
-     
+     Hey, pumpkin!
+     Ah~ That didn't quite feel right, did it, {{LPetName}}?
+
+     Agh, how's it this late in the year already?
+     Oh... I'm so behind on my charting...
+     Mmm... Say, why don't we go out to eat tonight?
+     What? If I'm gonna procrastinate, I'd rather it be with my {{LDescript}} {{LMarriageName}}.
+
+     Mmm... The weather today is so... Brisk.
+     Almost perfect for a walk.
+     Are you almost done with your chores today? 
+     We could take a stroll down to the beach if you're up for it.
 
      ---
 
