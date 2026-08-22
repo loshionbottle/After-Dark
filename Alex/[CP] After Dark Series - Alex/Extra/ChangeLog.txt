@@ -52,3 +52,5 @@
     TLDR Do not update until your translation file is up to date.
     2.1.1
         - fixed indoor marriage showing .10 (no translation error -- no change to i18n)
+    2.1.2
+        - Removed {{LAccessory}} from AfterDark.Marriage.Alex.0 and AfterDark.Marriage.Alex.8 [TRANSLATORS THIS EDIT AFFECTS Y'ALL]

@@ -59,6 +59,7 @@
                 "Resort": "{{i18n:Core.Alex.Resort.Resort}}"
             }
         },
+
         {
             "LogName": "Alex Rainy Day Dialogue",
             "Action": "EditData",

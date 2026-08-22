@@ -73,135 +73,49 @@
 
 
     // BIRTHDAY -- Winter 14
-    /*
-    Hm, did you need a check-up or something? I mean, I normally take my birthday off but for you I can always make an exception. 
-
-    Mmm... What a lovely surprise getting to see my favorite patient on my birthday. 
-    No need to give me a gift, just seeing you in good health is enough for me. 
-
-    Oh, are you here to wish me a happy birthday?
-    I swear, each year that goes by really makes me insecure about how old I'm getting, but seeing you so happy to talk to me today makes it worth it.
-
-    Y'know, I thought today would be filled with labwork and boring stacks of paper. I'm glad you came by, you made my day. 
-
-    Mmmm... Do you think for my birthday I could get a kiss from my favorite patient? 
-    */
-    "AfterDark.Core.Harvey.Birthday.0": "",
-    "AfterDark.Core.Harvey.Birthday.4": "",
-    "AfterDark.Core.Harvey.Birthday.6": "",
-    "AfterDark.Core.Harvey.Birthday.8": "",
-    "AfterDark.Core.Harvey.Birthday.10": "",
+    "AfterDark.Core.Harvey.Birthday.0": "Hm, did you need a check-up or something?#$b#I mean, I normally take my birthday off, but for you? I can always make an exception.$h",
+    "AfterDark.Core.Harvey.Birthday.4": "What a lovely surprise getting to see my favorite patient on my birthday.$h#$b#No need to give me a gift, just seeing you in good health is good enough for me.",
+    "AfterDark.Core.Harvey.Birthday.6": "Oh, are you here to wish me a happy birthday?#$b#I swear, each year that goes by really makes me insecure about how old I'm getting...$s#$b#But, seeing you so happy to talk to me today really makes it worth it.$h",
+    "AfterDark.Core.Harvey.Birthday.8": "Agh, I honestly thought today would be filled with labwork and stacks of paper.$h#$b#I'm glad you came by, my birthday's already starting to feel like a party.$h",
+    "AfterDark.Core.Harvey.Birthday.10": "Mmmm...$l#$b#Do you think, for my birthday, I could get a kiss from my favorite patient?$l",
 
     // Hospital
     // TODO: CHANGE SCHEDULE TO GET RID OF HIM GOING INTO THE EXAM ROOM
     // SETHEALTH/STAMINA WITH BETAS
-    /*
-    Hm... We don't have an appointment today, are you needing something?
-    Do you feel poorly? 
-    You can tell me anything, you know that. 
+    "AfterDark.Core.Harvey.Hospital.AppointmentDay.1": "Oh, I was wondering when you'd show up for your blood draw.$h#$b#Come to the back, I got a chair nice and ready for you.",
+    "AfterDark.Core.Harvey.Hospital.AppointmentDay.2": "Oh, is it our appointment time already?#$b#Here, let me grab you a gown to change into.#$b#...$a#$b#What do you mean you don't need a gown for a blood draw?$a#$b#Are you questioning my decisions as a doctor, {{LPetName}}?$a",
+    "AfterDark.Core.Harvey.Hospital.AppointmentDay.3": "Tch...$a#$b#Looks like my stethoscope is broken.$a#$b#I guess after 10 years, I'm bound for a new one, right?$h#$b#Anyways, I guess I'll have to listen to your heart and lungs the old fashioned way for today's appointment.#$B#Y'know, ear to your back, hand on your stomach to keep you from moving away.$l",
+    "AfterDark.Core.Harvey.Hospital.AppointmentDay.4": "Hmm...#$b#Looks like we're out of tongue compressors for today's appointment.$s#$b#Do you mind if we do things the old fashioned way?#$b#I promise, I'll be gentle with my fingers.$l",
+    "AfterDark.Core.Harvey.Hospital.AppointmentDay.5": "Hmm... I have a new formula for treatment I'd like to try out, do tell me if it works better for you, yeah? $t adHarveyMakeHealthWorse",
+    "AfterDark.Core.Harvey.Hospital.AppointmentDay.6": "Ah, right on time.$h#$b#I'm so glad you're taking your health so seriously, @.#$b#Go find a seat in the back, I'll be there shortly.",
+    "AfterDark.Core.Harvey.Hospital.AppointmentDay.7": "Hey, you're early today.$h#$b#Oh, I was meaning to suggest, if needles scare you, I can always give you some medicine to knock you out.#$b#Not for long, of course!$8",
+    "AfterDark.Core.Harvey.Hospital.AppointmentDay.8": "How about we switch arms for today's appointment, yeah?#$b#I don't want too many people curious about your time here...$s",
+    "AfterDark.Core.Harvey.Hospital.AppointmentDay.9": "Ah! I wasn't expecting you to show up so soon!$8#$b#Oh, the clinic is a mess...$s#$b#Hold on, wait here while I go get everything ready for you.",
+    "AfterDark.Core.Harvey.Hospital.AppointmentDay.10": "Ah, is it appointment time already?#$b#Go ahead and head into exam room one... I'll be there in just a second.#$b#Don't worry, I'll be sure to lock the door so we're not interrupted.$l",
 
-    Oh, I was wondering when you'd show up for your blood draw. 
-    Come to the back, I got a chair nice and ready for you.
+    "AfterDark.Core.Harvey.Hospital.2h.1": "Hmm... We don't have an appointment today, are you needing something?#$b#Do you feel poorly?#$b#You can tell me anything, you know that.$l",
+    "AfterDark.Core.Harvey.Hospital.2h.2": "Oh, {{LPetName}}. Why are you here? Do you feel alright?$8#$b#Maybe I should designate our appointments to twice a week...$s#$b#You need better monitoring in your condition.",
+    "AfterDark.Core.Harvey.Hospital.2h.3": "Do you have some concerns about your treatment?#$b#You know I'm always here to answer any questions if you have them.",
+    "AfterDark.Core.Harvey.Hospital.2h.4": "Y'know, I'm glad you're being diligent and taking your health seriously, but you don't have to come in on days that aren't your appointment.$h#$b#Though, I won't say no to having a chat with my favorite patient.$l",
+    "AfterDark.Core.Harvey.Hospital.2h.5": "Hmm... I wasn't expecting you today.#$b#Are you taking care of yourself, getting enough rest?",
 
-    Hm... I wasn't expecting you today. Are you taking care of yourself? Getting enough rest?
+    "AfterDark.Core.Harvey.Hospital.4h.1": "Ah, is it appointment time already?#$b#Wait, it's only %time...$a#$b#Wait, it's not even Tuesday!$8#$b#Ugh, I think I'm starting to lose it. All of these days are just blending together...$s",
+    "AfterDark.Core.Harvey.Hospital.4h.2": "Make sure you're coming to your appointments on time, yeah?#$b#It's important that someone in your condition gets regularly tested.$s#$b#Speaking of, our appointment isn't today, did you stop by for a different reason?$l",
+    "AfterDark.Core.Harvey.Hospital.4h.3": "Are you alright? You look a little flush.$8#$b#Here, come into the back, I need to take your temperature ASAP.#$b#...$a#$b#Ah, unless you're willing to use a different kind, maybe you could stay for a bit while Maru finishes tuning the oral thermometers...$s",
+    "AfterDark.Core.Harvey.Hospital.4h.4": "Ah, I didn't expect to see you here today.$h#$b#Actually, since you're here, do you think I could check something out on you?#$b#Last time you were here, I noticed some anomalies at the back of your throat.#$b#Would you mind saying 'ahhh' for da—$l#$b#I mean, me?$8",
+    "AfterDark.Core.Harvey.Hospital.4h.5": "...$a#$b#Are you still messing around in the mines, {{LPetName}}? Despite my warnings?$a#$b#You're going to make your condition worse. Nevermind the possibility of you getting physically hurt again!$a#$b#Please, head my warnings and be careful at least...$s",
 
-    Y'know, I'm glad you're being diligent and taking your health seriously, but you don't have to come in on days that aren't your appointment.
-    Though, I won't say no having a chat with my favorite patient. 
+    "AfterDark.Core.Harvey.Hospital.6h.1": "...Oh, @...$l#$b#...$7#$b#Ah, Sorry! I didn't realize you'd be coming in today!$7#$b#I was err... I was just looking through a few files is all...$8#$b#Anyways, today isn't your appointment, what are you doing here?$s",
+    "AfterDark.Core.Harvey.Hospital.6h.2": "Oh, {{LPetName}}! Are you here for something?$h#$b#Today's not your appointment day, is it?#$b#I mean, it seems like you feel fine, is there something bothering you?",
+    "AfterDark.Core.Harvey.Hospital.6h.3": "Mmm... Your cheeks look flushed.$a#$b#Come in for a quick check-up, yeah?#$b#You know we can't go risking your health.",
+    "AfterDark.Core.Harvey.Hospital.6h.4": "Despite my multiple warnings given your condition, I noticed you've started going deeper into the mines.$a#$b#I guess I'll probably go insane trying to get you to change, hm?$s#$b#Perhaps, to make up for it, we should up the frequency of your treatments and check-ups, hm?#$b#Just to be on the safe side, of course.$l",
+    "AfterDark.Core.Harvey.Hospital.6h.5": "Hmm... I've been looking at your labs and something's just...$s#$b#Amiss.$s#$b#I think we need to do another check-up to make sure everything's accurate.#$b#I hope this doesn't put a damper in your day, I just don't want you to have another episode, {{LPetName}}.$s",
 
-    Do you have some concerns about your treatment? You know I'm always here to answer any questions if you have them.
-
-    Hm... I have a new formula for treatment I'd like to try out, do tell me if it works better for you, yeah?
-    // Makes you worse; conversation topic which halves your health 
-
-    --- 
-
-    Oh, petname. Why are you here? Do you feel alright?
-    Maybe I should designate our appointments to twice a week... You need better monitoring on your condition.
-
-    Oh, is it our appointment time already? Here, let me go grab you a gown to change into.
-    ...
-    What do you mean you don't need a gown for a blood draw? Are you questioning my decisions as a doctor, petname? 
-
-    Make sure you're coming to your appointments on time, yeah? It's important that someone in your condition gets regularly tested. 
-    Speaking of, our appointment isn't today, did you stop by for a different reason? 
-
-    Are you alright? You look a little flush.
-    Here, come into the back, I need to take your temperature ASAP.
-    ...
-    Ah, unless you're willing to use a different kind, maybe you could stay for a bit while Maru finishes tuning the oral thermometers...
-
-    I didn't expect to see you here today. Actually, since you're here, do you think I could check something out on you?
-    Last time you were here, I noticed some anomalies at the back of your throat, would you mind saying 'ahhh' for dadd-- I mean me? 
-
-    ...
-    Are you still messing around in the mines, petname? Despite my warnings?
-    You're going to make your condition worse--Nevermind the possibility of you getting physically hurt again in those mines. 
-    Please, head my warnings and be careful. 
-
-    ---
-
-    Tch. Looks like my stethoscope is broken. I guess after 10 years I'm bound for a new one, right? 
-    Anyways, I guess I'll have to listen to your heart and lungs the old fashioned way for today's appointment.
-    Y'know, ear to your back, hand on your stomach to keep you from moving away.
-
-    Oh, petname! Are you here for something? Today's not your appointment day, is it?
-    I mean, it seems like you look fine. Is there something bothering you? 
-
-    Mmm... Your cheeks look flushed. Come in for a quick check-up, yeah? You know we can't go risking your health. 
-
-    I noticed you've started going deeper into the mines despite my multiple warnings against doing so given your condition, petname.
-    I guess I'll probably go insane trying to get you to change, hm?
-    Perhaps we should up the frequency of your treatments and check-ups, hm? Just to be on the safe side, of course. 
-
-    Hmm... I've been looking at your labs and something's just... amiss. I think we need to do another check-up to make sure everything's accurate.
-    I hope this doesn't put a damper in your day, I just don't want you to have another episode, petname. 
-
-    ---
-
-    Hm... Looks like we're out of tongue compressors for today's appointment.
-    Do you mind if we do things the old fashioned way? I promise, I'll be gentle with my fingers. 
-
-    Y'know, you've been coming here for months now. Aren't you sick of seeing me yet?
-    Anyways, your appointment isn't today, were you looking to hang out or something? 
-
-    I swear, just having you around gives me a boost in energy. I'm so glad we met when we did. 
-    ...
-    Oh, you're here for a check-up? Um... Looking at my books, you aren't due until Tuesday, right? 
-    I mean, you know I can always squeeze you in if you're not feeling good.
-
-    Hm... Would you be interested in switching some of your appointments to home-visits?
-    I wouldn't mind the walk and opportunity to make your day easier. 
-
-    You look flushed. Here, come sit down.
-    Are you overextending yourself? Or does your heart always beat this loudly around me? 
-
-    Ugh, the medication for your treatment is on back order. 
-    So, just for today, take it easy please. If you need a break while you're in town you can always stop by here--Or if you want a more private area you can always use my apartment.
-
-    */
-    "AfterDark.Core.Harvey.Hospital.2h.1": "",
-    "AfterDark.Core.Harvey.Hospital.2h.2": "",
-    "AfterDark.Core.Harvey.Hospital.2h.3": "",
-    "AfterDark.Core.Harvey.Hospital.2h.4": "",
-    "AfterDark.Core.Harvey.Hospital.2h.5": "",
-
-    "AfterDark.Core.Harvey.Hospital.4h.1": "",
-    "AfterDark.Core.Harvey.Hospital.4h.2": "",
-    "AfterDark.Core.Harvey.Hospital.4h.3": "",
-    "AfterDark.Core.Harvey.Hospital.4h.4": "",
-    "AfterDark.Core.Harvey.Hospital.4h.5": "",
-
-    "AfterDark.Core.Harvey.Hospital.6h.1": "",
-    "AfterDark.Core.Harvey.Hospital.6h.2": "",
-    "AfterDark.Core.Harvey.Hospital.6h.3": "",
-    "AfterDark.Core.Harvey.Hospital.6h.4": "",
-    "AfterDark.Core.Harvey.Hospital.6h.5": "",
-
-    "AfterDark.Core.Harvey.Hospital.8h.1": "",
-    "AfterDark.Core.Harvey.Hospital.8h.2": "",
-    "AfterDark.Core.Harvey.Hospital.8h.3": "",
-    "AfterDark.Core.Harvey.Hospital.8h.4": "",
-    "AfterDark.Core.Harvey.Hospital.8h.5": "",
+    "AfterDark.Core.Harvey.Hospital.8h.1": "Y'know, you've been coming here for months now. Aren't you sick of seeing me yet?$h#$b#Anyways, your appointment isn't today, were you looking to hang out or something?$l",
+    "AfterDark.Core.Harvey.Hospital.8h.2": "I swear, just having you around gives me a boost in energy.$l#$b#I'm so glad we met when we did.$l#$e#...#$b#Oh, you're here for a check-up?$8#$b#Um...$s#$b#Looking at my books, you aren't due until next week, right?$s#$b#I mean, you know I can always squeeze you in if you're not feeling good...",
+    "AfterDark.Core.Harvey.Hospital.8h.3": "Hmm...#$b#Would you be interested in switching some of your appointments to home visits?#$b#I wouldn't mind the walk and opportunity to make your day a little easier.$h",
+    "AfterDark.Core.Harvey.Hospital.8h.4": "You look flushed! Here, come sit down.$8#$b#Are you overextending yourself?$a#$b#Or does your heart always beat this loudly around me?$l",
+    "AfterDark.Core.Harvey.Hospital.8h.5": "Ugh, the medication for your treatment is on back order.$s#$b#So, just for today, take it easy, please.#$b#If you need a break while you're in town, you can always stop by here.$h#$b#Or, if you want a more private area, you can always use my apartment.$l",
 
     // Pos Romantic Shit
     "AfterDark.Core.Harvey.AcceptBouquet": "",

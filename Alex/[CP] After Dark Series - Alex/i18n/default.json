@@ -920,7 +920,7 @@
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      AFFECTION 
     -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
-    "AfterDark.Marriage.Alex.Good.0": "Yoba, you look so fucking good today, {{LPetName}}.#$b#You know how you could look better, though?$9#$b#If you strip down to nothing but that little {{LAccessory}} you have on right now.",
+    "AfterDark.Marriage.Alex.Good.0": "Yoba, you look so fucking good today, {{LPetName}}.#$b#You know how you could look better, though?$9#$b#If you strip down to nothing but that little necklace you have on right now.$l",
     "AfterDark.Marriage.Alex.Good.1": "Hey {{LDescript}} thing, where are you headed off to looking that good?$9#$b#That's your normal getup? I don't believe you...$s",
     "AfterDark.Marriage.Alex.Good.2": "How'd I get so lucky marrying a {{LDescript}} little thing like you...#$b#I'm almost starting to feel like a hot trophy husband with you doing all the work around the farm.$1",
     "AfterDark.Marriage.Alex.Good.3": "Do you think we'll grow old together, {{LPetName}}?$9#$b#I think you'd look so {{LDescript}} with a little grey in your hair.",
@@ -928,7 +928,7 @@
     "AfterDark.Marriage.Alex.Good.5": "I couldn't stop thinking about you all morning {{LPetName}}, I could barely get anything done.#$b#Oh! I guess I did wash the sheets though... for no particular reason.$4",
     "AfterDark.Marriage.Alex.Good.6": "...$l#$b#Sorry- Just, sometimes, I can't believe that you gave me my dream family life, @.#$b#I love you.$4",
     "AfterDark.Marriage.Alex.Good.7": "I never thought I'd be able to find someone who loves me quite like I love them back...$2#$b#And then you moved to town, flipping my whole world upside down.$1#$b#I couldn't be more happy with you, @.$4",
-    "AfterDark.Marriage.Alex.Good.8": "I bought you a new {{LAccessory}} earlier.#$b#It's laying on the bed for you, why don't you go try it on and show me how it fits, hm?$4",
+    "AfterDark.Marriage.Alex.Good.8": "I bought you a new necklace earlier.#$b#It's laying on the bed for you, why don't you go try it on and show me how it fits, hm?$4",
     "AfterDark.Marriage.Alex.Good.9": "Have I ever told you how {{LDescript}} you are?$4#$b#Sometimes I find myself struggling to look away.$1",
     "AfterDark.Marriage.Alex.Good.10": "...$l#$b#Y'know, I can't help but remember our wedding when you look like that...$l#$b#Wanna have a repeat of that night, {{LPetName}}?$l",
     "AfterDark.Marriage.Alex.Good.11": "...$l#$b#Hey, I heard certain positions make it easier to have kids.$l#$b#Wanna try them all?$l",
