@@ -170,739 +170,189 @@
     - dezzyrosehill
     */
 
-    /* Yoba, I wish I could stand out in the open fields here all day. All of the blooming flowers and weeds make such good medicine.
-    peaking of, you wouldn't happen to have any taraxacum officinale - err, dandelions on you, would you? Their roots are a great liver tonic, and make for a good coffee substitute.
-
-    Oh, you're looking rather flush today, I assume from your work? If not, you should schedule an appointment ASAP.
-
-    Have you decided on a date for your yearly appointment yet, @?#$b#I'd like to get you scheduled in for that checkup we discussed when you first came down...
-
-    You should really be careful on that farm, petname. I wouldn't want you to overwork yourself and end up in one of my beds. ...What? 'Petname?' Oh, @. If you're having trouble hearing, you should book an appointment with the clinic.
-
-    %Harvey bumps into you.#$b#Oh my yoba, so sorry about that, @! Oh, you got a bruise there... Was that because of me? Or because of your farmwork? 
-    Well, no matter... Here, take some of this with food and that should go away quickly... [351] **muscle remedy
-
-    %You overhear harvey mumbling a few names of medications to himself. Hm? Oh, sorry, I'm just listing all of my patient's medications again so I don't forget... Say you aren't taking any outside of the ones I've given you, are you?
-
-    ...$l#$b#Hm? I was staring? Oh, no, @. I was checking on that mark on your neck. You've still yet to make an appointment for that, by the way." 
-
-    Oh, hey. I was looking over some of the medical records your last doctor sent over. Looks like you're chronically vitamin me deficient...
-    Sorry, was that too cheesy?
-
-    %Harvey yawns, his age peeking through as you notice the bags under his eyes. Sorry, I was up all last night taking inventory of our medicine reserves. Did you need something?
-
-    Make sure you wear something warm while you're outside. I know summer's right around the corner, but it's still flu season! I wouldn't want you getting sick so early in the year, yeah?
-
-    Question abt "Hey, I saw you exit the mines earlier, you didn't get hurt, right?_No.%Harvey presses a finger into a wound on your side. Liar. %His finger presses deeper in your wound, causing you to flinch. Do I need to remind you of what you promised me about getting my--err, your body hurt like this?_Well..._...$a#$b#Come to the clinic, let me patch you up properly...$a
-
-    Is the pollen here bothering you at all? Sam's allergies hit him like a truck every year, and with you being new and all, I wouldn't be surprised if you also got a bit...
-    Well, if you need any benadryl just let me know, yeah?
-
-    Springtime's always my favorite, means there's always an excuse to stand outside and breathe fresh air. 
-    That and I notice a few of my patients' moods improve this time of year. It really is a miracle season.
-
-    Huh, today's weather seems perfect for a plane ride.
-    Speaking of, have you ever considered getting an AT-502 for your farm? I bet it'd make pest control a hell of a lot easier.
-    */
-
-    // 
     // SPRING
-    "AfterDark.Core.Harvey.Spring.EarlyHeart.1": "",
-    "AfterDark.Core.Harvey.Spring.EarlyHeart.2": "",
-    "AfterDark.Core.Harvey.Spring.EarlyHeart.3": "",
-    "AfterDark.Core.Harvey.Spring.EarlyHeart.4": "",
-    "AfterDark.Core.Harvey.Spring.EarlyHeart.5": "",
-    "AfterDark.Core.Harvey.Spring.EarlyHeart.6": "",
-    "AfterDark.Core.Harvey.Spring.EarlyHeart.7": "",
-    "AfterDark.Core.Harvey.Spring.EarlyHeart.8": "",
-    "AfterDark.Core.Harvey.Spring.EarlyHeart.9": "",
-    "AfterDark.Core.Harvey.Spring.EarlyHeart.10": "",
-    "AfterDark.Core.Harvey.Spring.EarlyHeart.11": "",
-    "AfterDark.Core.Harvey.Spring.EarlyHeart.12": "",
-    "AfterDark.Core.Harvey.Spring.EarlyHeart.13": "",
-    "AfterDark.Core.Harvey.Spring.EarlyHeart.14": "",
+    "AfterDark.Core.Harvey.Spring.EarlyHeart.1": "Y'know, even with the clinic drowning in debt, I'm glad I have time to relax.$h#$b#It's nice having an opportunity to enjoy a small town, the people, and especially the views...",
+    "AfterDark.Core.Harvey.Spring.EarlyHeart.2": "Ugh, I wish I could just stand out in the open fields all day.$s#$b#All the blooming flowers and weeds make such good medicine.$h#$b#Speaking of, you wouldn't happen to have any taraxacum officinale—Err, dandelions on you, would you?#$b#Their roots are a great liver tonic and make for a good coffee substitute.$h",
+    "AfterDark.Core.Harvey.Spring.EarlyHeart.3": "Oh, you're looking rather flush today, I assume from your work?#$b#...#$b#No?$a#$b#Well, you might want to schedule an appointment to get that checked out, @. That's not normal.$a",
+    "AfterDark.Core.Harvey.Spring.EarlyHeart.4": "Have you decided on a date for your yearly appointment yet?#$b#I'd really like to get you scheduled in for that checkup we discussed when you first came down...#$b#...$a#$b#Tch.$a#$b#It looks like that mark is getting worse, @.$s#$b#Seriously, schedule an appointment soon.$a",
+    "AfterDark.Core.Harvey.Spring.EarlyHeart.5": "You should really be careful on that farm, {{LPetName}}.$s#$b#I wouldn't want you to overwork yourself and end up in one of my beds.$s#$e#...What?$a#$b#'{{PetName}}'?$a#$b#Oh, @. If you're having trouble hearing, you should book an appointment with the clinic.$s",
+    "AfterDark.Core.Harvey.Spring.EarlyHeart.6": "%Harvey bumps into you, his face immediately turning to one with regret.#$b#Oh, my Yoba, so sorry about that, @!$8#$b#Oh, you have a bruise there...$8#$b#Was that because of me?$8#$b#Or because of your farmwork?$a#$b#Well, no matter...$h#$b#Here, take some of this with food and that should go away quickly...[351]",
+    "AfterDark.Core.Harvey.Spring.EarlyHeart.7": "%You overhear Harvey mumbling a few names of medications to himself.#$b#Hm?#$b#Oh, sorry, I'm just listing all of my patient's medications again so I don't forget.$h#$b#Say, you aren't taking any outside of the ones I've approved of, are you?$a",
+    "AfterDark.Core.Harvey.Spring.EarlyHeart.8": "...$l#$e#Hm? I was staring?$8#$b#Oh, no, @. I was checking on that mark on your neck.$h#$b#You've still yet to make an appointment for that, by the way.$a",
+    "AfterDark.Core.Harvey.Spring.EarlyHeart.9": "Oh, hey.$h#$b#I was looking over some of the medical records your last doctor sent over",
+    "AfterDark.Core.Harvey.Spring.EarlyHeart.10": "%Harvey yawns, his age peeking through as you notice the bags under his eyes.#$b#Sorry, I was up all last night taking inventory of our medicine reserves.$s#$b#Did you need something?",
+    "AfterDark.Core.Harvey.Spring.EarlyHeart.11": "Make sure you wear something warm while you're outside.#$b#I know summer's right around the corner, but it's still flu season!$a#$b#I wouldn't want you getting sick so early in the year, yeah?$h",
+    "AfterDark.Core.Harvey.Spring.EarlyHeart.12": "Is the pollen here bothering you at all?#$b#Sam's allergies hit him like a truck every year, and with you being new and all, I just wouldn't be surprised if you got a bit...$s#$b#Well, if you need any benadryl, just let me know, yeah?$h",
+    "AfterDark.Core.Harvey.Spring.EarlyHeart.13": "Ah~Springtime's always my favorite, means there's always an excuse to stand outside and breathe fresh air.$h#$b#That, and obviously I notice a few of my patients' moods improve drastically this time of year.#$b#It really is a miracle season.$h",
+    "AfterDark.Core.Harvey.Spring.EarlyHeart.14": "Today's weather seems absolutely perfect for a plane right, doesn't it?$h#$b#Speaking of, have you ever considered getting an AT-502 for your farm?#$b#I bet it'd make pest control a hell of a lot easier.$h",
 
-    /* Y'know, even with the clinic drowning in debt, I'm glad I have time to relax. 
-    It's nice having an opportunity to enjoy a small town, the people, and especially the views...
+    "AfterDark.Core.Harvey.Spring.MidHeart.1": "Oh, hey.$h#$b#I was looking over some of the medical records your last doctor sent over.#$b#Looks like you're chronically vitamin me deficient.$l#$b#Sorry, too cheesy?$h",
+    "AfterDark.Core.Harvey.Spring.MidHeart.2": "Remember to get plenty of rest, yeah?#$b#I know it's not easy managing both a disease and a farm, but...$s",
+    "AfterDark.Core.Harvey.Spring.MidHeart.3": "This heat is killer, isn't it?$s#$b#How are you doing? Is the disease flaring up with the heat?#$b#Oh, it can't be easy doing all that farmwork in your condition...$s#$b#You should take a break, {{LPetName}}.#$b#Here, why don't I go and pour you a glass of water, hm?$h",
+    "AfterDark.Core.Harvey.Spring.MidHeart.4": "I know it's only spring, but make sure you're wearing sunscreen when you go out, yeah?#$b#UV rays hit no matter the season and I wouldn't want you in more discomfort with your...$s#$b#Err—circumstances.$s",
+    "AfterDark.Core.Harvey.Spring.MidHeart.5": "Oh, {{LPetName}}!$h#$b#There you are, I was just wondering when you'd show up.$h#$b#Here, I got something to make you feel better.[591 597]$l",
+    "AfterDark.Core.Harvey.Spring.MidHeart.6": "Y'know, you've really been putting me in a pickle with some of these thoughts I've been having about you, @.[342]$h#$b#No, seriously. I might have to talk to the medical board about you soon...$s",
+    "AfterDark.Core.Harvey.Spring.MidHeart.7": "Oh, {{LPetName}}... I have some bad news...$s#$b#The more I'm reading about it, the more I'm worried your disease might be contagious.$s#$b#Maybe you should stay away from others for now...#$b#Err—$8#$b#Not me though!$8#$b#You still need someone to continuously monitor you...$l",
+    "AfterDark.Core.Harvey.Spring.MidHeart.8": "%Harvey nearly drops the clipboard he's holding when you tap on his shoulder.#$b#O-Oh! {{PetName}}, sorry, I didn't see you there.$8#$b#D-Did you, uh...$s#$b#%Harvey slowly puts the clipboard behind him, out of view. You manage to catch a few scribbles of something referring to your condition...#$b#Did you need something today?$s",
+    "AfterDark.Core.Harvey.Spring.MidHeart.9": "Oh, before I forget!$h#$b#I meant to show you a few diagrams of proper lifting techniques...#$b#I know you're alone often on that massive farm of yours and the last thing I want is for you to hurt yourself when no one else is around...$s",
+    "AfterDark.Core.Harvey.Spring.MidHeart.10": "When your grandpa was still alive, I'd sit with him at his appointments just chatting sometimes...#$b#Back then, there was another doctor who worked here that I shadowed, but...$s#$b#Yeah, anyways, your grandpa would go on and on about how proud he was of you.$h#$b#I'd never imagined how much better you are in person.$l",
+    "AfterDark.Core.Harvey.Spring.MidHeart.11": "Y'know, I've never really had a patient with such a rare blood type.#$b#I guess you're special in more ways than one, huh?$h#$b#Hm? Oh, don't worry.#$b#I'm probably the only one in town able to give blood if necessary.$l",
+    "AfterDark.Core.Harvey.Spring.MidHeart.12": "Hey, I never got any records on your last dental checkup when you moved down.#$b#I mean, I'm not too big on the dental aspect of health...$s#$b#But, if you need me to look around that mouth, I'm more than happy to shove a few of my tools in there...$l",
+    "AfterDark.Core.Harvey.Spring.MidHeart.13": "$y 'Have you still been prying around in the mines?_Yes._Are you kidding?! Last time you passed out you got that disease! How can you be this careless..._No._You aren't lying to me, right? You know it's dangerous down there, given your disease and all...$s'",
+    "AfterDark.Core.Harvey.Spring.MidHeart.14": "It's been a while since your last checkup.#$b#I could fit you in now, if you'd like.#$b#Say 'Ahhh', {{LPetName}}.$l",
 
-    Remember to get plenty of rest, yeah?
-    I know it's not easy managing both a disease and a farm, but...
+    "AfterDark.Core.Harvey.Spring.LateHeart.1": "Why are you in town? Your disease—$a#$b#Here, let me do all the shopping for you, {{LPetName}}.#$b#You go back to the farm and rest, yeah?$h",
+    "AfterDark.Core.Harvey.Spring.LateHeart.2": "I've noticed all of the work you've been doing on your farm lately, but...$s#$b#Do you ever listen to me?$s#$b#You should really be taking this disease more seriously.$a#$b#You could get hurt if you overexert yourself.$a",
+    "AfterDark.Core.Harvey.Spring.LateHeart.3": "...$l#$b#Sorry, I just can't help but to stare when the scenery's so {{LDescript}}...$l#$b#You don't have anywhere else to go, right? You can just stay here all day with me, right?$l",
+    "AfterDark.Core.Harvey.Spring.LateHeart.4": "Mmmmm...#$b#You look paler than usual.$a#$b#You weren't in the mines again, were you?$a",
+    "AfterDark.Core.Harvey.Spring.LateHeart.5": "%Harvey's lost in thought, mumbling to himself about medications and their interactions.#$b#Hm? Oh.#$b#...$l#$b#Sorry, I didn't really expect to see you today, {{LPetName}}.$l#$b#How are you?$l#$b#You're not working too hard, right?$l#$b#I might have to drag you to one of our empty beds if you are.$l",
+    "AfterDark.Core.Harvey.Spring.LateHeart.6": "...$s#$b#You don't think I'm...$s#$b#Controlling, do you?$s#$b#I just...$s#$b#I just care about your health is all, {{LPetName}}.$s#$b#I know what's best for you.$l",
+    "AfterDark.Core.Harvey.Spring.LateHeart.7": "%Harvey notices a petal in your hair, picking it out.#$b#How fitting, hm?$l#$b#Even while you're here chatting with me, you still need me to take care of you.$l#$b#What'd you come by for, anyway?",
+    "AfterDark.Core.Harvey.Spring.LateHeart.8": "Oh, hold on.$a#$b#%Harvey takes your wrist, checking your pulse.#$b#Your heartbeat is running a little high, are you sure you should be running around in your condition?$a#$b#You could seriously hurt yourself, {{LPetName}}!$a#$b#Here, come sit on one of the chairs in the waiting room to calm yourself down.",
+    "AfterDark.Core.Harvey.Spring.LateHeart.9": "Here, I thought you should eat something other than the random things you forage.#$b#Someone in your condition needs to eat hearty![237]$h",
+    "AfterDark.Core.Harvey.Spring.LateHeart.10": "%Harvey takes out a small hankerchief, wiping some sweat around from your brow, and pocketing the fabric before smiling.#$b#Please make sure you're taking care of yourself, {{LPetName}}.$h#$b#I wouldn't want you to end up on my examination table before your next appointment.$l",
+    "AfterDark.Core.Harvey.Spring.LateHeart.11": "Did you know chocolates are considered to be an aphrodisiac?#$b#It contains small amounts of substances that boost pleasure and reduce stress, including phenylethylamine, tryptophan, and theobromine.#$b#While it's not the most healthy of gifts, I just had to get you some, my dear.[220]$l",
+    "AfterDark.Core.Harvey.Spring.LateHeart.12": "You're glowing today, {{LPetName}}.$l#$b#I think our treatments for your illness may finally be helping, but don't put any unecessary strain on yourself!#$b#Doctor's orders.",
+    "AfterDark.Core.Harvey.Spring.LateHeart.13": "...$s#$b#Sorry, it's just been lonely night after lonely night at the clinic lately.$s#$b#You should keep me company sometime.#$b#Even doctors need some TLC.$l",
+    "AfterDark.Core.Harvey.Spring.LateHeart.14": "$y 'I saw you exit the mines earlier, you didn't get hurt, right?_No..._Liar. Look at your arm! Do I need to remind you of what you promised me about you getting hurt like this?$a_Well..._Come into the clinic, let me patch you up properly.$a'",
 
-    Oh this heat is killer, isn't it? How are you doing? Is the disease flaring up with the heat?
-    Oh, it can't be easy doing all that farmwork in your condition... You should take a break, petname. Here, why don't I go pour you a glass of water, hm?
-
-    I know it's only spring, but make sure you're wearing sunscreen when you go out, yeah? UV rays hit no matter the season, and I wouldn't want you in more discomfort with your... err... circimstances.
-
-    Oh, petname! There you are, I was just wondering when you'd show up. Here, I got you something to make you feel better. [591 597]
-
-    Y'know, you've really been putting me in a pickle with some of these thoughts I've been having about you, @. [342]
-    No, seriously. I might have to talk to the medical board about you soon...
-
-    Oh, petname... I have some bad news.
-    The more I'm reading about it, the more I'm worried your disease might be contagious. Maybe you should stay away from others for now...
-    Err... Not me though! You still need someone to continuously monitor you...
-
-    %Harvey nearly drops the clipboard he's holding when you tap on his shoulder.
-    O-Oh! Petname, sorry, didn't see you there.
-    D-Did you uh..
-    %Harvey slowly puts the clipboard behind him, out of view.
-    Did you need something today? 
-
-    Oh, before I forget! I meant to show you a few diagrams of proper lifting techniques... I know you're alone often on that massive farm of yours and the last thing I want is for you to hurt yourself when no one else is around...
-
-    Y'know, when your grandpa was still alive, I'd sit with him at his appointments just chatting sometimes... Back then there was another doctor who worked here that I shadowed, but...
-    Yeah, he'd go on and on about how proud he was of you... I'd never imagined just how much better you are compared to the stories...
-
-    Y'know, I've never really had a patient with such a rare blood type. I guess you're special in more ways than one, huh?
-    Hm? Oh, don't worry. I'm probably the only one in town able to give blood if necessary.
-
-    Hey, I never got any records on your last dental checkup when you moved down. I mean, I'm not too big on the dental aspect of health, but if you need me to pry around that mouth, I'm more than happy to shove a few of my tools in there...
-
-    Are you still prying around in the mines, petname? Yes_Are you kidding?! Last time you passed out you got that disease! How can you be this careless._No.__ You aren't lying to me, right? You know it's dangerous down there, given your newfound disease and all...
-
-    It's been a while since your last checkup, I could fit you in now, if you'd like.
-    Say 'Ahhh', petname. 
-    */
-
-    "AfterDark.Core.Harvey.Spring.MidHeart.1": "",
-    "AfterDark.Core.Harvey.Spring.MidHeart.2": "",
-    "AfterDark.Core.Harvey.Spring.MidHeart.3": "",
-    "AfterDark.Core.Harvey.Spring.MidHeart.4": "",
-    "AfterDark.Core.Harvey.Spring.MidHeart.5": "",
-    "AfterDark.Core.Harvey.Spring.MidHeart.6": "",
-    "AfterDark.Core.Harvey.Spring.MidHeart.7": "",
-    "AfterDark.Core.Harvey.Spring.MidHeart.8": "",
-    "AfterDark.Core.Harvey.Spring.MidHeart.9": "",
-    "AfterDark.Core.Harvey.Spring.MidHeart.10": "",
-    "AfterDark.Core.Harvey.Spring.MidHeart.11": "",
-    "AfterDark.Core.Harvey.Spring.MidHeart.12": "",
-    "AfterDark.Core.Harvey.Spring.MidHeart.13": "",
-    "AfterDark.Core.Harvey.Spring.MidHeart.14": "",
-
-    /* 
-    Why are you in town? Your disease--
-    Here, let me do all the shopping for you, petname. You go back to the farm and rest, yeah?
-
-    I've seen all the work you've been doing on your farm lately, but...
-    Do you ever listen to me? You should really be taking this disease more seriously. You could get hurt if you overexert yourself. 
-
-    ...$l#$b#Sorry, I just can't help but to stare when the scenery's so beautiful...
-    You don't have to leave, right? You can stay here all day with me?
-
-    Mmmm... You look paler than usual.
-    You weren't in the mines again, were you?
-
-    %Harvey's lost in thought, mumbling to himself about medications and their interactions.#$b#Hm? Oh. ...$l Sorry, I didn't expect to see you today, petname. How are you?
-    You're not working too hard, right? Might have to drag you to one of our empty beds if you are.
-
-    ...$s#$b#You don't think I'm... controlling, do you?
-    I just... I just care about your health is all, petname. I know what's best for you.
-
-    %Harvey notices a petal on your hair, picking it out.#$b#How fitting, hm? Even while you're here just chatting with me, you still need me to take care of you. 
-    What'd you come by for, anyway?
-
-    Oh, hold on. %Harvey takes your wrist, checking your pulse. #$b#Your heartbeat is running a little high, are you sure you should be running around in your condition? You could seriously hurt yourself, petname! Here, come sit on one of the chairs in the waiting room to calm yourself down. 
-
-    Here, I thought you should eat something other than random things you forage. Someone in your condition needs to eat hearty! [237] \\ super meal
-
-    %Harvey takes out a small hankerchief, wiping some sweat away from your brow, pocketing the fabric before smiling. Please make sure you're taking care of yourself, petname. I wouldn't want you to end up on my examination bed before your next appointment. 
-
-    Did you know chocolates are considered to be an aphrodisiac? It contains small amounts of substances that boost pleasure and reduce stress, including phenylethylamine, tryptophan, and theobromine.  While its not the most healthy of gifts, I just had to get you some, my dear. [220]
-
-    You're glowing today, petname.
-    I think our treatments for your illness may finally be helping, but don't put any unecessary strain on yourself! Doctor's orders.
-
-    It gets lonely at night in the clinic. You should keep me company sometime. Even doctors need some TLC. 
-    */ 
-    "AfterDark.Core.Harvey.Spring.LateHeart.1": "",
-    "AfterDark.Core.Harvey.Spring.LateHeart.2": "",
-    "AfterDark.Core.Harvey.Spring.LateHeart.3": "",
-    "AfterDark.Core.Harvey.Spring.LateHeart.4": "",
-    "AfterDark.Core.Harvey.Spring.LateHeart.5": "",
-    "AfterDark.Core.Harvey.Spring.LateHeart.6": "",
-    "AfterDark.Core.Harvey.Spring.LateHeart.7": "",
-    "AfterDark.Core.Harvey.Spring.LateHeart.8": "",
-    "AfterDark.Core.Harvey.Spring.LateHeart.9": "",
-    "AfterDark.Core.Harvey.Spring.LateHeart.10": "",
-    "AfterDark.Core.Harvey.Spring.LateHeart.11": "",
-    "AfterDark.Core.Harvey.Spring.LateHeart.12": "",
-    "AfterDark.Core.Harvey.Spring.LateHeart.13": "",
-    "AfterDark.Core.Harvey.Spring.LateHeart.14": "",
-
-    /*
-    ... (Shock) Sorry, I just don't think I've ever seen you in anything but your normal getup. Do you always wear less clothes during summer? 
-
-    It's always important to regulate your body temperature through these heatwaves. Say, are you free later? We could always go cool down by the beach if you're interested. 
-    Err, as a doctor wanting the best for his patient, of course. 
-
-    Y'know, the key to lowering your chances of melanoma are sunscreen and thin layers of clothing, especially with you being outside most of the day. 
-    Speaking of, do you ever take a break? You can always stop by the clinic for some AC and some electrolytes if needed.
-
-    Hey, I was looking through your files earlier and hope you don't mind that I... Err, I adjusted it a bit. Just some doctor jargon, nothing to worry about, promise. 
-
-    I know it gets hot down here in the valley, but make sure you're keeping your windows closed at night, yeah?
-    Why? Oh... Uh, contrary to popular belief, drafts, especially when you're sleeping, can be detrimental to your health! 
-    Just trust me...
-
-    Oh, I thought you'd show up today! Here, I made extra just for you. [253] // triple shot espresso
-
-    Oh, your face is so red and flushed, hold on, let me check your heart rate. 
-    ...
-    Hmm... You aren't overextering yourself, are you? You know people die every day due to not taking proper precautions in summer. 
-    Here, this should help you cool down. [873] // pina colada
-
-    It's awfully hot today, isn't it?
-    Make sure you're wearing enough sunscreen. I wouldn't want that beautiful skin to--
-    Err, I mean, I just wouldn't want you to get a sunburn is all.
-
-    Here, I thought you might like one of these... I found one over by the playground and thought it'd look good in your ha- [402] 
-    Err... Sorry, Just--Traditinally, lathyrus odoratus --err--sweet peas were used for wound dressings and for their anti-inflamatory benefits.
-    I thought it might help you stay safer when you're down in the mines. Albiet against medical advice, but...
-
-    Hey, I've been meaning to ask you: do you think I could get a spare key to your house? It'll just be for medical emergencies -- I have them for all my patients. 
-    I wouldn't want something to happen to you and you be all alone... 
-
-    I've been doing some reading into electroconvulsive therapy. Interesting stuff, I might say...
-    Though, some patients have been known to become more docile and suffer memory losses... 
-    Hm? What is electroconvulsive therapy?
-    Oh, shock therapy.
-    Why? Interested in a few sessions? Hm, it might help with the depression you might feel being alone all the time on that farm...
-
-    Oh, hold still.
-    %Harvey lifts your chin, inspecting your jaw and neck. He plucks a leaf from inside the collar of your shirt out.
-    Just needed to make sure everything's fine. Many things can be missed, y'know?
-
-    Have you been up to the bathhouse yet?
-    It might help some of those aches and pains you might have doing all that farmwork. 
-    */
     // SUMMER
-    "AfterDark.Core.Harvey.Summer.EarlyHeart.1": "",
-    "AfterDark.Core.Harvey.Summer.EarlyHeart.2": "",
-    "AfterDark.Core.Harvey.Summer.EarlyHeart.3": "",
-    "AfterDark.Core.Harvey.Summer.EarlyHeart.4": "",
-    "AfterDark.Core.Harvey.Summer.EarlyHeart.5": "",
-    "AfterDark.Core.Harvey.Summer.EarlyHeart.6": "",
-    "AfterDark.Core.Harvey.Summer.EarlyHeart.7": "",
-    "AfterDark.Core.Harvey.Summer.EarlyHeart.8": "",
-    "AfterDark.Core.Harvey.Summer.EarlyHeart.9": "",
-    "AfterDark.Core.Harvey.Summer.EarlyHeart.10": "",
-    "AfterDark.Core.Harvey.Summer.EarlyHeart.11": "",
-    "AfterDark.Core.Harvey.Summer.EarlyHeart.12": "",
-    "AfterDark.Core.Harvey.Summer.EarlyHeart.13": "",
-    "AfterDark.Core.Harvey.Summer.EarlyHeart.14": "",
+    "AfterDark.Core.Harvey.Summer.EarlyHeart.1": "I know summer is a busy time on the farm, but do be sure to take care of yourself, yeah?#$b#You're always welcome in my clinic for a rest and something to drink if need be.",
+    "AfterDark.Core.Harvey.Summer.EarlyHeart.2": "...$7#$b#Sorry, I just don't think I've ever seen you in anything but your normal getup.$7#$b#Do you always wear less clothes during summer?",
+    "AfterDark.Core.Harvey.Summer.EarlyHeart.3": "It's always important to regulate your body temperature properly through these heatwaves.#$b#Say, are you free later?#$b#We could always go cool down by the beach if you're interested.$h#$b#Err, as a doctor wanting the best for his patient, of course.$8",
+    "AfterDark.Core.Harvey.Summer.EarlyHeart.4": "Y'know, the key to lowering your chances of developing melanoma are sunscreen and thin layers of clothing, especially since you're outside most of the day.#$b#Speaking of, do you ever take a break?$a#$b#You can always stop by the clinic for some AC and electrolytes if needed.",
+    "AfterDark.Core.Harvey.Summer.EarlyHeart.5": "Oh, @!$h#$b#Err, I was looking through your files earlier and I hope you don't mind that I...$s#$b#Well, I adjusted them a little bit.#$b#Just some doctor jargon, nothing to worry about.$h#$b#Promise.$l",
+    "AfterDark.Core.Harvey.Summer.EarlyHeart.6": "I know it gets hot down here in the valley, but make sure you're keeping your windows closed at night, yeah?#$b#Why?$a#$b#Contrary to popular belief, @, drafts, especially when you're sleeping, can be deterimental to your health!$a#$b#Just trust me...$s",
+    "AfterDark.Core.Harvey.Summer.EarlyHeart.7": "Oh, I thought you'd show up today!$h#$b#Here, I made extra just for you.[253]",
+    "AfterDark.Core.Harvey.Summer.EarlyHeart.8": "Your face is so red and flushed. Hold on, let me check your heart rate.$a#$b#...#$b#Hmm...$a#$b#You aren't overexerting yourself, are you?$a#$b#You know people die every day due to not taking proper precautions during summer.$s#$b#Here, this should help you cool down.[873]",
+    "AfterDark.Core.Harvey.Summer.EarlyHeart.9": "It's awfully hot today, isn't it?$h#$b#Make sure you're wearing enough sunscreen.#$b#I wouldn't want that beautiful skin to—$l#$b#Err, I mean, I just wouldn't want you to get a sunburn is all!$7",
+    "AfterDark.Core.Harvey.Summer.EarlyHeart.10": "Here, I thought you might like one of these.#$b#I found it over by the playground and thought it'd look good in your ha—[402]$l#$b#Err... Sorry, just—$7#$b#Ah, traditionally, lathyrus odoratus—err, sweet peas— were used for wound dressings and for their anti-inflamatory benefits.#$b#I just thought it might help you stay a little safer when you're down in the mines. Albiet against medical advice, but...$h",
+    "AfterDark.Core.Harvey.Summer.EarlyHeart.11": "Oh, hey!$h#$b#I've been meaning to ask you: do you think I could get a spare key for your house?#$b#It'll just be for medical emergies.$h#$b#Don't worry, I have them for all my patients.#$b#I just really wouldn't want something to happen to you and you be all alone...$s",
+    "AfterDark.Core.Harvey.Summer.EarlyHeart.12": "I've been doing some reading into electroconvulsive therapy. Interesting stuff, I might say...#$b#Though, some patients have been known to become more docile and suffer memory losses...$s#$b#Hm? What is electroconvulsive therapy?#$b#Oh, shock therapy.$h#$b#Why? Interested in a few sessions?#$b#Hm, I guess it might help with the depression you may face being alone all the time on that farm...$s",
+    "AfterDark.Core.Harvey.Summer.EarlyHeart.13": "Oh, hold still.$a#$b#%Harvey lifts your chin, inspecting your jaw and neck. He plucks a leaf from inside the collar of your shirt out.#$b#Sorry, just needed to make sure everything's fine.#$b#Many things can be missed, y'know?$h",
+    "AfterDark.Core.Harvey.Summer.EarlyHeart.14": "Have you been up to the bathhouse yet?#$b#It might help some of those aches and pains you get from doing all that farmwork.",
 
-    /*
-    I've been interested in learning more about the psychology aspect of medicine, but...
-    Ugh, the library here really isn't the best for that.
-    Maybe I should pay a visit to zuzu city soon...
+    "AfterDark.Core.Harvey.Summer.MidHeart.1": "I've been interested in learning more about the psychology aspect of medicine, but...#$b#Ugh, the library here really isn't the best for that.$s#$b#Maybe I should pay a visit the Zuzu city soon...",
+    "AfterDark.Core.Harvey.Summer.MidHeart.2": "Have you ever heard of the milgram experiment?#$b#Well, to cut things short, it essentially tested the willingness of participants to obey an authority figure despite conflicts with their conscience.#$b#...#$b#Do you think you'd follow someone, despite the heinous things they might ask you to do, {{LPetName}}?$l",
+    "AfterDark.Core.Harvey.Summer.MidHeart.3": "U was diubg sine readubg tge itger dat abd stynbked yoib a few books about the 'dancing plague'.#$b#Apparently contemporaries blamed 'divine punishment' or 'hot blood' for the mass hysteria that happened in 1518.#$b#While the doctor part of me wants to blame potential ergot poisoning and just plain religious fears...$s#$b#I can't help but admire how divine punishment can show itself in mysterious ways, don't you agree?",
+    "AfterDark.Core.Harvey.Summer.MidHeart.4": "How are you faring lately? You aren't over exerting yourself, are you?#$b#I worry about you, dealing with that illness and doing all that hard farmwork when the heat is bearing down...$s",
+    "AfterDark.Core.Harvey.Summer.MidHeart.5": "We should have a safeword when you call me, so I know when you're okay versus when you need help.#$b#You know I'd be there in a heartbeat to take care of you, {{LPetName}}.$l#$b#Err, as your doctor that is.$h",
+    "AfterDark.Core.Harvey.Summer.MidHeart.6": "Ugh, all this heat is making me sweat up a storm.$s#$b#I don't know how others can maintain facial hair, it all just... accumulates.$s#$b#Do you think I should shave it? Maybe it's time for something new...",
+    "AfterDark.Core.Harvey.Summer.MidHeart.7": "...#$b#...$a#$b#Have you been running around this entire time without sunscreen? You look red.$a#$b#Ugh, come on. I'll take you to an exam room to help you apply some since you clearly can't do it on your own.$a",
+    "AfterDark.Core.Harvey.Summer.MidHeart.8": "Oh, how lovely! I didn't think I'd get a chance to see you today!$h#$b#Well, since you're here, I think I could fit you in for a little checkup.#$b#How are you feeling with your disease and all?#$b#Is the heat having any effect on you at all?",
+    "AfterDark.Core.Harvey.Summer.MidHeart.9": "Ah, @. I was just coming to warn you about how long exposure to the sun can typically cause dizziness in patients with your disorder.#$b#If you ever need to lay down, you're more than welcome to in my be—$l#$b#Err, the clinic!$7#$b#Just let Mari know I let you.$h",
+    "AfterDark.Core.Harvey.Summer.MidHeart.10": "Just because it's summer doesn't mean you can't get sick, you know.#$b#I've seen some of the stuff you do on that farm, {{LPetName}}.$a#$b#You should really wash your hands more often, given your condition and all.$s",   
+    "AfterDark.Core.Harvey.Summer.MidHeart.11": "Yoba, this heat is absolutely killing me.$s#$b#I could really use an iced coffee right about now.$s#$b#Ah~Would that be nice? Having a coffee shop here in the valley?$h",
+    "AfterDark.Core.Harvey.Summer.MidHeart.12": "I know I should be grateful for the overall lack of illness in summer, but I can't help but worry for some of my patients.$s#$b#I'm sure this one patient's knees are absolutely killing him right about now.$s#$b#Speaking of, are you growing any peppers?#$b#I'm sure they'd help out a villager or two with their natural pain-relief properties.$h",
+    "AfterDark.Core.Harvey.Summer.MidHeart.13": "Do you have a radio on that farm yet, {{LPetName}}?#$b#You should really look into getting one.#$b#I swear, summer skies are the best kind to listen in to, especially for planes. There's no interference from any clouds.$h",
+    "AfterDark.Core.Harvey.Summer.MidHeart.14": "Have you seen any fireflies out yet? They love to come out during cooler summer nights.#$b#I guess I should show you my favorite spot someday, yeah?#$b#It could be a date!$h#$b#Err... Or just a casual meeting between a doctor and their patient...$s",
 
-    Have you ever heard of the milgram experiment?
-    Well, to cut things short, it essentially tested the willingness of participants to obey an authority figure despite conflicts with their conscience.
-    ...
-    Do you think you'd follow someone, despite the heinous things they might ask you to do, petname? 
-
-    I was doing some reading the other day and stumbled upon a few books about the 'dancing plague.'
-    Apparently contemporaries blamed 'divine punishment' or 'hot blood' for the mass hysteria that happened in 1518. 
-    While the doctor part of me wants to blame potential ergot poisoning and just plain religious fears... I can't help but think divine punishment shows itself in mysterious ways, don't you agree?
-
-    How are you faring lately? You aren't over exterting yourself, are you? 
-    I worry about you, dealing with that illness and doing all this hard farmwork when the heat is bearing down...
-
-    We should have a safeword when you call me, so I know when you're okay vs. when you need help... You know I'd be there in a heartbeat to take care of you, petname.
-    Err... As your doctor that is.
-
-    Ugh, all this heat is making me sweat up a storm. I don't know how others can maintain facial hair, it all just... accumulates.
-    Do you think I should shave it? Maybe it's time for something new...
-
-    ...
-    Have you been running around this entire time without sunscreen? You look red.
-    Ugh, come on, I'll take you to an exam room to help you apply some since you clearly can't do it on your own.
-
-    Oh, I didn't think I'd get a chance to see you today! 
-    Well, since you're here, I think I could fit you in for a little checkup. How are you feeling with your disease and all?
-    Is the heat having an effect on you at all?
-
-    Y'know, long exposure to the sun can cause dizziness. 
-    If you ever need to lay down, you're more than welcome to in my be--Err, the clinic.
-    Just tell Maru I let you. 
-
-    Just because it's summer doesn't mean you can't get sick.
-    I've seen some of the stuff you do on that farm, petname. You should really wash your hands more often, given your condition and all.
-
-    Yoba, this heat is killing me. I could really use an iced coffee right about now. 
-    Hm... Wouldn't that be nice? Having a coffee shop here in the valley?
-
-    I know I should be grateful for the lack of illness in summer, but I can't help but worry for some of my patients. 
-    Take George for example, I'm sure his knees are killing him right about now. 
-    Hm, speaking of, are you growing any peppers? I'm sure they'd help out with their natural pain-relief properties. 
-
-    Have you a radio on that farm yet, petname? You should really look into getting one. 
-    I swear, summer skies are the best kind to listen in to, especially for planes. There's no interference from any clouds.
-
-    Have you seen any fireflies out yet? They love to come out during cool summer nights.
-    I guess I should show you my favorite spot someday, yeah? It could be a date! Err... A casual meeting between a doctor and their patient, yeah?
-    */
-
-    "AfterDark.Core.Harvey.Summer.MidHeart.1": "",
-    "AfterDark.Core.Harvey.Summer.MidHeart.2": "",
-    "AfterDark.Core.Harvey.Summer.MidHeart.3": "",
-    "AfterDark.Core.Harvey.Summer.MidHeart.4": "",
-    "AfterDark.Core.Harvey.Summer.MidHeart.5": "",
-    "AfterDark.Core.Harvey.Summer.MidHeart.6": "",
-    "AfterDark.Core.Harvey.Summer.MidHeart.7": "",
-    "AfterDark.Core.Harvey.Summer.MidHeart.8": "",
-    "AfterDark.Core.Harvey.Summer.MidHeart.9": "",
-    "AfterDark.Core.Harvey.Summer.MidHeart.10": "",   
-    "AfterDark.Core.Harvey.Summer.MidHeart.11": "",
-    "AfterDark.Core.Harvey.Summer.MidHeart.12": "",
-    "AfterDark.Core.Harvey.Summer.MidHeart.13": "",
-    "AfterDark.Core.Harvey.Summer.MidHeart.14": "",
-
-    /*
-    You know, you shouldn't be out in the sun for too long, petname. I know you wanted to see me, but it's not worth risking your health for that. 
-
-    Hey, I heard these were great aphrodisiacs.[421] Maybe we can test that theory at your next appointment, yeah?
-
-    Y'know, next time you decide to be a brat at your checkup, I'll pull out the medical-grade restraints. 
-    Ain't no reason to stick your tongue out and lick me like that...
-
-    I know it's hot out, but you should really cover up. Thin layers are the key to preventing heat stroke out here.
-    Plus, it's not only the sun's gaze you have to be weary of...
-
-    %You overhear Harvey mumbling about new pieces of MRI and CT technology that he can't quite afford.
-    Oh, @. Sorry, I was just mumbling to myself how city doctors always get all this new, less-invasive and "safe" procedural tech, but...
-    I don't know, there's just something about doing things the old-fashioned way, right, petname?
-
-    Have you been taking your medicines lately?_Yes._Good {{Name}}. Keep it up and I might reward you at our next appointment._...Maybe_Don't lie to me, petname. I'll shove the pills down your throat if need be.
-
-    You look flushed in this heat. Do you want me to escort you home?
-    I could conduct a home exam if you need...
-
-    I can't believe it's almost been half a year already. How does the saying go? 
-    I guess time really does fly when you do the things you love?
-    
-    Has anyone ever told you you're just like summer, petname?
-    Warm and bright, yet fleeting. Let me cherish these moments with you, yeah? I'm not getting any younger...
-
-    Even though it gets pretty hot here during summer, visiting the bathhouse every once in a while is still good for your health. 
-    Something about the benefits of saunas have caused even some patients of mine to miraculously regain some lost mobility in their extremeties. 
-    If you'd like, I could go with you. I could use some pain relief myself. 
-
-    Have you been harvesting honey with all the flowers you're growing? 
-    I'm sure Vincent would like some. It's my secret to getting him to take cough medicine whenever he comes in with a cold. 
-
-    ...$l#$b#Hm? Oh, my cheeks are red?
-    Sorry, it must be the summer heat making me feel a little woozy.
-
-    Seeing you run around town makes me remember my college days. I had so much energy back then, I honestly miss having knees that didn't ache all the time.
-    I don't miss it for the life of me though, it wasn't until I was older that I got to meet you, after all. 
-
-    Mmm... Hold on, you don't look too well. Say 'ahh' for me, petname. I need to make sure you don't have heatstroke... or something worse. 
-    ...
-    You look fine, for now. Take it easy or I'll force you to relax in the clinic. 
-    */
-
-    "AfterDark.Core.Harvey.Summer.LateHeart.1": "",
-    "AfterDark.Core.Harvey.Summer.LateHeart.2": "",
-    "AfterDark.Core.Harvey.Summer.LateHeart.3": "",
-    "AfterDark.Core.Harvey.Summer.LateHeart.4": "",
-    "AfterDark.Core.Harvey.Summer.LateHeart.5": "",
-    "AfterDark.Core.Harvey.Summer.LateHeart.6": "",
-    "AfterDark.Core.Harvey.Summer.LateHeart.7": "",
-    "AfterDark.Core.Harvey.Summer.LateHeart.8": "",
-    "AfterDark.Core.Harvey.Summer.LateHeart.9": "",
-    "AfterDark.Core.Harvey.Summer.LateHeart.10": "",
-    "AfterDark.Core.Harvey.Summer.LateHeart.11": "",
-    "AfterDark.Core.Harvey.Summer.LateHeart.12": "",
-    "AfterDark.Core.Harvey.Summer.LateHeart.13": "",
-    "AfterDark.Core.Harvey.Summer.LateHeart.14": "",
-
-    /*
-    Hey, don't forget flu season's starting soon. Make sure you swing by and get yourself a flu shot, yeah?
-    
-    Ugh, fall being around makes me remember all the times Alex came to me with a concussion after his gridball practices. I'm so glad he stopped, but between you and me, the business was nice...
-    
-    Brrr... It's always so chilly this time of year. Make sure you cover up. Doctor's orders.
-
-    I can't believe how quickly the seasons have been changing this year. I can't believe it's already fall and I've yet to really get to know you.
-    Say, why don't we get a drink at Gus' sometime? We can err...
-    Discuss your medical record or something...
-
-    Hmm... Hold out your hands for me.
-    %Harvey runs his hands along your calloused hands, months of farmwork truly showing for the first time. 
-    ...
-    As I thought. Make sure you're taking care of these. It can get worse.
-
-    Fall's probably the busiest season for you, yeah?
-    Well, if you ever need extra energy tonics, I'd be happy to write a personalized prescription for you. 
-
-    Ugh, I tried changing my morning routine and adding some pumpkin spice to go along with the seasonal trends but...
-    ... Ugh.
-    I think I'll just stick to my normal cup of plain coffee...
-
-    Y'know, I keep seeing you run around without a jacket. As a doctor, I have to advise against that. 
-    Here, you could have mine for now, but seriously, bundle up more. Doctor's orders. [(S)1018] 
-
-    I know you're the type to forage a lot, so be careful while you're out there, yeah?
-    While fall is the time for a lot of mushrooms, there's been many cases of people mistaking the good ones from the bad ones. 
-
-    In a pinch, blackberry leaves can be used as a gargle for mouth and throat inflamation. 
-    But... Don't get any ideas, please. Due to the high levels of tannins, it can cause nausea and vomiting. 
-    If you have a cold or just a sore throat, you should always stop by the clinic. The stuff I have in here works a hell of a lot better. 
-
-    Say, have you found any hazelnut lately? It makes a wonderful addition to coffee when roasted. 
-    I'll have to brew you some whenever I get my hands on it, the flavor's to die for. 
-
-    That'll be the last time I try one of their "new and better fall flavors!". 
-    I'm so tired of falling for all the same gimicks these coffee companies run on their products.
-    It tasted like dirt. Such a shame to put good coffee beans to waste like that... 
-
-    Make sure you're keeping your windows closed and locked at night. With this type of weather, I fear the slightest breeze could trigger a cold. 
-    Though I'd love the business, I'd hate to see someone as {{LDescript}} as you sick. 
-
-    %You overheard Harvey mumbling something about lost medical records and patient's perscriptions. Maybe it's best you leave him alone to actually work today. 
-    */
+    "AfterDark.Core.Harvey.Summer.LateHeart.1": "You shouldn't be out in the sun for too long, {{LPetName}}.$a#$b#I know you wanted to see me, but it's not worth risking your health for that.$s",
+    "AfterDark.Core.Harvey.Summer.LateHeart.2": "I heard these were great aphrodisiacs.#$b#Maybe we can test that theory at your next appointment, yeah?[421]$l",
+    "AfterDark.Core.Harvey.Summer.LateHeart.3": "Y'know, next time you decide to be a brat at your checkup, I'll pull out the medical-grade restraints.$a#$b#There was no reason to stick your tongue out and lick me like that...$s",
+    "AfterDark.Core.Harvey.Summer.LateHeart.4": "I know it's hot out, but you should really cover up. Thin layers are the key to preventing heat stroke out here.$a#$b#Plus, it's not only the sun's gaze you have to be weary of...$s",
+    "AfterDark.Core.Harvey.Summer.LateHeart.5": "%You overhear Harvey mumbling about new pieces of MRI and CT technology that he can't quite afford.#$b#Oh, @. Sorry, I was just mumbling to myself how city doctors always get all this new, less-invasive and 'safe' procedural tech, but...$s#$b#I don't know, there's just something about doing things the old-fashioned way, right, {{LPetName}}?$h",
+    "AfterDark.Core.Harvey.Summer.LateHeart.6": "$y 'Have you been taking your medicine lately, @?_Yes._Good {{LGoodName}}. Keep it up and I might reward you at our next appointment.$l_...Maybe_Don't lie to me, {{LPetName}}. I'll shove the pills down your throat if need be.$a'",
+    "AfterDark.Core.Harvey.Summer.LateHeart.7": "You look flushed in this heat. Do you want me to escort you home?$s#$b#I could conduct a quick exam if you need...$l",
+    "AfterDark.Core.Harvey.Summer.LateHeart.8": "I can't believe it's almost been half a year already. How does the saying go?$h#$b#I guess time really does fly when you're with the ones you love?$l",
+    "AfterDark.Core.Harvey.Summer.LateHeart.9": "Has anyone ever told you you're just like summer, {{LPetName}}?$l#$b#Warm and bright, yet fleeting.$l#$b#Let me cherish these moments with you, yeah? I'm not getting any younger...$l",
+    "AfterDark.Core.Harvey.Summer.LateHeart.10": "Even though it gets pretty hot here during summer, visiting the bathhouse every once in a while is still good for your health.#$b#Something about the benefits of saunas have caused even some patients of mine to miraculously regain some lost mobility in their extremeties.#$b#If you'd like, I could go with you.#$b#I could use some pain relief myself.$l",
+    "AfterDark.Core.Harvey.Summer.LateHeart.11": "Have you been harvesting honey with all the flowers you're growing?#$b#I'm sure Vincent would like some. It's my secret to getting him to take cough medicine whenever he comes in with a cold.$h",
+    "AfterDark.Core.Harvey.Summer.LateHeart.12": "...$l#$b#Hm? Oh, my cheeks are red?$7#$b#Sorry, it must be the summer heat making me feel a little woozy.$l",
+    "AfterDark.Core.Harvey.Summer.LateHeart.13": "Seeing you run around town makes me remember my college days.#$b#I had so much energy back then, I honestly miss having knees that didn't ache all the time.$h#$b#I don't miss it for the life of me though, it wasn't until I was older that I got to meet you, after all.$l",
+    "AfterDark.Core.Harvey.Summer.LateHeart.14": "Mmm... Hold on, you don't look too well.$a#$b#Say 'ahh' for me, {{LPetName}}. I need to make sure you don't have heatstroke...$a#$b#Or something worse.$s#$b#...#$b#...$a#$b#You look fine, for now. Take it easy or I'll force you to relax in the clinic.$a",
 
     // FALL
-    "AfterDark.Core.Harvey.Fall.EarlyHeart.1": "",
-    "AfterDark.Core.Harvey.Fall.EarlyHeart.2": "",
-    "AfterDark.Core.Harvey.Fall.EarlyHeart.3": "",
-    "AfterDark.Core.Harvey.Fall.EarlyHeart.4": "",
-    "AfterDark.Core.Harvey.Fall.EarlyHeart.5": "",
-    "AfterDark.Core.Harvey.Fall.EarlyHeart.6": "",
-    "AfterDark.Core.Harvey.Fall.EarlyHeart.7": "",
-    "AfterDark.Core.Harvey.Fall.EarlyHeart.8": "",
-    "AfterDark.Core.Harvey.Fall.EarlyHeart.9": "",
-    "AfterDark.Core.Harvey.Fall.EarlyHeart.10": "",
-    "AfterDark.Core.Harvey.Fall.EarlyHeart.11": "",
-    "AfterDark.Core.Harvey.Fall.EarlyHeart.12": "",
-    "AfterDark.Core.Harvey.Fall.EarlyHeart.13": "",
-    "AfterDark.Core.Harvey.Fall.EarlyHeart.14": "",
+    "AfterDark.Core.Harvey.Fall.EarlyHeart.1": "Hey, don't forget flu season's starting soon.#$b#Make sure you swing by and get yourself a flu shot, yeah?",
+    "AfterDark.Core.Harvey.Fall.EarlyHeart.2": "Ugh, fall being around makes me remember all the times Alex came to me with a concussion after his gridball practices.#$b#I'm so glad he stopped, but between you and me, the business was nice...$s",
+    "AfterDark.Core.Harvey.Fall.EarlyHeart.3": "Brrr... It's always so chilly this time of year. Make sure you cover up.#$b#Though I'm finding myself enjoying your company more and more, there's nothing more that I hate than seeing people sick or injured.",
+    "AfterDark.Core.Harvey.Fall.EarlyHeart.4": "I can't believe how quickly the seasons have been changing this year.#$b#It's already fall and I've yet to really get to know you.$s#$b#Say, why don't we get a drink at Gus' sometime? We can err...#$b#Discuss your medical record or something...$l",
+    "AfterDark.Core.Harvey.Fall.EarlyHeart.5": "Hmm... Hold out your hands for me.$a#$b#%Harvey runs his hands along your calloused hands, months of farmwork truly showing for the first time.#$b#...$a#$b#As I thought. Make sure you're taking care of these. It can get worse.$a",
+    "AfterDark.Core.Harvey.Fall.EarlyHeart.6": "Fall's probably the busiest season for you, yeah?#$b#Well, if you ever need extra energy tonics, I'd be happy to write a personalized prescription for you.$h",
+    "AfterDark.Core.Harvey.Fall.EarlyHeart.7": "Ugh, I tried changing my morning routine and adding some pumpkin spice to go along with the seasonal trends but...$s#$b#...Ugh.$s#$b#I think I'll just stick to my normal cup of plain coffee...$s",
+    "AfterDark.Core.Harvey.Fall.EarlyHeart.8": "Y'know, I keep seeing you run around without a jacket. As a doctor, I have to advise against that.$a#$b#Here, you could have mine for now, but seriously, bundle up more. Doctor's orders.[(S)1018]",
+    "AfterDark.Core.Harvey.Fall.EarlyHeart.9": "I know you're the type to forage a lot, so be careful while you're out there, yeah?#$b#While fall is the time for a lot of mushrooms, there's been many cases of people mistaking the good ones from the bad ones.$s",
+    "AfterDark.Core.Harvey.Fall.EarlyHeart.10": "In a pinch, blackberry leaves can be used as a gargle for mouth and throat inflamation.#$b#But... Don't get any ideas, please. Due to the high levels of tannins, it can cause nausea and vomiting.$s#$b#If you have a cold or just a sore throat, you should always stop by the clinic. The stuff I have in here works a hell of a lot better.$h",
+    "AfterDark.Core.Harvey.Fall.EarlyHeart.11": "Say, have you found any hazelnut lately? It makes a wonderful addition to coffee when roasted.#$b#I'll have to brew you some whenever I get my hands on it, the flavor's to die for.$h",
+    "AfterDark.Core.Harvey.Fall.EarlyHeart.12": "That'll be the last time I try one of their 'new and better fall flavors!'$s#$b#I'm so tired of falling for all the same gimicks these coffee companies run on their products.$a#$b#It tasted like dirt. Such a shame to put good coffee beans to waste like that...$s",
+    "AfterDark.Core.Harvey.Fall.EarlyHeart.13": "Make sure you're keeping your windows closed and locked at night. With this type of weather, I fear the slightest breeze could trigger a cold.$s#$b#Though I'd love the business, I'd hate to see someone as {{LDescript}} as you sick.$h",
+    "AfterDark.Core.Harvey.Fall.EarlyHeart.14": "%You overhear Harvey mumbling something about lost medical records and patient's perscriptions. Maybe it's best you leave him alone to actually work today.",
 
-    /*
-    %You overhear Harvey mumbling to himself.
-    Hm, oh, sorry petname. I just...
-    Ugh, I have so much work to do this time of year, it being flu season and all. Why don't you keep me company for a bit?
+    "AfterDark.Core.Harvey.Fall.MidHeart.1": "%You overhear Harvey mumbling to himself.#$b#Hm, oh, sorry {{LPetName}}. I just...#$b#Ugh, I have so much work to do this time of year, it being flu season and all.$s#$b#Why don't you keep me company for a bit?",
+    "AfterDark.Core.Harvey.Fall.MidHeart.2": "Oh, hold on. You look...$a#$b#%Harvey presses his fingers to your throat, feeling for any abnormalities.#$b#Do me a favor, say 'ahh'.#$b#Mmm. Just what I thought.$a#$b#You need some rest. You look like you might come down with a cold if you don't bundle up, {{LPetName}}.$s",
+    "AfterDark.Core.Harvey.Fall.MidHeart.3": "I could really go for a cup of coffee right now...$s#$b#Ugh, there's nothing better than a fresh cup on a cold day like this.$h#$b#Speaking of, I was just about to go put another pot of my favorite brew on, would you like some?",
+    "AfterDark.Core.Harvey.Fall.MidHeart.4": "You aren't still going into the mines, are you?$a#$b#{{PetName}}, you know better than that. You could risk making your condition worse.$a#$b#At least tell me before you go down, yeah? That way I can stock up on extra supplies when I sa-$s#$b#Err... If you come into the office afterwards. ",
+    "AfterDark.Core.Harvey.Fall.MidHeart.5": "You are maintaining a good diet, right, {{LPetName}}?$a#$b#I know treats like Gus' pizza are good for its price, but make sure you're still eating veggies.$a#$b#You can't indulge in too much greasy food in your condition.$s",
+    "AfterDark.Core.Harvey.Fall.MidHeart.6": "I know you're growing a few pumpkins on your farm, if you intend to carve them please be careful, I wouldn't want you cutting yourself on accident.$s#$b#You can always bring them to me, I mean, believe it or not I know my way around a bone saw, so how hard could a carving knife be?$h",
+    "AfterDark.Core.Harvey.Fall.MidHeart.7": "Ugh, all this lab work I've been doing has really been making my head spin.$s#$b#Honestly, I think it's the loneliness making it worse.$s#$b#Say, why don't you come and keep me company one of these days?#$b#It'd make it a hell of a lot more enjoyable running your results with you there next to me.$l",
+    "AfterDark.Core.Harvey.Fall.MidHeart.8": "Y'know, it's a little too cold to be wearing something like that, especially with your disease.$a#$b#Go back home and bundle up. As your doctor, the last thing I want is for you to get worse.$a",
+    "AfterDark.Core.Harvey.Fall.MidHeart.9": "Ugh, sometimes I think about moving to the city for a better chance at a successful clinic, but...$s#$b#...$s#$b#I don't know, something about a peaceful life on a farm has been drawing me back into staying.$l",
+    "AfterDark.Core.Harvey.Fall.MidHeart.10": "Tch. My fingers are already starting to go numb and it's only fall.$s#$b#Hmm... Maybe some skin to skin contact would help get my blood flowing properly again.#$b#What do you think?$l",
+    "AfterDark.Core.Harvey.Fall.MidHeart.11": "Aww, {{LPetName}}. You always look so cute running around doing your errands, but...#$b#Are you sure you should be doing all this in your condition?$s",
+    "AfterDark.Core.Harvey.Fall.MidHeart.12": "$y 'You seem a bit stressed, are you alright?_It's all the farmwork..._Aww, {{LPetName}}. You need to take it easy. Someone in your health shouldn't work too hard.$h_It's the disease..._Aww, {{LPetName}}. You're doing an amazing job taking care of it though! I'm sure you'll live a long life despite it.$h'",
+    "AfterDark.Core.Harvey.Fall.MidHeart.13": "Are you always this kind to everyone? Or just me.#$b#Or... Is it just because I'm your doctor?$s#$b#You don't have to put on a fascade around me, {{LPetName}}.$s#$b#I want you to treat me like any normal friend... Or... Potentially more than.",
+    "AfterDark.Core.Harvey.Fall.MidHeart.14": "Ugh, this weather would be perfect to open a book and sit next to a fireplace all day.$h#$b#Too bad I have some paperwork to finish up...$s",
 
-    Oh, hold on. You look...
-    %Harvey presses his fingers to your throat, feeling for any abnormalities.
-    Do me a favor, say 'ahh'.
-    Mmm. Just what I thought. You need some rest, you look like you might come down with a cold if you don't bundle up, petname. 
-
-    I could really go for a cup of coffee right now... Ugh, there's nothing better than a fresh cup on a cold day like this.
-    Speaking of, I was just about to go put another pot of my favorite brew on, would you like some?
-
-    You aren't still going into the mines, are you? 
-    Petname, you know better than that. You could risk making your condition worse. 
-    At least tell me before you go down, yeah? That way I can stock up on extra supplies when I sa-
-    Err... If you come into the office afterwards. 
-
-    Make sure you're still maintaining a good diet, petname.
-    I know treats like Gus' pizza are good for its price, but make sure you're still eating veggies. You can't indulge in too much greasy food in your condition. 
-
-    I know you're growing a few pumpkins on your farm, if you intend to carve them please be careful, I wouldn't want you cutting yourself on accident.
-    You can always bring them to me, I mean, believe it or not I know my way around a bone saw, so how hard could a carving knife be?
-
-    All this labwork I've been doing has really been making my head spin.
-    I think it's the loneliness making it worse, honestly. 
-    Say, why don't you come and keep me company one of these days? It'd make it a hell of a lot more enjoyable running your results with you there next to me.
-    
-    Y'know, it's a little too cold to be wearing something like that, especially with your disease. 
-    Go back home and bundle up. As your doctor, the last thing I want is for you to get worse. 
-
-    Ugh, sometimes I think about moving to the city for a better chance at a successful clinic, but...
-    ...
-    I don't know, something about a peaceful life on a farm has been drawing me back into staying. 
-
-    Tch. My fingers are already starting to go numb and it's only fall. 
-    Hmm... Maybe some skin to skin contact would help get my blood flowing properly again. What do you think? 
-
-    Aww, petname. You always look so cute running around doing your errands, but...
-    Are you sure you should be doing all this in your condition? 
-
-    You seem a bit stressed, are you alright?
-    _It's all the farmwork..._Aww, petname. You need to take it easy. Someone in your health shouldn't work too hard.
-    _It's the disease..._Aww, petname. You're doing an amazing job taking care of it though! I'm sure you'll live a long life despite it.
-
-    Are you always this kind to everyone? Or just me.
-    Or... Is it just because I'm your doctor?
-    You don't have to put on a fascade around me, petname. I want you to treat me like any normal friend... Or... Potentially more than.
-    
-    Ugh, this weather would be perfect to open a book and sit next to a fireplace all day. 
-    Too bad I have some paperwork to finish up...
-    */
-
-    "AfterDark.Core.Harvey.Fall.MidHeart.1": "",
-    "AfterDark.Core.Harvey.Fall.MidHeart.2": "",
-    "AfterDark.Core.Harvey.Fall.MidHeart.3": "",
-    "AfterDark.Core.Harvey.Fall.MidHeart.4": "",
-    "AfterDark.Core.Harvey.Fall.MidHeart.5": "",
-    "AfterDark.Core.Harvey.Fall.MidHeart.6": "",
-    "AfterDark.Core.Harvey.Fall.MidHeart.7": "",
-    "AfterDark.Core.Harvey.Fall.MidHeart.8": "",
-    "AfterDark.Core.Harvey.Fall.MidHeart.9": "",
-    "AfterDark.Core.Harvey.Fall.MidHeart.10": "",
-    "AfterDark.Core.Harvey.Fall.MidHeart.11": "",
-    "AfterDark.Core.Harvey.Fall.MidHeart.12": "",
-    "AfterDark.Core.Harvey.Fall.MidHeart.13": "",
-    "AfterDark.Core.Harvey.Fall.MidHeart.14": "",
-
-    /*
-    This season always brings the loveliest shades of reds and oranges to the leaves.
-    ... Hm...
-    I can't wait to see just how many different shades your face can make too.
-
-    I can almost feel the winter breezes coming through already.
-    Though, at least this year I can enjoy them with you. 
-
-    ...$l Sorry? I was staring?
-    Sorry, I can't help it. I swear, I fall faster than the leaves whenever you're around, petname.
-
-    Hey, what are you doing out here? Someone in your condition shouldn't be running around the town like this, and you know that.
-    ...
-    Just make sure you get home at a decent hour, yeah? The only thing scarier than a flare up is a world without you, petname. 
-
-    Ugh, flu season is so taxing on my body. I know I should be grateful for the business but...
-    Hey, here's an idea. Why don't you spend the day with me? I could keep an eye on your condition and I get good company out of it. 
-
-    D'you know if you suck too hard on someone's neck, you could burst an artery?
-    I've seen it happen a few times in med school, so safe to say I got a pretty good understanding of when to stop. 
-    Or... When not to stop. 
-
-    Brrr... It's chilly out today. I can't imagine how cold winter'll get.
-    Hm, speaking of, make sure you're bundled up, petname. After all, cold feet can statistically get in the way of orgasming.
-
-    I'm really started to get annoyed with all the leaves falling around, they make every floor slippery for some reason.
-    Do take care, petname. I can't have you slipping and falling for anyone else. You belong to me.
-
-    Did you know the human tongue has over eight thousand tastebuds? 
-    Honestly, I've been meaning to run an experiment involving that little known fact. Care to be a subject, petname? 
-
-    Mmmm, oh hey. Your cheeks are red, presumably from the cold? Or from me? 
-    Well, no matter. Wait, speaking of, did you know when you blush, your stomach also blushes? I thought it was a cute fact you might enjoy now that we've been talking more often.  
-
-    Did you know tastebuds are replaced every ten days or so?
-    Hmm... Maybe we should kiss so I can always keep you on mine. 
-
-    I swear, I always get such a rush when you come by. I don't think I've personally tried any drugs that come close to the high you give me, petname. 
-
-    Isn't it so nice getting to marry a doctor? I may not be the richest, but I'm probably the most knowledgable on taking proper care of you, petname.
-    ... What do you mean we're not getting married yet? 
-
-    Tch. I've been needing to brush up on my anatomy lately. I can feel myself forgetting some of the basics...
-    Hm, would you mind being a model for me one of these days? We can make it a date if you'd like.
-    */
-
-    "AfterDark.Core.Harvey.Fall.LateHeart.1": "",
-    "AfterDark.Core.Harvey.Fall.LateHeart.2": "",
-    "AfterDark.Core.Harvey.Fall.LateHeart.3": "",
-    "AfterDark.Core.Harvey.Fall.LateHeart.4": "",
-    "AfterDark.Core.Harvey.Fall.LateHeart.5": "",
-    "AfterDark.Core.Harvey.Fall.LateHeart.6": "",
-    "AfterDark.Core.Harvey.Fall.LateHeart.7": "",
-    "AfterDark.Core.Harvey.Fall.LateHeart.8": "",
-    "AfterDark.Core.Harvey.Fall.LateHeart.9": "",
-    "AfterDark.Core.Harvey.Fall.LateHeart.10": "",
-    "AfterDark.Core.Harvey.Fall.LateHeart.11": "",
-    "AfterDark.Core.Harvey.Fall.LateHeart.12": "",
-    "AfterDark.Core.Harvey.Fall.LateHeart.13": "",
-    "AfterDark.Core.Harvey.Fall.LateHeart.14": "",
-
-    /*
-    Did I hear you sneeze? 
-    Well, did you know that holly leaves can be used to treat a variety of ailments, including allergy symptoms?
-    Though, their berries can cause quite a few issues. Large quantities often leaving people bedridden. 
-    Right, I guess I did get off track. Did you need something for your sneezing? 
-
-    Mmmm... Hot chocolate in this weather would be to die for, wouldn't you agree?
-    Though, What really interests me would be a mocha coffee of some sort... I'll have to test that one out later. 
-
-    Hmph, I can't believe it's been almost a year and I still have yet to properly get to know you, petname. 
-    Shall we make it a new year's resolution to get to know one another? 
-
-    Make sure you're dripping your faucets and leaving the heat on. 
-    Yoba knows the one thing worse than a doctor's pill is a plumber's...
-
-    Hm? Can I help you?
-    Sorry, this season's just busy for me and I don't have much time to socialize. 
-    I'll make it a mission to get to know you more after cold and flu season's over, promise.
-
-    Listen, I know winter means ample opportunity to make progress in the mines, but please be careful. 
-    Though I enjoy your company, having you in one of my hospital beds is far from ideal.
-
-    I guess I should be flattered you came all this way despite the weather, huh?
-    Would you like me to fetch a blanket and some hot cocoa for you? It's the least I could do.
-
-    Fresh air is good for the body, but with this weather, spending too much time outside can be dangerous for your health.
-    Make sure you don't wander around too much, yeah? 
-
-    Don't take this the wrong way, but please, if I do something that makes you uncomfortable, do tell me.
-    There's nothing I hate more than to causing a patient displeasure. 
-
-    You trust me, right? As your doctor, of course...
-    I only want what's best for you, petname. 
-
-    %You notice Harvey running his fingers through his hair, clearly stressed. 
-    Not now, @. I have a lot of work to finish. 
-    ... Actually, I wouldn't mind your company. Maybe I could bounce a few ideas off of you.
-    Do you know anything about Polyarthralgia?
-
-    Winter's your off season, right?
-    Well, for me it's the opposite... Flu season's in full force this year and paperwork keeps piling up...
-
-    I was hoping you could plant this when spring comes around so it'll be ready for harvest once summer hits.
-    Vitamin C's good for the immune system and all. [630] //orange tree
-
-    With how cold it's gotten, I hope your fireplace is cleaned and working properly.
-    If you need help, don't hesitate to ask. I'm more than willing to come over and take a look. 
-    You'd be surprised on the amount of soot-related injuries I've seen...
-    */
+    "AfterDark.Core.Harvey.Fall.LateHeart.1": "This season always brings the loveliest shades of reds and oranges to the leaves.#$b#...$l#$b#Hm...$l#$b#I can't wait to see just how many different shades your face can make too.$l",
+    "AfterDark.Core.Harvey.Fall.LateHeart.2": "I can almost feel the winter breezes coming through already.$s#$b#Though, at least this year I can enjoy them with you.$l",
+    "AfterDark.Core.Harvey.Fall.LateHeart.3": "...$l#$b#Sorry? I was staring?$7#$b#Sorry, I can't help it!$h#$b#I swear, I fall faster than the leaves whenever you're around, {{LPetName}}.$l",
+    "AfterDark.Core.Harvey.Fall.LateHeart.4": "Hey, what are you doing out here?$a#$n#Someone in your condition shouldn't be running around the town like this, and you know that.$a#$b#...$a#$b#...#$b#Just make sure you get home at a decent hour, yeah?$s#$b#The only thing scarier than a flare up is a world without you, {{LPetName}}.$s",
+    "AfterDark.Core.Harvey.Fall.LateHeart.5": "Ugh, flu season is so taxing on my body. I know I should be grateful for the business but...$s#$b#Hey, here's an idea.#$b#Why don't you spend the day with me?#$b#I could keep an eye on your condition and you can get good company out of it.",
+    "AfterDark.Core.Harvey.Fall.LateHeart.6": "D'you know if you suck too hard on someone's neck, you could burst an artery?#$b#I've seen it happen a few times in med school, so safe to say I got a pretty good understanding of when to stop.$h#$b#Or... When not to stop.$l",
+    "AfterDark.Core.Harvey.Fall.LateHeart.7": "Brrr... It's chilly out today. I can't imagine how cold winter'll get.$s#$b#Make sure you're bundled up, yeah?#$b#Can't have the town's farmer getting sick before harvest season is over.",
+    "AfterDark.Core.Harvey.Fall.LateHeart.8": "I'm really started to get annoyed with all the leaves falling around, they make every floor slippery for some reason.$s#$b#Do take care, {{LPetName}}.#$b#I can't have you slipping and falling for anyone else.$a#$b#You belong to me.$l",
+    "AfterDark.Core.Harvey.Fall.LateHeart.9": "Did you know the human tongue has over eight thousand tastebuds?#$b#Honestly, I've been meaning to run an experiment involving that little known fact.#$b#Care to be a subject, {{LPetName}}?$l",
+    "AfterDark.Core.Harvey.Fall.LateHeart.10": "Mmmm, oh hey.#$b#Your cheeks are red, presumably from the cold?#$b#Or from me?$l#$b#Well, no matter.$h#$b#Wait, speaking of, did you know when you blush, your stomach also blushes?#$b#I thought it was a cute fact you might enjoy now that we've been talking more often.$h",
+    "AfterDark.Core.Harvey.Fall.LateHeart.11": "Did you know tastebuds are replaced every ten days or so?#$b#Hmm... Maybe we should kiss so I can always keep you on mine.$l",
+    "AfterDark.Core.Harvey.Fall.LateHeart.12": "I swear, I always get such a rush when you come by.$h#$b#I don't think I've personally tried any drugs that come close to the high you give me, {{LPetName}}.$l",
+    "AfterDark.Core.Harvey.Fall.LateHeart.13": "Isn't it so nice getting to marry a doctor?$h#$b#I may not be the richest, but I'm probably the most knowledgable on taking proper care of you, {{LPetName}}.$l#$b#...#$b#What do you mean we're not getting married yet?$s",
+    "AfterDark.Core.Harvey.Fall.LateHeart.14": "Tch. I've been needing to brush up on my anatomy lately. I can feel myself forgetting some of the basics...$s#$b#Hm, would you mind being a model for me one of these days? We can make it a date if you'd like.$l",
 
     // WINTER
-    "AfterDark.Core.Harvey.Winter.EarlyHeart.1": "",
-    "AfterDark.Core.Harvey.Winter.EarlyHeart.2": "",
-    "AfterDark.Core.Harvey.Winter.EarlyHeart.3": "",
-    "AfterDark.Core.Harvey.Winter.EarlyHeart.4": "",
-    "AfterDark.Core.Harvey.Winter.EarlyHeart.5": "",
-    "AfterDark.Core.Harvey.Winter.EarlyHeart.6": "",
-    "AfterDark.Core.Harvey.Winter.EarlyHeart.7": "",
-    "AfterDark.Core.Harvey.Winter.EarlyHeart.8": "",
-    "AfterDark.Core.Harvey.Winter.EarlyHeart.9": "",
-    "AfterDark.Core.Harvey.Winter.EarlyHeart.10": "",
-    "AfterDark.Core.Harvey.Winter.EarlyHeart.11": "",
-    "AfterDark.Core.Harvey.Winter.EarlyHeart.12": "",
-    "AfterDark.Core.Harvey.Winter.EarlyHeart.13": "",
-    "AfterDark.Core.Harvey.Winter.EarlyHeart.14": "",
+    "AfterDark.Core.Harvey.Winter.EarlyHeart.1": "Did I hear you sneeze?$a#$b#Well, did you know that holly leaves can be used to treat a variety of ailments, including allergy symptoms?#$b#Though, their berries can cause quite a few issues. Large quantities often leaving people bedridden.$s#$b#Right, I guess I did get off track. Did you need something for your sneezing?",
+    "AfterDark.Core.Harvey.Winter.EarlyHeart.2": "Mmmm... Hot chocolate in this weather would be to die for, wouldn't you agree?#$b#Though, What really interests me would be a mocha coffee of some sort... I'll have to test that one out later.$h",
+    "AfterDark.Core.Harvey.Winter.EarlyHeart.3": "Hmph, I can't believe it's been almost a year and I still have yet to properly get to know you, {{LPetName}}.$s#$b#Shall we make it a new year's resolution to get to know one another?$h",
+    "AfterDark.Core.Harvey.Winter.EarlyHeart.4": "Make sure you're dripping your faucets and leaving the heat on.#$b#Yoba knows the one thing worse than a doctor's pill is a plumber's...$s",
+    "AfterDark.Core.Harvey.Winter.EarlyHeart.5": "Hm? Can I help you?#$b#Sorry, this season's just busy for me and I don't have much time to socialize.$s#$b#I'll make it a mission to get to know you more after cold and flu season's over, promise.$h",
+    "AfterDark.Core.Harvey.Winter.EarlyHeart.6": "Listen, I know winter means ample opportunity to make progress in the mines, but please be careful.#$b#Though I enjoy your company, having you in one of my hospital beds is far from ideal.$s",
+    "AfterDark.Core.Harvey.Winter.EarlyHeart.7": "I guess I should be flattered you came all this way despite the weather, huh?$h#$b#Would you like me to fetch a blanket and some hot cocoa for you? It's the least I could do.",
+    "AfterDark.Core.Harvey.Winter.EarlyHeart.8": "Fresh air is good for the body, but with this weather, spending too much time outside can be dangerous for your health.#$b#Make sure you don't wander around too much, yeah? ",
+    "AfterDark.Core.Harvey.Winter.EarlyHeart.9": "Don't take this the wrong way, but please, if I do something that makes you uncomfortable, do tell me.#$b#There's nothing I hate more than to causing a patient displeasure.$s",
+    "AfterDark.Core.Harvey.Winter.EarlyHeart.10": "You trust me, right? As your doctor, of course...#$b#After all, I only want what's best for you, {{LPetName}}.$l#$e#Hm? Did I say something wrong?",
+    "AfterDark.Core.Harvey.Winter.EarlyHeart.11": "%You notice Harvey running his fingers through his hair, clearly stressed.#$b#Not now, @. I have a lot of work to finish.$s#$b#...$s#$b#Actually, I wouldn't mind your company. Maybe I could bounce a few ideas off of you.#$b#Do you know anything about Polyarthralgia?",
+    "AfterDark.Core.Harvey.Winter.EarlyHeart.12": "Winter's your off season, right?#$b#Well, for me it's the opposite... Flu season's in full force this year and paperwork keeps piling up...$s",
+    "AfterDark.Core.Harvey.Winter.EarlyHeart.13": "I was hoping you could plant this when spring comes around so it'll be ready for harvest once summer hits.#$b#Vitamin C's good for the immune system and all.[630]$h",
+    "AfterDark.Core.Harvey.Winter.EarlyHeart.14": "With how cold it's gotten, I hope your fireplace is cleaned and working properly.#$b#If you need help, don't hesitate to ask. I'm more than willing to come over and take a look.$h#$b#You'd be surprised on the amount of soot-related injuries I've seen...$s",
 
-    /*
-    Hmm... I guess now that it's winter you finally have enough time for me--
-    Err... your treatments. You'll be coming by a lot more frequently, right?
+    "AfterDark.Core.Harvey.Winter.MidHeart.1": "Hmm... I guess now that it's winter you finally have enough time for me—$l#$b#Err... your treatments.$7#$b#You'll be coming by a lot more frequently, right?$h",
+    "AfterDark.Core.Harvey.Winter.MidHeart.2": "Please, {{LPetName}}, be sure you're drinking and eating something that's nice and warm during this cold season.$s#$b#I'd offer a suggestion, but I don't want to be too forward just yet.$l",
+    "AfterDark.Core.Harvey.Winter.MidHeart.3": "You look a bit flush, are you feeling alright?$8#$b#I don't have my thermometer on me, but using my lips against your forehead would quickly test if you're running a fever.#$b#Could I try?$l",
+    "AfterDark.Core.Harvey.Winter.MidHeart.4": "...$a#$b#Ugh, sorry, I just can't put my name on—$a#$b#Oh, Crocus! That's what it's called...$h#$b#Anyways, did you know that the spice harvested from the flower has several terribly interesting medicinal properties, @?#$b#It has anti-depressant, anti-inflammatory, and… sedative properties.$l",
+    "AfterDark.Core.Harvey.Winter.MidHeart.5": "Oh, you're shivering!$8#$b#$y 'Here, come with me, I'll get you something warm to drink and a blanket, yeah?_I'd rather you warm me up yourself._Oh... @... I love where you're thinking but you're still getting the blanket. Doctor's orders.$h_Thank you..._Anything for my favorite patient.$h'",
+    "AfterDark.Core.Harvey.Winter.MidHeart.6": "Jeez, I can't believe the year's already coming to an end.$s#$b#Am I crazy or do I feel like I barely know you? I know I have all your medical records but...#$b#I want to know everything about you, petname.$l",
+    "AfterDark.Core.Harvey.Winter.MidHeart.7": "Oh, your lips look dry.$8#$b#I mean, if you're interested, I have a salve or two which might be able to help.$l",
+    "AfterDark.Core.Harvey.Winter.MidHeart.8": "If you're ever needing a change of scenery, feel free to rest in my apartment above the clinic.#$b#Knowing where you are means I worry less anyway.$h",
+    "AfterDark.Core.Harvey.Winter.MidHeart.9": "I swear, I knew from the moment we met that you'd be someone special to me.$l#$b#Do you think we could professional relationship aside and get to know each other better?$l",
+    "AfterDark.Core.Harvey.Winter.MidHeart.10": "...$a#$b#Hm? Oh, sorry, I got into a tussle with another patient this morning.#$b#I guess they can't all be as {{LDescript}} as you.$h",
+    "AfterDark.Core.Harvey.Winter.MidHeart.11": "%Harvey seems distracted, listing a few conditions and their known symptoms, almost like he's quizzing himself so he won't forget.#$b#...#$b#...$8#$b#Oh, @! Sorry, didn't see you there.$h#$b#Yoba, with the way you keep sneaking up on me, it can't be good for my heart.$s",
+    "AfterDark.Core.Harvey.Winter.MidHeart.12": "Oh, you look stressed today. Is it the disease flaring up?$s#$b#Do you need to come to the back and rest for a bit? You worry me, {{LPetName}}.$s",
+    "AfterDark.Core.Harvey.Winter.MidHeart.13": "I've been reading the most fascinating journal lately. It's been giving me some wonderful ideas for new treatments on your condition.$h#$b#I hope this doesn't make you feel like too much of a guinea pig, but I can't help it.$h",
+    "AfterDark.Core.Harvey.Winter.MidHeart.14": "Hey, I know it's a little early but, I was hoping you'd wear this.#$b#I found it outside the mines and the light reminded me so much of your eyes.[888]$l",
 
-    Make sure you're washing your hands frequently, yeah? You're immunocompromised due to your disease and I'd hate how bad the flu would feel to someone in your condition. 
-
-    Please, petname, be sure you're drinking and eating something that's nice and warm during this cold season.
-    I'd offer a suggestion, but I don't want to be too forward just yet. 
-
-    You look a bit flush, are you feeling alright?
-    I don't have my thermometer on me, but using my lips against your forehead would quickly test if you're running a fever.
-    Could I try?
-
-    ...
-    Ugh, sorry, I just can't put my name on-Oh, Crocus! That's what it's called...
-    Anyways, did you know that the spice harvested from the flower has several terribly interesting medicinal properties, @? 
-    It has anti-depressant, anti-inflammatory, and… sedative properties.
-
-    Oh, you're shivering! 
-    Here, come with me, I'll get you something warm to drink and a blanket, yeah?_I'd rather you warm me up yourself._Oh... @... I love where you're thinking but you're still getting the blanket. Doctor's orders._Thank you..._Anything for my favorite patient. 
-
-    Jeez, I can't believe the year's already coming to an end.
-    Am I crazy or do I feel like I barely know you? I know I have all your medical records but...
-    I want to know everything about you, petname. 
-
-    Oh, your lips look dry.
-    I mean, if you're interested, I have a salve or two which might be able to help. 
-
-    If you're ever needing a change of scenery, feel free to rest in my apartment above the clinic.
-    Knowing where you are means I worry less anyway. 
-
-    I swear, I knew from the moment we met that you'd be someone special to me.
-    Do you think we could professional relationship aside and get to know each other better?
-
-    ...$a
-    Hm? Oh, sorry, I got into a tussle with another patient this morning. 
-    I guess they can't all be as {{LDescript}} as you.
-
-    %Harvey seems distracted, listing a few conditions and their known symptoms, almost like he's quizzing himself so he won't forget.
-    ...
-    Oh, @! Sorry, didn't see you there.
-    Yoba, with the way you keep sneaking up on me, it can't be good for my heart. 
-
-    Oh, you look stressed today. Is it the disease flaring up? 
-    Do you need to come to the back and rest for a bit? You worry me, petname.
-
-    I've been reading the most fascinating journal lately. It's been giving me some wonderful ideas for new treatments on your condition. 
-    I hope this doesn't make you feel like too much of a guinea pig, but I can't help it.
-
-    Hey, I know it's a little early but, I was hoping you'd wear this.
-    I found it outside the mines and the light reminded me so much of your eyes. [888] //glowstone ring
-    */
-
-    "AfterDark.Core.Harvey.Winter.MidHeart.1": "",
-    "AfterDark.Core.Harvey.Winter.MidHeart.2": "",
-    "AfterDark.Core.Harvey.Winter.MidHeart.3": "",
-    "AfterDark.Core.Harvey.Winter.MidHeart.4": "",
-    "AfterDark.Core.Harvey.Winter.MidHeart.5": "",
-    "AfterDark.Core.Harvey.Winter.MidHeart.6": "",
-    "AfterDark.Core.Harvey.Winter.MidHeart.7": "",
-    "AfterDark.Core.Harvey.Winter.MidHeart.8": "",
-    "AfterDark.Core.Harvey.Winter.MidHeart.9": "",
-    "AfterDark.Core.Harvey.Winter.MidHeart.10": "",
-    "AfterDark.Core.Harvey.Winter.MidHeart.11": "",
-    "AfterDark.Core.Harvey.Winter.MidHeart.12": "",
-    "AfterDark.Core.Harvey.Winter.MidHeart.13": "",
-    "AfterDark.Core.Harvey.Winter.MidHeart.14": "",
-
-    /*
-    Oh, you're shivering... Here, let me help.
-    %Harvey takes your hands, bringing them to his lips, seemingly to ghost his lips over them.
-    Sorry, I needed to be selfish. My lips were blue from the cold as well. 
-
-    Do you have enough blankets and firewood? I know that house must be cold without me in it. 
-
-    Mmmm... Days like this always make me want to cuddle up next to a fireplace with my favorite person...
-    Maybe partake in some more 'warming' activities as well...
-
-    Have you ever made snow angels before?
-    Well, I'm sure with how angelic you are, petname, they'd be perfect every time. 
-
-    Oh, I hate to sound needy but could you spend the night?
-    My heater ran out and it's too cold to sleep without someone else... 
-
-    Has anyone ever told you just how warming your smile is? 
-    I swear, it always feels like a few degrees rise when we're in the same room. 
-
-    Y'know, the best way for me to monitor your health is for you to come by more often. 
-    Or, I could move in finally. I know that little farmhouse of yours is cold without me. 
-
-    You know a kiss could increase a person's pulse rate to 100 beats per minute or more.
-    I mean, I've got a stethoscope at the ready if you'd like to try.
-
-    ...$l#$b#Sorry, sometimes I like to imagine what it'd be like if our roles were reversed. It'd be cute to see you taking care of me, but I think it'd be best if we kept the medicine to me, yeah, petname?
-
-    I had the strangest dream about you last night...
-    Say, do you think it'd be hard to tie you down? Maybe rope would do the trick or... No, you'd need something more medicinal...
-
-    Until we can observe local traditions, I was hoping you could...
-    Err... I was hoping you could wear this. I wanted you to have something that'd symbolize my ever growing love and want for you, petname... [527] // iridium band
-    I hope it'll guide you back to me if you ever get lost. 
-
-    Hey, I got you something that I thought you'd like. [74] //prismatic shard
-    Hm? Where'd I get a prismatic shard? Oh... Er... Marlon gave it to me last time I went up near the mines to...
-    Sorry, do the details really matter? 
-
-    Here, this is for you. [72] //diamond
-    Did you know that diamonds are actually made after being subjected to intense heat and pressure? 
-    I'd love to see how you'd turn out under similar conditions...
-
-    ...$l
-    Sorry, your cheeks have such a lovely pink glow to them in this weather. 
-    I swear, I wish you'd hide away in my apartment so only I could be the one to see you like this.
-    */
-
-    "AfterDark.Core.Harvey.Winter.LateHeart.1": "",
-    "AfterDark.Core.Harvey.Winter.LateHeart.2": "",
-    "AfterDark.Core.Harvey.Winter.LateHeart.3": "",
-    "AfterDark.Core.Harvey.Winter.LateHeart.4": "",
-    "AfterDark.Core.Harvey.Winter.LateHeart.5": "",
-    "AfterDark.Core.Harvey.Winter.LateHeart.6": "",
-    "AfterDark.Core.Harvey.Winter.LateHeart.7": "",
-    "AfterDark.Core.Harvey.Winter.LateHeart.8": "",
-    "AfterDark.Core.Harvey.Winter.LateHeart.9": "",
-    "AfterDark.Core.Harvey.Winter.LateHeart.10": "",
-    "AfterDark.Core.Harvey.Winter.LateHeart.11": "",
-    "AfterDark.Core.Harvey.Winter.LateHeart.12": "",
-    "AfterDark.Core.Harvey.Winter.LateHeart.13": "",
-    "AfterDark.Core.Harvey.Winter.LateHeart.14": "",
+    "AfterDark.Core.Harvey.Winter.LateHeart.1": "Oh, you're shivering... Here, let me help.$8#$b#%Harvey takes your hands, bringing them to his lips, seemingly to ghost his lips over them.#$b#Sorry, I needed to be selfish. My lips were blue from the cold as well.$l",
+    "AfterDark.Core.Harvey.Winter.LateHeart.2": "Do you have enough blankets and firewood?#$b#I know that house must be cold without me in it.$s",
+    "AfterDark.Core.Harvey.Winter.LateHeart.3": "Mmmm... Days like this always make me want to cuddle up next to a fireplace with my favorite person...$l#$b#Maybe partake in some more 'warming' activities as well...$l",
+    "AfterDark.Core.Harvey.Winter.LateHeart.4": "Have you ever made snow angels before?#$b#Well, I'm sure with how angelic you are, {{LPetName}}, they'd be perfect every time.$l",
+    "AfterDark.Core.Harvey.Winter.LateHeart.5": "Oh, I hate to sound needy but could you spend the night?#$b#My heater ran out and it's too cold to sleep without someone else...$l",
+    "AfterDark.Core.Harvey.Winter.LateHeart.6": "Has anyone ever told you just how warming your smile is?$l#$b# I swear, it always feels like a few degrees rise when we're in the same room.$l",
+    "AfterDark.Core.Harvey.Winter.LateHeart.7": "Y'know, the best way for me to monitor your health is for you to come by more often.#$b#Or, I could move in finally. I know that little farmhouse of yours is cold without me.$l",
+    "AfterDark.Core.Harvey.Winter.LateHeart.8": "You know a kiss could increase a person's pulse rate to 100 beats per minute or more?#$b#I mean, I've got a stethoscope at the ready if you'd like to try.$l",
+    "AfterDark.Core.Harvey.Winter.LateHeart.9": "...$l#$b#Sorry, sometimes I like to imagine what it'd be like if our roles were reversed.$l#$b#It'd be cute to see you taking care of me, but I think it'd be best if we kept the medicine to me, yeah, {{LPetName}}?$h",
+    "AfterDark.Core.Harvey.Winter.LateHeart.10": "I had the strangest dream about you last night...$h#$b#Say, do you think it'd be hard to tie you down? Maybe rope would do the trick or...$l#$b#No, you'd need something more medicinal...$l",
+    "AfterDark.Core.Harvey.Winter.LateHeart.11": "Until we can observe local traditions, I was hoping you could...#$b#Err... I was hoping you could wear this. I wanted you to have something that'd symbolize my ever growing love and want for you, {{LPetName}}... [527]$h#$b#I hope it'll guide you back to me if you ever get lost.$l",
+    "AfterDark.Core.Harvey.Winter.LateHeart.12": "Hey, I got you something that I thought you'd like. [74]$h#$b#Hm? Where'd I get a prismatic shard?#$b#Oh... Er... Marlon gave it to me last time I went up near the mines to...$s#$b#Sorry, do the details really matter?$s",
+    "AfterDark.Core.Harvey.Winter.LateHeart.13": "Here, this is for you. [72]#$b#Did you know that diamonds are actually made after being subjected to intense heat and pressure?#$b#I'd love to see how you'd turn out under similar conditions...$l",
+    "AfterDark.Core.Harvey.Winter.LateHeart.14": "...$l#$b#Sorry, your cheeks have such a lovely pink glow to them in this weather.$h#$b#I swear, I wish you'd hide away in my apartment so only I could be the one to see you like this.$l",
 
         /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      ████  ███  █   █ █   █ █████ ████  █████  ███  █████ █████  ███  █   █ █████ 
@@ -928,32 +378,20 @@
      GENERIC -- PREMARRIAGE
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-    // D'you know the old myth of carrots stems from one of the first world wars? Apparently, the radars Ferngill Republic developed stumped the Gotoro empire so bad that they resolved that our pilots ate a lot of carrots. Interesting how things like that work, yeah?
-    "AfterDark.Core.Harvey.Conversation.Carrots": "",
-    // I noticed you recently harvested a batch of cranberries, say, do you think I could get a batch of them one of these days? I've been thinking about experimenting with herbal remedies lately and they're perfect for U--Err, a handful of gynelogical problems.
-    "AfterDark.Core.Harvey.Conversation.Cranberries": "",
-    // I haven't really done much research into them, but I'm sure there's some sort of herbal remedy ancient fruit might be able to concoct. 
-    // Who knows, it might even help that disease of yours. 
-    "AfterDark.Core.Harvey.Conversation.AncientFruit": "",
-    // Hm... I don't know how I feel about you growing so much starfruit, petname. Do take care not to indulge too much into your own supply. With your condition, they might have adverse effects on your kidney and... Huh, do I even have a dialysis machine anymore?
-    "AfterDark.Core.Harvey.Conversation.Starfruit": "",
-    // Did you know hops are classified as a sedative? Chemistry sure has a remarkable way of convincing the body to cooperate, doesn't it, petname? 
-    "AfterDark.Core.Harvey.Conversation.Hops": "",
-    // Did you know coffee was one of many natural stimulants? I know it helps a lot when I'm working late at the office.
-    // You should try brewing some of the beans you grow, I'd love a chance to taste coffee straight from the source. 
-    "AfterDark.Core.Harvey.Conversation.Coffee": "",
+    "AfterDark.Core.Harvey.Conversation.Carrots": "D'you know the old myth of carrots stems from one of the first world wars?#$b#Apparently, the radars Ferngill Republic developed stumped the Gotoro empire so bad that they resolved that our pilots ate a lot of carrots.$h#$b#Interesting how things like that work, yeah?",
+    "AfterDark.Core.Harvey.Conversation.Cranberries": "I noticed you recently harvested a batch of cranberries, say, do you think I could get a batch of them one of these days?#$b#I've been thinking about experimenting with herbal remedies lately and they're perfect for U—#$b#Err, a handful of gynelogical problems.",
+    "AfterDark.Core.Harvey.Conversation.AncientFruit": "I haven't really done much research into them, but I'm sure there's some sort of herbal remedy ancient fruit might be able to concoct.#$b#Who knows? It might even help that disease of yours.$h",
+    "AfterDark.Core.Harvey.Conversation.Starfruit": "Hm... I don't know how I feel about you growing so much starfruit, {{LPetName}}.$s#$b#Do take care not to indulge too much into your own supply.#$b#With your condition, they might have adverse effects on your kidney and...$s#$b#Huh, do I even have a dialysis machine anymore?$s", 
+    "AfterDark.Core.Harvey.Conversation.Hops": "Did you know hops are classified as a sedative?#$b#Chemistry sure has a remarkable way of convincing the body to cooperate, doesn't it, {{LPetName}}?$l", 
+    "AfterDark.Core.Harvey.Conversation.Coffee": "Did you know coffee was one of many natural stimulants? I know it helps a lot when I'm working late at the office.$h#$b#You should try brewing some of the beans you grow, I'd love a chance to taste coffee straight from the source.",
 
     // SVE
-    // %You overhear Harvey muttering something about having a craving for homemade pickles. Huh... Didn't you grow some cucumbers recently? It might be a good idea to make some.
-    "AfterDark.Core.Harvey.Conversation.Cucumber": "",
-
-    // You seem so set on diving deep in those mines don't you? I guess as your doctor I can't do too much about it but... Oh, how I wish you were a lot more careful with that disease of yours, petname. 
-    "AfterDark.Core.Harvey.Mines.40": "",
-    // 80 floors? Petname, I've told you just how fragile your condition is. I'm beginning to think you're a glutton for punishment, @.
-    "AfterDark.Core.Harvey.Mines.80": "",
-    // Skull Caverns
-    // Oh @, I know you contracted the disease from our local mines, but seriously? Resulting to taking a bus for minerals? I'm sure that place is just as bad as ours if not worse. 
-    "AfterDark.Core.Harvey.Mines.121": "",
+    "AfterDark.Core.Harvey.Conversation.Cucumber": "%You overhear Harvey muttering something about having a craving for homemade pickles. Huh... Didn't you grow some cucumbers recently? It might be a good idea to make some.",
+ 
+    "AfterDark.Core.Harvey.Mines.40": "You seem so set on diving deep in those mines don't you?$s#$b#I guess as your doctor I can't do too much about it but...$a#$b#Oh, how I wish you were a lot more careful with that disease of yours, {{LPetName}}.$s",
+    "AfterDark.Core.Harvey.Mines.80": "80 floors?$s#$b#{{PetName}}, I've told you just how fragile your condition is.$s#$b#I'm beginning to think you're a glutton for punishment.$a",
+    // Skull Caverns 
+    "AfterDark.Core.Harvey.Mines.121": "Oh @, I know you contracted the disease from our local mines, but seriously?$a#$b#Resulting to taking a bus for minerals?$a#$b#I'm sure that place is just as bad as ours if not worse.$a",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     █████ █████  ███  █      ███  █   █ █████ █   █     ████  █████  ███  █      ███   ████ █   █ █████ 
@@ -986,160 +424,99 @@
      SPECIFICALLY: FLOWER DANCE
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
     
-    // Day After
-    // Was it fun being jerked around by Alex yesterday? It's beyond me how that man still doesn't know the dance when it's so simple. 
-    "AfterDark.FestivalJealousy.Harvey.HasPartner.Alex.Memory": "",
-    // You'd think with all that time reading, Elliott would've been able to properly sweep you off your feet yesterday, petname. It was pathetic, you could practically see his nerves sticking up. 
-    "AfterDark.FestivalJealousy.Harvey.HasPartner.Elliott.Memory": "",
-    // Do you really believe you're the first person he's looked at in that way, petname? I suppose charm does lose its magic once you realize how often it's been practiced.
-    "AfterDark.FestivalJealousy.Harvey.HasPartner.Sam.Memory": "",
-    // I couldn't help but notice how uncomfortable Sebastian was at the dance yesterday. He looked as uncomfortable as ever. Tell me, petname. How often do you find yourself asking him to love the things you do? Eventually, people stop pretending. 
-    "AfterDark.FestivalJealousy.Harvey.HasPartner.Sebastian.Memory": "",
-    // I'm surprised the smell of beer didn't put you off yesterday. I'll expect to see you in my office later, I'm sure Shane's drunken stumbling no doubt bruised your lovely feet. 
-    "AfterDark.FestivalJealousy.Harvey.HasPartner.Shane.Memory": "",
+    // Day After 
+    "AfterDark.FestivalJealousy.Harvey.HasPartner.Alex.Memory": "Was it fun being jerked around by Alex yesterday?$a#$b#It's beyond me how that man still doesn't know the dance when it's so simple.$s",
+    "AfterDark.FestivalJealousy.Harvey.HasPartner.Elliott.Memory": "You'd think with all that time reading, Elliott would've been able to properly sweep you off your feet yesterday, {{LPetName}}.$s#$b#It was pathetic, you could practically see his nerves sticking up.$a",
+    "AfterDark.FestivalJealousy.Harvey.HasPartner.Sam.Memory": "Do you really believe you're the first person he's looked at in that way, {{LPetName}}?$s#$b#I suppose charm does lose its magic once you realize how often it's been practiced.$s", 
+    "AfterDark.FestivalJealousy.Harvey.HasPartner.Sebastian.Memory": "I couldn't help but notice how uncomfortable Sebastian was at the dance yesterday.$s#$b#He looked as uncomfortable as ever.$s#$b#Tell me, {{LPetName}}, how often do you find yourself asking him to love the things you do?$a#$b#Eventually, people stop pretending.$s",
+    "AfterDark.FestivalJealousy.Harvey.HasPartner.Shane.Memory": "I'm surprised the smell of beer didn't put you off yesterday.$s#$b#I'll expect to see you in my office later.#$b#I'm sure Shane's drunken stumbling no doubt bruised your lovely feet.$a",
 
-    // Y'know, with all the things Abigail eats, I'm surprised she was even able to show up yesterday.
-    "AfterDark.FestivalJealousy.Harvey.HasPartner.Abigail.Memory": "",
-    // Haley was so focused on becoming flower queen yesterday, she barely paid attention to you. Why'd you decide to dance with her? 
-    "AfterDark.FestivalJealousy.Harvey.HasPartner.Haley.Memory": "",
-    // ...Emily looked more focused on showing off her own moves yesterday than on you, petname. Next time you should dance with someone who'll give you the attention you deserve.
-    "AfterDark.FestivalJealousy.Harvey.HasPartner.Emily.Memory": "",
-    // The flower dance suits Leah so well... She has a remarkable eye for beauty after all. You should be careful with her, petname. The cruel thing about muses is that they aren't remember for who they are, only for what they gave the artist. 
-    "AfterDark.FestivalJealousy.Harvey.HasPartner.Leah.Memory": "",
-    // Was it fun dancing with Maru yesterday? I'm honestly just surprised her movements weren't more... robotic.
-    "AfterDark.FestivalJealousy.Harvey.HasPartner.Maru.Memory": "",
-    // You danced beautifully with Penny yesterday. I only hope she sees you as an equal, not another promise she's made to herself. 
-    "AfterDark.FestivalJealousy.Harvey.HasPartner.Penny.Memory": "",
+    "AfterDark.FestivalJealousy.Harvey.HasPartner.Abigail.Memory": "Y'know, with all the things Abigail eats, I'm surprised she was even able to show up yesterday.$s", 
+    "AfterDark.FestivalJealousy.Harvey.HasPartner.Haley.Memory": "Haley was so focused on becoming flower queen yesterday, she barely paid attention to you.$s#$b#Why'd you decide to dance with her?$a",
+    "AfterDark.FestivalJealousy.Harvey.HasPartner.Emily.Memory": "Emily looked more focused on showing off her own moves yesterday than on you, {{LPetName}}.$s#$b#Next time you should dance with someone who'll give you the attention you deserve.$l",
+    "AfterDark.FestivalJealousy.Harvey.HasPartner.Leah.Memory": "The flower dance suits Leah so well... She has a remarkable eye for beauty after all.#$b#Though, you should be careful with her, {{LPetName}}.$s#$b#The cruel thing about muses is that they aren't remembered for who they are, only for what they gave the artist.$s",
+    "AfterDark.FestivalJealousy.Harvey.HasPartner.Maru.Memory": "Was it fun dancing with Maru yesterday?$a#$b#I'm honestly just surprised her movements weren't more... robotic.$s",
+    "AfterDark.FestivalJealousy.Harvey.HasPartner.Penny.Memory": "You danced beautifully with Penny yesterday.#$b#I only hope she sees you as an equal, not another promise she's made to herself.$s",
 
     // Otherwise Day After
-    // Were you nervous yesterday, petname? I swear, the only thing I could think about yesterday was how fast your heart was racing.
-    // Maybe I should conduct a quick exam on you, yeah? It couldn't possibly be that healthy to maintain such a high heartrate for an extended period of time...
-    "AfterDark.FestivalJealousy.Harvey.HasPartner.Harvey.Memory": "",
-    // You looked happy out there yesterday. I wonder... was it because someone finally made you feel chosen or because you were so willing to believe they did? I'd prefer making sure you never have to question that feeling it at all. I'll see you next Tuesday, petname.
-    "AfterDark.FestivalJealousy.Harvey.HasPartner.NotHarvey.Memory": "",
+    "AfterDark.FestivalJealousy.Harvey.HasPartner.Harvey.Memory": "Were you nervous yesterday, {{LPetName}}?#$b#I swear, the only thing I could think about yesterday was how fast your heart was racing.$l#$b#Maybe I should conduct a quick exam on you, yeah?#$b#It couldn't possibly be that healthy to maintain such a high heart rate for an extended period of time...$h",
+    "AfterDark.FestivalJealousy.Harvey.HasPartner.NotHarvey.Memory": "You looked happy out there yesterday.$s#$b#I wonder... was it because someone finally made you feel chosen or because you were so willing to believe they did?$s#$b#I'd prefer making sure you never have to question that feeling it at all.#$b#I'll see you next Tuesday, {{LPetName}}.$s",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      BACHELORS
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
     // Alex
-    // I heard about his dad, petname. You should steer clear of people like that... It tends to be genetic.
-    "AfterDark.Core.Harvey.Jealous.Dating.Alex": "",
+    "AfterDark.Core.Harvey.Jealous.Dating.Alex": "I heard about Alex's dad, @.$s#$b#You should steer clear of people like that... It tends to be genetic.$s",
     "AfterDark.Core.Harvey.Jealous.Married.Alex": "Y'know, I don't really see how Alex could help you out on the farm.$a#$b#He's already a failed gridball player, I wouldn't want him to fail you as well.$s",
-    // George and Evenlyn speak so highly of you. I do hope you're steering clear of Alex though, a kid like that isn't suited to care for your needs, petname. 
-    "AfterDark.Jealousy.Harvey.Late.Alex.1": "",
-    // Careful around him, petname. Alex had numerous concussions back when he regularly played gridball. I wouldn't be surprised if he was no longer fully there.
-    "AfterDark.Jealousy.Harvey.Late.Alex.2": "",
+    "AfterDark.Jealousy.Harvey.Late.Alex.1": "George and Evenlyn speak so highly of you.#$b#I do hope you're steering clear of Alex though, a kid like that isn't suited to care for your needs, {{LPetName}}.$s",
+    "AfterDark.Jealousy.Harvey.Late.Alex.2": "Careful around him, {{LPetName}}.$s#$b#Alex had numerous concussions back when he regularly played gridball.#$b#I wouldn't be surprised if he was no longer fully there.$s",
                                                                 
-    // Elliott 
-    // When will you realize all those fantasies he offers is fake, petname?                              
-    "AfterDark.Core.Harvey.Jealous.Dating.Elliott": "",
-    // You know he'll leave you on the whim of a promising book, right? Who's to say he wouldn't leave you for longer, petname. You need a man who'll take care of you.
-    "AfterDark.Core.Harvey.Jealous.Married.Elliott": "",
-    // I heard tetanus shots hurt. I mean--I wouldn't know, but one of my patients continously comes in talking about a new scrape from one of the many failed construction points he has around his shack. 
-    "AfterDark.Jealousy.Harvey.Late.Elliott.1": "",
-    // You don't seriously believe all those promises Elliott makes you, do you? I mean, at the end of the day, beautiful lies are still lies, petname. 
-    "AfterDark.Jealousy.Harvey.Late.Elliott.2": "",
+    // Elliott                               
+    "AfterDark.Core.Harvey.Jealous.Dating.Elliott": "When will you realize all those fantasies he offers is fake, {{LPetName}}?$a#$e#What? You know who I'm talking about.$s",
+    "AfterDark.Core.Harvey.Jealous.Married.Elliott": "You know he'll leave you on the whim of a promising book, right?$s#$b#Who's to say he wouldn't leave you for longer, {{LPetName}}?$s#$b#You need a man who'll take care of you.$l",
+    "AfterDark.Jealousy.Harvey.Late.Elliott.1": "I heard tetanus shots hurt.#$b#I mean—I wouldn't know, but one of my patients continously comes in talking about a new scrape from one of the many failed construction points he has around his shack.$s",
+    "AfterDark.Jealousy.Harvey.Late.Elliott.2": "You don't seriously believe all those promises Elliott makes you, do you?$s#$b#I mean, at the end of the day, beautiful lies are still lies, {{LPetName}}.$s",
 
     // Sam
-    // Do you really think your grandpa would approve of him, petname? Do him and yourself a favor and end things with Sam. He's not worth your precious time and effort.
-    // $y 'Who would he approve of?_Well, someone like me--Er, someone with a stable job of course._Who are you to say that?_I'm just thinking about what's best for you, petname.'
-    "AfterDark.Core.Harvey.Jealous.Dating.Sam": "",
-    // That man can barely takes care of himself, petname. I've seen his bloodwork. You really should rethink your desire to spend the rest of your life with him. 
-    "AfterDark.Core.Harvey.Jealous.Married.Sam": "",
-    // Tch... Y'know, Sam really does have confidence, but I've found that often compensates for something else.
-    "AfterDark.Jealousy.Harvey.Late.Sam.1": "",
-    // Sam's always been good at making people feel like they're the only one. I wonder how many people actually believe that.
-    "AfterDark.Jealousy.Harvey.Late.Sam.2": "",
+    "AfterDark.Core.Harvey.Jealous.Dating.Sam": "Do you really think your grandpa would approve of him, {{LPetName}}?$s#$b#Do him and yourself a favor and end things with Sam. He's not worth your precious time and effort.$a#$e#$y 'I meant what I said, @. He wouldn't approve of him._Who would he approve of?_Well, someone like me—Er, someone with a stable job of course.$h_Who are you to say that?_I'm just thinking about what's best for you, {{LPetName}}.$a'",
+    "AfterDark.Core.Harvey.Jealous.Married.Sam": "That man can barely takes care of himself, {{LPetName}}.$a#$b#I've seen Sam's bloodwork. You really should rethink your desire to spend the rest of your life with him.$s",
+    "AfterDark.Jealousy.Harvey.Late.Sam.1": "Tch...$s#$b#Y'know, Sam really does have confidence, but I've found that often compensates for something else.$s",
+    "AfterDark.Jealousy.Harvey.Late.Sam.2": "Sam's always been good at making people feel like they're the only one.#$b#I wonder how many people actually believe that.$s",
 
     // Sebastian
-    // Motorcycle deaths are fairly common nowadays, petname. You really should be careful dating someone who so easily hops on those death machines.
-    "AfterDark.Core.Harvey.Jealous.Dating.Sebastian": "",
-    // ...$a#$b#I doubt his infatuation for you would supersede his addiction to smoking. Look past the haze, petname. He'd drop you for another chance to get high. 
-    "AfterDark.Core.Harvey.Jealous.Married.Sebastian": "",
-    // You should really be careful around Sebastian. I wouldn't want all that second hand smoke affecting your perfectly healthy lungs, petname. 
-    "AfterDark.Jealousy.Harvey.Late.Sebastian.1": "",
-    // ...$a#$b#Tell me, if you stopped visiting his basement tomorrow, how long would it take before he noticed? 
-    "AfterDark.Jealousy.Harvey.Late.Sebastian.2": "",
+    "AfterDark.Core.Harvey.Jealous.Dating.Sebastian": "Motorcycle deaths are fairly common nowadays, {{LPetName}}.$s#$b#You really should be careful dating someone who so easily hops on those death machines.$a",
+    "AfterDark.Core.Harvey.Jealous.Married.Sebastian": "...$a#$b#I doubt his infatuation for you would supersede his addiction to smoking.$a#$b#Look past the haze, {{LPetName}}. He'd drop you for another chance to get high.$s",
+    "AfterDark.Jealousy.Harvey.Late.Sebastian.1": "You should really be careful around Sebastian.$a#$b#I wouldn't want all that second hand smoke affecting your perfectly healthy lungs, @.$s",
+    "AfterDark.Jealousy.Harvey.Late.Sebastian.2": "...$a#$b#Tell me, if you stopped visiting his basement tomorrow, how long would it take before he noticed?$a",
 
-    // Shane
-    // Really? An alcoholic? You can do better than him, petname. You shouldn't have to wonder whether he's having a good day or not before making plans. 
-    "AfterDark.Core.Harvey.Jealous.Dating.Shane": "",
-    // Careful with Shane, yeah? He spent years letting alcohol make the decisions for him. I wouldn't let him make yours. 
-    "AfterDark.Core.Harvey.Jealous.Married.Shane": "",
-    // You know, I'm all for recovering alcoholics, but are you sure about Shane? His issues stem from far before he started drinking.
-    "AfterDark.Jealousy.Harvey.Late.Shane.1": "",
-    // I'd be a bit more careful hanging around addicts, petname. Though not fully proven, you're more likely to develop something yourself. 
-    "AfterDark.Jealousy.Harvey.Late.Shane.2": "",
+    // Shane 
+    "AfterDark.Core.Harvey.Jealous.Dating.Shane": "Really?$a#$b#An alcoholic?$a#$b#You can do better than him, @.$a#$b#You shouldn't have to wonder whether he's having a good day or not before making plans.$s", 
+    "AfterDark.Core.Harvey.Jealous.Married.Shane": "Careful with Shane, yeah?$s#$b#He spent years letting alcohol make the decisions for him. I wouldn't let him make yours.$s",
+    "AfterDark.Jealousy.Harvey.Late.Shane.1": "You know, I'm all for recovering alcoholics, but are you sure about Shane?$s#$b#His issues stem from far before he started drinking.$s", 
+    "AfterDark.Jealousy.Harvey.Late.Shane.2": "I'd be a bit more careful hanging around addicts, {{LPetName}}.$s#$b#Though not fully proven, you're more likely to develop something yourself.$s",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      BACHELORETTES
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-    // Abigail
-    // She can't possibly be serious about you, petname. Have you seen the way she reacts around Sebastian at the saloon? She's baiting you, petname, 
-    "AfterDark.Core.Harvey.Jealous.Dating.Abigail": "",
-    // From the time I've known her, Abigail seems to only love the excitement of the chase. I wonder how long she'll enjoy the catch until she drops you. 
-    "AfterDark.Core.Harvey.Jealous.Married.Abigail": "",
-    // ...Tch, you know how serious your condition is, petname. You really shouldn't be hanging around girls who spend all their time in the same mines which afflicted you.
-    "AfterDark.Jealousy.Harvey.Late.Abigail.1": "",
-    // Please tell me you haven't been going back into those mines with Abigail, petname. You know how dangerous it is! For Yoba's sake, I'll have to adjust your dosing at this rate...
-    "AfterDark.Jealousy.Harvey.Late.Abigail.2": "",
+    // Abigail 
+    "AfterDark.Core.Harvey.Jealous.Dating.Abigail": "Abigail can't possibly be serious about you, {{LPetName}}.$s#$b#Have you seen the way she reacts around Sebastian at the saloon? She's baiting you, @.$a", 
+    "AfterDark.Core.Harvey.Jealous.Married.Abigail": "From the time I've known her, Abigail seems to only love the excitement of the chase.#$b#I wonder how long she'll enjoy the catch until she drops you.$s",
+    "AfterDark.Jealousy.Harvey.Late.Abigail.1": "...$s#$b#You know how serious your condition is, {{LPetName}}.$a#$b#You really shouldn't be hanging around girls who spend all their time in the same mines which afflicted you.$a",
+    "AfterDark.Jealousy.Harvey.Late.Abigail.2": "Please tell me you haven't been going back into those mines with Abigail, {{LPetName}}.$s#$b#You know how dangerous it is!$a#$b#For Yoba's sake, I'll have to adjust your dosing at this rate...$s",
 
-    // Emily
-    // Emily's "crystal healing" is nice and all, but you should really be with someone who's more realistic about your health and safety. 
-    "AfterDark.Core.Harvey.Jealous.Dating.Emily": "",
-    // ... Y'know, I once heard Emily left an ex over the fact their horoscopes didn't align anymore. What's stopping her from leaving you at the whim of the stars? 
-    "AfterDark.Core.Harvey.Jealous.Married.Emily": "",
-    // Careful around Emily, yeah? Alternative methods to medicine don't always work out for the best...
-    "AfterDark.Jealousy.Harvey.Late.Emily.1": "",
-    // ...$s#$b#Sorry, I can't stop thinking about the time I treated one of our villagers for psittacosis. Truly disgusting stuff when you get up close and personal with it. 
-    /// ... How can you get it? Oh, parrots. 
-    "AfterDark.Jealousy.Harvey.Late.Emily.2": "",
+    // Emily 
+    "AfterDark.Core.Harvey.Jealous.Dating.Emily": "Emily's 'crystal healing' is nice and all, but you should really be with someone who's more realistic about your health and safety.$a", 
+    "AfterDark.Core.Harvey.Jealous.Married.Emily": "...$s#$b#Y'know, I once heard Emily left an ex over the fact their horoscopes didn't align anymore.$s#$b#What's stopping her from leaving you at the whim of the stars?$a",
+    "AfterDark.Jealousy.Harvey.Late.Emily.1": "Careful around Emily, yeah?#$b#Alternative methods to medicine don't always work out for the best...$s", 
+    "AfterDark.Jealousy.Harvey.Late.Emily.2": "...$s#$b#Sorry, I can't stop thinking about the time I treated one of our villagers for psittacosis.$s#$b#Truly disgusting stuff when you get up close and personal with it.$s#$e#...#$b#How can you get it?#$b#Oh, parrots.",
 
-    // Haley
-    // Someone with such delusional ideas about her own appearance will never be able to appreciate your raw beauty, petname. 
-    "AfterDark.Core.Harvey.Jealous.Dating.Haley": "",
-    // Have you seen how she treats her sister, petname? What's stopping her from being equally as obnoxious and mean to her {{LMarriageName}}?
-    "AfterDark.Core.Harvey.Jealous.Married.Haley": "",
-    // A vpid little girl like Haley only thinks skin deep, petname. Wouldn't you rather hang out with someone who knows you more... intimately?
-    "AfterDark.Jealousy.Harvey.Late.Haley.1": "",
-    // Should you really be hanging around the girl who breathes more aerosol than oxygen from her hair products? It can't possibly be healthy being around her, petname. 
-    "AfterDark.Jealousy.Harvey.Late.Haley.2": "",
+    // Haley 
+    "AfterDark.Core.Harvey.Jealous.Dating.Haley": "Someone with such delusional ideas about her own appearance will never be able to appreciate your raw beauty, {{LPetName}}.$s",
+    "AfterDark.Core.Harvey.Jealous.Married.Haley": "Have you seen how Haley treats her sister, @?$s#$b#What's stopping her from being equally as obnoxious and mean to her {{LMarriageName}}?$s",
+    "AfterDark.Jealousy.Harvey.Late.Haley.1": "A vapid little girl like Haley only thinks skin deep, {{LPetName}}.$s#$b#Wouldn't you rather hang out with someone who knows you more... intimately?$l", 
+    "AfterDark.Jealousy.Harvey.Late.Haley.2": "Should you really be hanging around the girl who breathes more aerosol than oxygen from her hair products?$a#$b#It can't possibly be healthy being around her, {{LPetName}}.$s",
 
     // Leah
-    // From our appointments, Leah is so prone to getting lost in her head. Are you sure you want someone like that being in your life and helping on your Grandfather's farm?
-    "AfterDark.Core.Harvey.Jealous.Dating.Leah": "",
-    // I overheard Leah the other day talking about looking for inspiration for her newest artwork despite not finishing the last. I really wonder what'll happen to you once the novelty wears off.
-    "AfterDark.Core.Harvey.Jealous.Married.Leah": "",
-    // Despite being her doctor, I really have no real knowledge on Leah. All I remember were her records from the city being a real mess to decifer when she moved down. 
-    "AfterDark.Jealousy.Harvey.Late.Leah.1": "",
-    // ...Do you really think Leah'll let you into that little world she created for herself? Artists are starving and I'd hate for you to get eaten, @. 
-    "AfterDark.Jealousy.Harvey.Late.Leah.2": "",
+    "AfterDark.Core.Harvey.Jealous.Dating.Leah": "From our appointments, Leah is so prone to getting lost in her head.#$b#Are you sure you want someone like that being in your life and helping on your Grandfather's farm?$s",
+    "AfterDark.Core.Harvey.Jealous.Married.Leah": "I overheard Leah the other day talking about looking for inspiration for her newest artwork despite not finishing the last.#$b#I really wonder what'll happen to you once the novelty wears off.$s", 
+    "AfterDark.Jealousy.Harvey.Late.Leah.1": "Despite being her doctor, I really have no real knowledge on Leah.#$b#All I remember were her records from the city being a real mess to decifer when she moved down.$a", 
+    "AfterDark.Jealousy.Harvey.Late.Leah.2": "Do you really think Leah'll let you into that little world she created for herself?$s#$b#Artists are starving and I'd hate for you to get eaten, @.$a",
 
-    // Maru
-    // Maru would drop you instantly for an opportunity to advance her studies. It would break my heart to see you abandoned like that. 
-    "AfterDark.Core.Harvey.Jealous.Dating.Maru": "",
-    // You've trusted me with every part of yourself, do you seriously believe Maru knows you better than I? 
-    "AfterDark.Core.Harvey.Jealous.Married.Maru": "",
-    // I've worked with Maru for a few years now. It's astonishing how little I know about her though. 
-    "AfterDark.Jealousy.Harvey.Early.Maru.1": "",
-    // Try not to be too distracting to Maru, yeah? I pay her to help out around here for a reason. 
-    "AfterDark.Jealousy.Harvey.Early.Maru.2": "",
-    // Y'know, I heard a few stories of Demetrius handling dangerous chemicals with Maru. I'd really hate for you to get caught in the crossfire, petname.
-    "AfterDark.Jealousy.Harvey.Late.Maru.1": "",
-    // I've seen the way her father looks at you, @. Are you sure you want to be involved with a family like that? 
-    "AfterDark.Jealousy.Harvey.Late.Maru.2": "",
+    // Maru 
+    "AfterDark.Core.Harvey.Jealous.Dating.Maru": "Maru would drop you instantly for an opportunity to advance her studies.#$b#It would break my heart to see you abandoned like that, @.$s", 
+    "AfterDark.Core.Harvey.Jealous.Married.Maru": "You've trusted me with every part of yourself, do you seriously believe Maru knows you better than I?$a",
+    "AfterDark.Jealousy.Harvey.Early.Maru.1": "I've worked with Maru for a few years now.#$b#It's astonishing how little I know about her though.", 
+    "AfterDark.Jealousy.Harvey.Early.Maru.2": "Try not to be too distracting to Maru, yeah?$a#$b#I pay her to help out around here for a reason.",
+    "AfterDark.Jealousy.Harvey.Late.Maru.1": "Y'know, I heard a few stories of Demetrius handling dangerous chemicals with Maru.#$b#I'd really hate for you to get caught in the crossfire, {{LPetName}}.$s", 
+    "AfterDark.Jealousy.Harvey.Late.Maru.2": "I've seen the way Maru's father looks at you, @.$s#$b#Are you sure you want to be involved with a family like that?$s",
 
-    // Penny
-    // ...Sorry, I just can't see how a woman so at the whim of her alcoholic mother could possibly give you the attention you truly need, petname. 
-    "AfterDark.Core.Harvey.Jealous.Dating.Penny": "",
-    // ...$a#$b#Though she may know your favorite flower, I know the rhythm of your hearbeat, petname. Never forget that. 
-    "AfterDark.Core.Harvey.Jealous.Married.Penny": "",
-    // Addiction is generic, petname. You really should stop wasting your time on those who are pre-despositioned to disappoint you.
-    "AfterDark.Jealousy.Harvey.Late.Penny.1": "",
-    // You've really been getting to know Penny a lot lately, haven't you? ...Are you sure about her? Have you seen what her home life is like? 
-    "AfterDark.Jealousy.Harvey.Late.Penny.2": "",
+    // Penny 
+    "AfterDark.Core.Harvey.Jealous.Dating.Penny": "...$s#$b#Sorry, I just can't see how a woman so at the whim of her alcoholic mother could possibly give you the attention you truly need, {{LPetName}}.$s",
+    "AfterDark.Core.Harvey.Jealous.Married.Penny": "...$s#$b#Though Penny may know your favorite flower, I know the rhythm of your hearbeat, {{LPetName}}.$s#$b#Never forget that.$a",
+    "AfterDark.Jealousy.Harvey.Late.Penny.1": "Addiction is generic, @.#$b#You really should stop wasting your time on those who are pre-despositioned to disappoint you.$s", 
+    "AfterDark.Jealousy.Harvey.Late.Penny.2": "You've really been getting to know Penny a lot lately, haven't you?$s#$b#...$s#$b#Are you sure about her?$s#$b#Have you seen what her home life is like?$s",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     █████  ███  █   █ █████ █     █   █     ████  █████  ███  █      ███   ████ █   █ █████ 
@@ -1186,332 +563,96 @@
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      PATIO
-
-     Good morning, I was just reading up on the latest study, it's almost as interesting as you.
-
-     Hey petname. I'm just looking over your records... and a few other things.
-     It's impressive just how many documents have your old last name on them. Don't worry, they'll all have mine soon enough.
-     
-     Morning, d'you come over here to read with me? I have this amazing new edition of x we can look at together. Hm, do we have a chair nearby to pull up? 
-
-     How are you feeling today, petname? 
-     I could go grab a few medical supplies from inside if you're needing a checkup. 
-
-     Hmm... My plants out here aren't growing too well...
-     D'you think you could help me out, petname? You're just so good at this whole gardening thing... 
-
-     Oh, hey. 
-     Say, I've been thinking about putting a little swing out here. It'd be nice to watch the sunset together on, don't you think? 
-
-     %You try and peek into the book he's reading, but he quickly shuts it. 
-     O-Oh! Petname... Uh... Sorry, I didn't see you there...
-     What am I reading?
-     Err... Don't you have a few crops to tend to or something?
-
-     ...$l#$b#Sorry, I can't help but stare at you sometimes. You look {{LDescript}} under the sunlight, petname. 
-     ...
-     Fuck, I lost my place in this book... 
-
-     Hm....
-     ....Oh! Petname, there you are.
-     I was just brushing up on a few anatomy poses, but... Ugh. These diagrams are nothing like the real thing.
-     Care to help me study later?
-
-     It's so impressive how you've managed to maintain your farm so well with your condition. 
-     I'm trying to follow your lead with my own plants, but I guess only you have the green thumb.
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-    "AfterDark.Marriage.Harvey.Patio.1": "",
-    "AfterDark.Marriage.Harvey.Patio.2": "",
-    "AfterDark.Marriage.Harvey.Patio.3": "",
-    "AfterDark.Marriage.Harvey.Patio.4": "",
-    "AfterDark.Marriage.Harvey.Patio.5": "",
-    "AfterDark.Marriage.Harvey.Patio.6": "",
-    "AfterDark.Marriage.Harvey.Patio.7": "",
-    "AfterDark.Marriage.Harvey.Patio.8": "",
-    "AfterDark.Marriage.Harvey.Patio.9": "",
-    "AfterDark.Marriage.Harvey.Patio.10": "",
+    "AfterDark.Marriage.Harvey.Patio.1": "It's so impressive how you've managed to maintain your farm so well with your condition.$h#$b#I'm trying to follow your lead with my own plants, but I guess only you have the green thumb.$s",
+    "AfterDark.Marriage.Harvey.Patio.2": "Hm...#$e#Oh! {{PetName}}, there you are!$h#$b#I was just brushing up on a few anatomy poses, but...#$b#Ugh. These diagrams are nothing like the real thing.$s#$b#Care to help me study later?$l",
+    "AfterDark.Marriage.Harvey.Patio.3": "...$l#$b#Sorry, I can't help but stare at you sometimes. You look {{LDescript}} under the sunlight, {{LPetName}}.$l#$b#...$l#$e#Fuck, I lost my place in this book...$s",
+    "AfterDark.Marriage.Harvey.Patio.4": "%You try and peek into the book he's reading, but he quickly shuts it.#$b#O-Oh! Petname... Uh... Sorry, I didn't see you there...$8#$b#What am I reading?#$b#Err... Don't you have a few crops to tend to or something?$s",
+    "AfterDark.Marriage.Harvey.Patio.5": "Oh, hey.$l#$b#Say, I've been thinking about putting a little swing out here.#$b#It'd be nice to watch the sunset together on, don't you think?$l",
+    "AfterDark.Marriage.Harvey.Patio.6": "Hmm... My plants out here aren't growing too well...$s#$b#D'you think you could help me out, {{LPetName}}? You're just so good at this whole gardening thing...$h",
+    "AfterDark.Marriage.Harvey.Patio.7": "How are you feeling today, {{LPetName}}?#$b# I could go grab a few medical supplies from inside if you're needing a checkup.$l",
+    "AfterDark.Marriage.Harvey.Patio.8": "Morning.$h#$b#D'you come over here to read with me? I have this amazing new edition of Zuzu's Medical Journal we can look at together.#$b#Hm, do we have a chair nearby to pull up?",
+    "AfterDark.Marriage.Harvey.Patio.9": "Hey {{LPetName}}.$h#$b#I'm just looking over your records... and a few other things.#$b#Honestly, it's impressive just how many documents have your old last name on them.$s#$b#Don't worry, they'll all have mine soon enough.$l",
+    "AfterDark.Marriage.Harvey.Patio.10": "Good morning!$h#$b#I was just reading up on the latest study and it's almost as interesting as you are.$l",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      SPOUSE ROOM
-
-     Good morning, petname. How'd you sleep?
-     Mmmm, it was good? I mean with how often you were mumbling and drooling last night, I bet it was a good sleep.
-
-     Aww, awake already? I was hoping to...
-     Never mind. I hope you slept well last night, petname. You'll need the energy for later. 
-
-     Mmmmm...
-     I don't think I'm quite awake yet, would you mind helping me?
-     I mean, I know a few things you could try that'd wake me right up.
-
-     Good morning, I made you some eggs, but please eat them slowly. I know you have a busy day today, but I don't want to see you choke on them.
-     ...
-     Though, there is something else I'd rather see you choke on. 
-
-     %You overhear Harvey sighing to himself.
-     Hm? Oh, hey petname. It's nothing, just... Hm...
-     Sometimes I really wish you were like one of my model planes. Small, easy to control, and always willing to do what I tell you.
-
-     Good morning, here's some coffee to get your day started.
-     Do let me know if you start feeling unwell, yeah? You know I'll be over straight away to make you feel better. 
-
-     Y'know, you slept pretty peacefully for someone who reached a new level of soprano last night.
-     Here's some tea to help that throat of yours, petname. 
-
-     ... It really is too bad I can't keep you on a shelf out of harmsway.
-     Promise me you'll be safe today, yeah? Come home straight away if you're not feeling good and I'll fix you up.
-
-     I almost forgot to make you breakfast this morning.
-     Yoba, I swear, watching you sleep has become my new favorite thing about living on this farm. 
-     
-     Mmm.. Your breathing this morning sounded pretty irregular. 
-     Here, take your shirt back off so I can listen. 
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-    "AfterDark.Marriage.Harvey.SpouseRoom.1": "",
-    "AfterDark.Marriage.Harvey.SpouseRoom.2": "",
-    "AfterDark.Marriage.Harvey.SpouseRoom.3": "",
-    "AfterDark.Marriage.Harvey.SpouseRoom.4": "",
-    "AfterDark.Marriage.Harvey.SpouseRoom.5": "",
-    "AfterDark.Marriage.Harvey.SpouseRoom.6": "",
-    "AfterDark.Marriage.Harvey.SpouseRoom.7": "",
-    "AfterDark.Marriage.Harvey.SpouseRoom.8": "",
-    "AfterDark.Marriage.Harvey.SpouseRoom.9": "",
-    "AfterDark.Marriage.Harvey.SpouseRoom.10": "",
+    "AfterDark.Marriage.Harvey.SpouseRoom.1": "Mmm.. Your breathing this morning sounded pretty irregular.$s#$b#Here, take your shirt back off so I can listen.$l",
+    "AfterDark.Marriage.Harvey.SpouseRoom.2": "Ah, there you are. I almost forgot to make you breakfast this morning.[201]$h#$e#Yoba, I swear, watching you sleep has become my new favorite thing about living on this farm.$l",
+    "AfterDark.Marriage.Harvey.SpouseRoom.3": "...$s#$b#It really is too bad I can't keep you on a shelf out of harm's way.$s#$b#Promise me you'll be safe today, yeah? Come home straight away if you're not feeling good and I'll fix you up.",
+    "AfterDark.Marriage.Harvey.SpouseRoom.4": "Y'know, you slept pretty peacefully for someone who reached a new level of soprano last night.$l#$b#Here's some tea to help that throat of yours, {{LPetName}}.[614]$h",
+    "AfterDark.Marriage.Harvey.SpouseRoom.5": "Good morning, here's some coffee to get your day started.[395]$h#$b#Do let me know if you start feeling unwell, yeah?#$b#You know I'll be over straight away to make you feel better.$l",
+    "AfterDark.Marriage.Harvey.SpouseRoom.6": "%You overhear Harvey sighing to himself.#$b#Hm? Oh, hey {{LPetName}}. It's nothing, just...#$b#Hm...$s#$b#Sometimes I really wish you were like one of my model planes.$s#$b#Small, easy to control, and always willing to do what I tell you.$l",
+    "AfterDark.Marriage.Harvey.SpouseRoom.7": "Good morning, I made you some eggs, but please eat them slowly.[195]#$b# I know you have a busy day today, but I don't want to see you choke on them.$h#$b#...$l#$b#Though...$l#$b#There is something else I'd rather see you choke on.$l",
+    "AfterDark.Marriage.Harvey.SpouseRoom.8": "Mmmmm...$l#$b#I don't think I'm quite awake yet, would you mind helping me?$l#$b#I mean, I know a few things you could try that'd wake me right up, {{LPetName}}.$l",
+    "AfterDark.Marriage.Harvey.SpouseRoom.9": "Aww, awake already? I was hoping to...$s#$b#Never mind. I hope you slept well last night, {{LPetName}}.#$b#You'll need the energy for later.$h",
+    "AfterDark.Marriage.Harvey.SpouseRoom.10": "Good morning, {{LPetName}}. How'd you sleep?$h#$b#Mmmm, it was good? I mean with how often you were mumbling and drooling last night, I bet it was a good sleep.$l",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      FUNLEAVE/RETURN
-
-     Hey, I'm heading out for a bit today. I just need to pick up a... err. Just a few supplies. 
-     I'll bring home dinner, don't worry. 
-
-     I'm heading out to do some grocery shopping today, would you like me to pick you up anything extra?
-     Don't worry about the essentials, I know exactly what you need. 
-
-     While I'm out today, please remember to take breaks, yeah?
-     I know you have a tendency to overwork yourself while in the zone. If you get hurt, come to me immediately. Do you understand?
-
-     I have a few errands to run today, but don't worry, I have something special planned for tonight. 
-     I love you, stay safe, petname. 
-
-     Mmm... We're running a bit low on sugar and I can't have you using your sweetness for anything other than me.
-     I need to make a small trip to Pierre's, I'll be back before you know it.
-
-     ---
-
-     Mmmm... How was your day today?
-     I thought about you while I was out... [421 595 591]
-
-     Hey, while I was out today I ran into Pierre and he said you might like these... [499]
-     Said something about them being ultra rare... 
-     I don't know. I just hope you like them is all. 
-
-     I just so happened to make a few stops around town...
-     Mmmm... Close your eyes, I have a surprise for you.
-     ...
-     I said close them.
-     ...
-     Okay, open.
-     [527]
-     Do you like it? 
-
-     ...
-     Sorry, I couldn't find ANYTHING worth getting you while I was out today...
-     ...
-     ...$h
-     Sorry, I'm a bad liar! 
-     Here, I hope you like it. [74]
-
-     Mmmm...
-     You didn't overwork yourself today while I was out, did you?
-     Good.
-     Here, I brought us back some dinner from Gus'. [224]
     -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
-    "AfterDark.Marriage.Harvey.funLeave.1": "",
-    "AfterDark.Marriage.Harvey.funLeave.2": "",
-    "AfterDark.Marriage.Harvey.funLeave.3": "",
-    "AfterDark.Marriage.Harvey.funLeave.4": "",
-    "AfterDark.Marriage.Harvey.funLeave.5": "",
+    "AfterDark.Marriage.Harvey.funLeave.1": "Hey, I'm heading out for a bit today. I just need to pick up a... err. Just a few supplies.#$b#I'll bring home dinner, don't worry.$h",
+    "AfterDark.Marriage.Harvey.funLeave.2": "I'm heading out to do some grocery shopping today, would you like me to pick you up anything extra?#$b#Don't worry about the essentials, I know exactly what you need.$l",
+    "AfterDark.Marriage.Harvey.funLeave.3": "While I'm out today, please remember to take breaks, yeah?#$b#I know you have a tendency to overwork yourself while in the zone.$a#$b#If you get hurt, come to me immediately. Do you understand?",
+    "AfterDark.Marriage.Harvey.funLeave.4": "I have a few errands to run today, but don't worry, I have something special planned for tonight.#$b#I love you, stay safe, my {{LDescript}} little {{LMarriageName}}.$l",
+    "AfterDark.Marriage.Harvey.funLeave.5": "Mmm... We're running a bit low on sugar and I can't have you using your sweetness for anything other than me.$s#$b#I need to make a small trip to Pierre's, I'll be back before you know it.$h",
     
-    "AfterDark.Marriage.Harvey.funReturn.1": "",
-    "AfterDark.Marriage.Harvey.funReturn.2": "",
-    "AfterDark.Marriage.Harvey.funReturn.3": "",
-    "AfterDark.Marriage.Harvey.funReturn.4": "",
-    "AfterDark.Marriage.Harvey.funReturn.5": "",
+    "AfterDark.Marriage.Harvey.funReturn.1": "Mmmm... How was your day today?#$b#I thought about you while I was out...[421 595 591]$l",
+    "AfterDark.Marriage.Harvey.funReturn.2": "Hey, while I was out today I ran into Pierre and he said you might like these...#$b#Said something about them being ultra rare...[499]#$b#I don't know. I just hope you like them is all.$h",
+    "AfterDark.Marriage.Harvey.funReturn.3": "I just so happened to make a few stops around town...#$b#Mmmm... Close your eyes, I have a surprise for you.$h#$b#...$a#$b#I said close them.$a#$b#...#$b#Okay, open.[527]#$b#Do you like it?",
+    "AfterDark.Marriage.Harvey.funReturn.4": "...$s#$b#Sorry, I couldn't find ANYTHING worth getting you while I was out today...$s#$b#...$s#$b#...$h#$b#Sorry, I'm a bad liar!$h#$b#Here, I hope you like it. [74]",
+    "AfterDark.Marriage.Harvey.funReturn.5": "Mmmm...#$b#You didn't overwork yourself today while I was out, did you?#$b#No? Good.$h#$b#Here, I brought us back some dinner from Gus'.[224]",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     JOBLEAVE/RETURN
-
-     Hey, I'm going out to work today. Don't worry though, I'll be back before you know it. If you start to miss me too much you can just stop by the clinic.
-     You know I'll always take your company. 
-
-     As much as it pains me to leave you by yourself, I have to head to work today, petname. 
-     Please, make sure you stop by today. I don't think I could go a full 8 hours without seeing your smile.
-
-     I almost wish I didn't have to keep running my clinic. No one else deserves my care like you do, petname. 
-
-     Y'know, even though I have to work today, I half a mind to tie you up so I know exactly where you are when I'm gone. 
-     C'mon, let me? I'll make it a point to come every other hour to take care of you. 
-
-     Even though I have work today, make sure you still stop by if you get hurt, yeah?
-     You know I love being the only one able to fix you. 
-
-     Ugh, I wish we could stay in bed all day and just cuddle, but duty calls.
-     I'll see you later today, yeah, petname?
-     
-     Oh, please don't look at me like that, petname. You know I'm weak for you and oh how I wish I could stay but...
-     My patients... My clinic... 
-     How about tonight I show you just how much I really need you, hm? 
-
-     Ugh, I have a few tests to run and medications to fill...
-     Oh, and paperwork.... Ugh, I'm sorry, petname. I would stay here with you all day but I have to go work...
-
-     %You overhear Harvey mumbling about a few menial tasks he needs to do while at work today. 
-     Hey, {{LPetName}}. Give me a kiss before I leave for work?
-
-     ...$s
-     Why is it on the days I have to go to work you always look so irresistable.
-     Visit me today? Please?
-
-     ---
-
-     ...$s 
-     Sorry, today was such a long day at the clinic.
-     Say, do you think we could go to the bathhouse to decompress? Or maybe we could decompress in another way...
-
-     Hey, how was your day? 
-     Personally, I couldn't focus on a damn thing due to you running through my mind. 
-
-     Y'know, it really is nice having someone to come home to when I go out.
-     How was your day, petname?
-
-     Today was such an eventful day at the clinic.
-     One of my patients--
-     Ugh, wait. I can't tell you the story without violating doctor patient confidentiality...
-     Anyways, did you have a good day today? 
-
-     %You hear Harvey sighing.
-     It was such a slow day at work today, though I did get to spend all of my free time thinking of you...
-     And what I wanted to do to you tonight. 
-
-     Today was so exhausting, petname.
-     Here, I brought us home some dinner... Why don't we eat this, cuddle on the porch, and watch the stars tonight? 
-
-     I will never get tired of coming home to you, petname. Every day that I see you I fall deeper in love with you. 
-
-     %Harvey looks exhausted from the day's work. 
-     Gah, our bed looks so good right about now. 
-     Ugh, what I wouldn't give to just pass out with you right now, petname. 
-
-     Ugh... After the day I had, I can't help but wonder why I don't just fully close down the clinic.
-     I think I'd much rather spend my days here with you anyway. 
-
-     Hey, there you are. I hope you had a better day than I did cause being a doctor is... Well, rewarding, but days like today make me wish I could just spend all day with you.
-
-     
+     JOBLEAVE/RETURN         
     -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
-    "AfterDark.Marriage.Harvey.jobLeave.1": "",
-    "AfterDark.Marriage.Harvey.jobLeave.2": "",
-    "AfterDark.Marriage.Harvey.jobLeave.3": "",
-    "AfterDark.Marriage.Harvey.jobLeave.4": "",
-    "AfterDark.Marriage.Harvey.jobLeave.5": "",
-    "AfterDark.Marriage.Harvey.jobLeave.6": "",
-    "AfterDark.Marriage.Harvey.jobLeave.7": "",
-    "AfterDark.Marriage.Harvey.jobLeave.8": "",
-    "AfterDark.Marriage.Harvey.jobLeave.9": "",
-    "AfterDark.Marriage.Harvey.jobLeave.10": "",
+    "AfterDark.Marriage.Harvey.jobLeave.1": "Hey, I'm going out to work today.#$b#Don't worry though, I'll be back before you know it.$h#$b#If you start to miss me too much you can just stop by the clinic.#$b#You know I'll always take your company.$l",
+    "AfterDark.Marriage.Harvey.jobLeave.2": "As much as it pains me to leave you by yourself, I have to head to work.$s#$b#Please, make sure you stop by today. I don't think I could go a full 8 hours without seeing your smile.#s",
+    "AfterDark.Marriage.Harvey.jobLeave.3": "I almost wish I didn't have to keep running my clinic.$s#$b#No one else deserves my care like you do, {{LPetName}}.$l",
+    "AfterDark.Marriage.Harvey.jobLeave.4": "Y'know, even though I have to work today, I half a mind to tie you up so I know exactly where you are when I'm gone.$l#$e#C'mon, let me?$h#$b#I'll make it a point to come every other hour to take care of you.$l",
+    "AfterDark.Marriage.Harvey.jobLeave.5": "Even though I have work today, make sure you still stop by if you get hurt, yeah?#$b#You know I love being the only one able to fix you.$l",
+    "AfterDark.Marriage.Harvey.jobLeave.6": "Ugh, I wish we could stay in bed all day and just cuddle, but duty calls.$s#$b#I'll see you later today, yeah, {{LPetName}}?",
+    "AfterDark.Marriage.Harvey.jobLeave.7": "Oh, please don't look at me like that, {{LPetName}}.$s#$b#You know I'm weak for you and oh how I wish I could stay but...$s#$b#My patients... My clinic...$s#$b#How about tonight, after I come home, I show you just how much I really need you, hm?$l",
+    "AfterDark.Marriage.Harvey.jobLeave.8": "Ugh, I have a few tests to run and medications to fill...$s#$b#Oh, and paperwork...$s#$b#Ugh, I'm sorry, {{LPetName}}.$s#$b#I would stay here with you all day but I have so much to do at work...$s",
+    "AfterDark.Marriage.Harvey.jobLeave.9": "%You overhear Harvey mumbling about a few menial tasks he needs to do while at work today.#$b#Hey, {{LPetName}}. Give me a kiss before I leave for work?$h",
+    "AfterDark.Marriage.Harvey.jobLeave.10": "...$s#$b#Why is it on the days I have to go to work you always look so irresistable?$s#$b#Visit me today? Please?$l",
     
-    "AfterDark.Marriage.Harvey.jobReturn.1": "",
-    "AfterDark.Marriage.Harvey.jobReturn.2": "",
-    "AfterDark.Marriage.Harvey.jobReturn.3": "",
-    "AfterDark.Marriage.Harvey.jobReturn.4": "",
-    "AfterDark.Marriage.Harvey.jobReturn.5": "",
-    "AfterDark.Marriage.Harvey.jobReturn.6": "",
-    "AfterDark.Marriage.Harvey.jobReturn.7": "",
-    "AfterDark.Marriage.Harvey.jobReturn.8": "",
-    "AfterDark.Marriage.Harvey.jobReturn.9": "",
-    "AfterDark.Marriage.Harvey.jobReturn.10": "",
+    "AfterDark.Marriage.Harvey.jobReturn.1": "...$s#$b#Sorry, today was such a long day at the clinic.$s#$b#Say, do you think we could go to the bathhouse to relax?#$b#Or maybe we could decompress in another way...$l",
+    "AfterDark.Marriage.Harvey.jobReturn.2": "Hey, how was your day?#$b#Personally, I couldn't focus on a damn thing due to you running through my mind.$s",
+    "AfterDark.Marriage.Harvey.jobReturn.3": "Y'know, it really is nice having someone to come home to when I go out.$h#$b#How was your day, {{LPetName}}?$l",
+    "AfterDark.Marriage.Harvey.jobReturn.4": "Today was such an eventful day at the clinic.#$b#One of my patients—$h#$b#Ugh, wait. I can't tell you the story without violating doctor-patient confidentiality...$s#$b#Anyways, did you have a good day today?",
+    "AfterDark.Marriage.Harvey.jobReturn.5": "%You hear Harvey sighing.#$b#It was such a slow day at work today, though I did get to spend all of my free time thinking of you...$s#$b#And what I wanted to do to you tonight.$l",
+    "AfterDark.Marriage.Harvey.jobReturn.6": "Today was so exhausting, {{LPetName}}.$s#$b#Here, I brought us home some dinner... Why don't we eat this, cuddle on the porch, and watch the stars tonight?[224]$l",
+    "AfterDark.Marriage.Harvey.jobReturn.7": "I will never get tired of coming home to you, {{LPetName}}.$h#$b#Every day that I see you I fall deeper in love with you.$l",
+    "AfterDark.Marriage.Harvey.jobReturn.8": "%Harvey looks exhausted from the day's work.#$b#Gah, our bed looks so good right about now.$s#$b#Ugh, what I wouldn't give to just pass out with you right now, {{LPetName}}.$l",
+    "AfterDark.Marriage.Harvey.jobReturn.9": "Ugh... After the day I had, I can't help but wonder why I don't just fully close down the clinic.$s#$b#I think I'd much rather spend my days here with you anyway.$late",
+    "AfterDark.Marriage.Harvey.jobReturn.10": "Hey, there you are.$h#$b#I hope you had a better day than I did cause being a doctor is...$s#$b#Well, rewarding, but days like today make me wish I could just spend all day with you.$h",
 
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      SPECIAL DATES
     -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
-    // Spring
-    /*
-     Agh~ I know we were all sentimental last night about the new year beginning, but, Yoba...
-     Everytime I see you, {{LPetName}}, it's like I learn to breathe again. 
-     I'm so happy I get to spend the rest of my life with you. 
+    // Spring 
+    "AfterDark.Marriage.Harvey.Spring1.1": "Agh~ I know we were all sentimental last night about the new year beginning, but, Yoba...$h#$b#Everytime I see you, {{LPetName}}, it's like I learn to breathe again.$l#$b#I'm so happy I get to spend the rest of my life with you.$h",
+    "AfterDark.Marriage.Harvey.Spring1.2": "It's always so wonderful seeing all the plants spring back to life as the season changes.#$b#Though, I think I might have to get a new coat before next winter...#$b#I might've accidentally ripped it while clearing some leftover debris.$s",
+    "AfterDark.Marriage.Harvey.Spring1.3": "Mmmm...#$b#Are you planting anything in specific this year?#$b#Might I suggest some parsnips or garlic?#$b#They're quite delectable when pickled.$h",
 
-     It's always so wonderful seeing all the plants spring back to life as the season changes.
-     Though, I think I might have to get a new coat before next winter... I might've accidentally ripped it while clearing some leftover debris.
+    "AfterDark.Marriage.Harvey.Spring12.1": "Why don't we just leave the egg festival to the kids this year?#$b#Me and you can stay home... Maybe watch a movie...$l",
+    "AfterDark.Marriage.Harvey.Spring12.2": "I can't help but be a little spiffed with the egg festival prizes.$s#$b#All that work for a lowsy hat?$a#$b#If my {{LMarriageName}} is putting that much effort into something, {{LPPN}} at least deserve something worth {{LPPN2}} while...$a",
+    "AfterDark.Marriage.Harvey.Spring12.3": "Ugh, the crowd at tomorrow's festival always makes me a little queezy.$s#$b#But, I guess if you're gonna be there I'll be just fine.$h",
 
-     Mmmm...
-     Are you planting anything in specific this year?
-     Might I suggest some parsnips or garlic?
-     They're quite delectable when pickled.
-     */
-    "AfterDark.Marriage.Harvey.Spring1.1": "",
-    "AfterDark.Marriage.Harvey.Spring1.2": "",
-    "AfterDark.Marriage.Harvey.Spring1.3": "",
-
-    /*
-     Why don't we just leave the egg festival to the kids this year?
-     Me and you can stay home... Maybe watch a movie... 
-
-     I can't help but be a little spiffed with the egg festival prizes. 
-     All that work for a lowsy hat?
-     If my {{LMarriageName}} is putting that much effort into something, {{LPPN}} at least deserve something worth {{LPPN2}} while...
-
-     Ugh, the crowd at tomorrow's festival always makes me a little queezy. 
-     But, I guess if you're gonna be there I'll be just fine.
-     */
-    "AfterDark.Marriage.Harvey.Spring12.1": "",
-    "AfterDark.Marriage.Harvey.Spring12.2": "",
-    "AfterDark.Marriage.Harvey.Spring12.3": "",
-    /*
-     Oh, there you are.
-     I ironed your outfit for the dance tomorrow, though I don't really know how it got so wrinkled in the first place...
-     Ah~ Well, maybe a few reasons why come to mind.
-
-     Are you ready for the dance tomorrow? I know you're going to look as {{LDescript}} as ever.
-     
-     Oh, I'm getting all jittery thinking about the dance tomorrow! 
-     Getting to show off how {{LDescript}} my {{LMarriageName}} is really makes going there worth it. 
-     */
-
-    "AfterDark.Marriage.Harvey.Spring23.1": "",
-    "AfterDark.Marriage.Harvey.Spring23.2": "",
-    "AfterDark.Marriage.Harvey.Spring23.3": "",
+    "AfterDark.Marriage.Harvey.Spring23.1": "Oh, there you are.#$b#I ironed our outfits for the dance tomorrow, though I don't really know how it got so wrinkled in the first place...$h#$b#Ah~ Well, maybe a few reasons why come to mind.$l",
+    "AfterDark.Marriage.Harvey.Spring23.2": "Are you ready for the dance tomorrow?#$b#I know you're going to look as {{LDescript}} as ever.$l",
+    "AfterDark.Marriage.Harvey.Spring23.3": "Oh, I'm getting all jittery thinking about the dance tomorrow!$h#$b#Getting to show off how {{LDescript}} my {{LMarriageName}} is really makes going there worth it.$h",
 
     // Summer
-    /*
-     Ah~ This summer's already starting to feel like one of the hottest we've had.
-     Make sure you wear plenty of sunscreen, {{LPetName}}. 
-
-     I sure hope this summer won't be one of the hotter ones...
-     I don't think I could handle it if our AC went out in the middle of a heatwave...
-
-     %Harvey stretches, taking in the fresh summer air.
-     Ah~ I'll never get tired of how refreshing summer feels.
-     The feeling's nearly as good as you, {{LPetName}}.
-     */
-    "AfterDark.Marriage.Harvey.Summer1.1": "",
-    "AfterDark.Marriage.Harvey.Summer1.2": "",
-    "AfterDark.Marriage.Harvey.Summer1.3": "",
-    /*
-     Have you thought of what you're putting into the soup tomorrow?
-     I'm sure no matter what it is it'll be a perfect addition. 
-
-     I sure hope one of the adolescents in town don't ruin the soup tomorrow.
-     I really hate seeing such hard work put to waste...
-     Surely you're not one of those people, right, {{LPetName}}?
-     If you are, I'm afraid I might have to bring you in for an emergency checkup... 
-
-     Mmmm...
-     My mouth's already watering thinking about the soup tomorrow.
-     Hopefully it won't be ruined and we'll have leftovers for a few days. 
-     */
-    "AfterDark.Marriage.Harvey.Summer10.1": "",
-    "AfterDark.Marriage.Harvey.Summer10.2": "",
-    "AfterDark.Marriage.Harvey.Summer10.3": "",
+    "AfterDark.Marriage.Harvey.Summer1.1": "Ah~ This summer's already starting to feel like one of the hottest we've had.$s#$b#Make sure you wear plenty of sunscreen, {{LPetName}}.",
+    "AfterDark.Marriage.Harvey.Summer1.2": "I sure hope this summer won't be one of the hotter ones...$s#$b#I don't think I could handle it if our AC went out in the middle of a heatwave...$s",
+    "AfterDark.Marriage.Harvey.Summer1.3": "%Harvey stretches, taking in the fresh summer air.#$b#Ah~ I'll never get tired of how refreshing summer feels.$h#$b#The feeling's nearly as good as you, {{LPetName}}.$l",   
+     
+    "AfterDark.Marriage.Harvey.Summer10.1": "Have you thought of what you're putting into the soup tomorrow?#$b#I'm sure no matter what it is it'll be a perfect addition.$h",
+    "AfterDark.Marriage.Harvey.Summer10.2": "I sure hope one of the adolescents in town don't ruin the soup tomorrow.$s#$b#I really hate seeing such hard work put to waste...$s#$b#Surely you're not one of those people, right, {{LPetName}}?#$b#If you are, I'm afraid I might have to bring you in for an emergency checkup...$a",
+    "AfterDark.Marriage.Harvey.Summer10.3": "Mmmm...#$b#My mouth's already watering thinking about the soup tomorrow.$h#$b#Hopefully it won't be ruined and we'll have leftovers for a few days.$s",
     /*
      Oh, I'm so looking forward to the lovely view tomorrow night.
      Ah~ Yeah, I'm sure the jellyfish'll be lovely too. 
